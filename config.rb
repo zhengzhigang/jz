@@ -4,8 +4,8 @@ require 'compass/import-once/activate'
 
 # Set this to the root of your project when deployed:
 http_path = "/"
-css_dir = "2018-12-17/RJ-css"
-sass_dir = "2018-12-17scss"
+css_dir = "2018-12-27/RJ-css"
+sass_dir = "2018-12-27scss"
 javascripts_dir = "javascripts"
 
 # You can select your preferred output style here (can be overridden via the command line):
@@ -15,7 +15,7 @@ javascripts_dir = "javascripts"
 # relative_assets = true
 
 # To disable debugging comments that display the original location of your selectors. Uncomment:
-# line_comments = false
+line_comments = false
 
 
 # If you prefer the indented syntax, you might want to regenerate this
