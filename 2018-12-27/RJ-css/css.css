@@ -161,6 +161,7 @@
 }
 .section1__content img {
   display: block;
+  width: 100%;
 }
 .section1__content p {
   padding: 19px 0;
