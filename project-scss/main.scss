@@ -151,105 +151,104 @@
 
 /*--------自定义样式--------*/
 .section1 {
-  background-color: #f3f3f3;
-}
-.section3 {
-  background-color: #e9e9e9;
+  background-image: url("../RJ-img/home-item1-bg.jpg");
 }
 .section1__content {
-  padding-top: 70px;
-  width: 100%;
-  max-width: 754px;
-  margin: auto;
-  img {
-    display: block;
-    width: 100%;
-  }
-  p {
-    padding: 19px 0;
-    font-size: 24px;
-    line-height: 30px;
-    text-align: center;
-    background-color: #fff;
-  }
+    padding-top: 116px;
+    margin-bottom: 88px;
+    .section1__text {
+        width: 80%;
+        margin: auto;
+        padding-top: 100px;
+        font-size: 16px;
+        line-height: 26px;
+        color: #ffffff;
+        text-align: center;
+        background: url("../RJ-img/home-item1-02.png") center center/ 120% auto no-repeat;
+    }
 }
-.section1__button {
-  padding-top: 43px;
-  margin-bottom: 53px;
-  a {
-    display: block;
-    width: 219px;
-    height: 39px;
-    margin: auto;
-    font-size: 20px;
-    color: #01a8ba;
-    text-align: center;
-    line-height: 39px;
-    border: 2px solid #01a8ba;
-    cursor: pointer;
-  }
-}
-
 .section2__content {
-  padding-top: 70px;
-  margin-bottom: 120px;
+  padding-top: 84px;
+  margin-bottom: 97px;
   img {
-    display: block;
-    width: 100%;
+    width: 72%;
+  }
+  .section2__left, 
+  .section2__right {
+    position: relative;
+    width: 45.64%;
+    min-height: 502px;
+    text-align: center;
+    border: 1px solid #ededed;
   }
   .section2__left {
-    position: relative;
-    width: 32.7%;
-    margin-right: 1.1%;
+    padding-top: 50px;
   }
   .section2__right {
-    width: 66.2%;
+    padding-top: 40px;
   }
-  .section2__img2 {
-    position: relative;
-    width: 100%;
-    margin-bottom: 14px;
-  }
-  .section2__img3 {
-    position: relative;
-    width: 49%;
-    margin-right: 2%;
-  }
-  .section2__img4 {
-    position: relative;
-    width: 49%;
-  }
-  .section2__text {
+  .section2__left__title,
+  .section2__right__title {
     position: absolute;
-    width: 100%;
-    left: 0;
-    bottom: 20px;
-    font-size: 16px;
-    line-height: 1;
+    width: 64%;
+    height: 44px;
+    left: 18%;
+    top: -22px;
+    font-size: 20px;
+    line-height: 44px;
+    text-align: center;
     color: #fff;
-    text-align: center;
   }
-}
-.section3__content {
-  padding-top: 70px;
-  margin-bottom: 118px;
-  img {
+  .section2__left__shadow,
+  .section2__right__shadow {
+    position: absolute;
     display: block;
-    width: 100%;
+    width: 10px;
+    height: 100%;
+    right: -10px;
+    top: 0;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
   }
-  .section3__left {
-    width: 45%;
-    margin-right: 10%;
+  .section2__left__shadow,
+  .section2__left__title {
+    background-color: #43af35;
   }
-  .section3__right {
-    width: 45%;
+  .section2__right__shadow,
+  .section2__right__title {
+    background-color: #01a8ba;
   }
-  p {
-    padding: 19px 0;
-    font-size: 24px;
+  .section2__top__text,
+  .section2__bottom__text {
+    margin: 0 25px 20px;
+    font-size: 16px;
+  }
+  .section2__top__text {
     line-height: 30px;
-    text-align: center;
-    background-color: #fff;
+    color: #7f7f7f;
+  }
+  .section2__bottom__text {
+    padding-top: 40px;
+    line-height: 26px;
+    color: #000000;
+  }
+  .section2__left__list {
+    margin-bottom: 20px;
+    padding-top: 40px;
+    .icon {
+      display: block;
+      width: 33px;
+      margin: auto;
+      padding-bottom: 10px;
+    }
+    li {
+      float: left;
+      width: 20%;
+      text-align: center;
+      font-size: 16px;
+      line-height: 22px;
+      color: #000000;
+    }
   }
 }
 
@@ -302,43 +301,4 @@
   }
 
   /*--------自定义样式--------*/
-  .section1__content {
-    padding-top: 35px;
-    p {
-      font-size: 20px;
-      padding: 15px 0;
-    }
-  }
-  .section1__button {
-    padding-top: 20px;
-    margin-bottom: 30px;
-  }
-  .section2__content {
-    padding-top: 35px;
-    margin-bottom: 40px;
-    .section2__left {
-      width: 100%;
-      margin-right: 0;
-      margin-bottom: 10px;
-    }
-    .section2__right {
-      width: 100%;
-    }
-  }
-  .section3__content {
-    padding-top: 35px;
-    margin-bottom: 40px;
-    .section3__left {
-      width: 100%;
-      margin-right: 0;
-      margin-bottom: 10px;
-    }
-    .section3__right {
-      width: 100%;
-    }
-    p {
-      font-size: 20px;
-      padding: 15px 0;
-    }
-  }
 }

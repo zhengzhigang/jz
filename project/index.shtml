@@ -100,18 +100,60 @@
     <div class="t-main">
         <div class="t-cont-item section1">
             <div class="t-content">
-                <h2 class="t-main-title"></h2>
                 <div class="section1__content">
-
+                    <img src="RJ-img/home-item1-01.jpg" alt="">
+                    <p class="section1__text">
+                        智慧教室基于建构主义理论，以PST框架（Pedagogy-Space-Technology “教学法—空间—技术”）为设计理念，创新地提出5C （建构、交流、联接、协作、创造）学习环境，实现学习空间、信息技术与教育教学的深度融合，支撑探究式教学、小班化教学、混合式教学和翻转课堂等新型教学模式。
+                    </p>
                 </div>
             </div>
         </div>
         <div class="t-cont-item section2">
             <div class="t-content">
                 <h2 class="t-main-title">
-
+                        智慧教室基于建构主义理论，<br>以PST框架为设计理念，创新地提出5C学习环境
                 </h2>
-                <div class="section2__content">
+                <div class="section2__content clearfix">
+                    <div class="section2__left _fl">
+                        <div class="section2__left__title">
+                            5C学习环境
+                            <span class="section2__left__shadow"></span>
+                        </div>
+                        <img src="RJ-img/home-item2-01.png" alt="">
+                        <ul class="section2__left__list clearfix">
+                            <li>
+                                <img class="icon" src="RJ-img/home-icon-01.png" alt="">
+                                <span>促进知识的<br>主动构建</span>
+                            </li>
+                            <li>
+                                <img class="icon" src="RJ-img/home-icon-02.png" alt="">
+                                <span>促进知识的<br>主动构建</span>
+                            </li>
+                            <li>
+                                <img class="icon" src="RJ-img/home-icon-03.png" alt="">
+                                <span>促进知识的<br>主动构建</span>
+                            </li>
+                            <li>
+                                <img class="icon" src="RJ-img/home-icon-04.png" alt="">
+                                <span>促进知识的<br>主动构建</span>
+                            </li>
+                            <li>
+                                <img class="icon" src="RJ-img/home-icon-05.png" alt="">
+                                <span>促进知识的<br>主动构建</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="section2__right _fr">
+                        <div class="section2__right__title">
+                            PST框架
+                            <span class="section2__right__shadow"></span>
+                        </div>
+                        <p class="section2__top__text">教学法、学习空间和信息技术三者是相互促进的关系 </p>
+                        <img src="RJ-img/home-item2-02.png" alt="">
+                        <p class="section2__bottom__text">
+                            教学法是学习活动的核心，而学习环境赋能教学活动和教学策略，使教学法在其中发挥重要作用。信息时代的学习环境主要由信息技术和学习空间构成。
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
