@@ -4,8 +4,8 @@ require 'compass/import-once/activate'
 
 # Set this to the root of your project when deployed:
 http_path = "/"
-css_dir = "2018-12-27/RJ-css"
-sass_dir = "2018-12-27scss"
+css_dir = "project/RJ-css"
+sass_dir = "project-scss"
 javascripts_dir = "javascripts"
 
 # You can select your preferred output style here (can be overridden via the command line):

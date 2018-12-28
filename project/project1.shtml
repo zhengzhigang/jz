@@ -38,7 +38,7 @@
 </head>
 
 <body>
-    <link type="text/css" href="RJ-css/css.css" rel="stylesheet">
+    <link type="text/css" href="RJ-css/project-1.css" rel="stylesheet">
     <!--专题 css文件-->
     <link type="text/css" href="RJ-css/shortMenu.css" rel="stylesheet">
     <!--专题 css文件-->
@@ -67,13 +67,13 @@
                         <a href='index.shtml'>概述</a>
                     </li>
                     <li>
-                        <a class="active" href='index.shtml'>新型学习空间</a>
+                        <a class="active" href='project1.shtml'>新型学习空间</a>
                     </li>
                     <li>
-                        <a href='index.shtml'>全场景教学应用</a>
+                        <a href='project2.shtml'>全场景教学应用</a>
                     </li>
                     <li>
-                        <a href='index.shtml'>极简IT环境</a>
+                        <a href='project3.shtml'>极简IT环境</a>
                     </li>
                     <li class='sh-mobile-nav'>
                         <ul class='sh-mobile-menu'>
@@ -81,13 +81,13 @@
                                 <a href='index.shtml'>概述</a>
                             </li>
                             <li>
-                                <a class="active" href='index.shtml'>新型学习空间</a>
+                                <a class="active" href='project1.shtml'>新型学习空间</a>
                             </li>
                             <li>
-                                <a href='index.shtml'>全场景教学应用</a>
+                                <a href='project2.shtml'>全场景教学应用</a>
                             </li>
                             <li>
-                                <a href='index.shtml'>极简IT环境</a>
+                                <a href='project3.shtml'>极简IT环境</a>
                             </li>
                         </ul>
                     </li>
@@ -102,7 +102,7 @@
             <div class="t-content">
                 <h2 class="t-main-title">新型学习空间设计，灵活适配多种创新教学模式</h2>
                 <div class="section1__content">
-                    <img src="RJ-img/item1-01.jpg" alt="img">
+                    <img src="RJ-img/project1-item1-01.jpg" alt="img">
                     <p>协作探究型学习控件</p>
                 </div>
                 <div class="section1__button">
@@ -117,20 +117,20 @@
                 </h2>
                 <div class="section2__content clearfix">
                     <div class="section2__left _fl">
-                        <img src="RJ-img/item2-01.jpg" alt="img">
+                        <img src="RJ-img/project1-item2-01.jpg" alt="img">
                         <p class="section2__text">协作探究型学习空间</p>
                     </div>
                     <div class="section2__right _fl">
                         <div class="section2__img2 _fl">
-                            <img src="RJ-img/item2-02.jpg" alt="">
+                            <img src="RJ-img/project1-item2-02.jpg" alt="">
                             <p class="section2__text">灵活转换型学习空间</p>
                         </div>
                         <div class="section2__img3 _fl">
-                            <img src="RJ-img/item2-03.jpg" alt="">
+                            <img src="RJ-img/project1-item2-03.jpg" alt="">
                             <p class="section2__text">自主交互型学习空间</p>
                         </div>
                         <div class="section2__img4 _fl">
-                            <img src="RJ-img/item2-04.jpg" alt="">
+                            <img src="RJ-img/project1-item2-04.jpg" alt="">
                             <p class="section2__text">极简互动型学习空间</p>
                         </div>
                     </div>
@@ -144,11 +144,11 @@
                 </h2>
                 <div class="section3__content clearfix">
                     <div class="section3__left _fl">
-                        <img src="RJ-img/item3-01.jpg" alt="">
+                        <img src="RJ-img/project1-item3-01.jpg" alt="">
                         <p>课题研讨空间</p>
                     </div>
                     <div class="section3__right _fl">
-                        <img src="RJ-img/item3-02.jpg" alt="">
+                        <img src="RJ-img/project1-item3-02.jpg" alt="">
                         <p>开放式学习空间</p>
                     </div>
                 </div>
