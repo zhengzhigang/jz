@@ -153,6 +153,10 @@
   background-color: #f3f3f3;
 }
 
+.section3 {
+  background-color: #e9e9e9;
+}
+
 .section1__content {
   padding-top: 70px;
   width: 100%;
@@ -186,6 +190,70 @@
   line-height: 39px;
   border: 2px solid #01a8ba;
   cursor: pointer;
+}
+
+.section2__content {
+  padding-top: 70px;
+  margin-bottom: 120px;
+}
+.section2__content img {
+  display: block;
+  width: 100%;
+}
+.section2__content .section2__left {
+  position: relative;
+  width: 32.7%;
+  margin-right: 1.1%;
+}
+.section2__content .section2__right {
+  width: 66.2%;
+}
+.section2__content .section2__img2 {
+  position: relative;
+  width: 100%;
+  margin-bottom: 14px;
+}
+.section2__content .section2__img3 {
+  position: relative;
+  width: 49%;
+  margin-right: 2%;
+}
+.section2__content .section2__img4 {
+  position: relative;
+  width: 49%;
+}
+.section2__content .section2__text {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 20px;
+  font-size: 16px;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+}
+
+.section3__content {
+  padding-top: 70px;
+  margin-bottom: 118px;
+}
+.section3__content img {
+  display: block;
+  width: 100%;
+}
+.section3__content .section3__left {
+  width: 45%;
+  margin-right: 10%;
+}
+.section3__content .section3__right {
+  width: 45%;
+}
+.section3__content p {
+  padding: 19px 0;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  background-color: #fff;
 }
 
 /*----------------*/
@@ -235,4 +303,46 @@
   }
 
   /*--------自定义样式--------*/
+  .section1__content {
+    padding-top: 35px;
+  }
+  .section1__content p {
+    font-size: 20px;
+    padding: 15px 0;
+  }
+
+  .section1__button {
+    padding-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .section2__content {
+    padding-top: 35px;
+    margin-bottom: 40px;
+  }
+  .section2__content .section2__left {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .section2__content .section2__right {
+    width: 100%;
+  }
+
+  .section3__content {
+    padding-top: 35px;
+    margin-bottom: 40px;
+  }
+  .section3__content .section3__left {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .section3__content .section3__right {
+    width: 100%;
+  }
+  .section3__content p {
+    font-size: 20px;
+    padding: 15px 0;
+  }
 }
