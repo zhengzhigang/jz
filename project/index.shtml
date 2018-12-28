@@ -38,7 +38,7 @@
 </head>
 
 <body>
-    <link type="text/css" href="RJ-css/css.css" rel="stylesheet">
+    <link type="text/css" href="RJ-css/main.css" rel="stylesheet">
     <!--专题 css文件-->
     <link type="text/css" href="RJ-css/shortMenu.css" rel="stylesheet">
     <!--专题 css文件-->
