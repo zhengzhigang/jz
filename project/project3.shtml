@@ -1,0 +1,139 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8">
+    <title>智慧教室-锐捷网络</title>
+    <meta name="keywords" content="智慧教室,学习环境" />
+    <meta name="description" content="锐捷智慧教室基于建构主义理论，以PST框架为设计原则，创新地提出5C学习环境，实现学习空间、信息技术与教育教学的深度融合，支撑教学法的创新" />
+    <link rel="shortcut icon" href="http://image.ruijie.com.cn/UIA/Images/favicon.ico" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    <link type="text/css" href="http://image.ruijie.com.cn/UIA/Styles_R/idangerous.swiper.css" rel="stylesheet">
+    <link type="text/css" href="http://image.ruijie.com.cn/UIA/Styles_R/main.css?20161115" rel="stylesheet">
+    <link type="text/css" href="http://image.ruijie.com.cn/UIA/Styles_R/util.css?20161113" rel="stylesheet">
+    <script src="http://image.ruijie.com.cn/UIA/Scripts_R/jquery-1.10.2.min.js" type="text/javascript"></script>
+    <script src="http://image.ruijie.com.cn/UIA/Scripts_R/idangerous.swiper.min.js" type="text/javascript"></script>
+    <script src="http://image.ruijie.com.cn/UIA/Scripts_R/jquery.SuperSlide.2.1.1.js" type="text/javascript"></script>
+    <script src="http://image.ruijie.com.cn/UIA/Scripts_R/jquery.placeholder.js" type="text/javascript"></script>
+    <script src="http://image.ruijie.com.cn/UIA/Scripts_R/header.js?20161116" type="text/javascript"></script>
+    <script src="http://image.ruijie.com.cn/UIA/Scripts_R/util.js?20161129" type="text/javascript"></script>
+    <script src="http://image.ruijie.com.cn/UIA/Scripts_R/common.js?20161116" type="text/javascript"></script>
+    <script src="http://image.ruijie.com.cn/UIA/Scripts_R/slimscroll.js?20161116" type="text/javascript"></script>
+    <script src="RJ-js/zt.js" type="text/javascript"></script>
+    <!--专题js-->
+
+    <!-- Gridsum tracking code begin. -->
+    <script type='text/javascript'>
+        var _gsq = _gsq || [];
+        (function () {
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = (location.protocol == 'https:' ? 'https://ssl.' : 'http://static.') +
+                'gridsumdissector.com/js/Clients/GWD-002457-A76CDB/gs.js';
+            var firstScript = document.getElementsByTagName('script')[0];
+            firstScript.parentNode.insertBefore(s, firstScript);
+        })();
+    </script>
+</head>
+
+<body>
+    <link type="text/css" href="RJ-css/project-3.css" rel="stylesheet">
+    <!--专题 css文件-->
+    <link type="text/css" href="RJ-css/shortMenu.css" rel="stylesheet">
+    <!--专题 css文件-->
+    <script src="RJ-js/header.js" type="text/javascript"></script>
+    <!--专题js-->
+
+    <div class="sh-header" style="height:100px;">
+        <div class="sh-top-header">
+            <div class="sh-logo">
+                <a href="http://www.ruijie.com.cn/" title=""><img src="img/mobile_logo.png" /></a>
+            </div>
+            <ul>
+                <li class='sh-hide-li'>|
+                    <a href='http://www.ruijie.com.cn/gy/'>关于我们</a>
+                </li>
+                <li>
+                    <a href='http://www.ruijie.com.cn/'>锐捷官网</a>
+                </li>
+            </ul>
+        </div>
+        <div class="sh-box-header">
+            <div class="">
+                <p>高校极简运营商合作方案-锐捷网络</p>
+                <ul>
+                    <li>
+                        <a href='index.shtml'>概述</a>
+                    </li>
+                    <li>
+                        <a  href='project1.shtml'>新型学习空间</a>
+                    </li>
+                    <li>
+                        <a href='project2.shtml'>全场景教学应用</a>
+                    </li>
+                    <li>
+                        <a class="active" href='project3.shtml'>极简IT环境</a>
+                    </li>
+                    <li class='sh-mobile-nav'>
+                        <ul class='sh-mobile-menu'>
+                            <li>
+                                <a href='index.shtml'>概述</a>
+                            </li>
+                            <li>
+                                <a href='project1.shtml'>新型学习空间</a>
+                            </li>
+                            <li>
+                                <a href='project2.shtml'>全场景教学应用</a>
+                            </li>
+                            <li>
+                                <a class="active" href='project3.shtml'>极简IT环境</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--正文开始-->
+    <div class="t-main">
+        <div class="t-cont-item sec1">
+            <div class="t-content">
+                <h2 class="t-main-title">极简IT环境，构建协作、互动、展示和物联的基础环境</h2>
+                <div class="sec1__content">
+                    <img src="RJ-img/home-item5-02.png">
+                </div>
+            </div>
+        </div>
+        <div class="t-cont-item sec2">
+            <div class="t-content">
+                <h2 class="t-main-title">
+                    正式学习空间，适用于探究学习、合作学习<br>和混合式学习等教学模式
+                </h2>
+                <div class="sec2__content clearfix">
+                </div>
+            </div>
+        </div>
+        <div class="t-cont-item sec3">
+            <div class="t-content">
+                <h2 class="t-main-title">
+                    非正式学习空间，分布在图书馆、教学楼<br>走廊等自主学习区域
+                </h2>
+                <div class="sec3__content clearfix">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--正文结束-->
+
+    <!--底部导航开始-->
+    <!-- #include file="/FooterUC_R.html" -->
+    <!-- 底部导航结束 -->
+
+    <script type='text/javascript'>
+        _gsq.push(["T", "GWD-002457", "trackEvent", "内容页", "方案", ""]);
+    </script>
+</body>
+
+</html>
