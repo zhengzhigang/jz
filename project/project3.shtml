@@ -109,19 +109,92 @@
         <div class="t-cont-item sec2">
             <div class="t-content">
                 <h2 class="t-main-title">
-                    正式学习空间，适用于探究学习、合作学习<br>和混合式学习等教学模式
+                    首创智能控制中心，为智慧教室量身定制
                 </h2>
-                <div class="sec2__content clearfix">
+                <div class="sec2__content">
+                    <ul class="list clearfix">
+                        <li class="margin__right">
+                            <img src="RJ-img/project3-item2-01.png">
+                            <p>多媒体控制</p>
+                        </li>
+                        <li>
+                            <img src="RJ-img/project3-item2-02.png">
+                            <p>环境控制</p>
+                        </li>
+                    </ul>
+                    <img class="sec2__book__img" src="RJ-img/project3-item2-03.png">
+                    <img class="sec2__bottom__img" src="RJ-img/project3-item2-04.png">
                 </div>
             </div>
         </div>
         <div class="t-cont-item sec3">
             <div class="t-content">
                 <h2 class="t-main-title">
-                    非正式学习空间，分布在图书馆、教学楼<br>走廊等自主学习区域
+                    多尺寸的交互式智能平板，给你最佳观看和书写体验
                 </h2>
                 <div class="sec3__content clearfix">
+                    <div class="item">
+                        <img src="RJ-img/project3-item3-01.png">
+                        <div class="bottom">
+                            <p class="intro green">RG-IIB-K75、86U系列教师屏</p>
+                            <p class="text green">亲近书写，享你所想</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="RJ-img/project3-item3-02.png">
+                        <div class="bottom">
+                            <p class="intro blue">55寸小组屏</p>
+                            <p class="text blue">提供最佳观看和书写体验</p>
+                        </div>
+                    </div>
                 </div>
+            </div>
+        </div>
+        <div class="t-cont-item sec4">
+            <div class="t-content">
+                <h2 class="t-main-title">
+                    小组信息岛+移动讲台，便于教师授课，学生间交流和协作
+                </h2>
+                <div class="sec4__content clearfix">
+                    <div class="item">
+                        <img src="RJ-img/project3-item4-01.png">
+                        <div class="bottom">
+                            <p class="intro green">合作研讨信息岛</p>
+                            <p class="text green">一体式支架、小组智能触控显示屏、智能盒子、移动椅子为学生提供了便于交流、联结、协作的空间整体，营造小组协作研讨氛围</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="RJ-img/project3-item4-02.png">
+                        <div class="bottom">
+                            <p class="intro blue">移动讲台</p>
+                            <p class="text blue">辅助教师移动授课<br>&nbsp;<br>&nbsp;</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="t-cont-item sec5">
+            <div class="t-content">
+                <h2 class="t-main-title">
+                    统一监控、统一管理、统一运维的平台，让管理工作更高效
+                </h2>
+                <h3 class="t-sub-title">
+                    智慧教室综合管理平台
+                </h3>
+                <ul class="list clearfix">
+                    <li class="margin__right sm__margin__right">
+                        <img src="RJ-img/project3-item5-01.png">
+                    </li>
+                    <li class="margin__right">
+                        <img src="RJ-img/project3-item5-02.png">
+                    </li>
+                    <li class="margin__right sm__margin__right">
+                        <img src="RJ-img/project3-item5-03.png">
+                    </li>
+                    <li>
+                        <img src="RJ-img/project3-item5-04.png">
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
