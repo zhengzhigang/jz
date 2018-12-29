@@ -160,7 +160,7 @@
         <div class="t-cont-item section3">
             <div class="t-content">
                 <h2 class="t-main-title">新型学习空间设计，适配多种创新教学模式</h2>
-                <img class="section3__img_title" src="RJ-img/home-item3-01.png" alt="">
+                <img class="section__img_title" src="RJ-img/home-item3-01.png" alt="">
                 <div class="section3__content">
                     <ul class="section3__list clearfix">
                         <li class="section3__item margin__right">
@@ -192,6 +192,77 @@
                         <a class="color__green" href="#" target="_blank">查看详情 >></a>
                         <a class="color__blue" href="#" target="_blank">空间对比 >></a>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="t-cont-item section4">
+            <div class="t-content">
+                <h2 class="t-main-title">基于建构主义理论的全场景教学应用，全面服务教学</h2>
+                <img class="section__img_title" src="RJ-img/home-item4-01.png" alt="">
+                <div class="section4__content clearfix">
+                    <div class="section4__left">
+                        <div class="section4__left__top clearfix">
+                            <div class="_fl">
+                                <img src="RJ-img/home-item4-02.png" alt="">
+                                <p class="t-intro">大屏授课端</p>
+                            </div>
+                            <div class="_fl">
+                                <img src="RJ-img/home-item4-03.png" alt="">
+                                <p class="t-intro">学生小组端</p>
+                            </div>
+                        </div>
+                        <div class="section4__left__bottom clearfix">
+                            <div class="left">
+                                <img src="RJ-img/home-item4-04.png" alt="">
+                                <p class="t-intro">老师Web端</p>
+                                <img src="RJ-img/home-item4-05.png" alt="">
+                                <p class="t-intro">管理Web端</p>
+                            </div>
+                            <div class="right">
+                                <div class="_fl">
+                                    <img src="RJ-img/home-item4-06.png" alt="">
+                                    <p class="t-intro">老师移动端</p>
+                                </div>
+                                <div class="_fl">
+                                    <img src="RJ-img/home-item4-07.png" alt="">
+                                    <p class="t-intro">学生移动端</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section4__right">
+                        <div class="item margin__right">
+                            <div class="circle green"></div>
+                            <div class="line"></div>
+                            <ul class="list green">
+                                <li>无流程备课</li>
+                                <li>课前预习</li>
+                                <li>高效分组</li>
+                            </ul>
+                        </div>
+                        <div class="item margin__right">
+                            <div class="circle blue"></div>
+                            <div class="line"></div>
+                            <ul class="list blue">
+                                <li>课程为中心<br>无流程社交化</li>
+                                <li>互动教学</li>
+                                <li>学情反馈</li>
+                                <li>移动授课</li>
+                            </ul>
+                        </div>
+                        <div class="item">
+                            <div class="circle orange"></div>
+                            <div class="line"></div>
+                            <ul class="list orange">
+                                <li>课堂报告</li>
+                                <li>数据统计</li>
+                                <li>作业任务</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="section__button">
+                    <a class="color__green" href="#" target="_blank">查看详情 >></a>
                 </div>
             </div>
         </div>
