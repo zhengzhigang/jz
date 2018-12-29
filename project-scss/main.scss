@@ -251,6 +251,54 @@
     }
   }
 }
+.section3 {
+  .t-content {
+    position: relative;
+  }
+  .section3__img_title {
+    position: absolute;
+    width: 127px;
+    left: 0;
+    top: 0;
+  }
+}
+.section3__content {
+  padding-top: 70px;
+  .section3__item {
+    float: left;
+    width: 32.1%;
+    margin-bottom: 50px;
+    img {
+      display: block;
+      width: 100%;
+    }
+    &.margin__right {
+      margin-right: 1.85%;
+    }
+  }
+  .section__button {
+    padding-top: 43px;
+    margin-bottom: 53px;
+    text-align: center;
+    a {
+      display: inline-block;
+      width: 219px;
+      height: 39px;
+      margin: auto 19px;
+      font-size: 20px;
+      line-height: 39px;
+      cursor: pointer;
+      &.color__green {
+        color: #43af35;
+        border: 2px solid #43af35;
+      }
+      &.color__blue {
+        color: #01a8ba;
+        border: 2px solid #01a8ba;
+      }
+    }
+  }
+}
 
 
 
