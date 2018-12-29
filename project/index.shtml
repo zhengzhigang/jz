@@ -98,141 +98,144 @@
 
     <!--正文开始-->
     <div class="t-main">
-        <div class="t-cont-item section1">
+        <div class="t-cont-item sec1">
             <div class="t-content">
-                <div class="section1__content">
-                    <img src="RJ-img/home-item1-01.jpg" alt="">
-                    <p class="section1__text">
+                <div class="sec1__content">
+                    <img src="RJ-img/home-item1-01.jpg">
+                    <p class="sec1__text">
                         智慧教室基于建构主义理论，以PST框架（Pedagogy-Space-Technology “教学法—空间—技术”）为设计理念，创新地提出5C （建构、交流、联接、协作、创造）学习环境，实现学习空间、信息技术与教育教学的深度融合，支撑探究式教学、小班化教学、混合式教学和翻转课堂等新型教学模式。
                     </p>
                 </div>
             </div>
         </div>
-        <div class="t-cont-item section2">
+        <div class="t-cont-item sec2">
             <div class="t-content">
                 <h2 class="t-main-title">
                         智慧教室基于建构主义理论，<br>以PST框架为设计理念，创新地提出5C学习环境
                 </h2>
-                <div class="section2__content clearfix">
-                    <div class="section2__left _fl">
-                        <div class="section2__left__title">
+                <div class="sec2__content clearfix">
+                    <div class="sec2__left _fl">
+                        <div class="sec2__left__title">
                             5C学习环境
-                            <span class="section2__left__shadow"></span>
+                            <span class="sec2__left__shadow"></span>
                         </div>
-                        <img src="RJ-img/home-item2-01.png" alt="">
-                        <ul class="section2__left__list clearfix">
+                        <img src="RJ-img/home-item2-01.png">
+                        <ul class="sec2__left__list clearfix">
                             <li>
-                                <img class="icon" src="RJ-img/home-icon-01.png" alt="">
-                                <span>促进知识的<br>主动构建</span>
+                                <img class="icon" src="RJ-img/home-icon-01.png">
+                                <span>促进知识的主动构建</span>
                             </li>
                             <li>
-                                <img class="icon" src="RJ-img/home-icon-02.png" alt="">
-                                <span>促进知识的<br>主动构建</span>
+                                <img class="icon" src="RJ-img/home-icon-02.png">
+                                <span>促进知识的主动构建</span>
                             </li>
                             <li>
-                                <img class="icon" src="RJ-img/home-icon-03.png" alt="">
-                                <span>促进知识的<br>主动构建</span>
+                                <img class="icon" src="RJ-img/home-icon-03.png">
+                                <span>促进知识的主动构建</span>
                             </li>
                             <li>
-                                <img class="icon" src="RJ-img/home-icon-04.png" alt="">
-                                <span>促进知识的<br>主动构建</span>
+                                <img class="icon" src="RJ-img/home-icon-04.png">
+                                <span>促进知识的主动构建</span>
                             </li>
                             <li>
-                                <img class="icon" src="RJ-img/home-icon-05.png" alt="">
-                                <span>促进知识的<br>主动构建</span>
+                                <img class="icon" src="RJ-img/home-icon-05.png">
+                                <span>促进知识的主动构建</span>
                             </li>
                         </ul>
                     </div>
-                    <div class="section2__right _fr">
-                        <div class="section2__right__title">
+                    <div class="sec2__right _fr">
+                        <div class="sec2__right__title">
                             PST框架
-                            <span class="section2__right__shadow"></span>
+                            <span class="sec2__right__shadow"></span>
                         </div>
-                        <p class="section2__top__text">教学法、学习空间和信息技术三者是相互促进的关系 </p>
-                        <img src="RJ-img/home-item2-02.png" alt="">
-                        <p class="section2__bottom__text">
+                        <p class="sec2__top__text">教学法、学习空间和信息技术三者是相互促进的关系 </p>
+                        <img src="RJ-img/home-item2-02.png">
+                        <p class="sec2__bottom__text">
                             教学法是学习活动的核心，而学习环境赋能教学活动和教学策略，使教学法在其中发挥重要作用。信息时代的学习环境主要由信息技术和学习空间构成。
                         </p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="t-cont-item section3">
+        <div class="t-cont-item sec3">
             <div class="t-content">
                 <h2 class="t-main-title">新型学习空间设计，适配多种创新教学模式</h2>
-                <img class="section__img_title" src="RJ-img/home-item3-01.png" alt="">
-                <div class="section3__content">
-                    <ul class="section3__list clearfix">
-                        <li class="section3__item margin__right">
-                            <img src="RJ-img/home-item3-02.jpg" alt="">
-                            <p></p>
+                <img class="sec__img_title" src="RJ-img/home-item3-01.png">
+                <div class="sec3__content">
+                    <ul class="sec3__list clearfix">
+                        <li class="sec3__item margin__right sm__margin__right">
+                            <img src="RJ-img/home-item3-02.jpg">
+                            <p class="t-intro">灵活转换型学习空间</p>
                         </li>
-                        <li class="section3__item margin__right">
-                            <img src="RJ-img/home-item3-03.jpg" alt="">
-                            <p></p>
+                        <li class="sec3__item margin__right">
+                            <img src="RJ-img/home-item3-03.jpg">
+                            <p class="t-intro">自主交互型学习空间</p>
                         </li>
-                        <li class="section3__item">
-                            <img src="RJ-img/home-item3-04.jpg" alt="">
-                            <p></p>
+                        <li class="sec3__item sm__margin__right">
+                            <img src="RJ-img/home-item3-04.jpg">
+                            <p class="t-intro">协作探究型学习空间</p>
                         </li>
-                        <li class="section3__item margin__right">
-                            <img src="RJ-img/home-item3-05.jpg" alt="">
-                            <p></p>
+                        <li class="sec3__item margin__right">
+                            <img src="RJ-img/home-item3-05.jpg">
+                            <p class="t-intro">极简互动型学习空间</p>
                         </li>
-                        <li class="section3__item margin__right">
-                            <img src="RJ-img/home-item3-06.jpg" alt="">
-                            <p></p>
+                        <li class="sec3__item margin__right sm__margin__right">
+                            <img src="RJ-img/home-item3-06.jpg">
+                            <p class="t-intro">课题研讨空间</p>
                         </li>
-                        <li class="section3__item">
-                            <img src="RJ-img/home-item3-07.jpg" alt="">
-                            <p></p>
+                        <li class="sec3__item">
+                            <img src="RJ-img/home-item3-07.jpg">
+                            <p class="t-intro">开放式学习空间</p>
                         </li>
                     </ul>
-                    <div class="section__button">
+                    <div class="sec__button">
                         <a class="color__green" href="#" target="_blank">查看详情 >></a>
                         <a class="color__blue" href="#" target="_blank">空间对比 >></a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="t-cont-item section4">
+        <div class="t-cont-item sec4">
             <div class="t-content">
                 <h2 class="t-main-title">基于建构主义理论的全场景教学应用，全面服务教学</h2>
-                <img class="section__img_title" src="RJ-img/home-item4-01.png" alt="">
-                <div class="section4__content clearfix">
-                    <div class="section4__left">
-                        <div class="section4__left__top clearfix">
+                <img class="sec__img_title" src="RJ-img/home-item4-01.png">
+                <div class="sec4__content clearfix">
+                    <div class="sec4__left">
+                        <div class="sec4__left__top clearfix">
                             <div class="_fl">
-                                <img src="RJ-img/home-item4-02.png" alt="">
+                                <img src="RJ-img/home-item4-02.png">
                                 <p class="t-intro">大屏授课端</p>
                             </div>
                             <div class="_fl">
-                                <img src="RJ-img/home-item4-03.png" alt="">
+                                <img src="RJ-img/home-item4-03.png">
                                 <p class="t-intro">学生小组端</p>
                             </div>
                         </div>
-                        <div class="section4__left__bottom clearfix">
+                        <div class="sec4__left__bottom clearfix">
                             <div class="left">
-                                <img src="RJ-img/home-item4-04.png" alt="">
+                                <img src="RJ-img/home-item4-04.png">
                                 <p class="t-intro">老师Web端</p>
-                                <img src="RJ-img/home-item4-05.png" alt="">
+                                <img src="RJ-img/home-item4-05.png">
                                 <p class="t-intro">管理Web端</p>
                             </div>
                             <div class="right">
                                 <div class="_fl">
-                                    <img src="RJ-img/home-item4-06.png" alt="">
+                                    <img src="RJ-img/home-item4-06.png">
                                     <p class="t-intro">老师移动端</p>
                                 </div>
                                 <div class="_fl">
-                                    <img src="RJ-img/home-item4-07.png" alt="">
+                                    <img src="RJ-img/home-item4-07.png">
                                     <p class="t-intro">学生移动端</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="section4__right">
+                    <div class="sec4__right">
                         <div class="item margin__right">
-                            <div class="circle green"></div>
+                            <div class="circle green">
+                                <p class="text">课前</p>
+                                <span class="small__circle"></span>
+                            </div>
                             <div class="line"></div>
                             <ul class="list green">
                                 <li>无流程备课</li>
@@ -241,7 +244,13 @@
                             </ul>
                         </div>
                         <div class="item margin__right">
-                            <div class="circle blue"></div>
+                            <div class="circle blue">
+                                <p class="text">
+                                    课中<br>
+                                    <span class="small__text">研讨型<br>教学模式</span>
+                                </p>
+                                <span class="small__circle"></span>
+                            </div>
                             <div class="line"></div>
                             <ul class="list blue">
                                 <li>课程为中心<br>无流程社交化</li>
@@ -251,7 +260,10 @@
                             </ul>
                         </div>
                         <div class="item">
-                            <div class="circle orange"></div>
+                            <div class="circle orange">
+                                <p class="text">课后</p>
+                                <span class="small__circle"></span>
+                            </div>
                             <div class="line"></div>
                             <ul class="list orange">
                                 <li>课堂报告</li>
@@ -261,8 +273,145 @@
                         </div>
                     </div>
                 </div>
-                <div class="section__button">
+                <div class="sec__button">
                     <a class="color__green" href="#" target="_blank">查看详情 >></a>
+                </div>
+            </div>
+        </div>
+        <div class="t-cont-item sec5">
+            <div class="t-content">
+                <h2 class="t-main-title">极简IT环境，构建协作、互动、展示和物联的基础环境</h2>
+                <img class="sec__img_title" src="RJ-img/home-item5-01.png">
+                <div class="sec5__content">
+                    <img src="RJ-img/home-item5-02.png">
+                    <div class="sec__button">
+                        <a class="color__green" href="#" target="_blank">查看详情 >></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="t-cont-item sec6">
+            <div class="t-content">
+                <h2 class="t-main-title">方案组成</h2>
+                <h3 class="t-sub-title">智慧教室</h3>
+                <div class="sec6__content clearfix">
+                    <div class="left _fl margin__right">
+                        <div class="title green">
+                            教学应用
+                            <span class="shadow"></span>
+                        </div>
+                        <ul class="list">
+                            <li class="margin__right">
+                                <img src="RJ-img/home-item6-01.jpg">
+                                <p class="t-intro">教学互动软件</p>
+                            </li>
+                            <li>
+                                <img src="RJ-img/home-item6-02.jpg">
+                                <p class="t-intro">研讨协作系统</p>
+                            </li>
+                            <li class="margin__right">
+                                <img src="RJ-img/home-item6-03.jpg">
+                                <p class="t-intro">无线投屏系统</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="middle _fl margin__right">
+                        <div class="title blue">
+                            IT环境
+                            <span class="shadow"></span>
+                        </div>
+                        <ul class="list">
+                            <li class="margin__right">
+                                <img src="RJ-img/home-item6-04.jpg">
+                                <p class="t-intro">智能控制中心</p>
+                            </li>
+                            <li class="margin__right">
+                                <img src="RJ-img/home-item6-05.jpg">
+                                <p class="t-intro">交互智能平板</p>
+                            </li>
+                            <li>
+                                <img src="RJ-img/home-item6-06.jpg">
+                                <p class="t-intro">智能盒子</p>
+                            </li>
+                            <li class="margin__right">
+                                <img src="RJ-img/home-item6-07.jpg">
+                                <p class="t-intro">无线AP</p>
+                            </li>
+                            <li class="margin__right">
+                                <img src="RJ-img/home-item6-08.jpg">
+                                <p class="t-intro">扩声系统</p>
+                            </li>
+                            <li>
+                                <img src="RJ-img/home-item6-09.jpg">
+                                <p class="t-intro">其他</p>
+                            </li>
+                        </ul>
+                        <div class="long__text">
+                            <img src="RJ-img/home-item6-10.jpg">
+                            <p class="t-intro">教室综合管理平台管理平台服务器</p>
+                        </div>
+                    </div>
+                    <div class="left _fl">
+                        <div class="title orange">
+                            学习空间
+                            <span class="shadow"></span>
+                        </div>
+                        <ul class="list">
+                            <li class="margin__right">
+                                <img src="RJ-img/home-item6-11.png">
+                                <p class="t-intro">空间设计</p>
+                            </li>
+                            <li>
+                                <img src="RJ-img/home-item6-12.png">
+                                <p class="t-intro">移动讲台</p>
+                            </li>
+                            <li>
+                                <img src="RJ-img/home-item6-13.png">
+                                <p class="t-intro">小组信息鸟</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="t-cont-item sec7">
+            <div class="t-content">
+                <h2 class="t-main-title">相关产品</h2>
+                <div class="sec7__content">
+                    <ul class="list clearfix">
+                        <li class="margin__right xs__margin__right">
+                            <img src="RJ-img/home-item7-01.png" alt="">
+                            <p class="t-intro">有课教学互动系统</p>
+                        </li>
+                        <li class="margin__right">
+                            <img src="RJ-img/home-item7-02.png" alt="">
+                            <p class="t-intro">智能盒子</p>
+                        </li>
+                        <li class="margin__right xs__margin__right">
+                            <img src="RJ-img/home-item7-03.png" alt="">
+                            <p class="t-intro">智能控制中心</p>
+                        </li>
+                        <li>
+                            <img src="RJ-img/home-item7-04.png" alt="">
+                            <p class="t-intro">移动讲台</p>
+                        </li>
+                        <li class="margin__right xs__margin__right">
+                            <img src="RJ-img/home-item7-05.png" alt="">
+                            <p class="t-intro">支架类产品</p>
+                        </li>
+                        <li class="margin__right">
+                            <img src="RJ-img/home-item7-06.png" alt="">
+                            <p class="t-intro">交互式智能平板K系列</p>
+                        </li>
+                        <li class="margin__right xs__margin__right">
+                            <img src="RJ-img/home-item7-07.png" alt="">
+                            <p class="t-intro">控制平板</p>
+                        </li>
+                        <li>
+                            <img src="RJ-img/home-item7-08.png" alt="">
+                            <p class="t-intro">综合管理平台</p>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>

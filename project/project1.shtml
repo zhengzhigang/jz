@@ -98,57 +98,57 @@
 
     <!--正文开始-->
     <div class="t-main">
-        <div class="t-cont-item section1">
+        <div class="t-cont-item sec1">
             <div class="t-content">
                 <h2 class="t-main-title">新型学习空间设计，灵活适配多种创新教学模式</h2>
-                <div class="section1__content">
+                <div class="sec1__content">
                     <img src="RJ-img/project1-item1-01.jpg" alt="img">
                     <p>协作探究型学习控件</p>
                 </div>
-                <div class="section1__button">
-                    <a href="#" target="_blank">空间对比 >></a>
+                <div class="sec__button">
+                    <a class="color__blue" href="#" target="_blank">空间对比 >></a>
                 </div>
             </div>
         </div>
-        <div class="t-cont-item section2">
+        <div class="t-cont-item sec2">
             <div class="t-content">
                 <h2 class="t-main-title">
                     正式学习空间，适用于探究学习、合作学习<br>和混合式学习等教学模式
                 </h2>
-                <div class="section2__content clearfix">
-                    <div class="section2__left _fl">
+                <div class="sec2__content clearfix">
+                    <div class="sec2__left _fl">
                         <img src="RJ-img/project1-item2-01.jpg" alt="img">
-                        <p class="section2__text">协作探究型学习空间</p>
+                        <p class="sec2__text">协作探究型学习空间</p>
                     </div>
-                    <div class="section2__right _fl">
-                        <div class="section2__img2 _fl">
-                            <img src="RJ-img/project1-item2-02.jpg" alt="">
-                            <p class="section2__text">灵活转换型学习空间</p>
+                    <div class="sec2__right _fl">
+                        <div class="sec2__img2 _fl">
+                            <img src="RJ-img/project1-item2-02.jpg">
+                            <p class="sec2__text">灵活转换型学习空间</p>
                         </div>
-                        <div class="section2__img3 _fl">
-                            <img src="RJ-img/project1-item2-03.jpg" alt="">
-                            <p class="section2__text">自主交互型学习空间</p>
+                        <div class="sec2__img3 _fl">
+                            <img src="RJ-img/project1-item2-03.jpg">
+                            <p class="sec2__text">自主交互型学习空间</p>
                         </div>
-                        <div class="section2__img4 _fl">
-                            <img src="RJ-img/project1-item2-04.jpg" alt="">
-                            <p class="section2__text">极简互动型学习空间</p>
+                        <div class="sec2__img4 _fl">
+                            <img src="RJ-img/project1-item2-04.jpg">
+                            <p class="sec2__text">极简互动型学习空间</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="t-cont-item section3">
+        <div class="t-cont-item sec3">
             <div class="t-content">
                 <h2 class="t-main-title">
                     非正式学习空间，分布在图书馆、教学楼<br>走廊等自主学习区域
                 </h2>
-                <div class="section3__content clearfix">
-                    <div class="section3__left _fl">
-                        <img src="RJ-img/project1-item3-01.jpg" alt="">
+                <div class="sec3__content clearfix">
+                    <div class="sec3__left _fl">
+                        <img src="RJ-img/project1-item3-01.jpg">
                         <p>课题研讨空间</p>
                     </div>
-                    <div class="section3__right _fl">
-                        <img src="RJ-img/project1-item3-02.jpg" alt="">
+                    <div class="sec3__right _fl">
+                        <img src="RJ-img/project1-item3-02.jpg">
                         <p>开放式学习空间</p>
                     </div>
                 </div>
