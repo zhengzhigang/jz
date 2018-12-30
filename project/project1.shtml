@@ -64,16 +64,16 @@
                 <p>高校极简运营商合作方案-锐捷网络</p>
                 <ul>
                     <li>
-                        <a href='index.shtml'>概述</a>
-                    </li>
-                    <li>
-                        <a class="active" href='project1.shtml'>新型学习空间</a>
-                    </li>
-                    <li>
-                        <a href='project2.shtml'>全场景教学应用</a>
-                    </li>
-                    <li>
                         <a href='project3.shtml'>极简IT环境</a>
+                    </li>
+                    <li>
+                        <a href='project2.shtml'>全场景教学应用</a> |
+                    </li>
+                    <li>
+                        <a class="active" href='project1.shtml'>新型学习空间</a> |
+                    </li>
+                    <li>
+                        <a href='index.shtml'>概述</a> |
                     </li>
                     <li class='sh-mobile-nav'>
                         <ul class='sh-mobile-menu'>
