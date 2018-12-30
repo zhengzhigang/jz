@@ -113,6 +113,7 @@ body {
   text-align: center;
   color: #000;
   padding-top: 60px;
+  margin: 0 80px;
 }
 /* 通用二级标题 */
 .t-sub-title {
@@ -277,6 +278,9 @@ body {
 }
 .sec3 {
   background-color: #e9e9e9;
+  .t-main-title {
+    padding-top: 94px;
+  }
 }
 .sec3__content {
   padding-top: 70px;
@@ -305,6 +309,7 @@ body {
 .sec4 {
   background-image: url("../RJ-img/home-item4-bg.jpg");
   .t-main-title {
+    padding-top: 94px;
     color: #fff;
   }
 }
@@ -454,6 +459,11 @@ body {
         border-bottom: none;
       }
     }
+  }
+}
+.sec5 {
+  .t-main-title {
+    padding-top: 94px;
   }
 }
 .sec5__content {
@@ -609,6 +619,7 @@ body {
   .t-main-title {
     font-size: 24px;
     padding-top: 35px;
+    margin: 0 10px;
   }
   .t-sub-title {
     font-size: 18px;
@@ -666,24 +677,34 @@ body {
       font-size: 14px;
     }
   }
+  .sec3 {
+    .t-main-title {
+      padding-top: 35px;
+    }
+  }
   .sec3__content {
     padding-top: 40px;
     .sec__button {
       padding-top: 23px;
     }
     .sec3__item {
-      width: 46%;
+      width: 47.5%;
       margin-bottom: 20px;
       &.margin__right {
         margin-right: 0;
       }
       &.sm__margin__right {
-        margin-right: 8%;
+        margin-right: 5%;
       }
     }
     .t-intro {
       line-height: 40px;
       padding-bottom: 0;
+    }
+  }
+  .sec4 {
+    .t-main-title {
+      padding-top: 35px;
     }
   }
   .sec4__content {
@@ -715,6 +736,11 @@ body {
       margin-right: 0;
     }
   }
+  .sec5 {
+    .t-main-title {
+      padding-top: 40px;
+    }
+  }
   .sec5__content {
     padding-top: 40px;
   }
@@ -742,13 +768,13 @@ body {
     padding-top: 30px;
     margin-bottom: 20px;
     li {
-      width: 46%;
+      width: 47.5%;
     }
     .margin__right {
       margin-right: 0;
     }
     .xs__margin__right {
-      margin-right: 8%;
+      margin-right: 5%;
     }
     .t-intro {
       padding: 0;
