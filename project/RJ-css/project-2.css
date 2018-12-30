@@ -265,7 +265,7 @@ body {
 .sec1__right .circle .text .small__text {
   font-size: 16px;
 }
-.sec1__right .circle .small_circle {
+.sec1__right .circle .small__circle {
   display: block;
   position: absolute;
   width: 12px;
@@ -319,6 +319,10 @@ body {
 .sec1__right .list li:last-child {
   border-bottom: none;
 }
+.sec1__right .list .opacity__text {
+  opacity: .6;
+  filter: alpha(opacity=60);
+}
 
 .sec2 {
   background-color: #f3f3f3;
@@ -341,6 +345,7 @@ body {
   width: 100%;
 }
 .sec2__content p {
+  padding-top: 36px;
   font-size: 16px;
   line-height: 28px;
   text-align: center;
@@ -596,6 +601,9 @@ body {
   }
   .sec2__content .margin__right {
     margin-right: 0;
+  }
+  .sec2__content p {
+    padding-top: 20px;
   }
 
   .sec3__content {

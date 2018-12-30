@@ -253,7 +253,9 @@
                             </div>
                             <div class="line"></div>
                             <ul class="list blue">
-                                <li>课程为中心<br>无流程社交化</li>
+                                <li>课程为中心<br>
+                                    <span class="opacity__text">无流程社交化</span>
+                                </li>
                                 <li>互动教学</li>
                                 <li>学情反馈</li>
                                 <li>移动授课</li>

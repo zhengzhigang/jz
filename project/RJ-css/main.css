@@ -437,7 +437,7 @@ body {
 .sec4__right .circle .text .small__text {
   font-size: 16px;
 }
-.sec4__right .circle .small_circle {
+.sec4__right .circle .small__circle {
   display: block;
   position: absolute;
   width: 12px;
@@ -490,6 +490,10 @@ body {
 }
 .sec4__right .list li:last-child {
   border-bottom: none;
+}
+.sec4__right .list .opacity__text {
+  opacity: .6;
+  filter: alpha(opacity=60);
 }
 
 .sec5 .t-main-title {

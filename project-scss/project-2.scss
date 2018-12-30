@@ -244,7 +244,7 @@ body {
         font-size: 16px;
       }
     }
-    .small_circle {
+    .small__circle {
       display: block;
       position: absolute;
       width: 12px;
@@ -298,6 +298,10 @@ body {
         border-bottom: none;
       }
     }
+    .opacity__text {
+      opacity: .6;
+      filter: alpha(opacity=60);
+    }
   }
 }
 .sec2 {
@@ -307,22 +311,23 @@ body {
     padding-top: 84px;
     margin-bottom: 90px;
     li {
-        float: left;
-        width: 29.3333%;
-        margin-bottom: 40px;
+      float: left;
+      width: 29.3333%;
+      margin-bottom: 40px;
     }
     .margin__right {
         margin-right: 6%;
     }
     img {
-        display: block;
-        width: 100%;
+      display: block;
+      width: 100%;
     }
     p {
-        font-size: 16px;
-        line-height: 28px;
-        text-align: center;
-        color: #000;
+      padding-top: 36px;
+      font-size: 16px;
+      line-height: 28px;
+      text-align: center;
+      color: #000;
     }
 }
 .sec3 {
@@ -332,32 +337,32 @@ body {
     }
 }
 .sec3__content {
-    padding-top: 70px;
-    margin-bottom: 80px;
-    .left {
-        width: 50%;
-        float: left;
-        img {
-          display: block;
-          width: 100%;
-        }
-        p {
-          padding-top: 30px;
-          margin: 0 65px;
-          font-size: 16px;
-          line-height: 24px;
-          text-align: center;
-          color: #fff;
-        }
+  padding-top: 70px;
+  margin-bottom: 80px;
+  .left {
+    width: 50%;
+    float: left;
+    img {
+      display: block;
+      width: 100%;
     }
-    .right {
-        width: 50%;
-        float: right;
-        img {
-          width: 78.2%;
-          margin: 0 2.2% 0 19.6%;
-        }
+    p {
+      padding-top: 30px;
+      margin: 0 65px;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+      color: #fff;
     }
+  }
+  .right {
+    width: 50%;
+    float: right;
+    img {
+      width: 78.2%;
+      margin: 0 2.2% 0 19.6%;
+    }
+  }
 }
 .sec4 {
   background-color: #f3f3f3;
@@ -554,6 +559,9 @@ body {
     }
     .margin__right {
       margin-right: 0;
+    }
+    p {
+      padding-top: 20px;
     }
   }
   .sec3__content {
