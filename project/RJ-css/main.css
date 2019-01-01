@@ -529,6 +529,10 @@ body {
   width: 48.5%;
   margin-bottom: 10px;
 }
+.sec6__content .left li img {
+  background-color: #f7f7f7;
+  border: 1px solid #eeeeee;
+}
 .sec6__content .middle {
   width: 36.7%;
   min-height: 530px;
@@ -539,6 +543,10 @@ body {
   width: 31.3333%;
   margin-bottom: 10px;
 }
+.sec6__content .middle li img {
+  background-color: #f7f7f7;
+  border: 1px solid #eeeeee;
+}
 .sec6__content .middle .long__text {
   line-height: 40px;
   margin-bottom: 10px;
@@ -547,6 +555,8 @@ body {
   display: block;
   margin: auto;
   width: 31.3333%;
+  background-color: #f7f7f7;
+  border: 1px solid #eeeeee;
 }
 .sec6__content .margin__right {
   margin-right: 6.65%;

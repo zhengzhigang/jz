@@ -494,6 +494,10 @@ body {
       display: inline-block;
       width: 48.5%;
       margin-bottom: 10px;
+      img {
+        background-color: #f7f7f7;
+        border: 1px solid #eeeeee;
+      }
     }
   }
   .middle {
@@ -504,6 +508,10 @@ body {
       display: inline-block;
       width: 31.3333%;
       margin-bottom: 10px;
+      img {
+        background-color: #f7f7f7;
+        border: 1px solid #eeeeee;
+      }
     }
     .long__text {
       line-height: 40px;
@@ -512,6 +520,8 @@ body {
         display: block;
         margin: auto;
         width: 31.3333%;
+        background-color: #f7f7f7;
+        border: 1px solid #eeeeee;
       }
     }
   }
