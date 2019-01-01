@@ -127,19 +127,19 @@
                             </li>
                             <li>
                                 <img class="icon" src="RJ-img/home-icon-02.png">
-                                <span>促进知识的主动构建</span>
+                                <span>加强师生的互动交流</span>
                             </li>
                             <li>
                                 <img class="icon" src="RJ-img/home-icon-03.png">
-                                <span>促进知识的主动构建</span>
+                                <span>助力教学的顺畅联结</span>
                             </li>
                             <li>
                                 <img class="icon" src="RJ-img/home-icon-04.png">
-                                <span>促进知识的主动构建</span>
+                                <span>强化团队的积极协作</span>
                             </li>
                             <li>
                                 <img class="icon" src="RJ-img/home-icon-05.png">
-                                <span>促进知识的主动构建</span>
+                                <span>实现人生的价值创造</span>
                             </li>
                         </ul>
                     </div>
@@ -300,7 +300,7 @@
                     <div class="left _fl margin__right">
                         <div class="title green">
                             教学应用
-                            <span class="shadow"></span>
+                            <span class="shadow green"></span>
                         </div>
                         <ul class="list">
                             <li class="margin__right">
@@ -320,7 +320,7 @@
                     <div class="middle _fl margin__right">
                         <div class="title blue">
                             IT环境
-                            <span class="shadow"></span>
+                            <span class="shadow blue"></span>
                         </div>
                         <ul class="list">
                             <li class="margin__right">
@@ -356,7 +356,7 @@
                     <div class="left _fl">
                         <div class="title orange">
                             学习空间
-                            <span class="shadow"></span>
+                            <span class="shadow orange"></span>
                         </div>
                         <ul class="list">
                             <li class="margin__right">
@@ -369,7 +369,7 @@
                             </li>
                             <li>
                                 <img src="RJ-img/home-item6-13.png">
-                                <p class="t-intro">小组信息鸟</p>
+                                <p class="t-intro">小组信息岛</p>
                             </li>
                         </ul>
                     </div>
