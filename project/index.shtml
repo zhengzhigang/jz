@@ -190,7 +190,7 @@
                     </ul>
                     <div class="sec__button">
                         <a class="color__green" href="project1.shtml" target="_blank">查看详情 >></a>
-                        <a class="color__blue" href="#" target="_blank">空间对比 >></a>
+                        <a class="color__blue" href="#" target="_blank" style="display: none;">空间对比 >></a>
                     </div>
                 </div>
             </div>

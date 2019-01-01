@@ -106,7 +106,7 @@
                     <p>协作探究型学习空间</p>
                 </div>
                 <div class="sec__button">
-                    <a class="color__blue" href="#" target="_blank">空间对比 >></a>
+                    <a class="color__blue" href="#" target="_blank" style="display: none;">空间对比 >></a>
                 </div>
             </div>
         </div>
