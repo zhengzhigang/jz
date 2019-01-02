@@ -104,8 +104,8 @@
                                         <img src="RJ-img/home-item2-02.jpg" />
                                     </div>
                                     <div class="right">
-                                        <span class="item-title">【第十三期】</span>
-                                        <h3>如何为RDMA构建无损网络</h3>
+                                        <span class="item-title">【第三期】</span>
+                                        <h3>畅谈数据中心网络运维自动化</h3>
                                         <a href="#" class="button">马上阅读</a>
                                     </div>
                                 </div>
@@ -116,8 +116,8 @@
                                         <img src="RJ-img/home-item2-03.jpg" />
                                     </div>
                                     <div class="right">
-                                        <span class="item-title">【第十三期】</span>
-                                        <h3>如何为RDMA构建无损网络</h3>
+                                        <span class="item-title">【第十一期】</span>
+                                        <h3>浅谈数据中心100G光模块</h3>
                                         <a href="#" class="button">马上阅读</a>
                                     </div>
                                 </div>
@@ -146,7 +146,7 @@
                 <h2 class="t-main-title">热点推荐</h2>
                 <ul class="sec3__content clearfix">
                     <li class="item">
-                        <a class="img" href="#">
+                        <a class="img" href="javascript:;">
                             <img src="RJ-img/home-item3-01.jpg">
                         </a>
                         <div class="bottom">
@@ -245,7 +245,7 @@
             <div class="t-content">
                 <div class="content-us-wrap">
                     <div class="content-us-con">
-                        <h2 class="h-tit">联系我们的解决方案专家</h2>
+                        <h2 class="h-tit">联系我们的互联网专家</h2>
                         <form action="" method="post" data-ajax="true" data-ajax-begin="$.OpenLoading" data-ajax-failure="$.AjaxSubmitFailure" data-ajax-method="post" data-ajax-success="$.AjaxSubmitSuccess" novalidate="novalidate">
                             <div class="content-us-input clearfix">
                                 <input type="hidden" name="solution" value="">
@@ -279,7 +279,7 @@
                 <h3 class="t-main-title">相关解决方案</h3>
                 <ul class="list clearfix">
                     <li>
-                        <a class="img" href="#javascript:;">
+                        <a class="img" href="javascript:;">
                             <img src="RJ-img/home-item5-01.jpg">
                         </a>
                         <p class="text">25G/100G数据中心解决方案</p>
@@ -301,25 +301,25 @@
         </div>
         <div class="t-cont-item sec6">
             <div class="t-content">
-                <h3 class="t-main-title">相关解决方案</h3>
+                <h3 class="t-main-title">相关产品</h3>
                 <ul class="list clearfix">
                     <li>
                         <a class="img" href="#javascript:;">
                             <img src="RJ-img/home-item6-01.png">
                         </a>
-                        <p class="text">25G/100G数据中心解决方案</p>
+                        <p class="text">数据中心交换机</p>
                     </li>
                     <li>
                         <a class="img" href="#javascript:;">
                             <img src="RJ-img/home-item6-02.png">
                         </a>
-                        <p class="text">办公网络解决方案</p>
+                        <p class="text">无线产品</p>
                     </li>
                     <li>
                         <a class="img" href="#javascript:;">
                             <img src="RJ-img/home-item6-03.png">
                         </a>
-                        <p class="text">智慧商贸解决方案</p>
+                        <p class="text">物联网</p>
                     </li>
                 </ul>
             </div>

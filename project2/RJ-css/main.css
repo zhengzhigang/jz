@@ -385,9 +385,6 @@ body {
   height: 350px;
 }
 
-.sec5 {
-  padding-top: 87px;
-}
 .sec5 .con-width {
   max-width: 1170px;
   margin: 0 auto;
@@ -474,6 +471,10 @@ body {
   text-align: center;
   margin-top: 20px;
   cursor: pointer;
+}
+.sec5 .content-us-wrap .content-us-btn .button {
+  padding-left: 49px;
+  padding-right: 49px;
 }
 
 .sec5 .list, .sec6 .list {
@@ -660,6 +661,9 @@ body {
     height: 260px;
   }
 
+  .sec5 {
+    padding-top: 87px;
+  }
   .sec5 .content-us-wrap {
     margin-bottom: 20px;
   }
