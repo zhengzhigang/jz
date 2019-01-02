@@ -63,8 +63,8 @@
         <div class="t-cont-item sec2">
             <div class="t-content">
                 <div class="sec2__top">
-                    <div class="left">
-                        <img src="RJ-img/home-item1-01.jpg" alt="">
+                    <div class="left img">
+                        <img src="RJ-img/home-item1-01.jpg">
                     </div>
                     <div class="right">
                         <span class="item-title">【最新一期】</span>
@@ -75,7 +75,7 @@
                             随着无线通信技术的发展和数据处理能力的提高，基于位置的服务成为最有前途的互联网业务之一。无论移动在室内还是室外环境下，快速准确地获得移动终端的位置信息和提供位置服务的需求变得日益迫切。
                         </p>
                         <div class="button__group">
-                            <a class="button margin__bottom" href="#">马上阅读</a>
+                            <a class="button margin__right" href="#">马上阅读</a>
                             <a class="button" href="#">社区活动</a>
                         </div>
                     </div>
@@ -88,7 +88,7 @@
                         <div class="swiper-wrapper">
                             <div class="swiper-slide clearfix">
                                 <div class="slide-item">
-                                    <div class="left">
+                                    <div class="left img">
                                         <img src="RJ-img/home-item2-01.jpg" />
                                     </div>
                                     <div class="right">
@@ -100,7 +100,7 @@
                             </div>
                             <div class="swiper-slide clearfix">
                                 <div class="slide-item">
-                                    <div class="left">
+                                    <div class="left img">
                                         <img src="RJ-img/home-item2-02.jpg" />
                                     </div>
                                     <div class="right">
@@ -112,7 +112,7 @@
                             </div>
                             <div class="swiper-slide clearfix">
                                 <div class="slide-item">
-                                    <div class="left">
+                                    <div class="left img">
                                         <img src="RJ-img/home-item2-03.jpg" />
                                     </div>
                                     <div class="right">
@@ -124,7 +124,7 @@
                             </div>
                             <div class="swiper-slide clearfix">
                                 <div class="slide-item">
-                                    <div class="left">
+                                    <div class="left img">
                                         <img src="RJ-img/home-item2-01.jpg" />
                                     </div>
                                     <div class="right">
@@ -147,7 +147,7 @@
                 <ul class="sec3__content clearfix">
                     <li class="item">
                         <a class="img" href="#">
-                            <img src="RJ-img/home-item3-01.jpg" alt="">
+                            <img src="RJ-img/home-item3-01.jpg">
                         </a>
                         <div class="bottom">
                             <h3>数据中心架构篇</h3>
@@ -169,7 +169,7 @@
                     </li>
                     <li class="item">
                         <div class="img">
-                            <img src="RJ-img/home-item3-01.jpg" alt="">
+                            <img src="RJ-img/home-item3-02.jpg">
                         </div>
                         <div class="bottom">
                             <h3>数据中心运维篇</h3>
@@ -191,7 +191,7 @@
                     </li>
                     <li class="item">
                         <div class="img">
-                            <img src="RJ-img/home-item3-01.jpg" alt="">
+                            <img src="RJ-img/home-item3-03.jpg">
                         </div>
                         <div class="bottom">
                             <h3>无线篇</h3>
@@ -210,7 +210,7 @@
                     </li>
                     <li class="item">
                         <div class="img">
-                            <img src="RJ-img/home-item3-01.jpg" alt="">
+                            <img src="RJ-img/home-item3-04.jpg">
                         </div>
                         <div class="bottom">
                             <h3>物联网篇</h3>
@@ -223,7 +223,7 @@
                     </li>
                     <li class="item">
                         <div class="img">
-                            <img src="RJ-img/home-item3-01.jpg" alt="">
+                            <img src="RJ-img/home-item3-05.jpg">
                         </div>
                         <div class="bottom">
                             <h3>光模块篇</h3>
@@ -280,19 +280,19 @@
                 <ul class="list clearfix">
                     <li>
                         <a class="img" href="#javascript:;">
-                            <img src="RJ-img/home-item5-01.jpg" alt="">
+                            <img src="RJ-img/home-item5-01.jpg">
                         </a>
                         <p class="text">25G/100G数据中心解决方案</p>
                     </li>
                     <li>
                         <a class="img" href="#javascript:;">
-                            <img src="RJ-img/home-item5-02.jpg" alt="">
+                            <img src="RJ-img/home-item5-02.jpg">
                         </a>
                         <p class="text">办公网络解决方案</p>
                     </li>
                     <li>
                         <a class="img" href="#javascript:;">
-                            <img src="RJ-img/home-item5-03.jpg" alt="">
+                            <img src="RJ-img/home-item5-03.jpg">
                         </a>
                         <p class="text">智慧商贸解决方案</p>
                     </li>
@@ -305,19 +305,19 @@
                 <ul class="list clearfix">
                     <li>
                         <a class="img" href="#javascript:;">
-                            <img src="RJ-img/home-item6-01.png" alt="">
+                            <img src="RJ-img/home-item6-01.png">
                         </a>
                         <p class="text">25G/100G数据中心解决方案</p>
                     </li>
                     <li>
                         <a class="img" href="#javascript:;">
-                            <img src="RJ-img/home-item6-02.png" alt="">
+                            <img src="RJ-img/home-item6-02.png">
                         </a>
                         <p class="text">办公网络解决方案</p>
                     </li>
                     <li>
                         <a class="img" href="#javascript:;">
-                            <img src="RJ-img/home-item6-03.png" alt="">
+                            <img src="RJ-img/home-item6-03.png">
                         </a>
                         <p class="text">智慧商贸解决方案</p>
                     </li>
