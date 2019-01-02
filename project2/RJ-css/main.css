@@ -371,13 +371,17 @@ body {
 .sec3__content .bottom ul {
   margin-bottom: 15px;
 }
-.sec3__content .bottom p {
+.sec3__content .bottom .news {
+  display: block;
   font-size: 16px;
   line-height: 28px;
   color: #999999;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+}
+.sec3__content .bottom .news:hover {
+  color: #e71c32;
 }
 
 .sec4 {

@@ -343,13 +343,17 @@ body {
     ul {
       margin-bottom: 15px;
     }
-    p {
+    .news {
+      display: block;
       font-size: 16px;
       line-height: 28px;
       color: #999999;
       overflow: hidden;
       white-space: nowrap;
       text-overflow: ellipsis;
+      &:hover {
+        color: #e71c32;
+      }
     }
   }
 }

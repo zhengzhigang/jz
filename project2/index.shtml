@@ -153,13 +153,13 @@
                             <h3>数据中心架构篇</h3>
                             <ul>
                                 <li>
-                                    <p>【第六期】如何实现数据中心网络架构“去”堆叠</p>
+                                    <a class="news" href="#">【第六期】如何实现数据中心网络架构“去”堆叠</a>
                                 </li>
                                 <li>
-                                    <p>【第十二期】数据中心网络等价多路径（ECMPdsagdashjgd</p>
+                                    <a class="news" href="#">【第十二期】数据中心网络等价多路径（ECMPdsagdashjgd</a>
                                 </li>
                                 <li>
-                                    <p>【第十三期】如何为RDMA构建无损网络</p>
+                                    <a class="news" href="#">【第十三期】如何为RDMA构建无损网络</a>
                                 </li>
                             </ul>
                             <div>
@@ -175,13 +175,13 @@
                             <h3>数据中心运维篇</h3>
                             <ul>
                                 <li>
-                                    <p>【第二期】如何通过网络遥测（Network ...</p>
+                                    <a class="news" href="#">【第二期】如何通过网络遥测（Network ...</a>
                                 </li>
                                 <li>
-                                    <p>【第三期】畅谈数据中心网络运维自动化</p>
+                                    <a class="news" href="#">【第三期】畅谈数据中心网络运维自动化</a>
                                 </li>
                                 <li>
-                                    <p>【第五期】流量可视化之ERSPAN的前世今生</p>
+                                    <a class="news" href="#">【第五期】流量可视化之ERSPAN的前世今生</a>
                                 </li>
                             </ul>
                             <div>
@@ -197,13 +197,13 @@
                             <h3>无线篇</h3>
                             <ul>
                                 <li>
-                                    <p>【第四期】基于Rogue AP反制的无线安全技术...</p>
+                                    <a class="news" href="#">【第四期】基于Rogue AP反制的无线安全技术...</a>
                                 </li>
                                 <li>
-                                    <p>【第九期】第七代无线技术802.11ax详解</p>
+                                    <a class="news" href="#">【第九期】第七代无线技术802.11ax详解</a>
                                 </li>
                                 <li>
-                                    <p>【第十七期】浅谈UWB（超宽带）室内定位技术</p>
+                                    <a class="news" href="#">【第十七期】浅谈UWB（超宽带）室内定位技术</a>
                                 </li>
                             </ul>
                         </div>
@@ -216,7 +216,7 @@
                             <h3>物联网篇</h3>
                             <ul>
                                 <li>
-                                    <p>【第一期】浅谈物联网技术之通信协议的纷争</p>
+                                    <a class="news" href="#">【第一期】浅谈物联网技术之通信协议的纷争</a>
                                 </li>
                             </ul>
                         </div>
@@ -229,7 +229,7 @@
                             <h3>光模块篇</h3>
                             <ul>
                                 <li>
-                                    <p>【第十一期】浅谈数据中心100G光模块</p>
+                                    <a class="news" href="#">【第十一期】浅谈数据中心100G光模块</a>
                                 </li>
                             </ul>
                         </div>
