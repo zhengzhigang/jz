@@ -299,6 +299,7 @@ body {
 .sec2__content .sec2__left__list li span {
   display: block;
   margin: 0 8px;
+  color: #666;
 }
 
 .sec3 {
