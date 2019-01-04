@@ -146,11 +146,11 @@
                 <h2 class="t-main-title">热点推荐</h2>
                 <ul class="sec3__content clearfix">
                     <li class="item">
+                        <h3>数据中心架构篇</h3>
                         <a class="img" href="javascript:;">
                             <img src="RJ-img/home-item3-01.jpg">
                         </a>
                         <div class="bottom">
-                            <h3>数据中心架构篇</h3>
                             <ul>
                                 <li>
                                     <a class="news" href="#">【第六期】如何实现数据中心网络架构“去”堆叠</a>
@@ -168,11 +168,11 @@
                         </div>
                     </li>
                     <li class="item">
-                        <div class="img">
+                        <h3>数据中心运维篇</h3>
+                        <a class="img" href="javascript:;">
                             <img src="RJ-img/home-item3-02.jpg">
-                        </div>
+                        </a>
                         <div class="bottom">
-                            <h3>数据中心运维篇</h3>
                             <ul>
                                 <li>
                                     <a class="news" href="#">【第二期】如何通过网络遥测（Network ...</a>
@@ -190,11 +190,11 @@
                         </div>
                     </li>
                     <li class="item">
-                        <div class="img">
+                        <h3>无线篇</h3>
+                        <a class="img" href="javascript:;">
                             <img src="RJ-img/home-item3-03.jpg">
-                        </div>
+                        </a>
                         <div class="bottom">
-                            <h3>无线篇</h3>
                             <ul>
                                 <li>
                                     <a class="news" href="#">【第四期】基于Rogue AP反制的无线安全技术...</a>
@@ -209,27 +209,14 @@
                         </div>
                     </li>
                     <li class="item">
-                        <div class="img">
+                        <h3>物联网篇</h3>
+                        <a class="img" href="javascript:;">
                             <img src="RJ-img/home-item3-04.jpg">
-                        </div>
+                        </a>
                         <div class="bottom">
-                            <h3>物联网篇</h3>
                             <ul>
                                 <li>
                                     <a class="news" href="#">【第一期】浅谈物联网技术之通信协议的纷争</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="item">
-                        <div class="img">
-                            <img src="RJ-img/home-item3-05.jpg">
-                        </div>
-                        <div class="bottom">
-                            <h3>光模块篇</h3>
-                            <ul>
-                                <li>
-                                    <a class="news" href="#">【第十一期】浅谈数据中心100G光模块</a>
                                 </li>
                             </ul>
                         </div>
@@ -251,23 +238,31 @@
                                 <input type="hidden" name="solution" value="">
                                 <p>
                                     <span><em>*</em>姓名</span>
-                                    <input type="text" name="name" data-error="请填写姓名" data-val="true" data-val-required="*" maxlength="50" value="">
+                                    <input type="text" name="name" data-error="请填写姓名" data-val="true" data-val-required="*" maxlength="50" value="" placeholder="请输入...">
                                 </p>
                                 <p>
                                     <span><em>*</em>公司</span>
-                                    <input type="text" name="company" data-error="请填写公司名称" data-val="true" data-val-required="*" maxlength="500" value="">
+                                    <input type="text" name="company" data-error="请填写公司名称" data-val="true" data-val-required="*" maxlength="500" value="" placeholder="请输入...">
                                 </p>
                                 <p>
-                                    <span><em>*</em>邮箱</span>
-                                    <input type="text" name="email" data-type="email" data-error="请填写电子邮箱" data-regex-error="请填写正确的邮箱" data-val="true" data-val-required="*" data-val-regex="" data-val-regex-pattern="^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$" maxlength="50" value="">
+                                    <span><em>*</em>职务</span>
+                                    <input type="text" name="job" data-error="请填写职务" data-val="true" data-val-required="*" maxlength="50" value="" placeholder="请输入...">
                                 </p>
                                 <p>
                                     <span><em>*</em>电话</span>
-                                    <input type="text" name="phone" data-error="请填写联系电话" data-val="true" data-val-required="*" maxlength="20" value="">
+                                    <input type="text" name="phone" data-error="请填写联系电话" data-val="true" data-val-required="*" maxlength="20" value="" placeholder="请输入...">
+                                </p>
+                                <p>
+                                    <span><em>*</em>邮箱</span>
+                                    <input type="text" name="email" data-type="email" data-error="请填写电子邮箱" data-regex-error="请填写正确的邮箱" data-val="true" data-val-required="*" data-val-regex="" data-val-regex-pattern="^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$" maxlength="50" value="" placeholder="请输入...">
                                 </p>
                                 <p class="full-textarea">
                                     <span><em>*</em>我想了解的技术</span>
-                                    <textarea name="demand" data-error="请填写想咨询的问题" data-val="true" data-val-required="*" maxlength="2000" value=""></textarea>
+                                    <textarea name="demand" data-error="请填写想咨询的问题" data-val="true" data-val-required="*" maxlength="2000" value="" placeholder="您最近在关注哪些互联网技术?"></textarea>
+                                </p>
+                                <p class="full-textarea">
+                                    <span><em>*</em>我的疑惑</span>
+                                    <textarea name="wonder" data-error="请填写疑惑的问题" data-val="true" data-val-required="*" maxlength="2000" value="" placeholder="您在工作或学习中遇到哪些问题？"></textarea>
                                 </p>
                             </div>
                             <div class="content-us-btn">
