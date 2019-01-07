@@ -317,19 +317,22 @@ body {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
 }
-.sec2__swiper .swiper-button-prev, .sec2__swiper .swiper-button-next {
+
+.swiper-button-prev, .swiper-button-next {
   position: absolute;
   top: 50%;
   margin-top: -22px;
 }
-.sec2__swiper .swiper-button-prev:focus, .sec2__swiper .swiper-button-next:focus {
+.swiper-button-prev:focus, .swiper-button-next:focus {
   outline: none;
 }
-.sec2__swiper .swiper-button-prev {
+
+.swiper-button-prev {
   left: -44px;
   background: url("../RJ-img/home-left-arrow.png") center center/24px 44px no-repeat;
 }
-.sec2__swiper .swiper-button-next {
+
+.swiper-button-next {
   right: -44px;
   background: url("../RJ-img/home-right-arrow.png") center center/24px 44px no-repeat;
 }
@@ -359,14 +362,14 @@ body {
 }
 .sec3__content .img {
   display: block;
-  width: 100%;
+  margin: 0 30px;
   overflow: hidden;
 }
 .sec3__content .img img {
   width: 100%;
 }
 .sec3__content .bottom {
-  padding: 20px 15px;
+  padding: 20px 30px;
   min-height: 180px;
 }
 .sec3__content .bottom ul {
@@ -383,6 +386,9 @@ body {
 }
 .sec3__content .bottom .news:hover {
   color: #e71c32;
+}
+.sec3__content .bottom .button {
+  margin-left: 10px;
 }
 
 .sec4 {
@@ -481,12 +487,11 @@ body {
   padding-left: 49px;
   padding-right: 49px;
 }
-
-.sec5 .list, .sec6 .list {
+.sec5 .list {
   padding-top: 35px;
   padding-bottom: 90px;
 }
-.sec5 .list li, .sec6 .list li {
+.sec5 .list li {
   float: left;
   width: 32%;
   margin-right: 2%;
@@ -495,16 +500,16 @@ body {
   -webkit-box-shadow: 2px 2px 20px #ccc;
   box-shadow: 2px 2px 20px #ccc;
 }
-.sec5 .list li:nth-child(3n), .sec6 .list li:nth-child(3n) {
+.sec5 .list li:nth-child(3n) {
   margin-right: 0;
 }
-.sec5 .list li .img, .sec6 .list li .img {
+.sec5 .list li .img {
   display: block;
 }
-.sec5 .list li img, .sec6 .list li img {
+.sec5 .list li img {
   width: 100%;
 }
-.sec5 .list li .text, .sec6 .list li .text {
+.sec5 .list li .text {
   font-size: 24px;
   line-height: 28px;
   padding: 25px;
@@ -515,14 +520,36 @@ body {
 .sec6 {
   background-color: #f7f7f7;
 }
+.sec6 .sec6__swiper {
+  position: relative;
+  margin: 0 20px;
+}
 .sec6 .list {
+  padding-top: 35px;
   padding-bottom: 120px;
 }
-.sec6 .list li {
+.sec6 .list .slide-item {
+  -moz-box-shadow: 2px 2px 20px #ccc;
+  -webkit-box-shadow: 2px 2px 20px #ccc;
+  box-shadow: 2px 2px 20px #ccc;
   background-color: #fff;
 }
-.sec6 .img {
+.sec6 .list .slide-item:nth-child(3n) {
+  margin-right: 0;
+}
+.sec6 .list .slide-item .img {
+  display: block;
   border-bottom: 1px solid #e7e7e7;
+}
+.sec6 .list .slide-item img {
+  width: 100%;
+}
+.sec6 .list .slide-item .text {
+  font-size: 24px;
+  line-height: 28px;
+  padding: 25px;
+  text-align: center;
+  background-color: #fff;
 }
 
 @media screen and (max-width: 768px) {
@@ -637,10 +664,12 @@ body {
   .sec2__swiper .right {
     width: 57.7%;
   }
-  .sec2__swiper .swiper-button-next {
+
+  .swiper-button-next {
     right: -30px;
   }
-  .sec2__swiper .swiper-button-prev {
+
+  .swiper-button-prev {
     left: -30px;
   }
 
@@ -652,11 +681,15 @@ body {
     margin-right: 0;
     margin-bottom: 40px;
   }
+  .sec3__content .item h3 {
+    font-size: 20px;
+  }
+  .sec3__content .img {
+    margin: 0 15px;
+  }
   .sec3__content .bottom {
     min-height: auto;
-  }
-  .sec3__content .bottom h3 {
-    font-size: 20px;
+    padding: 15px;
   }
   .sec3__content .bottom p {
     font-size: 14px;
@@ -700,19 +733,35 @@ body {
     width: 100%;
   }
 
-  .sec5 .list, .sec6 .list {
+  .sec5 .list {
     padding-top: 20px;
     padding-bottom: 40px;
   }
-  .sec5 .list li, .sec6 .list li {
+  .sec5 .list li {
     width: 100%;
     margin-right: 0;
   }
-  .sec5 .list li .text, .sec6 .list li .text {
+  .sec5 .list li .text {
     font-size: 20px;
     padding: 20px;
   }
 }
+.sec6 .t-content {
+  padding-bottom: 40px;
+}
+.sec6 .list {
+  padding-top: 20px;
+  padding-bottom: 0;
+}
+.sec6 .list li {
+  width: 100%;
+  margin-right: 0;
+}
+.sec6 .list li .text {
+  font-size: 20px;
+  padding: 20px;
+}
+
 @media screen and (max-width: 374px) {
   .button {
     padding: 10px 35px;

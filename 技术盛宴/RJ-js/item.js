@@ -8,5 +8,6 @@ $(function () {
       prevEl: '.swiper-button-prev',
     }
   }
-  new Swiper('.swiper-container', options);
+  new Swiper('.sec2__swiper .swiper-container', options);
+  new Swiper('.sec6__swiper .swiper-container', options);
 })
