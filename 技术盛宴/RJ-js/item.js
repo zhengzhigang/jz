@@ -3,6 +3,10 @@ $(function () {
   var options = {
     slidesPerView: width <= 768 ? 1 : 3,
     spaceBetween: 30,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
     loop: true,
     navigation: {
       nextEl: '.swiper-button-next',
