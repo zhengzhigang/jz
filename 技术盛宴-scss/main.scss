@@ -281,15 +281,17 @@ body {
     width: 53.7%;
   }
   h3 {
-    margin-bottom: 60px;
+    margin-bottom: 23px;
     font-size: 20px;
     line-height: 28px;
     font-weight: bold;
     color: #000;
     overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 3;
   }
 }
 .swiper-button-prev, .swiper-button-next {
@@ -418,7 +420,7 @@ body {
         input, textarea {
           width: 58%;
           font-size: 14px;
-          color: #ccc;
+          color: #666;
           margin-left: 4%;
           height: 38px;
           line-height: 38px;
@@ -616,7 +618,7 @@ body {
       padding: 15px 10px;
     }
     h3 {
-      margin-bottom: 50px;
+      margin-bottom: 20px;
       font-size: 18px;
     }
     .left {
@@ -735,7 +737,7 @@ body {
   }
   .sec2__swiper {
     h3 {
-      margin-bottom: 25px;
+      margin-bottom: 10px;
       line-height: 1.3;
     }
   }
