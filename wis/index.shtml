@@ -64,13 +64,7 @@
                 <p>智慧教室高教解决方案-锐捷网络</p>
                 <ul>
                     <li>
-                        <a href='project3.shtml' target="_blank">极简IT环境</a>
-                    </li>
-                    <li>
-                        <a href='project2.shtml' target="_blank">全场景教学应用</a> |
-                    </li>
-                    <li>
-                        <a href='project1.shtml' target="_blank">新型学习空间</a> |
+                        <a href='project1.shtml' target="_blank">二级页</a>
                     </li>
                     <li>
                         <a class="active" href='index.shtml' target="_blank">概述</a> |
@@ -81,13 +75,7 @@
                                 <a class="active" href='index.shtml' target="_blank">概述</a>
                             </li>
                             <li>
-                                <a href='project1.shtml' target="_blank">新型学习空间</a>
-                            </li>
-                            <li>
-                                <a href='project2.shtml' target="_blank">全场景教学应用</a>
-                            </li>
-                            <li>
-                                <a href='project3.shtml' target="_blank">极简IT环境</a>
+                                <a href='project1.shtml' target="_blank">二级页</a>
                             </li>
                         </ul>
                     </li>
