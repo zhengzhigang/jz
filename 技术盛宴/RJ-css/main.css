@@ -227,12 +227,15 @@ body {
 .sec2__top {
   position: absolute;
   min-height: 202px;
-  padding: 20px;
+  width: 100%;
   top: -122px;
   -moz-box-shadow: 0px 15px 10px -15px #ccc;
   -webkit-box-shadow: 0px 15px 10px -15px #ccc;
   box-shadow: 0px 15px 10px -15px #ccc;
   background-color: #fff;
+}
+.sec2__top .sec2__top__box {
+  padding: 20px;
 }
 .sec2__top .left {
   position: absolute;
@@ -627,6 +630,8 @@ body {
 
   .sec2__top {
     position: static;
+  }
+  .sec2__top .sec2__top__box {
     padding: 15px;
   }
   .sec2__top .left {
