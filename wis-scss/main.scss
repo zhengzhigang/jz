@@ -101,7 +101,7 @@ body {
 /* item主体内容区 */
 .t-content {
   position: relative;
-  max-width: 1160px;
+  max-width: 1200px;
   width: 100%;
   margin: 0 auto;
   overflow: hidden;
@@ -141,6 +141,28 @@ body {
 }
 
 /*--------自定义样式--------*/
+.sec1 {
+  background-image: url("../RJ-img/home-item1-bg.jpg");
+  overflow: visible;
+  .t-cont-item, .t-content {
+    overflow: visible;
+  }
+}
+.sec1__content {
+  .left {
+    float: left;
+    padding-top: 85px;
+    width: 51.7%;
+  }
+  .right {
+    float: right;
+    width: 48.3%;
+    .t-img {
+      display: block;
+      width: 100%;
+    }
+  }
+}
 
 
 @media screen and (max-width: 768px) {

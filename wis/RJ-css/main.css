@@ -116,7 +116,7 @@ body {
 /* item主体内容区 */
 .t-content {
   position: relative;
-  max-width: 1160px;
+  max-width: 1200px;
   width: 100%;
   margin: 0 auto;
   overflow: hidden;
@@ -161,6 +161,28 @@ body {
 }
 
 /*--------自定义样式--------*/
+.sec1 {
+  background-image: url("../RJ-img/home-item1-bg.jpg");
+  overflow: visible;
+}
+.sec1 .t-cont-item, .sec1 .t-content {
+  overflow: visible;
+}
+
+.sec1__content .left {
+  float: left;
+  padding-top: 85px;
+  width: 51.7%;
+}
+.sec1__content .right {
+  float: right;
+  width: 48.3%;
+}
+.sec1__content .right .t-img {
+  display: block;
+  width: 100%;
+}
+
 @media screen and (max-width: 768px) {
   .sh-box-header ul li.sh-mobile-nav ul li a.active {
     color: #de0032;
