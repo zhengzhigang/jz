@@ -38,11 +38,12 @@
 </head>
 
 <body>
-    <link type="text/css" href="RJ-css/main.css" rel="stylesheet">
     <!--专题 css文件-->
     <link type="text/css" href="RJ-css/shortMenu.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="RJ-css/main.css">
     <!--专题 css文件-->
     <script src="RJ-js/header.js" type="text/javascript"></script>
+    <script type="text/javascript" src="RJ-js/item.js"></script>
     <!--专题js-->
 
     <div class="sh-header" style="height:100px;">
@@ -173,23 +174,25 @@
                         无线的不确定和不稳定性使得网络的可视化成为第一需求。而WIS与传统管理软件的区别在于，<br>
                         它管理的是用户体验，而不是设备和拓扑，能直接将用户体验可视化。
                     </p>
-                    <div class="swiper-container">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="left">
-                                    <h3 class="title">网络工程师</h3>
-                                    <p class="t-intro">WIS π实现整网体验可视化</p>
-                                    <ul>
-                                        <li>网络基础状况</li>
-                                        <li>用户使用情况</li>
-                                        <li>网络饱和度</li>
-                                    </ul>
-                                    <div class="button__box">
-                                        <a href="project1.shtml" class="button">查看详情</a>
+                    <div class="sec4__swiper">
+                        <div class="swiper-container sec4__swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="left">
+                                        <h3 class="title">网络工程师</h3>
+                                        <p class="t-intro">WIS π实现整网体验可视化</p>
+                                        <ul>
+                                            <li>网络基础状况</li>
+                                            <li>用户使用情况</li>
+                                            <li>网络饱和度</li>
+                                        </ul>
+                                        <div class="button__box">
+                                            <a href="project1.shtml" class="button">查看详情</a>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="right">
-                                    <img src="RJ-img/home-item4-01" alt="">
+                                    <div class="right">
+                                        <img src="RJ-img/home-item4-01" alt="">
+                                    </div>
                                 </div>
                             </div>
                         </div>
