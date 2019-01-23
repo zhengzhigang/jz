@@ -328,6 +328,157 @@ body {
     padding: 22px 0 35px 0;
   }
 }
+.sec4 {
+  .t-main-title {
+    padding-top: 35px;
+  }
+}
+.sec4__content {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  .sec4__swiper {
+    position: relative;
+    padding-top: 15px;
+    .swiper-container {
+      margin: 0 153px;
+    }
+    .swiper-button-next, .swiper-button-prev {
+      width: 26px;
+      height: 39px;
+    }
+    .swiper-button-next {
+      background-image: url('../RJ-img/home-arrow-right.png')
+    }
+    .swiper-button-prev {
+      background-image: url('../RJ-img/home-arrow-left.png')
+    }
+  }
+  .left {
+    float: left;
+    width: 36%;
+    padding-top: 40px;
+    .title {
+      margin-bottom: 10px;
+      font-size: 24px;
+      line-height: 1;
+      color: #23c16b;
+    }
+    .t-intro {
+      font-size: 16px;
+      line-height: 24px;
+      text-align: left;
+    }
+    .list {
+      padding-left: 20px;
+      font-size: 16px;
+      list-style-type: disc;
+      color: #999999;
+    }
+    .button__box {
+      padding-top: 40px;
+      text-align: left;
+    }
+  }
+  .right {
+    width: 64%;
+    float: right;
+    .pc__img {
+      display: block;
+      max-width: 100%;
+    }
+    .mobile__img {
+      width: 60%;
+      margin: auto;
+    }
+  }
+}
+.sec5 {
+  background-color: #e9fff3;
+}
+.sec5__content {
+  padding: 30px 0 60px 0;
+  margin: 0 24px;
+  .t-img {
+    display: block;
+    max-width: 100%;
+  }
+}
+.sec6__content {
+  padding: 30px 0 80px 0;
+  .list {
+    margin: 0 33px;
+  }
+  .item {
+    position: relative;
+    float: left;
+    width: 25%;
+    .t-img {
+      display: block;
+      width: 100%;
+      max-width: 242px;
+      margin: auto;
+    }
+    .text {
+      padding-top: 20px;
+      font-size: 22px;
+      line-height: 1;
+      color: #000;
+      text-align: center;
+    }
+    &:hover .mask__info {
+      display: block;
+    }
+  }
+  .mask__info {
+    display: none;
+    position: absolute;
+    width: 260px;
+    height: 204px;
+    left: 50%;
+    bottom: 35px;
+    margin-left: -140px;
+    padding: 5px 10px 0 10px;
+    background: url("../RJ-img/home-item6-01.png") center center/100% 100% no-repeat #fff;
+    overflow: hidden;
+    z-index: 1;
+    .box {
+      padding: 22px 10px;
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+}
+.sec7__content {
+  padding: 20px 0 50px 0;
+  .list {
+    padding-top: 45px;
+    margin: 0 87px;
+    .item {
+      float: left;
+      width: 33.3333%;
+      .t-img {
+        display: block;
+        max-width: 100px;
+        margin: auto;
+      }
+    }
+    .text {
+      padding-top: 20px;
+      margin: 0 15px;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+      color: #666;
+    }
+  }
+}
+.sec8 {
+  background-image: url("../RJ-img/home-item8-bg.jpg");
+  .t-main-title {
+    color: #fff;
+  }
+}
+
 
 
 @media screen and (max-width: 768px) {
@@ -368,6 +519,13 @@ body {
     line-height: 20px;
   }
   /*--------自定义样式--------*/
+  .button__box {
+    .button {
+      padding: 15px 55px;
+      font-size: 14px;
+      border-radius: 3px;
+    }
+  }
   .sec1__content {
     padding-bottom: 40px;
     .left {
@@ -457,6 +615,86 @@ body {
     .text {
       padding: 20px 0 0 0;
       font-size: 20px;
+    }
+  }
+  .sec4__content {
+    padding-bottom: 30px;
+    .sec4__swiper {
+      padding-top: 15px;
+      .swiper-container {
+        margin: 0 50px;
+      }
+    }
+    .left {
+      width: 100%;
+      padding-top: 0;
+      .title {
+        font-size: 20px;
+      }
+      .t-intro {
+        margin-top: 0;
+        padding-bottom: 0;
+        font-size: 14px;
+      }
+      .list {
+        font-size: 14px;
+      }
+      .button__box {
+        padding-top: 20px;
+      }
+    }
+    .right {
+      width: 100%;
+    }
+  }
+  .sec6__content {
+    padding: 30px 0 40px 0;
+    .list {
+      margin: 0;
+    }
+    .item {
+      width: 100%;
+      margin-bottom: 20px;
+      .text {
+        font-size: 20px;
+      }
+    }
+    .mask__info {
+      display: block;
+      position: static;
+      width: auto;
+      height: auto;
+      margin-left: 0;
+      padding: 0;
+      background: none;
+      .box {
+        padding: 20px 0 0 0;
+        font-size: 14px;
+        text-align: center;
+      }
+    }
+  }
+  .sec7__content {
+    padding: 20px 0 30px 0;
+    .t-intro {
+      margin-top: 0;
+      padding-bottom: 0;
+    }
+    .list {
+      padding-top: 30px;
+      margin: 0 40px;
+      .item {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+      .text {
+        padding-top: 20px;
+        margin: 0 15px;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #666;
+      }
     }
   }
 

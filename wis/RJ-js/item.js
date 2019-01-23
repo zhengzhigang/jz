@@ -1,17 +1,11 @@
-$(function () {
-    var width = $(window).width();
-    var options = {
-      slidesPerView: 1,
-      spaceBetween: 30,
-      autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-      },
-      loop: true,
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      }
-    }
-    new Swiper('.sec4__swiper .swiper-container', options);
+$(function() {
+    var swiper = new Swiper('.swiper-container', {
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: 2500,
+        loop: true,
+        autoplayDisableOnInteraction: false
+    });
 })
