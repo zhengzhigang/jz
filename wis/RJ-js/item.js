@@ -1,13 +1,14 @@
 $(function() {
-    var swiper = new Swiper('.swiper-container', {
+    var option = {
         nextButton: '.swiper-button-next',
         prevButton: '.swiper-button-prev',
-        spaceBetween: 30,
         centeredSlides: true,
         autoplay: 2500,
         loop: true,
         autoplayDisableOnInteraction: false
-    });
+    }
+    new Swiper('.sec4__swiper .swiper-container', option);
+    // new Swiper('.sec11__swiper .swiper-container', option);
 
     var width = $(window).width()
     $('.sec8__content').on('click', '.sec8__circle', function() {

@@ -607,13 +607,235 @@ body {
 }
 .sec11 {
   padding-bottom: 60px;
-  .t-intro {
-    padding-top: 40px;
-    line-height: 24px;
+  .sec11__swiper {
+    position: relative;
   }
-  .number {
-    font-size: 30px;
-    color: #2ec774;
+  .slide1 {
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-image: url("../RJ-img/home-item11-bg1.jpg");
+    .t-main-title {
+      font-size: 42px;
+      line-height: 48px;
+      color: #1cc76c;
+    }
+    .t-intro {
+      padding-top: 45px;
+      font-size: 16px;
+      color: #fff;
+    }
+    .list {
+      width: 100%;
+      max-width: 1130px;
+      margin: auto;
+      padding: 128px 0 203px 0;
+      text-align: center;
+    }
+    .item {
+      position: relative;
+      float: left;
+      width: 25%;
+      overflow: hidden;
+      .t-img {
+        display: block;
+        width: 100%;
+      }
+      .num__img {
+        display: block;
+        width: 60%;
+        margin: auto;
+        max-width: 118px;
+      }
+    }
+    .item__content {
+      position: absolute;
+      width: 100%;
+      top: 40px;
+      left: 0;
+      background-color: none;
+      z-index: 1;
+    }
+    .title {
+      font-size: 24px;
+      padding-top: 20px;
+      margin-bottom: 12px;
+    }
+    .text {
+      padding: 0 27px 0 19px;
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+  .slide2 {
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-image: url("../RJ-img/home-item11-bg2.jpg");
+    .t-intro {
+      padding: 50px 0 80px 0;
+    }
+    .sub__title {
+      font-size: 42px;
+      text-align: center;
+      color: #1cc76c;
+    }
+    .table__box {
+      padding: 35px 0 68px 0;
+      width: 100%;
+      max-width: 858px;
+      margin: auto;
+    }
+    table {
+      width: 100%;
+      border: 0;
+      text-align: center;
+      td {
+        height: 116px;
+        border-color: #fff;
+        &:first-child {
+          border-left: 0;
+        }
+        &:last-child {
+          border-right: 0;
+        }
+      }
+    }
+    .row1 {
+      background-color: rgba(255, 255, 255, .6);
+      td {
+        border-top: 0;
+      }
+    }
+    .row2 {
+      background-color: rgba(28, 199, 108, .1);
+    }
+    .row3 {
+      background-color: rgba(28, 199, 108, .8);
+      td {
+        border-bottom: 0;
+      }
+    }
+  }
+  .slide4 {
+    background-color: #fff;
+    .t-intro {
+      padding-top: 40px;
+      margin-bottom: 60px;
+      line-height: 24px;
+    }
+    .number {
+      font-size: 30px;
+      color: #2ec774;
+    }
+    .table__box {
+      padding: 67px 0 109px 0;
+      background-position: center top;
+      background-repeat: no-repeat;
+      background-size: cover;
+      overflow: hidden;
+      background-image: url("../RJ-img/home-item11-bg4.jpg");
+    }
+    .table {
+      width: 100%;
+      max-width: 858px;
+      margin: auto;
+      background: rgba(0, 0, 0, .6);
+    }
+    table {
+      width: 100%;
+      text-align: center;
+      color: #fff;
+      border: 0;
+      td {
+        border-color: rgba(255, 255, 255, .3);
+      }
+    }
+    .row1 {
+      td {
+        border-top: 0;
+      }
+    }
+    .row1, .row2 {
+      td {
+        padding: 25px 0 15px 0;
+        &:last-child {
+          border-right: 0;
+        }
+        &:first-child {
+          border-left: 0;
+        }
+      }
+    }
+    .row2 td, .row3 td {
+      padding: 50px 0;
+    }
+    .row3 {
+      background-color: rgba(28, 199, 108, .8);
+      td {
+        border-bottom: 0;
+        &:first-child {
+          border-left: 0;
+        }
+        &:last-child {
+          border-right: 0;
+        }
+      }
+    }
+    .row1, .row2, .row3 {
+      td:first-child {
+        width: 20%;
+      }
+    }
+  }
+}
+.sec12 {
+  .slide2 {
+    background-image: url("../RJ-img/home-item11-bg2.jpg");
+  }
+  .slide3 {
+    background-image: url("../RJ-img/home-item11-bg3.jpg");
+  }
+}
+.sec13 {
+  .list {
+    margin: 0 50px;
+  }
+  .item {
+    position: relative;
+    float: left;
+    width: 33.3333%;
+    text-align: center;
+    .text {
+      padding: 40px 0 30px 0;
+      font-size: 22px;
+      line-height: 39px;
+      color: #000;
+    }
+    .t-img {
+      display: block;
+      max-width: 283px;
+      margin: auto;
+    }
+    .btn {
+      display: inline-block;
+      padding: 8px 15px;
+      margin-top: 40px;
+      font-size: 18px;
+      line-height: 23px;
+      color: #fff;
+      background-color: #1cc76c;
+      border-radius: 3px;
+    }
+    .icon {
+      display: inline-block;
+      vertical-align: top;
+      width: 23px;
+      height: 23px;
+      background: url("../RJ-img/home-icon-08.png") center center/100% 100% no-repeat;
+    }
   }
 }
 
@@ -941,13 +1163,21 @@ body {
       }
     }
   }
-  .sec11 {
-    padding-bottom: 30px;
-    .t-intro {
-      padding-top: 0;
+
+  .sec13 {
+    .list {
+      margin: 0;
     }
-    .number {
-      font-size: 26px;
+    .item {
+      width: 100%;
+      .text {
+        padding: 10px 0 30px 0;
+        font-size: 18px;
+      }
+      .btn {
+        margin-top: 10px;
+        font-size: 18px;
+      }
     }
   }
 
