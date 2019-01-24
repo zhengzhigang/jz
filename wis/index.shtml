@@ -406,6 +406,44 @@
                 </div>
             </div>
         </div>
+        <div class="t-cont-item sec9">
+            <h2 class="t-main-title">WIS场景应用</h2>
+        </div>
+        <div class="t-cont-item sec10">
+            <div class="t-content">
+                <ul class="list clearfix">
+                    <li class="item">
+                        <img class="t-img" src="RJ-img/home-item9-01.png" alt="">
+                        <h3 class="title">复杂建筑应用</h3>
+                        <p class="t-intro">应用场景：机场部署使用</p>
+                        <p class="text">建筑复杂，导致网优非常难调</p>
+                    </li>
+                    <li class="item">
+                        <img class="t-img" src="RJ-img/home-item9-02.png" alt="">
+                        <h3 class="title">密集应用</h3>
+                        <p class="t-intro">应用场景：高密会议部署使用</p>
+                        <p class="text">0卡顿，0报障</p>
+                    </li>
+                    <li class="item">
+                        <img class="t-img" src="RJ-img/home-item9-03.png" alt="">
+                        <h3 class="title">宿舍应用</h3>
+                        <p class="t-intro">应用场景：宿舍部署使用</p>
+                        <p class="text">终端优化，满足游戏需求</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="t-cont-item sec11">
+            <div class="t-content">
+                <h2 class="t-main-title">高校宿舍场景应用</h2>
+                <p class="t-intro">
+                    场景特点：满足游戏需求，在线人数多宿舍内私设Wi-Fi众多，终端类型复杂<br>
+                    运维人员通过WIS极致方案，消干扰，减低噪，终端优化，<br>
+                    最终满足了大部分学生游戏需求，<br>
+                    每天保障数由<span class="number">40</span>起＋降低到每周不到<span class="number">10</span>起
+                </p>
+            </div>
+        </div>
     </div>
     <!--正文结束-->
 

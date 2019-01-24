@@ -588,6 +588,64 @@ body {
   color: #fff;
 }
 
+.sec9 {
+  background-image: url("../RJ-img/home-item9-bg.jpg");
+}
+.sec9 .t-main-title {
+  margin: 0;
+  padding: 70px 0;
+  color: #2ec774;
+}
+
+.sec10 {
+  background-color: #12974f;
+}
+.sec10 .t-content {
+  background-color: #2ec774;
+}
+.sec10 .list {
+  margin: 0 107px;
+  padding: 25px 0 40px 0;
+}
+.sec10 .item {
+  float: left;
+  width: 33.3333%;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1;
+}
+.sec10 .item .t-img {
+  display: block;
+  width: 126px;
+  margin: auto;
+}
+.sec10 .item .title {
+  padding: 28px 0 14px 0;
+  font-size: 20px;
+  color: #fff;
+}
+.sec10 .item .t-intro {
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+.sec10 .item .text {
+  line-height: 24px;
+  color: #05823d;
+}
+
+.sec11 {
+  padding-bottom: 60px;
+}
+.sec11 .t-intro {
+  padding-top: 40px;
+  line-height: 24px;
+}
+.sec11 .number {
+  font-size: 30px;
+  color: #2ec774;
+}
+
 @media screen and (max-width: 768px) {
   .sh-box-header ul li.sh-mobile-nav ul li a.active {
     color: #de0032;
@@ -871,6 +929,7 @@ body {
   .sec8__content.t-mobile .sec8__info {
     position: relative;
     margin-left: 80px;
+    min-height: 80px;
     border: 1px solid #23c16b;
     background-color: #315642;
     border-radius: 5px;
@@ -893,5 +952,36 @@ body {
     font-size: 16px;
     line-height: 24px;
     color: #fff;
+  }
+
+  .sec10 .list {
+    margin: 0;
+    padding: 25px 0 40px 0;
+  }
+  .sec10 .item {
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .sec10 .item .title {
+    padding: 20px 0 10px 0;
+    font-size: 20px;
+  }
+  .sec10 .item .t-intro {
+    margin-top: 0;
+    padding-bottom: 0;
+  }
+  .sec10 .item .text {
+    line-height: 24px;
+  }
+
+  .sec11 {
+    padding-bottom: 30px;
+  }
+  .sec11 .t-intro {
+    padding-top: 0;
+  }
+  .sec11 .number {
+    font-size: 26px;
   }
 }

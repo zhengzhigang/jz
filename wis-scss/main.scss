@@ -561,6 +561,61 @@ body {
     color: #fff;
   }
 }
+.sec9 {
+  background-image: url("../RJ-img/home-item9-bg.jpg");
+  .t-main-title {
+    margin: 0;
+    padding: 70px 0;
+    color: #2ec774;
+  }
+}
+.sec10 {
+  background-color: #12974f;
+  .t-content {
+    background-color: #2ec774;
+  }
+  .list {
+    margin: 0 107px;
+    padding: 25px 0 40px 0;
+  }
+  .item {
+    float: left;
+    width: 33.3333%;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1;
+    .t-img {
+      display: block;
+      width: 126px;
+      margin: auto;
+    }
+    .title {
+      padding: 28px 0 14px 0;
+      font-size: 20px;
+      color: #fff;
+    }
+    .t-intro {
+      font-size: 16px;
+      line-height: 24px;
+      color: #fff;
+    }
+    .text {
+      line-height: 24px;
+      color: #05823d;
+    }
+  }
+}
+.sec11 {
+  padding-bottom: 60px;
+  .t-intro {
+    padding-top: 40px;
+    line-height: 24px;
+  }
+  .number {
+    font-size: 30px;
+    color: #2ec774;
+  }
+}
 
 
 
@@ -837,6 +892,7 @@ body {
     .sec8__info {
       position: relative;
       margin-left: 80px;
+      min-height: 80px;
       border: 1px solid #23c16b;
       background-color: #315642;
       border-radius: 5px;
@@ -861,6 +917,37 @@ body {
       font-size: 16px;
       line-height: 24px;
       color: #fff;
+    }
+  }
+  .sec10 {
+    .list {
+      margin: 0;
+      padding: 25px 0 40px 0;
+    }
+    .item {
+      width: 100%;
+      font-size: 14px;
+      margin-bottom: 20px;
+      .title {
+        padding: 20px 0 10px 0;
+        font-size: 20px;
+      }
+      .t-intro {
+        margin-top: 0;
+        padding-bottom: 0;
+      }
+      .text {
+        line-height: 24px;
+      }
+    }
+  }
+  .sec11 {
+    padding-bottom: 30px;
+    .t-intro {
+      padding-top: 0;
+    }
+    .number {
+      font-size: 26px;
     }
   }
 
