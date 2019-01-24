@@ -8,4 +8,8 @@ $(function() {
         loop: true,
         autoplayDisableOnInteraction: false
     });
+
+    $('.sec8__content').on('click', '.sec8__circle', function() {
+        $(this).addClass('active').siblings('.sec8__circle').removeClass('active');
+    })
 })

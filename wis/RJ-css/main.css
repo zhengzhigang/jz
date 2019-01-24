@@ -377,6 +377,7 @@ body {
 .sec4__content .left {
   float: left;
   width: 36%;
+  margin-left: 10%;
   padding-top: 40px;
 }
 .sec4__content .left .title {
@@ -401,16 +402,12 @@ body {
   text-align: left;
 }
 .sec4__content .right {
-  width: 64%;
+  width: 54%;
   float: right;
 }
-.sec4__content .right .pc__img {
+.sec4__content .right .t-img {
   display: block;
   max-width: 100%;
-}
-.sec4__content .right .mobile__img {
-  width: 60%;
-  margin: auto;
 }
 
 .sec5 {
@@ -504,6 +501,93 @@ body {
   color: #fff;
 }
 
+.sec8__content.t-pc {
+  padding: 160px 0 340px 0;
+}
+.sec8__content.t-pc .line {
+  position: relative;
+  margin: 0 140px;
+  height: 1px;
+  background-color: #fff;
+}
+.sec8__content.t-pc .sec8__circle {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: -7px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  margin-left: -7px;
+  background-color: #363636;
+  cursor: pointer;
+}
+.sec8__content.t-pc .sec8__circle.active {
+  width: 24px;
+  height: 24px;
+  margin-top: -10px;
+  margin-left: -17px;
+  border: 5px solid #68e9a3;
+  background-color: #2bd679;
+  box-shadow: 0 0 15px #68e9a3;
+}
+.sec8__content.t-pc .sec8__circle.active .sec8__date {
+  margin-left: -47px;
+  color: #23c16b;
+}
+.sec8__content.t-pc .sec8__circle.active .sec8__info {
+  top: 47px;
+  margin-left: -102px;
+}
+.sec8__content.t-pc .sec8__circle1 {
+  left: 0;
+}
+.sec8__content.t-pc .sec8__circle2 {
+  left: 33.3333%;
+}
+.sec8__content.t-pc .sec8__circle3 {
+  left: 66.66667%;
+}
+.sec8__content.t-pc .sec8__circle4 {
+  left: 100%;
+}
+.sec8__content.t-pc .sec8__date {
+  display: inline-block;
+  position: absolute;
+  top: -40px;
+  width: 120px;
+  margin-left: -50px;
+  font-size: 24px;
+  line-height: 36px;
+  color: #fff;
+  text-align: center;
+}
+.sec8__content.t-pc .sec8__info {
+  position: absolute;
+  width: 246px;
+  min-height: 230px;
+  top: 40px;
+  margin-left: -110px;
+  border: 1px solid #23c16b;
+  background-color: #315642;
+  border-radius: 5px;
+}
+.sec8__content.t-pc .sec8__triangle {
+  position: absolute;
+  width: 25px;
+  height: 14px;
+  top: -14px;
+  left: 100px;
+  background: url("../RJ-img/home-item8-trangle.png") center center/100% 100% no-repeat;
+}
+.sec8__content.t-pc .text__box {
+  padding: 15px 10px;
+}
+.sec8__content.t-pc .text {
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
 @media screen and (max-width: 768px) {
   .sh-box-header ul li.sh-mobile-nav ul li a.active {
     color: #de0032;
@@ -555,6 +639,10 @@ body {
     padding: 15px 55px;
     font-size: 14px;
     border-radius: 3px;
+  }
+
+  .sec1 {
+    overflow: hidden;
   }
 
   .sec1__content {
@@ -726,5 +814,84 @@ body {
     line-height: 24px;
     text-align: center;
     color: #666;
+  }
+
+  .sec8__content.t-mobile {
+    padding: 40px 0 40px 0;
+  }
+  .sec8__content.t-mobile .line {
+    float: left;
+    width: 1px;
+    height: 600px;
+    margin-top: 40px;
+    background-color: #fff;
+    margin-left: 35px;
+  }
+  .sec8__content.t-mobile .list {
+    float: left;
+  }
+  .sec8__content.t-mobile .item {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .sec8__content.t-mobile .sec8__circle {
+    display: inline-block;
+    float: left;
+    width: 10px;
+    height: 10px;
+    margin: 40px 0 0 -7px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background-color: #363636;
+    cursor: pointer;
+  }
+  .sec8__content.t-mobile .sec8__circle.active {
+    width: 24px;
+    height: 24px;
+    margin-left: -17px;
+    border: 5px solid #68e9a3;
+    background-color: #2bd679;
+    box-shadow: 0 0 15px #68e9a3;
+  }
+  .sec8__content.t-mobile .sec8__date {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    width: 100px;
+    margin-left: -50px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+  }
+  .sec8__content.t-mobile .sec8__date.active {
+    margin-left: -59px;
+    color: #23c16b;
+  }
+  .sec8__content.t-mobile .sec8__info {
+    position: relative;
+    margin-left: 80px;
+    border: 1px solid #23c16b;
+    background-color: #315642;
+    border-radius: 5px;
+  }
+  .sec8__content.t-mobile .sec8__info.active .sec8__triangle {
+    top: 43px;
+  }
+  .sec8__content.t-mobile .sec8__triangle {
+    position: absolute;
+    width: 14px;
+    height: 25px;
+    left: -14px;
+    top: 34px;
+    background: url("../RJ-img/home-item8-trangle2.png") center center/100% 100% no-repeat;
+  }
+  .sec8__content.t-mobile .text__box {
+    padding: 15px 10px;
+  }
+  .sec8__content.t-mobile .text {
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
   }
 }

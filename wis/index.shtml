@@ -181,7 +181,7 @@
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="right">
-                                        <img class="pc__img" src="RJ-img/home-item4-01.gif" alt="">
+                                        <img class="t-img" src="RJ-img/home-item4-01.gif" alt="">
                                     </div>
                                     <div class="left">
                                         <h3 class="title">网络工程师</h3>
@@ -198,7 +198,7 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="right">
-                                        <img class="mobile__img" src="RJ-img/home-item4-02.gif" alt="">
+                                        <img class="t-img" src="RJ-img/home-item4-02.gif" alt="">
                                     </div>
                                     <div class="left">
                                         <h3 class="title">直接使用者</h3>
@@ -307,7 +307,7 @@
         <div class="t-cont-item sec8">
             <div class="t-content">
                 <h2 class="t-main-title">WIS持续精进，只为更好的体验</h2>
-                <div class="sec8__content">
+                <div class="sec8__content t-pc">
                     <div class="line">
                         <div class="sec8__circle sec8__circle1">
                             <span class="sec8__date">2015年</span>
@@ -327,13 +327,13 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="sec8__circle sec8__circle3">
+                        <div class="sec8__circle sec8__circle3 active">
                             <span class="sec8__date">2017年</span>
                             <div class="sec8__info">
                                 <span class="sec8__triangle"></span>
                                 <div class="text__box">
                                     <p class="text">
-                                        推出WIS2.0构建大数据平台架构，使得大数据算法能够有效运用，推出专家诊断系统，AP接入量突破180万，累计服务3000万用户。
+                                        推出WIS2.0构建大数据平台架构，使得大数据算法能够有效运用，推出专家诊断系统，AP接入量突破180万，累计服务3000万用户。<br>
                                         Wi-Fi魔盒推出2.x版本，主打协作测试，覆盖了全球100多个国家，成为wifi行业APP标杆。
                                     </p>
                                 </div>
@@ -345,13 +345,64 @@
                                 <span class="sec8__triangle"></span>
                                 <div class="text__box">
                                     <p class="text">
-                                        引入大数据挖掘、边缘计算、AI等技术，引入AI增强学习网优，基线预测诊断引擎，AI智能反馈技术，
+                                        引入大数据挖掘、边缘计算、AI等技术，引入AI增强学习网优，基线预测诊断引擎，AI智能反馈技术，<br>
                                         全年接入量突破300万（12月底预计），累计服务全国3亿wifi用户
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="sec8__content t-mobile">
+                    <div class="line"></div>
+                    <ul class="lsit">
+                        <li class="item">
+                            <span class="sec8__circle sec8__circle1"></span>
+                            <span class="sec8__date">2015年</span>
+                            <div class="sec8__info">
+                                <span class="sec8__triangle"></span>
+                                <div class="text__box">
+                                    <p class="text">推出WIS无线智能系统，业界首创体验可视化、大数据无线网优理念</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <span class="sec8__circle sec8__circle2"></span>
+                            <span class="sec8__date">2016年</span>
+                            <div class="sec8__info">
+                                <span class="sec8__triangle"></span>
+                                <div class="text__box">
+                                    <p class="text">WIS在网优系统基础上推出全新无线智能服务体系，推出云地勘、wifi魔盒等系列工具，WIS AP接入量突破75万</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <span class="sec8__circle sec8__circle3 active"></span>
+                            <span class="sec8__date active">2017年</span>
+                            <div class="sec8__info active">
+                                <span class="sec8__triangle"></span>
+                                <div class="text__box">
+                                    <p class="text">
+                                        推出WIS2.0构建大数据平台架构，使得大数据算法能够有效运用，推出专家诊断系统，AP接入量突破180万，累计服务3000万用户。<br>
+                                        Wi-Fi魔盒推出2.x版本，主打协作测试，覆盖了全球100多个国家，成为wifi行业APP标杆。
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <span class="sec8__circle sec8__circle4"></span>
+                            <span class="sec8__date">2018年</span>
+                            <div class="sec8__info">
+                                <span class="sec8__triangle"></span>
+                                <div class="text__box">
+                                    <p class="text">
+                                        引入大数据挖掘、边缘计算、AI等技术，引入AI增强学习网优，基线预测诊断引擎，AI智能反馈技术，<br>
+                                        全年接入量突破300万（12月底预计），累计服务全国3亿wifi用户
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
