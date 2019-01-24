@@ -740,14 +740,89 @@ body {
 .sec11 .slide2 .row1 td {
   border-top: 0;
 }
+.sec11 .slide2 .row1 .num {
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+.sec11 .slide2 .row1 .speed {
+  padding: 0 40px;
+  font-size: 16px;
+}
+.sec11 .slide2 .row1 .speed span:first-child {
+  float: left;
+}
+.sec11 .slide2 .row1 .speed span:last-child {
+  float: right;
+}
 .sec11 .slide2 .row2 {
+  font-size: 30px;
   background-color: rgba(28, 199, 108, 0.1);
 }
 .sec11 .slide2 .row3 {
+  font-size: 30px;
+  color: #fff;
   background-color: rgba(28, 199, 108, 0.8);
 }
 .sec11 .slide2 .row3 td {
   border-bottom: 0;
+}
+.sec11 .slide3 {
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  background-image: url("../RJ-img/home-item11-bg3.jpg");
+}
+.sec11 .slide3 .t-main-title {
+  color: #fff;
+}
+.sec11 .slide3 .t-intro {
+  padding: 48px 0 45px 0;
+  color: #fff;
+}
+.sec11 .slide3 .table__box {
+  margin-bottom: 100px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.sec11 .slide3 .table {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+}
+.sec11 .slide3 table {
+  width: 100%;
+}
+.sec11 .slide3 table td {
+  width: 25%;
+  height: 48px;
+  padding: 0 15px;
+  color: #fff;
+  text-align: center;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+.sec11 .slide3 table td:first-child {
+  text-align: right;
+}
+.sec11 .slide3 table td:last-child {
+  border-right: 0;
+}
+.sec11 .slide3 table tr.active {
+  background: url("../RJ-img/home-item11-08.png") center center/100% 100% no-repeat;
+}
+.sec11 .slide3 table tr.active td {
+  height: 63px;
+}
+.sec11 .slide3 .list {
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.sec11 .slide3 .list li {
+  float: left;
+  width: 25%;
+  padding: 16px 0;
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
 }
 .sec11 .slide4 {
   background-color: #fff;
@@ -782,9 +857,11 @@ body {
   border: 0;
 }
 .sec11 .slide4 table td {
+  font-size: 30px;
   border-color: rgba(255, 255, 255, 0.3);
 }
 .sec11 .slide4 .row1 td {
+  font-size: 16px;
   border-top: 0;
 }
 .sec11 .slide4 .row1 td, .sec11 .slide4 .row2 td {

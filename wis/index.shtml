@@ -475,7 +475,7 @@
                                 </li>
                             </ul>
                         </div> -->
-                        <div class="swiper-slide slide2">
+                        <!-- <div class="swiper-slide slide2">
                             <h3 class="t-main-title">机场场景应用</h3>
                             <p class="t-intro">场景特点：建筑复杂、材质复杂，且由于安全性和其他考虑，施工部署不能严格按照地勘结果。<br>最终导致后期网络体验体验不佳，网优几乎无法进行。</p>
                             <h3 class="sub__title">WIS一键网优提升体验</h3>
@@ -484,12 +484,12 @@
                                     <tr class="row1">
                                         <td></td>
                                         <td>
-                                            <p>2.4G</p>
-                                            <p><span>上行速度</span><span>下行速度</span></p>
+                                            <p class="num">2.4G</p>
+                                            <p class="speed"><span>上行速度</span><span>下行速度</span></p>
                                         </td>
                                         <td>
-                                            <p>5.8G</p>
-                                            <p><span>上行速度</span><span>下行速度</span></p>
+                                            <p class="num">5.8G</p>
+                                            <p class="speed"><span>上行速度</span><span>下行速度</span></p>
                                         </td>
                                     </tr>
                                     <tr class="row2">
@@ -504,8 +504,71 @@
                                     </tr>
                                 </table>
                             </div>
+                        </div> -->
+                        <div class="swiper-slide slide3">
+                            <h2 class="t-main-title">阿里云栖高密大会场景应用</h2>
+                            <p class="t-intro">
+                                场景特点：高密度，高负载，高覆盖，高并发<br> 
+                                现场保障团队，通过WIS体验可视化，<br>
+                                让现场无线体验广受好评，0卡顿，0报障<br>
+                            </p>
+                            <div class="table__box">
+                                <div class="table">
+                                    <ul class="list clearfix">
+                                        <li></li>
+                                        <li>DAY1</li>
+                                        <li>DAY2</li>
+                                        <li>累计</li>
+                                    </ul>
+                                    <table cellspacing="0">
+                                        <tbody>
+                                            <tr class="active" data-index="1">
+                                                <td>在线用户峰值 </td>
+                                                <td>5619</td>
+                                                <td>4161</td>
+                                                <td>5619</td>
+                                            </tr>
+                                            <tr data-index="2">
+                                                <td>累计用户服务数</td>
+                                                <td>11419</td>
+                                                <td>8212</td>
+                                                <td>4312</td>
+                                            </tr>
+                                            <tr data-index="3">
+                                                <td>下行流量峰值</td>
+                                                <td>702Mbps</td>
+                                                <td>477Mbps</td>
+                                                <td>702Mbps</td>
+                                            </tr>
+                                            <tr data-index="4">
+                                                <td>上行流量峰值</td>
+                                                <td>138Mbps</td>
+                                                <td>120Mbps</td>
+                                                <td>138Mbps</td>
+                                            </tr>
+                                            <tr data-index="5">
+                                                <td>每千字节平均延时</td>
+                                                <td> &lt;50MS </td>
+                                                <td> &lt;20MS </td>
+                                                <td> &lt;50MS</td>
+                                            </tr>
+                                            <tr data-index="6">
+                                                <td>平均丢包率</td>
+                                                <td>&lt;4%</td>
+                                                <td>&lt;4%</td>
+                                                <td>&lt;4%</td>
+                                            </tr>
+                                            <tr data-index="7">
+                                                <td>无线总流量</td>
+                                                <td>2637 GB</td>
+                                                <td>2133 GB</td>
+                                                <td>4770 GB</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
                         </div>
-                        <!-- <div class="swiper-slide slide3"></div> -->
                         <div class="swiper-slide slide4">
                             <h2 class="t-main-title">高校宿舍场景应用</h2>
                             <p class="t-intro">

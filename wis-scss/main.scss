@@ -708,14 +708,89 @@ body {
       td {
         border-top: 0;
       }
+      .num {
+        margin-bottom: 30px;
+        font-size: 24px;
+      }
+      .speed {
+        padding: 0 40px;
+        font-size: 16px;
+        span:first-child {
+          float: left;
+        }
+        span:last-child {
+          float: right;
+        }
+      }
     }
     .row2 {
+      font-size: 30px;
       background-color: rgba(28, 199, 108, .1);
     }
     .row3 {
+      font-size: 30px;
+      color: #fff;
       background-color: rgba(28, 199, 108, .8);
       td {
         border-bottom: 0;
+      }
+    }
+  }
+  .slide3 {
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-image: url("../RJ-img/home-item11-bg3.jpg");
+    .t-main-title {
+      color: #fff;
+    }
+    .t-intro {
+      padding: 48px 0 45px 0;
+      color: #fff;
+    }
+    .table__box {
+      margin-bottom: 100px;
+      background-color: rgba(255, 255, 255, .1);
+    }
+    .table {
+      width: 100%;
+      max-width: 800px;
+      margin: auto;
+    }
+    table {
+      width: 100%;
+      td {
+        width: 25%;
+        height: 48px;
+        padding: 0 15px;
+        color: #fff;
+        text-align: center;
+        border-right: 1px solid rgba(255, 255, 255, .2);
+        &:first-child {
+          text-align: right;
+        }
+        &:last-child {
+          border-right: 0;
+        }
+      }
+      tr.active {
+        background: url("../RJ-img/home-item11-08.png") center center/100% 100% no-repeat;
+        td {
+          height: 63px;
+        }
+      }
+    }
+    .list {
+      margin-bottom: 20px;
+      border-bottom: 1px solid rgba(255, 255, 255, .2);
+      li {
+        float: left;
+        width: 25%;
+        padding: 16px 0;
+        font-size: 24px;
+        text-align: center;
+        color: #fff;
       }
     }
   }
@@ -750,11 +825,13 @@ body {
       color: #fff;
       border: 0;
       td {
+        font-size: 30px;
         border-color: rgba(255, 255, 255, .3);
       }
     }
     .row1 {
       td {
+        font-size: 16px;
         border-top: 0;
       }
     }
