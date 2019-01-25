@@ -634,11 +634,26 @@ body {
   color: #05823d;
 }
 
-.sec11 {
-  padding-bottom: 60px;
-}
 .sec11 .sec11__swiper {
   position: relative;
+}
+.sec11 .sec11__swiper .t-main-title {
+  padding-top: 50px;
+}
+.sec11 .sec11__swiper .swiper-slide {
+  min-height: 800px;
+}
+.sec11 .sec11__swiper .swiper-button-next {
+  width: 83px;
+  height: 83px;
+  right: 4%;
+  background: url("../RJ-img/home-item11-02.png") center center/100% 100% no-repeat;
+}
+.sec11 .sec11__swiper .swiper-button-prev {
+  width: 83px;
+  height: 83px;
+  left: 4%;
+  background: url("../RJ-img/home-item11-01.png") center center/100% 100% no-repeat;
 }
 .sec11 .slide1 {
   background-position: center top;
@@ -837,7 +852,7 @@ body {
   color: #2ec774;
 }
 .sec11 .slide4 .table__box {
-  padding: 67px 0 109px 0;
+  padding: 67px 0 116px 0;
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -874,7 +889,7 @@ body {
   border-left: 0;
 }
 .sec11 .slide4 .row2 td, .sec11 .slide4 .row3 td {
-  padding: 50px 0;
+  padding: 40px 0;
 }
 .sec11 .slide4 .row3 {
   background-color: rgba(28, 199, 108, 0.8);
@@ -892,34 +907,30 @@ body {
   width: 20%;
 }
 
-.sec12 .slide2 {
-  background-image: url("../RJ-img/home-item11-bg2.jpg");
+.sec12 {
+  padding-top: 60px;
 }
-.sec12 .slide3 {
-  background-image: url("../RJ-img/home-item11-bg3.jpg");
-}
-
-.sec13 .list {
+.sec12 .list {
   margin: 0 50px;
 }
-.sec13 .item {
+.sec12 .item {
   position: relative;
   float: left;
   width: 33.3333%;
   text-align: center;
 }
-.sec13 .item .text {
+.sec12 .item .text {
   padding: 40px 0 30px 0;
   font-size: 22px;
   line-height: 39px;
   color: #000;
 }
-.sec13 .item .t-img {
+.sec12 .item .t-img {
   display: block;
   max-width: 283px;
   margin: auto;
 }
-.sec13 .item .btn {
+.sec12 .item .btn {
   display: inline-block;
   padding: 8px 15px;
   margin-top: 40px;
@@ -929,12 +940,19 @@ body {
   background-color: #1cc76c;
   border-radius: 3px;
 }
-.sec13 .item .icon {
+.sec12 .item .icon {
   display: inline-block;
   vertical-align: top;
   width: 23px;
   height: 23px;
   background: url("../RJ-img/home-icon-08.png") center center/100% 100% no-repeat;
+}
+.sec12 .item .limit__icon {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -13px;
+  top: 30%;
 }
 
 @media screen and (max-width: 768px) {
@@ -1266,18 +1284,145 @@ body {
     line-height: 24px;
   }
 
-  .sec13 .list {
+  .sec11 .sec11__swiper .t-main-title {
+    padding-top: 40px;
+  }
+  .sec11 .sec11__swiper .swiper-slide {
+    min-height: 600px;
+  }
+  .sec11 .sec11__swiper .swiper-button-next, .sec11 .sec11__swiper .swiper-button-prev {
+    width: 43px;
+    height: 43px;
+  }
+  .sec11 .slide1 .t-main-title {
+    font-size: 24px;
+  }
+  .sec11 .slide1 .t-intro {
+    padding: 0 10px;
+    font-size: 14px;
+  }
+  .sec11 .slide1 .list {
+    padding: 40px 0 60px 0;
+  }
+  .sec11 .slide1 .item {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  .sec11 .slide1 .item .num__img {
+    width: 30%;
+  }
+  .sec11 .slide1 .item__content {
+    width: 100%;
+    top: 25px;
+  }
+  .sec11 .slide1 .title {
+    font-size: 18px;
+    padding-top: 12px;
+    margin-bottom: 8px;
+  }
+  .sec11 .slide1 .text {
+    padding: 0 15px 0 10px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .sec11 .slide2 .t-intro {
+    padding: 0 10px 40px 10px;
+  }
+  .sec11 .slide2 .sub__title {
+    font-size: 24px;
+  }
+  .sec11 .slide2 .table__box {
+    padding: 35px 0 60px 0;
+    width: auto;
+    margin: 0 15px;
+  }
+  .sec11 .slide2 table td {
+    height: 80px;
+  }
+  .sec11 .slide2 .row1 .num {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  .sec11 .slide2 .row1 .speed {
+    padding: 0 20px;
+    font-size: 14px;
+  }
+  .sec11 .slide2 .row1 .speed span {
+    display: block;
+  }
+  .sec11 .slide2 .row1 .speed span:first-child {
+    float: none;
+  }
+  .sec11 .slide2 .row1 .speed span:last-child {
+    float: none;
+  }
+  .sec11 .slide2 .row2 {
+    font-size: 20px;
+  }
+  .sec11 .slide2 .row3 {
+    font-size: 20px;
+  }
+  .sec11 .slide3 .t-intro {
+    padding: 0 0 45px 0;
+  }
+  .sec11 .slide3 .table__box {
+    margin-bottom: 60px;
+  }
+  .sec11 .slide3 table td {
+    padding: 0 10px;
+  }
+  .sec11 .slide3 table td:first-child {
+    text-align: center;
+  }
+  .sec11 .slide3 table tr.active td {
+    height: 63px;
+  }
+  .sec11 .slide3 .list li {
+    padding: 14px 0;
+    font-size: 20px;
+  }
+  .sec11 .slide4 .t-intro {
+    padding-top: 0;
+    margin-bottom: 40px;
+  }
+  .sec11 .slide4 .number {
+    font-size: 24px;
+  }
+  .sec11 .slide4 .table__box {
+    padding: 50px 10px 100px 10px;
+  }
+  .sec11 .slide4 table td {
+    font-size: 24px;
+  }
+  .sec11 .slide4 .row1 td {
+    font-size: 14px;
+  }
+  .sec11 .slide4 .row1 td, .sec11 .slide4 .row2 td {
+    padding: 20px 0 10px 0;
+  }
+  .sec11 .slide4 .row2 td, .sec11 .slide4 .row3 td {
+    padding: 20px 0;
+  }
+
+  .sec12 .list {
     margin: 0;
   }
-  .sec13 .item {
+  .sec12 .item {
     width: 100%;
+    padding-bottom: 20px;
   }
-  .sec13 .item .text {
+  .sec12 .item .text {
     padding: 10px 0 30px 0;
     font-size: 18px;
   }
-  .sec13 .item .btn {
+  .sec12 .item .btn {
     margin-top: 10px;
     font-size: 18px;
+  }
+  .sec12 .item .limit__icon {
+    right: 50%;
+    margin-right: -13px;
+    top: auto;
+    bottom: -13px;
   }
 }

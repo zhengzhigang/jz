@@ -437,7 +437,7 @@
             <div class="sec11__swiper">
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
-                        <!-- <div class="swiper-slide slide1">
+                        <div class="swiper-slide slide1">
                             <h2 class="t-main-title">GITC会议场景应用</h2>
                             <p class="t-intro">使用WIS大大提高部署时间，也为会场用户提供高品质体验</p>
                             <ul class="list clearfix">
@@ -474,8 +474,8 @@
                                     </div>
                                 </li>
                             </ul>
-                        </div> -->
-                        <!-- <div class="swiper-slide slide2">
+                        </div>
+                        <div class="swiper-slide slide2">
                             <h3 class="t-main-title">机场场景应用</h3>
                             <p class="t-intro">场景特点：建筑复杂、材质复杂，且由于安全性和其他考虑，施工部署不能严格按照地勘结果。<br>最终导致后期网络体验体验不佳，网优几乎无法进行。</p>
                             <h3 class="sub__title">WIS一键网优提升体验</h3>
@@ -504,7 +504,7 @@
                                     </tr>
                                 </table>
                             </div>
-                        </div> -->
+                        </div>
                         <div class="swiper-slide slide3">
                             <h2 class="t-main-title">阿里云栖高密大会场景应用</h2>
                             <p class="t-intro">
@@ -605,16 +605,18 @@
                 <div class="swiper-button-prev"></div>
             </div>
         </div>
-        <div class="t-cont-item sec13">
+        <div class="t-cont-item sec12">
             <div class="t-content">
                 <ul class="list clearfix">
                     <li class="item">
                         <img class="t-img" src="RJ-img/home-item12-01.png" alt="" class="t-img">
                         <p class="text">扫一扫二维码关注</p>
+                        <img src="RJ-img/home-icon-07.png" alt="" class="limit__icon">
                     </li>
                     <li class="item">
                         <img class="t-img" src="RJ-img/home-item12-02.png" alt="" class="t-img">
                         <a href="http://wis.ruijie.com.cn/" class="btn">点击进入WIS的美妙世界 <i class="icon"></i></a>
+                        <img src="RJ-img/home-icon-07.png" alt="" class="limit__icon">
                     </li>
                     <li class="item">
                         <img class="t-img" src="RJ-img/home-item12-03.png" alt="" class="t-img">

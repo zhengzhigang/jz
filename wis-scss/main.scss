@@ -606,9 +606,26 @@ body {
   }
 }
 .sec11 {
-  padding-bottom: 60px;
   .sec11__swiper {
     position: relative;
+    .t-main-title {
+      padding-top: 50px;
+    }
+    .swiper-slide {
+      min-height: 800px;
+    }
+    .swiper-button-next {
+      width: 83px;
+      height: 83px;
+      right: 4%;
+      background: url("../RJ-img/home-item11-02.png") center center/100% 100% no-repeat;
+    }
+    .swiper-button-prev {
+      width: 83px;
+      height: 83px;
+      left: 4%;;
+      background: url("../RJ-img/home-item11-01.png") center center/100% 100% no-repeat;
+    }
   }
   .slide1 {
     background-position: center top;
@@ -806,7 +823,7 @@ body {
       color: #2ec774;
     }
     .table__box {
-      padding: 67px 0 109px 0;
+      padding: 67px 0 116px 0;
       background-position: center top;
       background-repeat: no-repeat;
       background-size: cover;
@@ -847,7 +864,7 @@ body {
       }
     }
     .row2 td, .row3 td {
-      padding: 50px 0;
+      padding: 40px 0;
     }
     .row3 {
       background-color: rgba(28, 199, 108, .8);
@@ -869,14 +886,7 @@ body {
   }
 }
 .sec12 {
-  .slide2 {
-    background-image: url("../RJ-img/home-item11-bg2.jpg");
-  }
-  .slide3 {
-    background-image: url("../RJ-img/home-item11-bg3.jpg");
-  }
-}
-.sec13 {
+  padding-top: 60px;
   .list {
     margin: 0 50px;
   }
@@ -912,6 +922,13 @@ body {
       width: 23px;
       height: 23px;
       background: url("../RJ-img/home-icon-08.png") center center/100% 100% no-repeat;
+    }
+    .limit__icon {
+      position: absolute;
+      width: 25px;
+      height: 25px;
+      right: -13px;
+      top: 30%;
     }
   }
 }
@@ -1240,13 +1257,160 @@ body {
       }
     }
   }
-
-  .sec13 {
+  .sec11 {
+    .sec11__swiper {
+      .t-main-title {
+        padding-top: 40px;
+      }
+      .swiper-slide {
+        min-height: 600px;
+      }
+      .swiper-button-next, .swiper-button-prev {
+        width: 43px;
+        height: 43px;
+      }
+    }
+    .slide1 {
+      .t-main-title {
+        font-size: 24px;
+      }
+      .t-intro {
+        padding: 0 10px;
+        font-size: 14px;
+      }
+      .list {
+        padding: 40px 0 60px 0;
+      }
+      .item {
+        width: 50%;
+        margin-bottom: 20px;
+        .num__img {
+          width: 30%;
+        }
+      }
+      .item__content {
+        width: 100%;
+        top: 25px;
+      }
+      .title {
+        font-size: 18px;
+        padding-top: 12px;
+        margin-bottom: 8px;
+      }
+      .text {
+        padding: 0 15px 0 10px;
+        font-size: 12px;
+        line-height: 18px;
+      }
+    }
+    .slide2 {
+      .t-intro {
+        padding: 0 10px 40px 10px;
+      }
+      .sub__title {
+        font-size: 24px;
+      }
+      .table__box {
+        padding: 35px 0 60px 0;
+        width: auto;
+        margin: 0 15px;
+      }
+      table {
+        td {
+          height: 80px;
+        }
+      }
+      .row1 {
+        .num {
+          margin-bottom: 15px;
+          font-size: 18px;
+        }
+        .speed {
+          padding: 0 20px;
+          font-size: 14px;
+          span {
+            display: block
+          }
+          span:first-child {
+            float: none;
+          }
+          span:last-child {
+            float: none;
+          }
+        }
+      }
+      .row2 {
+        font-size: 20px;
+      }
+      .row3 {
+        font-size: 20px;
+      }
+    }
+    .slide3 {
+      .t-intro {
+        padding: 0 0 45px 0;
+      }
+      .table__box {
+        margin-bottom: 60px;
+      }
+      table {
+        td {
+          padding: 0 10px;
+          &:first-child {
+            text-align: center;
+          }
+        }
+        tr.active {
+          td {
+            height: 63px;
+          }
+        }
+      }
+      .list {
+        li {
+          padding: 14px 0;
+          font-size: 20px;
+        }
+      }
+    }
+    .slide4 {
+      .t-intro {
+        padding-top: 0;
+        margin-bottom: 40px;
+      }
+      .number {
+        font-size: 24px;
+      }
+      .table__box {
+        padding: 50px 10px 100px 10px;
+      }
+      table {
+        td {
+          font-size: 24px;
+        }
+      }
+      .row1 {
+        td {
+          font-size: 14px;
+        }
+      }
+      .row1, .row2 {
+        td {
+          padding: 20px 0 10px 0;
+        }
+      }
+      .row2 td, .row3 td {
+        padding: 20px 0;
+      }
+    }
+  }
+  .sec12 {
     .list {
       margin: 0;
     }
     .item {
       width: 100%;
+      padding-bottom: 20px;
       .text {
         padding: 10px 0 30px 0;
         font-size: 18px;
@@ -1254,6 +1418,12 @@ body {
       .btn {
         margin-top: 10px;
         font-size: 18px;
+      }
+      .limit__icon {
+        right: 50%;
+        margin-right: -13px;
+        top: auto;
+        bottom: -13px;
       }
     }
   }
