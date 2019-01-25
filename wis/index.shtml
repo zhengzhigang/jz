@@ -96,7 +96,7 @@
                         <div class="title">
                             <img src="RJ-img/home-item1-02.png" alt="">
                         </div>
-                        <h3 class="t-sub-title">服务3亿Wi-Fi用户    让无线体验看得见</h3>
+                        <h3 class="t-sub-title">服务3亿Wi-Fi用户&nbsp;&nbsp;&nbsp;&nbsp;让无线体验看得见</h3>
                         <ul class="list">
                             <li>
                                 <i class="icon icon1"></i>
@@ -116,7 +116,7 @@
                                 </li>
                         </ul>
                         <div class="bottom clearfix">
-                            <a href="http://www.ruijie.com.cn/cp/wx-wxglyyy/" class="sec1__more">点我查看更多内容 <i class="icon"></i></a> |
+                            <a href="http://www.ruijie.com.cn/cp/wx-wxglyyy/" class="sec1__more">点我查看更多内容 <i class="icon"></i></a> <span class="t-pc">|</span>
                             <a href="http://www.ruijie.com.cn/cp/wx-wxglyyy/wis/" class="sec1__consult">点我进行咨询 <i class="icon"></i></a>
                         </div>
                    </div>
@@ -414,18 +414,24 @@
                 <ul class="list clearfix">
                     <li class="item">
                         <img class="t-img" src="RJ-img/home-item9-01.png" alt="">
+                        <h3 class="title">会场应用</h3>
+                        <p class="t-intro">应用场景：会议部署使用</p>
+                        <p class="text">快速部署，保障体验</p>
+                    </li>
+                    <li class="item">
+                        <img class="t-img" src="RJ-img/home-item9-02.png" alt="">
                         <h3 class="title">复杂建筑应用</h3>
                         <p class="t-intro">应用场景：机场部署使用</p>
                         <p class="text">建筑复杂，导致网优非常难调</p>
                     </li>
                     <li class="item">
-                        <img class="t-img" src="RJ-img/home-item9-02.png" alt="">
+                        <img class="t-img" src="RJ-img/home-item9-03.png" alt="">
                         <h3 class="title">密集应用</h3>
                         <p class="t-intro">应用场景：高密会议部署使用</p>
                         <p class="text">0卡顿，0报障</p>
                     </li>
                     <li class="item">
-                        <img class="t-img" src="RJ-img/home-item9-03.png" alt="">
+                        <img class="t-img" src="RJ-img/home-item9-04.png" alt="">
                         <h3 class="title">宿舍应用</h3>
                         <p class="t-intro">应用场景：宿舍部署使用</p>
                         <p class="text">终端优化，满足游戏需求</p>
@@ -494,13 +500,19 @@
                                     </tr>
                                     <tr class="row2">
                                         <td>调优前</td>
-                                        <td><span>6.66</span><span>4.02</span></td>
-                                        <td><span>6.66</span><span>4.02</span></td>
+                                        <td>
+                                            <p class="speed"><span>6.66</span><span>4.02</span></p>
+                                        </td>
+                                        <td><p class="speed"><span>6.66</span><span>4.02</span></p></td>
                                     </tr>
                                     <tr class="row3">
                                         <td>调优后</td>
-                                        <td><span>42.6</span><span>31.9</span></td>
-                                        <td><span>35.97</span><span>37.51</span></td>
+                                        <td>
+                                            <p class="speed"><span>42.6</span><span>31.9</span></p>
+                                        </td>
+                                        <td>
+                                            <p class="speed"><span>35.97</span><span>37.51</span></p>
+                                        </td>
                                     </tr>
                                 </table>
                             </div>
