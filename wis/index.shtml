@@ -327,7 +327,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="sec8__circle sec8__circle3 active">
+                        <div class="sec8__circle sec8__circle3">
                             <span class="sec8__date">2017年</span>
                             <div class="sec8__info">
                                 <span class="sec8__triangle"></span>
@@ -377,9 +377,9 @@
                             </div>
                         </li>
                         <li class="item">
-                            <span class="sec8__circle sec8__circle3 active"></span>
+                            <span class="sec8__circle sec8__circle3"></span>
                             <span class="sec8__date active">2017年</span>
-                            <div class="sec8__info active">
+                            <div class="sec8__info">
                                 <span class="sec8__triangle"></span>
                                 <div class="text__box">
                                     <p class="text">
@@ -632,7 +632,7 @@
                     </li>
                     <li class="item">
                         <img class="t-img" src="RJ-img/home-item12-03.png" alt="" class="t-img">
-                        <p class="text">扫一扫二维码关注</p>
+                        <p class="text">wis@ruijie.com.cn</p>
                     </li>
                 </ul>
             </div>
