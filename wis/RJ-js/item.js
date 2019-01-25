@@ -3,9 +3,8 @@ $(function() {
         nextButton: '.swiper-button-next',
         prevButton: '.swiper-button-prev',
         centeredSlides: true,
-        // autoplay: 2500,
+        autoplay: 2500,
         loop: true,
-        autoHeight: true,
         autoplayDisableOnInteraction: false
     }
     new Swiper('.sec4__swiper .swiper-container', option);
