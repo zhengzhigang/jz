@@ -1,0 +1,190 @@
+@charset "utf-8";
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+input,
+textarea,
+p,
+th,
+td,
+tr,
+table,
+tbody,
+thead,
+tfoot,
+em,
+strong,
+span {
+  padding: 0;
+  margin: 0;
+  font-family: arial, "微软雅黑";
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+img {
+  border: 0 none;
+}
+input {
+  vertical-align: middle;
+}
+em {
+  font-weight: normal;
+  font-style: normal;
+}
+ol,
+ul {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  font-size: 100%;
+}
+body {
+  position: relative;
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: '\20';
+  display: block;
+  clear: both;
+}
+._fl {
+  float: left;
+}
+._fr {
+  float: right;
+}
+.none {
+  display: none;
+}
+
+/*-------common---------*/
+.t-mobile {
+  display: none;
+}
+/* 主体容器 */
+.t-main {
+  width: 100%;
+  margin: 0 auto;
+  color: #202020;
+}
+/* item统一背景样式 */
+.t-cont-item {
+  width: 100%;
+  margin: 0 auto;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+/* item主体内容区 */
+.t-content {
+  position: relative;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+/* 通用一级标题 */
+.t-main-title {
+  font-weight: normal;
+  font-size: 42px;
+  text-align: center;
+  color: #000;
+  padding-top: 60px;
+  margin: 0 80px;
+}
+/* 通用二级标题 */
+.t-sub-title {
+  font-weight: normal;
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+}
+/* 通用文字 */
+.t-intro,
+.t-intro p {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #000;
+}
+.t-img {
+  position: relative;
+  text-align: center;
+  z-index: 1;
+}
+.t-img img {
+  width: auto;
+  max-width: 100%;
+}
+
+/*--------自定义样式--------*/
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+}
+@media screen and (max-width: 768px) {
+  .sh-box-header ul li.sh-mobile-nav ul li a.active {
+    color: #de0032;
+  }
+  .t-pc {
+    display: none;
+  }
+  .t-mobile {
+    display: block;
+  }
+  .t-cont-item {
+    height: auto;
+  }
+  .t-content {
+    max-width: auto;
+    width: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .t-intro {
+    font-size: 16px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+  }
+  .t-main-title {
+    font-size: 24px;
+    padding-top: 35px;
+    margin: 0 10px;
+  }
+  .t-sub-title {
+    font-size: 18px;
+  }
+  .t-intro,
+  .t-intro p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  /*--------自定义样式--------*/
+
+}
+@media screen and (max-width: 320px) {
+
+}

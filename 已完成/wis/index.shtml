@@ -94,7 +94,7 @@
                 <div class="sec1__content clearfix">
                    <div class="left">
                         <div class="title">
-                            <img src="RJ-img/home-item1-02.png" alt="">
+                            <img src="RJ-img/home-item1-02.png">
                         </div>
                         <h3 class="t-sub-title">服务3亿Wi-Fi用户&nbsp;&nbsp;&nbsp;&nbsp;让无线体验看得见</h3>
                         <ul class="list">
@@ -121,9 +121,9 @@
                         </div>
                    </div>
                    <div class="right">
-                       <img class="t-img" src="RJ-img/home-item1-01.png" alt="">
-                       <img class="line__img__right" src="RJ-img/home-item1-03.png" alt="">
-                       <img class="line__img__left" src="RJ-img/home-item1-04.png" alt="">
+                       <img class="t-img" src="RJ-img/home-item1-01.png" >
+                       <img class="line__img__right" src="RJ-img/home-item1-03.png" >
+                       <img class="line__img__left" src="RJ-img/home-item1-04.png" >
                    </div>
                 </div>
             </div>
@@ -147,17 +147,17 @@
                 <div class="sec3__content">
                     <ul class="list clearfix">
                         <li class="item">
-                            <img class="t-img" src="RJ-img/home-item3-01.png" alt="">
+                            <img class="t-img" src="RJ-img/home-item3-01.png" >
                             <p class="text">交付复杂</p>
                             <p class="t-intro">无线部署工作量大，全靠人堆<br>交付验收成果难以保障</p>
                         </li>
                         <li class="item">
-                            <img class="t-img" src="RJ-img/home-item3-02.png" alt="">
+                            <img class="t-img" src="RJ-img/home-item3-02.png" >
                             <p class="text">体验不佳</p>
                             <p class="t-intro">原因复杂，存在覆盖、干扰、接<br>入、认证、漫游五大“天坑”</p>
                         </li>
                         <li class="item">
-                            <img class="t-img" src="RJ-img/home-item3-03.png" alt="">
+                            <img class="t-img" src="RJ-img/home-item3-03.png" >
                             <p class="text">海量运维</p>
                             <p class="t-intro">故障难定位，网优复杂<br>人海战术也搞不定</p>
                         </li>
@@ -181,7 +181,7 @@
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="right">
-                                        <img class="t-img" src="RJ-img/home-item4-01.gif" alt="">
+                                        <img class="t-img" src="RJ-img/home-item4-01.gif" >
                                     </div>
                                     <div class="left">
                                         <h3 class="title">网络工程师</h3>
@@ -198,7 +198,7 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="right">
-                                        <img class="t-img" src="RJ-img/home-item4-02.gif" alt="">
+                                        <img class="t-img" src="RJ-img/home-item4-02.gif" >
                                     </div>
                                     <div class="left">
                                         <h3 class="title">直接使用者</h3>
@@ -225,7 +225,7 @@
             <div class="t-content">
                 <h2 class="t-main-title">从建设到交付，WIS构建高品质无线网络</h2>
                 <div class="sec5__content">
-                    <img class="t-img" src="RJ-img/home-item5-01.png" alt="">
+                    <img class="t-img" src="RJ-img/home-item5-01.png" >
                 </div>
             </div>
         </div>
@@ -235,7 +235,7 @@
                 <div class="sec6__content clearfix">
                     <ul class="list clearfix">
                         <li class="item">
-                            <img class="t-img" src="RJ-img/home-item6-02.png" alt="">
+                            <img class="t-img" src="RJ-img/home-item6-02.png" >
                             <h3 class="text">AI体验可视</h3>
                             <div class="mask__info">
                                 <div class="box">
@@ -246,7 +246,7 @@
                             </div>
                         </li>
                         <li class="item">
-                            <img class="t-img" src="RJ-img/home-item6-03.png" alt="">
+                            <img class="t-img" src="RJ-img/home-item6-03.png" >
                             <h3 class="text">AI网络诊断</h3>
                             <div class="mask__info">
                                 <div class="box">
@@ -257,7 +257,7 @@
                             </div>
                         </li>
                         <li class="item">
-                            <img class="t-img" src="RJ-img/home-item6-04.png" alt="">
+                            <img class="t-img" src="RJ-img/home-item6-04.png" >
                             <h3 class="text">AI网络优化</h3>
                             <div class="mask__info">
                                 <div class="box">
@@ -268,7 +268,7 @@
                             </div>
                         </li>
                         <li class="item">
-                            <img class="t-img" src="RJ-img/home-item6-02.png" alt="">
+                            <img class="t-img" src="RJ-img/home-item6-02.png" >
                             <h3 class="text">AI智能反馈</h3>
                             <div class="mask__info">
                                 <div class="box">
@@ -289,15 +289,15 @@
                     <p class="t-intro">全面的网络风险监测平台，支持移动<br>实时播报，让网络安心省心放心</p>
                     <ul class="list clearfix">
                         <li class="item">
-                            <img class="t-img" src="RJ-img/home-item7-01.png" alt="">
+                            <img class="t-img" src="RJ-img/home-item7-01.png" >
                             <p class="text">云交付、云运维、云巡检、云诊断</p>
                         </li>
                         <li class="item">
-                            <img class="t-img" src="RJ-img/home-item7-02.png" alt="">
+                            <img class="t-img" src="RJ-img/home-item7-02.png" >
                             <p class="text">APP扫描、点位规划、无线体验验收、漫游验收、移动运维</p>
                         </li>
                         <li class="item">
-                            <img class="t-img" src="RJ-img/home-item7-03.png" alt="">
+                            <img class="t-img" src="RJ-img/home-item7-03.png" >
                             <p class="text">项目初期网络部署规划工具</p>
                         </li>
                     </ul>
@@ -413,25 +413,25 @@
             <div class="t-content">
                 <ul class="list clearfix">
                     <li class="item">
-                        <img class="t-img" src="RJ-img/home-item9-01.png" alt="">
+                        <img class="t-img" src="RJ-img/home-item9-01.png" >
                         <h3 class="title">会场应用</h3>
                         <p class="t-intro">应用场景：会议部署使用</p>
                         <p class="text">快速部署，保障体验</p>
                     </li>
                     <li class="item">
-                        <img class="t-img" src="RJ-img/home-item9-02.png" alt="">
+                        <img class="t-img" src="RJ-img/home-item9-02.png" >
                         <h3 class="title">复杂建筑应用</h3>
                         <p class="t-intro">应用场景：机场部署使用</p>
                         <p class="text">建筑复杂，导致网优非常难调</p>
                     </li>
                     <li class="item">
-                        <img class="t-img" src="RJ-img/home-item9-03.png" alt="">
+                        <img class="t-img" src="RJ-img/home-item9-03.png" >
                         <h3 class="title">密集应用</h3>
                         <p class="t-intro">应用场景：高密会议部署使用</p>
                         <p class="text">0卡顿，0报障</p>
                     </li>
                     <li class="item">
-                        <img class="t-img" src="RJ-img/home-item9-04.png" alt="">
+                        <img class="t-img" src="RJ-img/home-item9-04.png" >
                         <h3 class="title">宿舍应用</h3>
                         <p class="t-intro">应用场景：宿舍部署使用</p>
                         <p class="text">终端优化，满足游戏需求</p>
@@ -448,33 +448,33 @@
                             <p class="t-intro">使用WIS大大提高部署时间，也为会场用户提供高品质体验</p>
                             <ul class="list clearfix">
                                 <li class="item">
-                                    <img src="RJ-img/home-item11-07.png" alt="" class="t-img">
+                                    <img src="RJ-img/home-item11-07.png"  class="t-img">
                                     <div class="item__content">
-                                        <img class="num__img" src="RJ-img/home-item11-03.png" alt="">
+                                        <img class="num__img" src="RJ-img/home-item11-03.png" >
                                         <h3 class="title">提升部署效率</h3>
                                         <p class="text">使用APP扫描进行点位规划，200+台AP的规划时间可由原来的一天缩短为2小时</p>
                                     </div>
                                 </li>
                                 <li class="item">
-                                    <img src="RJ-img/home-item11-07.png" alt="" class="t-img">
+                                    <img src="RJ-img/home-item11-07.png"  class="t-img">
                                     <div class="item__content">
-                                        <img class="num__img" src="RJ-img/home-item11-04.png" alt="">
+                                        <img class="num__img" src="RJ-img/home-item11-04.png" >
                                         <h3 class="title">提升部署效率</h3>
                                         <p class="text">使用APP扫原来需要严格配置AP名、按照物理位置进行规划，现在无需前置条件，只需一键规划</p>
                                     </div>
                                 </li>
                                 <li class="item">
-                                    <img src="RJ-img/home-item11-07.png" alt="" class="t-img">
+                                    <img src="RJ-img/home-item11-07.png"  class="t-img">
                                     <div class="item__content">
-                                        <img class="num__img" src="RJ-img/home-item11-05.png" alt="">
+                                        <img class="num__img" src="RJ-img/home-item11-05.png" >
                                         <h3 class="title">提升网优效率</h3>
                                         <p class="text">原来高密会议需要各点位测试确定网优参数，现在只需一键</p>
                                     </div>
                                 </li>
                                 <li class="item">
-                                    <img src="RJ-img/home-item11-07.png" alt="" class="t-img">
+                                    <img src="RJ-img/home-item11-07.png"  class="t-img">
                                     <div class="item__content">
-                                        <img class="num__img" src="RJ-img/home-item11-06.png" alt="">
+                                        <img class="num__img" src="RJ-img/home-item11-06.png" >
                                         <h3 class="title">提升体验</h3>
                                         <p class="text">全网会议全时段体验优良者占比96%，平均延时再26ms内，平均丢包3%内</p>
                                     </div>
@@ -621,17 +621,17 @@
             <div class="t-content">
                 <ul class="list clearfix">
                     <li class="item">
-                        <img class="t-img" src="RJ-img/home-item12-01.png" alt="" class="t-img">
+                        <img class="t-img" src="RJ-img/home-item12-01.png"  class="t-img">
                         <p class="text">扫一扫二维码关注</p>
-                        <img src="RJ-img/home-icon-07.png" alt="" class="limit__icon">
+                        <img src="RJ-img/home-icon-07.png"  class="limit__icon">
                     </li>
                     <li class="item">
-                        <img class="t-img" src="RJ-img/home-item12-02.png" alt="" class="t-img">
+                        <img class="t-img" src="RJ-img/home-item12-02.png"  class="t-img">
                         <a href="http://wis.ruijie.com.cn/" class="btn" target="_blank">点击进入WIS的美妙世界 <i class="icon"></i></a>
-                        <img src="RJ-img/home-icon-07.png" alt="" class="limit__icon">
+                        <img src="RJ-img/home-icon-07.png"  class="limit__icon">
                     </li>
                     <li class="item">
-                        <img class="t-img" src="RJ-img/home-item12-03.png" alt="" class="t-img">
+                        <img class="t-img" src="RJ-img/home-item12-03.png"  class="t-img">
                         <p class="text">wis@ruijie.com.cn</p>
                     </li>
                 </ul>
