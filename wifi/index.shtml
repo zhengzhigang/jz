@@ -36,6 +36,7 @@
     <!--js脚本请放在此处-->
     <script type="text/javascript" src="RJ-js/jquery.js"></script>
     <script type="text/javascript" src="RJ-js/swiper.min.js"></script>
+    <script type="text/javascript" src="RJ-js/header.js"></script>
     <script type="text/javascript" src="RJ-js/item.js"></script>
     <!--正文开始-->
 
@@ -46,17 +47,163 @@
 
     <!-- header start -->
     <div class="header">
-        <div class="t-pc header-top"></div>
-        <ul class="t-pc">
-            <li>
-                <img src="RJ-img" alt="">
+        <div class="t-pc header-top">
+            <a class="rj__link " href="http://www.ruijie.com.cn/">
+                <img class="logo" src="RJ-img/logo.png">
+                <img class="point" src="RJ-img/s_ArticleDetails_yudianred.png">
+                <span class="text">官网首页</span>
+            </a>
+        </div>
+        <ul class="t-pc header-list clearfix">
+            <li class="header-item active">
+                <i class="header-icon header-icon__01"></i>
+                <span class="text">行业发展和用户需求变化</span>
+                <ul class="sub-nav">
+                    <li class="sub-item clearfix" data-index="1">
+                        <span class="circle-poiot"></span>
+                        <span class="sub-text">行业发展</span>
+                    </li>
+                    <li class="sub-item clearfix" data-index="2">
+                        <span class="circle-poiot"></span>
+                        <span class="sub-text">客户需求变化</span>
+                    </li>
+                </ul>
+            </li>
+            <li class="header-item">
+                <i class="header-icon header-icon__02"></i>
+                <span class="text">用户需要什么样的“无线好体验”</span>
+                <ul class="sub-nav">
+                    <li class="sub-item clearfix" data-index="3">
+                        <span class="circle-poiot"></span>
+                        <span class="sub-text">什么是真正的无线好体验</span>
+                    </li>
+                    <li class="sub-item clearfix" data-index="4">
+                        <span class="circle-poiot"></span>
+                        <span class="sub-text">用户心中的“无线好体验”</span>
+                    </li>
+                </ul>
+            </li>
+            <li class="header-item">
+                <i class="header-icon header-icon__03"></i>
+                <span class="text">无线体验如何能看见</span>
+                <ul class="sub-nav">
+                    <li class="sub-item clearfix" data-index="5">
+                        <span class="circle-poiot"></span>
+                        <span class="sub-text">用户感受到的“看得见”</span>
+                    </li>
+                    <li class="sub-item clearfix" data-index="6">
+                        <span class="circle-poiot"></span>
+                        <span class="sub-text">从建设到交付实现“看得见”</span>
+                    </li>
+                </ul>
+            </li>
+            <li class="header-item">
+                <i class="header-icon header-icon__04"></i>
+                <span class="text">好体验如何实现</span>
+                <ul class="sub-nav">
+                    <li class="sub-item clearfix" data-index="7">
+                        <span class="circle-poiot"></span>
+                        <span class="sub-text">三射频技术打造高密场景好体验</span>
+                    </li>
+                    <li class="sub-item clearfix" data-index="8">
+                        <span class="circle-poiot"></span>
+                        <span class="sub-text">场景化创新支撑不同应用好体验</span>
+                    </li>
+                </ul>
+            </li>
+            <li class="header-item">
+                <i class="header-icon header-icon__05"></i>
+                <span class="text">好体验在用户端的实际表现</span>
+                <ul class="sub-nav">
+                    <li class="sub-item clearfix" data-index="9">
+                        <span class="circle-poiot"></span>
+                        <span class="sub-text">各行业最佳实践</span>
+                    </li>
+                </ul>
             </li>
         </ul>
+        <div class="t-mobile">
+            <a class="rj__link " href="http://www.ruijie.com.cn/">
+                <img class="logo" src="RJ-img/logo.png">
+                <img class="point" src="RJ-img/s_ArticleDetails_yudianred.png">
+                <span class="text">官网首页</span>
+            </a>
+            <span class="header-button">
+                <i></i>
+            </span>
+        </div>
+        <div class="header-mask t-mobile">
+            <ul class="header-mobile-list">
+                <li class="mobile-list-item">
+                    <p>行业发展和用户需求变化</p>
+                    <ul class="sub-list">
+                        <li class="sub-item">
+                            <i class="circle-poiot"></i>
+                            行业发展
+                        </li>
+                        <li class="sub-item">
+                            <i class="circle-poiot"></i>
+                            客户需求变化
+                        </li>
+                    </ul>
+                </li>
+                <li class="mobile-list-item">
+                    <p>用户需要什么样的“无线好体验”</p>
+                    <ul class="sub-list">
+                        <li class="sub-item">
+                            <i class="circle-poiot"></i>
+                            什么是真正的无线好体验
+                        </li>
+                        <li class="sub-item">
+                            <i class="circle-poiot"></i>
+                            用户心中的“无线好体验”
+                        </li>
+                    </ul>
+                </li>
+                <li class="mobile-list-item">
+                    <p>无线体验如何能看见</p>
+                    <ul class="sub-list">
+                        <li class="sub-item">
+                            <i class="circle-poiot"></i>
+                            用户感受到的“看得见”
+                        </li>
+                        <li class="sub-item">
+                            <i class="circle-poiot"></i>
+                            从建设到交付实现“看得见”
+                        </li>
+                    </ul>
+                </li>
+                <li class="mobile-list-item">
+                    <p>好体验如何实现</p>
+                    <ul class="sub-list">
+                        <li class="sub-item">
+                            <i class="circle-poiot"></i>
+                            三射频技术打造高密场景好体验
+                        </li>
+                        <li class="sub-item">
+                            <i class="circle-poiot"></i>
+                            场景化创新支撑不同应用好体验
+                        </li>
+                    </ul>
+                </li>
+                <li class="mobile-list-item">
+                    <p>好体验在用户端的实际表现</p>
+                    <ul class="sub-list">
+                        <li class="sub-item">
+                            <i class="circle-poiot"></i>
+                            各行业最佳实践
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
     </div>
     <!-- header end -->
 
     <!--正文开始-->
-
+    <div class="main">
+        casdsa
+    </div>
     <!--正文结束-->
 
     <script type='text/javascript'>

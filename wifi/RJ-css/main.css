@@ -1,0 +1,482 @@
+@charset "UTF-8";
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+input,
+textarea,
+p,
+th,
+td,
+tr,
+table,
+tbody,
+thead,
+tfoot,
+em,
+strong,
+span {
+  padding: 0;
+  margin: 0;
+  font-family: arial, "微软雅黑";
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  border: 0 none;
+}
+
+input {
+  vertical-align: middle;
+}
+
+em {
+  font-weight: normal;
+  font-style: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  font-size: 100%;
+}
+
+body {
+  position: relative;
+  color: #333;
+}
+
+html, body {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.clearfix:after {
+  content: '\20';
+  display: block;
+  clear: both;
+}
+
+._fl {
+  float: left;
+}
+
+._fr {
+  float: right;
+}
+
+.none {
+  display: none;
+}
+
+/*-------common---------*/
+.t-mobile {
+  display: none;
+}
+
+/* 主体容器 */
+.t-main {
+  width: 100%;
+  margin: 0 auto;
+  color: #202020;
+}
+
+/* item统一背景样式 */
+.t-cont-item {
+  width: 100%;
+  margin: 0 auto;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+/* item主体内容区 */
+.t-content {
+  position: relative;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* 通用一级标题 */
+.t-main-title {
+  font-weight: normal;
+  font-size: 42px;
+  text-align: center;
+  color: #000;
+  padding-top: 60px;
+  margin: 0 80px;
+}
+
+/* 通用二级标题 */
+.t-sub-title {
+  font-weight: normal;
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+}
+
+/* 通用文字 */
+.t-intro,
+.t-intro p {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #000;
+}
+
+.t-img {
+  position: relative;
+  text-align: center;
+  z-index: 1;
+}
+
+.t-img img {
+  width: auto;
+  max-width: 100%;
+}
+
+/*--------自定义样式--------*/
+/*-------- header --------*/
+.header {
+  width: 100%;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 50px 0 rgba(38, 149, 244, 0.4);
+  -moz-box-shadow: 0 0 50px 0 rgba(38, 149, 244, 0.4);
+  box-shadow: 0 0 50px 0 rgba(38, 149, 244, 0.4);
+}
+.header .header-top {
+  width: 100%;
+  height: 45px;
+  margin-bottom: 8px;
+}
+.header .header-top .rj__link {
+  display: block;
+  margin-left: 63px;
+  padding-top: 15px;
+  font-size: 0;
+  height: 30px;
+  line-height: 30px;
+}
+.header .header-top .logo {
+  display: inline-block;
+  height: 30px;
+  vertical-align: top;
+}
+.header .header-top .point {
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  margin: 13px 9px;
+}
+.header .header-top .text {
+  font-size: 20px;
+  color: #e50033;
+  vertical-align: text-bottom;
+}
+.header .circle-poiot {
+  position: absolute;
+  visibility: hidden;
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  left: 20px;
+  top: 19px;
+  border: 3px solid #2695f4;
+  border-radius: 50%;
+}
+.header .header-list.t-pc .header-item {
+  position: relative;
+  float: left;
+  width: 20%;
+  cursor: pointer;
+}
+.header .header-list.t-pc .header-item.active .header-icon__01 {
+  background-image: url("../RJ-img/header-icon1-active.png");
+}
+.header .header-list.t-pc .header-item.active .header-icon__02 {
+  background-image: url("../RJ-img/header-icon2-active.png");
+}
+.header .header-list.t-pc .header-item.active .header-icon__03 {
+  background-image: url("../RJ-img/header-icon3-active.png");
+}
+.header .header-list.t-pc .header-item.active .header-icon__04 {
+  background-image: url("../RJ-img/header-icon4-active.png");
+}
+.header .header-list.t-pc .header-item.active .header-icon__05 {
+  background-image: url("../RJ-img/header-icon5-active.png");
+}
+.header .header-list.t-pc .header-item.active .text {
+  color: #2695f4;
+}
+.header .header-list.t-pc .header-icon {
+  display: block;
+  width: 54px;
+  height: 54px;
+  margin: auto;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.header .header-list.t-pc .header-icon__01 {
+  background-image: url("../RJ-img/header-icon1-active.png");
+}
+.header .header-list.t-pc .header-icon__02 {
+  background-image: url("../RJ-img/header-icon2.png");
+}
+.header .header-list.t-pc .header-icon__03 {
+  background-image: url("../RJ-img/header-icon3.png");
+}
+.header .header-list.t-pc .header-icon__04 {
+  background-image: url("../RJ-img/header-icon4.png");
+}
+.header .header-list.t-pc .header-icon__05 {
+  background-image: url("../RJ-img/header-icon5.png");
+}
+.header .header-list.t-pc .header-icon__05.active {
+  background-image: url("../RJ-img/header-icon5-active.png");
+}
+.header .header-list.t-pc .text {
+  display: block;
+  padding: 15px 0 25px 0;
+  font-size: 20px;
+  line-height: 1;
+  text-align: center;
+}
+.header .header-list.t-pc .sub-nav {
+  display: none;
+  position: absolute;
+  width: auto;
+  left: 0;
+  top: 100%;
+  -webkit-box-shadow: 0 2px 12px 0 rgba(38, 149, 244, 0.4);
+  -moz-box-shadow: 0 2px 12px 0 rgba(38, 149, 244, 0.4);
+  box-shadow: 0 4px 12px 0 rgba(38, 149, 244, 0.4);
+}
+.header .header-list.t-pc .sub-text {
+  display: block;
+  padding-left: 20px;
+  font-size: 16px;
+  word-break: keep-all;
+}
+.header .header-list.t-pc .sub-item {
+  position: relative;
+  padding: 0 20px;
+  line-height: 50px;
+  background-color: #fff;
+}
+.header .header-list.t-pc .sub-item.active {
+  background-color: #f2f9fe;
+}
+.header .header-list.t-pc .sub-item:hover {
+  background-color: #f2f9fe;
+}
+.header .header-list.t-pc .sub-item:hover .circle-poiot {
+  visibility: visible;
+}
+.header .header-list.t-pc .sub-item:hover .sub-text {
+  color: #2695f4;
+}
+.header .header-list.t-pc .sub-item.active .circle-poiot {
+  visibility: visible;
+}
+.header .header-list.t-pc .sub-item.active .sub-text {
+  color: #2695f4;
+}
+
+/*-------- body --------*/
+.main {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+  .header .header-top {
+    height: 40px;
+    margin-bottom: 5px;
+  }
+  .header .header-top .rj__link {
+    padding-top: 10px;
+  }
+  .header .header-top .text {
+    font-size: 16px;
+  }
+  .header .header-list.t-pc .header-icon {
+    width: 45px;
+    height: 45px;
+  }
+  .header .header-list.t-pc .text {
+    padding: 10px 0 20px 0;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .sh-box-header ul li.sh-mobile-nav ul li a.active {
+    color: #de0032;
+  }
+
+  .t-pc {
+    display: none;
+  }
+
+  .t-mobile {
+    display: block;
+  }
+
+  .t-cont-item {
+    height: auto;
+  }
+
+  .t-content {
+    max-width: auto;
+    width: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .t-intro {
+    font-size: 16px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .t-main-title {
+    font-size: 24px;
+    padding-top: 35px;
+    margin: 0 10px;
+  }
+
+  .t-sub-title {
+    font-size: 18px;
+  }
+
+  .t-intro,
+  .t-intro p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  /*--------自定义样式--------*/
+  /*-------- header --------*/
+  .header .t-mobile .rj__link {
+    display: inline-block;
+    margin-left: 15px;
+    padding: 15px 0;
+    font-size: 0;
+    height: 30px;
+    line-height: 30px;
+  }
+  .header .t-mobile .logo {
+    display: inline-block;
+    height: 30px;
+    vertical-align: top;
+  }
+  .header .t-mobile .point {
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    margin: 13px 9px;
+  }
+  .header .t-mobile .text {
+    font-size: 18px;
+    color: #e50033;
+    vertical-align: text-bottom;
+  }
+  .header .circle-poiot {
+    top: 9px;
+    left: 0;
+  }
+
+  .header-button {
+    display: inline-block;
+    float: right;
+    margin: 15px 15px 0 0;
+    cursor: pointer;
+  }
+  .header-button i {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url("../RJ-img/icon-menu.png") center center/100% 100% no-repeat;
+  }
+  .header-button.active i {
+    background: url("../RJ-img/icon-close.png") center center/100% 100% no-repeat;
+  }
+
+  .header-mask {
+    display: none;
+    position: fixed;
+    width: 100%;
+    top: 60px;
+    bottom: 0;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+  }
+
+  .header-mobile-list {
+    height: 0;
+    float: right;
+    width: 250px;
+    padding: 0 10px;
+    background: #fff;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+  .mobile-list-item {
+    margin-bottom: 15px;
+  }
+  .mobile-list-item:last-child {
+    margin-bottom: 0;
+  }
+  .mobile-list-item .sub-list {
+    margin-top: 10px;
+  }
+  .mobile-list-item .sub-item {
+    position: relative;
+    line-height: 30px;
+    padding-left: 20px;
+  }
+  .mobile-list-item .sub-item.active {
+    color: #2695f4;
+  }
+  .mobile-list-item .sub-item.active .circle-poiot {
+    visibility: visible;
+  }
+}
