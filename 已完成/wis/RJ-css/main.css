@@ -300,6 +300,9 @@ body {
   bottom: -80px;
 }
 
+.sec2 {
+  background-color: #e9fff3;
+}
 .sec2 .t-main-title {
   padding-top: 50px;
 }
@@ -1097,9 +1100,6 @@ body {
     bottom: -80px;
   }
 
-  .sec2 {
-    background-color: #e9fff3;
-  }
   .sec2 .t-main-title {
     padding-top: 30px;
   }
