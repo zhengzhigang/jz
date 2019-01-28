@@ -138,6 +138,36 @@
                         为无线产品全生命周期提供专业、智能、贴心的服务，可以完成从网络规划设计到实施部署、
                         再到智能网优、体验对焦以及后期的巡检运维等一系列工作，为无线带来看得见的好体验。
                     </p>
+                    <img class="t-img" src="RJ-img/home-item2-01.png">
+                </div>
+            </div>
+        </div>
+        <div class="t-cont-item sec13">
+            <div class="t-content">
+                <h2 class="t-main-title">WIS深度体验：你离Wi-Fi宗师就差了一个WIS</h2>
+                <div class="sec13__content clearfix">
+                    <p class="t-intro">
+                        今天想以WIS第五个用户、第一个中小场景用户和给WIS提需求最多的人的身份，聊聊WIS的正确打开方式。我
+                        会毫无保留地分享所有实战经验和使用窍门，希望能让更多的IT人员事半功倍，让更多的企业拥有好无线。 
+                    </p>
+                    <ul class="list clearfix">
+                        <li class="item">
+                            <img class="t-img" src="RJ-img/home-item13-01.png">
+                            <a class="text" href="javascript:;">开局篇</a>
+                        </li>
+                        <li class="item">
+                            <img class="t-img" src="RJ-img/home-item13-02.png">
+                            <a class="text" href="javascript:;">网优篇</a>
+                        </li>
+                        <li class="item">
+                            <img class="t-img" src="RJ-img/home-item13-03.png">
+                            <a class="text" href="javascript:;">排障篇</a>
+                        </li>
+                        <li class="item">
+                            <img class="t-img" src="RJ-img/home-item13-04.png">
+                            <a class="text" href="javascript:;">运维篇</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
