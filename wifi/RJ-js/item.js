@@ -27,7 +27,7 @@ $(function(){
                     }
                 }
             });
-            swiper.slideTo(8)
+            swiper.slideTo(9)
 
             $('.header-list.t-pc .header-item').hover(function() {
                 $(this).addClass('active').find('.sub-nav').show();

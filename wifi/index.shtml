@@ -496,8 +496,94 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide slide9">Slide 9</div>
-                <div class="swiper-slide slide10">Slide 10</div>
+                <div class="swiper-slide slide9">
+                    <div class="title">
+                        <img src="RJ-img/slide9-title.png" alt="">
+                    </div>
+                    <ul class="list">
+                        <li class="item">
+                            <div class="box">
+                                <img class="t-img" src="RJ-img/slide9-01.png" alt="">
+                                <h3 class="item__title">体育赛事/观众看台</h3>
+                                <ul class="text__list">
+                                    <li class="text__item">
+                                        <p>场景：</p>
+                                        <p>室外场景，体育赛事的看台大多为半开放式<br>数万人高并发应用，平均每平方米3人</p>
+                                    </li>
+                                    <li class="text__item">
+                                        <p>场景：</p>
+                                        <p>设备高密部署，信号干扰大<br>精准覆盖困难<br>施工维护难度高</p>
+                                    </li>
+                                </ul>
+                                <div class="button">
+                                    查看详情 <i class="icon"></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="box">
+                                <img class="t-img" src="RJ-img/slide9-02.png" alt="">
+                                <h3 class="item__title">高校学生宿舍</h3>
+                                <ul class="text__list">
+                                    <li class="text__item">
+                                        <p>场景：</p>
+                                        <p>密集的小开间型，房间与房间之间的阻隔比较厚<br>超高并发 单用户2-4个终端 单房间8-20个终端</p>
+                                    </li>
+                                    <li class="text__item">
+                                        <p>场景：</p>
+                                        <p>刚需场景，重度上网用户，7×24小时高频高强度上网同频干扰严重</p>
+                                    </li>
+                                </ul>
+                                <div class="button">
+                                    查看详情 <i class="icon"></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="box">
+                                <img class="t-img" src="RJ-img/slide9-03.png" alt="">
+                                <h3 class="item__title">医院移动查房应用场景</h3>
+                                <ul class="text__list">
+                                    <li class="text__item">
+                                        <p>场景：</p>
+                                        <p>移动查房<br>设备无干扰，影像高吞吐</p>
+                                    </li>
+                                    <li class="text__item">
+                                        <p>场景：</p>
+                                        <p>不同AP间切换形成无线漫游<br>移动查房程序可能需要断线重连</p>
+                                    </li>
+                                </ul>
+                                <div class="button">
+                                    查看详情 <i class="icon"></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="box">
+                                <img class="t-img" src="RJ-img/slide9-04.png" alt="">
+                                <h3 class="item__title">地铁移动上网应用场景</h3>
+                                <ul class="text__list">
+                                    <li class="text__item">
+                                        <p>场景：</p>
+                                        <p>进站-候车-乘车-换乘-出站 手机不离手</p>
+                                    </li>
+                                    <li class="text__item">
+                                        <p>场景：</p>
+                                        <p>高速行驶的列车上Wi-Fi不稳定</p>
+                                    </li>
+                                </ul>
+                                <div class="button">
+                                    查看详情 <i class="icon"></i>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="swiper-slide slide10">
+                    <div class="title">
+                        <img src="RJ-img/slide10-title.png" alt="">
+                    </div>
+                </div>
             </div>
         </div>
     </div>

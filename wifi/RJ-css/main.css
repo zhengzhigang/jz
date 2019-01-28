@@ -902,6 +902,73 @@ a {
   background-color: #2695f4;
 }
 
+.slide9 .title {
+  margin-bottom: 68px;
+}
+.slide9 .list {
+  width: 100%;
+  max-width: 1460px;
+  margin: auto;
+}
+.slide9 .item {
+  float: left;
+  width: 23%;
+  height: 650px;
+  margin-right: 2.66666%;
+  cursor: pointer;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+}
+.slide9 .item:last-child {
+  margin-right: 0;
+}
+.slide9 .item:hover {
+  height: 700px;
+  margin-top: -50px;
+}
+.slide9 .item:hover .button {
+  display: block;
+}
+.slide9 .box {
+  position: relative;
+  height: 100%;
+  border: 1px solid #e7e7e7;
+}
+.slide9 .t-img {
+  display: block;
+  width: 100%;
+}
+.slide9 .item__title {
+  padding: 30px 25px 20px 25px;
+  font-size: 24px;
+  line-height: 1;
+}
+.slide9 .text__list {
+  padding: 0 25px;
+}
+.slide9 .text__item {
+  margin-bottom: 25px;
+}
+.slide9 .button {
+  display: none;
+  position: absolute;
+  width: 100%;
+  line-height: 62px;
+  bottom: 0;
+  left: 0;
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+  background-color: #20b470;
+}
+.slide9 .button .icon {
+  display: inline-block;
+  width: 18px;
+  height: 19px;
+  background: url("../RJ-img/slide9-05.png") center center/100% 100% no-repeat;
+}
+
 @media screen and (min-width: 769px) and (max-width: 1200px) {
   .header .header-top {
     height: 40px;
