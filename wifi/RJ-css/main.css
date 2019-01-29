@@ -325,6 +325,30 @@ a {
 }
 
 /*-------- body --------*/
+.mask {
+  position: fixed;
+  display: table-cell;
+  vertical-align: middle;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 11;
+}
+.mask:after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 0;
+  vertical-align: middle;
+}
+.mask .box {
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .main {
   width: 100%;
   height: 100%;
