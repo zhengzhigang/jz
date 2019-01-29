@@ -341,7 +341,7 @@ body {
   font-size: 16px;
   padding-top: 30px;
 }
-.sec13 .item .text:hover {
+.sec13 .item:hover .text {
   color: #35c478;
   text-decoration: underline;
 }

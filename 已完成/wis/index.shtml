@@ -152,20 +152,26 @@
                     </p>
                     <ul class="list clearfix">
                         <li class="item">
-                            <img class="t-img" src="RJ-img/home-item13-01.png">
-                            <a class="text" href="javascript:;">开局篇</a>
+                            <a href="">
+                                <img class="t-img" src="RJ-img/home-item13-01.png">
+                                <p class="text">开局篇</p>
+                            </a>
                         </li>
                         <li class="item">
-                            <img class="t-img" src="RJ-img/home-item13-02.png">
-                            <a class="text" href="javascript:;">网优篇</a>
+                            <a href="">
+                                <img class="t-img" src="RJ-img/home-item13-02.png">
+                                <p class="text">网优篇</p>
+                            </a>
                         </li>
                         <li class="item">
-                            <img class="t-img" src="RJ-img/home-item13-03.png">
-                            <a class="text" href="javascript:;">排障篇</a>
+                            <a href="">
+                                <img class="t-img" src="RJ-img/home-item13-03.png">
+                                <p class="text">排障篇</p>
+                            </a>
                         </li>
                         <li class="item">
                             <img class="t-img" src="RJ-img/home-item13-04.png">
-                            <a class="text" href="javascript:;">运维篇</a>
+                            <p class="text">运维篇</p>
                         </li>
                     </ul>
                 </div>

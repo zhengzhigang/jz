@@ -321,7 +321,9 @@ body {
       display: block;
       font-size: 16px;
       padding-top: 30px;
-      &:hover {
+    }
+    &:hover {
+      .text {
         color: #35c478;
         text-decoration: underline;
       }
