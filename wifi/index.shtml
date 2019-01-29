@@ -206,12 +206,12 @@
                 <div class="swiper-slide slide1"></div>
                 <div class="swiper-slide slide2">
                     <div class="title">
-                        <img src="RJ-img/slide2-title.png" alt="">
+                        <img src="RJ-img/slide2-title.png">
                     </div>
                     <ul class="list">
                         <li class="item">
                             <div class="circle__inside">
-                                <img src="RJ-img/slide2-icon-01.png" alt="">
+                                <img src="RJ-img/slide2-icon-01.png">
                             </div>
                             <h3 class="item__title">趋势变革</h2>
                             <div class="bottom">
@@ -226,7 +226,7 @@
                         </li>
                         <li class="item">
                             <div class="circle__inside">
-                                <img src="RJ-img/slide2-icon-02.png" alt="">
+                                <img src="RJ-img/slide2-icon-02.png">
                             </div>
                             <h3 class="item__title">趋势变革</h2>
                             <div class="bottom">
@@ -241,7 +241,7 @@
                         </li>
                         <li class="item">
                             <div class="circle__inside">
-                                <img src="RJ-img/slide2-icon-03.png" alt="">
+                                <img src="RJ-img/slide2-icon-03.png">
                             </div>
                             <h3 class="item__title">趋势变革</h2>
                             <div class="bottom">
@@ -258,22 +258,22 @@
                 </div>
                 <div class="swiper-slide slide3">
                     <div class="title">
-                        <img src="RJ-img/slide3-title.png" alt="">
+                        <img src="RJ-img/slide3-title.png">
                     </div>
                     <div class="content">
                         <ul class="list clearfix">
                             <li class="item">
-                                <img src="RJ-img/slide3-icon-01.png" alt="">
+                                <img src="RJ-img/slide3-icon-01.png">
                                 <h3 class="item__title">场景化</h3>
                                 <p class="text">基于不同行业、不同细分应用场景的定制化创新解决方案。</p>
                             </li>
                             <li class="item">
-                                <img src="RJ-img/slide3-icon-02.png" alt="">
+                                <img src="RJ-img/slide3-icon-02.png">
                                 <h3 class="item__title">一体化</h3>
                                 <p class="text">不仅是对单一产品高性能、高品质有需求，同时要求厂商具备包括设计、部署、服务、管理在内的一体化服务能力。</p>
                             </li>
                             <li class="item">
-                                <img src="RJ-img/slide3-icon-03.png" alt="">
+                                <img src="RJ-img/slide3-icon-03.png">
                                 <h3 class="item__title">无感化</h3>
                                 <p class="text">客户的关注点是自身的应用而非设备，因此，在无线使用、部署、管理、维护等方面都希望尽可能简单易用，不被“打扰”。这就需要厂商有智能化、联动化、可视化的解决能力。</p>
                             </li>
@@ -282,7 +282,7 @@
                 </div>
                 <div class="swiper-slide slide4">
                     <div class="title">
-                        <img src="RJ-img/slide4-title.png" alt="">
+                        <img src="RJ-img/slide4-title.png">
                     </div>
                     <div class="intro">
                         <p class="t-intro">
@@ -324,21 +324,21 @@
                 </div>
                 <div class="swiper-slide slide5">
                     <div class="title">
-                        <img src="RJ-img/slide5-title.png" alt="">
+                        <img src="RJ-img/slide5-title.png">
                     </div>
                     <ul class="list clearfix">
                         <li class="item">
-                            <img class="t-img" src="RJ-img/slide5-01.png" alt="">
+                            <img class="t-img" src="RJ-img/slide5-01.png">
                             <h3 class="item__title">直接使用者</h2>
                             <p class="text">无处不在的满格信号，确保应用时时在线<br>登陆简便快捷、畅快淋漓的下载</p>
                         </li>
                         <li class="item">
-                            <img class="t-img" src="RJ-img/slide5-01.png" alt="">
+                            <img class="t-img" src="RJ-img/slide5-01.png">
                             <h3 class="item__title">信息中心主任</h2>
                             <p class="text">满足场景需求和对业务稳定支撑<br>体验可视化和清晰的数据报表，支撑决策建议</p>
                         </li>
                         <li class="item">
-                            <img class="t-img" src="RJ-img/slide5-01.png" alt="">
+                            <img class="t-img" src="RJ-img/slide5-01.png">
                             <h3 class="item__title">服务商/网络工程师</h2>
                             <p class="text">设计规划智能<br>实施部署简单<br>一站式交付验收<br>运维诊断可视化</p>
                         </li>
@@ -346,7 +346,7 @@
                 </div>
                 <div class="swiper-slide slide6">
                     <div class="title">
-                        <img src="RJ-img/slide5-title.png" alt="">
+                        <img src="RJ-img/slide5-title.png">
                     </div>
                     <div class="slide6__swiper-box">
                         <div class="swiper-container slide6__swiper">
@@ -354,7 +354,7 @@
                                 <div class="swiper-slide slide6__swiper-slide1">
                                     <div class="content clearfix">
                                         <div class="left">
-                                            <img class="t-img" src="RJ-img/slide5-03.png" alt="">
+                                            <img class="t-img" src="RJ-img/slide5-03.png">
                                             <h3 class="item__title">网络工程师/信息中心主任</h3>
                                             <p class="text">WIS π实现整网体验可视化网络基础状况</p>
                                             <div class="line">
@@ -362,14 +362,14 @@
                                             </div>
                                         </div>
                                         <div class="right">
-                                            <img class="t-img" src="RJ-img/slide6-01.png" alt="">
+                                            <img class="t-img" src="RJ-img/slide6-01.png">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide slide6__swiper-slide2">
                                     <div class="content clearfix">
                                         <div class="left">
-                                            <img class="t-img" src="RJ-img/slide5-01.png" alt="">
+                                            <img class="t-img" src="RJ-img/slide5-01.png">
                                             <h3 class="item__title">直接使用者</h3>
                                             <p class="text">Wi-Fi魔盒帮您随时掌控无线体验<br>基本测试</p>
                                             <div class="line">
@@ -377,7 +377,7 @@
                                             </div>
                                         </div>
                                         <div class="right">
-                                            <img class="t-img" src="RJ-img/slide6-03.png" alt="">
+                                            <img class="t-img" src="RJ-img/slide6-03.png">
                                         </div>
                                     </div>
                                 </div>
@@ -389,12 +389,12 @@
                 </div>
                 <div class="swiper-slide slide7">
                     <div class="title">
-                        <img src="RJ-img/slide7-title.png" alt="">
+                        <img src="RJ-img/slide7-title.png">
                     </div>
                 </div>
                 <div class="swiper-slide slide8">
                     <div class="title">
-                        <img src="RJ-img/slide8-title.png" alt="">
+                        <img src="RJ-img/slide8-title.png">
                     </div>
                     <h2 class="item__title">大型会议Wi-Fi接入</h2>
                     <p class="title__text">空间封闭，人群密集，并发量大<br>需要保证每用户的高带宽需求，往往需要超高性能的AP来应对</p>
@@ -415,7 +415,7 @@
                                             套天线，在业界率先推出性能真正提升50%
                                             以上的无线设备。
                                         </p>
-                                        <img class="t-img" src="RJ-img/slide8-01.png" alt="">
+                                        <img class="t-img" src="RJ-img/slide8-01.png">
                                     </div>
                                 </div>
                                 <div class="middle">
@@ -424,7 +424,7 @@
                                     </div>
                                     <div class="text__box clearfix">
                                         <p>仪表级高精度滤波设计，显著降低多终端、多射频上下并发的干扰。</p>
-                                        <img class="t-img" src="RJ-img/slide8-02.png" alt="">
+                                        <img class="t-img" src="RJ-img/slide8-02.png">
                                     </div>
                                 </div>
                                 <div class="bottom">
@@ -469,25 +469,25 @@
                                 <ul class="list clearfix">
                                     <li class="item margin__right">
                                         <div class="box">
-                                            <img class="t-img" src="RJ-img/slide8-03.png" alt="">
+                                            <img class="t-img" src="RJ-img/slide8-03.png">
                                             <div class="bottom">RG-AP730(TR)</div>
                                         </div>
                                     </li>
                                     <li class="item">
                                         <div class="box">
-                                            <img class="t-img" src="RJ-img/slide8-04.png" alt="">
+                                            <img class="t-img" src="RJ-img/slide8-04.png">
                                             <div class="bottom">RG-AP860-I</div>
                                         </div>
                                     </li>
                                     <li class="item margin__right">
                                         <div class="box">
-                                            <img class="t-img" src="RJ-img/slide8-05.png" alt="">
+                                            <img class="t-img" src="RJ-img/slide8-05.png">
                                             <div class="bottom">RG-AP840-I </div>
                                         </div>
                                     </li>
                                     <li class="item">
                                         <div class="box">
-                                            <img class="t-img" src="RJ-img/slide8-06.png" alt="">
+                                            <img class="t-img" src="RJ-img/slide8-06.png">
                                             <div class="bottom">RG-AP740-I</div>
                                         </div>
                                     </li>
@@ -498,12 +498,12 @@
                 </div>
                 <div class="swiper-slide slide9">
                     <div class="title">
-                        <img src="RJ-img/slide9-title.png" alt="">
+                        <img src="RJ-img/slide9-title.png">
                     </div>
                     <ul class="list">
                         <li class="item">
                             <div class="box">
-                                <img class="t-img" src="RJ-img/slide9-01.png" alt="">
+                                <img class="t-img" src="RJ-img/slide9-01.png">
                                 <h3 class="item__title">体育赛事/观众看台</h3>
                                 <ul class="text__list">
                                     <li class="text__item">
@@ -522,7 +522,7 @@
                         </li>
                         <li class="item">
                             <div class="box">
-                                <img class="t-img" src="RJ-img/slide9-02.png" alt="">
+                                <img class="t-img" src="RJ-img/slide9-02.png">
                                 <h3 class="item__title">高校学生宿舍</h3>
                                 <ul class="text__list">
                                     <li class="text__item">
@@ -541,7 +541,7 @@
                         </li>
                         <li class="item">
                             <div class="box">
-                                <img class="t-img" src="RJ-img/slide9-03.png" alt="">
+                                <img class="t-img" src="RJ-img/slide9-03.png">
                                 <h3 class="item__title">医院移动查房应用场景</h3>
                                 <ul class="text__list">
                                     <li class="text__item">
@@ -560,7 +560,7 @@
                         </li>
                         <li class="item">
                             <div class="box">
-                                <img class="t-img" src="RJ-img/slide9-04.png" alt="">
+                                <img class="t-img" src="RJ-img/slide9-04.png">
                                 <h3 class="item__title">地铁移动上网应用场景</h3>
                                 <ul class="text__list">
                                     <li class="text__item">
@@ -581,7 +581,133 @@
                 </div>
                 <div class="swiper-slide slide10">
                     <div class="title">
-                        <img src="RJ-img/slide10-title.png" alt="">
+                        <img src="RJ-img/slide10-title.png">
+                    </div>
+                    <div class="content clearfix">
+                        <div class="left">
+                            <ul class="list">
+                                <li class="item active" data-index="1">
+                                    <span class="num">01</span><span class="text">985/211</span>
+                                    <div class="line">
+                                        <span class="circle"></span>
+                                    </div>
+                                </li>
+                                <li class="item" data-index="2">
+                                    <span class="num">02</span><span class="text">普教</span>
+                                    <div class="line">
+                                        <span class="circle"></span>
+                                    </div>
+                                </li>
+                                <li class="item" data-index="3">
+                                    <span class="num">03</span><span class="text">普教</span>
+                                    <div class="line">
+                                        <span class="circle"></span>
+                                    </div>
+                                </li>
+                                <li class="item" data-index="4">
+                                    <span class="num">04</span><span class="text">金融</span>
+                                    <div class="line">
+                                        <span class="circle"></span>
+                                    </div>
+                                </li>
+                                <li class="item" data-index="5">
+                                    <span class="num">05</span><span class="text">零售服务</span>
+                                    <div class="line">
+                                        <span class="circle"></span>
+                                    </div>
+                                </li>
+                                <li class="item" data-index="6">
+                                    <span class="num">06</span><span class="text">政府</span>
+                                    <div class="line">
+                                        <span class="circle"></span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="right">
+                            <div class="big__img">
+                                <img src="RJ-img/slide10-101.png">
+                                <img src="RJ-img/slide10-201.png">
+                                <img src="RJ-img/slide10-301.png">
+                                <img src="RJ-img/slide10-401.png">
+                                <img src="RJ-img/slide10-501.png">
+                                <img src="RJ-img/slide10-601.png">
+                            </div>
+                            <div class="img__list__box">
+                                <ul class="list">
+                                    <li class="item">
+                                        <img src="RJ-img/slide10-102.png" alt="">
+                                        <p class="text">中国矿业大学</p>
+                                    </li>
+                                    <li class="item">
+                                        <img src="RJ-img/slide10-103.png" alt="">
+                                        <p class="text">中山大学</p>
+                                    </li>
+                                    <li class="item">
+                                        <img src="RJ-img/slide10-104.png" alt="">
+                                        <p class="text">河南大学</p>
+                                    </li>
+                                    <li class="item">
+                                        <img src="RJ-img/slide10-105.png" alt="">
+                                        <p class="text">西北大学</p>
+                                    </li>
+                                    <li class="item">
+                                        <img src="RJ-img/slide10-106.png" alt="">
+                                        <p class="text">哈尔滨工业大学</p>
+                                    </li>
+                                    <li class="item">
+                                        <img src="RJ-img/slide10-107.png" alt="">
+                                        <p class="text">宁波大学</p>
+                                    </li>
+                                    <li class="item">
+                                        <img src="RJ-img/slide10-108.png" alt="">
+                                        <p class="text">西南政法大学</p>
+                                    </li>
+                                </ul>
+                                <ul class="list">
+                                    <li class="item">
+                                        <img src="RJ-img/slide10-202.png" alt="">
+                                        <p class="text">鹿城教育局智慧校园</p>
+                                    </li>
+                                </ul>
+                                <ul class="list">
+                                    <li class="item">
+                                        <img src="RJ-img/slide10-302.png" alt="">
+                                        <p class="text">武汉铁路局</p>
+                                    </li>
+                                    <li class="item">
+                                        <img src="RJ-img/slide10-303.png" alt="">
+                                        <p class="text">青藏铁路</p>
+                                    </li>
+                                    <li class="item">
+                                        <img src="RJ-img/slide10-304.png" alt="">
+                                        <p class="text">兰州铁路局</p>
+                                    </li>
+                                </ul>
+                                <ul class="list">
+                                    <li class="item">
+                                        <img src="RJ-img/slide10-402.png" alt="">
+                                        <p class="text">平安银行</p>
+                                    </li>
+                                </ul>
+                                <ul class="list">
+                                    <li class="item">
+                                        <img src="RJ-img/slide10-502.png" alt="">
+                                        <p class="text">便利蜂</p>
+                                    </li>
+                                </ul>
+                                <ul class="list">
+                                    <li class="item">
+                                        <img src="RJ-img/slide10-602.png" alt="">
+                                        <p class="text">北京顺义无线城市</p>
+                                    </li>
+                                    <li class="item">
+                                        <img src="RJ-img/slide10-603.png" alt="">
+                                        <p class="text">成都无线城市</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

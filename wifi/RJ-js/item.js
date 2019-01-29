@@ -1,6 +1,7 @@
 $(function(){
     var header = {
         init: function() {
+            var _this = this;
             // 初始化滚屏
             var swiper = new Swiper('.main__swiper', {
                 paginationClickable: true,
@@ -15,17 +16,20 @@ $(function(){
                             $(this).addClass('active').parents('.header-item').addClass('active').siblings().removeClass('active').find('.sub-item').removeClass('active');
                         }
                     })
-                    if (i === 5) {
-                        var swiper = new Swiper('.slide6__swiper', {
-                            pagination: '.swiper-pagination',
-                            nextButton: '.swiper-button-next',
-                            prevButton: '.swiper-button-prev',
-                            spaceBetween: 30,
-                            loop: true,
-                            autoplay: 10000
-                        });
+                    if (i === 9) {
+                        $('.slide10 .img__list__box .list').eq(0).show();
+                        $('.slide10 .big__img img').eq(0).show();
+                        _this.switchTab();
                     }
                 }
+            });
+            var swiper2 = new Swiper('.slide6__swiper', {
+                pagination: '.swiper-pagination',
+                nextButton: '.swiper-button-next',
+                prevButton: '.swiper-button-prev',
+                spaceBetween: 30,
+                loop: true,
+                autoplay: 10000
             });
             swiper.slideTo(9)
 
@@ -59,6 +63,15 @@ $(function(){
                 $('.header-mobile-list').stop().animate({'height':0});
                 $('.header-mask').stop().fadeOut();
                 $('.header-button').removeClass('active');
+            })
+        },
+
+        switchTab: function() {
+            $('.slide10').on('click', '.left .item', function() {
+                var i = $(this).data('index');
+                $('.slide10 .img__list__box .list').eq(i - 1).show().siblings().hide();
+                $('.slide10 .big__img img').eq(i - 1).show().siblings().hide();
+                $(this).addClass('active').siblings().removeClass('active');
             })
         }
     }
