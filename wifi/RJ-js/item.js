@@ -33,19 +33,19 @@ $(function(){
                     }
                 }
             });
-            swiper.slideTo(8)
+            swiper.slideTo(9)
 
             $('.header-list.t-pc .header-item').hover(function() {
-                $(this).addClass('active').find('.sub-nav').show();
+                $(this).find('.sub-nav').show();
             }, function() {
-                $(this).removeClass('active').find('.sub-nav').hide();
+                $(this).find('.sub-nav').hide();
             })
 
             $('.header-list.t-pc .sub-nav, .header-mobile-list .sub-list').on('click', '.sub-item', function() {
                 var i = $(this).data('index');
                 if ($(this).hasClass('active')) return;
                 $(this).addClass('active').siblings().removeClass('active');
-                $(this).parents('.header-item').siblings().find('.sub-item').removeClass('active');
+                $(this).parents('.header-item').addClass('active').siblings().find('.sub-item').removeClass('active');
                 swiper.slideTo(i)
             })
 

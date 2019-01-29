@@ -211,7 +211,8 @@
                     <ul class="list">
                         <li class="item">
                             <div class="circle__inside">
-                                <img src="RJ-img/slide2-icon-01.png">
+                                <img class="active" src="RJ-img/slide2-icon-01.png">
+                                <img class="no__active" src="RJ-img/slide2-icon-04.png">
                             </div>
                             <h3 class="item__title">趋势变革</h2>
                             <div class="bottom">
@@ -226,7 +227,8 @@
                         </li>
                         <li class="item">
                             <div class="circle__inside">
-                                <img src="RJ-img/slide2-icon-02.png">
+                                <img class="active" src="RJ-img/slide2-icon-05.png">
+                                <img class="no__active" src="RJ-img/slide2-icon-02.png">
                             </div>
                             <h3 class="item__title">趋势变革</h2>
                             <div class="bottom">
@@ -241,7 +243,8 @@
                         </li>
                         <li class="item">
                             <div class="circle__inside">
-                                <img src="RJ-img/slide2-icon-03.png">
+                                <img class="active" src="RJ-img/slide2-icon-06.png">
+                                <img class="no__active" src="RJ-img/slide2-icon-03.png">
                             </div>
                             <h3 class="item__title">趋势变革</h2>
                             <div class="bottom">
@@ -714,7 +717,44 @@
         </div>
         <div class="mask">
             <div class="box">
-                
+                <a class="close" href="javascript:;"></a>
+                <div class="left">
+                    <div class="top">
+                        <span class="title">传统做法</span>
+                    </div>
+                    <div class="img">
+                        <img src="RJ-img/mask1-01.png" alt="">
+                    </div>
+                    <div class="bottom">
+                        <p class="top__text">
+                            放装室外AP+小角度定向天线<br>
+                            用吸顶式无线倾斜覆盖观众席
+                        </p>
+                        <p class="sub__title">
+                            <span>劣势</span>
+                        </p>
+                        <p class="bottom__text">信号杂乱、同频干扰严重，前排观众体验不佳<br>方案施工麻烦，网优复杂</p>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="top">
+                        <span class="title">传统做法</span>
+                    </div>
+                    <div class="img">
+                        <img src="RJ-img/mask1-02.png" alt="">
+                        <img src="RJ-img/mask1-03.png" alt="" class="float__img">
+                    </div>
+                    <div class="bottom">
+                        <p class="top__text">
+                            放装室外AP+小角度定向天线<br>
+                            用吸顶式无线倾斜覆盖观众席
+                        </p>
+                        <p class="sub__title">
+                            <span>劣势</span>
+                        </p>
+                        <p class="bottom__text">信号杂乱、同频干扰严重，前排观众体验不佳<br>方案施工麻烦，网优复杂</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
