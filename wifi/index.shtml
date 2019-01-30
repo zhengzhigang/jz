@@ -54,7 +54,7 @@
             </a>
         </div>
         <ul class="t-pc header-list clearfix">
-            <li class="header-item active">
+            <li class="header-item">
                 <i class="header-icon header-icon__01"></i>
                 <span class="text">行业发展和用户需求变化</span>
                 <ul class="sub-nav">
@@ -190,7 +190,7 @@
                     <ul class="sub-list">
                         <li class="sub-item" data-index="8">
                             <i class="circle-poiot"></i>
-                            各行业最佳实践
+                                各行业最佳实践
                         </li>
                     </ul>
                 </li>
@@ -203,7 +203,11 @@
     <div class="main">
         <div class="swiper-container main__swiper">
             <div class="swiper-wrapper">
-                <div class="swiper-slide slide1"></div>
+                <div class="swiper-slide slide1">
+                    <div class="t-mobile">
+                        <img src="RJ-img/slide1.jpg" alt="">
+                    </div>
+                </div>
                 <div class="swiper-slide slide2">
                     <div class="title">
                         <img src="RJ-img/slide2-title.png">
@@ -223,7 +227,7 @@
                                     网络发展的背后推动力量，正从“人与人的连接”转变为“万物互联”，接入无线网的终端会逐渐从手机、笔记本等转变到PDA、机器人、生产设备、固定资产等。相应地，Wi-Fi的核心价值也从“人与人之间信息的传递”，向“关键应用的承载”转变。
                                 </p>
                             </div>
-                            <div class="shadow"></div>
+                            <div class="shadow t-pc"></div>
                         </li>
                         <li class="item">
                             <div class="circle__inside">
@@ -239,7 +243,7 @@
                                     由于无线网越来越多地承载了关键与核心应用，因此与各行业的业务逐步深度融合，并且因不同行业场景应用的特性差异较大，需要不同的无线网解决方案；同时，无线网络成为数据采集的基础和通路，将为业务的持续智能化发展提供支撑。
                                 </p>
                             </div>
-                            <div class="shadow"></div>
+                            <div class="shadow t-pc"></div>
                         </li>
                         <li class="item">
                             <div class="circle__inside">
@@ -255,7 +259,7 @@
                                     基于应用承载为核心价值的无线网，摆脱了此前对于信号、覆盖等技术参数的单一比较，转变为对技术、功能、部署、品质、管理、服务以及厂商实力等综合因素在内的完整体验。
                                 </p>
                             </div>
-                            <div class="shadow"></div>
+                            <div class="shadow t-pc"></div>
                         </li>
                     </ul>
                 </div>
@@ -336,12 +340,12 @@
                             <p class="text">无处不在的满格信号，确保应用时时在线<br>登陆简便快捷、畅快淋漓的下载</p>
                         </li>
                         <li class="item">
-                            <img class="t-img" src="RJ-img/slide5-01.png">
+                            <img class="t-img" src="RJ-img/slide5-02.png">
                             <h3 class="item__title">信息中心主任</h2>
                             <p class="text">满足场景需求和对业务稳定支撑<br>体验可视化和清晰的数据报表，支撑决策建议</p>
                         </li>
                         <li class="item">
-                            <img class="t-img" src="RJ-img/slide5-01.png">
+                            <img class="t-img" src="RJ-img/slide5-03.png">
                             <h3 class="item__title">服务商/网络工程师</h2>
                             <p class="text">设计规划智能<br>实施部署简单<br>一站式交付验收<br>运维诊断可视化</p>
                         </li>
@@ -360,7 +364,7 @@
                                             <img class="t-img" src="RJ-img/slide5-03.png">
                                             <h3 class="item__title">网络工程师/信息中心主任</h3>
                                             <p class="text">WIS π实现整网体验可视化网络基础状况</p>
-                                            <div class="line">
+                                            <div class="line t-pc">
                                                 <span class="circle"></span>
                                             </div>
                                         </div>
@@ -375,7 +379,7 @@
                                             <img class="t-img" src="RJ-img/slide5-01.png">
                                             <h3 class="item__title">直接使用者</h3>
                                             <p class="text">Wi-Fi魔盒帮您随时掌控无线体验<br>基本测试</p>
-                                            <div class="line">
+                                            <div class="line t-pc">
                                                 <span class="circle"></span>
                                             </div>
                                         </div>
@@ -518,7 +522,7 @@
                                         <p>设备高密部署，信号干扰大<br>精准覆盖困难<br>施工维护难度高</p>
                                     </li>
                                 </ul>
-                                <div class="button">
+                                <div class="button" data-index="0">
                                     查看详情 <i class="icon"></i>
                                 </div>
                             </div>
@@ -537,7 +541,7 @@
                                         <p>刚需场景，重度上网用户，7×24小时高频高强度上网同频干扰严重</p>
                                     </li>
                                 </ul>
-                                <div class="button">
+                                <div class="button" data-index="1">
                                     查看详情 <i class="icon"></i>
                                 </div>
                             </div>
@@ -556,7 +560,7 @@
                                         <p>不同AP间切换形成无线漫游<br>移动查房程序可能需要断线重连</p>
                                     </li>
                                 </ul>
-                                <div class="button">
+                                <div class="button" data-index="2">
                                     查看详情 <i class="icon"></i>
                                 </div>
                             </div>
@@ -575,7 +579,7 @@
                                         <p>高速行驶的列车上Wi-Fi不稳定</p>
                                     </li>
                                 </ul>
-                                <div class="button">
+                                <div class="button" data-index="3">
                                     查看详情 <i class="icon"></i>
                                 </div>
                             </div>
@@ -588,7 +592,7 @@
                     </div>
                     <div class="content clearfix">
                         <div class="left">
-                            <ul class="list">
+                            <ul class="list clearfix">
                                 <li class="item active" data-index="1">
                                     <span class="num">01</span><span class="text">985/211</span>
                                     <div class="line">
@@ -715,7 +719,7 @@
                 </div>
             </div>
         </div>
-        <div class="mask">
+        <div class="mask mask1">
             <div class="box">
                 <a class="close" href="javascript:;"></a>
                 <div class="left">
@@ -723,7 +727,7 @@
                         <span class="title">传统做法</span>
                     </div>
                     <div class="img">
-                        <img src="RJ-img/mask1-01.png" alt="">
+                        <img class="round shadow__gray" src="RJ-img/mask1-01.png" alt="">
                     </div>
                     <div class="bottom">
                         <p class="top__text">
@@ -738,21 +742,168 @@
                 </div>
                 <div class="right">
                     <div class="top">
-                        <span class="title">传统做法</span>
+                        <span class="title">锐捷做法</span>
                     </div>
                     <div class="img">
-                        <img src="RJ-img/mask1-02.png" alt="">
-                        <img src="RJ-img/mask1-03.png" alt="" class="float__img">
+                        <img class="round shadow__blue" src="RJ-img/mask1-02.png" alt="">
+                        <img src="RJ-img/mask1-03.png" alt="" class="float__img round shadow__blue">
                     </div>
                     <div class="bottom">
                         <p class="top__text">
-                            放装室外AP+小角度定向天线<br>
-                            用吸顶式无线倾斜覆盖观众席
+                            “座位下”的AP 地面部署<br>
+                            高密度微蜂窝+pre-ax
+                        </p>
+                        <p class="sub__title">
+                            <span>优势</span>
+                        </p>
+                        <p class="bottom__text">施工简单，覆盖精准</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mask mask2">
+            <div class="box">
+                <a class="close" href="javascript:;"></a>
+                <div class="left">
+                    <div class="top">
+                        <span class="title">传统做法</span>
+                    </div>
+                    <p class="title__text">宿舍建筑特点－小开间、高密度、多隔断</p>
+                    <div class="img">
+                        <img src="RJ-img/mask2-01.png" alt="">
+                    </div>
+                    <div class="bottom">
+                        <p class="top__text">
+                            走廊放装
+                        </p>
+                        <p class="sub__title">
+                            <span>劣势</span>
+                        </p>
+                        <p class="bottom__text">
+                            由于墙壁阻隔，并不能有效覆盖室内<br>
+                            如果增加信号强度，则同频干扰严重
+                        </p>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="top">
+                        <span class="title">传统做法</span>
+                    </div>
+                    <p class="title__text">室内分布式安装 “智分+”</p>
+                    <div class="img">
+                        <img src="RJ-img/mask2-02.png" alt="">
+                    </div>
+                    <div class="bottom">
+                        <p class="top__text">
+                            有效降低同频干扰<br>
+                            实现室内精准覆盖
                         </p>
                         <p class="sub__title">
                             <span>劣势</span>
                         </p>
                         <p class="bottom__text">信号杂乱、同频干扰严重，前排观众体验不佳<br>方案施工麻烦，网优复杂</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mask mask3 open">
+            <div class="box">
+                <a class="close" href="javascript:;"></a>
+                <div class="left">
+                    <div class="top">
+                        <span class="title">传统做法</span>
+                    </div>
+                    <div class="img">
+                        <img src="RJ-img/mask3-01.png" alt="">
+                    </div>
+                    <div class="bottom">
+                        <p class="top__text">
+                            走廊放装
+                        </p>
+                        <p class="sub__title">
+                            <span>劣势</span>
+                        </p>
+                        <p class="bottom__text">
+                            同频干扰严重<br>
+                            漫游切换掉线
+                        </p>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="top">
+                        <span class="title">传统做法</span>
+                    </div>
+                    <div class="img">
+                        <img src="RJ-img/mask3-02.png" alt="">
+                    </div>
+                    <div class="bottom">
+                        <p class="top__text">
+                            零漫游<br>
+                            基于智分技术和零漫游基站<br>
+                            一台基站最多可以支持48个病房<br>
+                        </p>
+                        <p class="sub__title">
+                            <span>劣势</span>
+                        </p>
+                        <p class="bottom__text">
+                            更大的零漫游范围保障护士在查房过程中无缝切换<br>
+                            高速5G无线网络<br>
+                            既避免与医疗仪器形成干扰<br>
+                            又能保障PACS等大流量业务使用
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mask mask4 open">
+            <div class="box">
+                <a class="close" href="javascript:;"></a>
+                <div class="left">
+                    <div class="top">
+                        <span class="title">传统做法</span>
+                    </div>
+                    <div class="img">
+                        <img src="RJ-img/mask4-01.png" alt="">
+                    </div>
+                    <div class="bottom">
+                        <p class="top__text">
+                            地铁WiFi覆盖<br>
+                            分为车载AP和轨旁AP两部分<br>
+                            车载AP负责车厢内覆盖<br>
+                            同时要与轨旁AP桥接<br>
+                            形成车地互联，提供上行带宽
+                        </p>
+                        <p class="sub__title">
+                            <span>劣势</span>
+                        </p>
+                        <p class="bottom__text">
+                            国内地铁时速最高达到120KM<br>
+                            在列车高速运行中<br>
+                            车载AP和轨旁AP会频繁切换<br>
+                            对车地互联的稳定性和带宽影响极大
+                        </p>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="top">
+                        <span class="title">传统做法</span>
+                    </div>
+                    <div class="img">
+                        <img src="RJ-img/mask4-02.png" alt="">
+                    </div>
+                    <div class="bottom">
+                        <p class="top__text">
+                            所有的轨旁AP，虚拟成一个大AP<br>
+                            车载AP只和“大AP”通信<br>
+                            达到毫秒级车地快速切换<br>
+                            切换中几乎零丢包<br>&nbsp;
+                        </p>
+                        <p class="sub__title">
+                            <span>劣势</span>
+                        </p>
+                        <p class="bottom__text">
+                            每列地铁上网带宽可达400M
+                        </p>
                     </div>
                 </div>
             </div>
