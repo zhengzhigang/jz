@@ -723,7 +723,7 @@ a {
     .item {
       float: left;
       width: 25%;
-      height: 658px;
+      height: 500px;
       background-position: center top;
       background-repeat: no-repeat;
       background-size: cover;
@@ -731,7 +731,7 @@ a {
       cursor: pointer;
       &:hover {
         .item__title {
-          padding-top: 245px;
+          padding-top: 205px;
         }
         .text {
           opacity: 1;

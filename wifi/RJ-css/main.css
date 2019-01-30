@@ -718,7 +718,7 @@ a {
 .slide4 .list .item {
   float: left;
   width: 25%;
-  height: 658px;
+  height: 500px;
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -726,7 +726,7 @@ a {
   cursor: pointer;
 }
 .slide4 .list .item:hover .item__title {
-  padding-top: 245px;
+  padding-top: 205px;
 }
 .slide4 .list .item:hover .text {
   opacity: 1;
