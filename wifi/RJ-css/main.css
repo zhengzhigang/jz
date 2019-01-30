@@ -335,7 +335,7 @@ a {
   left: 0;
   right: 0;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.6);
   z-index: 11;
 }
 .mask.open {
@@ -806,6 +806,7 @@ a {
   font-size: 24px;
   line-height: 1;
   padding: 55px 0 35px 0;
+  color: #2297f2;
 }
 .slide5 .item .text {
   font-size: 16px;
@@ -1767,10 +1768,9 @@ a {
   }
 
   .mask .box {
-    width: 96%;
-    top: 50%;
-    -webkit-transform: translate3d(0, -50%, 0);
-    transform: translate3d(0, -50%, 0);
+    width: 90%;
+    max-height: 400px;
+    overflow-y: scroll;
   }
   .mask .box .close {
     top: -40px;
@@ -1793,17 +1793,17 @@ a {
     height: auto;
   }
   .mask .box .left img {
-    max-width: 150px;
+    max-width: 200px;
   }
   .mask .box .right {
     width: 100%;
     height: auto;
   }
   .mask .box .right img {
-    max-width: 150px;
+    max-width: 200px;
   }
   .mask .box .right .float__img {
-    width: 100px;
+    width: 130px;
     right: 35px;
   }
   .mask .box .img {
@@ -1831,30 +1831,18 @@ a {
   }
 
   .mask2 .left {
-    padding-bottom: 22px;
-  }
-  .mask2 .box .right .img {
-    padding-right: 40px;
-  }
-  .mask2 .box .right img {
-    max-width: 400px;
+    padding-bottom: 0;
   }
 
   .mask3 .left {
-    padding-bottom: 35px;
+    padding-bottom: 0;
   }
   .mask3 .left .top__text {
-    margin-bottom: 72px;
-  }
-  .mask3 .box .right img {
-    max-width: 412px;
+    margin-bottom: 20px;
   }
 
   .mask4 .left img {
-    margin-bottom: -40px;
-  }
-  .mask4 .box .right img {
-    max-width: 412px;
+    margin-bottom: -20px;
   }
 
   .main__swiper .title, .swiper-wrapper .title, .swiper-slide .title {

@@ -234,7 +234,7 @@
                                 <img class="active" src="RJ-img/slide2-icon-05.png">
                                 <img class="no__active" src="RJ-img/slide2-icon-02.png">
                             </div>
-                            <h3 class="item__title">趋势变革</h2>
+                            <h3 class="item__title">深度融合</h2>
                             <div class="bottom">
                                 <div class="line">
                                     <i class="left"></i><i class="right"></i>
@@ -250,7 +250,7 @@
                                 <img class="active" src="RJ-img/slide2-icon-06.png">
                                 <img class="no__active" src="RJ-img/slide2-icon-03.png">
                             </div>
-                            <h3 class="item__title">趋势变革</h2>
+                            <h3 class="item__title">体验拓展</h2>
                             <div class="bottom">
                                 <div class="line">
                                     <i class="left"></i><i class="right"></i>
@@ -353,7 +353,7 @@
                 </div>
                 <div class="swiper-slide slide6">
                     <div class="title">
-                        <img src="RJ-img/slide5-title.png">
+                        <img src="RJ-img/slide6-title.png">
                     </div>
                     <div class="slide6__swiper-box">
                         <div class="swiper-container slide6__swiper">
@@ -787,26 +787,25 @@
                 </div>
                 <div class="right">
                     <div class="top">
-                        <span class="title">传统做法</span>
+                        <span class="title">锐捷做法</span>
                     </div>
-                    <p class="title__text">室内分布式安装 “智分+”</p>
+                    <p class="title__text">智分方案－化整为零、室内精准布放</p>
                     <div class="img">
                         <img src="RJ-img/mask2-02.png" alt="">
                     </div>
                     <div class="bottom">
                         <p class="top__text">
-                            有效降低同频干扰<br>
-                            实现室内精准覆盖
+                            室内分布式安装 “智分+”
                         </p>
                         <p class="sub__title">
-                            <span>劣势</span>
+                            <span>优势</span>
                         </p>
-                        <p class="bottom__text">信号杂乱、同频干扰严重，前排观众体验不佳<br>方案施工麻烦，网优复杂</p>
+                        <p class="bottom__text">有效降低同频干扰<br>实现室内精准覆盖</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="mask mask3 open">
+        <div class="mask mask3">
             <div class="box">
                 <a class="close" href="javascript:;"></a>
                 <div class="left">
@@ -831,7 +830,7 @@
                 </div>
                 <div class="right">
                     <div class="top">
-                        <span class="title">传统做法</span>
+                        <span class="title">锐捷做法</span>
                     </div>
                     <div class="img">
                         <img src="RJ-img/mask3-02.png" alt="">
@@ -843,7 +842,7 @@
                             一台基站最多可以支持48个病房<br>
                         </p>
                         <p class="sub__title">
-                            <span>劣势</span>
+                            <span>优势</span>
                         </p>
                         <p class="bottom__text">
                             更大的零漫游范围保障护士在查房过程中无缝切换<br>
@@ -855,7 +854,7 @@
                 </div>
             </div>
         </div>
-        <div class="mask mask4 open">
+        <div class="mask mask4">
             <div class="box">
                 <a class="close" href="javascript:;"></a>
                 <div class="left">
@@ -886,7 +885,7 @@
                 </div>
                 <div class="right">
                     <div class="top">
-                        <span class="title">传统做法</span>
+                        <span class="title">锐捷做法</span>
                     </div>
                     <div class="img">
                         <img src="RJ-img/mask4-02.png" alt="">
@@ -899,7 +898,7 @@
                             切换中几乎零丢包<br>&nbsp;
                         </p>
                         <p class="sub__title">
-                            <span>劣势</span>
+                            <span>优势</span>
                         </p>
                         <p class="bottom__text">
                             每列地铁上网带宽可达400M
