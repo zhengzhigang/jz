@@ -319,7 +319,7 @@ a {
   left: 0;
   right: 0;
   text-align: center;
-  background-color: rgba(0, 0, 0, .8);
+  background-color: rgba(0, 0, 0, .6);
   z-index: 11;
   &.open {
     display: table-cell;
@@ -723,7 +723,7 @@ a {
     .item {
       float: left;
       width: 25%;
-      height: 658px;
+      height: 500px;
       background-position: center top;
       background-repeat: no-repeat;
       background-size: cover;
@@ -731,7 +731,7 @@ a {
       cursor: pointer;
       &:hover {
         .item__title {
-          padding-top: 245px;
+          padding-top: 205px;
         }
         .text {
           opacity: 1;
@@ -815,6 +815,7 @@ a {
       font-size: 24px;
       line-height: 1;
       padding: 55px 0 35px 0;
+      color: #2297f2;
     }
     .text {
       font-size: 16px;
@@ -1815,10 +1816,9 @@ a {
   }
   .mask {
     .box {
-      width: 96%;
-      top: 50%;
-      -webkit-transform: translate3d(0, -50%, 0);
-      transform: translate3d(0, -50%, 0);
+      width: 90%;
+      max-height: 400px;
+      overflow-y: scroll;
       .close {
         top: -40px;
         width: 30px;
@@ -1839,17 +1839,17 @@ a {
         width: 100%;
         height: auto;
         img {
-          max-width: 150px;
+          max-width: 200px;
         }
       }
       .right {
         width: 100%;
         height: auto;
         img {
-          max-width: 150px;
+          max-width: 200px;
         }
         .float__img {
-          width: 100px;
+          width: 130px;
           right: 35px;
         }
       }
@@ -1882,45 +1882,21 @@ a {
   }
   .mask2 {
     .left {
-      padding-bottom: 22px;
-    }
-    .box {
-      .right {
-        .img {
-          padding-right: 40px;
-        }
-        img {
-          max-width: 400px;
-        }
-      }
+      padding-bottom: 0;
     }
   }
   .mask3 {
     .left {
-      padding-bottom: 35px;
+      padding-bottom: 0;
       .top__text {
-        margin-bottom: 72px;
-      }
-    }
-    .box {
-      .right {
-        img {
-          max-width: 412px;
-        }
+        margin-bottom: 20px;
       }
     }
   }
   .mask4 {
     .left {
       img {
-        margin-bottom: -40px;
-      }
-    }
-    .box {
-      .right {
-        img {
-          max-width: 412px;
-        }
+        margin-bottom: -20px;
       }
     }
   }
