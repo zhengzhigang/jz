@@ -633,7 +633,7 @@
                         </div>
                         <div class="right">
                             <div class="big__img">
-                                <img src="RJ-img/slide10-101.png">
+                                <img class="active" src="RJ-img/slide10-101.png">
                                 <img src="RJ-img/slide10-201.png">
                                 <img src="RJ-img/slide10-301.png">
                                 <img src="RJ-img/slide10-401.png">
@@ -641,7 +641,7 @@
                                 <img src="RJ-img/slide10-601.png">
                             </div>
                             <div class="img__list__box">
-                                <ul class="list">
+                                <ul class="list active">
                                     <li class="item">
                                         <img src="RJ-img/slide10-102.png" alt="">
                                         <p class="text">中国矿业大学</p>

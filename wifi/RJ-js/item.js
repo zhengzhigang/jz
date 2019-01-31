@@ -7,6 +7,7 @@ $(function(){
             var option = {
                 direction: 'vertical',
                 mousewheelControl: true,
+                mousewheel: true,
                 speed: 800
             }
             // 初始化滚屏
@@ -15,7 +16,10 @@ $(function(){
                     direction: 'vertical',
                     slidesPerView: 'auto',
                     freeMode: true,
-                    mousewheel: true
+                    mousewheel: true,
+                    observer:true,//修改swiper自己或子元素时，自动初始化swiper
+                    observeParents:true,
+                    scrollbarDraggable: true
                 }
             }
             var swiper = new Swiper('.main__swiper', option);
@@ -23,15 +27,17 @@ $(function(){
             // 第6屏swiper
             new Swiper('.slide6__swiper', {
                 pagination: '.swiper-pagination',
-                nextButton: '.swiper-button-next',
-                prevButton: '.swiper-button-prev',
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
                 spaceBetween: 20,
                 loop: true,
-                // autoplay: 1000
+                autoplay: {
+                    delay: 10000,
+                    disableOnInteraction: false,
+                },
             });
-
-            $('.slide10 .img__list__box .list').eq(0).show();
-            $('.slide10 .big__img img').eq(0).show();
             _this.switchTab();
 
             $('.header-list.t-pc .header-item').hover(function() {
@@ -84,8 +90,8 @@ $(function(){
         switchTab: function() {
             $('.slide10').on('click', '.left .item', function() {
                 var i = $(this).data('index');
-                $('.slide10 .img__list__box .list').eq(i - 1).show().siblings().hide();
-                $('.slide10 .big__img img').eq(i - 1).show().siblings().hide();
+                $('.slide10 .img__list__box .list').eq(i - 1).addClass('active').siblings().removeClass('active');
+                $('.slide10 .big__img img').eq(i - 1).addClass('active').siblings().removeClass('active');
                 $(this).addClass('active').siblings().removeClass('active');
             })
         }
