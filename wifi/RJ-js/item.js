@@ -8,18 +8,18 @@ $(function(){
                 direction: 'vertical',
                 mousewheelControl: true,
                 mousewheel: true,
-                speed: 800
-            }
-            // 初始化滚屏
-            if (win_width <= 768) {
-                option = {
-                    direction: 'vertical',
-                    slidesPerView: 'auto',
-                    freeMode: true,
-                    mousewheel: true,
-                    observer:true,//修改swiper自己或子元素时，自动初始化swiper
-                    observeParents:true,
-                    scrollbarDraggable: true
+                speed: 800,
+                on: {
+                    slideChangeTransitionEnd: function() {
+                        var that = this;
+                        $('.t-pc.header-list .sub-item').each(function(item) {
+                            var  i = $(this).data('index');
+                            if (i === that.activeIndex - 1) {
+                                $(this).addClass('active').parents('.header-item').addClass('active');
+                                $(this).siblings().removeClass('active').parents('.header-item').siblings().removeClass('active').find('sub-item').removeClass('active');
+                            }
+                        })
+                    }
                 }
             }
             if (win_width > 768) {
