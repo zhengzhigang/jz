@@ -2094,8 +2094,10 @@ a {
 
   .mask .box {
     width: 90%;
-    max-height: 400px;
+  }
+  .mask .box .content__box {
     overflow-y: scroll;
+    max-height: 400px;
   }
   .mask .box .close {
     top: -40px;
@@ -2181,6 +2183,11 @@ a {
   .main__swiper {
     width: 100%;
     height: 100%;
+  }
+
+  .main__wrapper {
+    display: block;
+    overflow-y: scroll;
   }
 
   .swiper-slide {

@@ -22,7 +22,9 @@ $(function(){
                     scrollbarDraggable: true
                 }
             }
-            var swiper = new Swiper('.main__swiper', option);
+            if (win_width > 768) {
+                var swiper = new Swiper('.main__swiper', option);
+            }
 
             // 第6屏swiper
             new Swiper('.slide6__swiper', {
@@ -46,15 +48,11 @@ $(function(){
                 $(this).find('.sub-nav').hide();
             })
 
-            $('.header-list.t-pc .sub-nav, .header-mobile-list .sub-list').on('click', '.sub-item', function() {
+            $('.header-list.t-pc .sub-nav').on('click', '.sub-item', function() {
                 var i = $(this).data('index');
                 if ($(this).hasClass('active')) return;
                 $(this).addClass('active').siblings().removeClass('active');
-                if (win_width <= 768) {
-                    $(this).parents('.mobile-list-item').addClass('active').siblings().removeClass('active').find('.sub-item').removeClass('active');
-                } else {
-                    $(this).parents('.header-item').addClass('active').siblings().removeClass('active').find('.sub-item').removeClass('active');
-                }
+                $(this).parents('.header-item').addClass('active').siblings().removeClass('active').find('.sub-item').removeClass('active');
                 swiper.slideTo(i + 1)
             })
 
