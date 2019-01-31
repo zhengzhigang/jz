@@ -404,7 +404,7 @@
                         <img src="RJ-img/slide8-title.png">
                     </div>
                     <h2 class="item__title">大型会议Wi-Fi接入</h2>
-                    <p class="title__text">空间封闭，人群密集，并发量大<br>需要保证每用户的高带宽需求，往往需要超高性能的AP来应对</p>
+                    <p class="title__text">空间封闭，人群密集，并发量大，需要保证每用户的高带宽需求，往往需要超高性能的AP来应对</p>
                     <div class="content clearfix">
                         <div class="left">
                             <div class="left__title">
@@ -507,7 +507,7 @@
                     <div class="title">
                         <img src="RJ-img/slide9-title.png">
                     </div>
-                    <ul class="list">
+                    <ul class="list clearfix">
                         <li class="item">
                             <div class="box">
                                 <img class="t-img" src="RJ-img/slide9-01.png">

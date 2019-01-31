@@ -287,7 +287,7 @@ a {
 .header .header-list.t-pc .sub-nav {
   display: none;
   position: absolute;
-  width: auto;
+  min-width: 100%;
   left: 0;
   top: 100%;
   -webkit-box-shadow: 0 2px 12px 0 rgba(38, 149, 244, 0.4);
@@ -483,10 +483,14 @@ a {
   max-width: 412px;
 }
 
-.mask4 .left img {
+.mask4 .box .close {
+  top: -90px;
+}
+.mask4 .box .left img {
+  max-width: 390px;
   margin-bottom: -40px;
 }
-.mask4 .box .right img {
+.mask4 .box .box .right img {
   max-width: 412px;
 }
 
@@ -1343,17 +1347,20 @@ a {
   }
 
   .slide3 .content {
-    height: 500px;
-    max-width: 1300px;
+    height: 470px;
+    max-width: 1200px;
   }
   .slide3 .item {
-    padding-top: 80px;
+    padding-top: 70px;
   }
   .slide3 .item img {
-    height: 110px;
+    height: 100px;
   }
   .slide3 .item .item__title {
     padding: 60px 0 45px 0;
+  }
+  .slide3 .item .text {
+    padding-top: 40px;
   }
 
   .slide4 .list {
@@ -1363,43 +1370,60 @@ a {
     height: 460px;
   }
   .slide4 .list .item:hover .item__title {
-    padding-top: 200px;
+    padding-top: 160px;
   }
 
   .slide5 .list {
-    max-width: 1300px;
+    max-width: 1200px;
+  }
+  .slide5 .item {
+    height: 470px;
+  }
+  .slide5 .item .t-img {
+    padding-top: 50px;
+    width: 160px;
   }
 
   .slide6 .title {
     margin-bottom: 25px;
   }
   .slide6 .slide6__swiper-box {
-    max-width: 1240px;
+    max-width: 1100px;
   }
   .slide6 .slide6__swiper {
-    height: 600px;
+    height: 500px;
     max-width: 1240px;
   }
   .slide6 .swiper-button-prev, .slide6 .swiper-button-next {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
   }
   .slide6 .swiper-button-prev {
-    left: -90px;
+    left: -80px;
   }
   .slide6 .swiper-button-next {
-    right: -90px;
+    right: -80px;
+  }
+  .slide6 .left .t-img {
+    margin-top: 50px;
+  }
+  .slide6 .left .line {
+    top: 180px;
   }
   .slide6 .content {
-    padding: 120px 190px 0 190px;
+    padding: 90px 190px 0 190px;
   }
 
+  .slide8 .title {
+    padding-top: 150px;
+  }
   .slide8 .content {
     height: 500px;
     max-width: 1300px;
   }
   .slide8 .left {
-    width: 70%;
+    width: 71.5%;
+    margin-right: 1.5%;
   }
   .slide8 .right {
     width: 27%;
@@ -1411,12 +1435,12 @@ a {
     padding: 0 10px;
   }
   .slide8 .text__box p {
-    width: 60%;
+    width: 66%;
     padding-top: 15px;
     padding-bottom: 15px;
   }
   .slide8 .text__box .t-img {
-    width: 38%;
+    width: 32%;
     margin-left: 2%;
   }
   .slide8 .bottom {
@@ -1447,25 +1471,28 @@ a {
   .slide9 .title {
     margin-bottom: 48px;
   }
+  .slide9 .item__title {
+    padding: 20px 15px 15px 15px;
+  }
   .slide9 .list {
-    max-width: 1300px;
+    max-width: 1200px;
   }
   .slide9 .item {
-    height: 540px;
+    height: 480px;
   }
   .slide9 .item:hover {
-    height: 570px;
-    margin-top: -35px;
+    height: 510px;
+    margin-top: -30px;
   }
 
   .slide10 .content {
-    max-width: 1300px;
-    height: 550px;
+    max-width: 1200px;
+    height: 460px;
   }
   .slide10 .right .big__img {
-    width: 400px;
-    height: 400px;
-    margin: -60px 0 0 -100px;
+    width: 300px;
+    height: 300px;
+    margin: -60px 0 0 -90px;
     z-index: 1;
   }
   .slide10 .right .img__list__box {
@@ -1475,7 +1502,7 @@ a {
     line-height: 100px;
   }
   .slide10 .right .item img {
-    max-height: 100px;
+    max-height: 80px;
   }
   .slide10 .right .item .text {
     padding: 20px 0;
@@ -1572,42 +1599,88 @@ a {
   }
 
   .slide3 .content {
-    max-width: 1200px;
+    max-width: 1000px;
+  }
+  .slide3 .item {
+    width: 26%;
+    margin: 0 3.66666%;
+    padding-top: 60px;
+  }
+  .slide3 .item img {
+    height: 120px;
+  }
+  .slide3 .item .item__title {
+    padding: 45px 0 35px 0;
+  }
+  .slide3 .item .text {
+    padding-top: 30px;
   }
 
   .slide4 .list {
-    max-width: 1200px;
+    max-width: 1000px;
   }
   .slide4 .list .item {
     height: 400px;
   }
+  .slide4 .list .item .text {
+    margin: 0 20px;
+  }
   .slide4 .list .item:hover .item__title {
-    padding-top: 160px;
+    padding-top: 130px;
+  }
+
+  .slide5 .list {
+    max-width: 1000px;
+  }
+  .slide5 .item {
+    width: 31%;
+    margin-right: 3.5%;
+    height: 440px;
+  }
+  .slide5 .item .t-img {
+    padding-top: 40px;
+    width: 150px;
   }
 
   .slide6 .slide6__swiper-box {
-    max-width: 1100px;
+    max-width: 1000px;
   }
   .slide6 .slide6__swiper {
     height: 500px;
-    max-width: 1240px;
+    max-width: 1000px;
   }
   .slide6 .swiper-button-prev, .slide6 .swiper-button-next {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
   }
   .slide6 .swiper-button-prev {
-    left: -90px;
+    left: -70px;
   }
   .slide6 .swiper-button-next {
-    right: -90px;
+    right: -70px;
   }
   .slide6 .content {
     padding: 100px 190px 0 190px;
   }
+  .slide6 .left .t-img {
+    margin-top: 40px;
+  }
+  .slide6 .left .line {
+    top: 140px;
+  }
 
+  .slide7 {
+    background-size: 80% auto;
+  }
+
+  .slide8 .title {
+    padding-top: 140px;
+  }
   .slide8 .content {
-    height: 500px;
+    height: 510px;
+  }
+  .slide8 .title__text {
+    margin-bottom: 10px;
   }
   .slide8 .left {
     width: 72%;
@@ -1616,27 +1689,37 @@ a {
   .slide8 .right {
     width: 27%;
   }
+  .slide8 .top {
+    padding-top: 10px;
+  }
+  .slide8 .left__title {
+    line-height: 60px;
+  }
   .slide8 .left__content {
-    padding-right: 25px;
+    padding-right: 15px;
+    padding-left: 60px;
+  }
+  .slide8 .right__title {
+    line-height: 60px;
   }
   .slide8 .text__box {
     padding: 0 10px;
   }
   .slide8 .text__box p {
-    width: 60%;
+    width: 68%;
     padding-top: 15px;
     padding-bottom: 15px;
   }
   .slide8 .text__box .t-img {
-    width: 38%;
+    width: 30%;
     margin-left: 2%;
   }
   .slide8 .bottom {
     margin-bottom: 0;
   }
   .slide8 .bottom .item {
-    width: 32%;
-    margin-right: 2%;
+    width: 32.5%;
+    margin-right: 1.25%;
   }
   .slide8 .bottom .title {
     padding-top: 10px;
@@ -1646,8 +1729,11 @@ a {
     height: 16px;
     margin-right: 10px;
   }
+  .slide8 .bottom .text {
+    padding: 10px 0;
+  }
   .slide8 .right__content {
-    padding: 56px 20px 56px 85px;
+    padding: 56px 20px 56px 60px;
   }
   .slide8 .right__content .item {
     width: 47%;
@@ -1657,16 +1743,24 @@ a {
   }
 
   .slide9 .title {
-    margin-bottom: 48px;
+    margin-bottom: 35px;
   }
   .slide9 .list {
-    max-width: 1200px;
+    max-width: 1000px;
+  }
+  .slide9 .item__title {
+    padding: 15px;
+  }
+  .slide9 .text__list {
+    padding: 0 15px;
   }
   .slide9 .item {
-    height: 500px;
+    width: 23.5%;
+    margin-right: 2%;
+    height: 460px;
   }
   .slide9 .item:hover {
-    height: 540px;
+    height: 490px;
     margin-top: -35px;
   }
   .slide9 .item .button {
@@ -1674,13 +1768,13 @@ a {
   }
 
   .slide10 .content {
-    max-width: 1200px;
-    height: 450px;
+    max-width: 1000px;
+    height: 470px;
   }
   .slide10 .right .big__img {
-    width: 300px;
-    height: 300px;
-    margin: -60px 0 0 -120px;
+    width: 280px;
+    height: 280px;
+    margin: -40px 0 0 -100px;
     z-index: 1;
   }
   .slide10 .right .img__list__box {
@@ -1695,6 +1789,36 @@ a {
   .slide10 .right .item .text {
     font-size: 22px;
     padding: 15px 0;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .mask .box .close {
+    top: -70px;
+    right: 0;
+    width: 60px;
+    height: 60px;
+  }
+  .mask .box .top {
+    padding-top: 20px;
+  }
+  .mask .box .top .title {
+    line-height: 45px;
+  }
+  .mask .box .left img {
+    max-width: 380px;
+  }
+  .mask .box .right img {
+    max-width: 280px;
+  }
+  .mask .box .right .float__img {
+    width: 200px;
+  }
+  .mask .box .title__text {
+    padding: 30px 0 10px 0;
+  }
+
+  .mask4 .box .left img {
+    max-width: 350px;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
@@ -1775,20 +1899,20 @@ a {
   }
 
   .slide3 .content {
-    height: 500px;
+    height: 460px;
     max-width: 1000px;
   }
   .slide3 .item {
     padding-top: 50px;
   }
   .slide3 .item img {
-    height: 90px;
+    height: 70px;
   }
   .slide3 .item .item__title {
-    padding: 35px 0 30px 0;
+    padding: 30px 0 25px 0;
   }
   .slide3 .item .text {
-    padding-top: 25px;
+    padding-top: 20px;
   }
 
   .slide4 .list {
