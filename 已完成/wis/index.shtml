@@ -150,6 +150,9 @@
                         今天想以WIS第五个用户、第一个中小场景用户和给WIS提需求最多的人的身份，聊聊WIS的正确打开方式。我
                         会毫无保留地分享所有实战经验和使用窍门，希望能让更多的IT人员事半功倍，让更多的企业拥有好无线。 
                     </p>
+                    <div class="button__box">
+                        <a href="project1.shtml" class="button border" target="_blank">查看详情</a>
+                    </div>
                     <ul class="list clearfix">
                         <li class="item">
                             <a href="">

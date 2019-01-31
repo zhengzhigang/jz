@@ -159,6 +159,10 @@ body {
     background-color: #0dbc5f;
     color: #fff;
   }
+  .button.border {
+    border: 1px solid #0dbc5f;
+    color: #0dbc5f;  
+  }
 }
 .sec1 {
   background-image: url("../RJ-img/home-item1-bg.jpg");
@@ -303,7 +307,10 @@ body {
 }
 .sec13 {
   .t-intro {
-    padding: 20px 80px 75px 80px;
+    padding: 20px 80px 35px 80px;
+  }
+  .button__box {
+    margin-bottom: 40px;
   }
   .item {
     float: left;
