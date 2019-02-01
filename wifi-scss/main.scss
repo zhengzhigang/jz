@@ -933,7 +933,7 @@ a {
   .t-img {
     position: absolute;
   }
-  background: url("../RJ-img/slide7-01.png") center bottom/ 75% auto no-repeat;
+  background: url("../RJ-img/slide7-01.png") center bottom/ 1000px auto no-repeat;
 }
 
 .slide8 {
@@ -978,7 +978,7 @@ a {
     left: 0;
     top: 0;
     writing-mode: tb-rl;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 85px;
     text-align: center;
     color: #25c399;
@@ -1002,12 +1002,12 @@ a {
     }
     .triangle, .triangle__shadow {
       display: inline-block;
-      width:0;
-      height:0;
+      width: 0;
+      height: 0;
       border-width: 34px 0 0 32px;
-      border-style:solid;
-      border-color:transparent transparent transparent #25c399;
-      position:relative;
+      border-style: solid;
+      border-color: transparent transparent transparent #25c399;
+      position: relative;
     }
     .shadow {
       display: inline-block;
@@ -1023,7 +1023,20 @@ a {
     }
   }
   .top {
+    float: left;
+    width: 48%;
+    margin-right: 4%;
     padding-top: 20px;
+  }
+  .middle {
+    float: left;
+    padding-top: 10px;
+    width: 48%;
+  }
+  .top, .middle {
+    .text__box {
+      height: 160px;
+    }
   }
   .top, .middle, .bottom {
     margin-bottom: 12px;
@@ -1032,16 +1045,13 @@ a {
     padding: 0 25px;
     border: 1px solid #daf6e8;
     p {
-      float: left;
-      width: 40%;
       padding-top: 25px;
       padding-bottom: 25px;
+      font-size: 14px;
     }
     .t-img {
-      float: right;
       display: block;
-      width: 50%;
-      margin-left: 10%;
+      width: 100%;
     }
   }
   .bottom {
@@ -1072,7 +1082,7 @@ a {
     }
   }
   .right__content {
-    padding: 56px 54px 56px 85px;
+    padding: 30px 54px 56px 85px;
     font-size: 0;
     .list {
       font-size: 0;
@@ -1080,7 +1090,7 @@ a {
     .item {
       display: inline-block;
       width: 45%;
-      margin-bottom: 86px;
+      margin-bottom: 30px;
     }
     .margin__right {
       margin-right: 10%;
@@ -1620,23 +1630,26 @@ a {
       height: 300px;
       margin-right: 30px;
       &:hover {
-        width: 35%;
-        height: 470px;
+        width: 34%;
+        height: 400px;
         transform: translate3d(0, -75px, 0);
         .circle__inside {
-          width: 150px;
-          height: 150px;
-          margin-left: -85px;
+          width: 100px;
+          height: 100px;
+          margin-left: -58px;
           top: 36px;
-          border: 20px solid #2297f2;
+          border: 16px solid #2297f2;
           img {
-            width: 90px;
-            height: 90px;
-            margin-top: 35px;
+            width: 70px;
+            height: 70px;
+            margin-top: 20px;
           }
         }
+        .line {
+          margin-bottom: 20px;
+        }
         .item__title {
-          top: 250px;
+          top: 200px;
         }
         .bottom {
           opacity: 1;
@@ -1758,7 +1771,7 @@ a {
       padding-top: 140px;
     }
     .content {
-      height: 510px;
+      height: 410px;
     }
     .title__text {
       margin-bottom: 10px;
@@ -1786,13 +1799,12 @@ a {
     .text__box {
       padding: 0 10px;
       p {
-        width: 68%;
         padding-top: 15px;
         padding-bottom: 15px;
       }
       .t-img {
-        width: 30%;
-        margin-left: 2%;
+        width: 60%;
+        margin: auto;
       }
     }
     .bottom {
@@ -1814,7 +1826,7 @@ a {
       }
     }
     .right__content {
-      padding: 56px 20px 56px 60px;
+      padding: 30px 20px 30px 60px;
       .item {
         width: 47%;
       }
@@ -1863,9 +1875,9 @@ a {
     }
     .right {
       .big__img {
-        width: 260px;
-        height: 260px;
-        margin: -40px 0 0 -100px;
+        width: 220px;
+        height: 220px;
+        margin: -20px 0 0 -90px;
         z-index: 1;
       }
       .img__list__box {
