@@ -6,19 +6,19 @@
     <title>WIS无线AI云-无线智能服务-锐捷网络</title>
     <meta name="keywords" content="WIS无线AI,无线智能服务,云管理,网络终端管理,锐捷网络" />
     <meta name="description" content="WIS（Wlan Intelligent Service）无线AI云是针对企业级无线网络提供的一个专业的智能服务生态系统，其通过引入云、大数据、AI、边缘计算等技术，让Wi-Fi变的可度量、可预测、可靠，为无线产品全生命周期提供专业、智能、贴心的服务，可以完成从网络规划设计到实施部署、再到智能网优、体验对焦以及后期的巡检运维等一系列工作，为无线带来看得见的好体验。" />
-    <link rel="shortcut icon" href="http://image.ruijie.com.cn/UIA/Images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="://image.ruijie.com.cn/UIA/Images/favicon.ico" type="image/x-icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
-    <link type="text/css" href="http://image.ruijie.com.cn/UIA/Styles_R/idangerous.swiper.css" rel="stylesheet">
-    <link type="text/css" href="http://image.ruijie.com.cn/UIA/Styles_R/main.css?20161115" rel="stylesheet">
-    <link type="text/css" href="http://image.ruijie.com.cn/UIA/Styles_R/util.css?20161113" rel="stylesheet">
-    <script src="http://image.ruijie.com.cn/UIA/Scripts_R/jquery-1.10.2.min.js" type="text/javascript"></script>
-    <script src="http://image.ruijie.com.cn/UIA/Scripts_R/idangerous.swiper.min.js" type="text/javascript"></script>
-    <script src="http://image.ruijie.com.cn/UIA/Scripts_R/jquery.SuperSlide.2.1.1.js" type="text/javascript"></script>
-    <script src="http://image.ruijie.com.cn/UIA/Scripts_R/jquery.placeholder.js" type="text/javascript"></script>
-    <script src="http://image.ruijie.com.cn/UIA/Scripts_R/header.js?20161116" type="text/javascript"></script>
-    <script src="http://image.ruijie.com.cn/UIA/Scripts_R/util.js?20161129" type="text/javascript"></script>
-    <script src="http://image.ruijie.com.cn/UIA/Scripts_R/common.js?20161116" type="text/javascript"></script>
-    <script src="http://image.ruijie.com.cn/UIA/Scripts_R/slimscroll.js?20161116" type="text/javascript"></script>
+    <link type="text/css" href="://image.ruijie.com.cn/UIA/Styles_R/idangerous.swiper.css" rel="stylesheet">
+    <link type="text/css" href="//image.ruijie.com.cn/UIA/Styles_R/main.css?20161115" rel="stylesheet">
+    <link type="text/css" href="//image.ruijie.com.cn/UIA/Styles_R/util.css?20161113" rel="stylesheet">
+    <script src="//image.ruijie.com.cn/UIA/Scripts_R/jquery-1.10.2.min.js" type="text/javascript"></script>
+    <script src="//image.ruijie.com.cn/UIA/Scripts_R/idangerous.swiper.min.js" type="text/javascript"></script>
+    <script src="//image.ruijie.com.cn/UIA/Scripts_R/jquery.SuperSlide.2.1.1.js" type="text/javascript"></script>
+    <script src="//image.ruijie.com.cn/UIA/Scripts_R/jquery.placeholder.js" type="text/javascript"></script>
+    <script src="//image.ruijie.com.cn/UIA/Scripts_R/header.js?20161116" type="text/javascript"></script>
+    <script src="//image.ruijie.com.cn/UIA/Scripts_R/util.js?20161129" type="text/javascript"></script>
+    <script src="//image.ruijie.com.cn/UIA/Scripts_R/common.js?20161116" type="text/javascript"></script>
+    <script src="//image.ruijie.com.cn/UIA/Scripts_R/slimscroll.js?20161116" type="text/javascript"></script>
     <script src="RJ-js/zt.js" type="text/javascript"></script>
     <!--专题js-->
 
