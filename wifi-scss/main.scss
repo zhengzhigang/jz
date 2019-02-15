@@ -1206,11 +1206,11 @@ a {
       position: relative;
       width: 100%;
       line-height: 45px;
-      font-size: 18px;
+      font-size: 16px;
       color: #999;
       cursor: pointer;
       &.active {
-        font-size: 24px;
+        font-size: 22px;
         color: #2098f2;
         .line {
           display: block;
@@ -1262,7 +1262,7 @@ a {
       }
     }
     .img__list__box {
-      padding: 45px 55px;
+      padding: 30px;
       height: 100%;
       overflow: hidden;
     }
@@ -1286,7 +1286,7 @@ a {
       .text {
         padding: 25px 0;
         text-align: center;
-        font-size: 24px;
+        font-size: 14px;
         line-height: 1;
       }
     }
@@ -1305,7 +1305,7 @@ a {
         margin-top: -40px;
       }
       .img__list__box {
-        padding: 25px 55px;
+        padding: 20px 30px;
       }
       .item {
         line-height: 100px;
@@ -1570,7 +1570,7 @@ a {
         z-index: 1;
       }
       .img__list__box {
-        padding: 25px 35px;
+        padding: 15px 25px;
       }
       .item {
         line-height: 100px;
@@ -1882,7 +1882,7 @@ a {
         z-index: 1;
       }
       .img__list__box {
-        padding: 20px 30px;
+        padding: 15px 20px;
       }
       .item {
         line-height: 90px;
@@ -1890,7 +1890,7 @@ a {
           max-height: 70px;
         }
         .text {
-          font-size: 20px;
+          font-size: 12px;
           padding: 15px 0;
         }
       }
@@ -2239,7 +2239,7 @@ a {
         z-index: 1;
       }
       .img__list__box {
-        padding: 20px;
+        padding: 15px;
       }
       .item {
         line-height: 50px;
@@ -2927,7 +2927,6 @@ a {
           margin-right: 0;
         }
         .text {
-          font-size: 20px;
           padding-top: 10px;
         }
       }
