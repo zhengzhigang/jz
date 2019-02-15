@@ -594,31 +594,31 @@
                         <div class="left">
                             <ul class="list clearfix">
                                 <li class="item active" data-index="1">
-                                    <span class="num">01</span><span class="text">985/211</span>
-                                    <div class="line">
-                                        <span class="circle"></span>
-                                    </div>
-                                </li>
-                                <li class="item" data-index="2">
-                                    <span class="num">02</span><span class="text">普教</span>
+                                    <span class="num">01</span><span class="text">高密度大型场景</span>
                                     <div class="line">
                                         <span class="circle"></span>
                                     </div>
                                 </li>
                                 <li class="item" data-index="3">
-                                    <span class="num">03</span><span class="text">交通</span>
+                                    <span class="num">02</span><span class="text">交通</span>
+                                    <div class="line">
+                                        <span class="circle"></span>
+                                    </div>
+                                </li>
+                                <li class="item" data-index="3">
+                                    <span class="num">03</span><span class="text">教育</span>
+                                    <div class="line">
+                                        <span class="circle"></span>
+                                    </div>
+                                </li>
+                                <li class="item" data-index="3">
+                                    <span class="num">04</span><span class="text">医疗</span>
                                     <div class="line">
                                         <span class="circle"></span>
                                     </div>
                                 </li>
                                 <li class="item" data-index="4">
-                                    <span class="num">04</span><span class="text">金融</span>
-                                    <div class="line">
-                                        <span class="circle"></span>
-                                    </div>
-                                </li>
-                                <li class="item" data-index="5">
-                                    <span class="num">05</span><span class="text">零售服务</span>
+                                    <span class="num">05</span><span class="text">金融</span>
                                     <div class="line">
                                         <span class="circle"></span>
                                     </div>
@@ -629,12 +629,41 @@
                                         <span class="circle"></span>
                                     </div>
                                 </li>
+                                <li class="item" data-index="5">
+                                    <span class="num">07</span><span class="text">零售&nbsp;酒店&nbsp;景区</span>
+                                    <div class="line">
+                                        <span class="circle"></span>
+                                    </div>
+                                </li>
+                                <li class="item" data-index="5">
+                                    <span class="num">08</span><span class="text">制造业</span>
+                                    <div class="line">
+                                        <span class="circle"></span>
+                                    </div>
+                                </li>
+                                <li class="item" data-index="5">
+                                    <span class="num">09</span><span class="text">能源</span>
+                                    <div class="line">
+                                        <span class="circle"></span>
+                                    </div>
+                                </li>
+                                <li class="item" data-index="5">
+                                    <span class="num">10</span><span class="text">互联网</span>
+                                    <div class="line">
+                                        <span class="circle"></span>
+                                    </div>
+                                </li>
                             </ul>
                         </div>
                         <div class="right">
                             <div class="big__img">
                                 <img class="active" src="RJ-img/slide10-101.png">
                                 <img src="RJ-img/slide10-201.png">
+                                <img src="RJ-img/slide10-301.png">
+                                <img src="RJ-img/slide10-401.png">
+                                <img src="RJ-img/slide10-501.png">
+                                <img src="RJ-img/slide10-601.png">
+                                
                                 <img src="RJ-img/slide10-301.png">
                                 <img src="RJ-img/slide10-401.png">
                                 <img src="RJ-img/slide10-501.png">
