@@ -2732,6 +2732,7 @@ a {
   }
 
   .slide7 {
+    background-size: 90% auto;
     padding-top: 50px;
     height: 300px;
     .title {
@@ -2773,9 +2774,21 @@ a {
       writing-mode: horizontal-tb;
     }
     .left__content {
-      padding: 0 20px;
+      padding: 0 10px;
+    }
+    .top {
+      .text__box {
+        height: 240px;
+      }
+    }
+    .middle {
+      padding-top: 20px;
+      .text__box {
+        height: 240px;
+      }
     }
     .text__box {
+      padding: 0 10px;
       p {
         width: 100%;
         padding: 20px 0 20px 0;
@@ -2788,7 +2801,19 @@ a {
     }
     .top__title {
       h3 {
-        font-size: 18px;
+        padding: 0 5px;
+        font-size: 14px;
+        line-height: 28px;
+      }
+      .triangle, .triangle__shadow {
+        border-width: 28px 0 0 24px;
+      }
+      .shadow {
+        height: 28px;
+        margin-left: -32px;
+      }
+      .triangle__shadow {
+        border-width: 28px 0 0 24px;
       }
     }
     .bottom {
@@ -2934,5 +2959,22 @@ a {
 
 }
 @media screen and (max-width: 320px) {
-
+  .slide8 {
+    .top {
+      .text__box {
+        height: 270px;
+      }
+    }
+    .middle {
+      .text__box {
+        height: 270px;
+      }
+    }
+    .top__title {
+      h3 {
+        padding: 0 3px;
+        font-size: 12px;
+      }
+    }
+  }
 }

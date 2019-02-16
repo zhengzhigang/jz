@@ -2629,6 +2629,7 @@ a {
   }
 
   .slide7 {
+    background-size: 90% auto;
     padding-top: 50px;
     height: 300px;
   }
@@ -2669,7 +2670,19 @@ a {
     writing-mode: horizontal-tb;
   }
   .slide8 .left__content {
-    padding: 0 20px;
+    padding: 0 10px;
+  }
+  .slide8 .top .text__box {
+    height: 240px;
+  }
+  .slide8 .middle {
+    padding-top: 20px;
+  }
+  .slide8 .middle .text__box {
+    height: 240px;
+  }
+  .slide8 .text__box {
+    padding: 0 10px;
   }
   .slide8 .text__box p {
     width: 100%;
@@ -2681,7 +2694,19 @@ a {
     margin-left: 0;
   }
   .slide8 .top__title h3 {
-    font-size: 18px;
+    padding: 0 5px;
+    font-size: 14px;
+    line-height: 28px;
+  }
+  .slide8 .top__title .triangle, .slide8 .top__title .triangle__shadow {
+    border-width: 28px 0 0 24px;
+  }
+  .slide8 .top__title .shadow {
+    height: 28px;
+    margin-left: -32px;
+  }
+  .slide8 .top__title .triangle__shadow {
+    border-width: 28px 0 0 24px;
   }
   .slide8 .bottom .item {
     width: 100%;
@@ -2817,5 +2842,17 @@ a {
   }
   .slide10 .right .item .text {
     padding-top: 10px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .slide8 .top .text__box {
+    height: 270px;
+  }
+  .slide8 .middle .text__box {
+    height: 270px;
+  }
+  .slide8 .top__title h3 {
+    padding: 0 3px;
+    font-size: 12px;
   }
 }
