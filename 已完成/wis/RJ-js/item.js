@@ -8,8 +8,7 @@ $(function() {
         autoplayDisableOnInteraction: false
     }
     new Swiper('.sec4__swiper .swiper-container', option);
-    new Swiper('.sec11__swiper .swiper-container', option);
-
+    // new Swiper('.sec11__swiper .swiper-container', option);
     $('.sec11__swiper .slide3 tr').hover(function() {
         $(this).siblings().removeClass('active');
         $(this).addClass('active');
@@ -18,5 +17,15 @@ $(function() {
         if (i !== 1 && i !== 7) {
             $(this).removeClass('active');
         }
+    })
+
+    $('.tab__link').on('click', function() {
+        var index = $(this).data('index');
+        $(".product-details-nav-wrap li").each(function(i) {
+            if (i === index) {
+                $(this).addClass('on').siblings().removeClass('on')
+            }
+        })
+        $('.product-details-content').removeClass('detail-active').eq(index).addClass('detail-active')
     })
 })

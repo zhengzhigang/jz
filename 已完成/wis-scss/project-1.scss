@@ -100,7 +100,7 @@ body {
 }
 /* item主体内容区 */
 .t-content {
-  max-width: 1100px;
+  max-width: 1160px;
   width: 100%;
   margin: 0 auto;
   overflow: hidden;
@@ -140,7 +140,7 @@ body {
 }
 
 /*--------自定义样式--------*/
-.sec1 {
+.project1__sec1 {
   background-image: url("../RJ-img/project1-item1-bg.jpg");
   overflow: visible;
   .t-content {
@@ -150,7 +150,7 @@ body {
     color: #fff;
   }
 }
-.sec1__content {
+.project1__sec1__content {
   padding-top: 30px;
   .t-intro {
     color: #fff;
@@ -164,10 +164,10 @@ body {
     max-width: 430px;
   }
 }
-.sec2 {
+.project1__sec2 {
   padding-top: 87px;
 }
-.sec2__content {
+.project1__sec2__content {
   margin-bottom: 35px;
   .t-img {
     display: block;
@@ -180,13 +180,13 @@ body {
     padding-top: 30px;
   }
 }
-.sec3 {
+.project1__sec3 {
   background-image: url("../RJ-img/project1-item3-bg.jpg");
   .t-main-title {
     color: #fff;
   }
 }
-.sec3__content {
+.project1__sec3__content {
   padding-top: 20px;
   margin-bottom: 55px;
   .t-intro {
@@ -239,7 +239,7 @@ body {
     line-height: 20px;
   }
   /*--------自定义样式--------*/
-  .sec1__content {
+  .project1__sec1__content {
     padding-top: 20px;
     .t-intro {
       margin-top: 0;
@@ -248,10 +248,10 @@ body {
       top: 57px;
     }
   }
-  .sec2 {
+  .project1__sec2 {
     padding-top: 57px;
   }
-  .sec2__content {
+  .project1__sec2__content {
     margin-bottom: 25px;
     .t-img {
       margin-top: -10px;
@@ -261,7 +261,7 @@ body {
       padding-top: 20px;
     }
   }
-  .sec3__content {
+  .project1__sec3__content {
     margin-bottom: 35px;
     .t-intro {
       margin-top: 0;

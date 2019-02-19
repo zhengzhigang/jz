@@ -101,7 +101,7 @@ body {
 /* item主体内容区 */
 .t-content {
   position: relative;
-  max-width: 1200px;
+  max-width: 1160px;
   width: 100%;
   margin: 0 auto;
   overflow: hidden;
@@ -673,7 +673,7 @@ body {
     }
     .list {
       width: 100%;
-      max-width: 1130px;
+      max-width: 920px;
       margin: auto;
       padding: 128px 0 203px 0;
       text-align: center;
@@ -689,7 +689,7 @@ body {
       }
       .num__img {
         display: block;
-        width: 60%;
+        width: 30%;
         margin: auto;
         max-width: 118px;
       }
@@ -704,12 +704,12 @@ body {
     }
     .title {
       font-size: 24px;
-      padding-top: 20px;
-      margin-bottom: 12px;
+      padding-top: 10px;
+      margin-bottom: 8px;
     }
     .text {
       padding: 0 27px 0 19px;
-      font-size: 16px;
+      font-size: 14px;
       line-height: 24px;
     }
   }
