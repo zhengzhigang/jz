@@ -86,19 +86,19 @@
 
     <!--正文开始-->
     <div class="t-main">
-        <div class="t-cont-item sec1">
+        <div class="t-cont-item project1__sec1">
             <div class="t-content">
                 <h2 class="t-main-title">360°无线网络体验可视化</h2>
-                <div class="sec1__content">
+                <div class="project1__sec1__content">
                     <p class="t-intro">智能分区：默认显示整网信息，点击展开区域按钮可选择指定区域，区域根据AP-group和AP-name自动划分，且可在后台设置中手动调整。主界面：通过这个页面可以了解网络基础状况</p>
                     <img class="t-img" src="RJ-img/project1-item1-01.png">
                 </div>
             </div>
         </div>
-        <div class="t-cont-item sec2">
+        <div class="t-cont-item project1__sec2">
             <div class="t-content">
                 <h2 class="t-main-title">基于机器学习的体验度量</h2>
-                <div class="sec2__content clearfix">
+                <div class="project1__sec2__content clearfix">
                     <img class="t-img" src="RJ-img/project1-item2-01.png">
                     <p class="t-intro">
                         体验概况：可查看一整天每个小时的体验评估以及每小时用户体验分布，点击体验分布图可查看体验差用户明细列表，包含基础数据和主要原因分析。
@@ -108,10 +108,10 @@
                 </div>
             </div>
         </div>
-        <div class="t-cont-item sec3">
+        <div class="t-cont-item project1__sec3">
             <div class="t-content">
                 <h2 class="t-main-title">体验不佳尽在掌握</h2>
-                <div class="sec3__content clearfix">
+                <div class="project1__sec3__content clearfix">
                     <p class="t-intro">基础分析：从无线网络的五大“天坑”，即影响用户体验的五个维度做详细分析。包含信号干扰，信号覆盖，漫游体验，接入体验和认证体验。</p>
                     <img class="t-img" src="RJ-img/project1-item3-01.png">
                 </div>
