@@ -1014,11 +1014,11 @@ a {
 }
 .slide8 .middle {
   float: left;
-  padding-top: 10px;
+  padding-top: 20px;
   width: 48%;
 }
 .slide8 .top .text__box, .slide8 .middle .text__box {
-  height: 160px;
+  height: 240px;
 }
 .slide8 .top, .slide8 .middle, .slide8 .bottom {
   margin-bottom: 12px;
@@ -1081,6 +1081,7 @@ a {
   width: 100%;
 }
 .slide8 .right__content .box {
+  display: block;
   border: 1px solid #2695f4;
 }
 .slide8 .right__content .bottom {
@@ -1458,6 +1459,9 @@ a {
   .slide8 .left__content {
     padding-right: 25px;
   }
+  .slide8 .top .text__box, .slide8 .middle .text__box {
+    height: 160px;
+  }
   .slide8 .text__box {
     padding: 0 10px;
   }
@@ -1720,9 +1724,6 @@ a {
   .slide8 .right {
     width: 27%;
   }
-  .slide8 .top {
-    padding-top: 10px;
-  }
   .slide8 .left__title {
     line-height: 60px;
   }
@@ -1732,6 +1733,9 @@ a {
   }
   .slide8 .right__title {
     line-height: 60px;
+  }
+  .slide8 .top .text__box, .slide8 .middle .text__box {
+    height: 160px;
   }
   .slide8 .text__box {
     padding: 0 10px;
@@ -2057,6 +2061,9 @@ a {
   }
   .slide8 .left__content {
     padding-right: 25px;
+  }
+  .slide8 .top .text__box, .slide8 .middle .text__box {
+    height: 160px;
   }
   .slide8 .text__box {
     padding: 0 10px;
@@ -2673,13 +2680,13 @@ a {
     padding: 0 10px;
   }
   .slide8 .top .text__box {
-    height: 240px;
+    height: auto;
   }
   .slide8 .middle {
     padding-top: 20px;
   }
   .slide8 .middle .text__box {
-    height: 240px;
+    height: auto;
   }
   .slide8 .text__box {
     padding: 0 10px;

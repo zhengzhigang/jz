@@ -417,10 +417,7 @@
                                     </div>
                                     <div class="text__box clearfix">
                                         <p>
-                                            通过对射频电路与无线天线的长期技术研究，
-                                            锐捷设计了一款适合三射频共存的电路和配
-                                            套天线，在业界率先推出性能真正提升50%
-                                            以上的无线设备。
+                                            设计适合三射频共存的电路和配套天线，提升产品性能50%。
                                         </p>
                                         <img class="t-img" src="RJ-img/slide8-01.png">
                                     </div>
@@ -445,7 +442,7 @@
                                                 CORRECTLINK技术
                                             </h4>
                                             <p class="text">
-                                                根据终端信号强度、时延、丢包、负载、吞吐等多维度信息来建立模型，智能选择接入点，保障用户获得最好的体验。
+                                                根据终端信号的强度、时延、丢包、负载和吞吐等信息建模，智能选择接入点，确保最佳体验。
                                             </p>
                                         </div>
                                         <div class="item">
@@ -454,7 +451,7 @@
                                                 DCCA/DTPC技术
                                             </h4>
                                             <p class="text">
-                                                AP能够根据环境自动智能动态地调整受干扰退避的阈值同时为每用户依据用户体验现状自动调整专属功率，增强了高密环境下的抗干扰能力。
+                                                根据环境智能调整受干扰退避的阈值，并依据每一个用户的体验自动调整专属功率，增加高密环境下的抗干扰能力。
                                             </p>
                                         </div>
                                         <div class="item">
@@ -463,7 +460,7 @@
                                                 AIRRECORDER技术
                                             </h4>
                                             <p class="text">
-                                                通过跟踪各终端实际耗时的情况，灵活调整各终端时间片进行二次分配，实现时间片的分配与空口紧密耦合，提升了整网性能。
+                                                跟踪各终端的实际耗时情况，灵活调整各终端时间片进行二次分配，实现时间片的分配与空口紧密耦合，提升整网性能。
                                             </p>
                                         </div>
                                     </div>
@@ -475,28 +472,28 @@
                             <div class="right__content">
                                 <ul class="list clearfix">
                                     <li class="item margin__right">
-                                        <div class="box">
+                                        <a href="http://www.ruijie.com.cn/cp/wx-fzhxwxjrd/ap730tr/" target="_blank" class="box">
                                             <img class="t-img" src="RJ-img/slide8-03.png">
                                             <div class="bottom">RG-AP730(TR)</div>
-                                        </div>
+                                        </a>
                                     </li>
                                     <li class="item">
-                                        <div class="box">
+                                        <a href="http://www.ruijie.com.cn/cp/wx-fzhxwxjrd/ap860i/" target="_blank" class="box">
                                             <img class="t-img" src="RJ-img/slide8-04.png">
                                             <div class="bottom">RG-AP860-I</div>
-                                        </div>
+                                        </a>
                                     </li>
                                     <li class="item margin__right">
-                                        <div class="box">
+                                        <a href="http://www.ruijie.com.cn/cp/wx-fzhxwxjrd/ap840i/" target="_blank" class="box">
                                             <img class="t-img" src="RJ-img/slide8-05.png">
                                             <div class="bottom">RG-AP840-I </div>
-                                        </div>
+                                        </a>
                                     </li>
                                     <li class="item">
-                                        <div class="box">
+                                        <a href="http://www.ruijie.com.cn/cp/wx-fzhxwxjrd/ap740i/" target="_blank" class="box">
                                             <img class="t-img" src="RJ-img/slide8-06.png">
                                             <div class="bottom">RG-AP740-I</div>
-                                        </div>
+                                        </a>
                                     </li>
                                 </ul>
                             </div>

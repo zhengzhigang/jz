@@ -5,3 +5,4 @@ config.rb
 .sass-cache
 node_modules/
 package-lock.js
+a/
