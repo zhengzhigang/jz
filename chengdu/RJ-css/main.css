@@ -234,7 +234,7 @@ a.btn {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 11;
+  z-index: 1001;
 }
 
 .t-nav-list {
@@ -344,6 +344,7 @@ a.btn {
   overflow: hidden;
   width: 1100px;
   margin: auto;
+  cursor: pointer;
 }
 .sec3__content .sec3__video img {
   display: block;
