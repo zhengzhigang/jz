@@ -1,0 +1,127 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8">
+    <title>看得见的无线好体验-无线-锐捷</title>
+    <meta name="keywords" content="锐捷,无线,AP,体验,WIS,场景创新" />
+    <meta name="description" content="好的无线体验，不仅仅是简单的使用体验，而是包含了产品、技术、部署、服务等多个因素在内的完整体验。基于用户在实际应用场景中的无线需求，锐捷网络特别提出了“无线好体验”这一理念，目的是以用户体验为标尺，锻造出真正“好用”的无线产品解决方案"/>
+    <link rel="shortcut icon" href="http://image.ruijie.com.cn/UIA/Images/favicon.ico" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    <script>
+        var _gsq = _gsq || [];
+        (function () {
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = (location.protocol == 'https:' ? 'https://ssl.' : 'http://static.') +
+                'gridsumdissector.com/js/Clients/GWD-002457-A76CDB/gs.js';
+            var firstScript = document.getElementsByTagName('script')[0];
+            firstScript.parentNode.insertBefore(s, firstScript);
+        })();
+        //**************** 百度统计代码 张月涛 2018-3-13**********
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?608ef9e4b8cd3b7746392c721f2ef555";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+        //********************************************
+    </script>
+</head>
+
+<body>
+
+    <!--js脚本请放在此处-->
+    <script type="text/javascript" src="RJ-js/jquery.js"></script>
+    <script type="text/javascript" src="RJ-js/item.js"></script>
+    <!--正文开始-->
+
+    <!-- 自定义样式begin -->
+    <link rel="stylesheet" type="text/css" href="RJ-css/main.css">
+    <!-- 自定义样式end -->
+
+    <!--正文开始-->
+    <div class="t-main">
+        <div class="t-cont-item sec1">
+            <div class="t-content">
+                <div class="sec1__content clearfix">
+                   
+                </div>
+            </div>
+        </div>
+        <div class="t-cont-item sec2">
+            <div class="t-content">
+                <h2 class="t-main-title">WIS管理无线产品全生命周期</h2>
+                <div class="sec2__content clearfix">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="t-cont-item sec13">
+            <div class="t-content">
+                <h2 class="t-main-title">WIS深度体验：你离Wi-Fi宗师就差了一个WIS</h2>
+                <div class="sec13__content clearfix">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="t-cont-item sec3">
+            <div class="t-content">
+                <h2 class="t-main-title">为什么Wi-Fi好体验难获取</h2>
+                <div class="sec3__content">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="t-cont-item sec4">
+            <div class="t-content">
+                <h2 class="t-main-title">WIS让网络体验看得见</h2>
+                <div class="sec4__content clearfix">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="t-cont-item sec5">
+            <div class="t-content">
+                <h2 class="t-main-title">从建设到交付，WIS构建高品质无线网络</h2>
+                <div class="sec5__content">
+
+                </div>
+            </div>
+        </div>
+        <div class="t-cont-item sec6">
+            <div class="t-content">
+                <h2 class="t-main-title">无线AI云，感知环境、自动网优</h2>
+                <div class="sec6__content clearfix">
+
+                </div>
+            </div>
+        </div>
+        <div class="t-cont-item sec7">
+            <div class="t-content">
+                <h2 class="t-main-title">全网云化</h2>
+                <div class="sec7__content">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="t-cont-item sec8">
+            <div class="t-content">
+                <h2 class="t-main-title">WIS持续精进，只为更好的体验</h2>
+                <div class="sec8__content">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--正文结束-->
+
+    <script type='text/javascript'>
+        _gsq.push(["T", "GWD-002457", "trackEvent", "内容页", "方案", ""]);
+    </script>
+
+</body>
+
+</html>
