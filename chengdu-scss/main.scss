@@ -370,7 +370,7 @@ a.btn {
   padding: 50px 0 132px 0;
   .sec4__item {
     float: left;
-    width: 25%;
+    width: 33.33333%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -383,9 +383,6 @@ a.btn {
   }
   .sec4__item3 {
     background-image: url("../RJ-img/item4-03.png");
-  }
-  .sec4__item4 {
-    background-image: url("../RJ-img/item4-04.png");
   }
   .item__content {
     padding: 56px 15px 20px 15px;
@@ -448,7 +445,7 @@ a.btn {
     background-image: url("../RJ-img/item5-04.png");
   }
   .item__content {
-    padding: 230px 15px 28px 15px;
+    padding: 200px 15px 28px 15px;
   }
   .sec5__title__box, .sec5__text__box {
     display: table;
@@ -463,16 +460,25 @@ a.btn {
     line-height: 34px;
   }
   .sec5__name {
+    position: relative;
     display: inline-block;
-    width: 50px;
     margin-bottom: 25px;
     line-height: 2;
     color: #fff;
-    border-bottom: 2px solid #fff;
+    &::after {
+      content: '';
+      position: absolute;
+      width: 50px;
+      height: 2px;
+      bottom: -2px;
+      left: 50%;
+      margin-left: -25px;
+      background: #fff;
+    }
   }
   .sec5__text {
     display: table-cell;
-    height: 60px;
+    height: 80px;
     vertical-align: middle;
     font-size: 16px;
     color: #fff;
@@ -757,9 +763,6 @@ a.btn {
       width: 100%;
       margin-right: 0;
       margin-bottom: 30px;
-    }
-    .item__content {
-      padding: 230px 15px 28px 15px;
     }
   }
   .sec6__content {

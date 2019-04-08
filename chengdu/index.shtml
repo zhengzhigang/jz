@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title></title>
-    <meta name="keywords" content=""/>
-    <meta name="description" content=""/>   	
+    <title>创新智慧教育 赋能课堂革命</title>
+    <meta name="keywords" content="智慧教育;智慧教室;教育信息化2.0"/>
+    <meta name="description" content="推进信息技术深度融合到教育教学过程"/>   	
     <link rel="shortcut icon" href="http://image.ruijie.com.cn/UIA/Images/favicon.ico"
           type="image/x-icon" />
 	<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
@@ -944,7 +944,7 @@
             <div class="t-content">
                 <div class="sec1__content">
                     <img class="sec1__img" src="RJ-img/item1-01.png">
-                    <div class="sec1__text">2019年4月16日&nbsp;&nbsp;中国·成都</div>
+                    <div class="sec1__text">2019.0416&nbsp;&nbsp;中国·成都</div>
                 </div>
             </div>
         </div>
@@ -956,7 +956,7 @@
                     <li class="nav-4" data-index="2">大会亮点</li>
                     <li class="nav-5" data-index="3">主题演讲</li>
                     <li class="nav-6" data-index="4">案例视频</li>
-                    <li class="nav-7" data-index="5">联系我们</li>
+                    <li class="nav-7" data-index="5">会务信息</li>
                 </ul>
             </div>
         </div>
@@ -978,26 +978,26 @@
                         <span class="line"></span>
                         <ul class="time__list">
                             <li class="time__item">
-                                <span class="time__left">09：00-09：15</span>
+                                <span class="time__left">09：00&nbsp;-&nbsp;09：15</span>
                                 <span class="time_right">大会致辞</span>
                             </li>
                             <li class="time__item">
-                                <span class="time__left">09：15-09：40</span>
+                                <span class="time__left">09：15&nbsp;-&nbsp;09：40</span>
                                 <span class="time_right">主题报告：锐捷网络与智慧教室</span>
                             </li>
                             <li class="time__item">
-                                <span class="time__left">09：40-10：20</span>
+                                <span class="time__left">09：40&nbsp;-&nbsp;10：20</span>
                                 <span class="time_right">专家报告：聚焦智慧课堂，赋能课堂革命</span>
                             </li>
                             <li class="time__item">
-                                <span class="time__left">10：20-10：35</span>
+                                <span class="time__left">10：20&nbsp;-&nbsp;10：35</span>
                                 <span class="time_right">看课：世界很大，我们一起上课</span>
                             </li>
                             <li class="time__item">
-                                <span class="time__left">10：35-11：15</span>
+                                <span class="time__left">10：35&nbsp;-&nbsp;11：15</span>
                                 <span class="time_right">主题报告：合作互动，在智慧教室上一堂好课</span>
                             </li><li class="time__item">
-                                <span class="time__left">11：15-11：35</span>
+                                <span class="time__left">11：15&nbsp;-&nbsp;11：35</span>
                                 <span class="time_right">主题报告：高校智慧教学极简运维</span>
                             </li>
                         </ul>
@@ -1010,7 +1010,7 @@
                         <span class="line"></span>
                         <ul class="time__list">
                             <li class="time__item">
-                                <span class="time__left">12：00-13：30</span>
+                                <span class="time__left">12：00-13：00</span>
                                 <span class="time_right">午餐+午休</span>
                             </li>
                         </ul>
@@ -1023,7 +1023,7 @@
                         <span class="line"></span>
                         <ul class="time__list">
                             <li class="time__item">
-                                <span class="time__left">13：30-18：00</span>
+                                <span class="time__left">13：00-18：00</span>
                                 <span class="time_right">成都师范学院工作坊观摩课</span>
                             </li>
                         </ul>
@@ -1081,14 +1081,13 @@
                             <img class="sec4__icon" src="RJ-img/item4-icon-01.png">
                             <div class="sec4__title__box">
                                 <h3 class="sec4__title">
-                                    近千专家齐聚<br>
-                                    智慧教育专家现身说法
+                                    一场服务教学的<br>智慧教室建设研讨会
                                 </h3>
                             </div>
                             <span class="sec4__line"></span>
                             <div class="sec4__text__box">
                                 <p class="sec4__text">
-                                    近千专家一起交流分享教学改革的深度思考和建设实践经验。成都师范学院周鑫燚主任现身说法，展现如何用智慧教室实现课堂革命。
+                                    近千名专家针对课堂革命、智慧教室建设进行实践经验的讨论和交流。四川省智慧教育联盟秘书长周鑫燚阐述 用智慧教室实现课堂革命的路径。
                                 </p>
                             </div>
                         </div>
@@ -1098,14 +1097,13 @@
                             <img class="sec4__icon" src="RJ-img/item4-icon-01.png">
                             <div class="sec4__title__box">
                                 <h3 class="sec4__title">
-                                    一场围绕<br>
-                                    教育教学的教研讨论
+                                    一堂沉浸式的<br>智慧教室教学体验课
                                 </h3>
                             </div>
                             <span class="sec4__line"></span>
                             <div class="sec4__text__box">
                                 <p class="sec4__text">
-                                    智慧教室环境下的教育教学理念，多方观点汇聚交锋，探讨智慧教室的建设标准。
+                                    七位先锋教师授课，来宾现场深度参与教学过程，亲身体验智慧教室与教育教学的深度融合。
                                 </p>
                             </div>
                         </div>
@@ -1115,33 +1113,13 @@
                             <img class="sec4__icon" src="RJ-img/item4-icon-01.png">
                             <div class="sec4__title__box">
                                 <h3 class="sec4__title">
-                                    锐捷智慧教室<br>
-                                    “简 易 融 合”<br>
-                                    设计理念及方案创新
+                                    一个“简 易 融 合”的<br>智慧教室方案
                                 </h3>
                             </div>
                             <span class="sec4__line"></span>
                             <div class="sec4__text__box">
                                 <p class="sec4__text">
-                                    将学习空间、信息技术与教育教学深度融合，通过信息化手段助力教育教学模式创新。
-                                </p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="sec4__item sec4__item4">
-                        <div class="item__content">
-                            <img class="sec4__icon" src="RJ-img/item4-icon-01.png">
-                            <div class="sec4__title__box">
-                                <h3 class="sec4__title">
-                                    眼见为实<br>
-                                    现场体验先锋教师<br>
-                                    授课&说课
-                                </h3>
-                            </div>
-                            <span class="sec4__line"></span>
-                            <div class="sec4__text__box">
-                                <p class="sec4__text">
-                                    将学习空间、信息技术与教育教学深度融合，通过信息化手段助力教育教学模式创新。
+                                    采用极简设计，让学校建设和运维更简单、让老师教学更便利、让学生学习更高效的智慧教室解决方案。
                                 </p>
                             </div>
                         </div>
@@ -1177,10 +1155,10 @@
                             <div class="sec5__title__box">
                                 <h3 class="sec5__title">聚焦智慧课堂<br>赋能课堂革命</h3>
                             </div>
-                            <span class="sec5__name">周鑫燚</span>
+                            <span class="sec5__name">周鑫燚 教授</span>
                             <div class="sec5__text__box">
                                 <p class="sec5__text"> 
-                                    成都师范学院<br>教育信息化推进办主任
+                                    成都师范学院网络与信息中心主任<br>四川省教育信息化应用与发展研究中心主任
                                 </p>
                             </div>
                         </div>
@@ -1201,7 +1179,7 @@
                     <li class="sec5__item sec5__item4">
                         <div class="item__content">
                             <div class="sec5__title__box">
-                                <h3 class="sec5__title">高校智慧<br>教学极简运维</h3>
+                                <h3 class="sec5__title">高校智慧教学<br>极简运维</h3>
                             </div>
                             <span class="sec5__name">张横洋</span>
                             <div class="sec5__text__box">
@@ -1263,7 +1241,7 @@
                         </a>
                     </div>
                     <div class="sec7__btn">
-                        <a target="_blank" href="" class="btn">更多案例</a>
+                        <a target="_blank" href="http://www.ruijie.com.cn/al/jy-gj-wl-lb1/" class="btn">更多案例</a>
                     </div>
                 </div>
             </div>
