@@ -1,6 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+    <meta charset="utf-8">
     <title>创新智慧教育 赋能课堂革命</title>
     <meta name="keywords" content="智慧教育;智慧教室;教育信息化2.0"/>
     <meta name="description" content="推进信息技术深度融合到教育教学过程"/>   	
@@ -1085,11 +1086,9 @@
                                 </h3>
                             </div>
                             <span class="sec4__line"></span>
-                            <div class="sec4__text__box">
-                                <p class="sec4__text">
-                                    近千名专家针对课堂革命、智慧教室建设进行实践经验的讨论和交流。四川省智慧教育联盟秘书长周鑫燚阐述 用智慧教室实现课堂革命的路径。
-                                </p>
-                            </div>
+                            <p class="sec4__text">
+                                近千名专家针对课堂革命、智慧教室建设进行实践经验的讨论和交流。四川省智慧教育联盟秘书长周鑫燚阐述 用智慧教室实现课堂革命的路径。
+                            </p>
                         </div>
                     </li>
                     <li class="sec4__item sec4__item2">
@@ -1101,11 +1100,9 @@
                                 </h3>
                             </div>
                             <span class="sec4__line"></span>
-                            <div class="sec4__text__box">
-                                <p class="sec4__text">
-                                    七位先锋教师授课，来宾现场深度参与教学过程，亲身体验智慧教室与教育教学的深度融合。
-                                </p>
-                            </div>
+                            <p class="sec4__text">
+                                七位先锋教师授课，来宾现场深度参与教学过程，亲身体验智慧教室与教育教学的深度融合。
+                            </p>
                         </div>
                     </li>
                     <li class="sec4__item sec4__item3">
@@ -1117,11 +1114,9 @@
                                 </h3>
                             </div>
                             <span class="sec4__line"></span>
-                            <div class="sec4__text__box">
-                                <p class="sec4__text">
-                                    采用极简设计，让学校建设和运维更简单、让老师教学更便利、让学生学习更高效的智慧教室解决方案。
-                                </p>
-                            </div>
+                            <p class="sec4__text">
+                                采用极简设计，让学校建设和运维更简单、让老师教学更便利、让学生学习更高效的智慧教室解决方案。
+                            </p>
                         </div>
                     </li>
                 </ul>
@@ -1143,11 +1138,9 @@
                                 <h3 class="sec5__title">锐捷网络<br>与智慧教室</h3>
                             </div>
                             <span class="sec5__name">蔡志华</span>
-                            <div class="sec5__text__box">
-                                <p class="sec5__text">
-                                    锐捷网络<br>高职教行业部总经理
-                                </p>
-                            </div>
+                            <p class="sec5__text">
+                                锐捷网络<br>高职教行业部总经理
+                            </p>
                         </div>
                     </li>
                     <li class="sec5__item sec5__item2">
@@ -1156,11 +1149,9 @@
                                 <h3 class="sec5__title">聚焦智慧课堂<br>赋能课堂革命</h3>
                             </div>
                             <span class="sec5__name">周鑫燚 教授</span>
-                            <div class="sec5__text__box">
-                                <p class="sec5__text"> 
-                                    成都师范学院网络与信息中心主任<br>四川省教育信息化应用与发展研究中心主任
-                                </p>
-                            </div>
+                            <p class="sec5__text"> 
+                                成都师范学院网络与信息中心主任<br>四川省教育信息化应用与发展研究中心主任
+                            </p>
                         </div>
                     </li>
                     <li class="sec5__item sec5__item3">
@@ -1169,11 +1160,9 @@
                                 <h3 class="sec5__title">合作互动<br>在智慧教室上一堂好课</h3>
                             </div>
                             <span class="sec5__name">蒙亮</span>
-                            <div class="sec5__text__box">
-                                <p class="sec5__text">
-                                    锐捷网络<br>智慧教室事业部总经理
-                                </p>
-                            </div>
+                            <p class="sec5__text">
+                                锐捷网络<br>智慧教室事业部总经理
+                            </p>
                         </div>
                     </li>
                     <li class="sec5__item sec5__item4">
@@ -1182,11 +1171,9 @@
                                 <h3 class="sec5__title">高校智慧教学<br>极简运维</h3>
                             </div>
                             <span class="sec5__name">张横洋</span>
-                            <div class="sec5__text__box">
-                                <p class="sec5__text">
-                                    锐捷网络<br>RIIL事业部总经理
-                                </p>
-                            </div>
+                            <p class="sec5__text">
+                                锐捷网络<br>RIIL事业部总经理
+                            </p>
                         </div>
                     </li>
                 </ul>

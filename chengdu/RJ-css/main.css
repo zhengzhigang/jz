@@ -423,7 +423,7 @@ a.btn {
   display: inline-block;
   width: 70px;
 }
-.sec4__content .sec4__title__box, .sec4__content .sec4__text__box {
+.sec4__content .sec4__title__box {
   display: table;
   width: 100%;
 }
@@ -443,9 +443,8 @@ a.btn {
   background: #fff;
 }
 .sec4__content .sec4__text {
-  display: table-cell;
-  height: 120px;
-  vertical-align: middle;
+  min-height: 100px;
+  text-align: center;
   font-size: 16px;
   color: #fff;
   line-height: 24px;
@@ -480,7 +479,7 @@ a.btn {
 .sec5__content .item__content {
   padding: 200px 15px 28px 15px;
 }
-.sec5__content .sec5__title__box, .sec5__content .sec5__text__box {
+.sec5__content .sec5__title__box {
   display: table;
   width: 100%;
 }
@@ -510,9 +509,8 @@ a.btn {
   background: #fff;
 }
 .sec5__content .sec5__text {
-  display: table-cell;
-  height: 80px;
-  vertical-align: middle;
+  min-height: 80px;
+  text-align: center;
   font-size: 16px;
   color: #fff;
   line-height: 24px;
@@ -782,10 +780,15 @@ a.btn {
     bottom: 100px;
   }
   .sec3__content .qr__code {
+    position: fixed;
     width: 200px;
     height: 230px;
-    bottom: 60px;
+    top: 50%;
+    left: 50%;
+    bottom: auto;
+    margin-top: -100px;
     margin-left: -100px;
+    border: 1px solid #ddd;
   }
   .sec3__content .qr__code .code__img {
     max-width: 140px;
