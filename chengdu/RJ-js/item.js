@@ -11,13 +11,17 @@ $(function(){
         isClick: false,
         init: function() {
             var winWidth = $(window).width();
+            var _this = this;
             $('.sec3__btn').on('click', this.showQrCode);
             $('.qr__code').on('click', '.close', this.hideQrCode);
-            this.checkLiveTime();
+            this.checkLiveTime(function() {
+                $('.sec3__btn').remove();
+                $('.sec3__video').on('click', _this.loadLive);
+            });
             if (winWidth > 768) {
                 this.fixedNav();
                 this.clickNav();
-                window.onscroll()
+                window.onscroll();
             }
         },
 
@@ -29,29 +33,27 @@ $(function(){
             $('.qr__code').hide();
         },
 
-        checkLiveTime: function() {
+        /**
+         * 直播时间检查
+         * @param {Function} callback 回调函数
+         * @return {}
+         */
+        checkLiveTime: function(callback) {
             var _this = this;
-            $.ajax({
-                url: 'http://www.baidu.com',
-                type: 'get',
-                dataType: 'json',
-                success: function(data) {
-                    if (data.Status) {
-                        // TODO 直播时间
-                        $('.sec3__btn').remove();
-                        $('.sec3__video').on('click', _this.loadLive);
-                    }
-                },
-                error: function(error) {
-                    console.log('error:', error.statusText)
-                }
-            })
+            var now = (new Date()).getTime();
+            var start1 = (new Date('2019-04-16 09:00:00')).getTime();
+            var start2 = (new Date('2019-04-16 13:30:00')).getTime();
+            var end1 = (new Date('2019-04-16 11:41:00')).getTime();
+
+            if ((now >= start1 && now < end1) || now >= start2) {
+                callback();
+            }
         },
 
         loadLive: function (userData) {
             $('.s-video').unbind('click');
             var iframe = $('<iframe id="iframe" scrolling="no" style="width: 100%; height: 600px;" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"/>');
-            iframe.attr('src', 'http://live.vhall.com/webinar/inituser/990246840?k=' + new Date().getTime());
+            iframe.attr('src', 'http://live.vhall.com/934514375?k=' + new Date().getTime());
             $('.sec3__video').empty();
             $('.sec3__video').append(iframe);
         },

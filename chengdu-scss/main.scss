@@ -656,6 +656,15 @@ a.btn {
     font-size: 24px;
     padding-top: 35px;
     margin: 0 10px;
+    .left-line, .right-line {
+      width: 80px;
+    }
+    .left-line {
+      left: -100px;
+    }
+    .right-line {
+      right: -100px;
+    }
   }
   .t-sub-title {
     font-size: 18px;
@@ -681,8 +690,9 @@ a.btn {
       margin: 60px auto 30px auto;
     }
     .sec1__text {
+      display: block;
       float: none;
-      width: 70%;
+      width: 85%;
       margin: 0 auto 80px auto;
       font-size: 18px;
       line-height: 40px;
@@ -831,5 +841,8 @@ a.btn {
   }
 }
 @media screen and (max-width: 320px) {
-
+  /* 自定义样式 */
+  .btn {
+    width: 120px;
+  }
 }
