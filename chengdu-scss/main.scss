@@ -322,9 +322,10 @@ a.btn {
   }
   .sec3__btn {
     position: absolute;
-    left: 50%;
+    left: 41%;
+    top: 46%;
+    margin-top: -23px;
     margin-left: -78px;
-    bottom: 160px;
   }
   .qr__code {
     display: none;
@@ -632,6 +633,15 @@ a.btn {
   }
 }
 
+@media screen and (max-width: 1440px) {
+  .sec3__content {
+    .sec3__btn {
+      left: 49%;
+      top: 46%;
+    }
+  }
+}
+
 @media screen and (max-width: 768px) {
   .sh-box-header ul li.sh-mobile-nav ul li a.active {
     color: #de0032;
@@ -732,8 +742,10 @@ a.btn {
       width: 100%;
     }
     .sec3__btn {
+      left: 41%;
+      top: 46%;
       margin-left: -70px;
-      bottom: 100px;
+      margin-top: -17px;
     }
     .qr__code {
       position: fixed;
