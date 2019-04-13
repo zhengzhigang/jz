@@ -20,14 +20,16 @@ $(function(){
             });
             _this.switchTab();
 
-            $('.sec10').on('click', '.button', function() {
+            $('.sec9').on('click', '.button', function() {
                 var i = $(this).data('index');
                 var el = _this.mask[i];
-                $(el).addClass('open');
+                $('.mask' + (i + 1)).addClass('open');
+                document.body.style = 'overflow: hidden;'
             })
 
             $('.mask').on('click', '.close', function() {
                 $(this).parents('.mask').removeClass('open');
+                document.body.style = ''
             })
         },
 
