@@ -1380,6 +1380,48 @@
 							<h2 class="t-main-title">
 								病毒克星，全新解法
 							</h2>
+							<div class="list clearfix">
+								<div class="item">
+									<div class="block1 block">
+										<h3 class="title">虚拟主机</h3>
+										<p class="t-intro">通过欺骗防御理念，在真实主机周围虚拟数量庞大的虚拟主机。使攻击者无法辨别真实主机及其开放的端口，并在扫描探测端口时捕获到攻击者，串联部署时可以主动拦截阻断攻击。</p>
+									</div>
+									<div class="block2 block">
+										<h3 class="title">主机隔离</h3>
+										<p class="t-intro">在可选的高级模式下，可以为每个主机单独分配一个网段，主机之间不能直接通过网络地址通信，从而有效阻止攻击者在局域网内实施 ARP 欺骗、网络嗅探等行为。</p>
+									</div>
+								</div>
+								<div class="item t-pc">
+									<img src="RJ-img/sec5-01.png">
+								</div>
+								<div class="item">
+									<div class="block3 block">
+										<h3 class="title">动态变换</h3>
+										<p class="t-intro">动态随机地改变虚拟主机属性和网络拓扑，为每个入侵到系统的主机呈现一个动态跳变的网络环境，使攻击者无法通过不被察觉的方式找到攻击目标。</p>
+									</div>
+									<div class="block4 block">
+										<h3 class="title">无感通信</h3>
+										<p class="t-intro">有效与现有网络架构兼容， 防护范围内的各主机在被实时保护的同时可以无感地与外部主机进行通信。</p>
+									</div>
+								</div>
+							</div>
+							<div class="t-mobile">
+								<img src="RJ-img/sec5-01.png">
+							</div>
+							<ul class="clearfix">
+								<li>
+									<img src="RJ-img/sec5-icon-01.png" alt="">
+									<p class="text">不依赖特征库，网络传播蠕虫型病毒捕获率高</p>
+								</li>
+								<li>
+									<img src="RJ-img/sec5-icon-02.png" alt="">
+									<p class="text">不影响主机资源，适用性强</p>
+								</li>
+								<li>
+									<img src="RJ-img/sec5-icon-03.png" alt="">
+									<p class="text">事前防护，损失最小</p>
+								</li>
+							</ul>
 						</div>
 					</div>
 					<div class="t-cont-item sec6">

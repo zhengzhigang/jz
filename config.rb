@@ -4,8 +4,8 @@ require 'compass/import-once/activate'
 
 # Set this to the root of your project when deployed:
 http_path = "/"
-css_dir = "wifi/RJ-css"
-sass_dir = "wifi-scss"
+css_dir = "ddp/RJ-css"
+sass_dir = "ddp-scss"
 javascripts_dir = "javascripts"
 
 # You can select your preferred output style here (can be overridden via the command line):

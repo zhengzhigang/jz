@@ -223,6 +223,7 @@ body {
     }
     .item__small_text {
       padding: 0 20px;
+      text-align: left;
       font-size: 16px;
       color: #333;
     }
@@ -268,7 +269,89 @@ body {
   }
 }
 .sec5 {
-
+  .list {
+    padding-top: 35px;
+  }
+  .item {
+    float: left;
+    width: 28%;
+    &:nth-child(2) {
+      width: 42%;
+      margin: 0 1%;
+    }
+    .block {
+      min-height: 260px;
+    }
+    .t-intro {
+      padding-left: 20px;
+    }
+    .title {
+      position: relative;
+      padding-left: 20px;
+      font-size: 24px;
+      &::before, &::after {
+        content: '';
+        position: absolute;
+        display: block;
+      }
+      &::before {
+        width: 14px;
+        height: 14px;
+        top: 50%;
+        margin-top: -7px;
+        left: 0;
+        border-radius: 50%;
+      }
+      &::after {
+        width: 100%;
+        height: 28px;
+        top: -10px;
+        left: 5px;
+        z-index: -1;
+        background: #ebf1ff;
+      }
+    }
+    .block1 .title {
+      color: #b18bff;
+      &::before {
+        background: #b18bff;
+      }
+    }
+    .block2 .title {
+      color: #9f9bf3;
+      &::before {
+        background: #9f9bf3;
+      }
+    }
+    .block3 .title {
+      color: #479ef0;
+      &::before {
+        background: #479ef0;
+      }
+    }
+    .block4 .title {
+      color: #5989f3;
+      &::before {
+        background: #5989f3;
+      }
+    }
+    .t-intro {
+      text-align: left;
+    }
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+  li {
+    width: 33.33333%;
+    float: left;
+    text-align: center;
+    img {
+      display: inline-block;
+      margin-bottom: 28px;
+    }
+  }
 }
 .sec6 {
   background-image: url("../RJ-img/sec6-bg.jpg");
