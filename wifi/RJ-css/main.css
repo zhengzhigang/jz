@@ -365,7 +365,7 @@ a.link:hover {
   position: absolute;
   height: 100%;
   top: 0;
-  right: -10%;
+  right: 8%;
 }
 .sec1 .title {
   display: inline-block;
@@ -1051,6 +1051,7 @@ a.link:hover {
 .sec10 .right .item {
   float: left;
   width: 33.3333%;
+  min-height: 170px;
   font-size: 0;
   text-align: center;
   line-height: 115px;
@@ -1074,7 +1075,7 @@ a.link:hover {
   }
 
   .sec1 .pepole {
-    right: -10%;
+    right: 8%;
   }
   .sec1 .title {
     max-width: 600px;
@@ -1128,7 +1129,7 @@ a.link:hover {
 }
 @media screen and (max-width: 1100px) {
   .sec1 .pepole {
-    right: -10%;
+    right: 8%;
   }
   .sec1 .title {
     max-width: 500px;
@@ -1289,7 +1290,6 @@ a.link:hover {
   }
 
   .sec1 {
-    background: none;
     min-height: auto;
   }
   .sec1 .pepole {
@@ -1297,7 +1297,7 @@ a.link:hover {
     width: 100%;
   }
   .sec1 .title {
-    max-width: 300px;
+    width: 100%;
     padding: 30px 0 20px 0;
   }
   .sec1 .btn__box {
@@ -1688,11 +1688,23 @@ a.link:hover {
   }
 }
 @media screen and (max-width: 320px) {
+  .sec8 .top {
+    width: 100%;
+  }
   .sec8 .top .text__box {
-    height: 270px;
+    height: auto;
+  }
+  .sec8 .top .text__box p {
+    min-height: auto;
+  }
+  .sec8 .middle {
+    width: 100%;
   }
   .sec8 .middle .text__box {
-    height: 270px;
+    height: auto;
+  }
+  .sec8 .middle .text__box p {
+    min-height: auto;
   }
   .sec8 .top__title h3 {
     padding: 0 3px;

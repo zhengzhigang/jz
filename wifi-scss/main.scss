@@ -366,7 +366,7 @@ a.link {
     position: absolute;
     height: 100%;
     top: 0;
-    right: -10%;
+    right: 8%;
   }
   .title {
     display: inline-block;
@@ -1063,6 +1063,7 @@ a.link {
     .item {
       float: left;
       width: 33.3333%;
+      min-height: 170px;
       font-size: 0;
       text-align: center;
       line-height: 115px;
@@ -1090,7 +1091,7 @@ a.link {
   }
   .sec1 {
     .pepole {
-      right: -10%;
+      right: 8%;
     }
     .title {
       max-width: 600px;
@@ -1150,7 +1151,7 @@ a.link {
 @media screen and (max-width: 1100px) {
   .sec1 {
     .pepole {
-      right: -10%;
+      right: 8%;
     }
     .title {
       max-width: 500px;
@@ -1314,14 +1315,13 @@ a.link {
     }
   }
   .sec1 {
-    background: none;
     min-height: auto;
     .pepole {
       position: static;
       width: 100%;
     }
     .title {
-      max-width: 300px;
+      width: 100%;
       padding: 30px 0 20px 0;
     }
     .btn__box {
@@ -1744,13 +1744,21 @@ a.link {
 @media screen and (max-width: 320px) {
   .sec8 {
     .top {
+      width: 100%;
       .text__box {
-        height: 270px;
+        height: auto;
+        p {
+          min-height: auto;
+        }
       }
     }
     .middle {
+      width: 100%;
       .text__box {
-        height: 270px;
+        height: auto;
+        p {
+          min-height: auto;
+        }
       }
     }
     .top__title {

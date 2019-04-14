@@ -26,7 +26,7 @@
     <!--正文开始-->
     <div class="t-main main main__swiper">
         <div class="t-cont-item sec1">
-            <img class="pepole" src="RJ-img/slide1-02.png">
+            <img class="pepole t-pc" src="RJ-img/slide1-02.png">
             <div class="t-content">
                 <img class="title" src="RJ-img/slide1-01.png">
                 <div class="btn__box">
@@ -38,6 +38,7 @@
                     </a>
                 </div>
             </div>
+            <img class="pepole t-mobile" src="RJ-img/slide1-03.png">
         </div>
         <div class="t-cont-item sec11">
             <div class="t-content">
