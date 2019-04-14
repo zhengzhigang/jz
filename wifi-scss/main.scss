@@ -377,6 +377,21 @@ a.link {
   }
 }
 
+.sec11 {
+  background: #bdeff5;
+  .video {
+    display: block;
+    width: 90%;
+    max-width: 920px;
+    margin: auto;
+    margin-bottom: 75px;
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+}
+
 .sec2 {
   background-position: center top;
   background-repeat: no-repeat;
@@ -1658,6 +1673,12 @@ a.link {
           padding-top: 10px;
         }
       }
+    }
+  }
+
+  .sec11 {
+    .video {
+      margin-bottom: 50px;
     }
   }
 

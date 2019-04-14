@@ -375,6 +375,21 @@ a.link:hover {
   margin-right: 15px;
 }
 
+.sec11 {
+  background: #bdeff5;
+}
+.sec11 .video {
+  display: block;
+  width: 90%;
+  max-width: 920px;
+  margin: auto;
+  margin-bottom: 75px;
+}
+.sec11 .video img {
+  display: block;
+  width: 100%;
+}
+
 .sec2 {
   background-position: center top;
   background-repeat: no-repeat;
@@ -1615,6 +1630,10 @@ a.link:hover {
   }
   .sec10 .right .item .text {
     padding-top: 10px;
+  }
+
+  .sec11 .video {
+    margin-bottom: 50px;
   }
 }
 @media screen and (max-width: 320px) {
