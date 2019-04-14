@@ -1,10 +1,10 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
-		<title>
-		</title>
-		<meta name="keywords" content="" />
-		<meta name="description" content="" />
+		<meta charset="utf-8">
+		<title>RG-DDP动态防御系统-锐捷网络</title>
+		<meta name="keywords" content="DDP,病毒" />
+		<meta name="description" content="动态防御系统定位于局域网安全，通过构建一个虚拟的、动态的、随机变幻的局域网环境来提升局域网安全等级。 动态改变网络拓扑，给攻击者呈现一个不断变幻的“网络迷宫”。攻击者只要走错一步就会被系统发现，失去进一步攻击的基础。 结合软件定义网络（SDN）、云计算、大数据等技术，深入分析和识别网络攻击行为，能够全面有效地抵御、识别和定位包括APT攻击在内的网络攻击行为。" />
 		<link type="text/css" rel="stylesheet" href="https://image.ruijie.com.cn/UIA/v2.0/styles/idangerous.swiper.css"
 		media="screen" />
 		<link type="text/css" rel="stylesheet" href="https://image.ruijie.com.cn/UIA/v2.0/styles/typeahead.css"
