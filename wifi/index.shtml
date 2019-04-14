@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="keywords" content="锐捷,无线,AP,体验,WIS,场景创新"/>
     <meta name="description" content="好的无线体验，不仅仅是简单的使用体验，而是包含了产品、技术、部署、服务等多个因素在内的完整体验。基于用户在实际应用场景中的无线需求，锐捷网络特别提出了“无线好体验”这一理念，目的是以用户体验为标尺，锻造出真正“好用”的无线产品解决方案"/>   	
-    <link rel="shortcut icon" href="http://image.ruijie.com.cn/UIA/Images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="//image.ruijie.com.cn/UIA/Images/favicon.ico" type="image/x-icon" />
 	<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
 </head>
 <body>
@@ -26,16 +26,17 @@
     <!--正文开始-->
     <div class="t-main main main__swiper">
         <div class="t-cont-item sec1">
-            <div class="t-mobile">
-                <img src="RJ-img/slide1.jpg" alt="">
-            </div>
-            <div class="btn__box">
-                <a class="link" href="">
-                    <img src="RJ-img/slide1-btn1.png" alt="">
-                </a>
-                <a class="link" href="">
-                    <img src="RJ-img/slide1-btn2.png" alt="">
-                </a>
+            <img class="pepole" src="RJ-img/slide1-02.png">
+            <div class="t-content">
+                <img class="title" src="RJ-img/slide1-01.png">
+                <div class="btn__box">
+                    <a class="link" href="">
+                        <img src="RJ-img/slide1-btn1.png" alt="">
+                    </a>
+                    <a class="link" href="">
+                        <img src="RJ-img/slide1-btn2.png" alt="">
+                    </a>
+                </div>
             </div>
         </div>
         <div class="t-cont-item sec11">
@@ -241,8 +242,11 @@
                 <div class="title">
                     <img src="RJ-img/slide7-title.png">
                 </div>
-                <div class="t-mobile">
+                <div class="t-pc">
                     <img src="RJ-img/slide7-01.png">
+                </div>
+                <div class="t-mobile">
+                    <img src="RJ-img/slide7-02.png">
                 </div>
             </div>
         </div>
@@ -365,7 +369,7 @@
                                     <p>室外场景，体育赛事的看台大多为半开放式<br>数万人高并发应用，平均每平方米3人</p>
                                 </li>
                                 <li class="text__item">
-                                    <p>场景：</p>
+                                    <p>痛点：</p>
                                     <p>设备高密部署，信号干扰大<br>精准覆盖困难<br>施工维护难度高</p>
                                 </li>
                             </ul>
@@ -381,11 +385,11 @@
                             <ul class="text__list">
                                 <li class="text__item">
                                     <p>场景：</p>
-                                    <p>密集的小开间型，房间与房间之间的阻隔比较厚<br>超高并发 单用户2-4个终端 单房间8-20个终端</p>
+                                    <p>密集的小开间型，房间之间的阻隔比较厚<br>超高并发 单用户2-4个终端 单房间8-20个终端</p>
                                 </li>
                                 <li class="text__item">
-                                    <p>场景：</p>
-                                    <p>刚需场景，重度上网用户，7×24小时高频高强度上网同频干扰严重</p>
+                                    <p>痛点：</p>
+                                    <p>刚需场景，重度上网用户，7×24小时<br>高频高强度上网同频干扰严重</p>
                                 </li>
                             </ul>
                             <div class="button" data-index="1">
@@ -403,7 +407,7 @@
                                     <p>移动查房<br>设备无干扰，影像高吞吐</p>
                                 </li>
                                 <li class="text__item">
-                                    <p>场景：</p>
+                                    <p>痛点：</p>
                                     <p>不同AP间切换形成无线漫游<br>移动查房程序可能需要断线重连</p>
                                 </li>
                             </ul>
@@ -422,7 +426,7 @@
                                     <p>进站-候车-乘车-换乘-出站 手机不离手</p>
                                 </li>
                                 <li class="text__item">
-                                    <p>场景：</p>
+                                    <p>痛点：</p>
                                     <p>高速行驶的列车上Wi-Fi不稳定</p>
                                 </li>
                             </ul>
@@ -444,63 +448,33 @@
                         <ul class="list clearfix">
                             <li class="item active" data-index="1">
                                 <span class="num">01</span><span class="text">高密度大型场景</span>
-                                <div class="line">
-                                    <span class="circle"></span>
-                                </div>
                             </li>
                             <li class="item" data-index="2">
                                 <span class="num">02</span><span class="text">交通</span>
-                                <div class="line">
-                                    <span class="circle"></span>
-                                </div>
                             </li>
                             <li class="item" data-index="3">
                                 <span class="num">03</span><span class="text">教育</span>
-                                <div class="line">
-                                    <span class="circle"></span>
-                                </div>
                             </li>
                             <li class="item" data-index="4">
                                 <span class="num">04</span><span class="text">医疗</span>
-                                <div class="line">
-                                    <span class="circle"></span>
-                                </div>
                             </li>
                             <li class="item" data-index="5">
                                 <span class="num">05</span><span class="text">金融</span>
-                                <div class="line">
-                                    <span class="circle"></span>
-                                </div>
                             </li>
                             <li class="item" data-index="6">
                                 <span class="num">06</span><span class="text">政府</span>
-                                <div class="line">
-                                    <span class="circle"></span>
-                                </div>
                             </li>
                             <li class="item" data-index="7">
                                 <span class="num">07</span><span class="text">零售&nbsp;酒店&nbsp;景区</span>
-                                <div class="line">
-                                    <span class="circle"></span>
-                                </div>
                             </li>
                             <li class="item" data-index="8">
                                 <span class="num">08</span><span class="text">制造业</span>
-                                <div class="line">
-                                    <span class="circle"></span>
-                                </div>
                             </li>
                             <li class="item" data-index="9">
                                 <span class="num">09</span><span class="text">能源</span>
-                                <div class="line">
-                                    <span class="circle"></span>
-                                </div>
                             </li>
                             <li class="item" data-index="10">
                                 <span class="num">10</span><span class="text">互联网</span>
-                                <div class="line">
-                                    <span class="circle"></span>
-                                </div>
                             </li>
                         </ul>
                     </div>

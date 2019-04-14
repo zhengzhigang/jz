@@ -213,7 +213,6 @@ a.link:hover {
 .mask .box .close {
   display: block;
   position: absolute;
-  top: -70px;
   right: 0;
   width: 50px;
   height: 50px;
@@ -340,9 +339,6 @@ a.link:hover {
   max-width: 412px;
 }
 
-.mask4 .box .close {
-  top: -80px;
-}
 .mask4 .box .left img {
   max-width: 370px;
   margin-bottom: -30px;
@@ -364,12 +360,23 @@ a.link:hover {
   position: relative;
   background: url("../RJ-img/slide1.jpg") center center no-repeat;
   background-size: cover;
-  min-height: 670px;
+}
+.sec1 .pepole {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: -10%;
+}
+.sec1 .title {
+  display: inline-block;
+  width: 90%;
+  max-width: 730px;
+  padding: 145px 0 65px 0;
+  margin: 0;
 }
 .sec1 .btn__box {
-  position: absolute;
-  left: 14%;
-  bottom: 190px;
+  padding-left: 35px;
+  margin-bottom: 190px;
 }
 .sec1 .btn__box .link {
   margin-right: 15px;
@@ -832,9 +839,8 @@ a.link:hover {
   border: 1px solid #daf6e8;
 }
 .sec8 .text__box p {
-  padding-top: 25px;
   padding-bottom: 25px;
-  font-size: 14px;
+  font-size: 16px;
 }
 .sec8 .text__box .t-img {
   display: block;
@@ -852,14 +858,15 @@ a.link:hover {
   padding-top: 20px;
   margin-bottom: 5px;
   font-size: 16px;
-  line-height: 14px;
+  line-height: 20px;
   color: #16c294;
 }
 .sec8 .bottom .line {
   display: inline-block;
   width: 4px;
-  height: 24px;
+  height: 20px;
   margin-right: 10px;
+  vertical-align: middle;
   background-color: #16c294;
 }
 .sec8 .bottom .text {
@@ -890,6 +897,7 @@ a.link:hover {
 .sec8 .right__content .bottom {
   font-size: 16px;
   line-height: 35px;
+  margin-bottom: 0;
   color: #fff;
   text-align: center;
   background-color: #2695f4;
@@ -907,8 +915,8 @@ a.link:hover {
 }
 .sec9 .item {
   float: left;
-  width: 23%;
-  margin-right: 2.66666%;
+  width: 23.5%;
+  margin-right: 2%;
   cursor: pointer;
 }
 .sec9 .item:last-child {
@@ -924,7 +932,8 @@ a.link:hover {
   width: 100%;
 }
 .sec9 .item__title {
-  padding: 15px 15px 25px 15px;
+  padding: 15px 15px 0 15px;
+  min-height: 65px;
   font-size: 24px;
   line-height: 1;
 }
@@ -1064,6 +1073,17 @@ a.link:hover {
     margin: 0 20px 20px 20px;
   }
 
+  .sec1 .pepole {
+    right: -10%;
+  }
+  .sec1 .title {
+    max-width: 600px;
+    padding: 120px 0 50px 0;
+  }
+  .sec1 .btn__box {
+    margin-bottom: 160px;
+  }
+
   .sec2 .list {
     margin: 0 20px;
   }
@@ -1090,6 +1110,9 @@ a.link:hover {
   .sec8 .t-content {
     width: auto;
   }
+  .sec8 .title {
+    margin: 0 0 10px 0;
+  }
 
   .sec10 {
     background: #e7f3ff;
@@ -1098,14 +1121,21 @@ a.link:hover {
     padding-top: 100px;
     margin: 0 20px 80px 20px;
   }
+  .sec10 .right .big__img {
+    width: 400px;
+    height: 400px;
+  }
 }
 @media screen and (max-width: 1100px) {
-  .sec1 {
-    min-height: 500px;
+  .sec1 .pepole {
+    right: -10%;
+  }
+  .sec1 .title {
+    max-width: 500px;
+    padding: 100px 0 40px 0;
   }
   .sec1 .btn__box {
-    left: 10%;
-    bottom: 130px;
+    margin-bottom: 130px;
   }
 
   .sec7 {
@@ -1114,6 +1144,12 @@ a.link:hover {
   }
   .sec7 .t-img {
     position: absolute;
+  }
+
+  .sec10 .right .big__img {
+    width: 320px;
+    height: 320px;
+    margin: -70px 0 0 -105px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -1180,9 +1216,9 @@ a.link:hover {
     max-height: 400px;
   }
   .mask .box .close {
-    top: -40px;
     width: 30px;
     height: 30px;
+    cursor: pointer;
   }
   .mask .box .top {
     padding-top: 15px;
@@ -1256,14 +1292,17 @@ a.link:hover {
     background: none;
     min-height: auto;
   }
-  .sec1 .t-mobile img {
-    display: block;
+  .sec1 .pepole {
+    position: static;
     width: 100%;
   }
+  .sec1 .title {
+    max-width: 300px;
+    padding: 30px 0 20px 0;
+  }
   .sec1 .btn__box {
-    position: absolute;
-    left: 30px;
-    bottom: 20px;
+    padding-left: 20px;
+    margin-bottom: 50px;
   }
   .sec1 .btn__box .link {
     width: 100px;
@@ -1475,11 +1514,23 @@ a.link:hover {
   .sec8 .top .text__box {
     height: auto;
   }
+  .sec8 .top .text__box p {
+    min-height: 90px;
+  }
+  .sec8 .top .text__box .t-img {
+    margin-bottom: 10px;
+  }
   .sec8 .middle {
     padding-top: 20px;
   }
   .sec8 .middle .text__box {
     height: auto;
+  }
+  .sec8 .middle .text__box p {
+    min-height: 90px;
+  }
+  .sec8 .middle .text__box .t-img {
+    margin-bottom: 10px;
   }
   .sec8 .text__box {
     padding: 0 10px;
