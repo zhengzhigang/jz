@@ -377,10 +377,6 @@ body {
   }
 }
 
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-  
-}
 @media screen and (max-width: 768px) {
   .sh-box-header ul li.sh-mobile-nav ul li a.active {
     color: #de0032;
@@ -419,7 +415,122 @@ body {
     line-height: 20px;
   }
   /*--------自定义样式--------*/
-  
+  .sec1 {
+    .t-intro {
+      margin-bottom: 0;
+    }
+    .sec__btn {
+      width: 160px;
+      padding: 9px 0;
+      font-size: 18px;
+      border-radius: 18px;
+    }
+    
+  }
+  .sec2 {
+    .list {
+      padding-top: 60px;
+    }
+    .item {
+      float: none;
+      width: 100%;
+      min-height: auto;
+      padding-bottom: 20px;
+      &:nth-child(2) {
+        width: 80%;
+        margin: auto;
+        img {
+          margin-top: 20px;
+        }
+      }
+      img {
+        display: block;
+        width: 100%;
+      }
+      .item__title {
+        padding: 20px 20px 0 20px;
+        font-size: 20px;
+      }
+      .item__small_text {
+        padding: 0 20px;
+        text-align: left;
+        font-size: 16px;
+        color: #333;
+      }
+    }
+    .t-main-title {
+      margin-bottom: 50px;
+    }
+  }
+  .sec3 {
+    img {
+      padding: 45px 0 50px 0;
+    }
+    .t-intro {
+      margin-bottom: 50px;
+    }
+  }
+  .sec4 {
+    .video__link {
+      width: 100%;
+      padding-top: 0;
+    }
+    .bottom__text {
+      margin-bottom: 30px;
+    }
+  }
+  .sec5 {
+    .item {
+      float: none;
+      width: 100%;
+      .block {
+        min-height: auto;
+        margin-bottom: 40px;
+      }
+      .title {
+        font-size: 20px;
+        &::before {
+          width: 10px;
+          height: 10px;
+          margin-top: -5px;
+          left: 2px;
+        }
+        &::after {
+          height: 22px;
+          top: -8px;
+        }
+      }
+    }
+    .t-mobile {
+      img {
+        display: block;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 40px;
+      }
+    }
+    li {
+      width: 32%;
+      margin-right: 2%;
+      &:last-child {
+        margin-right: 0;
+      }
+      img {
+        display: inline-block;
+        width: 50px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .sec6 {
+    .sec__btn {
+      width: 160px;
+      font-size: 18px;
+      border-radius: 18px;
+    }
+  }
+}
+@media screen and (max-width: 414px) {
 }
 @media screen and (max-width: 320px) {
 }

@@ -445,4 +445,108 @@ body {
   }
 
   /*--------自定义样式--------*/
+  .sec1 .t-intro {
+    margin-bottom: 0;
+  }
+  .sec1 .sec__btn {
+    width: 160px;
+    padding: 9px 0;
+    font-size: 18px;
+    border-radius: 18px;
+  }
+
+  .sec2 .list {
+    padding-top: 60px;
+  }
+  .sec2 .item {
+    float: none;
+    width: 100%;
+    min-height: auto;
+    padding-bottom: 20px;
+  }
+  .sec2 .item:nth-child(2) {
+    width: 80%;
+    margin: auto;
+  }
+  .sec2 .item:nth-child(2) img {
+    margin-top: 20px;
+  }
+  .sec2 .item img {
+    display: block;
+    width: 100%;
+  }
+  .sec2 .item .item__title {
+    padding: 20px 20px 0 20px;
+    font-size: 20px;
+  }
+  .sec2 .item .item__small_text {
+    padding: 0 20px;
+    text-align: left;
+    font-size: 16px;
+    color: #333;
+  }
+  .sec2 .t-main-title {
+    margin-bottom: 50px;
+  }
+
+  .sec3 img {
+    padding: 45px 0 50px 0;
+  }
+  .sec3 .t-intro {
+    margin-bottom: 50px;
+  }
+
+  .sec4 .video__link {
+    width: 100%;
+    padding-top: 0;
+  }
+  .sec4 .bottom__text {
+    margin-bottom: 30px;
+  }
+
+  .sec5 .item {
+    float: none;
+    width: 100%;
+  }
+  .sec5 .item .block {
+    min-height: auto;
+    margin-bottom: 40px;
+  }
+  .sec5 .item .title {
+    font-size: 20px;
+  }
+  .sec5 .item .title::before {
+    width: 10px;
+    height: 10px;
+    margin-top: -5px;
+    left: 2px;
+  }
+  .sec5 .item .title::after {
+    height: 22px;
+    top: -8px;
+  }
+  .sec5 .t-mobile img {
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+  .sec5 li {
+    width: 32%;
+    margin-right: 2%;
+  }
+  .sec5 li:last-child {
+    margin-right: 0;
+  }
+  .sec5 li img {
+    display: inline-block;
+    width: 50px;
+    margin-bottom: 20px;
+  }
+
+  .sec6 .sec__btn {
+    width: 160px;
+    font-size: 18px;
+    border-radius: 18px;
+  }
 }
