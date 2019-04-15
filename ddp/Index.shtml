@@ -5,6 +5,7 @@
 		<title>RG-DDP动态防御系统-锐捷网络</title>
 		<meta name="keywords" content="DDP,病毒" />
 		<meta name="description" content="动态防御系统定位于局域网安全，通过构建一个虚拟的、动态的、随机变幻的局域网环境来提升局域网安全等级。 动态改变网络拓扑，给攻击者呈现一个不断变幻的“网络迷宫”。攻击者只要走错一步就会被系统发现，失去进一步攻击的基础。 结合软件定义网络（SDN）、云计算、大数据等技术，深入分析和识别网络攻击行为，能够全面有效地抵御、识别和定位包括APT攻击在内的网络攻击行为。" />
+		<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
 		<link type="text/css" rel="stylesheet" href="https://image.ruijie.com.cn/UIA/v2.0/styles/idangerous.swiper.css"
 		media="screen" />
 		<link type="text/css" rel="stylesheet" href="https://image.ruijie.com.cn/UIA/v2.0/styles/typeahead.css"
@@ -1352,7 +1353,7 @@
 					<div class="t-cont-item sec3">
 						<div class="t-content">
 							<h2 class="t-main-title">我们先看看病毒的“本质”</h2>
-							<img src="RJ-img/sec3-01.png">
+							<img src="RJ-img/sec3-01.gif">
 							<p class="t-intro">
 								网络传播蠕虫型病毒第一步：扫描主机和端口，发现可利用主机和端口<br>
 								网络扫描阶段不涉及业务交互，无法区分是否真实IP和端口
@@ -1430,7 +1431,7 @@
 								病毒发现案例
 							</h2>
 							<p class="t-intro">某企业用户：设备旁路模式上线9小时，累计捕获11万次攻击威胁，包含了10多个攻击源，属于已中毒并在扩散病毒的高可疑终端，并最终验证确认。</p>
-							<a class="sec__btn" target="_blank" href="http://www.ruijie.com.cn/cp/xw-cp-aq/83408/">申请免费试用</a>
+							<a class="sec__btn" target="_blank" href="http://survey.ruijie.com.cn/jq/35920136.aspx">申请免费试用</a>
 							<img src="RJ-img/sec6-01.png">
 						</div>
 					</div>
