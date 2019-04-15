@@ -16,7 +16,7 @@
 	
     <!--js脚本请放在此处-->
     <script type="text/javascript" src="RJ-js/jquery.js"></script>
-    <script type="text/javascript" src="RJ-js/item.js"></script>
+    <script type="text/javascript" src="RJ-js/item.js?t=1555311046256"></script>
     <!--正文开始-->
 
     <!-- 自定义样式begin -->

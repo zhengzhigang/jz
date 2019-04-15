@@ -52,10 +52,11 @@ $(function(){
 
         loadLive: function (userData) {
             $('.s-video').unbind('click');
-            var iframe = $('<iframe id="iframe" scrolling="no" style="width: 100%; height: 600px;" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"/>');
-            iframe.attr('src', 'http://live.vhall.com/webinar/inituser/934514375?k=' + new Date().getTime());
-            $('.sec3__video').empty();
-            $('.sec3__video').append(iframe);
+            // var iframe = $('<iframe id="iframe" scrolling="no" style="width: 100%; height: 600px;" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"/>');
+            // iframe.attr('src', 'http://live.vhall.com/webinar/inituser/934514375?k=' + new Date().getTime());
+            // $('.sec3__video').empty();
+            // $('.sec3__video').append(iframe);
+            window.open('http://live.vhall.com/934514375', '_blank')
         },
 
         fixedNav: function() {
