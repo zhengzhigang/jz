@@ -941,19 +941,17 @@
     <!-- 自定义样式end -->
 
     <!--正文开始-->
-    <div class="t-main">
+    <div class="t-main main__swiper">
         <div class="t-cont-item sec1">
             <img class="pepole t-pc" src="RJ-img/slide1-02.png">
             <div class="t-content">
                 <img class="title" src="RJ-img/slide1-01.png">
                 <div class="btn__box">
-                    <a class="link-btn blue" href="">
+                    <a class="link-btn blue" target="_blank" href="http://www.ruijie.com.cn/yx/kw/wx/preview/9260">
                         资料下载
-                        <!-- <img src="RJ-img/slide1-btn1.png" alt=""> -->
                     </a>
-                    <a class="link-btn cyan" href="">
+                    <a class="link-btn cyan" target="_blank" href="http://survey.ruijie.com.cn/newwjx/design/sendqstart.aspx?activityid=37733433">
                         我要体验
-                        <!-- <img src="RJ-img/slide1-btn2.png" alt=""> -->
                     </a>
                 </div>
             </div>
@@ -1100,7 +1098,7 @@
                 </ul>
             </div>
         </div>
-        <div class="t-cont-item sec5" data-index="3">
+        <div class="t-cont-item sec5">
             <div class="t-content">
                 <div class="title">
                     <img src="RJ-img/slide5-title.png">
@@ -1124,16 +1122,21 @@
                 </ul>
             </div>
         </div>
-        <div class="t-cont-item sec6">
+        <div class="t-cont-item sec6" data-index="3">
             <div class="t-content">
                 <div class="title">
                     <img src="RJ-img/slide6-title.png">
+                </div>
+                <div class="btn__box">
+                    <a class="link-btn blue" target="_blank" href="http://www.ruijie.com.cn/cp/wx-wxglyyy/wis/">
+                        查看更多
+                    </a>
                 </div>
                 <div class="sec6__swiper-box">
                     <div class="swiper-container sec6__swiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide sec6__swiper-slide1">
-                                <div class="content clearfix">
+                                <div class="sec6__content clearfix">
                                     <div class="left">
                                         <img class="t-img" src="RJ-img/slide5-03.png">
                                         <h3 class="item__title">网络工程师/信息中心主任</h3>
@@ -1148,7 +1151,7 @@
                                 </div>
                             </div>
                             <div class="swiper-slide sec6__swiper-slide2">
-                                <div class="content clearfix">
+                                <div class="sec6__content clearfix">
                                     <div class="left">
                                         <img class="t-img" src="RJ-img/slide5-01.png">
                                         <h3 class="item__title">直接使用者</h3>
@@ -1189,7 +1192,12 @@
                 </div>
                 <h2 class="item__title">大型会议Wi-Fi接入</h2>
                 <p class="title__text">空间封闭，人群密集，并发量大，需要保证每用户的高带宽需求，往往需要超高性能的AP来应对</p>
-                <div class="content">
+                <div class="btn__box">
+                    <a class="link-btn blue" target="_blank" href="http://www.ruijie.com.cn/cp/fw-zylfw/superwifi">
+                        查看更多
+                    </a>
+                </div>
+                <div class="sec8__content">
                     <div class="left">
                         <div class="left__title">
                             [&nbsp;解决之道&nbsp;]
@@ -1285,7 +1293,7 @@
                 </div>
             </div>
         </div>
-        <div class="t-cont-item sec9" data-index="5">
+        <div class="t-cont-item sec9">
             <div class="t-content">
                 <div class="title">
                     <img src="RJ-img/slide9-title.png">
@@ -1294,7 +1302,9 @@
                     <li class="item">
                         <div class="box">
                             <img class="t-img" src="RJ-img/slide9-01.png">
-                            <h3 class="item__title">体育赛事/观众看台</h3>
+                            <h3 class="item__title">
+                                <a target="_blank" href="http://www.ruijie.com.cn/fa/jzhdch/20180525/">体育赛事/观众看台</a>
+                            </h3>
                             <ul class="text__list">
                                 <li class="text__item">
                                     <p>场景：</p>
@@ -1313,7 +1323,9 @@
                     <li class="item">
                         <div class="box">
                             <img class="t-img" src="RJ-img/slide9-02.png">
-                            <h3 class="item__title">高校学生宿舍</h3>
+                            <h3 class="item__title">
+                                <a target="_blank" href="http://www.ruijie.com.cn/fa/jy/20170606/wireless.shtml">高校学生宿舍</a>
+                            </h3>
                             <ul class="text__list">
                                 <li class="text__item">
                                     <p>场景：</p>
@@ -1332,7 +1344,9 @@
                     <li class="item">
                         <div class="box">
                             <img class="t-img" src="RJ-img/slide9-03.png">
-                            <h3 class="item__title">医院移动查房应用场景</h3>
+                            <h3 class="item__title">
+                                <a target="_blank" href="http://www.ruijie.com.cn/fa/yl-ydyl/61466/">医院移动查房应用场景</a>
+                            </h3>
                             <ul class="text__list">
                                 <li class="text__item">
                                     <p>场景：</p>
@@ -1370,12 +1384,12 @@
                 </ul>
             </div>
         </div>
-        <div class="t-cont-item sec10">
+        <div class="t-cont-item sec10" data-index="5">
             <div class="t-content">
                 <div class="title">
                     <img src="RJ-img/slide10-title.png">
                 </div>
-                <div class="content clearfix">
+                <div class="sec10__content clearfix">
                     <div class="left">
                         <ul class="list clearfix">
                             <li class="item active" data-index="1">

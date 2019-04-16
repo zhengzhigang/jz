@@ -170,6 +170,7 @@ a.link-btn {
   &.cyan {
     border: 2px solid #2cafbc;
     color: #fff;
+    background: #2cafbc;
   }
 }
 
@@ -418,6 +419,7 @@ a.link-btn {
     width: 16.666666%;
     max-width: 190px;
     line-height: 60px;
+    text-align: center;
     font-size: 20px;
     color: #000;
     cursor: pointer;
@@ -692,6 +694,10 @@ a.link-btn {
   .title {
     margin-bottom: 30px;
   }
+  .btn__box {
+    text-align: center;
+    margin-bottom: 20px;
+  }
   .sec6__swiper {
     position: relative;
     max-width: 1020px;
@@ -721,7 +727,7 @@ a.link-btn {
     right: -20px;
     background: #fff url("../RJ-img/slide6-icon-02.png") center center/19px 24px no-repeat;
   }
-  .content {
+  .sec6__content {
     padding: 75px 35px 50px 35px;
   }
   .left {
@@ -791,7 +797,11 @@ a.link-btn {
   .title {
     margin-bottom: 10px;
   }
-  .content {
+  .btn__box {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .sec8__content {
     margin-bottom: 50px;    
   }
   .item__title {
@@ -1021,7 +1031,7 @@ a.link-btn {
 
 .sec10 {
   background: #e7f3ff;
-  .content {
+  .sec10__content {
     padding-top: 100px;
     margin-bottom: 80px;
   }
@@ -1180,7 +1190,7 @@ a.link-btn {
   }
   .sec10 {
     background: #e7f3ff;
-    .content {
+    .sec10__content {
       padding-top: 100px;
       margin: 0 20px 80px 20px;
     }
@@ -1402,7 +1412,7 @@ a.link-btn {
     .t-content {
       margin-bottom: 50px;
     }
-    .content {
+    .sec3__content {
       width: 100%;
       height: auto;
     }
@@ -1513,7 +1523,7 @@ a.link-btn {
     .swiper-button-next {
       right: 0;
     }
-    .content {
+    .sec6__content {
       padding: 0;
     }
     .left {
@@ -1572,7 +1582,7 @@ a.link-btn {
     .title__text {
       font-size: 14px;
     }
-    .content {
+    .sec8__content {
       height: auto;
     }
     .left {
@@ -1710,7 +1720,7 @@ a.link-btn {
   }
 
   .sec10 {
-    .content {
+    .sec10__content {
       margin: 0 0 50px 0;
       height: auto;
       padding-top: 20px;
