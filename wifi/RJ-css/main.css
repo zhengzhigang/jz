@@ -171,12 +171,31 @@ a {
   max-width: 100%;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 a.link {
   display: inline-block;
   color: #333;
 }
-a.link:hover {
-  text-decoration: none;
+
+a.link-btn {
+  display: inline-block;
+  padding: 9px 24px;
+  font-size: 24px;
+  line-height: 1;
+  border: 2px solid #333;
+  color: #333;
+  border-radius: 8px;
+}
+a.link-btn.blue {
+  border: 2px solid #2797ef;
+  color: #2797ef;
+}
+a.link-btn.cyan {
+  border: 2px solid #2cafbc;
+  color: #fff;
 }
 
 /*--------自定义样式--------*/
@@ -378,8 +397,36 @@ a.link:hover {
   padding-left: 35px;
   margin-bottom: 190px;
 }
-.sec1 .btn__box .link {
+.sec1 .btn__box .link-btn {
   margin-right: 15px;
+}
+
+.t-page-nav {
+  background-color: #fff;
+}
+.t-page-nav.on {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1001;
+}
+
+.t-nav-list {
+  line-height: 60px;
+}
+.t-nav-list li {
+  float: left;
+  width: 16.666666%;
+  max-width: 190px;
+  line-height: 60px;
+  font-size: 20px;
+  color: #000;
+  cursor: pointer;
+}
+.t-nav-list li:hover, .t-nav-list li.active {
+  background-color: #0196ab;
+  color: #fff;
 }
 
 .sec11 {
@@ -1304,13 +1351,12 @@ a.link:hover {
     padding-left: 20px;
     margin-bottom: 50px;
   }
-  .sec1 .btn__box .link {
-    width: 100px;
-    margin-right: 15px;
-  }
-  .sec1 .btn__box .link img {
-    display: block;
-    max-width: 100%;
+  .sec1 .btn__box .link-btn {
+    display: inline-block;
+    padding: 7px 18px;
+    font-size: 20px;
+    border-radius: 6px;
+    margin-right: 0;
   }
 
   .sec2 .list {

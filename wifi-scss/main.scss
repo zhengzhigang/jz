@@ -148,11 +148,28 @@ a {
   width: auto;
   max-width: 100%;
 }
+a:hover {
+  text-decoration: none;
+}
 a.link {
   display: inline-block;
   color: #333;
-  &:hover {
-    text-decoration: none;
+}
+a.link-btn {
+  display: inline-block;
+  padding: 9px 24px;
+  font-size: 24px;
+  line-height: 1;
+  border: 2px solid #333;
+  color: #333;
+  border-radius: 8px;
+  &.blue {
+    border: 2px solid #2797ef;
+    color: #2797ef;
+  }
+  &.cyan {
+    border: 2px solid #2cafbc;
+    color: #fff;
   }
 }
 
@@ -378,8 +395,35 @@ a.link {
   .btn__box {
     padding-left: 35px;
     margin-bottom: 190px;
-    .link {
+    .link-btn {
       margin-right: 15px;
+    }
+  }
+}
+
+.t-page-nav {
+  background-color: #fff;
+  &.on {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1001;
+  }
+}
+.t-nav-list {
+  line-height: 60px;
+  li {
+    float: left;
+    width: 16.666666%;
+    max-width: 190px;
+    line-height: 60px;
+    font-size: 20px;
+    color: #000;
+    cursor: pointer;
+    &:hover, &.active {
+      background-color: #0196ab;
+      color: #fff;
     }
   }
 }
@@ -1327,13 +1371,12 @@ a.link {
     .btn__box {
       padding-left: 20px;
       margin-bottom: 50px;
-      .link {
-        width: 100px;
-        margin-right: 15px;
-        img {
-          display: block;
-          max-width: 100%;
-        }
+      .link-btn {
+        display: inline-block;
+        padding: 7px 18px;
+        font-size: 20px;
+        border-radius: 6px;
+        margin-right: 0;
       }
     }
   }
