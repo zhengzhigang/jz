@@ -962,12 +962,12 @@
         <div class="t-cont-item t-page-nav t-pc">
             <div class="t-content">
                 <ul class="t-nav-list clearfix">
-                    <li class="nav-1" data-index="0">大会议程</li>
-                    <li class="nav-2" data-index="1">大会直播</li>
-                    <li class="nav-4" data-index="2">大会亮点</li>
-                    <li class="nav-5" data-index="3">主题演讲</li>
-                    <li class="nav-6" data-index="4">案例视频</li>
-                    <li class="nav-7" data-index="5">会务信息</li>
+                    <li class="nav-1" data-index="0">行业发展</li>
+                    <li class="nav-2" data-index="1">用户需求</li>
+                    <li class="nav-4" data-index="2">定义"好体验"</li>
+                    <li class="nav-5" data-index="3">看见"好体验"</li>
+                    <li class="nav-6" data-index="4">实现"好体验"</li>
+                    <li class="nav-7" data-index="5">"好体验"案例</li>
                 </ul>
             </div>
         </div>
@@ -981,7 +981,7 @@
                 </a>
             </div>
         </div>
-        <div class="t-cont-item sec2">
+        <div class="t-cont-item sec2" data-index="0">
             <div class="t-content">
                 <div class="title">
                     <img src="RJ-img/slide2-title.png">
@@ -1032,7 +1032,7 @@
                 </ul>
             </div>
         </div>
-        <div class="t-cont-item sec3">
+        <div class="t-cont-item sec3" data-index="1">
             <div class="t-content">
                 <div class="title">
                     <img src="RJ-img/slide3-title.png">
@@ -1056,7 +1056,7 @@
                 </ul>
             </div>
         </div>
-        <div class="t-cont-item sec4">
+        <div class="t-cont-item sec4" data-index="2">
             <div class="t-content">
                 <div class="title">
                     <img src="RJ-img/slide4-title.png">
@@ -1100,7 +1100,7 @@
                 </ul>
             </div>
         </div>
-        <div class="t-cont-item sec5">
+        <div class="t-cont-item sec5" data-index="3">
             <div class="t-content">
                 <div class="title">
                     <img src="RJ-img/slide5-title.png">
@@ -1182,7 +1182,7 @@
                 </div>
             </div>
         </div>
-        <div class="t-cont-item sec8">
+        <div class="t-cont-item sec8" data-index="4">
             <div class="t-content">
                 <div class="title">
                     <img src="RJ-img/slide8-title.png">
@@ -1285,7 +1285,7 @@
                 </div>
             </div>
         </div>
-        <div class="t-cont-item sec9">
+        <div class="t-cont-item sec9" data-index="5">
             <div class="t-content">
                 <div class="title">
                     <img src="RJ-img/slide9-title.png">

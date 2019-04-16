@@ -1,5 +1,8 @@
 $(function(){
     var header = {
+        firstScreenHeight: null,
+        headerHeight: 0,
+        isClick: false,
         mask: ['.mask1', '.mask2', '.mask3', '.mask4'],
         init: function() {
             var _this = this;
@@ -53,7 +56,6 @@ $(function(){
             var _this = this;
             // 导航吸顶
             window.onscroll = this.debounce(function() {
-                console.log('*****')
                 var wScrollTop = $(window).scrollTop()
                 if (_this.firstScreenHeight === null) {
                     _this.headerHeight = $('.header').height() ? $('.header').height() : 0;
