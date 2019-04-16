@@ -941,7 +941,7 @@
     <!-- 自定义样式end -->
 
     <!--正文开始-->
-    <div class="t-main main">
+    <div class="t-main">
         <div class="t-cont-item sec1">
             <img class="pepole t-pc" src="RJ-img/slide1-02.png">
             <div class="t-content">

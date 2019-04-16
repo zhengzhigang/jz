@@ -366,11 +366,11 @@ a.link-btn.cyan {
   max-width: 412px;
 }
 
-.main .title {
+.t-main .title {
   padding-top: 50px;
   margin-bottom: 20px;
 }
-.main .title img {
+.t-main .title img {
   display: block;
   max-width: 100%;
 }
@@ -1117,7 +1117,7 @@ a.link-btn.cyan {
 }
 
 @media screen and (max-width: 1280px) {
-  .main .title {
+  .t-main .title {
     margin: 0 20px 20px 20px;
   }
 
@@ -1247,11 +1247,11 @@ a.link-btn.cyan {
   }
 
   /*--------自定义样式--------*/
-  .main .title {
+  .t-main .title {
     padding-top: 35px;
     margin: 0 0 20px 0;
   }
-  .main .title img {
+  .t-main .title img {
     display: block;
     max-width: 100%;
   }
