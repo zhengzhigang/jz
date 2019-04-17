@@ -937,7 +937,7 @@
 
     <!-- 自定义样式begin -->
     <link rel="stylesheet" type="text/css" href="RJ-css/swiper.min.css">
-    <link rel="stylesheet" type="text/css" href="RJ-css/main.css">
+    <link rel="stylesheet" type="text/css" href="RJ-css/wifi-main.css">
     <!-- 自定义样式end -->
 
     <!--正文开始-->
