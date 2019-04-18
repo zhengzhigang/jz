@@ -1260,7 +1260,7 @@
                         </div>
                     </div>
                     <div class="right">
-                        <div class="right__title">[&nbsp;解决方案&nbsp;]</div>
+                        <div class="right__title">[&nbsp;相关产品&nbsp;]</div>
                         <div class="right__content">
                             <ul class="list clearfix">
                                 <li class="item margin__right">
@@ -1365,7 +1365,9 @@
                     <li class="item">
                         <div class="box">
                             <img class="t-img" src="RJ-img/slide9-04.png">
-                            <h3 class="item__title">地铁移动上网应用场景</h3>
+                            <h3 class="item__title">
+                                <a target="_blank" href="http://www.ruijie.com.cn/fa/jt/">地铁移动上网应用场景</a>
+                            </h3>
                             <ul class="text__list">
                                 <li class="text__item">
                                     <p>场景：</p>
