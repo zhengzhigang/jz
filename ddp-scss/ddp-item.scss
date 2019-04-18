@@ -267,6 +267,19 @@ body {
   .bottom__text {
     margin-bottom: 50px;
   }
+  .sec__btn {
+    display: block;
+    margin: auto;
+    width: 183px;
+    padding: 9px 0;
+    margin-bottom: 33px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    line-height: 1;
+    border-radius: 20px;
+    background-color: #44a1f7;
+  }
 }
 .sec5 {
   .list {
@@ -425,7 +438,6 @@ body {
       font-size: 18px;
       border-radius: 18px;
     }
-    
   }
   .sec2 {
     .list {
@@ -477,6 +489,12 @@ body {
     }
     .bottom__text {
       margin-bottom: 30px;
+    }
+    .sec__btn {
+      width: 160px;
+      padding: 9px 0;
+      font-size: 18px;
+      border-radius: 18px;
     }
   }
   .sec5 {

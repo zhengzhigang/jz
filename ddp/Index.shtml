@@ -1325,7 +1325,7 @@
 						<div class="t-content">
 							<h2 class="t-main-title">病毒克星</h2>
 							<p class="t-intro">RG-DDP动态防御系统</p>
-							<a class="sec__btn" target="_blank" href="http://survey.ruijie.com.cn/jq/35920136.aspx">申请免费试用</a>
+							<!-- <a class="sec__btn" target="_blank" href="http://survey.ruijie.com.cn/jq/35920136.aspx">申请免费试用</a> -->
 						</div>
 						<img src="RJ-img/sec1-01.png">
 					</div>
@@ -1373,7 +1373,8 @@
 							<a class="video__link" target="_blank" href="http://www.ruijie.com.cn/yx/sp/aq/preview/9591">
 								<img src="RJ-img/sec4-01.png">
 							</a>
-							<p class="bottom__text t-intro">眼见为实视频</p>
+							<a class="sec__btn" target="_blank" href="http://survey.ruijie.com.cn/jq/35920136.aspx">申请免费试用</a>
+							<!-- <p class="bottom__text t-intro">眼见为实视频</p> -->
 						</div>
 					</div>
 					<div class="t-cont-item sec5">
