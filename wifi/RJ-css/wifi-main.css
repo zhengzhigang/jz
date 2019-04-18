@@ -802,6 +802,7 @@ a.link-btn.cyan {
   margin-bottom: 50px;
 }
 .sec8 .item__title {
+  padding: 20px 0 10px 0;
   font-size: 24px;
   line-height: 1;
   text-align: center;
@@ -893,7 +894,7 @@ a.link-btn.cyan {
   margin-bottom: 20px;
 }
 .sec8 .text__box {
-  padding: 0 25px;
+  padding: 20px 25px 0 25px;
   border: 1px solid #daf6e8;
 }
 .sec8 .text__box p {
@@ -994,6 +995,9 @@ a.link-btn.cyan {
   min-height: 65px;
   font-size: 24px;
   line-height: 1;
+}
+.sec9 .item__title:hover {
+  text-decoration: underline;
 }
 .sec9 .text__list {
   padding: 0 15px;
@@ -1123,7 +1127,7 @@ a.link-btn.cyan {
   padding: 25px 0;
   min-height: 2.4em;
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.2;
 }
 
@@ -1737,6 +1741,7 @@ a.link-btn.cyan {
     margin-right: 0;
   }
   .sec10 .right .item .text {
+    font-size: 14px;
     padding-top: 10px;
   }
 
