@@ -604,7 +604,6 @@ a.link-btn {
       background-repeat: no-repeat;
       background-size: cover;
       overflow: hidden;
-      cursor: pointer;
     }
     .item1 {
       background-image: url("../RJ-img/slide4-01.jpg");
@@ -785,6 +784,12 @@ a.link-btn {
 .sec7 {
   .t-img {
     position: absolute;
+  }
+  .t-pc {
+    img {
+      display: block;
+      width: 100%;
+    }
   }
   min-height: 686px;
   background: url("../RJ-img/slide7-01.png") center bottom/ 1200px auto no-repeat;
@@ -986,7 +991,6 @@ a.link-btn {
     float: left;
     width: 23.5%;
     margin-right: 2%;
-    cursor: pointer;
     &:last-child {
       margin-right: 0;
     }
@@ -1025,6 +1029,7 @@ a.link-btn {
     text-align: center;
     color: #fff;
     background-color: #20b470;
+    cursor: pointer;
     .icon {
       display: inline-block;
       width: 18px;

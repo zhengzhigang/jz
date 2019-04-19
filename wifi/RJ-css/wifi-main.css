@@ -603,7 +603,6 @@ a.link-btn.cyan {
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
-  cursor: pointer;
 }
 .sec4 .list .item1 {
   background-image: url("../RJ-img/slide4-01.jpg");
@@ -783,6 +782,10 @@ a.link-btn.cyan {
 }
 .sec7 .t-img {
   position: absolute;
+}
+.sec7 .t-pc img {
+  display: block;
+  width: 100%;
 }
 
 .sec8 {
@@ -976,7 +979,6 @@ a.link-btn.cyan {
   float: left;
   width: 23.5%;
   margin-right: 2%;
-  cursor: pointer;
 }
 .sec9 .item:last-child {
   margin-right: 0;
@@ -1015,6 +1017,7 @@ a.link-btn.cyan {
   text-align: center;
   color: #fff;
   background-color: #20b470;
+  cursor: pointer;
 }
 .sec9 .button .icon {
   display: inline-block;
