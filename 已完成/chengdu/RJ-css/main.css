@@ -478,7 +478,9 @@ a.btn {
   background-image: url("../RJ-img/item5-04.png");
 }
 .sec5__content .item__content {
+  display: block;
   padding: 200px 15px 28px 15px;
+  text-decoration: none;
 }
 .sec5__content .sec5__title__box {
   display: table;
