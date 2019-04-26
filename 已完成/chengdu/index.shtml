@@ -16,11 +16,11 @@
 	
     <!--js脚本请放在此处-->
     <script type="text/javascript" src="RJ-js/jquery.js"></script>
-    <script type="text/javascript" src="RJ-js/item.js?t=1556202504858"></script>
+    <script type="text/javascript" src="RJ-js/item.js?t=1556260156942"></script>
     <!--正文开始-->
 
     <!-- 自定义样式begin -->
-    <link rel="stylesheet" type="text/css" href="RJ-css/main.css?t=1556202504858">
+    <link rel="stylesheet" type="text/css" href="RJ-css/main.css?t=1556260156942">
     <!-- 自定义样式end -->
 	
     <!--正文开始-->
@@ -217,7 +217,7 @@
                 </h2>
                 <ul class="sec5__content clearfix">
                     <li class="sec5__item sec5__item1">
-                        <a target="_blank" href="//www.ruijie.com.cn/yx/bgjp/gj/preview/9687" class="item__content">
+                        <div class="item__content">
                             <div class="sec5__title__box">
                                 <h3 class="sec5__title">锐捷网络<br>与智慧教室</h3>
                             </div>
@@ -225,10 +225,13 @@
                             <p class="sec5__text">
                                 锐捷网络<br>高职教行业部总经理
                             </p>
-                        </a>
+                            <div class="btn__group">
+                                <a target="_blank" href="//www.ruijie.com.cn/yx/bgjp/gj/preview/9687" class="btn">报告下载</a>
+                            </div>
+                        </div>
                     </li>
                     <li class="sec5__item sec5__item2">
-                        <a target="_blank" href="//www.ruijie.com.cn/yx/bgjp/gj/preview/9681" class="item__content">
+                        <div class="item__content">
                             <div class="sec5__title__box">
                                 <h3 class="sec5__title">聚焦智慧课堂<br>赋能课堂革命</h3>
                             </div>
@@ -236,10 +239,13 @@
                             <p class="sec5__text"> 
                                 成都师范学院网络与信息中心主任<br>四川省教育信息化应用与发展研究中心主任
                             </p>
-                        </a>
+                            <div class="btn__group">
+                                <a target="_blank" href="//www.ruijie.com.cn/yx/bgjp/gj/preview/9681" class="btn">报告下载</a>
+                            </div>
+                        </div>
                     </li>
                     <li class="sec5__item sec5__item3">
-                        <a target="_blank" href="//www.ruijie.com.cn/yx/bgjp/gj/preview/9688" class="item__content">
+                        <div class="item__content">
                             <div class="sec5__title__box">
                                 <h3 class="sec5__title">合作互动<br>在智慧教室上一堂好课</h3>
                             </div>
@@ -247,10 +253,13 @@
                             <p class="sec5__text">
                                 锐捷网络<br>智慧教室事业部总经理
                             </p>
-                        </a>
+                            <div class="btn__group">
+                                <a target="_blank" href="//www.ruijie.com.cn/yx/bgjp/gj/preview/9688" class="btn">报告下载</a>
+                            </div>
+                        </div>
                     </li>
                     <li class="sec5__item sec5__item4">
-                        <a target="_blank" href="//www.ruijie.com.cn/yx/bgjp/gj/preview/9693" class="item__content">
+                        <div class="item__content">
                             <div class="sec5__title__box">
                                 <h3 class="sec5__title">高校智慧教学<br>极简运维</h3>
                             </div>
@@ -258,7 +267,10 @@
                             <p class="sec5__text">
                                 锐捷网络<br>RIIL事业部总经理
                             </p>
-                        </a>
+                            <div class="btn__group">
+                                <a target="_blank" href="//www.ruijie.com.cn/yx/bgjp/gj/preview/9693" class="btn">报告下载</a>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </div>

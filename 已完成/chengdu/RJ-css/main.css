@@ -465,6 +465,10 @@ a.btn {
 .sec5__content .sec5__item:last-child {
   margin-right: 0;
 }
+.sec5__content .btn {
+  margin: auto;
+  margin-top: 20px;
+}
 .sec5__content .sec5__item1 {
   background-image: url("../RJ-img/item5-01.png");
 }
@@ -823,6 +827,9 @@ a.btn {
     width: 100%;
     margin-right: 0;
     margin-bottom: 30px;
+  }
+  .sec5__content .btn {
+    margin-top: 10px;
   }
 
   .sec6__content {
