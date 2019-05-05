@@ -29,14 +29,6 @@
             <img class="pepole t-pc" src="RJ-img/slide1-02.png">
             <div class="t-content">
                 <img class="title" src="RJ-img/slide1-01.png">
-                <div class="btn__box">
-                    <a class="link-btn blue" target="_blank" href="//www.ruijie.com.cn/yx/kw/wx/preview/9260">
-                        资料下载
-                    </a>
-                    <a class="link-btn cyan" target="_blank" href="//survey.ruijie.com.cn/jq/37733433.aspx">
-                        我要体验
-                    </a>
-                </div>
             </div>
             <img class="pepole t-mobile" src="RJ-img/slide1-03.png">
         </div>
@@ -57,12 +49,26 @@
                 <div class="title">
                     <img src="RJ-img/slide11-title.png">
                 </div>
+                <!-- <div class="video">
+                    <video controls="controls" src="http://zlkfile.ruijie.com.cn/082bffe0-4a9d-4b19-93f1-92e6e691e853/dwiiod/什么是看得见的无线好体验 - 带字幕播放文件 - 04190941.mp4" width="100%" height="100%" poster="//zlkfile.ruijie.com.cn/082bffe0-4a9d-4b19-93f1-92e6e691e853/b6ri0p/什么是看得见的无线好体验 - 预览图 - 04190941.png" x5-playsinline="" playsinline="" webkit-playsinline="true"></video>
+                </div> -->
                 <div class="video">
-                    <video controls="controls" src="//zlkfile.ruijie.com.cn/082bffe0-4a9d-4b19-93f1-92e6e691e853/dwiiod/什么是看得见的无线好体验 - 带字幕播放文件 - 04190941.mp4" width="100%" height="100%" poster="//zlkfile.ruijie.com.cn/082bffe0-4a9d-4b19-93f1-92e6e691e853/b6ri0p/什么是看得见的无线好体验 - 预览图 - 04190941.png" x5-playsinline="" playsinline="" webkit-playsinline="true"></video>
-                </div>
-                <!-- <a class="video" href="//www.ruijie.com.cn/yx/sp/wx/preview/9691">
                     <img src="RJ-img/slide11-01.png" alt="">
-                </a> -->
+                </div>
+                <script>
+                    $('.video').on('click', function() {
+                        $(this).empty().append('<video autoplay controls="controls" src="//zlkfile.ruijie.com.cn/082bffe0-4a9d-4b19-93f1-92e6e691e853/dwiiod/什么是看得见的无线好体验 - 带字幕播放文件 - 04190941.mp4" width="100%" height="100%" poster="//zlkfile.ruijie.com.cn/082bffe0-4a9d-4b19-93f1-92e6e691e853/b6ri0p/什么是看得见的无线好体验 - 预览图 - 04190941.png" x5-playsinline="" playsinline="" webkit-playsinline="true"></video>')
+                        _gsq.push(["T","GWD-002457","trackEvent","视频播放按钮","看得见的好无线","看得见的无线好体验专题"]);
+                    })
+                </script>
+            <div class="btn__box">
+                <a class="link-btn blue" target="_blank" href="//www.ruijie.com.cn/yx/kw/wx/preview/9260">
+                    资料下载
+                </a>
+                <a class="link-btn cyan" target="_blank" href="//survey.ruijie.com.cn/jq/37733433.aspx">
+                    我要体验
+                </a>
+            </div>
             </div>
         </div>
         <div class="t-cont-item sec2" data-index="0">

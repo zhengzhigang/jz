@@ -394,13 +394,7 @@ a.link-btn.cyan {
   max-width: 730px;
   padding: 145px 0 65px 0;
   margin: 0;
-}
-.sec1 .btn__box {
-  padding-left: 35px;
-  margin-bottom: 190px;
-}
-.sec1 .btn__box .link-btn {
-  margin-right: 15px;
+  margin-bottom: 220px;
 }
 
 .t-page-nav {
@@ -438,13 +432,21 @@ a.link-btn.cyan {
 .sec11 .video {
   display: block;
   width: 90%;
-  max-width: 920px;
+  max-width: 800px;
   margin: auto;
   margin-bottom: 75px;
+  cursor: pointer;
 }
 .sec11 .video img {
   display: block;
   width: 100%;
+}
+.sec11 .btn__box {
+  margin-bottom: 190px;
+  text-align: center;
+}
+.sec11 .btn__box .link-btn {
+  margin-right: 15px;
 }
 
 .sec2 {
@@ -1145,8 +1147,10 @@ a.link-btn.cyan {
   .sec1 .title {
     max-width: 600px;
     padding: 120px 0 50px 0;
+    margin-bottom: 100px;
   }
-  .sec1 .btn__box {
+
+  .sec11 .btn__box {
     margin-bottom: 160px;
   }
 
@@ -1363,13 +1367,14 @@ a.link-btn.cyan {
   }
   .sec1 .title {
     width: 100%;
-    padding: 30px 0 20px 0;
+    padding: 30px 0 0 0;
+    margin-bottom: 0;
   }
-  .sec1 .btn__box {
-    padding-left: 20px;
+
+  .sec11 .btn__box {
     margin-bottom: 50px;
   }
-  .sec1 .btn__box .link-btn {
+  .sec11 .btn__box .link-btn {
     display: inline-block;
     padding: 7px 18px;
     font-size: 16px;

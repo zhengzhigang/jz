@@ -438,9 +438,10 @@ a.link-btn.cyan {
 .sec11 .video {
   display: block;
   width: 90%;
-  max-width: 920px;
+  max-width: 800px;
   margin: auto;
   margin-bottom: 75px;
+  cursor: pointer;
 }
 .sec11 .video img {
   display: block;
