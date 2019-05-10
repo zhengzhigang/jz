@@ -220,7 +220,7 @@
                     <img src="RJ-img/slide6-title.png">
                 </div>
                 <div class="btn__box">
-                    <a class="link-btn blue" data-event="2" target="_blank" href="//www.ruijie.com.cn/cp/wx-wxglyyy/wis/">
+                    <a class="link-btn blue" target="_blank" href="//www.ruijie.com.cn/cp/wx-wxglyyy/wis/">
                         查看更多
                     </a>
                 </div>
@@ -285,7 +285,7 @@
                 <h2 class="item__title">大型会议Wi-Fi接入</h2>
                 <p class="title__text">空间封闭，人群密集，并发量大，需要保证每用户的高带宽需求，往往需要超高性能的AP来应对</p>
                 <div class="btn__box">
-                    <a class="link-btn blue" data-event="3" target="_blank" href="//www.ruijie.com.cn/cp/fw-zylfw/superwifi">
+                    <a class="link-btn blue" target="_blank" href="//www.ruijie.com.cn/cp/fw-zylfw/superwifi">
                         查看更多
                     </a>
                 </div>
