@@ -30,10 +30,10 @@
             <div class="t-content">
                 <img class="title" src="RJ-img/slide1-01.png">
                 <div class="btn__box">
-                    <a class="link-btn blue" target="_blank" href="//www.ruijie.com.cn/yx/kw/wx/preview/9260">
+                    <a class="link-btn blue" data-event="0" target="_blank" href="//www.ruijie.com.cn/yx/kw/wx/preview/9260">
                         资料下载
                     </a>
-                    <a class="link-btn cyan" target="_blank" href="//survey.ruijie.com.cn/jq/37733433.aspx">
+                    <a class="link-btn cyan"  data-event="1" target="_blank" href="//survey.ruijie.com.cn/jq/37733433.aspx">
                         我要体验
                     </a>
                 </div>
@@ -43,8 +43,8 @@
         <div class="t-cont-item t-page-nav t-pc">
             <div class="t-content">
                 <ul class="t-nav-list clearfix">
-                    <li class="nav-1" data-index="0">行业发展</li>
-                    <li class="nav-2" data-index="1">用户需求</li>
+                    <li class="nav-1 hide" data-index="0">行业发展</li>
+                    <li class="nav-2 hide" data-index="1">用户需求</li>
                     <li class="nav-4" data-index="2">定义"好体验"</li>
                     <li class="nav-5" data-index="3">看见"好体验"</li>
                     <li class="nav-6" data-index="4">实现"好体验"</li>
@@ -71,7 +71,7 @@
                 </script>
             </div>
         </div>
-        <div class="t-cont-item sec2" data-index="0">
+        <div class="t-cont-item sec2 hide" data-index="0">
             <div class="t-content">
                 <div class="title">
                     <img src="RJ-img/slide2-title.png">
@@ -122,7 +122,7 @@
                 </ul>
             </div>
         </div>
-        <div class="t-cont-item sec3" data-index="1">
+        <div class="t-cont-item sec3 hide" data-index="1">
             <div class="t-content">
                 <div class="title">
                     <img src="RJ-img/slide3-title.png">
@@ -220,7 +220,7 @@
                     <img src="RJ-img/slide6-title.png">
                 </div>
                 <div class="btn__box">
-                    <a class="link-btn blue" target="_blank" href="//www.ruijie.com.cn/cp/wx-wxglyyy/wis/">
+                    <a class="link-btn blue"  data-event="2" target="_blank" href="//www.ruijie.com.cn/cp/wx-wxglyyy/wis/">
                         查看更多
                     </a>
                 </div>
@@ -285,7 +285,7 @@
                 <h2 class="item__title">大型会议Wi-Fi接入</h2>
                 <p class="title__text">空间封闭，人群密集，并发量大，需要保证每用户的高带宽需求，往往需要超高性能的AP来应对</p>
                 <div class="btn__box">
-                    <a class="link-btn blue" target="_blank" href="//www.ruijie.com.cn/cp/fw-zylfw/superwifi">
+                    <a class="link-btn blue"  data-event="3" target="_blank" href="//www.ruijie.com.cn/cp/fw-zylfw/superwifi">
                         查看更多
                     </a>
                 </div>

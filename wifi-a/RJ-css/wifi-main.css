@@ -200,6 +200,10 @@ a.link-btn.cyan {
   background: #2cafbc;
 }
 
+.hide {
+  display: none !important;
+}
+
 /*--------自定义样式--------*/
 /*-------- body --------*/
 .mask {
@@ -419,8 +423,7 @@ a.link-btn.cyan {
 }
 .t-nav-list li {
   float: left;
-  width: 16.666666%;
-  max-width: 190px;
+  width: 25%;
   line-height: 60px;
   text-align: center;
   font-size: 20px;

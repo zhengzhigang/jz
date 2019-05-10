@@ -41,6 +41,34 @@ $(function(){
                 $(this).parents('.mask').removeClass('open');
                 document.body.style = ''
             })
+
+            // 按钮监控
+            var eventTrack = [
+                {
+                    type: '资料下载',
+                    name: '详情页资料下载',
+                    desc: '无线好体验-首屏'
+                },
+                {
+                    type: '资料下载',
+                    name: '详情页资料下载',
+                    desc: '无线好体验-下方'
+                },
+                {
+                    type: '售前咨询',
+                    name: '详情页体验表单',
+                    desc: '无线好体验-首屏'
+                },
+                {
+                    type: '售前咨询',
+                    name: '详情页体验表单',
+                    desc: '无线好体验-下方'
+                }
+            ]
+            $('a.link-btn').on('click', function() {
+                var i = $(this).data('event');
+                _gsq.push(["T","GWD-002457","trackEvent",eventTrack[i].type,eventTrack[i].name,eventTrack[i].desc]);
+            })
         },
 
         switchTab: function() {
