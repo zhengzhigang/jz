@@ -30,10 +30,10 @@
             <div class="t-content">
                 <img class="title" src="RJ-img/slide1-01.png">
                 <div class="btn__box">
-                    <a class="link-btn blue" data-event="0" target="_blank" href="//www.ruijie.com.cn/yx/kw/wx/preview/9260">
+                    <a id="download" class="link-btn blue" target="_blank" href="//www.ruijie.com.cn/yx/kw/wx/preview/9260">
                         资料下载
                     </a>
-                    <a class="link-btn cyan"  data-event="1" target="_blank" href="//survey.ruijie.com.cn/jq/37733433.aspx">
+                    <a id="experience" class="link-btn cyan" target="_blank" href="//survey.ruijie.com.cn/jq/37733433.aspx">
                         我要体验
                     </a>
                 </div>
@@ -1142,6 +1142,13 @@
 	<script type='text/javascript'>
 	//"专题"根据需要替换为“专题，产品，方案”中的其中一个，具体向需求提出人确定
         _gsq.push(["T","GWD-002457","trackEvent","内容页","产品",""]);
+
+        $('#download').on('click', function() {
+            _gsq.push(["T","GWD-002457","trackEvent","资料下载","详情页资料下载","无线好体验-首屏"]);
+        })
+        $('#experience').on('click', function() {
+            _gsq.push(["T","GWD-002457","trackEvent","内容页","详情页体验表单","无线好体验-首屏"]);
+        })
     </script>
 
 </body>
