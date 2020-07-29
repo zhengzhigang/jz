@@ -2,7 +2,6 @@ $(function() {
     var main = {
         initMain: function() {
             this.initSwiper();
-            console.log('***', Swiper)
         },
         initSwiper: function() {
             var mySwiper = new Swiper('.swiper-container',{
