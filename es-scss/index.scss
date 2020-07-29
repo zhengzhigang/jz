@@ -95,6 +95,7 @@
     }
     .big-img {
         margin: 85px 0 70px;
+        height: 220px;
         img {
             display: block;
             max-width: 100%;
@@ -110,6 +111,10 @@
         margin: 0 5px 10px 0;
         border: 1px solid #e5e5e5;
         overflow: hidden;
+        cursor: pointer;
+        &.active {
+            border-color: #0d58ca;
+        }
     }
     .thumb-list img {
         display: block;

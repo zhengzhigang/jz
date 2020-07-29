@@ -100,6 +100,7 @@
 }
 .section-1 .big-img {
   margin: 85px 0 70px;
+  height: 220px;
 }
 .section-1 .big-img img {
   display: block;
@@ -115,6 +116,10 @@
   margin: 0 5px 10px 0;
   border: 1px solid #e5e5e5;
   overflow: hidden;
+  cursor: pointer;
+}
+.section-1 .thumb-list li.active {
+  border-color: #0d58ca;
 }
 .section-1 .thumb-list img {
   display: block;
