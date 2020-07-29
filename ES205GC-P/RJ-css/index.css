@@ -1,0 +1,255 @@
+/* index.html css */
+
+/* 导航部分 */
+.page-title {
+    font-size: 42px;
+    color: #35c0bb;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 42px;
+}
+.page-title-text {
+    width: 100%;
+    max-width: 1200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-subnav {
+    background-color: #f7f7f7;
+    line-height: 50px;
+}
+.page-subnav-content {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+.page-subnav .left {
+    float: left;
+    font-size: 24px;
+    color: #333;
+}
+.page-subnav .right {
+    float: right;
+}
+.page-subnav .link {
+    display: inline-block;
+    padding: 0 14px;
+    color: #333;
+}
+.page-subnav .link.active {
+    color: #35c0bb;
+}
+
+/* 正文部分 */
+.page-content {
+    background-color: #fff;
+}
+.section-box {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+.section-1 {
+    overflow: hidden;
+    padding: 40px 0;
+}
+.section-1 .left {
+    float: left;
+    width: 50%;
+}
+.section-1 p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: 2f2f2f;
+}
+.section-1 .text-title {
+    padding-top: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.section-1 .list {
+    padding-left: 18px;
+    list-style-type: disc;
+}
+.section-1 .list p {
+    margin: 0;
+}
+.section-1 .right {
+    float: right;
+    width: 36%;
+    margin-left: 14%;
+}
+.section-1 .big-img {
+    margin: 85px 0 70px;
+}
+.section-1 .thumb-list li {
+    display: block;
+    float: left;
+    width: 97px;
+    height: 87px;
+    margin: 0 5px 10px 0;
+    border: 1px solid #e5e5e5;
+    overflow: hidden;
+}
+.section-1 .thumb-list img {
+    display: block;
+    width: 100%;
+}
+
+.section-2 {
+    padding: 140px 200px;
+    background: url('../RJ-img/b-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    overflow: hidden;
+}
+.section-2 .big-text {
+    margin-bottom: 35px;
+    font-size: 40px;
+    color: #fff;
+}
+.section-2 .small-text {
+    margin-bottom: 115px;
+    font-size: 22px;
+    color: #fff;
+}
+.section-2 .item {
+    width: 16.66667%;
+    float: left;
+}
+.section-2 .item img {
+    display: block;
+    width: 92px;
+    height: 92px;
+    margin: 0 auto 30px;
+}
+.section-2 .item .icon-text {
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+
+.section-3 {
+    padding: 196px 0 100px;
+    background: url('../RJ-img/c-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    overflow: hidden;
+}
+.section-3 .left {
+    width: 30%;
+    float: left;
+}
+.section-3 .right {
+    width: 60%;
+    margin-left: 105px;
+    float: right;
+}
+.section-3 .top {
+    margin-bottom: 120px;
+}
+.section-3 img {
+    display: block;
+    width: 100%;
+}
+.section-3 .bottom p {
+    font-size: 40px;
+    color: #2f2f2f;
+    text-align: left;
+}
+
+.section-4 {
+    padding-top: 50px;
+    background: url('../RJ-img/d-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    overflow: hidden;
+}
+.section-4 .top {
+    margin-bottom: 58px;
+    font-size: 0;
+    text-align: left;
+}
+.section-4 .top img {
+    display: inline-block;
+    margin-right: 37px;
+    width: 114px;
+}
+.section-4 .top img:last-child {
+    margin-right: 0;
+}
+.section-4 .bottom-left {
+    float: left;
+    width: 50%;
+}
+.section-4 .bottom-right {
+    float: right;
+    padding-top: 88px;
+    width: 40%;
+    margin-left: 10%;
+    text-align: left;
+}
+.section-4 .bottom-right p:first-child {
+    margin-bottom: 40px;
+    font-size: 40px;
+    color: #fff;
+}
+.section-4 .bottom-right p:last-child {
+    font-size: 22px;
+    color: #fff;
+}
+
+.section-5 {
+    padding: 80px 0 90px;
+    background-color: #f7f7f7;
+}
+.section-5 .left,
+.section-5 .right {
+    width: 50%;
+    float: left;
+}
+.section-5 p:first-child {
+    margin-bottom: 30px;
+    padding-top: 120px;
+    font-size: 40px;
+    line-height: 60px;
+}
+.section-5 p:last-child {
+    font-size: 22px;
+    line-height: 40px;
+}
+
+.section-6 {
+    position: relative;
+}
+.section-6 .section-box {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.section-6 img {
+    display: block;
+    width: 100%;
+}
+.section-6 .top-text {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 40%;
+}
+.section-6 .bottom-text {
+    position: absolute;
+    text-align: left;
+    left: 0;
+    bottom: 0;
+}
