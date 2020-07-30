@@ -6,6 +6,9 @@ $(function() {
         initSwiper: function() {
             var mySwiper = new Swiper('.swiper-container',{
                 loop: true,
+                autoplay: {
+                    delay: 2000
+                },
                 on: {
                     slideChangeTransitionStart:function(e) {
                         var i = this.activeIndex;

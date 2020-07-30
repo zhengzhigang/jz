@@ -160,6 +160,7 @@
     background: url('../RJ-img/c-bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     overflow: hidden;
     .left {
         width: 30%;
@@ -378,7 +379,13 @@
         }
     }
     .section-7 {
-        padding: 80px 0 125px;
+        padding: 80px 0 100px;
+        background-size: auto 680px;
+
+        .btn-box {
+            margin-top: 140px;
+            overflow: hidden;
+        }
         .btn {
             margin-top: 100px;
             width: 222px;
@@ -554,7 +561,7 @@
     }
     
     .section-7 {
-        padding: 60px 0 100px;
+        padding: 60px 0 60px;
         background-size: auto 360px;
         .left {
             width: 100%;
@@ -565,9 +572,15 @@
         .title-text {
             margin-bottom: 20px;
         }
+        .btn-box {
+            width: 50%;
+            margin-top: 80px;
+        }
         .btn {
-            margin-right: 30px;
-            margin-top: 165px;
+            display: block;
+            margin-right: 0;
+            margin-top: 40px;
+            margin-left: 40px;
             width: 160px;
             height: 47px;
         }
@@ -719,10 +732,13 @@
         .title-text {
             margin-bottom: 20px;
         }
+        .btn-box {
+            width: 50%;
+            margin-top: 40px;
+        }
         .btn {
-            display: inline-block;
-            margin-right: 20px;
-            margin-top: 165px;
+            margin-top: 40px;
+            margin-left: 20px;
             width: 116px;
             height: 34px;
         }
@@ -822,6 +838,9 @@
     .section-7 {
         padding: 20px 0 0;
         background-size: auto 260px;
+        .btn {
+            margin-top: 20px;
+        }
     }
 }
 
@@ -862,9 +881,23 @@
     .section-6 {
         padding-bottom: 30px;
     }
+    .section-7 {
+        .btn {
+            margin-left: 0;
+        }
+    }
 }
 
 @media screen and (max-width: 320px){
+    .section-4 {
+        .top {
+            margin-bottom: 20px;
+        }
+        .top img {
+            margin-right: 10px;
+            width: 60px;
+        }
+    }
     .section-7 {
         background-size: auto 220px;
     }
