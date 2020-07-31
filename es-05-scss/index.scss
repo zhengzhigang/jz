@@ -1,7 +1,9 @@
 /* index.html css */
 
 /* 导航部分 */
-
+html {
+    font-family: Arial, '微软雅黑', sans-serif;
+}
 .page-content {
     overflow: hidden;
 }
@@ -287,19 +289,11 @@ img {
 }
 
 @media screen and (max-width: 1680px){
-    .section-7 {
-        .title-text {
-            padding-top: 90px;
-        }
-    }
+    
 }
 
 @media screen and (max-width: 1440px){
-    .section-7 {
-        .title-text {
-            padding-top: 70px;
-        }
-    }
+    
 }
 
 @media screen and (max-width: 1280px){
@@ -309,11 +303,6 @@ img {
     .page-subnav {
         &-content {
             max-width: 1000px;
-        }
-    }
-    .section-7 {
-        .title-text {
-            padding-top: 40px;
         }
     }
 }

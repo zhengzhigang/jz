@@ -1,7 +1,9 @@
 /* index.html css */
 
 /* 导航部分 */
-
+html {
+    font-family: Arial, '微软雅黑', sans-serif;
+}
 .page-content {
     overflow: hidden;
 }
@@ -232,6 +234,9 @@
 .section-5 {
     padding: 80px 0 90px;
     background-color: #f7f7f7;
+    .left {
+        position: relative;
+    }
     & .left, & .right {
         width: 50%;
         float: left;
@@ -243,6 +248,9 @@
     .title-text {
         margin-bottom: 30px;
         padding-top: 120px;
+    }
+    .small-text {
+        white-space: nowrap;
     }
 }
 
@@ -545,6 +553,7 @@
         }
         .small-text {
             margin-bottom: 40px;
+            white-space: normal;
         }
     }
     

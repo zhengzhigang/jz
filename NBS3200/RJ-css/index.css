@@ -175,9 +175,10 @@ img {
 }
 .section-2 .bottom {
   position: absolute;
-  bottom: 40px;
+  bottom: 30px;
   left: 50%;
-  width: 1200px;
+  width: 100%;
+  max-width: 1200px;
   margin-left: -600px;
 }
 .section-2 .left-list {
@@ -406,7 +407,7 @@ img {
     width: 380px;
   }
   .section-2 .bottom {
-    width: 900px;
+    max-width: 900px;
     margin-left: -450px;
   }
   .section-2 .item {
@@ -524,6 +525,17 @@ img {
   }
   .section-2 .top {
     top: 30px;
+  }
+  .section-2 .bottom {
+    bottom: 80px;
+    left: 0;
+    margin-left: 0;
+  }
+  .section-2 .left-list, .section-2 .right-list {
+    float: none;
+    width: auto;
+    margin: 0 40px;
+    margin-bottom: 40px;
   }
 
   .section-3 {
@@ -650,6 +662,18 @@ img {
   .section-2 .top {
     top: 15px;
   }
+  .section-2 .bottom {
+    bottom: 20px;
+  }
+  .section-2 .left-list, .section-2 .right-list {
+    margin: 0 15px;
+    margin-bottom: 20px;
+  }
+  .section-2 .item img {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 20px;
+  }
 
   .section-3 {
     padding: 25px 0 60px;
@@ -732,6 +756,14 @@ img {
   .section-2 .top {
     top: 10px;
   }
+  .section-2 .bottom {
+    bottom: 0;
+  }
+  .section-2 .item img {
+    width: 65px;
+    height: 65px;
+    margin: 0 auto 10px;
+  }
 
   .section-3 {
     padding: 20px 0 40px;
@@ -791,6 +823,14 @@ img {
   .section-2 .input-img {
     width: 160px;
   }
+  .section-2 .bottom {
+    bottom: 0;
+  }
+  .section-2 .item img {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 10px;
+  }
 
   .section-3 .small-text {
     padding: 0 15px;
@@ -828,6 +868,18 @@ img {
   }
   .section-2 .input-img {
     width: 120px;
+  }
+  .section-2 .bottom {
+    bottom: 0;
+  }
+  .section-2 .left-list, .section-2 .right-list {
+    margin: 0 0;
+    margin-bottom: 10px;
+  }
+  .section-2 .item img {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 10px;
   }
 
   .section-6 .title-text {
