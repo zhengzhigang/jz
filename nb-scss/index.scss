@@ -73,6 +73,9 @@ img {
     display: block;
     max-width: 100%;
 }
+.m {
+    display: none;
+}
 
 /* 正文部分 */
 .page-content {
@@ -217,6 +220,18 @@ img {
             border-color: transparent transparent #f2f2f2 transparent;
             border-width: 18px;
             border-style: solid;
+        }
+        .arrow-blue {
+            display: block;
+            margin: 11px auto 14px;
+            width: 8px;
+            height: 5px;
+            background: url('../RJ-img/c-02.png') center/100% no-repeat;
+        }
+        .item-text {
+            font-size: 14px;
+            color: #97a0b4;
+            text-align: center;
         }
     }
 }
@@ -426,6 +441,14 @@ img {
             text-align: center;
         }
     }
+
+    .m {
+        display: block;
+    }
+
+    .pc {
+        display: none;
+    }
     
     .section-1 {
         .left {
@@ -498,7 +521,10 @@ img {
         .title-text {
             width: 70%;
             margin: auto;
-            margin-bottom: 55px;
+            margin-bottom: 0;
+        }
+        .bg-img {
+            width: 100%;
         }
     }
     
@@ -507,10 +533,6 @@ img {
         .small-text {
             margin-bottom: 50px;
             color: #7c7e83;
-        }
-        .img {
-            width: 80%;
-            margin: auto;
         }
     }
     
@@ -621,7 +643,6 @@ img {
         .title-text {
             width: 70%;
             margin: auto;
-            margin-bottom: 55px;
         }
     }
     
@@ -702,7 +723,6 @@ img {
         padding: 20px 0 25px;
         .title-text {
             width: 80%;
-            margin-bottom: 40px;
         }
     }
     
