@@ -1,6 +1,10 @@
 @charset "UTF-8";
 /* index.html css */
 /* 导航部分 */
+html {
+  font-family: Arial, '微软雅黑', sans-serif;
+}
+
 .page-content {
   overflow: hidden;
 }
@@ -168,6 +172,31 @@ img {
   width: 100%;
   left: 0;
   top: 50px;
+}
+.section-2 .bottom {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  width: 1200px;
+  margin-left: -600px;
+}
+.section-2 .left-list {
+  float: left;
+  width: 40%;
+}
+.section-2 .right-list {
+  width: 40%;
+  float: right;
+}
+.section-2 .item {
+  float: left;
+  width: 33.33333%;
+  text-align: center;
+}
+.section-2 .item img {
+  width: 92px;
+  height: 92px;
+  margin: 0 auto 25px;
 }
 
 .section-3 {
@@ -375,6 +404,19 @@ img {
   }
   .section-2 .input-img {
     width: 380px;
+  }
+  .section-2 .bottom {
+    width: 900px;
+    margin-left: -450px;
+  }
+  .section-2 .item {
+    float: left;
+    width: 33.33333%;
+    text-align: center;
+  }
+  .section-2 .item img {
+    width: 80px;
+    height: 80px;
   }
 
   .section-3 {

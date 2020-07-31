@@ -1,6 +1,10 @@
 @charset "UTF-8";
 /* index.html css */
 /* 导航部分 */
+html {
+  font-family: Arial, '微软雅黑', sans-serif;
+}
+
 .page-content {
   overflow: hidden;
 }
@@ -237,6 +241,9 @@
   padding: 80px 0 90px;
   background-color: #f7f7f7;
 }
+.section-5 .left {
+  position: relative;
+}
 .section-5 .left, .section-5 .right {
   width: 50%;
   float: left;
@@ -248,6 +255,9 @@
 .section-5 .title-text {
   margin-bottom: 30px;
   padding-top: 120px;
+}
+.section-5 .small-text {
+  white-space: nowrap;
 }
 
 .section-6 {
@@ -547,6 +557,7 @@
   }
   .section-5 .small-text {
     margin-bottom: 40px;
+    white-space: normal;
   }
 
   .section-6 {
