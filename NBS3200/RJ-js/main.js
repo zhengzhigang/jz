@@ -4,7 +4,6 @@ $(function() {
             this.initSwiper();
         },
         initSwiper: function() {
-            console.log('&&&&')
             var mySwiper = new Swiper('.swiper-container',{
                 loop: true,
                 initialSlide: 0,
@@ -19,6 +18,7 @@ $(function() {
                     }
                 }
             });
+            console.log(mySwiper)
             $('.section-1 .thumb-item').on('click', function() {
                 var i = $(this).index();
                 mySwiper.slideToLoop(i)

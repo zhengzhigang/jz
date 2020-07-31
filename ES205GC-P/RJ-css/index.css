@@ -328,6 +328,11 @@
     max-width: 1000px;
   }
 
+  .page-title {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
   .section-1 .left {
     width: 57%;
   }
