@@ -368,14 +368,19 @@ img {
             bottom: 0;
             left: 0;
             right: 0;
-            height: 54px;
-            padding: 10px 20px 0;
-            text-align: center;
+            height: 70px;
             font-size: 18px;
             color: #ffffff;
-            background: #000;
-            opacity: .4;
-            filter: alpha(opacity=50);
+            line-height: 1.2;
+            span {
+                position: absolute;
+                text-align: center;
+                left: 20px;
+                right: 20px;
+                top: 50%;
+                padding: 0 20px;
+                transform: translateY(-50%);
+            }
         }
     }
 }
@@ -486,6 +491,9 @@ img {
         .bottom-list {
             font-size: 0;
             margin: 0 15px;
+            .text {
+                height: 55px;
+            }
         }
     }
 
@@ -656,9 +664,11 @@ img {
             width: 33.33333%;
             margin-bottom: 20px;
             .text {
-                height: 52px;
+                height: 62px;
                 font-size: 16px;
-                padding-top: 5px;
+                span {
+                    padding: 0;
+                }
             }
         }
     }
@@ -812,9 +822,11 @@ img {
             width: 33.33333%;
             margin-bottom: 20px;
             .text {
-                height: 52px;
-                font-size: 16px;
-                padding-top: 5px;
+                height: 48px;
+                font-size: 14px;
+                span {
+                    padding: 0;
+                }
             }
         }
     }
@@ -937,10 +949,13 @@ img {
             width: 33.33333%;
             margin-bottom: 20px;
             .text {
-                height: 52px;
-                font-size: 14px;
-                padding-left: 10px;
-                padding-right: 10px;
+                height: 48px;
+                font-size: 12px;
+                margin-bottom: -6px;
+                span {
+                    left: 0;
+                    right: 0;
+                }
             }
         }
     }
@@ -1006,6 +1021,17 @@ img {
         .bottom-item {
             .icon {
                 width: 40px;
+            }
+        }
+    }
+    .section-7 {
+        .bottom-item {
+            .text {
+                margin-bottom: -12px;
+                span {
+                    left: 0;
+                    right: 0;
+                }
             }
         }
     }
