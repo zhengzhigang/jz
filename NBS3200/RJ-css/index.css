@@ -128,8 +128,7 @@ img {
   margin-left: 14%;
 }
 .section-1 .big-img {
-  margin: 85px 0 70px;
-  height: 220px;
+  margin: 0 40px 40px;
 }
 .section-1 .big-img img {
   display: block;
@@ -510,7 +509,7 @@ img {
     margin-left: 0;
   }
   .section-1 .big-img {
-    margin: 35px 0 30px;
+    margin: 35px 30px 30px;
   }
   .section-1 .thumb-list {
     text-align: center;
@@ -646,7 +645,7 @@ img {
     font-size: 16px;
   }
   .section-1 .big-img {
-    margin: 20px 0 15px;
+    margin: 20px 30px 15px;
   }
   .section-1 .thumb-list .thumb-item {
     width: 75px;
@@ -744,7 +743,7 @@ img {
     padding: 20px 0;
   }
   .section-1 .big-img {
-    margin: 10px 0 5px;
+    margin: 10px 40px 5px;
   }
 
   .section-2 .title-text {
@@ -816,9 +815,6 @@ img {
   .section-1 {
     padding: 20px 0;
   }
-  .section-1 .big-img {
-    margin: 10px 0 5px;
-  }
 
   .section-2 .input-img {
     width: 160px;
@@ -855,9 +851,6 @@ img {
     line-height: 36px;
   }
 
-  .section-1 .big-img {
-    margin: 0;
-  }
   .section-1 .thumb-list .thumb-item {
     width: 60px;
     height: 54px;

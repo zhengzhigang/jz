@@ -120,8 +120,7 @@ img {
   margin-left: 14%;
 }
 .section-1 .big-img {
-  margin: 85px 0 70px;
-  height: 220px;
+  margin: 0 40px 40px;
 }
 .section-1 .big-img img {
   display: block;
@@ -720,7 +719,7 @@ img {
     padding: 20px 0;
   }
   .section-1 .big-img {
-    margin: 10px 0 5px;
+    margin: 10px 40px 5px;
   }
 
   .section-2 {
@@ -809,9 +808,6 @@ img {
   .section-1 {
     padding: 20px 0;
   }
-  .section-1 .big-img {
-    margin: 0 20px 0;
-  }
 }
 @media screen and (max-width: 320px) {
   .title-text {
@@ -822,10 +818,6 @@ img {
     line-height: 36px;
   }
 
-  .section-1 .big-img {
-    margin: 0 40px;
-    height: 190px;
-  }
   .section-1 .thumb-list .thumb-item {
     width: 60px;
     height: 54px;

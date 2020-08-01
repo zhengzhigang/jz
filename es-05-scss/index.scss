@@ -112,8 +112,7 @@ img {
         margin-left: 14%;
     }
     .big-img {
-        margin: 85px 0 70px;
-        height: 220px;
+        margin: 0 40px 40px;
         img {
             display: block;
             max-width: 100%;
@@ -481,7 +480,7 @@ img {
             margin-left: 0;
         }
         .big-img {
-            margin: 35px 0 30px;
+            margin: 35px 30px 30px;
         }
         .thumb-list {
             text-align: center;
@@ -600,7 +599,7 @@ img {
             font-size: 16px;
         }
         .big-img {
-            margin: 20px 0 15px;
+            margin: 20px 30px 15px;
         }
         .thumb-list {
             .thumb-item {
@@ -715,7 +714,7 @@ img {
     .section-1 {
         padding: 20px 0;
         .big-img {
-            margin: 10px 0 5px;
+            margin: 10px 40px 5px;
         }
     }
     .section-2 {
@@ -803,9 +802,6 @@ img {
     
     .section-1 {
         padding: 20px 0;
-        .big-img {
-            margin: 0 20px 0;
-        }
     }
 }
 
@@ -821,10 +817,6 @@ img {
     }
     
     .section-1 {
-        .big-img {
-            margin: 0 40px;
-            height: 190px;
-        }
         .thumb-list {
             .thumb-item {
                 width: 60px;

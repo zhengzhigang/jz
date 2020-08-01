@@ -103,8 +103,7 @@ html {
   margin-left: 14%;
 }
 .section-1 .big-img {
-  margin: 85px 0 70px;
-  height: 220px;
+  margin: 0 40px 40px;
 }
 .section-1 .big-img img {
   display: block;
@@ -463,7 +462,7 @@ html {
     margin-left: 0;
   }
   .section-1 .big-img {
-    margin: 55px 0 50px;
+    margin: 35px 30px 30px;
   }
   .section-1 .thumb-list {
     text-align: center;
@@ -637,6 +636,9 @@ html {
   .section-1 .text-title {
     font-size: 14px;
   }
+  .section-1 .big-img {
+    margin: 20px 30px 15px;
+  }
   .section-1 .thumb-list {
     text-align: left;
   }
@@ -779,6 +781,9 @@ html {
   }
   .section-1 .thumb-list {
     text-align: center;
+  }
+  .section-1 .big-img {
+    margin: 10px 40px 5px;
   }
   .section-1 .thumb-item {
     width: 86px;

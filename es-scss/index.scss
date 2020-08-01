@@ -96,8 +96,7 @@ html {
         margin-left: 14%;
     }
     .big-img {
-        margin: 85px 0 70px;
-        height: 220px;
+        margin: 0 40px 40px;
         img {
             display: block;
             max-width: 100%;
@@ -459,7 +458,7 @@ html {
             margin-left: 0;
         }
         .big-img {
-            margin: 55px 0 50px;
+            margin: 35px 30px 30px;
         }
         .thumb-list {
             text-align: center;
@@ -635,6 +634,9 @@ html {
         .text-title {
             font-size: 14px;
         }
+        .big-img {
+            margin: 20px 30px 15px;
+        }
         .thumb-list {
             text-align: left;
         }
@@ -779,6 +781,9 @@ html {
         padding: 30px 0;
         .thumb-list {
             text-align: center;
+        }
+        .big-img {
+            margin: 10px 40px 5px;
         }
         .thumb-item {
             width: 86px;
