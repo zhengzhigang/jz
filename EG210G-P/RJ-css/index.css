@@ -404,6 +404,15 @@ img {
     width: 44%;
     margin-left: 6%;
   }
+
+  .section-4 .section-box {
+    max-width: 1200px;
+  }
+
+  .section-7 .bottom-list .text span {
+    left: 10px;
+    right: 10px;
+  }
 }
 @media screen and (max-width: 1024px) {
   .section-box {
@@ -759,7 +768,8 @@ img {
     margin-right: 2%;
   }
   .section-4 .text-box {
-    height: 75px;
+    height: 85px;
+    padding: 15px 0;
   }
   .section-4 .pro-img {
     margin: 80px auto;
