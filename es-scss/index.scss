@@ -106,13 +106,18 @@ html {
         font-size: 0;
     }
     .thumb-list li {
+        box-sizing: border-box;
         display: inline-block;
-        width: 97px;
-        height: 87px;
-        margin: 0 5px 10px 0;
+        width: 23%;
+        margin: 0 2% 10px 0;
+        // width: 97px;
+        // height: 87px;
         border: 1px solid #e5e5e5;
         overflow: hidden;
         cursor: pointer;
+        &:nth-child(4n) {
+            margin-right: 0;
+        }
         &.active {
             border-color: #0d58ca;
         }
@@ -461,7 +466,7 @@ html {
             margin: 35px 30px 30px;
         }
         .thumb-list {
-            text-align: center;
+            margin: 0 80px;
         }
     }
     
@@ -639,6 +644,11 @@ html {
         }
         .thumb-list {
             text-align: left;
+            margin: 0 40px;
+            li {
+                // width: 75px;
+                // height: 67px;
+            }
         }
     }
     
@@ -780,14 +790,14 @@ html {
     .section-1 {
         padding: 30px 0;
         .thumb-list {
-            text-align: center;
+            margin: 0 20px;
         }
         .big-img {
             margin: 10px 40px 5px;
         }
         .thumb-item {
-            width: 86px;
-            height: 77px;
+            // width: 86px;
+            // height: 77px;
         }
     }
     

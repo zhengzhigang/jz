@@ -139,12 +139,12 @@ img {
 }
 .section-1 .thumb-list li {
   display: inline-block;
-  width: 97px;
-  height: 87px;
-  margin: 0 5px 10px 0;
+  width: 23%;
+  margin: 0 2% 10px 0;
   border: 1px solid #e5e5e5;
   overflow: hidden;
   cursor: pointer;
+  box-sizing: border-box;
 }
 .section-1 .thumb-list li.active {
   border-color: #0d58ca;
@@ -352,10 +352,6 @@ img {
   }
 }
 @media screen and (max-width: 1280px) {
-  .section-box {
-    max-width: 1000px;
-  }
-
   .title-box {
     height: 144px;
     background: url("../RJ-img/title-icon.png") center/118px 100% no-repeat;
@@ -512,7 +508,7 @@ img {
     margin: 35px 30px 30px;
   }
   .section-1 .thumb-list {
-    text-align: center;
+    margin: 0 80px;
   }
 
   .section-2 .title-text {
@@ -647,9 +643,8 @@ img {
   .section-1 .big-img {
     margin: 20px 30px 15px;
   }
-  .section-1 .thumb-list .thumb-item {
-    width: 75px;
-    height: 67px;
+  .section-1 .thumb-list {
+    margin: 0 40px;
   }
 
   .section-2 .title-text {
@@ -849,11 +844,6 @@ img {
 
   .page-subnav .left {
     line-height: 36px;
-  }
-
-  .section-1 .thumb-list .thumb-item {
-    width: 60px;
-    height: 54px;
   }
 
   .section-2 .title-text {

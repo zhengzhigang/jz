@@ -124,12 +124,12 @@ img {
     }
     .thumb-list li {
         display: inline-block;
-        width: 97px;
-        height: 87px;
-        margin: 0 5px 10px 0;
+        width: 23%;
+        margin: 0 2% 10px 0;
         border: 1px solid #e5e5e5;
         overflow: hidden;
         cursor: pointer;
+        box-sizing: border-box;
         &.active {
             border-color: #0d58ca;
         }
@@ -575,7 +575,7 @@ img {
             margin: 35px 30px 30px;
         }
         .thumb-list {
-            text-align: center;
+            margin: 0 80px;
         }
     }
 
@@ -719,10 +719,7 @@ img {
             margin: 20px 30px 15px;
         }
         .thumb-list {
-            .thumb-item {
-                width: 75px;
-                height: 67px;
-            }
+            margin: 0 40px;
         }
     }
     .section-2 {
@@ -925,7 +922,7 @@ img {
                 display: inline-block;
                 float: none;
                 width: 50%;
-                height: 220px;
+                margin-bottom: 10px;
                 vertical-align: top;
             }
         }
@@ -997,15 +994,7 @@ img {
             line-height: 36px;
         }
     }
-    
-    .section-1 {
-        .thumb-list {
-            .thumb-item {
-                width: 60px;
-                height: 54px;
-            }
-        }
-    }
+
     .section-3 {
         .mid-list {
             .icon {

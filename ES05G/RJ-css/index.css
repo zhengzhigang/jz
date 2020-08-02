@@ -132,12 +132,12 @@ img {
 }
 .section-1 .thumb-list li {
   display: inline-block;
-  width: 97px;
-  height: 87px;
-  margin: 0 5px 10px 0;
+  width: 23%;
+  margin: 0 2% 10px 0;
   border: 1px solid #e5e5e5;
   overflow: hidden;
   cursor: pointer;
+  box-sizing: border-box;
 }
 .section-1 .thumb-list li.active {
   border-color: #0d58ca;
@@ -166,10 +166,10 @@ img {
   margin: auto;
 }
 .section-2 .bottom-list .text {
-  padding-top: 35px;
+  padding: 35px 5px 0;
   color: #323232;
   text-align: center;
-  font-size: 14px;
+  font-size: 18px;
 }
 .section-2 .bottom-item {
   float: left;
@@ -458,6 +458,7 @@ img {
   }
   .section-2 .bottom-list .text {
     padding-top: 25px;
+    font-size: 16px;
   }
 
   .section-1 .left {
@@ -479,10 +480,10 @@ img {
     margin-left: 0;
   }
   .section-1 .big-img {
-    margin: 35px 0 30px;
+    margin: 35px 30px 30px;
   }
   .section-1 .thumb-list {
-    text-align: center;
+    margin: 0 80px;
   }
 
   .section-3 {
@@ -602,11 +603,10 @@ img {
     font-size: 16px;
   }
   .section-1 .big-img {
-    margin: 20px 0 15px;
+    margin: 20px 30px 15px;
   }
-  .section-1 .thumb-list .thumb-item {
-    width: 75px;
-    height: 67px;
+  .section-1 .thumb-list {
+    margin: 0 40px;
   }
 
   .section-2 {
@@ -622,6 +622,7 @@ img {
   .section-2 .bottom-list {
     text-align: center;
     font-size: 0;
+    margin: 0 15px;
   }
   .section-2 .bottom-list .text {
     padding-top: 25px;
@@ -630,7 +631,6 @@ img {
     float: none;
     display: inline-block;
     width: 33.33333%;
-    height: 144px;
     margin-bottom: 20px;
     vertical-align: top;
   }
@@ -734,6 +734,7 @@ img {
   }
   .section-2 .bottom-list .text {
     padding-top: 15px;
+    font-size: 14px;
   }
 
   .section-3 {
@@ -816,11 +817,6 @@ img {
 
   .page-subnav .left {
     line-height: 36px;
-  }
-
-  .section-1 .thumb-list .thumb-item {
-    width: 60px;
-    height: 54px;
   }
 
   .section-3 .mid-list .icon {
