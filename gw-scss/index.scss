@@ -1,7 +1,7 @@
 /* index.html css */
 
 /* 导航部分 */
-.page-content {
+.zg-content {
     overflow: hidden;
     font-family: Arial, '微软雅黑', sans-serif;
     img {
@@ -12,19 +12,19 @@
         display: none;
     }
 }
-.title-text {
+.zg-title-text {
     font-size: 40px;
     line-height: 67px;
     text-align: center;
     color: #2f2f2f;
 }
-.small-text {
+.zg-small-text {
     font-size: 22px;
     line-height: 34px;
     color: #2f2f2f;
 }
 
-.page-title {
+.zg-page-title {
     font-size: 42px;
     color: #35c0bb;
     padding-top: 15px;
@@ -64,7 +64,7 @@
         color: #35c0bb;
     }
 }
-.white {
+.zg-white {
     color: #fff;
 }
 
@@ -74,7 +74,7 @@ bkg {
     background-size: cover;
     background-position: center;
 }
-.page-content {
+.zg-content {
     background-color: #fff;
 }
 .section-box {
@@ -192,7 +192,7 @@ bkg {
         float: right;
         margin-top: 80px;
     }
-    .title-text {
+    .zg-title-text {
         text-align: left;
     }
     .big-text {
@@ -202,6 +202,9 @@ bkg {
     .small {
         font-size: 22px;
         color: #2f2f2f;
+    }
+    .blue-text {
+        color: #081ffe;
     }
 }
 
@@ -213,7 +216,7 @@ bkg {
         width: 70%;
         margin-left: 30%;
     }
-    .title-text {
+    .zg-title-text {
         margin-bottom: 10px;
     }
     .list {
@@ -247,7 +250,7 @@ bkg {
 
 .section-5 {
     padding: 80px 0 85px;
-    .title-text {
+    .zg-title-text {
         margin-bottom: 60px;
     }
     .img {
@@ -267,7 +270,7 @@ bkg {
        float: right;
        width: 50%;
    }
-   .small-text {
+   .zg-small-text {
        margin-bottom: 170px;
    }
    .img {
@@ -310,11 +313,11 @@ bkg {
 }
 
 @media screen and (max-width: 1024px){
-    .page-title {
+    .zg-page-title {
         padding-left: 15px;
         padding-right: 15px;
     }
-    .title-text {
+    .zg-title-text {
         font-size: 32px;
         line-height: 56px;
     }
@@ -335,6 +338,7 @@ bkg {
         }
         .text-right {
             width: 68%;
+            margin-top: 88px;
         }
     }
     .section-5 {
@@ -346,15 +350,15 @@ bkg {
 }
 
 @media screen and (max-width: 768px){
-    .title-text {
+    .zg-title-text {
         font-size: 28px;
         line-height: 50px;
     }
-    .small-text {
+    .zg-small-text {
         font-size: 16px;
         line-height: 30px;
     }
-    .page-title {
+    .zg-page-title {
         font-size: 38px;
     }
 
@@ -435,7 +439,7 @@ bkg {
             float: none;
             margin-top: 20px;
         }
-        .title-text {
+        .zg-title-text {
             text-align: center;
         }
         .big-text {
@@ -462,7 +466,7 @@ bkg {
 
     .section-5 {
         padding: 60px 0 65px;
-        .title-text {
+        .zg-title-text {
             margin: 0 40px 60px;
         }
         .img {
@@ -480,10 +484,10 @@ bkg {
            float: none;
            width: 100%;
        }
-       .title-text {
+       .zg-title-text {
            margin-bottom: 15px;
        }
-       .small-text {
+       .zg-small-text {
            margin-bottom: 90px;
            text-align: center;
        }
@@ -503,15 +507,15 @@ bkg {
 }
 
 @media screen and (max-width: 480px){
-    .title-text {
+    .zg-title-text {
         font-size: 24px;
         line-height: 40px;
     }
-    .small-text {
+    .zg-small-text {
         font-size: 14px;
         line-height: 26px;
     }
-    .page-title {
+    .zg-page-title {
         font-size: 34px;
     }
 
@@ -570,7 +574,7 @@ bkg {
         .text-box {
             margin: 0 15px;
         }
-        .small-text {
+        .zg-small-text {
             text-align: center;
         }
         .list {
@@ -586,14 +590,14 @@ bkg {
 
     .section-5 {
         padding: 50px 0 55px;
-        .title-text {
+        .zg-title-text {
             margin: 0 20px 40px;
         }
     }
 
     .section-6 {
         padding: 60px 0;
-       .small-text {
+       .zg-small-text {
            margin-bottom: 60px;
        }
        .left-list {
@@ -606,11 +610,11 @@ bkg {
 }
 
 @media screen and (max-width: 414px){
-    .title-text {
+    .zg-title-text {
         font-size: 20px;
         line-height: 32px;
     }
-    .page-title {
+    .zg-page-title {
         font-size: 32px;
     }
     
@@ -663,7 +667,7 @@ bkg {
 
     .section-6 {
         padding: 40px 0;
-       .small-text {
+       .zg-small-text {
            margin-bottom: 40px;
        }
        .left-list {
@@ -673,7 +677,7 @@ bkg {
 }
 
 @media screen and (max-width: 375px){
-    .page-title {
+    .zg-page-title {
         font-size: 28px;
         line-height: 36px;
     }
@@ -690,7 +694,7 @@ bkg {
 }
 
 @media screen and (max-width: 320px){
-    .title-text {
+    .zg-title-text {
         line-height: 28px;
     }
 
