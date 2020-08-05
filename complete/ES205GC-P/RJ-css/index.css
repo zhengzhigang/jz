@@ -1,12 +1,9 @@
 @charset "UTF-8";
 /* index.html css */
 /* 导航部分 */
-html {
-  font-family: Arial, '微软雅黑', sans-serif;
-}
-
 .page-content {
   overflow: hidden;
+  font-family: Arial, '微软雅黑', sans-serif;
 }
 
 .title-text {
@@ -430,6 +427,9 @@ html {
   }
   .page-subnav-content {
     padding: 0 15px;
+  }
+  .page-subnav .left {
+    float: none;
   }
   .page-subnav .right {
     width: 100%;

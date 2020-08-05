@@ -1,11 +1,16 @@
 /* index.html css */
 
 /* 导航部分 */
-html {
-    font-family: Arial, '微软雅黑', sans-serif;
-}
 .page-content {
     overflow: hidden;
+    font-family: Arial, '微软雅黑', sans-serif;
+    img {
+        display: block;
+        max-width: 100%;
+    }
+    .m {
+        display: none;
+    }
 }
 .title-text {
     font-size: 44px;
@@ -62,13 +67,6 @@ html {
     .link.active {
         color: #35c0bb;
     }
-}
-img {
-    display: block;
-    max-width: 100%;
-}
-.m {
-    display: none;
 }
 
 /* 正文部分 */
@@ -536,6 +534,9 @@ img {
             padding: 0 15px;
             width: auto;
         }
+        .left {
+            float: none;
+        }
         .right {
             width: auto;
             float: none;
@@ -543,12 +544,14 @@ img {
         }
     }
 
-    .m {
-        display: block;
-    }
-
-    .pc {
-        display: none;
+    .page-content {
+        .m {
+            display: block;
+        }
+    
+        .pc {
+            display: none;
+        }
     }
 
     .section-1 {

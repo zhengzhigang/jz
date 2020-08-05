@@ -1,11 +1,9 @@
 /* index.html css */
 
 /* 导航部分 */
-html {
-    font-family: Arial, '微软雅黑', sans-serif;
-}
 .page-content {
     overflow: hidden;
+    font-family: Arial, '微软雅黑', sans-serif;
 }
 .title-text {
     font-size: 40px;
@@ -429,6 +427,9 @@ html {
         line-height: 46px;
         &-content {
             padding: 0 15px;
+        }
+        .left {
+            float: none;
         }
         .right {
             width: 100%;

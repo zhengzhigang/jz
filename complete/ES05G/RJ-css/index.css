@@ -1,12 +1,16 @@
 @charset "UTF-8";
 /* index.html css */
 /* 导航部分 */
-html {
-  font-family: Arial, '微软雅黑', sans-serif;
-}
-
 .page-content {
   overflow: hidden;
+  font-family: Arial, '微软雅黑', sans-serif;
+}
+.page-content img {
+  display: block;
+  max-width: 100%;
+}
+.page-content .m {
+  display: none;
 }
 
 .title-text {
@@ -66,15 +70,6 @@ html {
 }
 .page-subnav .link.active {
   color: #35c0bb;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-}
-
-.m {
-  display: none;
 }
 
 /* 正文部分 */
@@ -432,17 +427,19 @@ img {
     padding: 0 15px;
     width: auto;
   }
+  .page-subnav .left {
+    float: none;
+  }
   .page-subnav .right {
     width: auto;
     float: none;
     text-align: center;
   }
 
-  .m {
+  .page-content .m {
     display: block;
   }
-
-  .pc {
+  .page-content .pc {
     display: none;
   }
 
