@@ -9,9 +9,6 @@
   display: block;
   max-width: 100%;
 }
-.page-content .m {
-  display: none;
-}
 
 .title-text {
   font-size: 40px;
@@ -72,7 +69,7 @@
 }
 
 /* 正文部分 */
-bkg, .section-2, .section-3, .section-4, .section-6 {
+bkg, .section-4 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -107,9 +104,8 @@ bkg, .section-2, .section-3, .section-4, .section-6 {
   font-weight: bold;
   font-size: 20px;
 }
-.section-1 .list {
-  padding-left: 18px;
-  list-style-type: disc;
+.section-1 .list .sub-title {
+  font-weight: bold;
 }
 .section-1 .list p {
   margin: 0;
@@ -147,151 +143,98 @@ bkg, .section-2, .section-3, .section-4, .section-6 {
 }
 
 .section-2 {
-  padding: 70px 0 75px;
-  background-image: url("../RJ-img/b-bg.jpg");
+  padding: 65px 0 45px;
+  background-color: #efefef;
 }
-.section-2 .list {
-  font-size: 0;
+.section-2 .title-text {
+  margin-bottom: 35px;
+}
+.section-2 .left-img, .section-2 .right-img {
+  float: left;
+  width: 50%;
+}
+.section-2 .left-img img, .section-2 .right-img img {
+  width: 100%;
+}
+.section-2 .left-img p, .section-2 .right-img p {
+  font-size: 22px;
   text-align: center;
 }
-.section-2 .list-item {
-  position: relative;
-  display: inline-block;
-  width: 26%;
-  margin-right: 11%;
+.section-2 .left-img img {
+  margin-top: 60px;
 }
-.section-2 .list-item.no-margin {
-  margin-right: 0;
+.section-2 .left-img p {
+  float: right;
+  margin-right: 60px;
 }
-.section-2 .list .text {
-  position: absolute;
-  display: block;
-  top: 48%;
-  left: 0;
-  right: 0;
-  transform: translateY(-50%);
-  font-size: 24px;
-  color: #fff;
+.section-2 .right-img {
+  width: 53%;
+  margin-left: -3%;
 }
-.section-2 .list .item-img {
-  width: 100%;
+.section-2 .right-img img {
+  margin-top: 220px;
+}
+.section-2 .right-img p {
+  float: left;
+  margin-left: 60px;
 }
 
 .section-3 {
-  padding: 180px 0 170px;
-  background-image: url("../RJ-img/c-bg.jpg");
-}
-.section-3 .title-img {
-  width: 475px;
-  margin: auto;
-  margin-bottom: 40px;
-}
-.section-3 .text-left {
-  position: relative;
-  width: 29%;
-  float: left;
-}
-.section-3 .text-right {
-  width: 71%;
-  float: right;
-  margin-top: 80px;
+  padding: 60px 0 40px;
+  background-color: #312f2b;
 }
 .section-3 .title-text {
-  text-align: left;
+  margin-bottom: 80px;
 }
-.section-3 .big-text {
-  font-size: 120px;
-  color: #01ffff;
-}
-.section-3 .small {
-  font-size: 22px;
-  color: #2f2f2f;
+.section-3 .big-img {
+  width: 100%;
+  margin: auto;
 }
 
 .section-4 {
   padding: 160px 0 115px;
   background-image: url("../RJ-img/d-bg.jpg");
 }
-.section-4 .text-box {
-  width: 70%;
-  margin-left: 30%;
-}
 .section-4 .title-text {
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
-.section-4 .list {
-  padding-top: 90px;
-  font-size: 0;
-}
-.section-4 .list-item {
-  display: inline-block;
-  width: 30%;
-  height: 120px;
-  margin-right: 5%;
-  border: 1px solid #e4bd7b;
-  border-radius: 6px;
+.section-4 .small-text {
+  margin-bottom: 140px;
   text-align: center;
-  box-sizing: border-box;
 }
-.section-4 .list-item:last-child {
-  margin-right: 0;
-}
-.section-4 .list-item-box {
-  height: 120px;
-  display: table;
-}
-.section-4 .list .text {
-  display: table-cell;
-  vertical-align: middle;
-  font-size: 20px;
-  color: #e4bd7b;
+.section-4 .big-img {
+  margin: auto;
 }
 
 .section-5 {
-  padding: 80px 0 85px;
+  padding-top: 60px;
+  background-color: #eaf6f2;
 }
 .section-5 .title-text {
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
-.section-5 .img {
+.section-5 .small-text {
+  margin-bottom: 90px;
+  text-align: center;
+}
+.section-5 .bih-img {
   width: 100%;
+  margin: auto;
 }
 
 .section-6 {
-  padding: 120px 0;
-  background-image: url("../RJ-img/f-bg.jpg");
+  padding-top: 65px;
 }
-.section-6 .left {
-  float: left;
-  width: 50%;
-}
-.section-6 .right {
-  float: right;
-  width: 50%;
+.section-6 .title-text {
+  margin-bottom: 30px;
 }
 .section-6 .small-text {
-  margin-bottom: 170px;
-}
-.section-6 .img {
-  width: 100%;
-  margin-top: 30px;
-}
-.section-6 .left-list {
-  font-size: 0;
-}
-.section-6 .left-list-item {
-  display: inline-block;
-  width: 33.333333%;
-  vertical-align: top;
+  margin-bottom: 75px;
   text-align: center;
 }
-.section-6 .left-list .icon {
-  width: 60%;
-  margin: 0 auto 30px;
-}
-.section-6 .left-list .text {
-  font-size: 22px;
-  color: #fff;
+.section-6 .big-img {
+  width: 100%;
+  margin: auto;
 }
 
 @media screen and (max-width: 1280px) {
@@ -356,9 +299,6 @@ bkg, .section-2, .section-3, .section-4, .section-6 {
   .page-subnav-content {
     padding: 0 15px;
     width: auto;
-  }
-  .page-subnav .left {
-    float: none;
   }
   .page-subnav .right {
     width: auto;
