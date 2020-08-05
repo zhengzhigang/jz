@@ -1,7 +1,7 @@
 /* index.html css */
 
 /* 导航部分 */
-.page-content {
+.zg-content {
     overflow: hidden;
     font-family: Arial, '微软雅黑', sans-serif;
     img {
@@ -9,19 +9,19 @@
         max-width: 100%;
     }
 }
-.title-text {
+.zg-title-text {
     font-size: 40px;
     line-height: 67px;
     text-align: center;
     color: #2f2f2f;
 }
-.small-text {
+.zg-small-text {
     font-size: 22px;
     line-height: 34px;
     color: #2f2f2f;
 }
 
-.page-title {
+.zg-page-title {
     font-size: 42px;
     color: #35c0bb;
     padding-top: 15px;
@@ -36,7 +36,7 @@
     }
 }
 
-.page-subnav {
+.zg-subnav {
     background-color: #f7f7f7;
     line-height: 50px;
     &-content {
@@ -62,7 +62,7 @@
     }
 }
 
-.white {
+.zg-white {
     color: #fff;
 }
 
@@ -72,7 +72,7 @@ bkg {
     background-size: cover;
     background-position: center;
 }
-.page-content {
+.zg-content {
     background-color: #fff;
 }
 .section-box {
@@ -101,6 +101,7 @@ bkg {
     }
     .list {
         .sub-title {
+            font-size: 18px;
             font-weight: bold;
         }
     }
@@ -143,7 +144,7 @@ bkg {
 .section-2 {
     padding: 65px 0 45px;
     background-color: #efefef;
-    .title-text {
+    .zg-title-text {
         margin-bottom: 35px;
     }
     .left-img, .right-img {
@@ -180,9 +181,9 @@ bkg {
 }
 
 .section-3 {
-    padding: 60px 0 40px;
+    padding-top: 60px;
     background-color: #312f2b;
-    .title-text {
+    .zg-title-text {
         margin-bottom: 80px;
     }
     .big-img {
@@ -192,13 +193,13 @@ bkg {
 }
 
 .section-4 {
-    padding: 160px 0 115px;
+    padding: 90px 0 90px;
     background-image: url('../RJ-img/d-bg.jpg');
     @extend bkg;
-    .title-text {
+    .zg-title-text {
         margin-bottom: 30px;
     }
-    .small-text {
+    .zg-small-text {
         margin-bottom: 140px;
         text-align: center;
     }
@@ -210,14 +211,14 @@ bkg {
 .section-5 {
     padding-top: 60px;
     background-color: #eaf6f2;
-    .title-text {
+    .zg-title-text {
         margin-bottom: 30px;
     }
-    .small-text {
+    .zg-small-text {
         margin-bottom: 90px;
         text-align: center;
     }
-    .bih-img {
+    .big-img {
         width: 100%;
         margin: auto;
     }
@@ -225,10 +226,10 @@ bkg {
 
 .section-6 {
     padding-top: 65px;
-    .title-text {
+    .zg-title-text {
         margin-bottom: 30px;
     }
-    .small-text {
+    .zg-small-text {
         margin-bottom: 75px;
         text-align: center;
     }
@@ -247,19 +248,34 @@ bkg {
 }
 
 @media screen and (max-width: 1280px){
-    .page-subnav {
+    .zg-subnav {
         &-content {
             max-width: 1000px;
+        }
+    }
+    .section-2 {
+        .img-box {
+            margin: 0 200px;
+        }
+        .left-img {
+            img {
+                margin-top: 120px;
+            }
+        }
+        .right-img {
+            img {
+                margin-top: 250px;
+            }
         }
     }
 }
 
 @media screen and (max-width: 1024px){
-    .page-title {
+    .zg-page-title {
         padding-left: 15px;
         padding-right: 15px;
     }
-    .title-text {
+    .zg-title-text {
         font-size: 32px;
         line-height: 56px;
     }
@@ -273,37 +289,51 @@ bkg {
             margin-left: 6%;
         }
     }
-    .section-3 {
-        padding: 140px 0 130px;
-        .text-left {
-            width: 32%;
-        }
-        .text-right {
-            width: 68%;
+    .section-2 {
+        .img-box {
+            margin: 0 160px;
         }
     }
-    .section-5 {
-        .img {
+
+    .section-3 {
+        .big-img {
             width: 90%;
-            margin: auto;
+        }
+    }
+
+    .section-4 {
+        padding: 70px 0 70px;
+        .big-img {
+            width: 80%;
+        }
+    }
+
+    .section-5 {
+        .big-img {
+            width: 90%;
+        }
+    }
+
+    .section-6 {
+        .big-img {
+            width: 90%;
         }
     }
 }
 
 @media screen and (max-width: 768px){
-    .title-text {
+    .zg-title-text {
         font-size: 28px;
         line-height: 50px;
     }
-    .small-text {
+    .zg-small-text {
         font-size: 16px;
         line-height: 30px;
     }
-    .page-title {
+    .zg-page-title {
         font-size: 38px;
     }
-
-    .page-subnav {
+    .zg-subnav {
         line-height: 46px;
         &-content {
             padding: 0 15px;
@@ -315,7 +345,6 @@ bkg {
             text-align: center;
         }
     }
-
     .section-1 {
         .left {
             float: none;
@@ -325,6 +354,11 @@ bkg {
         p {
             margin-bottom: 15px;
             font-size: 16px;
+        }
+        .list {
+            .sub-title {
+                font-size: 16px;
+            }
         }
         .text-title {
             padding-top: 15px;
@@ -342,122 +376,64 @@ bkg {
             margin: 0 80px;
         }
     }
-
     .section-2 {
-        padding: 60px 0 65px;
-        .list {
-            margin: 0 30px;
-            &-item {
-                width: 28%;
-                margin-right: 8%;
-            }
-            .text {
-                font-size: 18px;
-            }
+        padding: 55px 0 45px;
+        .zg-title-text {
+            margin-bottom: 25px;
+        }
+        .img-box {
+            margin: 0 60px;
         }
     }
-
     .section-3 {
-        padding: 130px 0 110px;
-        .title-img {
-            width: 375px;
-            margin: auto;
-            margin-bottom: 40px;
-        }
-        .text-box {
-            margin: 0 30px;
-        }
-        .text-left {
-            width: 100%;
-            float: none;
-            text-align: center;
-        }
-        .text-right {
-            width: 100%;
-            float: none;
-            margin-top: 20px;
-        }
-        .title-text {
-            text-align: center;
-        }
-        .big-text {
-            font-size: 100px;
+        padding-top: 50px;
+        .zg-title-text {
+            margin-bottom: 60px;
         }
     }
-
     .section-4 {
-        padding: 120px 0 85px;
-        .text-box {
-            width: auto;
-            margin: 0 30px;
+        padding: 50px 0 50px;
+        .zg-title-text {
+            margin-bottom: 25px;
         }
-        .list {
-            padding-top: 70px;
-            &-item {
-                padding: 0 10px;
-                &:last-child {
-                    margin-right: 0;
-                }
-            }
+        .zg-small-text {
+            margin-bottom: 100px;
         }
     }
-
     .section-5 {
-        padding: 60px 0 65px;
-        .title-text {
-            margin: 0 40px 60px;
+        padding-top: 50px;
+        .zg-title-text {
+            margin-bottom: 25px;
         }
-        .img {
-            width: 80%;
+        .zg-small-text {
+            margin-bottom: 70px;
         }
     }
-
     .section-6 {
-        padding: 90px 0;
-       .left {
-           float: none;
-           width: 100%;
-       }
-       .right {
-           float: none;
-           width: 100%;
-       }
-       .title-text {
-           margin-bottom: 15px;
-       }
-       .small-text {
-           margin-bottom: 90px;
-           text-align: center;
-       }
-       .img {
-           width: 70%;
-           margin: 30px auto 0;
-       }
-       .left-list {
-           margin: 0 120px 40px;
-           &-item {
-           }
-           .text {
-               font-size: 20px;
-           }
-       }
+        padding-top: 50px;
+        .zg-title-text {
+            margin-bottom: 25px;
+        }
+        .zg-small-text {
+            margin-bottom: 60px;
+        }
     }
 }
 
 @media screen and (max-width: 480px){
-    .title-text {
+    .zg-title-text {
         font-size: 24px;
         line-height: 40px;
     }
-    .small-text {
+    .zg-small-text {
         font-size: 14px;
         line-height: 26px;
     }
-    .page-title {
+    .zg-page-title {
         font-size: 34px;
     }
 
-    .page-subnav {
+    .zg-subnav {
         .left {
             line-height: 40px;
         }
@@ -467,6 +443,11 @@ bkg {
         padding: 25px 0;
         p {
             font-size: 14px;
+        }
+        .list {
+            .sub-title {
+                font-size: 14px;
+            }
         }
         .text-title {
             font-size: 16px;
@@ -478,81 +459,73 @@ bkg {
             margin: 0 40px;
         }
     }
-
     .section-2 {
-        padding: 50px 0 55px;
-        .list {
+        padding: 40px 0 40px;
+        .zg-title-text {
+            margin-bottom: 25px;
+        }
+        .img-box {
             margin: 0 15px;
-            text-align: left;
-            &-item {
-                width: 45%;
-                margin-right: 10%!important;
-                margin-bottom: 20px;
-                text-align: center;
-                &:nth-child(2n) {
-                    margin-right: 0!important;
-                }
-            }
-        }
-    }
-
-    .section-3 {
-        padding: 80px 0 60px;
-        .title-img {
-            width: 280px;
-            margin-bottom: 30px;
-        }
-        .big-text {
-            font-size: 80px;
-        }
-    }
-
-    .section-4 {
-        padding: 70px 0 55px;
-        .text-box {
-            margin: 0 15px;
-        }
-        .small-text {
-            text-align: center;
-        }
-        .list {
-            padding-top: 50px;
-            &-item {
-                padding: 0 6px;
-            }
-            .text {
+            p {
                 font-size: 16px;
             }
         }
-    }
-
-    .section-5 {
-        padding: 50px 0 55px;
-        .title-text {
-            margin: 0 20px 40px;
+        .left-img {
+            p {
+                margin-right: 20px;
+            }
+            img {
+                margin-top: 90px;
+            }
+        }
+        .right-img {
+            p {
+                margin-left: 20px;
+            }
+            img {
+                margin-top: 170px;
+            }
         }
     }
-
+    .section-3 {
+        padding-top: 40px;
+    }
+    .section-4 {
+        padding: 40px 0 40px;
+        .zg-title-text {
+            margin: 0 20px 20px;
+        }
+        .zg-small-text {
+            margin: 0 20px 70px;
+        }
+    }
+    .section-5 {
+        padding-top: 40px;
+        .zg-title-text {
+            margin-bottom: 20px;
+        }
+        .zg-small-text {
+            margin-bottom: 60px;
+        }
+    }
+    
     .section-6 {
-        padding: 60px 0;
-       .small-text {
-           margin-bottom: 60px;
-       }
-       .left-list {
-           margin: 0 70px 40px;
-           .text {
-               font-size: 16px;
-           }
-       }
+        padding-top: 50px;
+        .zg-title-text {
+            margin-bottom: 20px;
+        }
+        .zg-small-text {
+            margin: 0 20px 60px;
+        }
     }
 }
 
 @media screen and (max-width: 414px){
-    .title-text {
+    .zg-title-text {
         font-size: 20px;
         line-height: 32px;
     }
-    .page-title {
+    .zg-page-title {
         font-size: 32px;
     }
     
@@ -562,60 +535,10 @@ bkg {
             margin: 10px 40px 5px;
         }
     }
-
-    .section-2 {
-        padding: 40px 0 40px;
-        .list {
-            &-item {
-                width: 48%;
-                margin-right: 4%!important;
-                margin-bottom: 15px;
-            }
-            .text {
-                width: auto;
-                padding: 0 10px;
-                font-size: 16px;
-            }
-        }
-    }
-
-    .section-3 {
-        padding: 60px 0 40px;
-        .title-img {
-            width: 260px;
-            margin-bottom: 25px;
-        }
-        .big-text {
-            font-size: 70px;
-        }
-    }
-
-    .section-4 {
-        padding: 50px 0 40px;
-        .list {
-            .text {
-                font-size: 14px;
-            }
-        }
-    }
-
-    .section-5 {
-        padding: 40px 0 40px;
-    }
-
-    .section-6 {
-        padding: 40px 0;
-       .small-text {
-           margin-bottom: 40px;
-       }
-       .left-list {
-           margin: 0 40px 40px;
-       }
-    }
 }
 
 @media screen and (max-width: 375px){
-    .page-title {
+    .zg-page-title {
         font-size: 28px;
         line-height: 36px;
     }
@@ -623,20 +546,69 @@ bkg {
     .section-1 {
         padding: 20px 0;
     }
-
+    .section-2 {
+        padding: 30px 0 30px;
+        .zg-title-text {
+            margin-bottom: 15px;
+        }
+        .img-box {
+            p {
+                font-size: 14px;
+            }
+        }
+        .left-img {
+            p {
+                margin-right: 15px;
+            }
+        }
+        .right-img {
+            p {
+                margin-left: 15px;
+            }
+            img {
+                margin-top: 150px;
+            }
+        }
+    }
+    .section-3 {
+        padding-top: 30px;
+    }
+    .section-4 {
+        padding: 30px 0 30px;
+        .zg-title-text {
+            margin: 0 20px 15px;
+        }
+        .zg-small-text {
+            margin: 0 20px 50px;
+        }
+    }
+    .section-5 {
+        padding-top: 30px;
+        .zg-title-text {
+            margin-bottom: 15px;
+        }
+        .zg-small-text {
+            margin-bottom: 50px;
+        }
+    }
+    
     .section-6 {
-        .left-list {
-            margin: 0 20px 40px;
+        padding-top: 30px;
+        .zg-title-text {
+            margin-bottom: 15px;
+        }
+        .zg-small-text {
+            margin: 0 20px 50px;
         }
     }
 }
 
 @media screen and (max-width: 320px){
-    .title-text {
+    .zg-title-text {
         line-height: 28px;
     }
 
-    .page-subnav {
+    .zg-subnav {
         .left {
             line-height: 36px;
         }
