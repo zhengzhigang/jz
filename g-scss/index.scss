@@ -89,9 +89,13 @@ bkg {
         width: 50%;
     }
     p {
-        margin-bottom: 20px;
+        margin-bottom: 1em;
         font-size: 18px;
         color: #2f2f2f;
+        line-height: 1.6;
+        &:last-child {
+            margin-bottom: 0;
+        }
     }
     .text-title {
         padding-top: 30px;
@@ -138,6 +142,16 @@ bkg {
     .thumb-list img {
         display: block;
         width: 100%;
+    }
+    .product_open {
+        overflow: hidden;
+        margin-bottom: 10px;
+    }
+    .product-open {
+        color: #e10032;
+        font-size: 18px;
+        cursor: pointer;
+        overflow: hidden;
     }
 }
 
@@ -352,7 +366,7 @@ bkg {
             padding: 0 15px;
         }
         p {
-            margin-bottom: 15px;
+            margin-bottom: 1em;
             font-size: 16px;
         }
         .list {
@@ -374,6 +388,9 @@ bkg {
         }
         .thumb-list {
             margin: 0 80px;
+        }
+        .product-open {
+            text-align: center;
         }
     }
     .section-2 {
