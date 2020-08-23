@@ -1,0 +1,317 @@
+.zg-page {
+    font-family: Arial, '微软雅黑', sans-serif;
+    .sec-content {
+        max-width: 1200px;
+        margin: auto;
+        overflow: hidden;
+    }
+    img {
+        display: block;
+        width: 100%;
+    }
+    .m {
+        display: none;
+    }
+    p {
+        font-size: 18px;
+        color: #33507a;
+    }
+    .white {
+        color: #fff;
+    }
+    .btn {
+        display: inline-block;
+        width: 170px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+        border: 1px solid #e50039;
+        color: #e50039;
+        text-align: center;
+        border-radius: 21px;
+        cursor: pointer;
+        &.white {
+            color: #fff;
+            border-color: #fff;
+        }
+        &.bg-red {
+            background: #e50039;
+            color: #fff;
+        }
+    }
+    .title {
+        text-align: center;
+        &-box {
+            position: relative;
+            display: inline-block;
+            padding: 0 85px;
+            line-height: 50px;
+            font-size: 38px;
+            color: #33507a;
+            &::before, &::after {
+                content: '';
+                display: block;
+                position: absolute;
+                width: 40px;
+                height: 20px;
+                top: 15px;
+                background: url('../RJ-img/title-icon.png') center/100% no-repeat;
+            }
+            &::before {
+                left: 0;
+            }
+            &::after {
+                right: 0;
+            }
+        }
+    }
+    .sub-title {
+        text-align: center;
+        &-box {
+            position: relative;
+            display: inline-block;
+            padding: 0 158px;
+            line-height: 36px;
+            font-size: 24px;
+            color: #379fdc;
+            &::before, &::after {
+                content: '';
+                display: block;
+                position: absolute;
+                width: 136px;
+                height: 10px;
+                top: 13px;
+            }
+            &::before {
+                left: 0;
+                background: url('../RJ-img/title-icon2.png') center/100% no-repeat;
+            }
+            &::after {
+                right: 0;
+                background: url('../RJ-img/title-icon3.png') center/100% no-repeat;
+            }
+        }
+    }
+    .text {
+        font-size: 22px;
+        color: #33507a;
+        text-align: center;
+    }
+    .line {
+        position: relative;
+        margin-right: 4px;
+        font-size: 0;
+        &-item {
+            position: relative;
+            display: inline-block;
+            text-align: center;
+        }
+        &-line {
+            position: absolute;
+            width: 100%;
+            height: 3px;
+            left: 0;
+            right: 0;
+            top: 20px;
+            background: #d4dfe4;
+            z-index: -1;
+        }
+        &-text {
+            padding-top: 15px;
+            font-size: 16px;
+            color: #505050;
+        }
+        .circle {
+            display: block;
+            margin: auto;
+            width: 43px;
+            height: 43px;
+            background: #37c3dc;
+            font-size: 24px;
+            line-height: 43px;
+            text-align: center;
+            color: #fff;
+            border-radius: 50%;
+        }
+        &-arrow {
+            position: absolute;
+            top: 9px;
+            right: -4px;
+            border-left: 22px solid #d4dfe4;
+            border-right: 0 solid transparent;
+            border-top: 12px solid transparent;
+            border-bottom: 12px solid transparent;
+        }
+    }
+    .line-5 {
+        .line-item {
+            width: 20%;
+        }
+    }
+    .line-3 {
+        .line-item {
+            width: 33.333%;
+        }
+        .circle {
+            background: #379fdc;
+        }
+    }
+}
+.sec-1 {
+    padding: 120px 0 75px;
+    background-image: url('../RJ-img/a-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    &-title {
+        margin-bottom: 75px;
+    }
+    .title {
+        margin-bottom: 40px;
+    }
+    .text-list {
+        display: inline-block;
+        margin-bottom: 45px;
+        list-style-type: disc;
+        text-align: left;
+        &-box {
+            text-align: center;
+        }
+    }
+    .top {
+        margin-bottom: 100px;
+        &-left {
+            float: left;
+            width: 43%;
+            margin-right: 7%;
+        }
+        &-right {
+            width: 50%;
+            float: right;
+        }
+        .text {
+            margin-bottom: 75px;
+        }
+        .btn {
+            margin-right: 40px;
+        }
+    }
+    .bottom-top-img {
+        width: 70%;
+        margin: auto;
+        margin-bottom: 60px;
+        font-size: 0;
+        &-left, &-right {
+            width: 36%;
+        }
+        &-center {
+            width: 28%;
+        }
+    }
+    .bottom-top-item {
+        display: inline-block;
+    }
+    .bottom-pro-title {
+        width: 70%;
+        margin: auto;
+        overflow: hidden;
+        background: #bcdef7;
+        padding-top: 4px;
+        &-box {
+            height: 40px;
+            line-height: 40px;
+            background: #83c6ee;
+            text-align: center;
+            font-size: 18px;
+            color: #33507a;
+        }
+    }
+    .bottom-pro-list {
+        width: 84%;
+        margin: auto;
+        padding: 0 8% 30px 8%;
+        font-size: 0;
+        background: url('../RJ-img/a-03.png') center bottom/100% auto no-repeat;
+    }
+    .bottom-pro-item {
+        display: inline-block;
+        width: 25%;
+        text-align: center;
+        .icon {
+            width: 18px;
+            margin: 16px auto 13px;
+        }
+        .product {
+            width: 36%;
+            margin: auto;
+        }
+        .product-text {
+            padding-top: 12px;
+            margin-bottom: 10px;
+            font-size: 18px;
+            color: #33507a;
+        }
+        .product-link {
+            font-size: 16px;
+            color: #379fdc;
+        }
+    }
+}
+.sec-2 {
+    padding: 65px 0 50px;
+    .title {
+        margin-bottom: 35px;
+    }
+    .text {
+        margin-bottom: 40px;
+    }
+    .top-img-list {
+        margin-bottom: 30px;
+        font-size: 0;
+    }
+    .top-img-item {
+        display: inline-block;
+        margin-top: 38px;
+        width: 20%;
+    }
+    .line {
+        margin-bottom: 55px;
+    }
+    .bottom-img-list {
+        margin-top: 30px;
+        margin-bottom: 20px;
+        font-size: 0;
+    }
+    .bottom-img-item {
+        display: inline-block;
+        width: 30%;
+        margin-right: 55px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    .btn-group {
+        text-align: center;
+    }
+}
+.sec-3 {
+    padding: 60px 0 40px;
+    background-image: url('../RJ-img/c-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    .title {
+        margin-bottom: 30px;
+    }
+    .text {
+        margin-bottom: 50px;
+    }
+    .btn-group {
+        margin-top: 20px;
+        text-align: center;
+    }
+    img {
+        width: 90%;
+        margin: auto;
+    }
+}
