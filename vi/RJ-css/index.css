@@ -1,0 +1,283 @@
+/****** reset css ******/
+html, body, div, span, applet, object, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  font-weight: normal;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+ol, ul, li {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+th, td {
+  vertical-align: middle;
+}
+
+/* custom */
+a {
+  outline: none;
+  color: #16418a;
+  text-decoration: none;
+  -webkit-backface-visibility: hidden;
+}
+
+a:focus {
+  outline: none;
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: -webkit-focus-ring-color auto 0;
+}
+
+/* page css */
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  clear: both;
+}
+
+.zg-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+.zg-content .btn {
+  display: inline-block;
+  padding: 0 15px;
+  line-height: 30px;
+  border: 1px solid #d20032;
+  color: #d20032;
+  font-size: 15px;
+  border-radius: 15px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.zg-content .btn .download {
+  position: relative;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  top: 2px;
+}
+.zg-content .btn.margin-right {
+  margin-right: 21px;
+}
+.zg-content .btn.white {
+  color: #fff;
+  border-color: #fff;
+}
+
+.zg-header {
+  height: 70px;
+  line-height: 70px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 9;
+  background-color: #fff;
+}
+.zg-header .logo {
+  display: inline-block;
+  margin-left: 18px;
+  vertical-align: middle;
+}
+.zg-header .text {
+  font-size: 22px;
+  color: #333;
+}
+
+.sidebar {
+  position: absolute;
+  width: 290px;
+  height: 100%;
+  left: 0;
+  top: 0;
+  padding-top: 70px;
+  border-right: 1px solid #cae2f0;
+  background-color: #e4f1f7;
+  overflow-y: scroll;
+}
+.sidebar-list-item {
+  position: relative;
+  color: #333;
+  cursor: pointer;
+}
+.sidebar-list-item.active .sub-list {
+  display: block;
+}
+.sidebar-list-item.active .sidebar-text {
+  background-color: #d2ebf9;
+  border-bottom: 1px solid #cae2f0;
+  border-left: 3px solid #436c98;
+  color: #2d5082;
+}
+.sidebar-list-item.active .sidebar-text::after {
+  top: 25px;
+  right: 20px;
+  transform: rotateZ(90deg);
+}
+.sidebar-text {
+  display: block;
+  padding-left: 39px;
+  color: #333;
+  font-size: 16px;
+  line-height: 61px;
+}
+.sidebar-text::after {
+  top: 25px;
+  right: 20px;
+}
+.sidebar .icon {
+  position: absolute;
+  display: block;
+  width: 16px;
+  top: 20px;
+  left: 10px;
+}
+
+.sub-list {
+  display: none;
+  padding-left: 39px;
+}
+.sub-list-item {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+.sub-list-item.active {
+  color: #2d5082;
+}
+.sub-list-item.active .third-list {
+  display: block;
+}
+.sub-list-item.active .sub-text::after {
+  top: 13px;
+  right: 20px;
+  transform: rotateZ(90deg);
+}
+.sub-list .sub-text {
+  position: relative;
+  display: block;
+  line-height: 40px;
+  color: #333;
+  font-size: 16px;
+}
+.sub-list .sub-text::after {
+  top: 13px;
+  right: 20px;
+}
+
+.third-list {
+  display: none;
+  padding-left: 15px;
+}
+.third-list-item {
+  line-height: 30px;
+  color: #5e7ba4;
+}
+.third-list-item.active {
+  color: #2d5082;
+  font-weight: bold;
+}
+
+.sidebar-text::after,
+.sub-text::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 7px;
+  height: 11px;
+  background: url("../RJ-img/side-icon-arrow.png") center/100% no-repeat;
+}
+
+.zg-wrapper {
+  padding-left: 290px;
+  height: 100%;
+  padding-top: 70px;
+}
+.zg-wrapper-header {
+  position: absolute;
+  right: 0;
+  left: 290px;
+  padding: 0 25px;
+  border-top: 1px solid #f6f6f6;
+  background-color: #fff;
+  clear: both;
+}
+.zg-wrapper-header .dynamic-title {
+  float: left;
+  font-size: 20px;
+  line-height: 60px;
+}
+.zg-wrapper-header .btn-group {
+  float: right;
+  margin-top: 15px;
+}
+.zg-wrapper-content {
+  width: 100%;
+  height: 100%;
+  padding: 25px;
+  padding-top: 70px;
+  background-color: #efefef;
+  overflow-y: scroll;
+}
+.zg-wrapper .info-title {
+  padding: 0 15px;
+  margin-bottom: 22px;
+  line-height: 70px;
+  background-color: #e60039;
+}
+.zg-wrapper .info-title .title {
+  float: left;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+.zg-wrapper .info-title .btn {
+  float: right;
+  margin-top: 19px;
+}
+.zg-wrapper .item {
+  margin-bottom: 20px;
+}
+.zg-wrapper .item-img {
+  display: block;
+  width: 100%;
+}
