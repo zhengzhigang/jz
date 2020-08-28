@@ -283,7 +283,7 @@
 .sec-5 {
     position: relative;
     padding-top: 40px;
-    background-color: #dae7ee;
+    background-color: #dae7ef;
     .sub-title {
         font-size: 18px;
         color: #324f77;
@@ -302,6 +302,7 @@
         position: absolute;
         // background-color: red;
         // opacity: .2;
+        cursor: pointer;
         .pc {
             display: block;
             width: 100%;
@@ -672,8 +673,11 @@
             margin-bottom: 30px;
         }
         .text {
-            margin-bottom: 65px;
+            margin-bottom: 40px;
             font-size: 22px;
+        }
+        .btn-group {
+            text-align: center;
         }
     }
     .sec-2 {
@@ -806,6 +810,9 @@
     }
     .sec-1 {
         padding: 50px 0 50px;
+        .text {
+            margin-bottom: 20px;
+        }
     }
     .sec-2 {
         padding: 40px 0 40px;
@@ -932,6 +939,9 @@
         padding: 50px 0 50px;
         .btn:first-child {
             margin-right: 20px;
+        }
+        .text {
+            margin-bottom: 0;
         }
     }
     .sec-2 {
