@@ -168,6 +168,11 @@
 .sec-1 .btn:first-child {
   margin-right: 40px;
 }
+.sec-1 .btn:first-child:hover {
+  border-color: #e50039;
+  background: #e50039;
+  color: #fff;
+}
 
 .sec-2 {
   padding: 60px 0 65px;
@@ -177,6 +182,7 @@
   margin-bottom: 60px;
 }
 .sec-2 .video-box {
+  position: relative;
   width: 778px;
   height: 478px;
   margin: auto;
@@ -184,6 +190,12 @@
 .sec-2 .video-box-img {
   display: block;
   width: 100%;
+}
+.sec-2 .click-mask {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
 }
 
 .sec-3 {
@@ -298,183 +310,196 @@
 }
 .sec-5 .area {
   position: absolute;
-  background-color: red;
-  opacity: .2;
+}
+.sec-5 .area .pc {
+  display: block;
+  width: 100%;
 }
 .sec-5 .area-1 {
-  width: 225px;
-  height: 240px;
+  width: 180px;
   top: 48%;
-  left: 20%;
+  left: 22%;
   z-index: 1;
+  animation: areaAni 3s linear infinite alternate;
 }
 .sec-5 .area-2 {
-  width: 160px;
-  height: 180px;
+  width: 149px;
   top: 29%;
   left: 31%;
   z-index: 2;
+  animation: areaAni 3s linear 0.2s infinite alternate;
 }
 .sec-5 .area-3 {
-  width: 220px;
-  height: 220px;
+  width: 148px;
   top: 22%;
-  left: 42%;
+  left: 44%;
   z-index: 3;
+  animation: areaAni 3s linear 0.6s infinite alternate;
 }
 .sec-5 .area-4 {
-  width: 225px;
-  height: 180px;
+  width: 180px;
   top: 20%;
-  left: 56%;
+  left: 58%;
   z-index: 4;
+  animation: areaAni 3s linear 0.84s infinite alternate;
 }
 .sec-5 .area-5 {
-  width: 220px;
-  height: 220px;
-  top: 66%;
-  left: 33%;
+  width: 148px;
+  top: 64%;
+  left: 36%;
   z-index: 5;
+  animation: areaAni 3s linear 0.35s infinite alternate;
 }
 .sec-5 .area-6 {
-  width: 220px;
-  height: 200px;
+  width: 150px;
   top: 45%;
-  left: 46%;
+  left: 49%;
   z-index: 6;
+  animation: areaAni 3s linear 0.82s infinite alternate;
 }
 .sec-5 .area-7 {
-  width: 205px;
-  height: 220px;
+  width: 180px;
   top: 37%;
   left: 68%;
   z-index: 7;
+  animation: areaAni 3s linear 0.39s infinite alternate;
 }
 .sec-5 .area-8 {
-  width: 200px;
-  height: 200px;
+  width: 150px;
   top: 65%;
   left: 55%;
   z-index: 8;
+  animation: areaAni 3s linear 0.58s infinite alternate;
 }
 .sec-5 .area-9 {
-  width: 225px;
-  height: 220px;
+  width: 180px;
   top: 62%;
-  left: 70%;
+  left: 73%;
   z-index: 9;
+  animation: areaAni 3s linear 1s infinite alternate;
 }
 
-@media screen and (max-width: 1680px) {
+@keyframes areaAni {
+  0% {
+    margin-top: 0;
+  }
+  50% {
+    margin-top: -20px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 1440px) {
   .sec-5 .area-1 {
-    width: 200px;
-    height: 220px;
-    top: 49%;
-    left: 20%;
+    width: 160px;
+    top: 48%;
+    left: 22%;
+    z-index: 1;
   }
   .sec-5 .area-2 {
-    width: 160px;
-    height: 180px;
+    width: 140px;
     top: 29%;
     left: 31%;
+    z-index: 2;
   }
   .sec-5 .area-3 {
-    width: 200px;
-    height: 200px;
+    width: 140px;
     top: 22%;
-    left: 42%;
+    left: 44%;
+    z-index: 3;
   }
   .sec-5 .area-4 {
-    width: 225px;
-    height: 180px;
+    width: 140px;
     top: 20%;
-    left: 56%;
+    left: 58%;
+    z-index: 4;
   }
   .sec-5 .area-5 {
-    width: 220px;
-    height: 220px;
-    top: 66%;
-    left: 33%;
+    width: 140px;
+    top: 64%;
+    left: 34%;
+    z-index: 5;
   }
   .sec-5 .area-6 {
-    width: 200px;
-    height: 180px;
+    width: 140px;
     top: 45%;
-    left: 46%;
+    left: 49%;
+    z-index: 6;
   }
   .sec-5 .area-7 {
-    width: 205px;
-    height: 220px;
+    width: 150px;
     top: 37%;
     left: 68%;
+    z-index: 7;
   }
   .sec-5 .area-8 {
-    width: 200px;
-    height: 200px;
+    width: 140px;
     top: 65%;
     left: 55%;
+    z-index: 8;
   }
   .sec-5 .area-9 {
-    width: 225px;
-    height: 220px;
+    width: 140px;
     top: 62%;
-    left: 70%;
+    left: 73%;
+    z-index: 9;
   }
 }
 @media screen and (max-width: 1280px) {
   .sec-5 .area-1 {
-    width: 160px;
-    height: 180px;
-    top: 49%;
-    left: 20%;
+    width: 130px;
+    top: 47%;
+    left: 22%;
+    z-index: 1;
   }
   .sec-5 .area-2 {
-    width: 140px;
-    height: 180px;
-    top: 29%;
+    width: 120px;
+    top: 28%;
     left: 31%;
+    z-index: 2;
   }
   .sec-5 .area-3 {
-    width: 160px;
-    height: 160px;
-    top: 22%;
-    left: 42%;
+    width: 120px;
+    top: 21%;
+    left: 44%;
+    z-index: 3;
   }
   .sec-5 .area-4 {
-    width: 165px;
-    height: 160px;
-    top: 20%;
-    left: 56%;
+    width: 120px;
+    top: 19%;
+    left: 58%;
+    z-index: 4;
   }
   .sec-5 .area-5 {
-    width: 160px;
-    height: 180px;
-    top: 66%;
-    left: 33%;
+    width: 120px;
+    top: 63%;
+    left: 34%;
+    z-index: 5;
   }
   .sec-5 .area-6 {
-    width: 160px;
-    height: 160px;
-    top: 45%;
-    left: 46%;
+    width: 120px;
+    top: 43%;
+    left: 49%;
+    z-index: 6;
   }
   .sec-5 .area-7 {
-    width: 165px;
-    height: 170px;
-    top: 37%;
+    width: 130px;
+    top: 36%;
     left: 68%;
+    z-index: 7;
   }
   .sec-5 .area-8 {
-    width: 160px;
-    height: 180px;
-    top: 65%;
+    width: 120px;
+    top: 64%;
     left: 55%;
+    z-index: 8;
   }
   .sec-5 .area-9 {
-    width: 165px;
-    height: 180px;
-    top: 62%;
-    left: 70%;
+    width: 120px;
+    top: 61%;
+    left: 73%;
+    z-index: 9;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -506,58 +531,49 @@
   }
 
   .sec-5 .area-1 {
-    width: 120px;
-    height: 120px;
-    top: 49%;
-    left: 20%;
+    width: 110px;
+    left: 22%;
+    z-index: 1;
   }
   .sec-5 .area-2 {
     width: 100px;
-    height: 120px;
-    top: 29%;
     left: 31%;
+    z-index: 2;
   }
   .sec-5 .area-3 {
-    width: 110px;
-    height: 120px;
-    top: 22%;
-    left: 42%;
+    width: 100px;
+    left: 44%;
+    z-index: 3;
   }
   .sec-5 .area-4 {
-    width: 110px;
-    height: 120px;
-    top: 20%;
+    width: 100px;
     left: 58%;
+    z-index: 4;
   }
   .sec-5 .area-5 {
-    width: 120px;
-    height: 120px;
-    top: 66%;
-    left: 33%;
+    width: 100px;
+    left: 34%;
+    z-index: 5;
   }
   .sec-5 .area-6 {
-    width: 120px;
-    height: 120px;
-    top: 45%;
-    left: 46%;
+    width: 100px;
+    left: 49%;
+    z-index: 6;
   }
   .sec-5 .area-7 {
-    width: 100px;
-    height: 120px;
-    top: 37%;
+    width: 110px;
     left: 68%;
+    z-index: 7;
   }
   .sec-5 .area-8 {
     width: 100px;
-    height: 120px;
-    top: 65%;
     left: 55%;
+    z-index: 8;
   }
   .sec-5 .area-9 {
-    width: 125px;
-    height: 120px;
-    top: 62%;
-    left: 70%;
+    width: 100px;
+    left: 73%;
+    z-index: 9;
   }
 }
 @media screen and (max-width: 960px) {
@@ -678,59 +694,65 @@
     padding-top: 5px;
     font-size: 16px;
   }
+  .sec-5 .area .pc {
+    display: none;
+  }
   .sec-5 .area-1 {
-    width: 180px;
-    height: 240px;
+    width: 148px;
     top: 40%;
     left: 6%;
   }
   .sec-5 .area-2 {
-    width: 180px;
-    height: 240px;
-    top: 12%;
+    width: 148px;
+    top: 15%;
     left: 5%;
   }
   .sec-5 .area-3 {
-    width: 210px;
-    height: 240px;
-    top: 8%;
+    width: 148px;
+    top: 11%;
     left: 34%;
   }
   .sec-5 .area-4 {
-    width: 220px;
-    height: 230px;
-    top: 9%;
+    width: 149px;
+    top: 12%;
     left: 68%;
   }
   .sec-5 .area-5 {
-    width: 200px;
-    height: 220px;
-    top: 66%;
+    width: 149px;
+    top: 69%;
     left: 10%;
   }
   .sec-5 .area-6 {
-    width: 210px;
-    height: 220px;
-    top: 35%;
+    width: 150px;
+    top: 38%;
     left: 39%;
   }
   .sec-5 .area-7 {
-    width: 200px;
-    height: 220px;
-    top: 35%;
-    left: 72%;
+    width: 148px;
+    top: 38%;
+    left: 75%;
   }
   .sec-5 .area-8 {
-    width: 180px;
-    height: 193px;
-    top: 65%;
+    width: 148px;
+    top: 68%;
     left: 46%;
   }
   .sec-5 .area-9 {
-    width: 185px;
-    height: 220px;
-    top: 63%;
+    width: 150px;
+    top: 66%;
     left: 74%;
+  }
+
+  @keyframes areaAni {
+    0% {
+      margin-top: 0;
+    }
+    50% {
+      margin-top: -10px;
+    }
+    100% {
+      margin-top: 0;
+    }
   }
 }
 @media screen and (max-width: 480px) {
@@ -805,42 +827,53 @@
   .sec-5 .title-box {
     top: 30px;
   }
+  .sec-5 .area .pc {
+    display: none;
+  }
   .sec-5 .area-1 {
-    width: 120px;
-    height: 160px;
+    width: 108px;
+    top: 40%;
+    left: 6%;
   }
   .sec-5 .area-2 {
-    width: 120px;
-    height: 160px;
+    width: 108px;
+    top: 15%;
+    left: 5%;
   }
   .sec-5 .area-3 {
-    width: 140px;
-    height: 160px;
+    width: 108px;
+    top: 11%;
+    left: 34%;
   }
   .sec-5 .area-4 {
-    width: 140px;
-    height: 160px;
-    left: 70%;
+    width: 109px;
+    top: 12%;
+    left: 68%;
   }
   .sec-5 .area-5 {
-    width: 120px;
-    height: 160px;
+    width: 109px;
+    top: 69%;
+    left: 10%;
   }
   .sec-5 .area-6 {
-    width: 140px;
-    height: 180px;
+    width: 110px;
+    top: 38%;
+    left: 39%;
   }
   .sec-5 .area-7 {
-    width: 130px;
-    height: 160px;
+    width: 108px;
+    top: 38%;
+    left: 75%;
   }
   .sec-5 .area-8 {
-    width: 120px;
-    height: 160px;
+    width: 108px;
+    top: 68%;
+    left: 46%;
   }
   .sec-5 .area-9 {
-    width: 120px;
-    height: 160px;
+    width: 110px;
+    top: 66%;
+    left: 74%;
   }
 }
 @media screen and (max-width: 414px) {
@@ -892,40 +925,38 @@
   }
 
   .sec-5 .area-1 {
-    width: 100px;
-    height: 140px;
+    width: 80px;
   }
   .sec-5 .area-2 {
-    width: 100px;
-    height: 140px;
+    width: 80px;
   }
   .sec-5 .area-3 {
-    width: 120px;
-    height: 140px;
+    width: 100px;
   }
   .sec-5 .area-4 {
-    width: 120px;
-    height: 140px;
+    width: 100px;
+    top: 10%;
+    left: 70%;
   }
   .sec-5 .area-5 {
-    width: 100px;
-    height: 140px;
+    width: 80px;
+    top: 67%;
+    left: 13%;
   }
   .sec-5 .area-6 {
-    width: 120px;
-    height: 160px;
+    width: 100px;
+    top: 36%;
+    left: 41%;
   }
   .sec-5 .area-7 {
-    width: 110px;
-    height: 160px;
+    width: 90px;
+    top: 36%;
   }
   .sec-5 .area-8 {
-    width: 110px;
-    height: 160px;
+    width: 90px;
   }
   .sec-5 .area-9 {
-    width: 110px;
-    height: 160px;
+    width: 90px;
   }
 }
 @media screen and (max-width: 375px) {
@@ -968,40 +999,31 @@
   }
 
   .sec-5 .area-1 {
-    width: 90px;
-    height: 130px;
+    width: 70px;
   }
   .sec-5 .area-2 {
-    width: 90px;
-    height: 130px;
+    width: 70px;
   }
   .sec-5 .area-3 {
-    width: 110px;
-    height: 130px;
+    width: 90px;
   }
   .sec-5 .area-4 {
-    width: 110px;
-    height: 120px;
+    width: 90px;
   }
   .sec-5 .area-5 {
-    width: 90px;
-    height: 130px;
+    width: 70px;
   }
   .sec-5 .area-6 {
-    width: 110px;
-    height: 140px;
+    width: 90px;
   }
   .sec-5 .area-7 {
-    width: 100px;
-    height: 140px;
+    width: 80px;
   }
   .sec-5 .area-8 {
-    width: 100px;
-    height: 150px;
+    width: 80px;
   }
   .sec-5 .area-9 {
-    width: 100px;
-    height: 150px;
+    width: 80px;
   }
 }
 @media screen and (max-width: 320px) {
@@ -1019,40 +1041,31 @@
   }
 
   .sec-5 .area-1 {
-    width: 80px;
-    height: 110px;
+    width: 60px;
   }
   .sec-5 .area-2 {
-    width: 80px;
-    height: 110px;
+    width: 60px;
   }
   .sec-5 .area-3 {
-    width: 100px;
-    height: 110px;
+    width: 80px;
   }
   .sec-5 .area-4 {
-    width: 100px;
-    height: 105px;
+    width: 80px;
   }
   .sec-5 .area-5 {
-    width: 80px;
-    height: 110px;
+    width: 60px;
   }
   .sec-5 .area-6 {
-    width: 90px;
-    height: 120px;
+    width: 70px;
   }
   .sec-5 .area-7 {
-    width: 90px;
-    height: 110px;
+    width: 70px;
   }
   .sec-5 .area-8 {
-    width: 90px;
-    height: 130px;
+    width: 70px;
     left: 44%;
   }
   .sec-5 .area-9 {
-    width: 90px;
-    height: 130px;
+    width: 70px;
   }
 }

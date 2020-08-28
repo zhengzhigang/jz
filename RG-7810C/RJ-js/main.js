@@ -34,6 +34,20 @@ var PAGE = {
         $('.zg-dialog').on('click', '.content', function(e) {
             e.stopPropagation();
         })
+
+        // 播放视频
+        // $('#ws-pro-de-vidio').on('click', function() {
+        //     console.log(1111111)
+        //     // var video = $('#ws-pro-de-vidio');
+        //     // video[0].play();
+        //     $(this)[0].play()
+        // })
+
+        $('.click-mask').on('click', function() {
+            var video = $('#ws-pro-de-vidio');
+            video[0].play();
+            $(this).hide()
+        })
     }
 }
 
