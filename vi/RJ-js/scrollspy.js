@@ -1,13 +1,3 @@
-/* =====================================================
- * @name        scrollspy.js
- * @refer       bootstrap-scrollspy.js
- * @fork        https://github.com/twbs/bootstrap/blob/master/js/scrollspy.js
- * @author      Frend
- * @version     1.0.0
- * @dependency  jQuery
- * @github      https://github.com/FrendEr/fScrollspy.js
- * ===================================================== */
-
 !function(root, factory) {
     if (typeof define == 'function' && define.amd) {
         define(['jquery'], function($) {
@@ -28,19 +18,19 @@
         scrollElement: window,
         offset:        10,
         selector:      '.nav a',
-        activeCls:     'on',
+        activeCls:     'active',
         reachSelector: $.noop,
         leaveSelector: $.noop,
         reachTarget:   $.noop,
         leaveTarget:   $.noop,
         scrollDown:    $.noop,
-        scrollUp:      $.noop
+        scrollUp:      $.noop,
     }
 
     //Scrollspy constructor
     //=====================
     function Scrollspy(options) {
-        this.options = $.extend(Scrollspy.DEFAULT, options);
+        this.options = $.extend(Scrollspy.DEFAULT, options || {});
         this.$body = $(document.body);
         this.$scrollElement = $(this.options.scrollElement);
         this.scrollTopTmp = 0;
@@ -180,6 +170,8 @@
         this.clear();
 
         $(this.selector + '[href="' + target + '"]').addClass(this.activeCls);
+        this.options.reachActive(target)
+        console.log('^^^^', this.offsets)
     }
 
     //clear the active status
