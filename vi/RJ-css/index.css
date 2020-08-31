@@ -113,6 +113,7 @@ html, body {
   top: 0;
   z-index: 9;
   background-color: #fff;
+  overflow: hidden;
 }
 .zg-header .logo {
   display: inline-block;

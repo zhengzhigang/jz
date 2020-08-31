@@ -1,4 +1,5 @@
 var PAGE = {
+    timer: null,
     sidebarData: [
         {
             name: '锐捷网络品牌视觉规范', // 一级目录名称
@@ -416,12 +417,12 @@ var PAGE = {
         for (var i = 0, len= list.length; i < len; i++) {
             str += '<li class="sub-list-item">' +
                         '<span class="sub-text">'+ list[i].name +'</span>' +
-                        this.getThirdStr(list[i].third || [], list[i].f) +
+                        this.getThirdStr(list[i].third || [], list[i].f, list[i].name) +
                     '</li>';
         }
         return '<ul class="sub-list">' + str + '</ul>'
     },
-    getThirdStr: function(list, f) {
+    getThirdStr: function(list, f, title) {
         if (!list.length) {
             return ''
         }
@@ -433,16 +434,22 @@ var PAGE = {
             str += '<li class="third-list-item">' +
                         '<a data-target="'+ list[i].target +'" href="#'+ list[i].target +'" class="third-text anchor-button">'+ list[i].name +'</a>' +
                     '</li>';
-            contentStr += this.getImgList(list[i], f + '/' + (i + 1));
+            contentStr += this.getImgList(list[i], f + '/' + (i + 1), title);
         }
         imgContent.append(contentStr);
         return '<ul class="third-list">' + str + '</ul>';
     },
-    getImgList: function(item, f) {
-        var str = '';
+    getImgList: function(item, f, title) {
+        var str = '<div class="info-title clearfix">'+
+                        '<h5 class="title">'+ item.name +'</h5>'+
+                        '<span class="btn white">'+
+                            '下载源文件模板'+
+                            '<img src="./RJ-img/download-white.png" class="download" alt="">'+
+                        '</span>'+
+                    '</div>';
         for (var i = 1; i <= item.length; i++) {
             if (i === 1) {
-                str +=  '<div class="item" id="'+ item.target +'">'+
+                str +=  '<div class="item" id="'+ item.target +'" data-title="'+ title +'">'+
                         '<img class="item-img" src="./RJ-img/'+f+'/'+ (i < 10 ? "0" + i : i) +'.jpg" alt="">'+
                     '</div>';
             } else {
@@ -483,7 +490,7 @@ var PAGE = {
 
                 if ($(this).parent('.third-list-item').hasClass('active')) {
                     var id = $(this).data('target');
-                    var targetScroll = currScroll + $('#'+ id).offset().top - 140
+                    var targetScroll = currScroll + $('#'+ id).offset().top - 232
                     scrollContent.animate({scrollTop: targetScroll + 'px'}, 100);
                 }
             }
@@ -497,21 +504,31 @@ var PAGE = {
         }
     },
     initOnNav: function() {
+        var _self = this;
          new Scrollspy({
             scrollElement: '#scrollContent',
-            offset: 140,
+            offset: -110,
             
             selector: '.anchor-button',
             activeCls: 'active',
             reachActive: function(el) {
+                var title = $(el).data('title');
+                $('.dynamic-title').text(title)
+                if (_self.timer) {
+                    clearTimeout(_self.timer)
+                }
                 var currNav = $('.anchor-button[href="' + el + '"]');
-                var parent = currNav.parent('.third-list-item');
-                var parents = currNav.parents('.sub-list-item ');
-                var pParents = currNav.parents('.sidebar-list-item');
-
-                parent.addClass('active').siblings().removeClass('active');
-                parents.addClass('active').siblings().find('.third-list-item').removeClass('active');
-                pParents.addClass('active').siblings().find('.third-list-item').removeClass('active');
+                _self.timer = setTimeout(() => {
+                    var parent = currNav.parent('.third-list-item');
+                    var parents = currNav.parents('.sub-list-item ');
+                    var pParents = currNav.parents('.sidebar-list-item');
+                    parent.siblings().removeClass('active');
+                    parents.siblings().removeClass('active');
+                    pParents.siblings().removeClass('active');
+                    parent.addClass('active');
+                    pParents.addClass('active');
+                    parents.addClass('active')
+                }, 200);
             }
         });
     }
