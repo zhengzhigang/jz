@@ -1,18 +1,17 @@
 var PAGE = {
     sidebarData: [
         {
-            name: '锐捷网络品牌视觉规范',
-            icon: 'side-icon-01.png',
+            name: '锐捷网络品牌视觉规范', // 一级目录名称
+            icon: 'side-icon-01.png', // 一级目录icon
             second: [
                 {
-                    name: '品牌基础核心元素',
-                    title: '基础',
-                    f: '1/1',
+                    name: '品牌基础核心元素', // 二级目录名称
+                    f: '1/1',  // 三级目录对应图片部分路径
                     third: [
                         {
-                            name: '锐捷策略与表现策略',
-                            length: 12,
-                            target: '1-1-1'
+                            name: '锐捷策略与表现策略', // 三级目录名称
+                            length: 12,   // 三级目录页数
+                            target: '1-1-1'  // 菜单锚点目标id
                         },
                         {
                             name: 'logo',
@@ -54,7 +53,6 @@ var PAGE = {
                 },
                 {
                     name: '宣传品视觉规范',
-                    title: '宣传品',
                     f: '1/2',
                     third: [
                         {
@@ -97,7 +95,6 @@ var PAGE = {
                 },
                 {
                     name: '活动视觉规范',
-                    title: '活动',
                     f: '1/3',
                     third: [
                         {
@@ -256,7 +253,6 @@ var PAGE = {
                 },
                 {
                     name: '线上活动视觉规范',
-                    title: '线上活动',
                     f: '1/4',
                     third: [
                         {
@@ -298,7 +294,6 @@ var PAGE = {
                 },
                 {
                     name: '办公视觉规范',
-                    title: '办公',
                     f: '1/5',
                     third: [
                         {name: '办公物料总揽', length: 1, target: '1-5-1'},
@@ -332,7 +327,6 @@ var PAGE = {
                 },
                 {
                     name: '网站视觉规范',
-                    title: '网站',
                     f: '1/6',
                     third: [
                         {name: '网站页面基础元素与调性', length: 9, target: '1-6-1'},
@@ -345,7 +339,6 @@ var PAGE = {
                 },
                 {
                     name: '移动海报视觉规范',
-                    title: '移动',
                     f: '1/7',
                     third: [
                         {name: '移动海报总览与界面尺寸', length: 3, target: '1-7-1'},
@@ -368,7 +361,6 @@ var PAGE = {
                 },
                 {
                     name: '媒体投放图片视觉规范',
-                    title: '媒体',
                     f: '1/8',
                     third: [
                         {name: '媒体宣传图片类型总览', length: 1, target: '1-8-1'},
