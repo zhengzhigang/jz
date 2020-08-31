@@ -399,9 +399,7 @@ var PAGE = {
         this.initSidebar();
         console.timeEnd('cerate sidebar:')
         this.initSidebarEvent();
-        setTimeout(() => {
-            this.initOnNav();
-        }, 500);
+        this.initOnNav();
     },
     initSidebar: function() {
         var sidebar = $('.sidebar-list');
@@ -515,7 +513,6 @@ var PAGE = {
             activeCls: 'active',
             reachActive: function(el) {
                 var currNav = $('.anchor-button[href="' + el + '"]');
-                console.log('&&&&', el)
                 var parent = currNav.parent('.third-list-item');
                 var parents = currNav.parents('.sub-list-item ');
                 var pParents = currNav.parents('.sidebar-list-item');

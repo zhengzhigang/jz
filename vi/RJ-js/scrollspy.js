@@ -1,3 +1,11 @@
+/*
+ * =====================================================
+ * @name        scrollspy.js
+ * @author      Zhengzhigang
+ * @dependency  jQuery
+ * =====================================================
+ */
+
 !function(root, factory) {
     if (typeof define == 'function' && define.amd) {
         define(['jquery'], function($) {
@@ -18,13 +26,7 @@
         scrollElement: window,
         offset:        10,
         selector:      '.nav a',
-        activeCls:     'active',
-        reachSelector: $.noop,
-        leaveSelector: $.noop,
-        reachTarget:   $.noop,
-        leaveTarget:   $.noop,
-        scrollDown:    $.noop,
-        scrollUp:      $.noop,
+        activeCls:     'active'
     }
 
     //Scrollspy constructor
@@ -33,9 +35,7 @@
         this.options = $.extend(Scrollspy.DEFAULT, options || {});
         this.$body = $(document.body);
         this.$scrollElement = $(this.options.scrollElement);
-        this.scrollTopTmp = 0;
         this.selector = this.options.selector;
-        this.selectorTop = $(this.selector).offset().top;
         this.activeCls = this.options.activeCls;
         this.activeTarget = null;
         this.targets = [];
@@ -87,45 +87,15 @@
         var scrollTop = scrollTopOrigin + this.options.offset;
         var scrollHeight = this.getScrollHeight();
         var maxScroll = this.options.offset + scrollHeight - this.$scrollElement.height();
-        var maxTargetScroll = 0;
         var activeTarget = this.activeTarget;
         var tmp;
 
-        maxTargetScroll = (function() {
-            var count = $(targets[0]).offset().top;
-
-            targets.forEach(function(target) {
-                count += $(target).height();
-            });
-            return count;
-        })();
-
         //get the scrolling direction
-        if (scrollTopOrigin > this.scrollTopTmp) {
-            //scrolling down
-            this.options.scrollDown();
-        } else {
-            //scrolling up
-            this.options.scrollUp();
-        }
-        this.scrollTopTmp = scrollTopOrigin;
-
         //page resize or other reasons make
         //the scrollElement's scrollHeight change,
         //then refresh to update
         if (this.scrollHeight != scrollHeight) {
             this.refresh();
-        }
-
-        //in max scroll area
-        if (scrollTop >= $(targets[0]).offset().top && scrollTop <= maxTargetScroll) {
-            this.options.reachTarget.call(this);
-        }
-
-        //leave max scroll area
-        if (scrollTop >= maxTargetScroll) {
-            this.options.leaveTarget.call(this);
-            return;
         }
 
         //scrollElement has scroll to max,
@@ -136,25 +106,12 @@
             return;
         }
 
-        //scrollElement has scroll in selector min,
-        //fix the selector to the top
-        if (scrollTopOrigin >= this.selectorTop) {
-            this.options.reachSelector.call(this);
-        }
-
-        //scrollElement has scroll out selector min,
-        //fix the selector to the top
-        if (scrollTopOrigin <= this.selectorTop) {
-            this.options.leaveSelector.call(this);
-        }
-
         //scrollElement has scroll out min,
         //set the activeTarget to null and remove active class
         if (activeTarget && scrollTop <= offsets[0]) {
             this.activeTarget = null;
             this.clear();
         }
-    
         for (var i = offsets.length; i--;) {
             activeTarget != targets[i]
             && scrollTop >= offsets[i]
@@ -171,7 +128,6 @@
 
         $(this.selector + '[href="' + target + '"]').addClass(this.activeCls);
         this.options.reachActive(target)
-        console.log('^^^^', this.offsets)
     }
 
     //clear the active status
