@@ -390,6 +390,7 @@ var PAGE = {
     init: function() {
         console.time('cerate sidebar:')
         this.initSidebar();
+        this.initLazyLoad();
         console.timeEnd('cerate sidebar:')
         this.initSidebarEvent();
         this.initOnNav();
@@ -441,21 +442,21 @@ var PAGE = {
     },
     getImgList: function(item, f, title) {
         var str = '<div class="info-title clearfix">'+
-                        '<h5 class="title">'+ item.name +'</h5>'+
-                        '<span class="btn white">'+
-                            '下载源文件模板'+
-                            '<img src="./RJ-img/download-white.png" class="download" alt="">'+
-                        '</span>'+
-                    '</div>';
+                    '<h5 class="title">'+ item.name +'</h5>'+
+                    '<span class="btn white">'+
+                        '下载源文件模板'+
+                        '<img src="./RJ-img/download-white.png" class="download" alt="">'+
+                    '</span>'+
+                '</div>';
         for (var i = 1; i <= item.length; i++) {
             if (i === 1) {
                 str +=  '<div class="item" id="'+ item.target +'" data-title="'+ title +'">'+
-                        '<img class="item-img" src="./RJ-img/'+f+'/'+ (i < 10 ? "0" + i : i) +'.jpg" alt="">'+
-                    '</div>';
+                            '<img class="item-img lazyload" data-original="./RJ-img/'+f+'/'+ (i < 10 ? "0" + i : i) +'.jpg" alt="">'+
+                        '</div>';
             } else {
                 str +=  '<div class="item">'+
-                        '<img class="item-img" src="./RJ-img/'+f+'/'+ (i < 10 ? "0" + i : i) +'.jpg" alt="">'+
-                    '</div>';
+                            '<img class="item-img lazyload" data-original="./RJ-img/'+f+'/'+ (i < 10 ? "0" + i : i) +'.jpg" alt="">'+
+                        '</div>';
             }
         }
         return str;
@@ -507,7 +508,7 @@ var PAGE = {
         var _self = this;
          new Scrollspy({
             scrollElement: '#scrollContent',
-            offset: -110,
+            offset: 242,
             
             selector: '.anchor-button',
             activeCls: 'active',
@@ -531,6 +532,11 @@ var PAGE = {
                 }, 200);
             }
         });
+    },
+    initLazyLoad: function() {
+        $('img.lazyload').lazyload({
+            scrollElement: '#scrollContent'
+        })
     }
 }
 
