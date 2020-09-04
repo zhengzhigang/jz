@@ -470,7 +470,7 @@
 
 <link type="text/css" rel="stylesheet" href="statics/v4.0/styles/swiper.min.css">
 <link type="text/css" rel="stylesheet" href="statics/v4.0/styles/main.css">
-<link type="text/css" rel="stylesheet" href="statics/v4.0/styles/index.css?9">
+<link type="text/css" rel="stylesheet" href="statics/v4.0/styles/network.css?9">
 
 
 <!--内容开始-->
@@ -503,7 +503,7 @@
       <ul class="pro-list">
         <li class="pro-list-item">
           <div class="img">
-            <img src="./statics/v4.0/images/network/b-01.png" alt="">
+            <img src="./statics/v4.0/images/b-01.png" alt="">
           </div>
           <p class="pro-title">易网络无线</p>
           <p class="pro-title-en">RG-EAP101</p>
@@ -512,13 +512,11 @@
             保障网络体验，是酒店、企业办公、别墅、大平层等场景的理想选择。支持和易网络APP配合实现智能组网、
             一键网优、远程运维等功能。
           </p>
-          <div class="btn-group">
-            <a href="" class="ry-btn">查看全部型号</a>
-          </div>
+          <a href="" class="show-details">查看全部型号</a>
         </li>
         <li class="pro-list-item">
           <div class="img">
-            <img src="./statics/v4.0/images/network/b-02.png" alt="">
+            <img src="./statics/v4.0/images/b-01.png" alt="">
           </div>
           <p class="pro-title">易网络交换</p>
           <p class="pro-title-en">RG-ES109G-LP</p>
@@ -526,13 +524,11 @@
             8口千兆PoE监控交换机，精致小巧，静音设计，一键流控开关，4KV防雷，精选芯片和电容，
             保障高清视频更流畅，可满足各类监控、Wi-Fi工程和企业办公、别墅等场景需求。
           </p>
-          <div class="btn-group">
-            <a href="" class="ry-btn">查看全部型号</a>
-          </div>
+          <a href="" class="show-details">查看全部型号</a>
         </li>
         <li class="pro-list-item">
           <div class="img">
-            <img src="./statics/v4.0/images/network/b-03.png" alt="">
+            <img src="./statics/v4.0/images/b-01.png" alt="">
           </div>
           <p class="pro-title">易网络网关</p>
           <p class="pro-title-en">RG-EG105G</p>
@@ -540,13 +536,11 @@
             5口千兆铁壳路由器，外观小巧，功能强大，集网关、VPN、防火墙、流控、行为管理、AC等功能于一体，
             可满足60人以下小微企业办公的各类网络需求。支持和易网络APP配合实现智能组网、一键网优、远程运维等功能。
           </p>
-          <div class="btn-group">
-            <a href="" class="ry-btn">查看全部型号</a>
-          </div>
+          <a href="" class="show-details">查看全部型号</a>
         </li>
         <li class="pro-list-item">
           <div class="img">
-            <img src="./statics/v4.0/images/network/b-04.png" alt="">
+            <img src="./statics/v4.0/images/b-01.png" alt="">
           </div>
           <p class="pro-title">smart交换</p>
           <p class="pro-title-en">RG-NBS1824GC</p>
@@ -554,31 +548,25 @@
             24口千兆标准机架式铁壳交换机，光口上联和端口大缓存设计保障高清视频不卡顿，4KV防雷，
             适用于各种安防监控工程、Wi-Fi工程和各类需要千兆接入的场景。
           </p>
-          <div class="btn-group">
-            <a href="" class="ry-btn">查看全部型号</a>
-          </div>
+          <a href="" class="show-details">查看全部型号</a>
         </li>
         <li class="pro-list-item">
           <div class="img">
-            <img src="./statics/v4.0/images/network/b-05.png" alt="">
+            <img src="./statics/v4.0/images/b-01.png" alt="">
           </div>
           <p class="pro-title">smart路由</p>
           <p class="pro-title-en">RG-NBR700GW</p>
           <p class="pro-text">5口千兆无线铁壳路由器，不但提供高速无线接入，还集网关、VPN、防火墙、流控、行为管理、AC等功能于一体，可满足80人以下小微企业办公的各类网络需求。</p>
-          <div class="btn-group">
-            <a href="" class="ry-btn">查看全部型号</a>
-          </div>
+          <a href="" class="show-details">查看全部型号</a>
         </li>
         <li class="pro-list-item">
           <div class="img">
-            <img src="./statics/v4.0/images/network/b-06.png" alt="">
+            <img src="./statics/v4.0/images/b-01.png" alt="">
           </div>
           <p class="pro-title">易路由（家用）</p>
           <p class="pro-title-en">RG-EW1200G PRO</p>
           <p class="pro-text">专门为平层家居、别墅、小型店铺、SOHO办公等场景推出的有线无线全千兆双频家用无线路由器。 设备性能卓越，足以满足千兆上网需求。</p>
-          <div class="btn-group">
-            <a href="" class="ry-btn">查看全部型号</a>
-          </div>
+          <a href="" class="show-details">查看全部型号</a>
         </li>
       </ul>
     </div>
@@ -586,128 +574,143 @@
 
   <div class="ry-cont-item wl-page2" id="ryService">
     <div class="ry-cont">
-      <h2 class="ry-mainTitle">睿易APP</h2>
+      <h2 class="ry-mainTitle">睿网络云平台</h2>
+      <h3 class="ry-subTitle">一站式搞定项目，就这么简单</h3>
       <div class="wl-page2-cont">
-        <div class="left">
-          <div class="logo">
-            <img src="./statics/v4.0/images/network/c-logo.png" alt="">
+        <div class="cont-item">
+          <div class="cont-word">
+            <div class="word-tit">智能售前</div>
+            <div class="word-des">基于友商型号快速做替换：一个对话框，输入产品型号，即可获得锐捷与友商对应产品的优势卖点及话术；输入解决方案即可获得场景化解决方案的拓扑、报价清单和卖点话术、成功案例。</div>
+            <a href="javascript:void(0)" class="word-btn ry-rService-video" data-src="https://files.ruijiery.com/video/睿客1920_1（压缩）.mp4">观看视频</a>
           </div>
-          <span class="line"></span>
-            <p class="text">
-              睿易APP致力于为广大工程商客户赋能，不论您是在售前阶段聊需求、
-              讲价值、出清单，还是您在售中阶段调设备、做交付，或在售后阶段做运维，
-              您都只要一部安装了睿易APP的手机便能搞定80%的工作，真正做到“手机在手、网络无忧”。
-            </p>
-            <p class="text">
-              甚至当您利用碎片时间学习提升时，睿易APP都可以帮到您。能力提升板块“三分钟学网络”，
-              让三分钟就可以掌握一个技术干货知识点。
-            </p>
-            <a href="" class="ry-btn big">更多精彩登录睿易APP</a>
+          <div class="cont-num">
+            <img src="statics/v4.0/images/network/page2-num1.png" />
+          </div>
+          <div class="cont-img">
+            <img src="statics/v4.0/images/network/page2-img1.png" />
+          </div>
         </div>
-        <div class="right">
-          <img src="./statics/v4.0/images/network/c-01.png" alt="">
+        <div class="cont-item bg-left">
+          <div class="cont-word">
+            <div class="word-tit">智能配置</div>
+            <div class="word-des">支持极速智能配置，只要配好网关，不管网络有多大，全网配置智能实现。<br/>自动检测全网设备，并生成网络拓扑，不管网络有多复杂，用户感受到的永远是简单。<br/>支持场景化网优，只要选择模板，不管场景是否熟悉，都能满足场景特殊需求。</div>
+            <a href="javascript:void(0)" class="word-btn ry-rService-video" data-src="https://files.ruijiery.com/video/睿网络之极速智能配置+场景化网优_40M.mp4">观看视频</a>
+          </div>
+          <div class="cont-num">
+            <img src="statics/v4.0/images/network/page2-num2.png" />
+          </div>
+          <div class="cont-img">
+            <img src="statics/v4.0/images/network/page2-img2.png" />
+          </div>
+        </div>
+        <div class="cont-item">
+          <div class="cont-word">
+            <div class="word-tit">智能运维</div>
+            <div class="word-des">PC端远程云运维+手机端远程运维，客户网络故障微信云告警，远程即可及时快速解决售后问题。</div>
+            <a href="javascript:void(0)" class="word-btn ry-rService-video" data-src="https://files.ruijiery.com/video/睿网络-智能维护相关_40M.mp4">观看视频</a>
+          </div>
+          <div class="cont-num">
+            <img src="statics/v4.0/images/network/page2-num3.png" />
+          </div>
+          <div class="cont-img">
+            <img src="statics/v4.0/images/network/page2-img3.png" />
+          </div>
+        </div>
+        <div class="cont-item bg-left">
+          <div class="cont-word">
+            <div class="word-tit">睿见 R-view</div>
+            <div class="word-des">睿见R-view一体化监控系统，一屏监控/安防弱电/网络运行信息，全网状态一目了然，弱电系统尽在掌握。</div>
+            <a href="javascript:void(0)" class="word-btn ry-rService-video" data-src="https://files.ruijiery.com/video/睿见review（原画质） (1).mp4">观看视频</a>
+          </div>
+          <div class="cont-num">
+            <img src="statics/v4.0/images/network/page2-num4.png" />
+          </div>
+          <div class="cont-img">
+            <img src="statics/v4.0/images/network/page2-img4.png" />
+          </div>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="ry-cont-item wl-page3" id="ryScene">
+  <div class="ry-cont-item ty-page3" id="ryScene">
     <div class="ry-cont">
-      <div class="switch">
-        <div class="switch-item active">
-          售前阶段
-        </div>
-        <div class="switch-item">
-          售中阶段
-        </div>
-        <div class="switch-item">
-          售后阶段
-        </div>
-        <div class="switch-content">
-          <div class="switch-content">
-            <div class="left">
-              <div class="logo">
-                <img src="./statics/v4.0/images/network/d-icon-01.png" alt="">
-              </div>
-              <span class="line"></span>
-                <p class="text">
-                  睿易这5个售前工具
-                  可以在售前阶段帮您搞定
-                  聊需求、出清单、讲价值，
-                  在客户面前您就是网络专家形象。
-                </p>
-                <div class="btn-group">
-                  <strong>产品库出清单</strong>
-                  <strong>场景出清单</strong>
-                  <strong>案例出清单</strong>
-                  <strong>方案价值呈现</strong>
-                  <strong>项目案例库</strong>
+      <h2 class="ry-mainTitle">解决方案</h2>
+      <h3 class="ry-subTitle">差异化解决方案，满足不同场景的特定需求</h3>
+      <div class="swiper-container page3-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <dl class="page3-item">
+              <dt><img src="statics/v4.0/images/index/page3-img1.png" /></dt>
+              <dd>
+                <div class="page3-tit">企业场景</div>
+                <div class="page3-des">
+                  <p>全网设备上云，远程智能运维，减少维护成本；</p>
+                  <p>企业场景整网智能一体化配置，零门槛调试；</p>
+                  <p>交换机主动防环路，告别拔线查坏路；</p>
+                  <p>秒级微信告警，比客户早感知网络故障。</p>                  
                 </div>
-            </div>
-            <div class="right">
-              <img src="./statics/v4.0/images/network/d-01.png" alt="">
-            </div>
+                <a href="http://www.ruijiery.com/fa/qyfa" target="_blank" class="show-details">了解更多</a>
+              </dd>
+            </dl>
           </div>
-          <div class="switch-content">
-            <div class="left">
-              <div class="logo">
-                <img src="./statics/v4.0/images/network/d-icon-02.png" alt="">
-              </div>
-              <span class="line"></span>
-                <p class="text">
-                  “睿易全线产品支持”
-                  项目再大手机装下，
-                  出门调试带手机就行，
-                  足不出户即可完成网络运维。
-                </p>
-                <div class="btn-group">
-                  <strong>三分钟自组网</strong>
-                  <strong>智WAN(多外线负载)</strong>
-                  <strong>防环路</strong>
-                  <strong>防私接小路由</strong>
-                  <strong>VLAN划分</strong>
-                  <strong>VPN配置</strong>
-                  <strong>超距传输</strong>
-                  <strong>整网升级</strong>
-                  <strong>云打印</strong>
-                  <strong>IP终端地址规划</strong>
+          <div class="swiper-slide">
+            <dl class="page3-item">
+              <dt><img src="statics/v4.0/images/index/page3-img2.png" /></dt>
+              <dd>
+                <div class="page3-tit">别墅/家居场景</div>
+                <div class="page3-des">
+                  <p>别墅场景定制化配置，零门槛调试；</p>
+                  <p>WiFi漫游深度优化，在豪宅任何位置上网都满格；</p>
+                  <p>家长网络控制，防止孩子上网成瘾。</p>
                 </div>
-            </div>
-            <div class="right">
-              <img src="./statics/v4.0/images/network/d-02.png" alt="">
-            </div>
+                <a href="http://www.ruijiery.com/fa/bsfa" target="_blank" class="show-details">了解更多</a>
+              </dd>
+            </dl>
           </div>
-          <div class="switch-content">
-            <div class="left">
-              <div class="logo">
-                <img src="./statics/v4.0/images/network/d-icon-03.png" alt="">
-              </div>
-              <span class="line"></span>
-                <p class="text">
-                  网络工程中90%的售后问题
-                  都可以通过APP坐在家里解决掉，
-                  节省时间和人力成本，
-                  同时让客户感受到1分钟
-                  就能解决问题的极速售后服务，
-                  有了它，客户会变成你的铁粉。
-                </p>
-                <div class="btn-group">
-                  <strong>故障告警</strong>
-                  <strong>POE重启</strong>
-                  <strong>监控头识别</strong>
-                  <strong>真实拓扑</strong>
-                  <strong>内网穿透</strong>
-                  <strong>信道调优</strong>
-                  <strong>全网诊断</strong>
-                  <strong>漫游调优</strong>
-                  <strong>IP地址冲突告警</strong>
+          <div class="swiper-slide">
+            <dl class="page3-item">
+              <dt><img src="statics/v4.0/images/index/page3-img3.png" /></dt>
+              <dd>
+                <div class="page3-tit">酒店场景</div>
+                <div class="page3-des">
+                  <p>智能投屏，酒店体验再升级;</p>
+                  <p>酒店项目20分钟极速开局，比传统调试方式快100倍;</p>
+                  <p>酒店WiFi网络深度体验优化，轻点鼠标即可完成。</p>
                 </div>
-            </div>
-            <div class="right">
-              <img src="./statics/v4.0/images/network/d-03.png" alt="">
-            </div>
+                <a href="http://www.ruijiery.com/fa/jdfa" target="_blank" class="show-details">了解更多</a>
+              </dd>
+            </dl>
+          </div>
+          <div class="swiper-slide">
+            <dl class="page3-item">
+              <dt><img src="statics/v4.0/images/index/page3-img4.png" /></dt>
+              <dd>
+                <div class="page3-tit">景区场景</div>
+                <div class="page3-des">
+                  <p>全场景WiFi覆盖方案，助力景区评A；</p>
+                  <p>微信认证、客流分析，打造智能化景区。</p>
+                </div>
+                <span class="show-details">方案更新中</span>
+              </dd>
+            </dl>
+          </div>
+          <div class="swiper-slide">
+            <dl class="page3-item">
+              <dt><img src="statics/v4.0/images/index/page3-img5.png" /></dt>
+              <dd>
+                <div class="page3-tit">商业地产场景</div>
+                <div class="page3-des">
+                  <p>保障云对讲、云监控极速推送给业主；</p>
+                  <p>帮助工程商远程重启故障监控头，告别跑现场重启的工作；</p>
+                  <p>弱电整网360°运维监控，工程商在办公室就可以完成日常运维工作。</p>
+                </div>
+                <span class="show-details">方案更新中</span>
+              </dd>
+            </dl>
           </div>
         </div>
+        <div class="swiper-pagination"></div>
       </div>
     </div>
   </div>
