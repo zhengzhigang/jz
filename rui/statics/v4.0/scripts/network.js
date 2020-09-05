@@ -86,7 +86,7 @@ $(function () {
   })
 
   var swiper = new Swiper('.switch-content', {
-    autoHeight: true,
+    // autoHeight: true,
     on: {
       slideChangeTransitionStart: function() {
         $('.switch .switch-item')
