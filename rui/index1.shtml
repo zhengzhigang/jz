@@ -15,15 +15,15 @@
   <link rel="stylesheet" href="statics/css/ruijiery/style.css?20180920">
   <link rel="stylesheet" href="statics/css/ruijiery/less.css">
   <link rel="stylesheet" href="statics/css/ruijiery/supernbr.css">
-  <link type="text/css" rel="stylesheet" href="statics/v4.0/styles/reset.css">
-  <link type="text/css" rel="stylesheet" href="statics/v4.0/styles/header.css?5">
-  <link type="text/css" rel="stylesheet" href="statics/v4.0/styles/footer.css?5">
+  <link type="text/css" rel="stylesheet" href="statics/v3.0/styles/reset.css">
+  <link type="text/css" rel="stylesheet" href="statics/v3.0/styles/header.css?5">
+  <link type="text/css" rel="stylesheet" href="statics/v3.0/styles/footer.css?5">
 
   <script type="text/javascript" src="statics/js/ruijiery/jquery.js"></script>
-  <script type="text/javascript" src="statics/v4.0/scripts/header.js"></script>
-  <script type="text/javascript" src="statics/v4.0/scripts/footer.js"></script>
-  <script type="text/javascript" src="statics/v4.0/scripts/jquery.typeahead.js"></script>
-  <script type="text/javascript" src="statics/v4.0/scripts/swiper.min.js"></script>
+  <script type="text/javascript" src="statics/v3.0/scripts/header.js"></script>
+  <script type="text/javascript" src="statics/v3.0/scripts/footer.js"></script>
+  <script type="text/javascript" src="statics/v3.0/scripts/jquery.typeahead.js"></script>
+  <script type="text/javascript" src="statics/v3.0/scripts/swiper.min.js"></script>
   
 </head>
 <body>
@@ -33,10 +33,10 @@
     <div id="ry-header-cont">
       <h1 id="ry-logo">
         <a href="http://www.ruijie.com.cn/" target="_blank">
-          <img src="statics/v4.0/images/common/logo-head-1.png" alt="" />
+          <img src="statics/v3.0/images/common/logo-head-1.png" alt="" />
         </a>
         <a href="http://www.ruijiery.com/" target="_blank">
-          <img src="statics/v4.0/images/common/logo-head-2.png" alt="" />
+          <img src="statics/v3.0/images/common/logo-head-2.png" alt="" />
         </a>
       </h1>
       <ul id="ry-nav" class="ry-nav">
@@ -44,7 +44,7 @@
           <a class="ry-nav-a" href="http://www.ruijiery.com/">首页</a>
         </li>
         <li class="ry-nav-item" data-role="ry-nav-pro">
-          <a class="ry-nav-a" href="javascript:void(0)">产品中心<span><img src="statics/v4.0/images/icon-down-arrow.png" alt=""></span></a>
+          <a class="ry-nav-a" href="javascript:void(0)">产品中心<span><img src="statics/v3.0/images/icon-down-arrow.png" alt=""></span></a>
         </li>
         <li class="ry-nav-item">
           <a class="ry-nav-a" href="http://www.ruijiery.com/cp/rwl/">睿网络</a>
@@ -83,7 +83,7 @@
         <a class="ry-ol-nav-a" href="http://www.ruijiery.com/">
           <span>首页</span>
           <div class="ry-nav-item-a-bg">
-            <img src="statics/v4.0/images/nav-bg-sy.png">
+            <img src="statics/v3.0/images/nav-bg-sy.png">
           </div>
         </a>
       </h2>
@@ -93,12 +93,12 @@
         <a class="ry-ol-nav-a" href="javascript:void(0)">
           <span>产品中心</span>
           <div class="ry-nav-item-a-bg">
-            <img src="statics/v4.0/images/nav-bg-cpzx.png">
+            <img src="statics/v3.0/images/nav-bg-cpzx.png">
           </div>
         </a>
         <em>
-          <img src="statics/v4.0/images/icon-down-arrow.png" class="ry-pc-show">
-          <img src="statics/v4.0/images/icon-down-arrow@2x.png" class="ry-mobile-show">
+          <img src="statics/v3.0/images/icon-down-arrow.png" class="ry-pc-show">
+          <img src="statics/v3.0/images/icon-down-arrow@2x.png" class="ry-mobile-show">
         </em>
       </h2>
       <div class="ry-subnav-cont ry-ol-subnav-cont">
@@ -106,18 +106,18 @@
           <div class="ry-column">
             <div class="ry-pro-item">
               <div class="ry-pro-icon">
-                <img src="statics/v4.0/images/icon-jhj.png">
+                <img src="statics/v3.0/images/icon-jhj.png">
               </div>
               <div class="ry-pro-list">
                 <h3 class="ry-subTitle">
                   <a href="http://www.ruijiery.com/cp/jh/">
                     <p>交换机</p>
                     <div class="ry-img">
-                      <img src="statics/v4.0/images/交换机RG-ES209C-P.jpg" alt="">
+                      <img src="statics/v3.0/images/交换机RG-ES209C-P.jpg" alt="">
                     </div>
                   </a>
                   <span class="ry-subnav-toggle">
-                    <img src="statics/v4.0/images/icon-down-arrow@2x.png">
+                    <img src="statics/v3.0/images/icon-down-arrow@2x.png">
                   </span>
                 </h3>
                 <ul>
@@ -180,18 +180,18 @@
 
             <div class="ry-pro-item">
               <div class="ry-pro-icon">
-                <img src="statics/v4.0/images/icon-ly.png">
+                <img src="statics/v3.0/images/icon-ly.png">
               </div>
               <div class="ry-pro-list">
                 <h3 class="ry-subTitle">
                   <a href="http://www.ruijiery.com/cp/wg/">
                     <p>路由</p>
                     <div class="ry-img">
-                      <img src="statics/v4.0/images/路由RG-NBR6210-E.jpg" alt="">
+                      <img src="statics/v3.0/images/路由RG-NBR6210-E.jpg" alt="">
                     </div>
                   </a>
                   <span class="ry-subnav-toggle">
-                    <img src="statics/v4.0/images/icon-down-arrow@2x.png">
+                    <img src="statics/v3.0/images/icon-down-arrow@2x.png">
                   </span>
                 </h3>
                 <ul>
@@ -247,18 +247,18 @@
           <div class="ry-column">
             <div class="ry-pro-item">
               <div class="ry-pro-icon">
-                <img src="statics/v4.0/images/icon-wx.png">
+                <img src="statics/v3.0/images/icon-wx.png">
               </div>
               <div class="ry-pro-list">
                 <h3 class="ry-subTitle">
                   <a href="http://www.ruijiery.com/cp/wx/">
                     <p>无线</p>
                     <div class="ry-img">
-                      <img src="statics/v4.0/images/无线RG-EAP102.jpg" alt="">
+                      <img src="statics/v3.0/images/无线RG-EAP102.jpg" alt="">
                     </div>
                   </a>
                   <span class="ry-subnav-toggle">
-                    <img src="statics/v4.0/images/icon-down-arrow@2x.png">
+                    <img src="statics/v3.0/images/icon-down-arrow@2x.png">
                   </span>
                 </h3>
                 <ul>
@@ -285,18 +285,18 @@
 
             <div class="ry-pro-item">
               <div class="ry-pro-icon">
-                <img src="statics/v4.0/images/icon-aq.png">
+                <img src="statics/v3.0/images/icon-aq.png">
               </div>
               <div class="ry-pro-list">
                 <h3 class="ry-subTitle">
                   <a href="http://www.ruijiery.com/cp/aq/">
                     <p>安全</p>
                     <div class="ry-img">
-                      <img src="statics/v4.0/images/安全RG-WALL1600-S3700.jpg" alt="">
+                      <img src="statics/v3.0/images/安全RG-WALL1600-S3700.jpg" alt="">
                     </div>
                   </a>
                   <span class="ry-subnav-toggle">
-                    <img src="statics/v4.0/images/icon-down-arrow@2x.png">
+                    <img src="statics/v3.0/images/icon-down-arrow@2x.png">
                   </span>
                 </h3>
                 <ul>
@@ -323,25 +323,25 @@
 
             <div class="ry-pro-item">
               <div class="ry-pro-icon">
-                <img src="statics/v4.0/images/icon-wlkzq.png">
+                <img src="statics/v3.0/images/icon-wlkzq.png">
               </div>
               <div class="ry-pro-list">
                 <h3 class="ry-subTitle">
                   <a href="http://www.ruijiery.com/cp/wx-wxkzq/nbc512">
                     <p>网络控制器</p>
                     <div class="ry-img">
-                      <img src="statics/v4.0/images/网络控制器840x450.png" alt="">
+                      <img src="statics/v3.0/images/网络控制器840x450.png" alt="">
                     </div>
                   </a>
                   <span class="ry-subnav-toggle">
-                    <img src="statics/v4.0/images/icon-down-arrow@2x.png">
+                    <img src="statics/v3.0/images/icon-down-arrow@2x.png">
                   </span>
                 </h3>
                 <ul>
                   <li>
                     <a href="http://www.ruijiery.com/cp/yfw-yfwxl/">
                       <div class="ry-img">
-                        <img src="statics/v4.0/images/网络控制器1080x340.png" alt="RG-NBC系列">
+                        <img src="statics/v3.0/images/网络控制器1080x340.png" alt="RG-NBC系列">
                       </div>
                       <h5>RG-NBC系列</h5>
                     </a>
@@ -352,18 +352,18 @@
 
             <div class="ry-pro-item">
               <div class="ry-pro-icon">
-                <img src="statics/v4.0/images/icon-yfw.png">
+                <img src="statics/v3.0/images/icon-yfw.png">
               </div>
               <div class="ry-pro-list">
                 <h3 class="ry-subTitle">
                   <a href="http://www.ruijiery.com/cp/yfw/">
                     <p>云服务</p>
                     <div class="ry-img">
-                      <img src="statics/v4.0/images/云服务_20191011142013.png" alt="">
+                      <img src="statics/v3.0/images/云服务_20191011142013.png" alt="">
                     </div>
                   </a>
                   <span class="ry-subnav-toggle">
-                    <img src="statics/v4.0/images/icon-down-arrow@2x.png">
+                    <img src="statics/v3.0/images/icon-down-arrow@2x.png">
                   </span>
                 </h3>
                 <ul>
@@ -416,7 +416,7 @@
         <a class="ry-ol-nav-a" href="http://www.ruijiery.com/cp/rwl/">
           <span>睿网络<i>NEW</i></span>
           <div class="ry-nav-item-a-bg">
-            <img src="statics/v4.0/images/nav-bg-rwl.png">
+            <img src="statics/v3.0/images/nav-bg-rwl.png">
           </div>
         </a>
       </h2>
@@ -426,7 +426,7 @@
         <a class="ry-ol-nav-a" href="http://www.ruijiery.com/cp/ywl/">
           <span>易网络</span>
           <div class="ry-nav-item-a-bg">
-            <img src="statics/v4.0/images/nav-bg-ywl.png">
+            <img src="statics/v3.0/images/nav-bg-ywl.png">
           </div>
         </a>
       </h2>
@@ -436,7 +436,7 @@
         <a class="ry-ol-nav-a" href="http://www.ruijiery.com/cp/fa/">
           <span>解决方案</span>
           <div class="ry-nav-item-a-bg">
-            <img src="statics/v4.0/images/nav-bg-jjfa.png">
+            <img src="statics/v3.0/images/nav-bg-jjfa.png">
           </div>
         </a>
       </h2>
@@ -446,7 +446,7 @@
         <a class="ry-ol-nav-a" href="http://www.ruijie.com.cn/fw/" target="_blank">
           <span>服务与支持</span>
           <div class="ry-nav-item-a-bg">
-            <img src="statics/v4.0/images/nav-bg-fwzc.png">
+            <img src="statics/v3.0/images/nav-bg-fwzc.png">
           </div>
         </a>
       </h2>
@@ -456,7 +456,7 @@
         <a class="ry-ol-nav-a" href="http://bbs.ruijiery.com/" target="_blank">
           <span>睿易之家</span>
           <div class="ry-nav-item-a-bg">
-            <img src="statics/v4.0/images/nav-bg-ryzj.png">
+            <img src="statics/v3.0/images/nav-bg-ryzj.png">
           </div>
         </a>
       </h2>
@@ -464,34 +464,36 @@
   </ol>
 </div>
 <!--/ry-header-->
-<script type="text/javascript" src="statics/v4.0/scripts/jquery.min.js"></script>
-<script type="text/javascript" src="statics/v4.0/scripts/main.js"></script>
-<script type="text/javascript" src="statics/v4.0/scripts/network.js?3"></script>
+<script type="text/javascript" src="statics/v3.0/scripts/jquery.min.js"></script>
+<script type="text/javascript" src="statics/v3.0/scripts/main.js"></script>
+<script type="text/javascript" src="statics/v3.0/scripts/network.js?3"></script>
 
-<link type="text/css" rel="stylesheet" href="statics/v4.0/styles/swiper.min.css">
-<link type="text/css" rel="stylesheet" href="statics/v4.0/styles/main.css">
-<link type="text/css" rel="stylesheet" href="statics/v4.0/styles/network.css?9">
+<link type="text/css" rel="stylesheet" href="statics/v3.0/styles/swiper.min.css">
+<link type="text/css" rel="stylesheet" href="statics/v3.0/styles/main.css">
+<link type="text/css" rel="stylesheet" href="statics/v3.0/styles/network.css?9">
 
 
 <!--内容开始-->
 <div id="ry-container">
   <div class="ry-cont-item wl-banner">
-    <img class="bg-img" src="./statics/v4.0/images/a-bg.jpg">
-    <div class="banner-des">
-      <span>场景智能</span>
-      <span>配置智能</span>
-      <span>运维智能</span>
-      <span>交付智能</span>
+    <div class="ry-cont">
+      <div class="banner-tit">助您秒变网络专家</div>
+      <div class="banner-des">
+        <span>场景智能</span>       
+        <span>配置智能</span>       
+        <span>运维智能</span>       
+        <span>交付智能</span>
+      </div>
     </div>
   </div>
   <!--锚导航-->
   <div class="ry-network-tab-wrap" id="ry-network-tab-wrap">
     <div class="ry-cont">
       <ul class="ry-network-tab" id="ry-network-tab">
-        <li><a href="#ryPro" data-id="ryPro">易网络产品</a></li>
-        <li><a href="#ryService" data-id="ryService">睿易APP</a></li>
-        <li><a href="#ryScene" data-id="ryScene">销售阶段</a></li>
-        <li><a href="#ryCase" data-id="ryCase">易网络故事汇</a></li>
+        <li><a href="#ryPro" data-id="ryPro">睿网络产品</a></li>
+        <li><a href="#ryService" data-id="ryService">睿网络云平台</a></li>
+        <li><a href="#ryScene" data-id="ryScene">解决方案</a></li>
+        <li><a href="#ryCase" data-id="ryCase">睿网络故事汇</a></li>
         <li><a href="#ryZxun" data-id="ryZxun">三分钟学网络</a></li>
       </ul>
     </div>
@@ -499,74 +501,37 @@
   <!--/锚导航-->
   <div class="ry-cont-item wl-page1" id="ryPro">
     <div class="ry-cont">
-      <h2 class="ry-mainTitle">易网络产品</h2>
-      <ul class="pro-list">
-        <li class="pro-list-item">
-          <div class="img">
-            <img src="./statics/v4.0/images/b-01.png" alt="">
-          </div>
-          <p class="pro-title">易网络无线</p>
-          <p class="pro-title-en">RG-EAP101</p>
-          <p class="pro-text">
-            单频面板AP，雅致外观，人性化滑盖设计，高通芯片，通过基于场景的大数据优化算法，
-            保障网络体验，是酒店、企业办公、别墅、大平层等场景的理想选择。支持和易网络APP配合实现智能组网、
-            一键网优、远程运维等功能。
-          </p>
-          <a href="" class="show-details">查看全部型号</a>
+      <h2 class="ry-mainTitle">睿网络系列产品</h2>
+      <h3 class="ry-subTitle">助您秒变网络专家，轻松搞定行业大项目</h3>
+      <ul class="wl-page1-cont">
+        <div class="wl-page1-cont-bg">
+          <img src="statics/v3.0/images/network/page1-bg.png">
+          <a href="http://www.ruijiery.com/cp/yfw-yfwxl/macc" target="_blank"  class="macc">MACC<br/><span>诺客云平台</span></a>
+        </div>
+        <li>
+          <div class="cont-tit">睿无线</div>
+          <img src="statics/v3.0/images/network/page1-img1.png" />
+          <a href="http://www.ruijiery.com/cp/wx/" target="_blank" class="show-all">查看全部型号</a>
         </li>
-        <li class="pro-list-item">
-          <div class="img">
-            <img src="./statics/v4.0/images/b-01.png" alt="">
-          </div>
-          <p class="pro-title">易网络交换</p>
-          <p class="pro-title-en">RG-ES109G-LP</p>
-          <p class="pro-text">
-            8口千兆PoE监控交换机，精致小巧，静音设计，一键流控开关，4KV防雷，精选芯片和电容，
-            保障高清视频更流畅，可满足各类监控、Wi-Fi工程和企业办公、别墅等场景需求。
-          </p>
-          <a href="" class="show-details">查看全部型号</a>
+        <li>
+          <div class="cont-tit">睿交换</div>
+          <img src="statics/v3.0/images/network/page1-img2.png" />
+          <a href="http://www.ruijiery.com/cp/jh/" target="_blank" class="show-all">查看全部型号</a>
         </li>
-        <li class="pro-list-item">
-          <div class="img">
-            <img src="./statics/v4.0/images/b-01.png" alt="">
-          </div>
-          <p class="pro-title">易网络网关</p>
-          <p class="pro-title-en">RG-EG105G</p>
-          <p class="pro-text">
-            5口千兆铁壳路由器，外观小巧，功能强大，集网关、VPN、防火墙、流控、行为管理、AC等功能于一体，
-            可满足60人以下小微企业办公的各类网络需求。支持和易网络APP配合实现智能组网、一键网优、远程运维等功能。
-          </p>
-          <a href="" class="show-details">查看全部型号</a>
+        <li>
+          <div class="cont-tit">睿网关</div>
+          <img src="statics/v3.0/images/network/page1-img3.png" />
+          <a href="http://www.ruijiery.com/cp/wg/" target="_blank" class="show-all">查看全部型号</a>
         </li>
-        <li class="pro-list-item">
-          <div class="img">
-            <img src="./statics/v4.0/images/b-01.png" alt="">
-          </div>
-          <p class="pro-title">smart交换</p>
-          <p class="pro-title-en">RG-NBS1824GC</p>
-          <p class="pro-text">
-            24口千兆标准机架式铁壳交换机，光口上联和端口大缓存设计保障高清视频不卡顿，4KV防雷，
-            适用于各种安防监控工程、Wi-Fi工程和各类需要千兆接入的场景。
-          </p>
-          <a href="" class="show-details">查看全部型号</a>
+        <li>
+          <div class="cont-tit">网络控制器</div>
+          <img src="statics/v3.0/images/network/page1-img4.png" />
+          <a href="http://www.ruijiery.com/cp/wx-wxkzq/nbc512" target="_blank" class="show-all">查看全部型号</a>
         </li>
-        <li class="pro-list-item">
-          <div class="img">
-            <img src="./statics/v4.0/images/b-01.png" alt="">
-          </div>
-          <p class="pro-title">smart路由</p>
-          <p class="pro-title-en">RG-NBR700GW</p>
-          <p class="pro-text">5口千兆无线铁壳路由器，不但提供高速无线接入，还集网关、VPN、防火墙、流控、行为管理、AC等功能于一体，可满足80人以下小微企业办公的各类网络需求。</p>
-          <a href="" class="show-details">查看全部型号</a>
-        </li>
-        <li class="pro-list-item">
-          <div class="img">
-            <img src="./statics/v4.0/images/b-01.png" alt="">
-          </div>
-          <p class="pro-title">易路由（家用）</p>
-          <p class="pro-title-en">RG-EW1200G PRO</p>
-          <p class="pro-text">专门为平层家居、别墅、小型店铺、SOHO办公等场景推出的有线无线全千兆双频家用无线路由器。 设备性能卓越，足以满足千兆上网需求。</p>
-          <a href="" class="show-details">查看全部型号</a>
+        <li>
+          <div class="cont-tit">睿安全</div>
+          <img src="statics/v3.0/images/network/page1-img5.png" />
+          <a href="http://www.ruijiery.com/cp/aq/" target="_blank" class="show-all">查看全部型号</a>
         </li>
       </ul>
     </div>
@@ -584,10 +549,10 @@
             <a href="javascript:void(0)" class="word-btn ry-rService-video" data-src="https://files.ruijiery.com/video/睿客1920_1（压缩）.mp4">观看视频</a>
           </div>
           <div class="cont-num">
-            <img src="statics/v4.0/images/network/page2-num1.png" />
+            <img src="statics/v3.0/images/network/page2-num1.png" />
           </div>
           <div class="cont-img">
-            <img src="statics/v4.0/images/network/page2-img1.png" />
+            <img src="statics/v3.0/images/network/page2-img1.png" />
           </div>
         </div>
         <div class="cont-item bg-left">
@@ -597,10 +562,10 @@
             <a href="javascript:void(0)" class="word-btn ry-rService-video" data-src="https://files.ruijiery.com/video/睿网络之极速智能配置+场景化网优_40M.mp4">观看视频</a>
           </div>
           <div class="cont-num">
-            <img src="statics/v4.0/images/network/page2-num2.png" />
+            <img src="statics/v3.0/images/network/page2-num2.png" />
           </div>
           <div class="cont-img">
-            <img src="statics/v4.0/images/network/page2-img2.png" />
+            <img src="statics/v3.0/images/network/page2-img2.png" />
           </div>
         </div>
         <div class="cont-item">
@@ -610,10 +575,10 @@
             <a href="javascript:void(0)" class="word-btn ry-rService-video" data-src="https://files.ruijiery.com/video/睿网络-智能维护相关_40M.mp4">观看视频</a>
           </div>
           <div class="cont-num">
-            <img src="statics/v4.0/images/network/page2-num3.png" />
+            <img src="statics/v3.0/images/network/page2-num3.png" />
           </div>
           <div class="cont-img">
-            <img src="statics/v4.0/images/network/page2-img3.png" />
+            <img src="statics/v3.0/images/network/page2-img3.png" />
           </div>
         </div>
         <div class="cont-item bg-left">
@@ -623,10 +588,10 @@
             <a href="javascript:void(0)" class="word-btn ry-rService-video" data-src="https://files.ruijiery.com/video/睿见review（原画质） (1).mp4">观看视频</a>
           </div>
           <div class="cont-num">
-            <img src="statics/v4.0/images/network/page2-num4.png" />
+            <img src="statics/v3.0/images/network/page2-num4.png" />
           </div>
           <div class="cont-img">
-            <img src="statics/v4.0/images/network/page2-img4.png" />
+            <img src="statics/v3.0/images/network/page2-img4.png" />
           </div>
         </div>
       </div>
@@ -641,7 +606,7 @@
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <dl class="page3-item">
-              <dt><img src="statics/v4.0/images/index/page3-img1.png" /></dt>
+              <dt><img src="statics/v3.0/images/index/page3-img1.png" /></dt>
               <dd>
                 <div class="page3-tit">企业场景</div>
                 <div class="page3-des">
@@ -656,7 +621,7 @@
           </div>
           <div class="swiper-slide">
             <dl class="page3-item">
-              <dt><img src="statics/v4.0/images/index/page3-img2.png" /></dt>
+              <dt><img src="statics/v3.0/images/index/page3-img2.png" /></dt>
               <dd>
                 <div class="page3-tit">别墅/家居场景</div>
                 <div class="page3-des">
@@ -670,7 +635,7 @@
           </div>
           <div class="swiper-slide">
             <dl class="page3-item">
-              <dt><img src="statics/v4.0/images/index/page3-img3.png" /></dt>
+              <dt><img src="statics/v3.0/images/index/page3-img3.png" /></dt>
               <dd>
                 <div class="page3-tit">酒店场景</div>
                 <div class="page3-des">
@@ -684,7 +649,7 @@
           </div>
           <div class="swiper-slide">
             <dl class="page3-item">
-              <dt><img src="statics/v4.0/images/index/page3-img4.png" /></dt>
+              <dt><img src="statics/v3.0/images/index/page3-img4.png" /></dt>
               <dd>
                 <div class="page3-tit">景区场景</div>
                 <div class="page3-des">
@@ -697,7 +662,7 @@
           </div>
           <div class="swiper-slide">
             <dl class="page3-item">
-              <dt><img src="statics/v4.0/images/index/page3-img5.png" /></dt>
+              <dt><img src="statics/v3.0/images/index/page3-img5.png" /></dt>
               <dd>
                 <div class="page3-tit">商业地产场景</div>
                 <div class="page3-des">
@@ -730,8 +695,8 @@
       </div>
       <div class="page5-right">
         <a href="https://enet.ruijie.com.cn/adminywl/config/ywlAppIndex#/knowledgeBase/learningDemo?videoRandom=3&userFlag=5d55e70ee071a533b06770291f388eb0_5421&accountId=18609828942&staId=1580737840356-c4f4672b&appVersion=3.0.9" >
-          <img src="statics/v4.0/images/index/page5-img1.png" alt="" class="ry-pc-show" />
-          <img src="statics/v4.0/images/index/page5-img2.jpg" alt="" class="ry-mobile-show"/>
+          <img src="statics/v3.0/images/index/page5-img1.png" alt="" class="ry-pc-show" />
+          <img src="statics/v3.0/images/index/page5-img2.jpg" alt="" class="ry-mobile-show"/>
         </a>
       </div>
     </div>
@@ -744,8 +709,8 @@
     <div id="ry-video-box" class="ry-video-box"></div>
   </div>
   <!--/新增视频-->
-  <script type="text/javascript" src="statics/v4.0/scripts/video-ie8.js?20190905"></script>
-  <script type="text/javascript" src="statics/v4.0/scripts/video.js?20190905"></script>
+  <script type="text/javascript" src="statics/v3.0/scripts/video-ie8.js?20190905"></script>
+  <script type="text/javascript" src="statics/v3.0/scripts/video.js?20190905"></script>
   
 </div>
 <!--内容结束-->
@@ -779,10 +744,10 @@
     <div class="ry-footer-item ry-footer-item-4">
       <h4 class="ry-pc-show">
         <a href="http://www.ruijie.com.cn/" target="_blank">
-          <img src="statics/v4.0/images/common/logo-foot1.png" alt="" />
+          <img src="statics/v3.0/images/common/logo-foot1.png" alt="" />
         </a>
         <a href="http://www.ruijiery.com/" target="_blank">
-          <img src="statics/v4.0/images/common/logo-foot2.png" alt="" />
+          <img src="statics/v3.0/images/common/logo-foot2.png" alt="" />
         </a>
       </h4>
       <h4 class="ry-mobile-show">联系我们</h4>
@@ -828,20 +793,20 @@
     <ul class="ry-footer-item ry-footer-item-3">
       <li><a class="ry-jdong" target="_blank" href="https://mall.jd.com/index-10024117.html?from=pc">
         <div class="rj-img">
-          <img src="statics/v4.0/images/jd 2.png" alt="京东商城">
+          <img src="statics/v3.0/images/jd 2.png" alt="京东商城">
         </div>
         <p class="rj-text">京东商城</p>
       </a>
       </li>
       <li>
         <div class="rj-img">
-          <img src="statics/v4.0/images/ma1 2.png" alt="官方公众号" />
+          <img src="statics/v3.0/images/ma1 2.png" alt="官方公众号" />
         </div>
         <p class="rj-text">官方公众号</p>
       </li>
       <li>
         <div class="rj-img">
-          <img src="statics/v4.0/images/ma2xin 2.png" alt="睿易APP" />
+          <img src="statics/v3.0/images/ma2xin 2.png" alt="睿易APP" />
         </div>
         <p class="rj-text">睿易APP</p>
       </li>
@@ -877,7 +842,7 @@
 <script type="text/javascript" src="statics/js/ruijiery/lib.js"></script>
 <link rel="stylesheet" href="statics/css/ruijiery/slick.css">
 <script type="text/javascript" src="statics/js/ruijiery/slick.min.js"></script>
-<script type="text/javascript" src="statics/v4.0/scripts/zhichi.js"></script>
+<script type="text/javascript" src="statics/v3.0/scripts/zhichi.js"></script>
 <style>
   div.right_box {
     top: 55%;

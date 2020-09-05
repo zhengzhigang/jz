@@ -476,12 +476,12 @@
 <!--内容开始-->
 <div id="ry-container">
   <div class="ry-cont-item wl-banner">
-    <img class="bg-img" src="./statics/v4.0/images/a-bg.jpg">
+    <img class="bg-img" src="./statics/v4.0/images/network/a-bg.jpg">
     <div class="banner-des">
-      <span>场景智能</span>
-      <span>配置智能</span>
-      <span>运维智能</span>
-      <span>交付智能</span>
+      <span>三分钟智能组网</span>
+      <span>价格充满竞争力</span>
+      <span>网络建设和维护简单</span>
+      <span>足不出户完成网络运维</span>
     </div>
   </div>
   <!--锚导航-->
@@ -496,6 +496,7 @@
       </ul>
     </div>
   </div>
+  <div class="tab-placeholder"></div>
   <!--/锚导航-->
   <div class="ry-cont-item wl-page1" id="ryPro">
     <div class="ry-cont">
@@ -548,7 +549,7 @@
           <div class="img">
             <img src="./statics/v4.0/images/network/b-04.png" alt="">
           </div>
-          <p class="pro-title">smart交换</p>
+          <p class="pro-title">SMART交换</p>
           <p class="pro-title-en">RG-NBS1824GC</p>
           <p class="pro-text">
             24口千兆标准机架式铁壳交换机，光口上联和端口大缓存设计保障高清视频不卡顿，4KV防雷，
@@ -562,7 +563,7 @@
           <div class="img">
             <img src="./statics/v4.0/images/network/b-05.png" alt="">
           </div>
-          <p class="pro-title">smart路由</p>
+          <p class="pro-title">SMART路由</p>
           <p class="pro-title-en">RG-NBR700GW</p>
           <p class="pro-text">5口千兆无线铁壳路由器，不但提供高速无线接入，还集网关、VPN、防火墙、流控、行为管理、AC等功能于一体，可满足80人以下小微企业办公的各类网络需求。</p>
           <div class="btn-group">
@@ -584,127 +585,143 @@
     </div>
   </div>
 
-  <div class="ry-cont-item wl-page2" id="ryService">
-    <div class="ry-cont">
-      <h2 class="ry-mainTitle">睿易APP</h2>
-      <div class="wl-page2-cont">
-        <div class="left">
-          <div class="logo">
-            <img src="./statics/v4.0/images/network/c-logo.png" alt="">
+  <div class="wl-page-wrap">
+    <div class="ry-cont-item wl-page2" id="ryService">
+      <div class="ry-cont">
+        <h2 class="ry-mainTitle">睿易APP</h2>
+        <div class="wl-page2-cont">
+          <div class="left">
+            <div class="logo">
+              <img src="./statics/v4.0/images/network/c-logo.png" alt="">
+            </div>
+            <span class="line"></span>
+              <p class="text">
+                睿易APP致力于为广大工程商客户赋能，不论您是在售前阶段聊需求、
+                讲价值、出清单，还是您在售中阶段调设备、做交付，或在售后阶段做运维，
+                您都只要一部安装了睿易APP的手机便能搞定80%的工作，真正做到“手机在手、网络无忧”。
+              </p>
+              <p class="text">
+                甚至当您利用碎片时间学习提升时，睿易APP都可以帮到您。能力提升板块“三分钟学网络”，
+                让三分钟就可以掌握一个技术干货知识点。
+              </p>
+              <a href="" class="ry-btn big">更多精彩登录睿易APP</a>
           </div>
-          <span class="line"></span>
-            <p class="text">
-              睿易APP致力于为广大工程商客户赋能，不论您是在售前阶段聊需求、
-              讲价值、出清单，还是您在售中阶段调设备、做交付，或在售后阶段做运维，
-              您都只要一部安装了睿易APP的手机便能搞定80%的工作，真正做到“手机在手、网络无忧”。
-            </p>
-            <p class="text">
-              甚至当您利用碎片时间学习提升时，睿易APP都可以帮到您。能力提升板块“三分钟学网络”，
-              让三分钟就可以掌握一个技术干货知识点。
-            </p>
-            <a href="" class="ry-btn big">更多精彩登录睿易APP</a>
-        </div>
-        <div class="right">
-          <img src="./statics/v4.0/images/network/c-01.png" alt="">
+          <div class="right">
+            <img src="./statics/v4.0/images/network/c-01.png" alt="">
+          </div>
         </div>
       </div>
     </div>
-  </div>
-
-  <div class="ry-cont-item wl-page3" id="ryScene">
-    <div class="ry-cont">
-      <div class="switch">
-        <div class="switch-item active">
-          售前阶段
-        </div>
-        <div class="switch-item">
-          售中阶段
-        </div>
-        <div class="switch-item">
-          售后阶段
-        </div>
-        <div class="switch-content">
-          <div class="switch-content">
-            <div class="left">
-              <div class="logo">
-                <img src="./statics/v4.0/images/network/d-icon-01.png" alt="">
-              </div>
-              <span class="line"></span>
-                <p class="text">
-                  睿易这5个售前工具
-                  可以在售前阶段帮您搞定
-                  聊需求、出清单、讲价值，
-                  在客户面前您就是网络专家形象。
-                </p>
-                <div class="btn-group">
-                  <strong>产品库出清单</strong>
-                  <strong>场景出清单</strong>
-                  <strong>案例出清单</strong>
-                  <strong>方案价值呈现</strong>
-                  <strong>项目案例库</strong>
-                </div>
-            </div>
-            <div class="right">
-              <img src="./statics/v4.0/images/network/d-01.png" alt="">
-            </div>
+  
+    <div class="ry-cont-item wl-page3" id="ryScene">
+      <div class="ry-cont">
+        <div class="switch">
+          <div class="switch-item active">
+            <img class="img" src="./statics/v4.0/images/network/switch-01.png" alt="">
+            <img class="img-active" src="./statics/v4.0/images/network/switch-active-01.png" alt="">
+            <!-- 售前阶段 -->
           </div>
-          <div class="switch-content">
-            <div class="left">
-              <div class="logo">
-                <img src="./statics/v4.0/images/network/d-icon-02.png" alt="">
-              </div>
-              <span class="line"></span>
-                <p class="text">
-                  “睿易全线产品支持”
-                  项目再大手机装下，
-                  出门调试带手机就行，
-                  足不出户即可完成网络运维。
-                </p>
-                <div class="btn-group">
-                  <strong>三分钟自组网</strong>
-                  <strong>智WAN(多外线负载)</strong>
-                  <strong>防环路</strong>
-                  <strong>防私接小路由</strong>
-                  <strong>VLAN划分</strong>
-                  <strong>VPN配置</strong>
-                  <strong>超距传输</strong>
-                  <strong>整网升级</strong>
-                  <strong>云打印</strong>
-                  <strong>IP终端地址规划</strong>
-                </div>
-            </div>
-            <div class="right">
-              <img src="./statics/v4.0/images/network/d-02.png" alt="">
-            </div>
+          <div class="switch-item">
+            <img class="img" src="./statics/v4.0/images/network/switch-02.png" alt="">
+            <img class="img-active" src="./statics/v4.0/images/network/switch-active-02.png" alt="">
+            <!-- 售中阶段 -->
           </div>
-          <div class="switch-content">
-            <div class="left">
-              <div class="logo">
-                <img src="./statics/v4.0/images/network/d-icon-03.png" alt="">
-              </div>
-              <span class="line"></span>
-                <p class="text">
-                  网络工程中90%的售后问题
-                  都可以通过APP坐在家里解决掉，
-                  节省时间和人力成本，
-                  同时让客户感受到1分钟
-                  就能解决问题的极速售后服务，
-                  有了它，客户会变成你的铁粉。
-                </p>
-                <div class="btn-group">
-                  <strong>故障告警</strong>
-                  <strong>POE重启</strong>
-                  <strong>监控头识别</strong>
-                  <strong>真实拓扑</strong>
-                  <strong>内网穿透</strong>
-                  <strong>信道调优</strong>
-                  <strong>全网诊断</strong>
-                  <strong>漫游调优</strong>
-                  <strong>IP地址冲突告警</strong>
+          <div class="switch-item">
+            <img class="img" src="./statics/v4.0/images/network/switch-03.png" alt="">
+            <img class="img-active"  src="./statics/v4.0/images/network/switch-active-03.png" alt="">
+            <!-- 售后阶段 -->
+          </div>
+        </div>
+        <div class="swiper-container switch-content">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="switch-content-item">
+                <div class="left">
+                  <div class="logo">
+                    <img src="./statics/v4.0/images/network/d-icon-01.png" alt="">
+                  </div>
+                  <span class="line"></span>
+                    <p class="text">
+                      睿易这5个售前工具<br>
+                      可以在售前阶段帮您搞定<br>
+                      聊需求、出清单、讲价值，<br>
+                      在客户面前您就是网络专家形象。
+                    </p>
+                    <div class="btn-group">
+                      <strong class="label">产品库出清单</strong>
+                      <strong class="label">场景出清单</strong>
+                      <strong class="label">案例出清单</strong>
+                      <strong class="label">方案价值呈现</strong>
+                      <strong class="label">项目案例库</strong>
+                    </div>
                 </div>
+                <div class="right">
+                  <img src="./statics/v4.0/images/network/d-01.png" alt="">
+                </div>
+              </div>
             </div>
-            <div class="right">
-              <img src="./statics/v4.0/images/network/d-03.png" alt="">
+            <div class="swiper-slide">
+              <div class="switch-content-item">
+                <div class="left">
+                  <div class="logo">
+                    <img src="./statics/v4.0/images/network/d-icon-02.png" alt="">
+                  </div>
+                  <span class="line"></span>
+                    <p class="text">
+                      “睿易全线产品支持”<br>
+                      项目再大手机装下，<br>
+                      出门调试带手机就行，<br>
+                      足不出户即可完成网络运维。
+                    </p>
+                    <div class="btn-group">
+                      <strong class="label">三分钟自组网</strong>
+                      <strong class="label">智WAN(多外线负载)</strong>
+                      <strong class="label">防环路</strong>
+                      <strong class="label">防私接小路由</strong>
+                      <strong class="label">VLAN划分</strong>
+                      <strong class="label">VPN配置</strong>
+                      <strong class="label">超距传输</strong>
+                      <strong class="label">整网升级</strong>
+                      <strong class="label">云打印</strong>
+                      <strong class="label">IP终端地址规划</strong>
+                    </div>
+                </div>
+                <div class="right">
+                  <img src="./statics/v4.0/images/network/d-02.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="switch-content-item active">
+                <div class="left">
+                  <div class="logo">
+                    <img src="./statics/v4.0/images/network/d-icon-03.png" alt="">
+                  </div>
+                  <span class="line"></span>
+                    <p class="text">
+                      网络工程中90%的售后问题<br>
+                      都可以通过APP坐在家里解决掉，<br>
+                      节省时间和人力成本，<br>
+                      同时让客户感受到1分钟<br>
+                      就能解决问题的极速售后服务，<br>
+                      有了它，客户会变成你的铁粉。
+                    </p>
+                    <div class="btn-group">
+                      <strong class="label">故障告警</strong>
+                      <strong class="label">POE重启</strong>
+                      <strong class="label">监控头识别</strong>
+                      <strong class="label">真实拓扑</strong>
+                      <strong class="label">内网穿透</strong>
+                      <strong class="label">信道调优</strong>
+                      <strong class="label">全网诊断</strong>
+                      <strong class="label">漫游调优</strong>
+                      <strong class="label">IP地址冲突告警</strong>
+                    </div>
+                </div>
+                <div class="right">
+                  <img src="./statics/v4.0/images/network/d-03.png" alt="">
+                </div>
+              </div>
             </div>
           </div>
         </div>
