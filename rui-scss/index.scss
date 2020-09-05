@@ -191,6 +191,7 @@
     -moz-box-shadow: 0 0 20px #bfbfbf inset;
     -o-box-shadow: 0 0 20px #bfbfbf inset;
     box-shadow: 0 0 20px #bfbfbf inset;
+    font-size: 0;
     &-item {
       display: inline-block;
       width: 306px;
@@ -635,16 +636,16 @@
       &-item {
         width: 32%;
         height: 50px;
-        margin-left: 0.3%;
-        margin-right: 0.3%;
+        margin-left: 0.66666%;
+        margin-right: 0.66666%;
         font-size: 26px;
         border-radius: 25px;
         .img, .img-active {
           width: 70%;
         }
         &:nth-child(2) {
-          margin-left: 0.3%;
-          margin-right: 0.3%;
+          margin-left: 0.66666%;
+          margin-right: 0.66666%;
         }
       }
     }
@@ -767,14 +768,8 @@
       border-radius: 22px;
       &-item {
         height: 38px;
-        margin-left: 0.28%;
-        margin-right: 0.28%;
         font-size: 18px;
         border-radius: 19px;
-        &:nth-child(2) {
-          margin-left: 0.28%;
-          margin-right: 0.28%;
-        }
       }
     }
     .switch-content {
@@ -858,14 +853,8 @@
       border-radius: 22px;
       &-item {
         height: 34px;
-        margin-left: 0.22%;
-        margin-right: 0.22%;
         font-size: 16px;
         border-radius: 17px;
-        &:nth-child(2) {
-          margin-left: 0.22%;
-          margin-right: 0.22%;
-        }
       }
     }
     .switch-content {
