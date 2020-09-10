@@ -86,6 +86,9 @@
       }
     }
   }
+  .m {
+    display: none;
+  }
 }
 .wl-page1{
   padding-bottom: 50px;
@@ -377,11 +380,17 @@
   }
   .wl-banner{
     .banner-des{
-      bottom: 30px;
+      bottom: 60px;
       span{
         padding: 0 15px;
         font-size: 16px;
       }
+    }
+    .pc {
+      display: none;
+    }
+    .m {
+      display: block;
     }
   }
 
@@ -576,7 +585,7 @@
   }
   .wl-banner{
     .banner-des{
-      bottom: 10px;
+      bottom: 25px;
       span{
         word-break: keep-all;
       }

@@ -476,7 +476,8 @@
 <!--内容开始-->
 <div id="ry-container">
   <div class="ry-cont-item wl-banner">
-    <img class="bg-img" src="./statics/v4.0/images/network/a-bg.jpg">
+    <img class="bg-img pc" src="./statics/v4.0/images/network/a-bg.jpg">
+    <img class="bg-img m" src="./statics/v4.0/images/network/a-bg-m.jpg">
     <div class="banner-des">
       <span>三分钟智能组网</span>
       <span>价格充满竞争力</span>
