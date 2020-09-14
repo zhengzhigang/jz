@@ -1,5 +1,6 @@
 var PAGE = {
     timer: null,
+    wWidth: 1920,
     sidebarData: [
         {
             name: '锐捷网络品牌视觉规范', // 一级目录名称
@@ -462,6 +463,7 @@ var PAGE = {
         console.timeEnd('cerate sidebar:')
         this.initSidebarEvent();
         this.initOnNav();
+        this.wWidth = $(window).width();
     },
     initSidebar: function() {
         var sidebar = $('.sidebar-list');
@@ -567,11 +569,38 @@ var PAGE = {
 
                 if ($(this).parent('.third-list-item').hasClass('active')) {
                     var id = $(this).data('target');
-                    var targetScroll = currScroll + $('#'+ id).offset().top - 232
+                    // 768 212
+                    // 500 250
+                    var targetScroll = currScroll + $('#'+ id).offset().top - _this.getDiff()
                     scrollContent.animate({scrollTop: targetScroll + 'px'}, 10);
+                    if (_this.wWidth <= 768) {
+                        $('.zg-header-menu').removeClass('open');
+                        $('.sidebar').css({display: 'none'});
+                    }
                 }
             }
         })
+
+        $('.zg-header-menu').on('click', function() {
+            var isOn = $(this).hasClass('open');
+            if (isOn) {
+                $(this).removeClass('open');
+                $('.sidebar').css({display: 'none'});
+            } else {
+                $(this).addClass('open');
+                $('.sidebar').css({display: 'block'});
+            }
+        })
+    },
+    getDiff: function() {
+        var w = _this.wWidth;
+        if (w <= 500) {
+            return 250;
+        }
+        if (w <= 768) {
+            return 212;
+        }
+        return 232
     },
     setElStatus: function(parent) {
         if (parent.hasClass('active')) {
