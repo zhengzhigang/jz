@@ -569,8 +569,6 @@ var PAGE = {
 
                 if ($(this).parent('.third-list-item').hasClass('active')) {
                     var id = $(this).data('target');
-                    // 768 212
-                    // 500 250
                     var targetScroll = currScroll + $('#'+ id).offset().top - _this.getDiff()
                     scrollContent.animate({scrollTop: targetScroll + 'px'}, 10);
                     if (_this.wWidth <= 768) {
@@ -593,9 +591,9 @@ var PAGE = {
         })
     },
     getDiff: function() {
-        var w = _this.wWidth;
+        var w = this.wWidth;
         if (w <= 500) {
-            return 250;
+            return 240;
         }
         if (w <= 768) {
             return 212;
