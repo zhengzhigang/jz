@@ -1,0 +1,373 @@
+@charset "utf-8";
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+input,
+textarea,
+p,
+th,
+td,
+tr,
+table,
+tbody,
+thead,
+tfoot,
+em,
+strong,
+span {
+  padding: 0;
+  margin: 0;
+  font-family: arial, "微软雅黑";
+}
+*{
+  outline: none;
+  -webkit-box-sizing: initial;
+  -moz-box-sizing: initial;
+  box-sizing: initial;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+img {
+  border: 0 none;
+  vertical-align: middle;
+  width: auto;
+  height: auto;
+}
+input {
+  vertical-align: middle;
+}
+em {
+  font-weight: normal;
+  font-style: normal;
+}
+ol,
+ul {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  font-size: 100%;
+}
+body {
+  position: relative;
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: '\20';
+  display: block;
+  clear: both;
+}
+
+.zg-page {
+    font-family: Arial, '微软雅黑', sans-serif;
+    .sec-content {
+        max-width: 1200px;
+        margin: auto;
+    }
+    img {
+        display: block;
+        width: 100%;
+    }
+    .m {
+        display: none;
+    }
+    p {
+        font-size: 18px;
+        color: #33507a;
+    }
+    .white {
+        color: #fff;
+    }
+    .btn {
+        display: inline-block;
+        width: 192px;
+        height: 48px;
+        line-height: 48px;
+        font-size: 18px;
+        font-weight: bold;
+        border: 1px solid #fff;
+        color: #325078;
+        background-color: #fff;
+        text-align: center;
+        border-radius: 24px;
+        cursor: pointer;
+        &.outline {
+            color: #324d78;
+            border-color: #324d78;
+            background-color: transparent;
+        }
+        &.blue {
+            background: #324d78;
+            color: #fff;
+            border-color: #324d78;
+        }
+    }
+    .fl {
+        float: left;
+    }
+    .fr {
+        float: right;
+    }
+}
+
+.sec-1 {
+    padding: 110px 0 140px;
+    background-image: url('../RJ-img/a-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    .page-title {
+        margin-bottom: 50px;
+        font-size: 74px;
+        color: #fff;
+    }
+    .page-sub-title {
+        margin-bottom: 190px;
+        font-size: 36px;
+        color: #fff;
+    }
+    .btn:first-child {
+        margin-right: 260px;
+    }
+}
+.sec-2 {
+    padding: 75px 0 80px;
+    .sec-title {
+        margin-bottom: 45px;
+        font-size: 30px;
+        color: #324d78;
+        font-weight: bold;
+        text-align: center;
+    }
+    .sec-text {
+        margin-bottom: 30px;
+        font-size: 16px;
+        color: #333;
+    }
+    .blue-text {
+        color: #38a0dd;
+    }
+    .img-list {
+        padding-top: 20px;
+        font-size: 0;
+    }
+    .img-item {
+        display: inline-block;
+        width: 28%;
+        margin-right: 7%;
+        vertical-align: top;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    .top {
+        position: relative;
+    }
+    .mask {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        opacity: .3;
+        filter: alpha(opacity=30);
+    }
+    .bottom {
+        padding: 33px 20px 0;
+        height: 147px;
+        font-size: 16px;
+        color: #333;
+        box-shadow: 0 0 5px 0 #8b8b8b;
+    }
+    .img {
+        display: block;
+        width: 100%;
+    }
+    .icon-box {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+    }
+    .icon {
+        display: block;
+        width: auto;
+        height: 56px;
+        margin: auto;
+        margin-bottom: 35px;
+    }
+    .icon-text {
+        font-size: 24px;
+        color: #fff;
+    }
+}
+.sec-3 {
+    .img-item {
+        font-size: 0;
+    }
+    .left, .right {
+        display: inline-block;
+        width: 50%;
+        vertical-align: top;
+    }
+    .content {
+        width: 56%;
+        padding: 56px 65px;
+        background-color: transparent;
+    }
+    .big-img {
+        width: 100%;
+    }
+    .img-item-title {
+        margin-bottom: 40px;
+        font-size: 34px;
+        color: #324d78;
+    }
+    .text-list {
+        margin-bottom: 36px;
+        padding: 32px 0 32px 40px;
+        border-top: 1px solid #324d78;
+        border-bottom: 1px solid #324d78;
+    }
+    .sec-text {
+        margin-bottom: 40px;
+        font-size: 16px;
+        color: #333;
+        line-height: 1.6;
+    }
+    .text-item {
+        position: relative;
+        line-height: 40px;
+        font-size: 16px;
+        color: #333;
+    }
+    .blue-text {
+        color: #38a0dd;
+    }
+    .icon {
+        display: block;
+        position: absolute;
+        width: 26px;
+        left: -40px;
+        top: 5px;
+    }
+}
+
+@media screen and (max-width: 1680px){
+    
+}
+
+@media screen and (max-width: 1440px){
+}
+
+@media screen and (max-width: 1280px){
+}
+
+@media screen and (max-width: 1024px){
+    .zg-page {
+        .sec-content {
+            max-width: 1000px;
+        }
+    }
+    .sec-1 {
+    }
+}
+
+@media screen and (max-width: 960px){
+    .zg-page {
+        .sec-content {
+            max-width: 930px;
+        }
+    }
+    .sec-1 {
+    }
+}
+
+@media screen and (max-width: 768px){
+    .zg-page {
+        .pc {
+            display: none;
+        }
+        .m {
+            display: block;
+        }
+        .sec-content {
+            max-width: 730px;
+        }
+    }
+    .sec-1 {
+    }
+    .sec-2 {
+    }
+    .sec-3 {
+    }
+}
+
+@media screen and (max-width: 480px){
+    .zg-page {
+        .sec-content {
+            max-width: 450px;
+        }
+    }
+    .sec-1 {
+    }
+    .sec-2 {
+    }
+    .sec-3 {
+    }
+}
+
+@media screen and (max-width: 414px){
+    .zg-page {
+        .sec-content {
+            max-width: 414px;
+            margin: 0 15px;
+        }
+    }
+    .sec-1 {
+    }
+    .sec-2 {
+    }
+}
+
+@media screen and (max-width: 375px){
+    .zg-page {
+        .btn {
+            min-width: 100px;
+            width: auto;
+            padding: 0 10px;
+        }
+    }
+    .sec-1 {
+    }
+    .sec-2 {
+    }
+    .sec-3 {
+    }
+}
+
+@media screen and (max-width: 320px){
+}
