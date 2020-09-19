@@ -286,6 +286,9 @@ body {
   left: -40px;
   top: 5px;
 }
+.sec-3 .m {
+  display: none;
+}
 
 @media screen and (max-width: 1680px) {
   .sec-3 .content {
@@ -295,6 +298,17 @@ body {
 @media screen and (max-width: 1440px) {
   .sec-3 .content {
     width: 74%;
+    padding: 40px 65px;
+  }
+  .sec-3 .img-item-title {
+    margin-bottom: 35px;
+  }
+  .sec-3 .text-list {
+    margin-bottom: 30px;
+    padding: 28px 0 28px 40px;
+  }
+  .sec-3 .sec-text {
+    margin-bottom: 35px;
   }
 }
 @media screen and (max-width: 1280px) {

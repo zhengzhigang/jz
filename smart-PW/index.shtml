@@ -7,12 +7,11 @@
     <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no" />
     <meta property="wb:webmaster" content="209aa6880b9c0855" />
-    <meta name="description" content="锐捷网络维保服务是锐捷网络为购买网络产品的客户提供的响应式支持服务：锐捷服务工程师将通过远程、现场等方式对客户网络设备软、硬件问题进行诊断、处理，真正保障设备可用性，降低设备故障对业务运行的不良影响，充分满足客户对网络系统高效、稳定运行的要求。" />
-    <meta name="keywords" content="维保服务" />
+    <meta name="description" content="锐捷网络结合企业在新建、改造过程中固定和移动终端/机器的网络需求，提供生产不中断、数采可实时、无线零漫游的Smart-PW 企业生产无线解决方案，为企业提供端到端的完整服务，从而满足期望效果。" />
+    <meta name="keywords" content="生产无线,工业无线,车间无线,仓库无线,移动机器人无线,工业数采回传无线" />
     <meta name="robots" content="all" />
     <title>
-        维保服务 - 维保 - 服务产品
-
+        Smart-PW企业生产无线解决方案-工业无线-锐捷网络
     </title>
     <link rel="shortcut icon" href="//image.ruijie.com.cn/UIA/images/favicon.ico" type="image/x-icon" />
 </head>
@@ -21,13 +20,265 @@
     <!-- #include file="/HeaderUC_R.html" -->
 	
 	<!--内容正文开始-->
-
+    <link rel="stylesheet" href="./RJ-css/main.css">
+    <div class="zg-page">
+        <div class="sec-1">
+            <div class="sec-content clearfix">
+                <h1 class="page-title">设备互联互通   生产智能协同</h1>
+                <p class="page-sub-title">Smart-PW 企业生产无线解决方案</p>
+                <div class="btn-group">
+                    <a class="btn pre-sales-pop-ups-btn zixun">方案咨询</a>
+                    <a class="btn ziliao-down" href="">资料下载</a>
+                </div>
+            </div>
+        </div>
+        <div class="sec-2">
+            <div class="sec-content">
+                <h3 class="sec-title">应用设备</h3>
+                <p class="sec-text">
+                    在工业生产中，无线终端被广泛应用和快速普及，极大的提高了生产效率，
+                    无线终端接入成为构成工业4.0的基石。在实现无线终端接入的过程中，
+                    企业生产环境的无线网络稳定可靠连接面临着极大的困扰和挑战，
+                    尤其在生产车间和仓库存在大量移动无线终端（PDA/PAD/AGV等）
+                    和固定无线终端（MES/CNC/PLC等）联网的场景下，无线设备工业可靠性差、
+                    无线漫游差、丢包率高、延时高等问题，长期困扰着工业企业用户。
+                </p>
+                <p class="sec-text">
+                    锐捷网络结合企业在新建、改造过程中固定和移动终端/机器的网络需求，
+                    提供生产不中断、数采可实时、无线零漫游的<span class="blue-text">Smart-PW 企业生产无线解决方案，</span>
+                    为企业提供端到端的完整服务，从而满足期望效果。
+                </p>
+                <ul class="img-list">
+                    <li class="img-item">
+                        <div class="top">
+                            <div class="mask"></div>
+                            <img class="img" src="./RJ-img/b-img-01.jpg">
+                            <div class="icon-box">
+                                <img src="./RJ-img/b-icon-01.png" class="icon">
+                                <span class="icon-text">生产不中断</span>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            通过CHD自动补盲、移动预漫游、工业级AP等技术，解决生产网络不稳定、易中断的问题
+                        </div>
+                    </li>
+                    <li class="img-item">
+                        <div class="top">
+                            <div class="mask"></div>
+                            <img class="img" src="./RJ-img/b-img-02.jpg">
+                            <div class="icon-box">
+                                <img src="./RJ-img/b-icon-02.png" class="icon">
+                                <span class="icon-text">数采可实时</span>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            通过工业网关、链路聚合、低时延零丢包等技术，解决生产机器数据采集的可靠实时传输问题
+                        </div>
+                    </li>
+                    <li class="img-item">
+                        <div class="top">
+                            <div class="mask"></div>
+                            <img class="img" src="./RJ-img/b-img-03.jpg">
+                            <div class="icon-box">
+                                <img src="./RJ-img/b-icon-03.png" class="icon">
+                                <span class="icon-text">无线零漫游</span>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            通过三射频同频组网零漫游技术，在生产车间和仓库存在大量移动无线终端场景下，解决无线漫游差、丢包率高、延时高的问题
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="sec-3">
+            <ul class="img-list">
+                <li class="img-item">
+                    <div class="left">
+                        <a class="first-img" href=""><img class="big-img" src="./RJ-img/c-img-01.jpg"></a>
+                    </div>
+                    <div class="right clearfix">
+                        <div class="content fl">
+                            <h4 class="img-item-title">
+                                <a class="first-title" href="">工业无线零漫游解决方案</a>
+                            </h4>
+                            <ul class="text-list">
+                                <li class="text-item">
+                                    <span class="icon">
+                                        <img src="./RJ-img/c-icon-01.jpg" alt="">
+                                    </span>
+                                    <span class="blue-text">应用场景：</span>
+                                    <span>车间/仓库</span>
+                                </li>
+                                <li class="text-item">
+                                    <span class="icon">
+                                        <img src="./RJ-img/c-icon-02.jpg" alt="">
+                                    </span>
+                                    <span class="blue-text">主要用户：</span>
+                                    <span>工业企业</span>
+                                </li>
+                                <li class="text-item">
+                                    <span class="icon">
+                                        <img src="./RJ-img/c-icon-03.jpg" alt="">
+                                    </span>
+                                    <span class="blue-text">适用业务：</span>
+                                    <span>移动终端/移动机器人（如：PDA/PAD/AGV/无人叉车等）</span>
+                                </li>
+                            </ul>
+                            <p class="sec-text">
+                                移动终端和移动机器人高度依赖无线网络，较为常见的是PDA条形码扫描、
+                                二维码扫描等；AGV、无人叉车货物运输等。针对生产区域环境复杂、
+                                业务不能中断，仓储和分拣、出入库区内货架林立等特点，
+                                移动终端和移动机器人对无线网络漫游不连续丢包、低时延等的高可靠需求，
+                                锐捷网络基于该场景需求，推出工业无线零漫游解决方案。
+                            </p>
+                            <a href="" class="btn outline first-btn">查看详情</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="img-item">
+					<div class="right m">
+                        <a class="second-img" href=""><img class="big-img" src="./RJ-img/c-img-02.jpg"></a>
+                    </div>
+                    <div class="left clearfix">
+                        <div class="content fr">
+                            <h4 class="img-item-title">
+                                <a class="second-title" href="">工业数采无线回传解决方案</a>
+                            </h4>
+                            <ul class="text-list">
+                                <li class="text-item">
+                                    <span class="icon">
+                                        <img src="./RJ-img/c-icon-01.jpg" alt="">
+                                    </span>
+                                    <span class="blue-text">应用场景：</span>
+                                    <span>车间</span>
+                                </li>
+                                <li class="text-item">
+                                    <span class="icon">
+                                        <img src="./RJ-img/c-icon-02.jpg" alt="">
+                                    </span>
+                                    <span class="blue-text">主要用户：</span>
+                                    <span>工业企业</span>
+                                </li>
+                                <li class="text-item">
+                                    <span class="icon">
+                                        <img src="./RJ-img/c-icon-03.jpg" alt="">
+                                    </span>
+                                    <span class="blue-text">适用业务：</span>
+                                    <span>CNC机床联网</span>
+                                </li>
+                            </ul>
+                            <p class="sec-text">
+                                CNC机床的使用效率和管理水平直接关系着制造工厂的生产效率和质量，
+                                锐捷数控机床无线联网解决方案过工业网关及工业无线采集CNC数据，
+                                利用智能信息管理系统做大数据处理，统计分析机台产能、设备稼动率、
+                                刀具信息等，给出预测性维护、自动调控等信息，帮助制造业企业优化管理决策，
+                                节约人力成本、降低设备损耗，提升运营效率。
+                            </p>
+                            <a href="" class="btn blue second-btn">查看详情</a>
+                        </div>
+                    </div>
+                    <div class="right pc">
+                        <a class="second-img" href=""><img class="big-img" src="./RJ-img/c-img-02.jpg"></a>
+                    </div>
+                </li>
+                <li class="img-item">
+                    <div class="left">
+                        <a class="third-img" href=""><img class="big-img" src="./RJ-img/c-img-03.jpg"></a>
+                    </div>
+                    <div class="right clearfix">
+                        <div class="content fl">
+                            <h4 class="img-item-title">
+                                <a class="third-title" href="">移动机器人无线解决方案</a>
+                            </h4>
+                            <ul class="text-list">
+                                <li class="text-item">
+                                    <span class="icon">
+                                        <img src="./RJ-img/c-icon-01.jpg" alt="">
+                                    </span>
+                                    <span class="blue-text">应用场景：</span>
+                                    <span>车间/仓库</span>
+                                </li>
+                                <li class="text-item">
+                                    <span class="icon">
+                                        <img src="./RJ-img/c-icon-02.jpg" alt="">
+                                    </span>
+                                    <span class="blue-text">主要用户：</span>
+                                    <span>AGV本体企业、AGV本体企业</span>
+                                </li>
+                                <li class="text-item">
+                                    <span class="icon">
+                                        <img src="./RJ-img/c-icon-03.jpg" alt="">
+                                    </span>
+                                    <span class="blue-text">适用业务：</span>
+                                    <span>移动机器（如：AGV/无人叉车等）</span>
+                                </li>
+                            </ul>
+                            <p class="sec-text">
+                                在工业制造领域，AGV移动机器人在作业过程中，为了解决自己 
+                                “我在哪”、“我要去哪”、“怎么去” 等几个关键技术问题，
+                                高度依赖自身与调度系统之间的无线网络通讯。特别是研发生产AGV产品的AGV本体企业、
+                                在现有IT设施基础上采购/升级AGV的AGV终端企业，
+                                对应用场景中的无线通讯网络有着更严格要求，以便能更好地匹配其作业场景，
+                                保障生产线的顺畅。
+                            </p>
+                            <a class="third-btn" href="" class="btn outline">查看详情</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+	</div>
 	<!--内容正文结束-->
 
     <!-- #include file="/FooterUC_R.html" -->
 
     <script type='text/javascript'>
         _gsq.push(["T", "GWD-002457", "trackEvent", "内容页", "专题", ""]);
+        // 资料下载点击
+        $('.zg-page .ziliao-down').on('click', function() {
+            _gsq.push(["T", "GWD-002457", "trackEvent", "资料下载", "专题页资料下载", "专题页按钮 资料下载"]);
+        })
+        // 方案咨询点击
+        $('.zg-page .zixun').on('click', function() {
+            _gsq.push(["T", "GWD-002457", "trackEvent", "售前咨询", "专题页方案咨询", "专题页按钮 方案咨询"]);
+        })
+        // 图片点击
+        $('.zg-page .first-img').on('click', function() {
+            _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页查看详情", "专题页 工业无线零漫游解决方案图片点击"]);
+        })
+        // title点击
+        $('.zg-page .first-title').on('click', function() {
+            _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页查看详情", "专题页 工业无线零漫游解决方案点击"]);
+        })
+        // 查看详情按钮点击
+        $('.zg-page .first-btn').on('click', function() {
+            _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页查看详情", "专题页按钮 查看详情点击"]);
+        })
+        // 图片点击
+        $('.zg-page .second-img').on('click', function() {
+            _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页查看详情", "专题页 工业数采无线回传解决方案图片点击"]);
+        })
+        // title点击
+        $('.zg-page .second-title').on('click', function() {
+            _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页查看详情", "专题页 工业数采无线回传解决方案点击"]);
+        })
+        // 查看详情按钮点击
+        $('.zg-page .second-btn').on('click', function() {
+            _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页查看详情", "专题页按钮 查看详情点击"]);
+        })
+        // 图片点击
+        $('.zg-page .third-img').on('click', function() {
+            _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页查看详情", "专题页 移动机器人无线解决方案图片点击"]);
+        })
+        // title点击
+        $('.zg-page .third-title').on('click', function() {
+            _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页查看详情", "专题页 移动机器人无线解决方案"]);
+        })
+        // 查看详情按钮点击
+        $('.zg-page .third-btn').on('click', function() {
+            _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页查看详情", "专题页按钮 查看详情点击"]);
+        })
     </script>
 
 </body>

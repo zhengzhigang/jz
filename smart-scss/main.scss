@@ -275,6 +275,9 @@ body {
         left: -40px;
         top: 5px;
     }
+    .m {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 1680px){
@@ -289,6 +292,17 @@ body {
     .sec-3 {
         .content {
             width: 74%;
+            padding: 40px 65px;
+        }
+        .img-item-title {
+            margin-bottom: 35px;
+        }
+        .text-list {
+            margin-bottom: 30px;
+            padding: 28px 0 28px 40px;
+        }
+        .sec-text {
+            margin-bottom: 35px;
         }
     }
 }

@@ -9,40 +9,9 @@
 
   <body>
     <script>
-      var a = [
-        {},
-        {b: 1, subLength: 0},
-        {b: 1, subLength: 2},
-        {b: 1, subLength: 2},
-        {b: 1, subLength: 4},
-        {b: 1, subLength: 4},
-        {b: 1, subLength: 4},
-        {b: 1, subLength: 4},
-        {b: 1, subLength: 2},
-        {b: 1, subLength: 2}
-      ]
-      function getSplitIndex(list) {
-        let count = 0
-        let splitArr = []
-        let noSplitArr = []
-        let cur = -1
-        list.forEach((item, i) => {
-          debugger
-          if (!item.subLength) {
-            count++
-            noSplitArr.push(i)
-          } else {
-            if (i === count) {
-              splitArr.push(i)
-              count += item.subLength
-            }
-          }
-        })
-        return [splitArr, noSplitArr]
-      }
-
-      console.log('***', getSplitIndex(a))
-
+      var a = ['眼部套餐', '切开双眼皮', '埋线双眼皮', '微创双眼皮']
+      a.splice(2, 1)
+      console.log(a)
     </script>
   </body>
 </html>
