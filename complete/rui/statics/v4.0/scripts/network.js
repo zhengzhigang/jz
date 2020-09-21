@@ -87,10 +87,13 @@ $(function () {
 
   var swiper = new Swiper('.switch-content', {
     // autoHeight: true,
+    autoplay: true,
+    loop: true,
+    spaceBetween: 40,
     on: {
       slideChangeTransitionStart: function() {
         $('.switch .switch-item')
-          .eq(this.activeIndex).addClass('active')
+          .eq(this.realIndex).addClass('active')
           .siblings().removeClass('active');
       }
     }
