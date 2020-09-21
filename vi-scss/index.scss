@@ -404,12 +404,33 @@ html, body {
     }
 }
 
+@media screen and (max-width: 667px) {
+    .zg-wrapper {
+        .img-content {
+            .item {
+                width: auto;
+                height: 353px;
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 640px) {
     .zg-wrapper {
         .img-content {
             .item {
                 width: auto;
                 height: 338px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .zg-wrapper {
+        .img-content {
+            .item {
+                height: 298px;
             }
         }
     }
@@ -428,6 +449,7 @@ html, body {
 
 @media screen and (max-width: 500px) {
     .zg-wrapper {
+        padding-top: 50px;
         .img-content {
             .item {
                 width: auto;
@@ -436,6 +458,7 @@ html, body {
         }
         &-header {
             .dynamic-title {
+                line-height: 50px;
                 float: none;
             }
             .btn-group {
@@ -447,6 +470,10 @@ html, body {
         &-content {
             padding-top: 108px;
         }
+    }
+    .zg-header {
+        height: 50px;
+        line-height: 50px;
     }
 }
 

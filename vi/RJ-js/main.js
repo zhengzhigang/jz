@@ -457,6 +457,7 @@ var PAGE = {
         }
     ],
     init: function() {
+        var _this = this;
         console.time('cerate sidebar:')
         this.initSidebar();
         this.initLazyLoad();
@@ -464,6 +465,14 @@ var PAGE = {
         this.initSidebarEvent();
         this.initOnNav();
         this.wWidth = $(window).width();
+        window.addEventListener('resize', function() {
+            var scrollContent = $('#scrollContent');
+            scrollContent.animate({scrollTop: 0}, 0);
+            setTimeout(() => {
+                _this.initOnNav();
+                this.wWidth = $(window).width();
+            }, 100);
+        })
     },
     initSidebar: function() {
         var sidebar = $('.sidebar-list');
@@ -609,7 +618,7 @@ var PAGE = {
     },
     initOnNav: function() {
         var _self = this;
-         new Scrollspy({
+        new Scrollspy({
             scrollElement: '#scrollContent',
             offset: 242,
             selector: '.anchor-button',
