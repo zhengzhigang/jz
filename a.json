@@ -1,0 +1,245 @@
+{"error": 0,
+    "data":
+        {
+            "name": "品牌",
+            "tab_info": [
+                {"name": "药品", "field": "name"},
+                {"name": "规格", "field": "spec"},
+                {"name": "市场价", "field": "original_price"},
+                {"name": "更美价", "field": "gengmei_price"},
+                {"name": "头图", "field": "image_header"},
+                {"name": "预付款（元）", "field": "now_pre_payment"},
+                {"name": "到院（元）", "field": "hprice"},
+                {"name": "返款（元）", "field": "discount"},
+                {"name": "收入（元）", "field": "income"},
+                {"name": "是否售卖", "field": "is_online"}
+            ],
+            "values": [
+                {"id": 1, "name": "瑞兰"},
+                {"id": 2, "name": "乔雅登"},
+                {"id": 3, "name": "润百颜"},
+                {"id": 4, "name": "伊婉"}
+            ],
+            "choices": {
+                "1": [
+                    {
+                        "id": 1,
+                        "name": "瑞兰1号",
+                        "spec": "8ml"
+                    },
+                    {
+                        "id": 2,
+                        "name": "瑞兰2号",
+                        "spec": "14ml"
+                    }
+                ],
+                "2": [
+                    {
+                        "id": 21,
+                        "name": "乔雅登1号",
+                        "spec": "2ml"
+                    },
+                    {
+                        "id": 22,
+                        "name": "乔雅登2号",
+                        "spec": "4ml"
+                    }
+                ],
+                "3": [
+                    {
+                        "id": 31,
+                        "name": "润百颜2号",
+                        "spec": "1ml"
+                    },
+                    {
+                        "id": 32,
+                        "name": "润百颜2号",
+                        "spec": "13ml"
+                    }
+                ],
+                "4": [
+                    {
+                        "id": 41,
+                        "name": "伊婉2号",
+                        "spec": "1ml"
+                    },
+                    {
+                        "id": 42,
+                        "name": "伊婉2号",
+                        "spec": "10ml"
+                    }
+                ]
+            }
+        },
+    "message": ""
+}
+
+
+
+
+{
+    "error": 0,
+    "data": {
+        "image_header": "https://heras.igengmei.com/service/2020/05/14/fe7a7083c5",
+        "project_name": "\u5927\u8033\u7f29\u5c0f\u672f",
+        "video_url": "",
+        "service_name": "\u3010\u5317\u4eac@\u9732\u9732\u3011\u5927\u8033\u7f29\u5c0f\u672f",
+        "start_time": "2020-09-10 00:00:00",
+        "review_status": "0",
+        "extra_pay_info": "",
+        "video_token": "UPCOYIJkZOMcdd9FDzpBqYjzWUh55fBpVi3AhWpL:3MI0oaca470diKVlbe04kmNZnwc=:eyJzY29wZSI6InZpZGVvIiwiZGVhZGxpbmUiOjE1ODk0NDU1Mjl9",
+        "doctor_name": "\u9732\u9732",
+        "project_type": [{"id":135, "name":"hahah"}],
+        "turn_down_reason": null,
+        "reservation": 1,
+        "is_specialreview": true,
+        "upgrade": false,
+        "is_move": true,
+        "id": 196364,
+        "photo_details": "<p>dsadghasjdasdiuweyiuqwyeqweqweqw<p>",
+        "reject_reason": null,
+        "service_type": 0,
+        "old_items": [
+            {
+                "original_price": 4324,
+                "gengmei_price": 2342,
+                "name":"老sku",
+                "sku_description": "",
+                "id": 6118416,
+                "is_delete": false,
+                "sort": 0,
+                "seckill_price": 999999,
+                "discount": 50,
+                "is_online": true,
+                "now_pre_payment": 42,
+                "serviceregisteritem_id": 569261,
+                "can_edit_due_activity":false,
+                "property_id":null
+            },
+            {
+                "original_price": 432443,
+                "gengmei_price": 23224,
+                "name":"老sku",
+                "sku_description": "",
+                "id": 687416,
+                "is_delete": false,
+                "sort": 0,
+                "seckill_price": 999999,
+                "discount": 50,
+                "is_online": true,
+                "now_pre_payment": 42,
+                "serviceregisteritem_id": 569261,
+                "can_edit_due_activity":false,
+                "property_id":null
+            },
+            {
+                "original_price": 436524,
+                "gengmei_price": 234,
+                "name":"老sku",
+                "sku_description": "",
+                "id": 665416,
+                "is_delete": false,
+                "sort": 0,
+                "seckill_price": 999999,
+                "discount": 50,
+                "is_online": true,
+                "now_pre_payment": 42,
+                "serviceregisteritem_id": 569261,
+                "can_edit_due_activity":false,
+                "property_id":null
+            },
+            {
+                "original_price": 4324,
+                "gengmei_price": 234,
+                "name":"老sku",
+                "sku_description": "",
+                "id": 6694346,
+                "is_delete": false,
+                "sort": 0,
+                "seckill_price": 999999,
+                "discount": 50,
+                "is_online": true,
+                "now_pre_payment": 42,
+                "serviceregisteritem_id": 569261,
+                "can_edit_due_activity":false,
+                "property_id":null
+            },
+            {
+                "original_price": 4324,
+                "gengmei_price": 234,
+                "name":"老sku",
+                "sku_description": "",
+                "id": 669423,
+                "is_delete": false,
+                "sort": 0,
+                "seckill_price": 999999,
+                "discount": 50,
+                "is_online": true,
+                "now_pre_payment": 42,
+                "serviceregisteritem_id": 569261,
+                "can_edit_due_activity":false,
+                "property_id":null
+            }
+        ],
+        "items": [
+            {
+                "original_price": 4324,
+                "gengmei_price": 234,
+                "sku_description": "",
+                "id": 669416,
+                "is_delete": false,
+                "sort": 0,
+                "seckill_price": 999999,
+                "discount": 50,
+                "is_online": true,
+                "now_pre_payment": 42,
+                "serviceregisteritem_id": 569261,
+                "can_edit_due_activity":false,
+                "property_id":1
+            },
+            {
+                "original_price": 4324,
+                "gengmei_price": 234,
+                "sku_description": "",
+                "id": 669416,
+                "is_delete": false,
+                "sort": 0,
+                "seckill_price": 999999,
+                "discount": 50,
+                "is_online": true,
+                "now_pre_payment": 42,
+                "serviceregisteritem_id": 569261,
+                "can_edit_due_activity":false,
+                "property_id":2
+            },
+            {
+                "original_price": 4324,
+                "gengmei_price": 234,
+                "sku_description": "",
+                "id": 669416,
+                "is_delete": false,
+                "sort": 0,
+                "seckill_price": 999999,
+                "discount": 50,
+                "is_online": true,
+                "now_pre_payment": 42,
+                "serviceregisteritem_id": 569261,
+                "can_edit_due_activity":false,
+                "property_id":21
+            }
+        ],
+         "have_extra_pay": false,
+        "recommend_services": [
+            {"id":5885074,"name":"【北京@露露】 被柠-叶子-001"},
+            {"id":5885069,"name":"【北京@露露】 我是叶子"},
+            {"id":5885066,"name":"【北京@露露】 回归叶子-2"}
+        ],
+        "end_time": "2020-10-22 00:00:00",
+        "short_description": "343434343234",
+        "serviceregister_id": 5872028,
+        "doctor_id": "wangyang",
+        "supplement_images": [],
+        "video_pic": ""
+    },
+    "message": ""
+}
