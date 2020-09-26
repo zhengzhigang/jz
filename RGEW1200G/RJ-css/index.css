@@ -35,6 +35,49 @@
 .page-content {
   background-color: #fff;
 }
+.page-content .input-text {
+  position: relative;
+  display: inline-block;
+  padding: 0 25px;
+  line-height: 48px;
+  border-radius: 24px;
+  background-color: #ced3d5;
+  font-size: 20px;
+  color: #333;
+}
+.page-content .input-text.red {
+  background-color: #e50714;
+  color: #fff;
+}
+.page-content .input-text.blue {
+  background-color: #2c6afd;
+  color: #fff;
+}
+.page-content .input-text.dark {
+  background-color: #121921;
+  color: #fff;
+}
+.page-content .input-text.outline {
+  line-height: 46px;
+  border: 1px solid #2c6afd;
+  background-color: #1a202c;
+  color: #fff;
+}
+.page-content .input-text .arrow {
+  position: absolute;
+  height: 0;
+  border-right: 9px solid transparent;
+  border-left: 9px solid transparent;
+  border-top: 9px solid #e50714;
+  bottom: -8px;
+  left: 20px;
+}
+.page-content .input-text .search {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  background: url("../RJ-img/d-icon-01.png") center/100% no-repeat;
+}
 
 .section-box {
   width: 100%;
@@ -52,17 +95,76 @@
   color: #333333;
   text-align: center;
 }
+.section-1 .swiper-button-next {
+  width: 52px;
+  height: 102px;
+  background: url("../RJ-img/a-arrow-right.png") center/100% no-repeat;
+}
+.section-1 .swiper-button-prev {
+  width: 52px;
+  height: 102px;
+  background: url("../RJ-img/a-arrow-left.png") center/100% no-repeat;
+}
 
 .section-2 {
+  background: #eff2f3;
+}
+.section-2 .info {
+  padding: 96px 0 480px;
+  background: url("../RJ-img/b-01.png") right bottom/80% no-repeat;
   position: relative;
+}
+.section-2 .black-text {
+  margin-bottom: 10px;
+  font-size: 46px;
+  color: #333333;
+}
+.section-2 .text {
+  margin-bottom: 35px;
+  font-size: 24px;
+  color: #333333;
 }
 
 .section-3 {
-  padding-top: 60px;
+  padding: 112px 0 95px;
   background: url("../RJ-img/c-bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+.section-3 .top {
+  margin-bottom: 580px;
+}
+.section-3 .top .input-text {
+  margin-bottom: 15px;
+}
+.section-3 .top .sec-title {
+  margin-bottom: 65px;
+  font-size: 36px;
+  color: #fff;
+}
+.section-3 .top .text {
+  font-size: 24px;
+  color: #fff;
+}
+.section-3 .top .big-text {
+  font-size: 46px;
+  color: #fff;
+}
+.section-3 .bottom {
+  text-align: center;
+}
+.section-3 .bottom .sec-title {
+  font-size: 46px;
+  color: #fff;
+  margin-bottom: 25px;
+}
+.section-3 .icon-list {
+  font-size: 0;
+}
+.section-3 .icon-list .icon-item {
+  display: inline-block;
+  width: 16.66666666%;
 }
 
 .section-4 {

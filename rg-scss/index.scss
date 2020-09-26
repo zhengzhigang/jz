@@ -31,6 +31,49 @@
 /* 正文部分 */
 .page-content {
     background-color: #fff;
+    .input-text {
+        position: relative;
+        display: inline-block;
+        padding: 0 25px;
+        line-height: 48px;
+        border-radius: 24px;
+        background-color: #ced3d5;
+        font-size: 20px;
+        color: #333;
+        &.red {
+            background-color: #e50714;
+            color: #fff;
+        }
+        &.blue {
+            background-color: #2c6afd;
+            color: #fff;
+        }
+        &.dark {
+            background-color: #121921;
+            color: #fff;
+        }
+        &.outline {
+            line-height: 46px;
+            border: 1px solid #2c6afd;
+            background-color: #1a202c;
+            color: #fff;
+        }
+        .arrow {
+            position: absolute;
+            height:0;
+            border-right: 9px solid transparent;
+            border-left: 9px solid transparent;
+            border-top: 9px solid #e50714;
+            bottom: -8px;
+            left: 20px;
+        }
+        .search {
+            display: inline-block;
+            width: 19px;
+            height: 19px;
+            background: url('../RJ-img/d-icon-01.png') center/100% no-repeat;
+        }
+    }
 }
 .section-box {
     width: 100%;
@@ -47,18 +90,77 @@
         color: #333333;
         text-align: center;
     }
+    .swiper-button-next {
+        width: 52px;
+        height: 102px;
+        background: url('../RJ-img/a-arrow-right.png') center/100% no-repeat;
+    }
+    .swiper-button-prev {
+        width: 52px;
+        height: 102px;
+        background: url('../RJ-img/a-arrow-left.png') center/100% no-repeat;
+    }
 }
 
 .section-2 {
-    position: relative;
+    background: #eff2f3;
+    .info {
+        padding: 96px 0 480px;
+        background: url('../RJ-img/b-01.png') right bottom/80% no-repeat;
+        position: relative;
+    }
+    .black-text {
+        margin-bottom: 10px;
+        font-size: 46px;
+        color: #333333;
+    }
+    .text {
+        margin-bottom: 35px;
+        font-size: 24px;
+        color: #333333;
+    }
 }
 
 .section-3 {
-    padding-top: 60px;
+    padding: 112px 0 95px;
     background: url('../RJ-img/c-bg.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    .top {
+        margin-bottom: 580px;
+        .input-text {
+            margin-bottom: 15px;
+        }
+        .sec-title {
+            margin-bottom: 65px;
+            font-size: 36px;
+            color: #fff;
+        }
+        .text {
+            font-size: 24px;
+            color: #fff;
+        }
+        .big-text {
+            font-size: 46px;
+            color: #fff;
+        }
+    }
+    .bottom {
+        text-align: center;
+        .sec-title {
+            font-size: 46px;
+            color: #fff;
+            margin-bottom: 25px;
+        }
+    }
+    .icon-list {
+        font-size: 0;
+        .icon-item {
+            display: inline-block;
+            width: 16.66666666%;
+        }
+    }
 }
 
 .section-4 {
