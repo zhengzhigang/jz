@@ -378,6 +378,7 @@ html, body {
     padding-top: 60px;
   }
   .zg-wrapper-header {
+    display: none;
     left: 0;
     padding: 0 20px;
   }
@@ -386,7 +387,7 @@ html, body {
   }
   .zg-wrapper-content {
     padding: 20px;
-    padding-top: 70px;
+    padding-top: 20px;
   }
   .zg-wrapper .info-title {
     line-height: 60px;
@@ -442,9 +443,6 @@ html, body {
     margin-top: 0;
     text-align: right;
   }
-  .zg-wrapper-content {
-    padding-top: 108px;
-  }
 
   .zg-header {
     height: 50px;
@@ -460,7 +458,6 @@ html, body {
   }
   .zg-wrapper-content {
     padding: 10px;
-    padding-top: 108px;
   }
 
   .zg-wrapper .info-title {

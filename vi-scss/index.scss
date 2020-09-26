@@ -376,6 +376,7 @@ html, body {
         padding-left: 0;
         padding-top: 60px;
         &-header {
+            display: none;
             left: 0;
             padding: 0 20px;
             .dynamic-title{
@@ -384,7 +385,7 @@ html, body {
         }
         &-content {
             padding: 20px;
-            padding-top: 70px;
+            padding-top: 20px;
         }
         .info-title {
             line-height: 60px;
@@ -467,9 +468,6 @@ html, body {
                 text-align: right;
             }
         }
-        &-content {
-            padding-top: 108px;
-        }
     }
     .zg-header {
         height: 50px;
@@ -489,7 +487,6 @@ html, body {
         }
         &-content {
             padding: 10px;
-            padding-top: 108px;
         }
     }
     .zg-wrapper {

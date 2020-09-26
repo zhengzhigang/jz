@@ -601,11 +601,8 @@ var PAGE = {
     },
     getDiff: function() {
         var w = this.wWidth;
-        if (w <= 500) {
-            return 240;
-        }
         if (w <= 768) {
-            return 212;
+            return 162;
         }
         return 232
     },
