@@ -76,7 +76,33 @@
   display: inline-block;
   width: 19px;
   height: 19px;
+  margin-right: 4px;
   background: url("../RJ-img/d-icon-01.png") center/100% no-repeat;
+  vertical-align: middle;
+}
+.page-content .link-piece {
+  position: relative;
+  width: 4px;
+  height: 156px;
+  background: #44444e;
+}
+.page-content .link-piece .top-circle, .page-content .link-piece .bottom-circle {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  left: -4px;
+}
+.page-content .link-piece .top-circle {
+  top: 0;
+  background-color: #595c63;
+}
+.page-content .link-piece .bottom-circle {
+  bottom: 0;
+  background-color: #5a9cfd;
+}
+.page-content .blue {
+  color: #2c6afd;
 }
 
 .section-box {
@@ -126,7 +152,7 @@
 }
 
 .section-3 {
-  padding: 112px 0 95px;
+  padding: 112px 0 160px;
   background: url("../RJ-img/c-bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -159,6 +185,9 @@
   color: #fff;
   margin-bottom: 25px;
 }
+.section-3 .pro-img {
+  margin: auto;
+}
 .section-3 .icon-list {
   font-size: 0;
 }
@@ -166,34 +195,328 @@
   display: inline-block;
   width: 16.66666666%;
 }
+.section-3 .icon-list .icon {
+  height: 65px;
+  margin: auto;
+  margin-bottom: 18px;
+}
+.section-3 .icon-list .icon-text {
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+}
 
 .section-4 {
-  padding: 130px 0 75px;
+  position: relative;
+  padding: 150px 0 75px;
   background: url("../RJ-img/d-bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
+.section-4 .link-piece {
+  position: absolute;
+  left: 50%;
+  margin-left: -2px;
+  top: -78px;
+}
+.section-4 .sec-title {
+  margin-bottom: 28px;
+  font-size: 28px;
+  color: #fff;
+}
+.section-4 .title {
+  text-align: center;
+}
+.section-4 .section-input {
+  margin-bottom: 170px;
+  width: 540px;
+}
+.section-4 .item {
+  margin-bottom: 200px;
+  font-size: 0;
+}
+.section-4 .item:last-child {
+  margin: 0;
+}
+.section-4 .item .input-text {
+  margin-bottom: 35px;
+  min-width: 266px;
+}
+.section-4 .item img {
+  display: block;
+  width: 100%;
+}
+.section-4 .left, .section-4 .right {
+  display: inline-block;
+  vertical-align: middle;
+}
+.section-4 .left {
+  width: 58%;
+}
+.section-4 .right {
+  width: 42%;
+}
+.section-4 .item-title {
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #5a9bfd;
+}
+.section-4 .text-item {
+  position: relative;
+  padding-left: 30px;
+  font-size: 16px;
+  color: #878b95;
+  line-height: 48px;
+}
+.section-4 .text-item::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 13px;
+  width: 21px;
+  height: 21px;
+  background: url("../RJ-img/d-icon-02.png") center/100% no-repeat;
+}
 
-.section-5 {
-  padding: 85px 0 90px;
-  background: url("../RJ-img/f-bg.jpg");
+.section-5 .bottom {
+  padding: 55px 0 90px;
+  background: url("../RJ-img/e-03.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+.section-5 .sec-title {
+  margin-bottom: 25px;
+  font-size: 28px;
+  color: #fff;
+  text-align: center;
+}
+.section-5 .input-text {
+  padding: 0 30px;
+  display: block;
+  margin: auto;
+}
+.section-5 .icon-list {
+  font-size: 0;
+  text-align: center;
+}
+.section-5 .icon-item {
+  display: inline-block;
+  width: 250px;
+}
+.section-5 .icon {
+  height: 80px;
+  margin-bottom: 25px;
+  margin: auto;
+}
+.section-5 .icon-text {
+  text-align: center;
+  font-size: 22px;
+  color: #fff;
 }
 
 .section-6 {
   position: relative;
-  padding: 100px 0 50px;
+  padding: 150px 0;
+  background: url("../RJ-img/d-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.section-6 .sec-title {
+  margin-bottom: 28px;
+  font-size: 28px;
+  color: #fff;
+}
+.section-6 .title {
+  text-align: center;
+}
+.section-6 .input-text {
+  margin-bottom: 170px;
+  width: 540px;
+}
+.section-6 .item {
+  margin-bottom: 200px;
+  font-size: 0;
+}
+.section-6 .item:last-child {
+  margin: 0;
+}
+.section-6 .item .input-text {
+  margin-bottom: 35px;
+  min-width: 266px;
+}
+.section-6 .item img {
+  display: block;
+  width: 100%;
+}
+.section-6 .left, .section-6 .right {
+  display: inline-block;
+  vertical-align: middle;
+}
+.section-6 .left {
+  width: 58%;
+}
+.section-6 .right {
+  width: 42%;
+}
+.section-6 .item-title {
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #5a9bfd;
+}
+.section-6 .text-item {
+  position: relative;
+  padding-left: 30px;
+  font-size: 16px;
+  color: #878b95;
+  line-height: 48px;
+}
+.section-6 .text-item.blue {
+  color: #2c6afd;
+}
+.section-6 .text-item::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 13px;
+  width: 21px;
+  height: 21px;
+  background: url("../RJ-img/d-icon-02.png") center/100% no-repeat;
 }
 
 .section-7 {
   padding: 80px 0 116px;
-  background: url("../RJ-img/h-bg.jpg");
+  background: url("../RJ-img/d-bg.jpg");
   background-repeat: no-repeat;
+  background-position: center top;
   background-size: cover;
+}
+.section-7 .sec-title {
+  margin-bottom: 130px;
+  font-size: 28px;
+  color: #fff;
+  text-align: center;
+}
+.section-7 .box {
+  font-size: 0;
+}
+.section-7 .box .left, .section-7 .box .right {
+  display: inline-block;
+  width: 50%;
+  vertical-align: middle;
+}
+.section-7 .icon {
+  margin-bottom: 50px;
+}
+.section-7 .height-text {
+  color: #878b95;
+  font-size: 16px;
+  line-height: 50px;
+  margin-bottom: 45px;
+}
+.section-7 .icon-box .item {
+  display: inline-block;
+  width: 100px;
+  margin-right: 42px;
+}
+.section-7 .text {
+  margin-bottom: 30px;
+  font-size: 22px;
+}
+.section-7 .pro-img {
+  width: 130%;
+  max-width: 130%;
+}
+
+.section-8 {
+  padding: 10px 0 60px;
+  background-color: #191a1e;
+  text-align: center;
+}
+.section-8 .sec-icon {
+  width: 140px;
+  margin: auto;
+  margin-bottom: 55px;
+}
+.section-8 .text {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #fff;
+  line-height: 40px;
+  text-align: center;
+}
+.section-8 .input-text {
+  width: 318px;
+}
+
+.section-9 {
+  padding: 100px 0 110px;
+  background-color: #fff;
+}
+.section-9 .sec-title {
+  margin-bottom: 65px;
+  font-size: 28px;
+  color: #343333;
+  text-align: center;
+}
+.section-9 .table {
+  width: 100%;
+  border: 1px solid #ebebeb;
+}
+.section-9 td, .section-9 tr {
+  border: 1px solid #ebebeb;
+}
+.section-9 td {
+  padding: 15px 50px;
+  text-align: center;
+}
+.section-9 td.gray {
+  background-color: #f4f4f4;
+}
+
+.section-10 {
+  padding: 65px 0 130px;
+  background: url("../RJ-img/j-bg.jpg");
+  background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
+}
+.section-10 .sec-title {
+  margin-bottom: 25px;
+  font-size: 28px;
+  color: #343333;
+  text-align: center;
+}
+.section-10 .icon-list {
+  font-size: 0;
+}
+.section-10 .icon-item {
+  position: relative;
+  width: 33.33333%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+.section-10 .icon {
+  height: 80px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.section-10 .text {
+  font-size: 20px;
+  color: #343333;
+}
+.section-10 .line {
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background-color: #aaaaaa;
 }
 
 @media screen and (max-width: 1280px) {
