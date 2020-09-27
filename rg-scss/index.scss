@@ -799,6 +799,74 @@
 }
 
 @media screen and (max-width: 480px){
+    .section-content{
+        .input-text {
+            position: relative;
+            display: inline-block;
+            padding: 0 25px;
+            line-height: 48px;
+            border-radius: 24px;
+            background-color: #ced3d5;
+            font-size: 20px;
+            color: #333;
+            &.red {
+                background-color: #e50714;
+                color: #fff;
+            }
+            &.blue {
+                background-color: #2c6afd;
+                color: #fff;
+            }
+            &.dark {
+                background-color: #121921;
+                color: #fff;
+            }
+            &.outline {
+                line-height: 46px;
+                border: 1px solid #2c6afd;
+                background-color: #1a202c;
+                color: #fff;
+            }
+            .arrow {
+                position: absolute;
+                height:0;
+                border-right: 9px solid transparent;
+                border-left: 9px solid transparent;
+                border-top: 9px solid #e50714;
+                bottom: -8px;
+                left: 30px;
+            }
+            .search {
+                display: inline-block;
+                width: 19px;
+                height: 19px;
+                margin-right: 4px;
+                background: url('../RJ-img/d-icon-01.png') center/100% no-repeat;
+                vertical-align: middle;
+            }
+        }
+        .link-piece {
+            position: relative;
+            width: 4px;
+            height: 120px;
+            background: #44444e;
+            .top-circle, .bottom-circle {
+                position: absolute;
+                width: 12px;
+                height: 12px;
+                border-radius: 6px;
+                left: -4px;
+            }
+            .top-circle {
+                top: 0;
+                background-color: #595c63;
+            }
+            .bottom-circle {
+                bottom: 0;
+                background-color: #5a9cfd;
+            }
+        }
+    }
     .section-1 {
         overflow: hidden;
         padding: 110px 0 80px;
@@ -846,13 +914,12 @@
             border-radius: 30px;
         }
         .icon-list {
-            font-size: 0;
             .icon-item {
-                width: 33.33333%;
+                width: 50%;
                 margin-bottom: 40px;
             }
             .icon {
-                height: 55px;
+                height: 40px;
             }
         }
     }
