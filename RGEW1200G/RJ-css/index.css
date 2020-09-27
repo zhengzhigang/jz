@@ -35,6 +35,9 @@
 .page-content {
   background-color: #fff;
 }
+.page-content .bold {
+  font-weight: bold;
+}
 .page-content .input-text {
   position: relative;
   display: inline-block;
@@ -70,7 +73,7 @@
   border-left: 9px solid transparent;
   border-top: 9px solid #e50714;
   bottom: -8px;
-  left: 20px;
+  left: 30px;
 }
 .page-content .input-text .search {
   display: inline-block;
@@ -114,6 +117,7 @@
 .section-1 {
   overflow: hidden;
   padding: 110px 0 80px;
+  background-color: #f4f4f4;
 }
 .section-1 .text {
   margin-bottom: 90px;
@@ -194,6 +198,7 @@
 .section-3 .icon-list .icon-item {
   display: inline-block;
   width: 16.66666666%;
+  vertical-align: top;
 }
 .section-3 .icon-list .icon {
   height: 65px;
@@ -308,8 +313,8 @@
 }
 .section-5 .icon {
   height: 80px;
-  margin-bottom: 25px;
   margin: auto;
+  margin-bottom: 25px;
 }
 .section-5 .icon-text {
   text-align: center;
@@ -524,89 +529,237 @@
     max-width: 1000px;
   }
 
-  .section-4 .section-box {
-    max-width: 1200px;
+  .section-5 .input-text {
+    height: 60px;
+    line-height: 30px;
+    border-radius: 40px;
+    padding: 10px 30px;
+    text-align: center;
   }
 }
 @media screen and (max-width: 1024px) {
   .section-box {
-    max-width: 1000px;
+    max-width: 960px;
   }
 
-  .page-title {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-
-  .title-text {
-    font-size: 32px;
-    line-height: 56px;
-  }
-
-  .section-1 {
-    padding: 30px 0 50px;
-  }
-
-  .section-3 {
-    padding-top: 50px;
-  }
-
-  .section-4 {
-    padding: 70px 0 55px;
-  }
-
-  .section-5 {
-    padding: 65px 0 80px;
-  }
-
-  .section-7 {
-    padding: 70px 0 100px;
+  .section-3 .pro-img {
+    width: 80%;
   }
 }
 @media screen and (max-width: 768px) {
-  .title-text {
-    font-size: 28px;
-    line-height: 50px;
-    margin-left: 15px;
-    margin-right: 15px;
-  }
-
-  .small-text {
-    font-size: 16px;
-    line-height: 30px;
-    margin-left: 15px;
-    margin-right: 15px;
-  }
-
-  .page-title {
-    font-size: 38px;
-  }
-
-  .page-content .m {
-    display: block;
-  }
-  .page-content .pc {
-    display: none;
+  .section-box {
+    width: auto;
+    max-width: auto;
+    margin: 0 20px;
   }
 
   .section-1 {
-    padding: 30px 0 50px;
+    overflow: hidden;
+    padding: 110px 0 80px;
+    background-color: #f4f4f4;
+  }
+  .section-1 img {
+    width: 300px;
+  }
+
+  .section-2 {
+    background: #eff2f3;
+  }
+  .section-2 .info {
+    padding: 70px 0 380px;
+  }
+  .section-2 .black-text {
+    font-size: 36px;
+  }
+  .section-2 .text {
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+
+  .section-3 {
+    padding: 80px 0 120px;
+  }
+  .section-3 .top {
+    margin-bottom: 460px;
+  }
+  .section-3 .top .sec-title {
+    margin-bottom: 50px;
+    font-size: 28px;
+  }
+  .section-3 .top .text {
+    font-size: 18px;
+  }
+  .section-3 .top .big-text {
+    font-size: 36px;
+  }
+  .section-3 .bottom .sec-title {
+    font-size: 36px;
+  }
+  .section-3 .icon-list {
+    font-size: 0;
+  }
+  .section-3 .icon-list .icon-item {
+    width: 33.33333%;
+    margin-bottom: 40px;
+  }
+  .section-3 .icon-list .icon {
+    height: 55px;
   }
 
   .section-4 {
-    padding: 20px 0 50px;
+    position: relative;
+    padding: 120px 0 70px;
+  }
+  .section-4 .sec-title {
+    margin-bottom: 25px;
+    font-size: 24px;
+  }
+  .section-4 .section-input {
+    margin-bottom: 120px;
+    width: 500px;
+  }
+  .section-4 .item {
+    margin-bottom: 120px;
+  }
+  .section-4 .item .input-text {
+    margin-bottom: 30px;
+  }
+  .section-4 .left, .section-4 .right {
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .section-4 .item-title {
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+  .section-4 .text-item {
+    line-height: 40px;
+  }
+  .section-4 img {
+    margin: auto;
   }
 
-  .section-5 {
-    padding: 45px 0 60px;
+  .section-5 .sec-title {
+    margin-bottom: 25px;
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+  }
+  .section-5 .input-text {
+    padding: 0 30px;
+    display: block;
+    margin: auto;
+  }
+  .section-5 .icon-list {
+    font-size: 0;
+    text-align: center;
+  }
+  .section-5 .icon-item {
+    display: inline-block;
+    width: 250px;
+  }
+  .section-5 .icon {
+    height: 70px;
+  }
+  .section-5 .icon-text {
+    font-size: 16px;
   }
 
   .section-6 {
-    padding: 40px 0 30px;
+    padding: 90px 0;
+  }
+  .section-6 .sec-title {
+    margin-bottom: 25px;
+    font-size: 24px;
+  }
+  .section-6 .section-input {
+    margin-bottom: 120px;
+    width: 500px;
+  }
+  .section-6 .item {
+    margin-bottom: 120px;
+  }
+  .section-6 .item .input-text {
+    margin-bottom: 30px;
+  }
+  .section-6 .left, .section-6 .right {
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .section-6 .item-title {
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+  .section-6 .text-item {
+    line-height: 40px;
+  }
+  .section-6 img {
+    margin: auto;
   }
 
   .section-7 {
-    padding: 60px 0 116px;
+    padding: 80px 0;
+  }
+  .section-7 .sec-title {
+    margin-bottom: 90px;
+    font-size: 24px;
+  }
+  .section-7 .box .left, .section-7 .box .right {
+    width: 100%;
+  }
+  .section-7 .icon {
+    margin-bottom: 30px;
+  }
+  .section-7 .height-text {
+    color: #878b95;
+    font-size: 16px;
+    line-height: 40px;
+    margin-bottom: 30px;
+  }
+  .section-7 .icon-box .item {
+    display: inline-block;
+    width: 100px;
+    margin-right: 42px;
+  }
+  .section-7 .text {
+    margin-bottom: 30px;
+    font-size: 22px;
+  }
+  .section-7 .pro-img {
+    width: 80%;
+    margin: auto;
+  }
+
+  .section-8 .sec-icon {
+    width: 100px;
+    margin-bottom: 45px;
+  }
+  .section-8 .text {
+    font-size: 20px;
+  }
+
+  .section-9 {
+    padding: 80px 0;
+  }
+  .section-9 .sec-title {
+    margin-bottom: 40px;
+    font-size: 24px;
+  }
+
+  .section-10 {
+    padding: 40px 0 80px;
+  }
+  .section-10 .sec-title {
+    font-size: 24px;
+  }
+  .section-10 .icon {
+    height: 60px;
+  }
+  .section-10 .text {
+    font-size: 16px;
+    color: #343333;
   }
 }
 @media screen and (max-width: 480px) {
