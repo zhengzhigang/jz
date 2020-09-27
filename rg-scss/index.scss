@@ -103,6 +103,9 @@
     .blue {
         color: #2c6afd;
     }
+    .m {
+        display: none;
+    }
 }
 .section-box {
     width: 100%;
@@ -338,6 +341,7 @@
     .input-text {
         margin-bottom: 170px;
         width: 540px;
+        text-align: center;
     }
     .item {
         margin-bottom: 200px;
@@ -549,6 +553,14 @@
 }
 
 @media screen and (max-width: 768px){
+    .page-content {
+        .pc {
+            display: none!important;
+        }
+        .m {
+            display: block;
+        }
+    }
     .section-box {
         width: auto;
         max-width: auto;
@@ -682,9 +694,13 @@
             width: 500px;
         }
         .item {
-            margin-bottom: 120px;
+            margin-bottom: 80px;
             .input-text {
                 margin-bottom: 30px;
+                width: auto;
+            }
+            img {
+                width: 70%;
             }
         }
         .left, .right {
@@ -711,12 +727,16 @@
             font-size: 24px;
         }
         .box {
+            text-align: center;
             .left, .right {
                 width: 100%;
             }
         }
         .icon {
             margin-bottom: 30px;
+            img {
+                margin: auto;
+            }
         }
         .height-text {
             color: #878b95;
@@ -728,6 +748,12 @@
             display: inline-block;
             width: 100px;
             margin-right: 42px;
+            &:last-child {
+                margin-right: 0;
+            }
+            img {
+                margin: auto;
+            }
         }
         .text {
             margin-bottom: 30px;
@@ -773,37 +799,62 @@
 }
 
 @media screen and (max-width: 480px){
-    .title-text {
-        font-size: 24px;
-        line-height: 40px;
-    }
-    .small-text {
-        font-size: 14px;
-        line-height: 26px;
-    }
-    .page-title {
-        font-size: 34px;
-    }
-
     .section-1 {
-        padding: 25px 0;
+        overflow: hidden;
+        padding: 110px 0 80px;
+        .text {
+            margin-bottom: 60px;
+        }
+        img {
+            width: 260px;
+        }
+        .swiper-button-next {
+            width: 34px;
+        }
+        .swiper-button-prev {
+            width: 34px;
+        }
     }
     .section-2 {
+        background: #eff2f3;
+        .info {
+            padding: 50px 0 280px;
+        }
     }
     .section-3 {
-        padding-top: 30px;
-    }
-    .section-4 {
-        padding: 30px 0 50px;
-    }
-    .section-5 {
-        padding: 35px 0 40px;
-    }
-    .section-6 {
-        padding: 30px 0 30px;
-    }
-    .section-7 {
-        padding: 40px 0 86px;
+        padding: 50px 0 60px;
+        .top {
+            margin-bottom: 360px;
+            .sec-title {
+                margin-bottom: 30px;
+            }
+            .text {
+                font-size: 16px;
+            }
+            .big-text {
+                font-size: 32px;
+            }
+        }
+        .bottom {
+            .sec-title {
+                font-size: 32px;
+            }
+        }
+        .input-text {
+            height: auto;
+            line-height: 30px;
+            border-radius: 30px;
+        }
+        .icon-list {
+            font-size: 0;
+            .icon-item {
+                width: 33.33333%;
+                margin-bottom: 40px;
+            }
+            .icon {
+                height: 55px;
+            }
+        }
     }
 }
 

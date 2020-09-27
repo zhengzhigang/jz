@@ -107,6 +107,9 @@
 .page-content .blue {
   color: #2c6afd;
 }
+.page-content .m {
+  display: none;
+}
 
 .section-box {
   width: 100%;
@@ -341,6 +344,7 @@
 .section-6 .input-text {
   margin-bottom: 170px;
   width: 540px;
+  text-align: center;
 }
 .section-6 .item {
   margin-bottom: 200px;
@@ -547,6 +551,13 @@
   }
 }
 @media screen and (max-width: 768px) {
+  .page-content .pc {
+    display: none !important;
+  }
+  .page-content .m {
+    display: block;
+  }
+
   .section-box {
     width: auto;
     max-width: auto;
@@ -678,10 +689,14 @@
     width: 500px;
   }
   .section-6 .item {
-    margin-bottom: 120px;
+    margin-bottom: 80px;
   }
   .section-6 .item .input-text {
     margin-bottom: 30px;
+    width: auto;
+  }
+  .section-6 .item img {
+    width: 70%;
   }
   .section-6 .left, .section-6 .right {
     width: 100%;
@@ -706,11 +721,17 @@
     margin-bottom: 90px;
     font-size: 24px;
   }
+  .section-7 .box {
+    text-align: center;
+  }
   .section-7 .box .left, .section-7 .box .right {
     width: 100%;
   }
   .section-7 .icon {
     margin-bottom: 30px;
+  }
+  .section-7 .icon img {
+    margin: auto;
   }
   .section-7 .height-text {
     color: #878b95;
@@ -722,6 +743,12 @@
     display: inline-block;
     width: 100px;
     margin-right: 42px;
+  }
+  .section-7 .icon-box .item:last-child {
+    margin-right: 0;
+  }
+  .section-7 .icon-box .item img {
+    margin: auto;
   }
   .section-7 .text {
     margin-bottom: 30px;
@@ -763,42 +790,62 @@
   }
 }
 @media screen and (max-width: 480px) {
-  .title-text {
-    font-size: 24px;
-    line-height: 40px;
-  }
-
-  .small-text {
-    font-size: 14px;
-    line-height: 26px;
-  }
-
-  .page-title {
-    font-size: 34px;
-  }
-
   .section-1 {
-    padding: 25px 0;
+    overflow: hidden;
+    padding: 110px 0 80px;
+  }
+  .section-1 .text {
+    margin-bottom: 60px;
+  }
+  .section-1 img {
+    width: 260px;
+  }
+  .section-1 .swiper-button-next {
+    width: 34px;
+  }
+  .section-1 .swiper-button-prev {
+    width: 34px;
+  }
+
+  .section-2 {
+    background: #eff2f3;
+  }
+  .section-2 .info {
+    padding: 50px 0 280px;
   }
 
   .section-3 {
-    padding-top: 30px;
+    padding: 50px 0 60px;
   }
-
-  .section-4 {
-    padding: 30px 0 50px;
+  .section-3 .top {
+    margin-bottom: 360px;
   }
-
-  .section-5 {
-    padding: 35px 0 40px;
+  .section-3 .top .sec-title {
+    margin-bottom: 30px;
   }
-
-  .section-6 {
-    padding: 30px 0 30px;
+  .section-3 .top .text {
+    font-size: 16px;
   }
-
-  .section-7 {
-    padding: 40px 0 86px;
+  .section-3 .top .big-text {
+    font-size: 32px;
+  }
+  .section-3 .bottom .sec-title {
+    font-size: 32px;
+  }
+  .section-3 .input-text {
+    height: auto;
+    line-height: 30px;
+    border-radius: 30px;
+  }
+  .section-3 .icon-list {
+    font-size: 0;
+  }
+  .section-3 .icon-list .icon-item {
+    width: 33.33333%;
+    margin-bottom: 40px;
+  }
+  .section-3 .icon-list .icon {
+    height: 55px;
   }
 }
 @media screen and (max-width: 414px) {
