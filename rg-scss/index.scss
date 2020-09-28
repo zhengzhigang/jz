@@ -9,7 +9,7 @@
         max-width: 100%;
     }
     .m {
-        display: none;
+        display: none!important;
     }
 }
 .title-text {
@@ -105,7 +105,7 @@
         color: #2c6afd;
     }
     .m {
-        display: none;
+        display: none!important;
     }
 }
 .section-box {
@@ -560,7 +560,7 @@
             display: none!important;
         }
         .m {
-            display: block;
+            display: block!important;
         }
     }
     .section-box {
