@@ -43,6 +43,7 @@
         background-color: #ced3d5;
         font-size: 20px;
         color: #333;
+        text-align: center;
         &.red {
             background-color: #e50714;
             color: #fff;
@@ -310,6 +311,7 @@
     .icon-item {
         display: inline-block;
         width: 250px;
+        vertical-align: top;
     }
     .icon {
         height: 80px;
@@ -637,6 +639,10 @@
             .input-text {
                 margin-bottom: 30px;
             }
+            img {
+                width: 60%;
+                margin-bottom: 30px;
+            }
         }
         .left, .right {
             width: 100%;
@@ -799,82 +805,40 @@
 }
 
 @media screen and (max-width: 480px){
-    .section-content{
+    .page-content{
         .input-text {
-            position: relative;
-            display: inline-block;
-            padding: 0 25px;
-            line-height: 48px;
-            border-radius: 24px;
-            background-color: #ced3d5;
-            font-size: 20px;
-            color: #333;
-            &.red {
-                background-color: #e50714;
-                color: #fff;
-            }
-            &.blue {
-                background-color: #2c6afd;
-                color: #fff;
-            }
-            &.dark {
-                background-color: #121921;
-                color: #fff;
-            }
+            padding: 0 20px;
+            line-height: 40px;
+            border-radius: 20px;
+            font-size: 16px;
             &.outline {
-                line-height: 46px;
-                border: 1px solid #2c6afd;
-                background-color: #1a202c;
-                color: #fff;
+                line-height: 38px;
             }
             .arrow {
-                position: absolute;
-                height:0;
-                border-right: 9px solid transparent;
-                border-left: 9px solid transparent;
-                border-top: 9px solid #e50714;
-                bottom: -8px;
-                left: 30px;
+                border-right: 7px solid transparent;
+                border-left: 7px solid transparent;
+                border-top: 7px solid #e50714;
+                bottom: -6px;
+                left: 25px;
             }
             .search {
-                display: inline-block;
-                width: 19px;
-                height: 19px;
+                width: 16px;
+                height: 16px;
                 margin-right: 4px;
-                background: url('../RJ-img/d-icon-01.png') center/100% no-repeat;
-                vertical-align: middle;
             }
         }
         .link-piece {
-            position: relative;
-            width: 4px;
-            height: 120px;
-            background: #44444e;
-            .top-circle, .bottom-circle {
-                position: absolute;
-                width: 12px;
-                height: 12px;
-                border-radius: 6px;
-                left: -4px;
-            }
-            .top-circle {
-                top: 0;
-                background-color: #595c63;
-            }
-            .bottom-circle {
-                bottom: 0;
-                background-color: #5a9cfd;
-            }
+            height: 90px;
         }
     }
     .section-1 {
         overflow: hidden;
-        padding: 110px 0 80px;
+        padding: 50px 0 50px;
         .text {
             margin-bottom: 60px;
         }
         img {
-            width: 260px;
+            width: 240px;
         }
         .swiper-button-next {
             width: 34px;
@@ -887,6 +851,9 @@
         background: #eff2f3;
         .info {
             padding: 50px 0 280px;
+        }
+        .top {
+            margin-bottom: 280px;
         }
     }
     .section-3 {
@@ -923,195 +890,270 @@
             }
         }
     }
-}
-
-@media screen and (max-width: 414px){
-    .title-text {
-        font-size: 20px;
-        line-height: 32px;
-    }
-    .page-title {
-        font-size: 32px;
-    }
-    
-    .section-1 {
-        padding: 20px 0;
-        .big-img {
-            margin: 10px 40px 5px;
-        }
-    }
-    .section-2 {
-        .title-text {
-            margin-bottom: 15px;
-            font-size: 32px;
-        }
-        .small-text {
-            font-size: 18px;
-        }
-    }
-    .section-3 {
-        .small-text {
-            margin-bottom: 38px;
-        }
-        .arrow {
-            width: 24px;
-            height: 37px;
-        }
-    }
     .section-4 {
-        padding: 30px 0 30px;
-        background-position: center top;
-        .top-list {
-            margin: 0 15px 20px;
-            .text {
-                margin-bottom: 10px;
-            }
+        padding: 60px 0;
+        .link-piece {
+            top: -45px;
         }
-        .top-item {
-            width: 48%;
-            margin-right: 4%!important;
-            margin-bottom: 25px;
-            &:nth-child(2n) {
-                margin-right: 0%!important;
-            }
+        .section-input {
+            margin-bottom: 80px;
+            width: 360px;
         }
-        .text-box {
-            height: 95px;
-            padding: 10px 0;
-        }
-        .pro-img {
-            margin: 40px auto;
-        }
-        .bottom-title {
-            padding-top: 100px;
-            margin-bottom: 20px;
-        }
-        .list-top {
-            &-item {
-                width: 50%;
-                margin-bottom: 15px;
-            }
-        }
-        .section-4 .arrow-down, .section-4 .arrow-up {
-            width: 20px;
-            height: 31px;
-        }
-        .list-bottom {
-            text-align: left;
-            font-size: 0;
-            &-item {
-                display: inline-block;
-                float: none;
-                width: 50%;
-                margin-bottom: 10px;
-                vertical-align: top;
-            }
-        }
-        .bottom-list {
-            padding: 30px 15px;
+        .item {
+            margin-bottom: 90px;
         }
     }
     .section-5 {
-        padding: 30px 0 30px;
-        .small-text {
-            margin-bottom: 20px;
+        .input-text {
+            padding: 0;
+            line-height: 24px;
+            &.blue {
+                height: auto;
+                background: transparent;
+            }
         }
-        .big-img {
-            margin: 25px auto;
+        .icon-list {
+            font-size: 0;
+            text-align: center;
         }
-        .desc {
-            font-size: 16px;
+        .icon-item {
+            display: inline-block;
+            width: 200px;
+        }
+        .icon {
+            height: 60px;
+        }
+        .bottom {
+            padding: 40px 0 50px;
         }
     }
     .section-6 {
-        padding: 30px 0 30px;
-        .small-text {
-            margin-bottom: 30px;
+        padding: 60px 0;
+        .section-input {
+            margin-bottom: 90px;
+            width: 360px;
+        }
+        .item {
+            margin-bottom: 80px;
+            .input-text {
+                padding: 0 10px;
+            }
         }
     }
     .section-7 {
-        padding: 30px 0 56px;
-        .small-text {
+        padding: 60px 0;
+        .sec-title {
+            margin-bottom: 60px;
+        }
+        .icon {
+            margin-bottom: 25px;
+        }
+        .height-text {
+            line-height: 36px;
+            margin-bottom: 25px;
+        }
+    }
+    .section-8 {
+        padding: 10px 0 40px;
+        .sec-icon {
+            width: 80px;
+            margin-bottom: 35px;
+        }
+        .text {
+            font-size: 20px;
+        }
+    }
+    .section-9 {
+        padding: 60px 0;
+        .sec-title {
             margin-bottom: 30px;
         }
-        .bottom-list {
-            margin: 0 15px;
-            text-align: center;
+        td {
+            padding: 15px 20px;
         }
-        .bottom-item {
-            width: 33.33333%;
+    }
+    .section-10 {
+        padding: 40px 0;
+        .icon {
+            height: 50px;
+        }
+        .icon-item {
+            height: 140px;
+        }
+    }
+}
+
+@media screen and (max-width: 414px){
+    .section-1 {
+        overflow: hidden;
+        padding: 40px 0;
+        img {
+            width: 200px;
+        }
+        .swiper-button-next {
+            width: 30px;
+        }
+        .swiper-button-prev {
+            width: 30px;
+        }
+    }
+    .section-2 {
+        .info {
+            padding: 50px 0 200px;
+        }
+    }
+    .section-3 {
+        padding: 40px 0 60px;
+        .top {
+            margin-bottom: 280px;
+        }
+    }
+    .section-4 {
+        padding: 60px 0 40px;
+        .section-input {
+            margin-bottom: 70px;
+            width: 250px;
+        }
+        .item {
+            margin-bottom: 90px;
+        }
+    }
+    .section-5 {
+        .input-text {
             margin-bottom: 20px;
-            .text {
-                height: 48px;
-                font-size: 12px;
-                margin-bottom: -6px;
-                span {
-                    left: 0;
-                    right: 0;
-                }
-            }
+        }
+    }
+    .section-6 {
+        padding: 40px 0;
+        .section-input {
+            margin-bottom: 80px;
+            width: 250px;
+        }
+        .item {
+            margin-bottom: 60px;
+        }
+    }
+    .section-7 {
+        padding: 40px 0;
+        .sec-title {
+            margin-bottom: 40px;
+        }
+        .icon {
+            margin-bottom: 20px;
+        }
+        .height-text {
+            line-height: 32px;
+        }
+    }
+    .section-8 {
+        padding: 10px 0 40px;
+        .text {
+            line-height: 32px;
+        }
+    }
+    .section-9 {
+        padding: 40px 0;
+    }
+    .section-10 {
+        padding: 40px 0;
+        .icon {
+            height: 50px;
+        }
+        .icon-item {
+            width: 50%;
+            display: block;
+            margin: auto;
+            height: auto;
+        }
+        .line {
+            display: none;
         }
     }
 }
 
 @media screen and (max-width: 375px){
-    .page-title {
-        font-size: 28px;
-        line-height: 36px;
-    }
-    
-    .section-1 {
-        padding: 20px 0;
+    .section-5 {
+        .icon-item {
+            width: 160px;
+        }
+        .input-text {
+            margin-bottom: 20px;
+        }
     }
 }
 
 @media screen and (max-width: 320px){
-    .title-text {
-        line-height: 28px;
+    .section-1 {
+        padding: 30px 0;
+        img {
+            width: 160px;
+        }
     }
-
+    .section-2 {
+        .info {
+            padding: 50px 0 160px;
+        }
+    }
     .section-3 {
-        .mid-list {
-            .icon {
-                width: 50px;
-            }
+        padding: 30px 0 50px;
+        .top {
+            margin-bottom: 220px;
         }
     }
     .section-4 {
-        padding: 20px 0 30px;
-        .small-text {
-            margin-bottom: 10px;
+        padding: 50px 0 50px;
+        .section-input {
+            margin-bottom: 70px;
+            width: 250px;
         }
-        .bg-img {
-            width: 260px;
+        .item {
+            margin-bottom: 60px;
+            .input-text {
+                min-width: auto;
+            }
         }
     }
     .section-5 {
-        .top {
-            width: 290px;
-            margin-left: -145px;
+        .input-text {
+            margin-bottom: 20px;
+        }
+        .icon-item {
+            width: 120px;
+        }
+        .icon {
+            height: 50px;
         }
     }
     .section-6 {
-        background-position: center 160px;
-        .bottom-list {
-            width: 290px;
-        }
-        .bottom-item {
-            .icon {
-                width: 40px;
-            }
+        padding: 30px 0;
+        .section-input {
+            margin-bottom: 80px;
+            width: 250px;
         }
     }
     .section-7 {
-        .bottom-item {
-            .text {
-                margin-bottom: -12px;
-                span {
-                    left: 0;
-                    right: 0;
-                }
-            }
+        padding: 30px 0;
+        .sec-title {
+            margin-bottom: 30px;
         }
+        .icon {
+            margin-bottom: 15px;
+        }
+    }
+    .section-8 {
+        padding: 10px 0 40px;
+        .sec-icon {
+            width: 60px;
+            margin-bottom: 20px;
+        }
+        .input-text {
+            width: 250px;
+        }
+    }
+    .section-9 {
+        padding: 30px 0;
+    }
+    .section-10 {
+        padding: 30px 0;
     }
 }
