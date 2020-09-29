@@ -808,7 +808,7 @@
   .page-content .input-text .arrow {
     border-right: 7px solid transparent;
     border-left: 7px solid transparent;
-    border-top: 7px solid #e50714;
+    border-top: 16px solid #e50714;
     bottom: -6px;
     left: 25px;
   }
