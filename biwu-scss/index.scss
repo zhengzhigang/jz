@@ -1,0 +1,1069 @@
+/* index.html css */
+.zg-page {
+    background: url('../RJ-img/bg.jpg') center top/100% 100% no-repeat;
+    .sec-content {
+        position: relative;
+        width: 1200px;
+        margin: auto;
+    }
+    .sec-title {
+        margin-bottom: 60px;
+        text-align: center;
+        &-text {
+            position: relative;
+            display: inline-block;
+            img {
+                display: block;
+                height: 40px;
+            }
+            &::after, &::before {
+                position: absolute;
+                content: '';
+                display: block;
+                width: 376px;
+                height: 18px;
+                top: 11px;
+            }
+            &::before {
+                left: -421px;
+                background: url('../RJ-img/title-left.png') center/100% no-repeat;
+            }
+            &::after {
+                right: -421px;
+                background: url('../RJ-img/title-right.png') center/100% no-repeat;
+            }
+        }
+    }
+    .zg-btn {
+        display: inline-block;
+        width: 168px;
+        height: 46px;
+        border-radius: 23px;
+        line-height: 46px;
+        text-align: center;
+        font-size: 16px;
+        color: #fff;
+        background: url('../RJ-img/btn-bg.png') center/100% no-repeat;
+        &.outline {
+            color: #934896;
+            background: url('../RJ-img/btn-outline-bg.png') center/100% no-repeat;
+        }
+    }
+    .zg-center {
+        text-align: center;
+    }
+}
+
+
+/* 正文部分 */
+.sec-1 {
+    padding: 750px 0 0 0;
+    background: url('../RJ-img/a-01.png') center top/100% auto no-repeat;
+    .zg-nav {
+        height: 64px;
+        padding: 9px;
+        margin-bottom: 60px;
+        font-size: 0;
+        background: url('../RJ-img/nav-bg.png') center top/100% auto no-repeat;
+        &-item {
+            display: inline-block;
+            .zg-nav-text {
+                display: block;
+                line-height: 48px;
+                padding: 0 40px;
+                font-size: 20px;
+                text-align: center;
+                color: #535353;
+                cursor: pointer;
+                &.active {
+                    background: url('../RJ-img/nav-item-bg.png') center top/100% auto no-repeat;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+.brief {
+    margin-bottom: 96px;
+    &-text {
+        margin-bottom: 45px;
+        font-size: 16px;
+        color: #535353;
+    }
+    .btn-group {
+        text-align: center;
+    }
+    .zg-btn {
+        width: 275px;
+    }
+}
+.broad {
+    margin-bottom: 65px;
+    .sec-title {
+        margin-bottom: 48px;
+    }
+    .broad-list {
+        height: 270px;
+        overflow-y: scroll;
+    }
+    .broad-item {
+        position: relative;
+        float: left;
+        width: 50%;
+        margin-bottom: 40px;
+    }
+    .left {
+        position: absolute;
+        width: 96px;
+        height: 96px;
+        background-color: #7db4db;
+        color: #fff;
+    }
+    .right {
+        padding-left: 116px;
+        font-size: 20px;
+        line-height: 96px;
+        color: #535353;
+    }
+    .day {
+        display: block;
+        margin: 9px 0 10px;
+        font-size: 34px;
+        text-align: center;
+    }
+    .year {
+        display: block;
+        font-size: 16px;
+        text-align: center;
+    }
+}
+.sec-2 {
+    margin-bottom: 86px;
+    .flow-item {
+        position: relative;
+        float: left;
+        width: 30%;
+        margin-right: 5%;
+        text-align: center;
+        &-content {
+            position: absolute;
+            width: 100%;
+            bottom: -12px;
+            left: 0;
+        }
+        &:last-child {
+            margin-right: 0;
+        }
+        img {
+            display: block;
+            width: 100%;
+        }
+        .btn1 {
+            background: url('../RJ-img/flow-btn-01.png') center/100% no-repeat;
+        }
+        .btn2 {
+            background: url('../RJ-img/flow-btn-02.png') center/100% no-repeat;
+        }
+        .btn3 {
+            background: url('../RJ-img/flow-btn-03.png') center/100% no-repeat;
+        }
+        &-title {
+            margin-bottom: 25px;
+            font-size: 24px;
+        }
+        &-text {
+            margin-bottom: 55px;
+            font-size: 16px;
+            line-height: 34px;
+        }
+    }
+}
+.sec-3 {
+    margin-bottom: 93px;
+    .title {
+        background-color: #7db4db;
+        color: #535353;
+        line-height: 60px;
+        font-size: 0;
+    }
+    .title-text {
+        display: inline-block;
+        font-size: 20px;
+        text-align: center;
+    }
+    .title-rank {
+        width: 20%;
+    }
+    .title-peo {
+        width: 20%;
+    }
+    .title-com {
+        width: 40%;
+    }
+    .title-mark {
+        width: 20%;
+    }
+    .list-box {
+        height: 324px;
+        overflow-y: scroll;
+        font-size: 0;
+    }
+    .list-item {
+        position: relative;
+        line-height: 58px;
+        &::after {
+            content: '';
+            position: absolute;
+            height: 1px;
+            background-color: #a3d3f2;
+            bottom: 0;
+            left: 31px;
+            right: 31px;
+        }
+    }
+}
+.sec-4 {
+    .people-item {
+        float: left;
+        width: 23%;
+        margin-right: 2%;
+        margin-bottom: 70px;
+    }
+    .head {
+        position: relative;
+        margin-bottom: 25px;
+        overflow: hidden;
+        height: 328px;
+        &:hover {
+            .mask {
+                display: block;
+            }
+        }
+    }
+    .mask {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 10px;
+        background-color: #000;
+        opacity: .5;
+        filter: alpha(opacity=50);
+        display: none;
+        transition: all .3s;
+    }
+    .text {
+        line-height: 25px;
+        font-size: 16px;
+        color: #fff;
+    }
+    .info {
+        text-align: center;
+    }
+    .name {
+        margin-bottom: 10px;
+        font-size: 20px;
+        color: #535353;
+    }
+    .school {
+        margin-bottom: 24px;
+        font-size: 16px;
+        color: #535353;
+    }
+    .ticket {
+        margin-bottom: 14px;
+        font-size: 20px;
+        color: #fe0000;
+    }
+    img {
+        display: block;
+        width: 100%;
+    }
+}
+.sec-5 {
+    margin-bottom: 95px;
+    .left, .right, .top-left, .top-right {
+        float: left;
+        position: relative;
+    }
+    .top {
+        margin-bottom: 10px;
+    }
+    .bottom {
+        position: relative;
+    }
+    .left {
+        width: 60%;
+    }
+    .right {
+        width: 38%;
+        margin-left: 2%;
+    }
+    .top-left {
+        width: 49%;
+        margin-right: 2%;
+    }
+    .top-right {
+        width: 49%;
+    }
+    .text {
+        position: absolute;
+        padding: 5px 6px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #000;
+        font-size: 16px;
+        color: #fff;
+        opacity: .5;
+        filter: alpha(opacity=50);
+    }
+    .swiper-button-next, .swiper-button-prev {
+        width: 38px;
+        height: 38px;
+    }
+    .swiper-button-next {
+        left: -50px;
+        background: url('../RJ-img/arrow-left.png') center/100% no-repeat;
+        
+    }
+    .swiper-button-prev {
+        right: -50px;
+        left: auto;
+        background: url('../RJ-img/arrow-right.png') center/100% no-repeat;
+    }
+    .btn-group {
+        margin-top: 46px;
+        text-align: center;
+    }
+    .zg-btn {
+        width: 418px;
+    }
+}
+.sec-6 {
+    margin-bottom: 100px;
+    .list-item {
+        position: relative;
+        float: left;
+        width: 25%;
+    }
+    .info {
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        text-align: center;
+    }
+    .icon {
+        display: block;
+        height: 54px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .text {
+        font-size: 16px;
+        line-height: 25px;
+        color: #fff;
+    }
+    .left-arrow, .right-arrow {
+        position: absolute;
+        display: block;
+        width: 0;
+        height: 0;
+        left: -15px;
+        top: 50%;
+        transform: translateY(-8px);
+        border-right: 15px solid #a73b7f;
+        border-top: 8px solid transparent;
+        border-bottom: 8px solid transparent;
+    }
+    .right-arrow {
+        border-right: 15px solid #4853b0;
+    }
+}
+.sec-7 {
+    padding-bottom: 145px;
+    .left, .right {
+        position: relative;
+        width: 49%;
+        float: left;
+        img {
+            display: block;
+            width: 100%;
+        }
+    }
+    .left {
+        margin-right: 2%;
+        .title {
+            line-height: 62px;
+            text-align: center;
+            font-size: 20px;
+            color: #fff;
+            background: url('../RJ-img/review-title-01.png') center/110% no-repeat;
+        }
+    }
+    .right {
+        .title {
+            line-height: 62px;
+            text-align: center;
+            font-size: 20px;
+            color: #fff;
+            background: url('../RJ-img/review-title-02.png') center/110% no-repeat;
+        }
+    }
+    .content-box {
+        position: relative;
+    }
+    .mask {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        padding: 45px 50px;
+        background-color: #000;
+        opacity: .65;
+        filter: alpha(opacity=65);
+        color: #fff;
+    }
+    .big-text {
+        margin-bottom: 24px;
+        font-size: 24px;
+    }
+    .text {
+        margin-bottom: 40px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+
+@media screen and (max-width: 1280px){
+    .section-box {
+        max-width: 1000px;
+    }
+    .section-5 {
+        .input-text {
+            height: 60px;
+            line-height: 30px;
+            border-radius: 40px;
+            padding: 10px 30px;
+            text-align: center;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .section-box {
+        max-width: 960px;
+    }
+    .section-3 {
+        .pro-img {
+            width: 80%;
+        }
+    }
+}
+
+@media screen and (max-width: 768px){
+    .page-content {
+        .pc {
+            display: none!important;
+        }
+        .m {
+            display: block!important;
+        }
+    }
+    .section-box {
+        width: auto;
+        max-width: auto;
+        margin: 0 20px;
+    }
+    .section-1 {
+        overflow: hidden;
+        padding: 110px 0 80px;
+        background-color: #f4f4f4;
+        img {
+            width: 300px;
+        }
+    }
+
+    .section-2 {
+        background: #eff2f3;
+        .info {
+            padding: 70px 0 380px;
+        }
+        .black-text {
+            font-size: 36px;
+        }
+        .text {
+            margin-bottom: 30px;
+            font-size: 20px;
+        }
+    }
+
+    .section-3 {
+        padding: 80px 0 120px;
+        .top {
+            margin-bottom: 460px;
+            .sec-title {
+                margin-bottom: 50px;
+                font-size: 28px;
+            }
+            .text {
+                font-size: 18px;
+            }
+            .big-text {
+                font-size: 36px;
+            }
+        }
+        .bottom {
+            .sec-title {
+                font-size: 36px;
+            }
+        }
+        .icon-list {
+            font-size: 0;
+            .icon-item {
+                width: 33.33333%;
+                margin-bottom: 40px;
+            }
+            .icon {
+                height: 55px;
+            }
+        }
+    }
+
+    .section-4 {
+        position: relative;
+        padding: 120px 0 70px;
+        .sec-title {
+            margin-bottom: 25px;
+            font-size: 24px;
+        }
+        .section-input {
+            margin-bottom: 120px;
+            width: 500px;
+        }
+        .item {
+            margin-bottom: 120px;
+            .input-text {
+                margin-bottom: 30px;
+            }
+            img {
+                width: 60%;
+                margin-bottom: 30px;
+            }
+        }
+        .left, .right {
+            width: 100%;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .item-title {
+            margin-bottom: 15px;
+            font-size: 20px;
+        }
+        .text-item {
+            line-height: 40px;
+        }
+        img {
+            margin: auto;
+        }
+    }
+
+    .section-5 {
+        .sec-title {
+            margin-bottom: 25px;
+            font-size: 28px;
+            color: #fff;
+            text-align: center;
+        }
+        .input-text {
+            padding: 0 30px;
+            display: block;
+            margin: auto;
+        }
+        .icon-list {
+            font-size: 0;
+            text-align: center;
+        }
+        .icon-item {
+            display: inline-block;
+            width: 250px;
+        }
+        .icon {
+            height: 70px;
+        }
+        .icon-text {
+            font-size: 16px;
+        }
+    }
+
+    .section-6 {
+        padding: 90px 0;
+        .sec-title {
+            margin-bottom: 25px;
+            font-size: 24px;
+        }
+        .section-input {
+            margin-bottom: 120px;
+            width: 500px;
+        }
+        .item {
+            margin-bottom: 80px;
+            .input-text {
+                margin-bottom: 30px;
+                width: auto;
+            }
+            img {
+                width: 70%;
+            }
+        }
+        .left, .right {
+            width: 100%;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .item-title {
+            margin-bottom: 15px;
+            font-size: 20px;
+        }
+        .text-item {
+            line-height: 40px;
+        }
+        img {
+            margin: auto;
+        }
+    }
+
+    .section-7 {
+        padding: 80px 0;
+        .sec-title {
+            margin-bottom: 90px;
+            font-size: 24px;
+        }
+        .box {
+            text-align: center;
+            .left, .right {
+                width: 100%;
+            }
+        }
+        .icon {
+            margin-bottom: 30px;
+            img {
+                margin: auto;
+            }
+        }
+        .height-text {
+            color: #878b95;
+            font-size: 16px;
+            line-height: 40px;
+            margin-bottom: 30px;
+        }
+        .icon-box .item {
+            display: inline-block;
+            width: 100px;
+            margin-right: 42px;
+            &:last-child {
+                margin-right: 0;
+            }
+            img {
+                margin: auto;
+            }
+        }
+        .text {
+            margin-bottom: 30px;
+            font-size: 22px;
+        }
+        .pro-img {
+            width: 80%;
+            margin: auto;
+        }
+    }
+
+    .section-8 {
+        .sec-icon {
+            width: 100px;
+            margin-bottom: 45px;
+        }
+        .text {
+            font-size: 20px;
+        }
+    }
+
+    .section-9 {
+        padding: 80px 0;
+        .sec-title {
+            margin-bottom: 40px;
+            font-size: 24px;
+        }
+    }
+
+    .section-10 {
+        padding: 40px 0 80px;
+        .sec-title {
+            font-size: 24px;
+        }
+        .icon {
+            height: 60px;
+        }
+        .text {
+            font-size: 16px;
+            color: #343333;
+        }
+    }
+}
+
+@media screen and (max-width: 480px){
+    .page-content{
+        .input-text {
+            padding: 0 20px;
+            line-height: 40px;
+            border-radius: 20px;
+            font-size: 16px;
+            &.outline {
+                line-height: 38px;
+            }
+            .arrow {
+                border-right: 7px solid transparent;
+                border-left: 7px solid transparent;
+                border-top: 16px solid #e50714;
+                bottom: -6px;
+                left: 25px;
+            }
+            .search {
+                width: 16px;
+                height: 16px;
+                margin-right: 4px;
+            }
+        }
+        .link-piece {
+            height: 90px;
+        }
+    }
+    .section-1 {
+        overflow: hidden;
+        padding: 50px 0 50px;
+        .text {
+            margin-bottom: 60px;
+        }
+        img {
+            width: 240px;
+        }
+        .-button-next {
+            width: 34px;
+        }
+        .-button-prev {
+            width: 34px;
+        }
+    }
+    .section-2 {
+        background: #eff2f3;
+        .info {
+            padding: 50px 0 280px;
+        }
+        .top {
+            margin-bottom: 280px;
+        }
+    }
+    .section-3 {
+        padding: 50px 0 60px;
+        .top {
+            margin-bottom: 360px;
+            .sec-title {
+                margin-bottom: 30px;
+            }
+            .text {
+                font-size: 16px;
+            }
+            .big-text {
+                font-size: 32px;
+            }
+        }
+        .bottom {
+            .sec-title {
+                font-size: 32px;
+            }
+        }
+        .input-text {
+            height: auto;
+            line-height: 30px;
+            border-radius: 30px;
+        }
+        .icon-list {
+            .icon-item {
+                width: 50%;
+                margin-bottom: 40px;
+            }
+            .icon {
+                height: 40px;
+            }
+        }
+    }
+    .section-4 {
+        padding: 60px 0;
+        .link-piece {
+            top: -45px;
+        }
+        .section-input {
+            margin-bottom: 80px;
+            width: 360px;
+        }
+        .item {
+            margin-bottom: 90px;
+        }
+    }
+    .section-5 {
+        .input-text {
+            padding: 0;
+            line-height: 24px;
+            &.blue {
+                height: auto;
+                background: transparent;
+            }
+        }
+        .icon-list {
+            font-size: 0;
+            text-align: center;
+        }
+        .icon-item {
+            display: inline-block;
+            width: 200px;
+        }
+        .icon {
+            height: 60px;
+        }
+        .bottom {
+            padding: 40px 0 50px;
+        }
+    }
+    .section-6 {
+        padding: 60px 0;
+        .section-input {
+            margin-bottom: 90px;
+            width: 360px;
+        }
+        .item {
+            margin-bottom: 80px;
+            .input-text {
+                padding: 0 10px;
+            }
+        }
+    }
+    .section-7 {
+        padding: 60px 0;
+        .sec-title {
+            margin-bottom: 60px;
+        }
+        .icon {
+            margin-bottom: 25px;
+        }
+        .height-text {
+            line-height: 36px;
+            margin-bottom: 25px;
+        }
+    }
+    .section-8 {
+        padding: 10px 0 40px;
+        .sec-icon {
+            width: 80px;
+            margin-bottom: 35px;
+        }
+        .text {
+            font-size: 20px;
+        }
+    }
+    .section-9 {
+        padding: 60px 0;
+        .sec-title {
+            margin-bottom: 30px;
+        }
+        td {
+            padding: 15px 20px;
+        }
+    }
+    .section-10 {
+        padding: 40px 0;
+        .icon {
+            height: 50px;
+        }
+        .icon-item {
+            height: 140px;
+        }
+    }
+}
+
+@media screen and (max-width: 414px){
+    .section-1 {
+        overflow: hidden;
+        padding: 40px 0;
+        img {
+            width: 200px;
+        }
+        .-button-next {
+            width: 30px;
+        }
+        .-button-prev {
+            width: 30px;
+        }
+    }
+    .section-2 {
+        .info {
+            padding: 50px 0 200px;
+        }
+    }
+    .section-3 {
+        padding: 40px 0 60px;
+        .top {
+            margin-bottom: 280px;
+        }
+    }
+    .section-4 {
+        padding: 60px 0 40px;
+        .section-input {
+            margin-bottom: 70px;
+            width: 250px;
+        }
+        .item {
+            margin-bottom: 90px;
+        }
+    }
+    .section-5 {
+        .input-text {
+            margin-bottom: 20px;
+        }
+    }
+    .section-6 {
+        padding: 40px 0;
+        .section-input {
+            margin-bottom: 80px;
+            width: 250px;
+        }
+        .item {
+            margin-bottom: 60px;
+        }
+    }
+    .section-7 {
+        padding: 40px 0;
+        .sec-title {
+            margin-bottom: 40px;
+        }
+        .icon {
+            margin-bottom: 20px;
+        }
+        .height-text {
+            line-height: 32px;
+        }
+    }
+    .section-8 {
+        padding: 10px 0 40px;
+        .text {
+            line-height: 32px;
+        }
+    }
+    .section-9 {
+        padding: 40px 0;
+    }
+    .section-10 {
+        padding: 40px 0;
+        .icon {
+            height: 50px;
+        }
+        .icon-item {
+            width: 50%;
+            display: block;
+            margin: auto;
+            height: auto;
+        }
+        .line {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 375px){
+    .section-5 {
+        .icon-item {
+            width: 160px;
+        }
+        .input-text {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 320px){
+    .section-1 {
+        padding: 30px 0;
+        img {
+            width: 160px;
+        }
+    }
+    .section-2 {
+        .info {
+            padding: 50px 0 160px;
+        }
+    }
+    .section-3 {
+        padding: 30px 0 50px;
+        .top {
+            margin-bottom: 220px;
+        }
+    }
+    .section-4 {
+        padding: 50px 0 50px;
+        .section-input {
+            margin-bottom: 70px;
+            width: 250px;
+        }
+        .item {
+            margin-bottom: 60px;
+            .input-text {
+                min-width: auto;
+            }
+        }
+    }
+    .section-5 {
+        .input-text {
+            margin-bottom: 20px;
+        }
+        .icon-item {
+            width: 120px;
+        }
+        .icon {
+            height: 50px;
+        }
+    }
+    .section-6 {
+        padding: 30px 0;
+        .section-input {
+            margin-bottom: 80px;
+            width: 250px;
+        }
+    }
+    .section-7 {
+        padding: 30px 0;
+        .sec-title {
+            margin-bottom: 30px;
+        }
+        .icon {
+            margin-bottom: 15px;
+        }
+    }
+    .section-8 {
+        padding: 10px 0 40px;
+        .sec-icon {
+            width: 60px;
+            margin-bottom: 20px;
+        }
+        .input-text {
+            width: 250px;
+        }
+    }
+    .section-9 {
+        padding: 30px 0;
+    }
+    .section-10 {
+        padding: 30px 0;
+    }
+}
