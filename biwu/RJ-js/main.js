@@ -6,11 +6,20 @@ $(function() {
             this.initOnNav();
         },
         initSwiper: function() {
-            var mySwiper = new Swiper('.swiper-container',{
+            var options = {
+                direction: 'vertical',
+                slidesPerView: 'auto',
+                freeMode: true,
+                scrollbar: {
+                    el: '.swiper-scrollbar',
+                },
+                mousewheel: true,
+            }
+            new Swiper('#sceneSlide',{
                 loop: true,
                 initialSlide: 0,
                 spaceBetween: 30,
-                speed: 1000,
+                speed: 600,
                 autoplay: {
                     delay: 2500,
                     disableOnInteraction: false,
@@ -20,6 +29,13 @@ $(function() {
                     prevEl: '.swiper-button-prev',
                 },
             });
+            peopleScrollContent
+
+            new Swiper('#scrollContent', options)
+
+            new Swiper('#peopleScrollContent', options);
+
+            new Swiper('#rankScrollContent', options);
         },
         initOnNav: function() {
             new Scrollspy({
