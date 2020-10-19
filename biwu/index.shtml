@@ -18,7 +18,483 @@
     <!-- #include file="/HeaderUC_R.html" -->
 	
 	<!--内容正文开始-->
-
+    <link rel="stylesheet" type="text/css" href="RJ-css/swiper.min.css">
+    <link type="text/css" rel="stylesheet" href="./RJ-css/index.css" />
+    <script type="text/javascript" src="RJ-js/swiper.min.js"></script>
+    <script type="text/javascript" src="RJ-js/scrollspy.js"></script>
+    <script type="text/javascript" src="./RJ-js/main.js"></script>
+	<div class="zg-page">
+        <div class="sec-1">
+            <div class="sec-content">
+                <ul class="zg-nav">
+                    <li class="zg-nav-item">
+                        <a data-traget="#brief" href="#brief" class="zg-nav-text active">大赛简介</a>
+                    </li>
+                    <li class="zg-nav-item">
+                        <a data-traget="#broad" href="#broad" class="zg-nav-text">大赛播报</a>
+                    </li>
+                    <li class="zg-nav-item">
+                        <a data-traget="#flow" href="#flow" class="zg-nav-text">赛事流程</a>
+                    </li>
+                    <li class="zg-nav-item">
+                        <a data-traget="#rank" href="#rank" class="zg-nav-text">赛事排行</a>
+                    </li>
+                    <li class="zg-nav-item">
+                        <a data-traget="#people" href="#people" class="zg-nav-text">参赛选手</a>
+                    </li>
+                    <li class="zg-nav-item">
+                        <a data-traget="#scene" href="#scene" class="zg-nav-text">赛事现场</a>
+                    </li>
+                    <li class="zg-nav-item">
+                        <a data-traget="#partner" href="#partner" class="zg-nav-text">合作伙伴支持</a>
+                    </li>
+                </ul>
+                <div class="brief" id="brief">
+                    <div class="sec-title">
+                        <h2 class="sec-title-text">
+                            <img src="./RJ-img/title-01.png">
+                        </h2>
+                    </div>
+                    <p class="brief-text sec-text">
+                        秉承以赛促学、以武会友宗旨，“锐捷网络2020年核心合作伙伴售前技术大比武” 于6月15日正式拉开帷幕，本次技术大比武围绕“实战历练，
+                        共提升；做实做透，赢市场”的目标，通过不同阶段的赛制内容，强化训练合作伙伴售前的产品方案销售和项目支持能力。
+                    </p>
+                    <div class="btn-group">
+                        <a href="http://partners.ruijie.com.cn/partnerportal/" class="zg-btn">我要成为赛事伙伴</a>
+                    </div>
+                </div>
+                <div class="broad" id="broad">
+                    <div class="sec-title">
+                        <h2 class="sec-title-text">
+                            <img src="./RJ-img/title-02.png">
+                        </h2>
+                    </div>
+                    <div class="swiper-container" id="scrollContent">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <ul class="broad-list clearfix">
+                                    <li class="broad-item">
+                                        <a href="">
+                                            <div class="left">
+                                                <span class="day">23</span>
+                                                <span class="year">2020.2</span>
+                                            </div>
+                                            <p class="right">精英赛区1月成绩  TOP 10</p>
+                                        </a>
+                                    </li>
+                                    <li class="broad-item">
+                                        <a href="">
+                                            <div class="left">
+                                                <span class="day">9</span>
+                                                <span class="year">2020.3</span>
+                                            </div>
+                                            <p class="right">争霸赛区1月成绩  TOP 5</p>
+                                        </a>
+                                    </li>
+                                    <li class="broad-item">
+                                        <a href="">
+                                            <div class="left">
+                                                <span class="day">10</span>
+                                                <span class="year">2020.1</span>
+                                            </div>
+                                            <p class="right">大比武资格赛笔试成绩  TOP 10</p>
+                                        </a>
+                                    </li>
+                                    <li class="broad-item">
+                                        <a href="">
+                                            <div class="left">
+                                                <span class="day">14</span>
+                                                <span class="year">2020.1</span>
+                                            </div>
+                                            <p class="right">争霸赛区2月成绩  TOP 5</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="swiper-scrollbar"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sec-2" id="flow">
+            <div class="sec-content">
+                <div class="sec-title">
+                    <h2 class="sec-title-text">
+                        <img src="./RJ-img/title-03.png">
+                    </h2>
+                </div>
+                <ul class="flow clearfix">
+                    <li class="flow-item">
+                        <img src="./RJ-img/flow-01.png">
+                        <div class="flow-item-content">
+                            <p class="flow-item-title">人人卖产品</p>
+                            <p class="flow-item-text">产品技术体系学习<br>价值传递强强对决</p>
+                            <a href="" class="zg-btn btn1">详细赛制  ></a>
+                        </div>
+                    </li>
+                    <li class="flow-item">
+                        <img src="./RJ-img/flow-02.png">
+                        <div class="flow-item-content">
+                            <p class="flow-item-title">人人做项目</p>
+                            <p class="flow-item-text">结合实战全面提升<br>项目支持综合比拼</p>
+                            <a href="" class="zg-btn btn2">详细赛制  ></a>
+                        </div>
+                    </li>
+                    <li class="flow-item">
+                        <img src="./RJ-img/flow-03.png">
+                        <div class="flow-item-content">
+                            <p class="flow-item-title">全国精英PK赛</p>
+                            <p class="flow-item-text">市场拓展PK<br>大项目经验分享</p>
+                            <a href="" class="zg-btn btn3">详细赛制  ></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="sec-3" id="rank">
+            <div class="sec-content">
+                <div class="sec-title">
+                    <h2 class="sec-title-text">
+                        <img src="./RJ-img/title-04.png">
+                    </h2>
+                </div>
+                <div class="rank">
+                    <table class="title">
+                        <thead>
+                            <tr>
+                                <th class="title-rank title-text">当前排名</th>
+                                <th class="title-peo title-text">参赛选手</th>
+                                <th class="title-com title-text">所在企业</th>
+                                <th class="title-mark title-text">当前积分</th>
+                            </tr>
+                        </thead>
+                    </table>
+                    <div class="swiper-container" id="rankScrollContent">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <table class="list-box">
+                                    <tbody>
+                                        <tr>
+                                            <td class="title-rank title-text">NO.1</td>
+                                            <td class="title-peo title-text">王秀杰</td>
+                                            <td class="title-com title-text">山东英睿网络科技有限公司</td>
+                                            <td class="title-mark title-text">710分</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="title-rank title-text">NO.2</td>
+                                            <td class="title-peo title-text">徐大伟</td>
+                                            <td class="title-com title-text">北京圣世明羽网络科技有限公司</td>
+                                            <td class="title-mark title-text">690分</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="title-rank title-text">NO.3</td>
+                                            <td class="title-peo title-text">王婷婷</td>
+                                            <td class="title-com title-text">兰州融信达电子科技有限公司</td>
+                                            <td class="title-mark title-text">680分</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="title-rank title-text">NO.4</td>
+                                            <td class="title-peo title-text">熊域进</td>
+                                            <td class="title-com title-text">山东英睿网络科技有限公司</td>
+                                            <td class="title-mark title-text">600分</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="title-rank title-text">NO.5</td>
+                                            <td class="title-peo title-text">黄美霖</td>
+                                            <td class="title-com title-text">山东英睿网络科技</td>
+                                            <td class="title-mark title-text">500分</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="swiper-scrollbar"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sec-4" id="people">
+            <div class="sec-content">
+                <div class="sec-title">
+                    <h2 class="sec-title-text">
+                        <img src="./RJ-img/title-05.png">
+                    </h2>
+                </div>
+                <div class="swiper-container" id="peopleScrollContent">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <ul class="people clearfix">
+                                <li class="people-item">
+                                    <div class="head">
+                                        <img src="./RJ-img/people-01.png">
+                                        <div class="mask">
+                                            <p class="text">很幸运能够参加售前大比武活动，希望借此平台与全国售前伙伴们共同学习与进步，展现自我风采。</p>
+                                        </div>
+                                    </div>
+                                    <div class="info">
+                                        <p class="name">苏慧娟</p>
+                                        <p class="school">兰州融信达电子科技有限公司</p>
+                                        <p class="ticket">当前297票</p>
+                                        <a href="" class="zg-btn outline">点赞</a>
+                                    </div>
+                                </li>
+                                <li class="people-item">
+                                    <div class="head">
+                                        <img src="./RJ-img/people-02.png">
+                                        <div class="mask">
+                                            <p class="text">很幸运能够参加售前大比武活动，希望借此平台与全国售前伙伴们共同学习与进步，展现自我风采。</p>
+                                        </div>
+                                    </div>
+                                    <div class="info">
+                                        <p class="name">练瑞芳</p>
+                                        <p class="school">深圳市宏大联合实业有限公司</p>
+                                        <p class="ticket">当前2972938票</p>
+                                        <a href="" class="zg-btn outline">点赞</a>
+                                    </div>
+                                </li>
+                                <li class="people-item">
+                                    <div class="head">
+                                        <img src="./RJ-img/people-03.png">
+                                        <div class="mask">
+                                            <p class="text">很幸运能够参加售前大比武活动，希望借此平台与全国售前伙伴们共同学习与进步，展现自我风采。</p>
+                                        </div>
+                                    </div>
+                                    <div class="info">
+                                        <p class="name">沈箫男</p>
+                                        <p class="school">辽宁金晟科技股份有限公司</p>
+                                        <p class="ticket">当前297票</p>
+                                        <a href="" class="zg-btn outline">点赞</a>
+                                    </div>
+                                </li>
+                                <li class="people-item">
+                                    <div class="head">
+                                        <img src="./RJ-img/people-04.png">
+                                        <div class="mask">
+                                            <p class="text">很幸运能够参加售前大比武活动，希望借此平台与全国售前伙伴们共同学习与进步，展现自我风采。</p>
+                                        </div>
+                                    </div>
+                                    <div class="info">
+                                        <p class="name">吴奇龙</p>
+                                        <p class="school">深圳市凯博特科技有限公司</p>
+                                        <p class="ticket">当前297票</p>
+                                        <a href="" class="zg-btn outline">点赞</a>
+                                    </div>
+                                </li>
+                                <li class="people-item">
+                                    <div class="head">
+                                        <img src="./RJ-img/people-01.png">
+                                        <div class="mask">
+                                            <p class="text">很幸运能够参加售前大比武活动，希望借此平台与全国售前伙伴们共同学习与进步，展现自我风采。</p>
+                                        </div>
+                                    </div>
+                                    <div class="info">
+                                        <p class="name">苏慧娟</p>
+                                        <p class="school">兰州融信达电子科技有限公司</p>
+                                        <p class="ticket">当前297票</p>
+                                        <a href="" class="zg-btn outline">点赞</a>
+                                    </div>
+                                </li>
+                                <li class="people-item">
+                                    <div class="head">
+                                        <img src="./RJ-img/people-02.png">
+                                        <div class="mask">
+                                            <p class="text">很幸运能够参加售前大比武活动，希望借此平台与全国售前伙伴们共同学习与进步，展现自我风采。</p>
+                                        </div>
+                                    </div>
+                                    <div class="info">
+                                        <p class="name">练瑞芳</p>
+                                        <p class="school">深圳市宏大联合实业有限公司</p>
+                                        <p class="ticket">当前2972938票</p>
+                                        <a href="" class="zg-btn outline">点赞</a>
+                                    </div>
+                                </li>
+                                <li class="people-item">
+                                    <div class="head">
+                                        <img src="./RJ-img/people-03.png">
+                                        <div class="mask">
+                                            <p class="text">很幸运能够参加售前大比武活动，希望借此平台与全国售前伙伴们共同学习与进步，展现自我风采。</p>
+                                        </div>
+                                    </div>
+                                    <div class="info">
+                                        <p class="name">沈箫男</p>
+                                        <p class="school">辽宁金晟科技股份有限公司</p>
+                                        <p class="ticket">当前297票</p>
+                                        <a href="" class="zg-btn outline">点赞</a>
+                                    </div>
+                                </li>
+                                <li class="people-item">
+                                    <div class="head">
+                                        <img src="./RJ-img/people-04.png">
+                                        <div class="mask">
+                                            <p class="text">很幸运能够参加售前大比武活动，希望借此平台与全国售前伙伴们共同学习与进步，展现自我风采。</p>
+                                        </div>
+                                    </div>
+                                    <div class="info">
+                                        <p class="name">吴奇龙</p>
+                                        <p class="school">深圳市凯博特科技有限公司</p>
+                                        <p class="ticket">当前297票</p>
+                                        <a href="" class="zg-btn outline">点赞</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="swiper-scrollbar"></div>
+                </div>
+            </div>
+        </div>
+        <div class="sec-5" id="scene">
+            <div class="sec-content">
+                <div class="sec-title">
+                    <h2 class="sec-title-text">
+                        <img src="./RJ-img/title-06.png">
+                    </h2>
+                </div>
+                <div class="swiper-container" id="sceneSlide">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide clearfix">
+                            <div class="left">
+                                <img src="./RJ-img/slide-1-01.jpg">
+                                <p class="text">大比武最佳技术团队——安徽区域</p>
+                            </div>
+                            <div class="right">
+                                <div class="top clearfix">
+                                    <div class="top-left">
+                                        <img src="./RJ-img/slide-1-02.jpg">
+                                        <p class="text">大比武最佳技术团队 ——上海区域</p>
+                                    </div>
+                                    <div class="top-right">
+                                        <img src="./RJ-img/slide-1-03.jpg">
+                                        <p class="text">大比武最佳技术团队 ——重庆区域</p>
+                                    </div>
+                                </div>
+                                <div class="bottom">
+                                    <img src="./RJ-img/slide-1-04.jpg">
+                                    <p class="text">贵州区域学习交流会</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="left">
+                                <img src="./RJ-img/slide-2-01.jpg">
+                                <p class="text">宁夏区域学习交流会</p>
+                            </div>
+                            <div class="right">
+                                <div class="top clearfix">
+                                    <div class="top-left">
+                                        <img src="./RJ-img/slide-2-02.jpg">
+                                        <p class="text">辽宁区域学习交流会</p>
+                                    </div>
+                                    <div class="top-right">
+                                        <img src="./RJ-img/slide-2-03.jpg">
+                                        <p class="text">海南区域学习交流会</p>
+                                    </div>
+                                </div>
+                                <div class="bottom">
+                                    <img src="./RJ-img/slide-2-04.jpg">
+                                    <p class="text">厦门区域学习交流会</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="left">
+                                <img src="./RJ-img/slide-3-01.jpg">
+                                <p class="text">山东区域学习交流会</p>
+                            </div>
+                            <div class="right">
+                                <div class="top clearfix">
+                                    <div class="top-left">
+                                        <img src="./RJ-img/slide-3-02.jpg">
+                                        <p class="text">深圳区域学习交流会</p>
+                                    </div>
+                                    <div class="top-right">
+                                        <img src="./RJ-img/slide-3-03.jpg">
+                                        <p class="text">浙江区域学习交流会</p>
+                                    </div>
+                                </div>
+                                <div class="bottom">
+                                    <img src="./RJ-img/slide-3-04.jpg">
+                                    <p class="text">新疆区域学习交流会</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="btn-group">
+                    <a href="http://bbs.ruijie.com.cn/forum-102-324-1.html" class="zg-btn">查看更多现场图片，与参赛伙伴交流</a>
+                </div>
+            </div>
+        </div>
+        <div class="sec-6" id="partner">
+            <div class="sec-content">
+                <div class="sec-title">
+                    <h2 class="sec-title-text">
+                        <img src="./RJ-img/title-07.png">
+                    </h2>
+                </div>
+                <ul class="list clearfix">
+                    <li class="list-item">
+                        <img src="./RJ-img/img-01.jpg" alt="">
+                    </li>
+                    <li class="list-item left-bg">
+                        <span class="left-arrow"></span>
+                        <img src="./RJ-img/color-bg-01.png" alt="">
+                        <div class="info">
+                            <img src="./RJ-img/icon-01.png" alt="" class="icon">
+                            <p class="text">“专业致胜”<br>培训资料</p>
+                        </div>
+                    </li>
+                    <li class="list-item">
+                        <img src="./RJ-img/img-02.jpg" alt="">
+                    </li>
+                    <li class="list-item right-bg">
+                        <img src="./RJ-img/color-bg-02.png" alt="">
+                        <span class="right-arrow"></span>
+                        <div class="info">
+                            <img src="./RJ-img/icon-02.png" alt="" class="icon">
+                            <p class="text">核心合作伙伴<br>资料专区</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="sec-7" id="review">
+            <div class="sec-content">
+                <div class="sec-title">
+                    <h2 class="sec-title-text">
+                        <img src="./RJ-img/title-08.png">
+                    </h2>
+                </div>
+                <div class="box clearfix">
+                    <div class="left">
+                        <p class="title">2019 售前大比武</p>
+                        <div class="content-box">
+                            <img src="./RJ-img/review-01.jpg" alt="">
+                            <div class="mask">
+                                <p class="big-text">锐捷网络2019合作伙伴售前技术大比武</p>
+                                <p class="text">本次技术大比武围绕“以赛促学，拓市场；以战代练，促业绩” 的目标，通过不同阶段的赛制内容，强化训练合作伙伴售前人员 的产品方案</p>
+                                <a href="http://www.ruijie.com.cn/special/201906101/" class="zg-btn outline">查看详情</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <p class="title">2018 售前大比武</p>
+                        <div class="content-box">
+                            <img src="./RJ-img/review-02.jpg">
+                            <div class="mask">
+                                <p class="big-text">锐捷网络2018合作伙伴售前技术大比武</p>
+                                <p class="text">2018年合作伙伴大比武是面向锐捷合作伙伴售前技术工程师，着重 于通过不同阶段的赛制内容，强化训练合作伙伴售前的产品方案销售 </p>
+                                <a href="http://www.ruijie.com.cn/special/20180614/" class="zg-btn outline">查看详情</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+	</div>
 	<!--内容正文结束-->
 
     <!-- #include file="/FooterUC_R.html" -->
