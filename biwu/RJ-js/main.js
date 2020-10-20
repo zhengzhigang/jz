@@ -31,12 +31,16 @@ $(function() {
             });
             peopleScrollContent
 
-            var swiper = new Swiper('#scrollContent', options)
+            var swiper1 = new Swiper('#scrollContent', options)
+            this.canScroll(swiper1)
 
-            new Swiper('#peopleScrollContent', options);
+            var swiper2 = new Swiper('#peopleScrollContent', options);
+            this.canScroll(swiper2)
 
-            new Swiper('#rankScrollContent', options);
-
+            var swiper3 = new Swiper('#rankScrollContent', options);
+            this.canScroll(swiper3)
+        },
+        canScroll: function(swiper) {
             var startScroll, touchStart, touchCurrent;
             swiper.slides.on('touchstart', function (e) {
                 startScroll = this.scrollTop;
@@ -45,14 +49,7 @@ $(function() {
             swiper.slides.on('touchmove', function (e) {
                 touchCurrent = e.targetTouches[0].pageY;
                 var touchesDiff = touchCurrent - touchStart;
-                var slide = this;
-                var onlyScrolling = 
-                        ( slide.scrollHeight > slide.offsetHeight ) && //allow only when slide is scrollable
-                        (
-                            ( touchesDiff < 0 && startScroll === 0 ) || //start from top edge to scroll bottom
-                            ( touchesDiff > 0 && startScroll === ( slide.scrollHeight - slide.offsetHeight ) ) || //start from bottom edge to scroll top
-                            ( startScroll > 0 && startScroll < ( slide.scrollHeight - slide.offsetHeight ) ) //start from the middle
-                        );
+                var onlyScrolling = (touchesDiff < 0 && swiper.isEnd) || (touchesDiff > 0 && swiper.isBeginning)
                 if (onlyScrolling) {
                     e.stopPropagation();
                 }
