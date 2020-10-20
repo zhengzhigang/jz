@@ -22,25 +22,25 @@ var PAGE = {
                             name: 'logo',
                             length: 9,
                             target: '1-1-2',
-                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/基础/logo.ai'
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/基础/logo.ai?_upd=true'
                         },
                         {
                             name: '字体',
                             length: 2,
                             target: '1-1-3',
-                            download: 'http://zlk.ruijie.com.cn/FileDatabase/Detail/12644'
+                            download: 'http://zlk.ruijie.com.cn/FileDatabase/Detail/12644?_upd=true'
                         },
                         {
                             name: '色彩',
                             length: 4,
                             target: '1-1-4',
-                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/基础/色彩.ai'
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/基础/色彩.ai?_upd=true'
                         },
                         {
                             name: '栅格板式',
                             length: 3,
                             target: '1-1-5',
-                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/基础/栅格板式.ai'
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/基础/栅格板式.ai?_upd=true'
                         },
                         {
                             name: '影像风格',
@@ -52,13 +52,13 @@ var PAGE = {
                             name: '辅助图形',
                             length: 6,
                             target: '1-1-7',
-                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/基础/辅助图形.ai'
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/基础/辅助图形.ai?_upd=true'
                         },
                         {
                             name: '图标',
                             length: 4,
                             target: '1-1-8',
-                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/基础/图标.ai'
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/基础/图标.ai?_upd=true'
                         }
 
                     ]
@@ -73,43 +73,43 @@ var PAGE = {
                             name: '宣传总揽与基础栅格',
                             length: 4,
                             target: '1-2-1',
-                            download: ''
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/宣传品/总览.zip?_upd=true'
                         },
                         {
                             name: '品牌画册/刊物',
                             length: 7,
                             target: '1-2-2',
-                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/宣传品/.zip'
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/宣传品/品牌画册:刊物.zip?_upd=true'
                         },
                         {
                             name: '产品/行业解决方案折页/集',
                             length: 5,
                             target: '1-2-3',
-                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/宣传品/产品/行业解决方案折页/集.zip'
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/宣传品/产品行业解决方案折页集.zip?_upd=true'
                         },
                         {
                             name: '产品/行业案例集',
                             length: 15,
                             target: '1-2-4',
-                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/宣传品/产品/行业案例集.ai'
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/宣传品/产品行业案例集.ai?_upd=true'
                         },
                         {
                             name: '产品彩页',
                             length: 4,
                             target: '1-2-5',
-                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/宣传品/产品彩页.ai'
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/宣传品/产品彩页.ai?_upd=true'
                         },
                         {
                             name: '产品技术白皮书',
                             length: 5,
                             target: '1-2-6',
-                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/宣传品/产品技术白皮书.ai'
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/宣传品/产品技术白皮书.ai?_upd=true'
                         },
                         {
                             name: '产品索引',
                             length: 3,
                             target: '1-2-7',
-                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/宣传品/产品索引.ai'
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/宣传品/产品索引.ai?_upd=true'
                         },
 
                     ]
@@ -130,177 +130,177 @@ var PAGE = {
                             name: '延展物料总揽',
                             length: 2,
                             target: '1-3-2',
-                            download: ''
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/活动总览.ai?_upd=true'
                         },
                         {
                             name: '主视觉背板',
                             length: 3,
                             target: '1-3-3',
-                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/主视觉背板.ai'
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/主视觉背板.ai?_upd=true'
                         },
                         {
                             name: '指示牌',
                             length: 1,
                             target: '1-3-4',
-                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/指示牌.ai'
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/指示牌.ai?_upd=true'
                         },
                         {
                             name: '胸卡',
                             length: 2,
                             target: '1-3-5',
-                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/胸卡.ai'
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/胸卡.ai?_upd=true'
                         },
                         {
                             name: '欢迎贺卡',
                             length: 1,
                             target: '1-3-6',
-                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/欢迎贺卡.ai'
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/欢迎贺卡.ai?_upd=true'
                         },
                         {
                             name: '桌签',
                             length: 1,
                             target: '1-3-7',
-                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/桌签.ai'
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/桌签.ai?_upd=true'
                         },
 
                         {
                             name: '车证',
                             length: 1,
                             target: '1-3-8',
-                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/车证.ai'
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/车证.ai?_upd=true'
                         },
                         {
                             name: '接机牌',
                             length: 1,
                             target: '1-3-9',
-                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/接机牌.ai'
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/接机牌.ai?_upd=true'
                         },
                         {
                             name: '邀请函',
                             length: 3,
                             target: '1-3-10',
-                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/邀请函.ai'
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/邀请函.ai?_upd=true'
                         },
                         {
                             name: '电子邀请函',
                             length: 1,
                             target: '1-3-11',
-                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/电子邀请函.psd'
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/电子邀请函.psd?_upd=true'
                         },
                         {
                             name: '易拉宝',
                             length: 1,
                             target: '1-3-12',
-                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/易拉宝.ai'
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/易拉宝.ai?_upd=true'
                         },
                         {
                             name: '主持人手卡',
                             length: 1,
                             target: '1-3-13',
-                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/主持人手卡.ai'
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/主持人手卡.ai?_upd=true'
                         },
                         {
                             name: '抽奖箱',
                             length: 1,
                             target: '1-3-14',
-                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/抽奖箱.ai'
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/抽奖箱.ai?_upd=true'
                         },
                         {
                             name: '抽奖券',
                             length: 1,
                             target: '1-3-15',
-                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/抽奖券.ai'
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/抽奖券.ai?_upd=true'
                         },
                         {
                             name: '参观指南',
                             length: 1,
                             target: '1-3-16',
-                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/参观指南.ai'
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/参观指南.ai?_upd=true'
                         },
                         {
                             name: '展板',
                             length: 1,
                             target: '1-3-17',
-                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/展板.ai'
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/展板.ai?_upd=true'
                         },
                         {
                             name: 'ppt模板',
                             length: 1,
                             target: '1-3-18',
-                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/ppt模板.ai'
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/ppt模板.ai?_upd=true'
                         },
                         {
                             length: 1,
                             name: '串场ppt',
                             target: '1-3-19',
-                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/串场ppt.ai'
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/串场ppt.ai?_upd=true'
                         },
                         {
                             name: '话筒贴',
                             length: 1,
                             target: '1-3-20',
-                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/话筒贴.ai'
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/话筒贴.ai?_upd=true'
                         },
                         {
                             name: '台卡签到处',
                             length: 1,
                             target: '1-3-21',
-                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/台卡签到处.ai'
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/台卡签到处.ai?_upd=true'
                         },
                         {
                             name: '椅背贴',
                             length: 1,
                             target: '1-3-22',
-                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/椅背贴.ai'
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/椅背贴.ai?_upd=true'
                         },
                         {
                             name: '议程指示牌',
                             length: 1,
                             target: '1-3-23',
-                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/议程指示牌.ai'
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/议程指示牌.ai?_upd=true'
                         },
 
                         {
                             name: '会议h5邀请函',
                             length: 1,
                             target: '1-3-24',
-                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/会议h5邀请函.ai'
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/会议h5邀请函.ai?_upd=true'
                         },
                         {
                             name: '讲台贴',
                             length: 1,
                             target: '1-3-25',
-                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/讲台贴.ai'
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/讲台贴.ai?_upd=true'
                         },
                         {
                             name: '条幅',
                             length: 1,
                             target: '1-3-26',
-                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/条幅.ai'
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/条幅.ai?_upd=true'
                         },
                         {
                             name: '颁奖kt板',
                             length: 1,
                             target: '1-3-27',
-                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/颁奖kt板.psd'
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/颁奖kt板.psd?_upd=true'
                         },
                         {
                             name: '签到表',
                             length: 1,
                             target: '1-3-28',
-                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/签到表.ai'
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/签到表.ai?_upd=true'
                         },
                         {
                             name: '倒计时提醒牌',
                             length: 1,
                             target: '1-2-29',
-                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/倒计时提醒牌.ai'
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/倒计时提醒牌.ai?_upd=true'
                         },
                         {
                             name: '签到背板',
                             length: 1,
                             target: '1-3-30',
-                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/签到背板.ai'
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/活动/签到背板.ai?_upd=true'
                         }
                     ]
                 },
@@ -360,33 +360,33 @@ var PAGE = {
                     vi: 'http://zlk.ruijie.com.cn/FileDatabase/Detail/10778',
                     originVi: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范源文件（总）/办公.zip',
                     third: [
-                        {name: '办公物料总揽', length: 1, target: '1-5-1', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/办公物料总揽.ai'},
-                        {name: '名片', length: 1, target: '1-5-2', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/名片.ai'},
-                        {name: '工牌', length: 1, target: '1-5-3', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/工牌.ai'},
-                        {name: 'DL信封', length: 1, target: '1-5-4', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/DL信封.ai'},
-                        {name: '5号信封', length: 1, target: '1-5-5', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/5号信封.ai'},
-                        {name: '7号信封', length: 1, target: '1-5-6', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/7号信封.ai'},
-                        {name: '9号信封', length: 1, target: '1-5-7', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/9号信封.ai'},
-                        {name: '纸杯', length: 1, target: '1-5-8', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/纸杯.ai'},
-                        {name: '邀请函', length: 1, target: '1-5-9', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/邀请函.ai'},
-                        {name: '授权书', length: 1, target: '1-5-10', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/授权书.ai'},
-                        {name: '邮件签名', length: 1, target: '1-5-11', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/邮件签名.ai'},
-                        {name: 'WORD模板', length: 1, target: '1-5-12', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/WORD模板.ai'},
-                        {name: '行政立牌', length: 1, target: '1-5-13', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/行政立牌.ai'},
-                        {name: '桌面立牌', length: 1, target: '1-5-14', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/桌面立牌.psd'},
-                        {name: '桌面贴签', length: 1, target: '1-5-15', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/桌面贴签.psd'},
-                        {name: '制度管理', length: 1, target: '1-5-16', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/制度管理.psd'},
-                        {name: 'EDM', length: 1, target: '1-5-17', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/EDM.zip'},
-                        {name: '外部采购', length: 1, target: '1-5-18', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/外部采购.ai'},
-                        {name: '纸袋', length: 1, target: '1-5-19', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/纸袋.ai'},
-                        {name: '帆布袋', length: 1, target: '1-5-20', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/帆布袋.ai'},
-                        {name: '透明手提袋', length: 1, target: '1-5-21', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/透明手提袋.ai'},
-                        {name: '前台背景墙', length: 1, target: '1-5-22', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/前台背景墙.ai'},
-                        {name: '玻璃门防撞条', length: 1, target: '1-5-23', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/玻璃门防撞条.ai'},
-                        {name: '警示标语', length: 1, target: '1-5-24', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/警示标语.psd'},
-                        {name: '温馨提示', length: 1, target: '1-5-25', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/温馨提示.psd'},
-                        {name: '门牌/部门牌', length: 1, target: '1-5-26', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/门牌/部门牌.ai'},
-                        {name: '6s海报', length: 1, target: '1-5-27', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/6s海报.psd'}
+                        {name: '办公物料总揽', length: 1, target: '1-5-1', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/办公物料总揽.ai?_upd=true'},
+                        {name: '名片', length: 1, target: '1-5-2', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/名片.ai?_upd=true'},
+                        {name: '工牌', length: 1, target: '1-5-3', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/工牌.ai?_upd=true'},
+                        {name: 'DL信封', length: 1, target: '1-5-4', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/DL信封.ai?_upd=true'},
+                        {name: '5号信封', length: 1, target: '1-5-5', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/5号信封.ai?_upd=true'},
+                        {name: '7号信封', length: 1, target: '1-5-6', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/7号信封.ai?_upd=true'},
+                        {name: '9号信封', length: 1, target: '1-5-7', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/9号信封.ai?_upd=true'},
+                        {name: '纸杯', length: 1, target: '1-5-8', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/纸杯.ai?_upd=true'},
+                        {name: '邀请函', length: 1, target: '1-5-9', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/邀请函.ai?_upd=true'},
+                        {name: '授权书', length: 1, target: '1-5-10', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/授权书.ai?_upd=true'},
+                        {name: '邮件签名', length: 1, target: '1-5-11', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/邮件签名横条.ai?_upd=true'},
+                        {name: 'WORD模板', length: 1, target: '1-5-12', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/WORD模板.zip?_upd=true'},
+                        {name: '行政立牌', length: 1, target: '1-5-13', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/行政立牌.ai?_upd=true'},
+                        {name: '桌面立牌', length: 1, target: '1-5-14', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/桌面立牌.psd?_upd=true'},
+                        {name: '桌面贴签', length: 1, target: '1-5-15', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/桌面贴签.psd?_upd=true'},
+                        {name: '制度管理', length: 1, target: '1-5-16', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/制度管理.psd?_upd=true'},
+                        {name: 'EDM', length: 1, target: '1-5-17', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/EDM.zip?_upd=true'},
+                        {name: '外部采购', length: 1, target: '1-5-18', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/外部采购.ai?_upd=true'},
+                        {name: '纸袋', length: 1, target: '1-5-19', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/纸袋.ai?_upd=true'},
+                        {name: '帆布袋', length: 1, target: '1-5-20', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/帆布袋.ai?_upd=true'},
+                        {name: '透明手提袋', length: 1, target: '1-5-21', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/透明手提袋.ai?_upd=true'},
+                        {name: '前台背景墙', length: 1, target: '1-5-22', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/前台背景墙.ai?_upd=true'},
+                        {name: '玻璃门防撞条', length: 1, target: '1-5-23', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/玻璃门防撞条.ai?_upd=true'},
+                        {name: '警示标语', length: 1, target: '1-5-24', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/警示标语.psd?_upd=true'},
+                        {name: '温馨提示', length: 1, target: '1-5-25', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/温馨提示.psd?_upd=true'},
+                        {name: '门牌/部门牌', length: 1, target: '1-5-26', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/部门牌.ai?_upd=true'},
+                        {name: '6s海报', length: 1, target: '1-5-27', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/6S海报.psd?_upd=true'}
                     ]
                 },
                 {
@@ -395,12 +395,12 @@ var PAGE = {
                     vi: 'http://zlk.ruijie.com.cn/FileDatabase/Detail/12138',
                     originVi: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范源文件（总）/网站.zip',
                     third: [
-                        {name: '网站页面基础元素与调性', length: 9, target: '1-6-1', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/网站/网站页面基础元素与调性.zip'},
+                        {name: '网站页面基础元素与调性', length: 9, target: '1-6-1', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/网站/网站页面基础元素.zip?_upd=true'},
                         {name: '首页', length: 13, target: '1-6-2', download: ''},
-                        {name: '产品页面', length: 1, target: '1-6-3', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/网站/产品页面.psd'},
-                        {name: '产品方案详情页', length: 1, target: '1-6-4', download: ''},
+                        {name: '产品页面', length: 1, target: '1-6-3', download: ''},
+                        {name: '产品方案详情页', length: 1, target: '1-6-4', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/网站/产品方案详情页.psd?_upd=true'},
                         {name: '行业线首页', length: 1, target: '1-6-5', download: ''},
-                        {name: '行业方案详情页', length: 1, target: '1-6-6', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/网站/解决方案详情页.psd'}
+                        {name: '行业方案详情页', length: 1, target: '1-6-6', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/网站/行业方案详情页.psd?_upd=true'}
                     ]
                 },
                 {
@@ -409,22 +409,22 @@ var PAGE = {
                     vi: 'http://zlk.ruijie.com.cn/FileDatabase/Detail/12140',
                     originVi: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范源文件（总）/海报.zip',
                     third: [
-                        {name: '移动海报总览与界面尺寸', length: 3, target: '1-7-1', download: ''},
-                        {name: '品牌案例海报', length: 1, target: '1-7-2', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/海报/品牌案例.psd'},
-                        {name: '品牌服务海报', length: 1, target: '1-7-3', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/海报/品牌服务.psd'},
-                        {name: '品牌业绩海报', length: 1, target: '1-7-4', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/海报/品牌业绩.psd'},
-                        {name: '产品品牌海报', length: 1, target: '1-7-5', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/海报/产品品牌.psd'},
-                        {name: '产品介绍海报', length: 1, target: '1-7-6', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/海报/产品介绍.psd'},
-                        {name: '产品方案海报', length: 1, target: '1-7-7', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/海报/产品方案.ai'},
-                        {name: '产品业绩海报', length: 1, target: '1-7-8', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/海报/产品业绩.psd'},
-                        {name: '行业介绍海报', length: 1, target: '1-7-9', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/海报/行业介绍.ai'},
-                        {name: '行业方案海报', length: 1, target: '1-7-10', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/海报/行业方案.psd'},
-                        {name: '行业案例海报', length: 1, target: '1-7-11', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/海报/行业案例.psd'},
-                        {name: '节日实践', length: 1, target: '1-7-12', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/海报/节日实践.psd'},
-                        {name: '活动海报', length: 1, target: '1-7-13', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/海报/活动海报.psd'},
-                        {name: '微信插图', length: 1, target: '1-7-14', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/海报/微信插图.psd'},
-                        {name: '裂变海报', length: 1, target: '1-7-15', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/海报/裂变海报.psd'},
-                        {name: 'H5邀请函标注', length: 1, target: '1-7-16', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/海报/H5邀请函.ai'}
+                        {name: '移动海报总览与界面尺寸', length: 3, target: '1-7-1', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/海报/移动总览.ai?_upd=true'},
+                        {name: '品牌案例海报', length: 1, target: '1-7-2', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/海报/品牌案例.psd?_upd=true'},
+                        {name: '品牌服务海报', length: 1, target: '1-7-3', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/海报/品牌服务.psd?_upd=true'},
+                        {name: '品牌业绩海报', length: 1, target: '1-7-4', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/海报/品牌业绩.psd?_upd=true'},
+                        {name: '产品品牌海报', length: 1, target: '1-7-5', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/海报/产品品牌.psd?_upd=true'},
+                        {name: '产品介绍海报', length: 1, target: '1-7-6', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/海报/产品介绍.psd?_upd=true'},
+                        {name: '产品方案海报', length: 1, target: '1-7-7', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/海报/产品方案.psd?_upd=true'},
+                        {name: '产品业绩海报', length: 1, target: '1-7-8', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/海报/产品业绩.psd?_upd=true'},
+                        {name: '行业介绍海报', length: 1, target: '1-7-9', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/海报/行业介绍.ai?_upd=true'},
+                        {name: '行业方案海报', length: 1, target: '1-7-10', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/海报/行业方案.ai?_upd=true'},
+                        {name: '行业案例海报', length: 1, target: '1-7-11', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/海报/行业案例.psd?_upd=true'},
+                        {name: '节日实践', length: 1, target: '1-7-12', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/海报/节日实践.psd?_upd=true'},
+                        {name: '活动海报', length: 1, target: '1-7-13', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/海报/活动海报.psd?_upd=true'},
+                        {name: '微信插图', length: 1, target: '1-7-14', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/海报/微信插图.psd?_upd=true'},
+                        {name: '裂变海报', length: 1, target: '1-7-15', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/海报/裂变海报.psd?_upd=true'},
+                        {name: 'H5邀请函标注', length: 1, target: '1-7-16', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/海报/H5邀请函.ai?_upd=true'}
                     ]
                 },
                 {
@@ -433,12 +433,12 @@ var PAGE = {
                     vi: 'http://zlk.ruijie.com.cn/FileDatabase/Detail/12139',
                     originVi: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范源文件（总）/媒体图.zip',
                     third: [
-                        {name: '媒体宣传图片类型总览', length: 1, target: '1-8-1', download: ''},
-                        {name: 'pc端首页样式', length: 3, target: '1-8-2', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/媒体图/pc端首页样式.ai'},
-                        {name: 'PC端样式', length: 4, target: '1-8-3', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/媒体图/pc端样式.ai'},
-                        {name: '移动端样式', length: 4, target: '1-8-4', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/媒体图/移动端样式.ai'},
-                        {name: '外部投放广告图画面调性', length: 1, target: '1-8-5', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/媒体图/外部投放广告图画面调性.ai'},
-                        {name: '月度媒体投放广告', length: 5, target: '1-8-6', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/媒体图/月度媒体投放广告.ai'}
+                        {name: '媒体宣传图片类型总览', length: 1, target: '1-8-1', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/媒体图/媒体总览.ai?_upd=true'},
+                        {name: 'pc端首页样式', length: 3, target: '1-8-2', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/媒体图/pc端首页样式.ai?_upd=true'},
+                        {name: 'PC端样式', length: 4, target: '1-8-3', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/媒体图/pc端样式.ai?_upd=true'},
+                        {name: '移动端样式', length: 4, target: '1-8-4', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/媒体图/移动端样式.ai?_upd=true'},
+                        {name: '外部投放广告图画面调性', length: 1, target: '1-8-5', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/媒体图/投放广告调性.ai?_upd=true'},
+                        {name: '月度媒体投放广告', length: 5, target: '1-8-6', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/媒体图/月度媒体投放广告.ai?_upd=true'}
                     ]
                 }
             ]
