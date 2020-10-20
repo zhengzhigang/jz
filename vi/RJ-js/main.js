@@ -10,7 +10,7 @@ var PAGE = {
                     name: '品牌基础核心元素', // 二级目录名称
                     f: '1/1',  // 三级目录对应图片部分路径
                     vi: 'http://zlk.ruijie.com.cn/FileDatabase/Detail/11912',
-                    originVi: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范源文件（总））/基础.zip',
+                    originVi: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范源文件(总)/基础.zip',
                     third: [
                         {
                             name: '锐捷策略与表现策略', // 三级目录名称
