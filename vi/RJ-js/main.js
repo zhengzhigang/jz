@@ -9,8 +9,8 @@ var PAGE = {
                 {
                     name: '品牌基础核心元素', // 二级目录名称
                     f: '1/1',  // 三级目录对应图片部分路径
-                    vi: 'http://zlk.ruijie.com.cn/FileDatabase/Detail/11912',
-                    originVi: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范源文件(总)/基础.zip',
+                    vi: 'https://zlkfile.ruijie.com.cn/锐捷品牌视觉规范预览/基础.pdf?_upd=true',
+                    originVi: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范源文件(总)/基础.zip?_upd=true',
                     third: [
                         {
                             name: '锐捷策略与表现策略', // 三级目录名称
@@ -66,8 +66,8 @@ var PAGE = {
                 {
                     name: '宣传品视觉规范',
                     f: '1/2',
-                    vi: 'http://zlk.ruijie.com.cn/FileDatabase/Detail/11848',
-                    originVi: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范源文件（总）/宣传品.zip',
+                    vi: 'https://zlkfile.ruijie.com.cn/锐捷品牌视觉规范预览/宣传品.pdf?_upd=true',
+                    originVi: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范源文件（总）/宣传品.zip?_upd=true',
                     third: [
                         {
                             name: '宣传总揽与基础栅格',
@@ -117,8 +117,8 @@ var PAGE = {
                 {
                     name: '活动视觉规范',
                     f: '1/3',
-                    vi: 'http://zlk.ruijie.com.cn/FileDatabase/Detail/12216',
-                    originVi: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范源文件（总）/活动.zip',
+                    vi: 'https://zlkfile.ruijie.com.cn/锐捷品牌视觉规范预览/活动.pdf?_upd=true',
+                    originVi: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范源文件（总）/活动.zip?_upd=true',
                     third: [
                         {
                             name: '大活动主视觉调性与构成',
@@ -357,8 +357,8 @@ var PAGE = {
                 {
                     name: '办公视觉规范',
                     f: '1/5',
-                    vi: 'http://zlk.ruijie.com.cn/FileDatabase/Detail/10778',
-                    originVi: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范源文件（总）/办公.zip',
+                    vi: 'https://zlkfile.ruijie.com.cn/锐捷品牌视觉规范预览/办公.pdf?_upd=true',
+                    originVi: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范源文件（总）/办公.zip?_upd=true',
                     third: [
                         {name: '办公物料总揽', length: 1, target: '1-5-1', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/办公物料总揽.ai?_upd=true'},
                         {name: '名片', length: 1, target: '1-5-2', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/名片.ai?_upd=true'},
@@ -392,8 +392,8 @@ var PAGE = {
                 {
                     name: '网站视觉规范',
                     f: '1/6',
-                    vi: 'http://zlk.ruijie.com.cn/FileDatabase/Detail/12138',
-                    originVi: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范源文件（总）/网站.zip',
+                    vi: 'https://zlkfile.ruijie.com.cn/锐捷品牌视觉规范预览/网站.pdf?_upd=true',
+                    originVi: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范源文件（总）/网站.zip?_upd=true',
                     third: [
                         {name: '网站页面基础元素与调性', length: 9, target: '1-6-1', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/网站/网站页面基础元素.zip?_upd=true'},
                         {name: '首页', length: 13, target: '1-6-2', download: ''},
@@ -406,8 +406,8 @@ var PAGE = {
                 {
                     name: '移动海报视觉规范',
                     f: '1/7',
-                    vi: 'http://zlk.ruijie.com.cn/FileDatabase/Detail/12140',
-                    originVi: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范源文件（总）/海报.zip',
+                    vi: 'https://zlkfile.ruijie.com.cn/锐捷品牌视觉规范预览/移动.pdf?_upd=true',
+                    originVi: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范源文件（总）/海报.zip?_upd=true',
                     third: [
                         {name: '移动海报总览与界面尺寸', length: 3, target: '1-7-1', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/海报/移动总览.ai?_upd=true'},
                         {name: '品牌案例海报', length: 1, target: '1-7-2', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/海报/品牌案例.psd?_upd=true'},
@@ -430,8 +430,8 @@ var PAGE = {
                 {
                     name: '媒体投放图片视觉规范',
                     f: '1/8',
-                    vi: 'http://zlk.ruijie.com.cn/FileDatabase/Detail/12139',
-                    originVi: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范源文件（总）/媒体图.zip',
+                    vi: 'https://zlkfile.ruijie.com.cn/锐捷品牌视觉规范预览/媒体.pdf?_upd=true',
+                    originVi: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范源文件（总）/媒体图.zip?_upd=true',
                     third: [
                         {name: '媒体宣传图片类型总览', length: 1, target: '1-8-1', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/媒体图/媒体总览.ai?_upd=true'},
                         {name: 'pc端首页样式', length: 3, target: '1-8-2', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/媒体图/pc端首页样式.ai?_upd=true'},
