@@ -28,7 +28,7 @@ var PAGE = {
                             name: '字体',
                             length: 2,
                             target: '1-1-3',
-                            download: 'http://zlk.ruijie.com.cn/FileDatabase/Detail/12644?_upd=true'
+                            download: 'http://zlk.ruijie.com.cn/FileDatabase/Detail/12644'
                         },
                         {
                             name: '色彩',
@@ -73,7 +73,7 @@ var PAGE = {
                             name: '宣传总揽与基础栅格',
                             length: 4,
                             target: '1-2-1',
-                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/宣传品/总览.zip?_upd=true'
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/宣传品/总览.ai?_upd=true'
                         },
                         {
                             name: '品牌画册/刊物',
@@ -360,7 +360,7 @@ var PAGE = {
                     vi: 'https://zlkfile.ruijie.com.cn/锐捷品牌视觉规范预览/办公.pdf?_upd=true',
                     originVi: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范源文件（总）/办公.zip?_upd=true',
                     third: [
-                        {name: '办公物料总揽', length: 1, target: '1-5-1', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/办公物料总揽.ai?_upd=true'},
+                        {name: '办公物料总揽', length: 1, target: '1-5-1', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/办公物料总览.ai?_upd=true'},
                         {name: '名片', length: 1, target: '1-5-2', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/名片.ai?_upd=true'},
                         {name: '工牌', length: 1, target: '1-5-3', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/工牌.ai?_upd=true'},
                         {name: 'DL信封', length: 1, target: '1-5-4', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/办公/DL信封.ai?_upd=true'},
