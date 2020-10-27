@@ -443,18 +443,18 @@ var PAGE = {
                 }
             ]
         },
-        {
-            name: 'Reyee品牌视觉规范',
-            icon: 'side-icon-02.png',
-            f: '2',
-            second: []
-        },
-        {
-            name: 'Ragial品牌视觉规范',
-            icon: 'side-icon-03.png',
-            f: '3',
-            second: []
-        }
+        // {
+        //     name: 'Reyee品牌视觉规范',
+        //     icon: 'side-icon-02.png',
+        //     f: '2',
+        //     second: []
+        // },
+        // {
+        //     name: 'Ragial品牌视觉规范',
+        //     icon: 'side-icon-03.png',
+        //     f: '3',
+        //     second: []
+        // }
     ],
     init: function() {
         var _this = this;

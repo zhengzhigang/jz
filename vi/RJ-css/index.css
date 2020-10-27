@@ -126,7 +126,7 @@ html, body {
   color: #333;
 }
 .zg-header-menu {
-  display: block;
+  display: none;
   position: absolute;
   right: 10px;
   top: 50%;
@@ -344,6 +344,9 @@ html, body {
   }
   .zg-header .text {
     font-size: 18px;
+  }
+  .zg-header-menu {
+    display: block;
   }
 
   .sidebar {
