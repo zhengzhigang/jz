@@ -170,6 +170,9 @@
   display: block;
   width: 100%;
 }
+.sec-2 .flow-item .zg-btn {
+  visibility: hidden;
+}
 .sec-2 .flow-item .btn1 {
   background: url("../RJ-img/flow-btn-01.png") center/100% 100% no-repeat;
 }

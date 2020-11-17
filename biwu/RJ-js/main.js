@@ -29,13 +29,12 @@ $(function() {
                     prevEl: '.swiper-button-prev',
                 },
             });
-            peopleScrollContent
 
             var swiper1 = new Swiper('#scrollContent', options)
             this.canScroll(swiper1)
 
-            var swiper2 = new Swiper('#peopleScrollContent', options);
-            this.canScroll(swiper2)
+            // var swiper2 = new Swiper('#peopleScrollContent', options);
+            // this.canScroll(swiper2)
 
             var swiper3 = new Swiper('#rankScrollContent', options);
             this.canScroll(swiper3)
