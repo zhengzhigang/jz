@@ -440,15 +440,274 @@ var PAGE = {
                         {name: '外部投放广告图画面调性', length: 1, target: '1-8-5', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/媒体图/投放广告调性.zip?_upd=true'},
                         {name: '月度媒体投放广告', length: 5, target: '1-8-6', download: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范/媒体图/月度媒体投放广告.zip?_upd=true'}
                     ]
+                },
+                {
+                    name: '产品包材视觉规范',
+                    f: '1/9',
+                    vi: 'https://zlkfile.ruijie.com.cn/锐捷品牌视觉规范预览/媒体.pdf?_upd=true',
+                    originVi: 'https://zlkfile.ruijie.com.cn/锐捷网络品牌视觉规范源文件（总）/媒体图.zip?_upd=true',
+                    third: [
+                        {name: '运输箱标准模板', length: 1, target: '1-9-1', download: ''},
+                        {name: '彩盒标准模板', length: 1, target: '1-9-2', download: ''},
+                        {name: '福网-运输箱标签', length: 1, target: '1-9-3', download: ''},
+                        {name: '福网-彩盒标签', length: 1, target: '1-9-4', download: ''},
+                        {name: '京网-运输箱标签', length: 1, target: '1-9-5', download: ''},
+                        {name: '京网-彩盒标签', length: 1, target: '1-9-6', download: ''},
+                        {name: '易耗品标签', length: 1, target: '1-9-7', download: ''},
+                        {name: '封签', length: 1, target: '1-9-8', download: ''},
+                        {name: '封箱胶带', length: 1, target: '1-9-9', download: ''},
+                        {name: '产品信息标签1', length: 5, target: '1-9-10', download: ''},
+                        {name: '产品信息标签：组合logo应用', length: 1, target: '1-9-11', download: ''},
+                        {name: '序列号标签-常见材质', length: 1, target: '1-9-12', download: ''},
+                        {name: '序列号标签-耐高温材质', length: 1, target: '1-9-13', download: ''},
+                        {name: '序列号标签-专用类', length: 1, target: '1-9-14', download: ''},
+                        {name: '序列号标签-二维码标签', length: 1, target: '1-9-15', download: ''},
+                        {name: '警告标签', length: 4, target: '1-9-16', download: ''},
+                        {name: 'ROHS国内国际标', length: 1, target: '1-9-17', download: ''},
+                        {name: '装箱清单', length: 1, target: '1-9-18', download: ''},
+                        {name: '保修册', length: 2, target: '1-9-19', download: ''},
+                        {name: '手册', length: 2, target: '1-9-20', download: ''},
+                        {name: '软件包装彩盒', length: 1, target: '1-9-21', download: ''},
+                        {name: '光盘与封套', length: 2, target: '1-9-22', download: ''},
+                        {name: '软件产品操作手册', length: 1, target: '1-9-23', download: ''},
+                        {name: 'logo在软件界面的应用——启动屏幕', length: 2, target: '1-9-24', download: ''},
+                        {name: '硬件', length: 1, target: '1-9-25', download: ''}
+                    ]
                 }
             ]
         },
-        // {
-        //     name: 'Reyee品牌视觉规范',
-        //     icon: 'side-icon-02.png',
-        //     f: '2',
-        //     second: []
-        // },
+        {
+            name: '睿易视觉识别规范手册',
+            icon: 'side-icon-02.png',
+            second: [
+                {
+                    name: '品牌基础核心元素', // 二级目录名称
+                    f: '2/1',  // 三级目录对应图片部分路径
+                    vi: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/LL/睿易品牌识别手册【基础部分】.pdf?_upd=true',
+                    originVi: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/YWJ/睿易VI手册【基础部分】.ai?_upd=true',
+                    third: [
+                        {
+                            name: 'logo', // 三级目录名称
+                            length: 10,   // 三级目录页数
+                            target: '2-1-1',  // 菜单锚点目标id
+                            download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【基础部分】/REYEE睿易logo文件.zip?_upd=true'
+                        },
+                        {
+                            name: '品牌口号以及用法',
+                            length: 1,
+                            target: '2-1-2',
+                            download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【基础部分】/REYEE睿易标语文件.zip?_upd=true'
+                        },
+                        {
+                            name: '字体',
+                            length: 2,
+                            target: '2-1-3',
+                            download: ''
+                        },
+                        {
+                            name: '色彩',
+                            length: 2,
+                            target: '2-1-4',
+                            download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【基础部分】/REYEE睿易品牌标准色文件.zip?_upd=true'
+                        },
+                        {
+                            name: '栅格板式',
+                            length: 2,
+                            target: '2-1-5',
+                            download: ''
+                        },
+                        {
+                            name: '影像风格',
+                            length: 3,
+                            target: '2-1-6',
+                            download: ''
+                        },
+                        {
+                            name: '辅助图形',
+                            length: 5,
+                            target: '2-1-7',
+                            download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【基础部分】/REYEE睿易辅助图形文件.zip?_upd=true'
+                        },
+                        {
+                            name: '图标',
+                            length: 2,
+                            target: '2-1-8',
+                            download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【基础部分】/REYEE睿易图标文件.zip?_upd=true'
+                        }
+
+                    ]
+                },
+                {
+                    name: '广宣视觉规范', // 二级目录名称
+                    f: '2/2',  // 三级目录对应图片部分路径
+                    vi: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/LL/睿易品牌识别手册【广宣部分】.pdf?_upd=true',
+                    originVi: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/YWJ/睿易VI手册【广宣部分】.zip?_upd=true',
+                    third: [
+                        {
+                            name: '宣传品分类总览', // 三级目录名称
+                            length: 4,   // 三级目录页数
+                            target: '2-2-1',  // 菜单锚点目标id
+                            download: ''
+                        },
+                        {
+                            name: '广告总览',
+                            length: 1,
+                            target: '2-2-2',
+                            download: ''
+                        },
+                        {
+                            name: '品牌广告',
+                            length: 2,
+                            target: '2-2-3',
+                            download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【广宣部分】/品牌广告.zip?_upd=true'
+                        },
+                        {
+                            name: '产品广告',
+                            length: 3,
+                            target: '2-2-4',
+                            download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【广宣部分】/普通产品广告.zip?_upd=true'
+                        },
+                        {
+                            name: '栅格应用规范',
+                            length: 2,
+                            target: '2-2-5',
+                            download: ''
+                        },
+                        {
+                            name: '宣传品手册总览',
+                            length: 1,
+                            target: '2-2-6',
+                            download: ''
+                        },
+                        {
+                            name: '品牌手册规范',
+                            length: 5,
+                            target: '2-2-7',
+                            download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【广宣部分】/品牌手册.zip?_upd=true'
+                        },
+                        {
+                            name: '方案手册规范',
+                            length: 2,
+                            target: '2-2-8',
+                            download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【广宣部分】/方案手册.zip?_upd=true'
+                        },
+                        {
+                            name: '产品手册规范',
+                            length: 4,
+                            target: '2-2-9',
+                            download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【广宣部分】/产品手册.zip?_upd=true'
+                        }
+
+                    ]
+                },
+                {
+                    name: '活动视觉规范', // 二级目录名称
+                    f: '2/3',  // 三级目录对应图片部分路径
+                    vi: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/LL/睿易品牌识别手册【活动部分】.pdf?_upd=true',
+                    originVi: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/YWJ/睿易VI手册【活动部分】.zip?_upd=true',
+                    third: [
+                        {name: '活动视觉画面构成规范', length: 1, target: '2-3-1', download: ''},
+                        {name: '总览', length: 2, target: '2-3-2', download: ''},
+                        {name: '会议背景板',length: 4,target: '2-3-3',download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【活动部分】/会议背景板.zip?_upd=true'},
+                        {name: '讲台主题板',length: 1,target: '2-3-4',download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【活动部分】/讲台主题板.zip?_upd=true'},
+                        {name: '签到背板', length: 1, target: '2-3-5', download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【活动部分】/签到背板.zip?_upd=true'},
+                        {name: '指示牌',length: 1,target: '2-3-6',download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【活动部分】/指示牌.zip?_upd=true'},
+                        {name: '接机牌',length: 1,target: '2-3-7',download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【活动部分】/接机牌.zip?_upd=true'},
+                        {name: '桌签', length: 1, target: '2-3-8', download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【活动部分】/桌签.zip?_upd=true'},
+                        {name: '车证', length: 1, target: '2-3-9', download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【活动部分】/车证.zip?_upd=true'},
+                        {name: '椅贴',length: 1,target: '2-3-10',download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【活动部分】/椅贴.zip?_upd=true'},
+                        {name: '台卡签到处',length: 1,target: '2-3-11',download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【活动部分】/台卡签到处.zip?_upd=true'},
+                        {name: '条幅', length: 1, target: '2-3-12', download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【活动部分】/条幅.zip?_upd=true'},
+                        {name: '颁奖KT板', length: 1, target: '2-3-13', download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【活动部分】/颁奖KT板.zip?_upd=true'},
+                        {name: '易拉宝',length: 1,target: '2-3-14',download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【活动部分】/易拉宝.zip?_upd=true'},
+                        {name: 'X展架',length: 1,target: '2-3-15',download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【活动部分】/X展架.zip?_upd=true'},
+                        {name: '展板', length: 1, target: '2-3-16', download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【活动部分】/展板.zip?_upd=true'},
+                        {name: '议程指示牌', length: 1, target: '2-3-17', download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【活动部分】/议程指示牌.zip?_upd=true'},
+                        {name: '参观指南',length: 1,target: '2-3-18',download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【活动部分】/参观指南.zip?_upd=true'},
+                        {name: '讲台贴',length: 1,target: '2-3-19',download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【活动部分】/讲台贴.zip?_upd=true'},
+                        {name: '话筒贴', length: 1, target: '2-3-20', download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【活动部分】/话筒贴.zip?_upd=true'},
+                        {name: '主持人手卡', length: 1, target: '2-3-21', download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【活动部分】/主持人手卡.zip?_upd=true'},
+                        {name: '抽奖箱',length: 1,target: '2-3-22',download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【活动部分】/抽奖箱.zip?_upd=true'},
+                        {name: '抽奖券',length: 1,target: '2-3-23',download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【活动部分】/抽奖券.zip?_upd=true'},
+                        {name: '签到表', length: 1, target: '2-3-24', download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【活动部分】/签到表.zip?_upd=true'},
+                        {name: '倒计时提醒', length: 1, target: '2-3-25', download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【活动部分】/倒计时.zip?_upd=true'},
+                        {name: '胸卡',length: 2,target: '2-3-26',download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【活动部分】/胸卡.zip?_upd=true'},
+                        {name: '邀请函',length: 1,target: '2-3-27',download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【活动部分】/邀请函.zip?_upd=true'},
+                        {name: '电子邀请函', length: 4, target: '2-3-28', download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【活动部分】/电子邀请函.zip?_upd=true'},
+                        {name: 'h5邀请函', length: 1, target: '2-3-29', download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【活动部分】/H5邀请函.zip?_upd=true'},
+                        {name: '欢迎贺卡',length: 1,target: '2-3-30',download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【活动部分】/欢迎贺卡.zip?_upd=true'},
+                        {name: 'PPT',length: 2,target: '2-3-31',download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【活动部分】/PPT模板.zip?_upd=true'},
+                    ]
+                },
+                {
+                    name: '办公视觉规范', // 二级目录名称
+                    f: '2/4',  // 三级目录对应图片部分路径
+                    vi: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/LL/睿易品牌识别手册【办公部分】.pdf?_upd=true',
+                    originVi: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/YWJ/睿易VI手册【办公部分】.ai?_upd=true',
+                    third: [
+                        {name: '名片', length: 2, target: '2-4-1', download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【办公部分】/名片.zip?_upd=true'},
+                        {name: '信封', length: 2, target: '2-4-2', download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【办公部分】/信封.zip?_upd=true'},
+                        {name: '授权书',length: 1,target: '2-4-3',download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【办公部分】/授权书.zip?_upd=true'},
+                        {name: '邀请函',length: 6,target: '2-4-4',download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【办公部分】/邀请函.zip?_upd=true'},
+                        {name: 'PPT模板', length: 2, target: '2-4-5', download: ''},
+                        {name: '手提袋', length: 2, target: '2-4-6', download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【办公部分】/手提袋.zip?_upd=true'},
+                        {name: '帆布袋', length: 1, target: '2-4-7', download: ''},
+                        {name: '塑料袋', length: 2, target: '2-4-8', download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【办公部分】/塑料袋.zip?_upd=true'},
+                        {name: '纸杯',length: 2,target: '2-4-9',download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【办公部分】/纸杯.zip?_upd=true'},
+                        {name: 'T恤',length: 1,target: '2-4-10',download: ''},
+                        {name: 'U盘', length: 1, target: '2-4-11', download: ''},
+                        {name: '签字笔', length: 1, target: '2-4-12', download: ''},
+                        {name: '保温杯', length: 1, target: '2-4-13', download: ''},
+                        {name: '移动电源',length: 1,target: '2-4-14',download: ''},
+                        {name: '双肩包',length: 1,target: '2-4-15',download: ''},
+                        {name: '云体验箱', length: 1, target: '2-4-16', download: ''},
+                        {name: '手提箱', length: 1, target: '2-4-17', download: ''},
+                        {name: '其他礼品', length: 3, target: '2-4-18', download: ''},
+                        {name: 'word',length: 1,target: '2-4-19',download: ''},
+                        {name: '门头规范',length: 3,target: '2-4-20',download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【办公部分】/门头.ai?_upd=true'}
+                    ]
+                },
+                {
+                    name: '产品视觉规范', // 二级目录名称
+                    f: '2/5',  // 三级目录对应图片部分路径
+                    vi: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/LL/睿易品牌识别手册【产品部分】.pdf?_upd=true',
+                    originVi: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/YWJ/睿易VI手册【产品部分】.ai?_upd=true',
+                    third: [
+                        {name: '产品相关logo应用',length: 2,target: '2-5-1',download: ''},
+                        {name: '包材应用信息', length: 3, target: '2-5-2', download: ''},
+                        {name: '字体', length: 2, target: '2-5-3', download: ''},
+                        {name: '色彩', length: 1, target: '2-5-4', download: ''},
+                        {name: '栅格板式',length: 1,target: '2-5-5',download: ''},
+                        {name: '辅助图形',length: 1,target: '2-5-6',download: ''},
+                        {name: '彩盒包装', length: 6, target: '2-5-7', download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【产品部分】/彩盒标准模板.zip?_upd=true'},
+                        {name: '瓦楞纸盒包装', length: 6, target: '2-5-8', download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【产品部分】/瓦楞纸包装标准模板.zip?_upd=true'},
+                        {name: '运输箱', length: 6, target: '2-5-9', download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【产品部分】/运输箱标准模板.zip?_upd=true'},
+                        {name: '产品标识应用',length: 2,target: '2-5-10',download: ''},
+                        {name: '包装用标签',length: 5,target: '2-5-11',download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【产品部分】/包装用标签.ai?_upd=true'},
+                        {name: '设备标签',length: 12,target: '2-5-12',download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【产品部分】/设备标签.ai?_upd=true'},
+                        {name: '相关认证', length: 2, target: '2-5-13', download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【产品部分】/相关认证标.ai?_upd=true'},
+                        {name: '封箱包材', length: 2, target: '2-5-14', download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【产品部分】/封箱包材.ai?_upd=true'},
+                        {name: '其它包材', length: 6, target: '2-5-15', download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【产品部分】/其他包材.ai?_upd=true'},
+                        {name: '软件包装模板',length: 5,target: '2-5-16',download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【产品部分】/软件包装模板.ai?_upd=true'},
+                    ]
+                },
+                {
+                    name: '网站部分视觉规范', // 二级目录名称
+                    f: '2/6',  // 三级目录对应图片部分路径
+                    vi: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/LL/睿易品牌识别手册【网站部分】.pdf?_upd=true',
+                    originVi: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/YWJ/睿易VI手册【网站部分】.ai?_upd=true',
+                    third: [
+                        {name: '网站要素构成',length: 2,target: '2-6-1',download: ''},
+                        {name: '首页', length: 12, target: '2-6-2', download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【网站部分】/REYEE睿易网站部分_首页.zip?_upd=true'},
+                        {name: '睿网络基本要素', length: 1, target: '2-6-3', download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【网站部分】/REYEE睿易网站部分_睿网络.zip?_upd=true'},
+                        {name: '睿网络各模块架构', length: 9, target: '2-6-4', download: ''},
+                        {name: '易网络基本要素',length: 1,target: '2-6-5',download: ''},
+                        {name: '易网络各模块架构',length: 9,target: '2-6-6',download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【网站部分】/REYEE睿易网站部分_易网络.zip?_upd=true'},
+                        {name: '交互样式',length: 3,target: '2-6-7',download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【网站部分】/REYEE睿易网站部分_交互样式.zip?_upd=true'}
+                    ]
+                },
+            ]
+        },
         // {
         //     name: 'Ragial品牌视觉规范',
         //     icon: 'side-icon-03.png',
