@@ -633,7 +633,7 @@ var PAGE = {
                         {name: '倒计时提醒', length: 1, target: '2-3-25', download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【活动部分】/倒计时.zip?_upd=true'},
                         {name: '胸卡',length: 2,target: '2-3-26',download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【活动部分】/胸卡.zip?_upd=true'},
                         {name: '邀请函',length: 1,target: '2-3-27',download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【活动部分】/邀请函.zip?_upd=true'},
-                        {name: '电子邀请函', length: 4, target: '2-3-28', download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【活动部分】/电子邀请函.zip?_upd=true'},
+                        {name: '电子邀请函', length: 1, target: '2-3-28', download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【活动部分】/电子邀请函.zip?_upd=true'},
                         {name: 'h5邀请函', length: 1, target: '2-3-29', download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【活动部分】/H5邀请函.zip?_upd=true'},
                         {name: '欢迎贺卡',length: 1,target: '2-3-30',download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【活动部分】/欢迎贺卡.zip?_upd=true'},
                         {name: 'PPT',length: 2,target: '2-3-31',download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【活动部分】/PPT模板.zip?_upd=true'},
@@ -663,8 +663,8 @@ var PAGE = {
                         {name: '云体验箱', length: 1, target: '2-4-16', download: ''},
                         {name: '手提箱', length: 1, target: '2-4-17', download: ''},
                         {name: '其他礼品', length: 3, target: '2-4-18', download: ''},
-                        {name: 'word',length: 1,target: '2-4-19',download: ''},
-                        {name: '门头规范',length: 3,target: '2-4-20',download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【办公部分】/门头.ai?_upd=true'}
+                        // {name: 'word',length: 1,target: '2-4-19',download: ''},
+                        {name: '门头规范',length: 3,target: '2-4-19',download: 'https://zlkfile.ruijie.com.cn/ruiyiguifan(Z)/CJWJ/睿易品牌识别手册【办公部分】/门头.ai?_upd=true'}
                     ]
                 },
                 {
