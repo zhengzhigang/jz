@@ -9,5 +9,11 @@
     "compass:watch": "compass watch"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "compass": "^0.1.1"
+  },
+  "dependencies": {
+    "ffi": "^2.3.0"
+  }
 }

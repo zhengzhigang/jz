@@ -361,10 +361,10 @@ body {
   width: 60%;
   bottom: 0;
   left: 20%;
-  background: linear-gradient(left, #0286fd, #1b9ee3, #34b8c9);
-  background: -ms-linear-gradient(left, #0286fd, #1b9ee3, #34b8c9);
-  background: -webkit-linear-gradient(left, #0286fd, #1b9ee3, #34b8c9);
-  background: -moz-linear-gradient(left, #0286fd, #1b9ee3, #34b8c9);
+  background: linear-gradient(left, #30d0d1, #a1ebc3);
+  background: -ms-linear-gradient(left, #30d0d1, #a1ebc3);
+  background: -webkit-linear-gradient(left, #30d0d1, #a1ebc3);
+  background: -moz-linear-gradient(left, #30d0d1, #a1ebc3);
 }
 .btn-list{
   text-align: center;
@@ -461,6 +461,9 @@ body {
 .t-page2{
   background-image: url(../RJ-img/page2-bg.jpg);
   padding-bottom: 60px;
+  .live-img {
+    box-shadow: 0 0 10px #ddd;
+  }
 }
 .s-video {
   width: 94%;
@@ -551,12 +554,12 @@ body {
 .page3-cont li{
   position: relative;
   float: left;
-  width: 313px;
+  width: 27%;
   height: 162px;
   border-radius: 5px;
   box-sizing: border-box;
   padding: 30px;
-  margin-right: 130px;
+  margin-right: 9.5%;
   font-size: 16px;
   color: #505050;
   background: url(../RJ-img/page3-item.png) no-repeat left center;
@@ -581,8 +584,9 @@ body {
 
   .time {
     position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    left: 0;
     bottom: -150px;
     font-size: 24px;
     color: #0cc0a7;
@@ -817,6 +821,7 @@ body {
     transform: translateX(-50%);
     margin-left: 0;
     z-index: 10;
+    border: 1px solid #ddd;
   }
   .s-video .btn{
     width: auto;
@@ -858,10 +863,11 @@ body {
       position: absolute;
       height: 40px;
       top: 56%;
-      left: -40px;
+      left: -88px;
       font-size: 16px;
       z-index: 9;
       line-height: 40px;
+      margin-top: -50px;
     }
   }
   .page3-cont ul:after {
@@ -888,6 +894,9 @@ body {
   .t-page4 {
     .t-sub-title {
       margin-bottom: 30px;
+    }
+    .btn {
+      width: 240px;
     }
   }
 
@@ -957,3 +966,15 @@ body {
   .ns-layer.ns-video-layer .ns-layer-inner .ns-content { height: 170px; }
 }
 
+@media screen and (max-width: 375px) {
+  .t-page1 {
+    .page1-cont {
+      padding-bottom: 280px;
+    }
+  }
+  .t-page6 {
+    .t-sub-title {
+      margin-top: 5px;
+    }
+  }
+}

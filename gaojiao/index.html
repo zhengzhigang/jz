@@ -15,13 +15,10 @@
 <body>
 
   <!-- #include file="/HeaderUC_R.html" -->
-  <!-- <script src="https://image.ruijie.com.cn/UIA/v2.0/scripts/jquery-1.10.2.min.js" type="text/javascript"></script> -->
-
-
+  <script src="https://image.ruijie.com.cn/UIA/v2.0/scripts/jquery-1.10.2.min.js" type="text/javascript"></script>
 
   <!--内容正文开始-->
   <script type="text/javascript" src="RJ-js/item.js?2"></script>
-
 
   <link rel="stylesheet" type="text/css" href="RJ-css/item.css?2" />
   <!--内容正文开始-->
@@ -34,7 +31,7 @@
           </div>
           <div class="page1-icon">
             <img src="./RJ-img/clock.png" />
-            <p>时间：5月21日 16：00-17：00</p>
+            <p>时间：5月21日 16:00-17:00</p>
           </div>
           <div class="btn-list">
             <a target="_blank" class="btn line-bg qrcode-btn btn1">预约观看直播</a>
@@ -47,12 +44,12 @@
     <div class="t-cont-item t-nav t-page-nav">
       <div class="t-content">
         <ul class="nav-lists">
-          <li data-index="1" class="nav3 active">直播窗口</li>
-          <li data-index="2" class="nav1">会议议程</li>
-          <li data-index="3" class="nav2">方案亮点 </li>
+          <li data-index="1" class="nav1 active">直播窗口</li>
+          <li data-index="2" class="nav2">会议议程</li>
+          <li data-index="3" class="nav3">方案亮点 </li>
           <li data-index="4" class="nav4">最佳实践</li>
           <li data-index="5" class="nav5">云桌面在高校</li>
-        </ul>                                                                                                 
+        </ul>
       </div>
     </div>
 
@@ -61,8 +58,11 @@
         <h3 class="t-main-title"><span>直播窗口</span></h3>
         <div class="s-video">
           <img class="live-img" src="RJ-img/page2-img.jpg?0422"/>
-          <p class="btn sec3__btn qrcode-btn live-btn">预约观看</p>
-          <iframe id="iframe" scrolling="no" style="width: 100%; height: 500px;" frameborder="0" marginheight="0" marginwidth="0" src=" http://v.zmengzhu.com/partner/inituser/10209604?embed=all&amp;unique_id=19998237&amp;appid=2021042118383670668&amp;&amp;name=123&amp;avatar=&amp;v=2"></iframe>
+          <p class="btn sec3__btn qrcode-btn live-btn btn4">预约观看</p>
+          <iframe
+            id="iframe"
+            src="https://v.zmengzhu.com/partner/inituser/10210890?embed=all&unique_id=19998237&appid=2021042118383670668&name=&avatar=&v=2 "
+            style="width:100%;height:350px;border:0"></iframe>
         </div>
       </div>
     </div>
@@ -104,7 +104,7 @@
           <img src="./RJ-img/page4-img.png" alt="">
         </div>
         <div class="btn-list">
-          <a href="" class="btn">了解解决方案详情</a>
+          <a href="" class="btn btn5">了解解决方案详情</a>
         </div>
       </div>
     </div>    
@@ -169,78 +169,46 @@
     <h5 class="code__text">扫码预约观看直播</h5>
   </div>
 
-
-
   <!-- #include file="/FooterUC_R.html" -->
 
   <script type='text/javascript'>
     _gsq.push(["T", "GWD-002457", "trackEvent", "内容页", "专题", ""]);
 
-$(function() {
-  $('.t-page1 .btn1').on('click', function() {
-    _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页按钮", "banner 预约观看直播"]);
-  })
-  $('.t-page1 .btn2').on('click', function() {
-    _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页按钮", "banner 了解高教三擎云桌面方案"]);
-  })
-  $('.t-page1 .btn3').on('click', function() {
-    _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页按钮", "banner 下载会议报告"]);
-  })
+    $(function() {
+        $('.t-page1 .btn1').on('click', function() {
+            _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页 查看详情", "banner 预约观看直播"]);
+        })
+        $('.t-page1 .btn2').on('click', function() {
+            _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页 查看详情", "banner 了解高教三擎云桌面方案"]);
+        })
+        $('.t-page1 .btn3').on('click', function() {
+            _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页 查看详情", "banner 下载会议报告"]);
+        })
 
-  $('.nav-lists .nav1').on('click', function() {
-    _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页锚点查看详情", "专题页锚点 万丰奥特"]);
-  })
-  $('.nav-lists .nav2').on('click', function() {
-    _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页锚点查看详情", "专题页锚点 会议亮点"]);
-  })
-  $('.nav-lists .nav3').on('click', function() {
-    _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页锚点查看详情", "专题页锚点 会议直播"]);
-  })
-  $('.nav-lists .nav4').on('click', function() {
-    _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页锚点查看详情", "专题页锚点 会议议程"]);
-  })
-  $('.nav-lists .nav5').on('click', function() {
-    _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页锚点查看详情", "专题页锚点 演讲嘉宾"]);
-  })
-  $('.nav-lists .nav6').on('click', function() {
-    _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页锚点查看详情", "专题页锚点 行业案例"]);
-  })
-  $('.nav-lists .nav7').on('click', function() {
-    _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页锚点查看详情", "专题页锚点 会议现场"]);
-  })
+        $('.nav-lists .nav1').on('click', function() {
+            _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页锚点查看详情", "专题页锚点 直播窗口"]);
+        })
+        $('.nav-lists .nav2').on('click', function() {
+            _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页锚点查看详情", "专题页锚点 会议议程"]);
+        })
+        $('.nav-lists .nav3').on('click', function() {
+            _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页锚点查看详情", "专题页锚点 方案亮点"]);
+        })
+        $('.nav-lists .nav4').on('click', function() {
+            _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页锚点查看详情", "专题页锚点 最佳实践"]);
+        })
+        $('.nav-lists .nav5').on('click', function() {
+            _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页锚点查看详情", "专题页锚点 云桌面在高校"]);
+        })
 
 
-  $('.t-page2 .js-btn1').on('click', function() {
-    _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页 查看详情", "锐捷三擎全场景云桌面解决方案"]);
-  })
-  $('.t-page2 .js-btn2').on('click', function() {
-    _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页 查看详情", "锐捷生产无线解决方案"]);
-  })
-  $('.t-page2 .js-btn3').on('click', function() {
-    _gsq.push(["T", "GWD-002457", "trackEvent", "售前咨询", "专题页 查看详情", "我想了解更多"]);
-  })
-
-  $('.t-page3 .js-btn1').on('click', function() {
-    _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页 查看详情", "生产无线"]);
-  })
-  $('.t-page3 .js-btn2').on('click', function() {
-    _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页 查看详情", "生产云桌面"]);
-  })
-  $('.t-page3 .js-btn3').on('click', function() {
-    _gsq.push(["T", "GWD-002457", "trackEvent", "售前咨询", "专题页 查看详情", "企业三擎全场景云桌面"]);
-  })
-
-  $('.t-page6 .js-btn1').on('click', function() {
-    _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页 查看详情", "演讲资料下载"]);
-  })
-  $('.t-page6 .js-btn2').on('click', function() {
-    _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页 查看详情", "演讲资料下载"]);
-  })
-  $('.t-page6 .js-btn3').on('click', function() {
-    _gsq.push(["T", "GWD-002457", "trackEvent", "售前咨询", "专题页 查看详情", "演讲资料下载"]);
-  })
-
-})
+        $('.t-page1 .btn4').on('click', function() {
+            _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页 查看详情", "预约观看"]);
+        })
+        $('.t-page1 .btn5').on('click', function() {
+            _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页 查看详情", "了解解决方案详情"]);
+        })
+    })
   </script>
 </body>
 </html>
