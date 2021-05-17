@@ -37,9 +37,9 @@
             <p>时间：5月21日 16：00-17：00</p>
           </div>
           <div class="btn-list">
-            <a href="http://z-mz.cn/2THaQ" target="_blank" class="btn line-bg">预约观看直播</a>
-            <a href="http://z-mz.cn/2THaQ" target="_blank" class="btn large">了解高教三擎云桌面方案</a>
-            <a href="http://z-mz.cn/2THaQ" target="_blank" class="btn">下载会议报告</a>
+            <a target="_blank" class="btn line-bg qrcode-btn btn1">预约观看直播</a>
+            <a href="" target="_blank" class="btn large btn2">了解高教三擎云桌面方案</a>
+            <a href="" target="_blank" class="btn btn3">下载会议报告</a>
           </div>
         </div>
       </div>
@@ -59,28 +59,15 @@
     <div class="t-cont-item t-page2" data-index="1">
       <div class="t-content">
         <h3 class="t-main-title"><span>直播窗口</span></h3>
-        <div class="qr__code">
-          <span class="close">
-            <img src="./RJ-img/close.jpg">
-          </span>
-          <dl>
-            <dt>
-              <img class="code__img" src="./RJ-img/qrcode.jpg?0430">
-            </dt>
-            <dd>
-              <h5>扫码预约参会</h5>
-              <p class="code__text">开播前会收到会议直播提醒和会议资料推送，建议您扫码预约</p>
-            </dd>
-          </dl>
-        </div>
         <div class="s-video">
-          <img src="RJ-img/page2-img.jpg?0422"/>
-          <p class="btn sec3__btn">预约观看</p>
+          <img class="live-img" src="RJ-img/page2-img.jpg?0422"/>
+          <p class="btn sec3__btn qrcode-btn live-btn">预约观看</p>
+          <iframe id="iframe" scrolling="no" style="width: 100%; height: 500px;" frameborder="0" marginheight="0" marginwidth="0" src=" http://v.zmengzhu.com/partner/inituser/10209604?embed=all&amp;unique_id=19998237&amp;appid=2021042118383670668&amp;&amp;name=123&amp;avatar=&amp;v=2"></iframe>
         </div>
       </div>
     </div>
 
-    <div class="t-cont-item t-page3" data-index="4">
+    <div class="t-cont-item t-page3" data-index="2">
       <div class="t-content">
         <div class="t-main-title">会议议程</div>
         <div class="page3-cont">
@@ -106,14 +93,14 @@
       </div>
     </div>
 
-    <div class="t-cont-item t-page4" data-index="4">
+    <div class="t-cont-item t-page4" data-index="3">
       <div class="t-content">
         <div class="t-main-title">方案亮点</div>
         <p class="t-sub-title text_l">
           锐捷网络全力打造更适合高教的三擎云桌面解决方案，融合了IDV、VDI、 VOI三种技术架构，针对不同高校的应用场景提供针对性的解决方案，
           不再以单架构形势划分产品，实现高校全场景的集中运维、统一规划、统一管理，构建高校“一朵云”。
         </p>
-        <div class="page3-cont">
+        <div class="page4-cont">
           <img src="./RJ-img/page4-img.png" alt="">
         </div>
         <div class="btn-list">
@@ -122,7 +109,7 @@
       </div>
     </div>    
 
-    <div class="t-cont-item t-page5" data-index="3">
+    <div class="t-cont-item t-page5" data-index="4">
       <div class="t-content">
         <div class="t-main-title">最佳实践</div>
         <p class="t-sub-title">他们都选择锐捷三擎云桌面</p>
@@ -152,10 +139,11 @@
       </div>
     </div>
 
-    <div class="t-cont-item t-page6" data-index="4">
-      <img class="page6-img" src="./RJ-img/page6-bg.jpg" alt="">
+    <div class="t-cont-item t-page6" data-index="5">
+      <img class="page6-img show-pc" src="./RJ-img/page6-bg.jpg" alt="">
+      <img class="page6-img show-mobile" src="./RJ-img/page6-bg-m.jpg" alt="">
       <div class="t-content">
-        <div class="t-main-title">方案亮点</div>
+        <div class="t-main-title">云桌面在高校</div>
         <p class="t-sub-title">推进桌面云化进程 打造高校一朵云</p>
       </div>
     </div> 
@@ -172,6 +160,15 @@
     </div>
   </div>
 
+  <!-- 二维码弹窗 -->
+  <div class="qr__code">
+    <span class="close">
+      <img src="./RJ-img/close.jpg">
+    </span>
+    <img class="code__img" src="./RJ-img/qrcode.png?0430">
+    <h5 class="code__text">扫码预约观看直播</h5>
+  </div>
+
 
 
   <!-- #include file="/FooterUC_R.html" -->
@@ -180,8 +177,14 @@
     _gsq.push(["T", "GWD-002457", "trackEvent", "内容页", "专题", ""]);
 
 $(function() {
-  $('.page1-btnList .btn1').on('click', function() {
-    _gsq.push(["T", "GWD-002457", "trackEvent", "售前咨询", "专题页报名参加", "banner 报名参加"]);
+  $('.t-page1 .btn1').on('click', function() {
+    _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页按钮", "banner 预约观看直播"]);
+  })
+  $('.t-page1 .btn2').on('click', function() {
+    _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页按钮", "banner 了解高教三擎云桌面方案"]);
+  })
+  $('.t-page1 .btn3').on('click', function() {
+    _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页按钮", "banner 下载会议报告"]);
   })
 
   $('.nav-lists .nav1').on('click', function() {

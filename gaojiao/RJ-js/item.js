@@ -7,18 +7,13 @@ $(function () {
     init: function () {
       var winWidth = $(window).width()
       var _this = this
-      this.initSwiper()
-      // this.checkLiveTime()
+      this.checkLiveTime()
       this.playVideo()
       if (winWidth > 768) {
         this.fixedNav()
         window.onscroll()
       }
       this.clickNav()
-
-      $('.sec3__btn').on('click', function () {
-        window.open('http://z-mz.cn/2THaQ')
-      })
     },
 
     showQrCode: function () {
@@ -114,122 +109,19 @@ $(function () {
     checkLiveTime () {
       let _this = this
       $('.qr__code').on('click', '.close', this.hideQrCode)
-      // $('.sec3__btn').on('click', this.showQrCode)
+      $('.qrcode-btn').on('click', this.showQrCode)
+
       var showVideo = setInterval(function () {
         videoShow()
       }, 1000)
       function videoShow () {
         if (new Date().getTime() > new Date(_this.liveStartTime).getTime()) {
-          // 已开始
-          $('.sec3__btn').on('click', function () {
-            _this.hideQrCode()
-            window.open('http://z-mz.cn/2THaQ')
-          })
-          $('.t-page1 .btn').html('观看直播')
+          $('.live-img').hide()
+          $('.live-btn').hide()
+          $('#iframe').show()
+          // $('.t-page1 .btn').html('观看直播')
           clearInterval(showVideo)
         }
-      }
-    },
-    initSwiper () {
-      var clientWidth = document.body.clientWidth
-      if (clientWidth > 780) {
-        var mySwiper1 = new Swiper('.s-swiper01 .swiper-container', {
-          watchSlidesProgress: true,
-          slidesPerView: 'auto',
-          centeredSlides: true,
-          loop: true,
-          loopedSlides: 10,
-          autoplay: true,
-          navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev'
-          },
-          pagination: {
-            el: '.swiper-pagination',
-            type: 'fraction'
-          },
-          on: {
-            progress: function (progress) {
-              for (i = 0; i < this.slides.length; i++) {
-                var slide = this.slides.eq(i)
-                var slideProgress = this.slides[i].progress
-                modify = 1
-                if (Math.abs(slideProgress) > 1) {
-                  modify = (Math.abs(slideProgress) - 1) * 0.3 + 1
-                }
-                translate = slideProgress * modify * 70 + 'px'
-                scale = 1 - Math.abs(slideProgress) / 5
-                zIndex = 999 - Math.abs(Math.round(10 * slideProgress))
-                slide.transform('translateX(' + translate + ') scale(' + scale + ')')
-                slide.css('zIndex', zIndex)
-                slide.css('opacity', 1)
-                if (Math.abs(slideProgress) > 3) {
-                  slide.css('opacity', 0)
-                }
-              }
-            },
-            setTransition: function (transition) {
-              for (var i = 0; i < this.slides.length; i++) {
-                var slide = this.slides.eq(i)
-                slide.transition(transition)
-              }
-            }
-          }
-        })
-
-        // var galleryThumbs = new Swiper('.gallery-thumbs', {
-        //   spaceBetween: 10,
-        //   slidesPerView: 7,
-        //   loop: true,
-        //   freeMode: true,
-        //   autoplay: true,
-        //   loopedSlides: 5, 
-        //   watchSlidesVisibility: true,
-        //   watchSlidesProgress: true
-        // })
-        // var galleryTop = new Swiper('.gallery-top', {
-        //   spaceBetween: 10,
-        //   loop: true,
-        //   autoplay: true,
-        //   loopedSlides: 6,
-        //   navigation: {
-        //     nextEl: '.swiper-next2',
-        //     prevEl: '.swiper-prev2'
-        //   },
-        //   thumbs: {
-        //     swiper: galleryThumbs
-        //   }
-        // })
-      } else {
-        var mySwiper1 = new Swiper('.s-swiper01 .swiper-container', {
-          slidesPerView: 'auto',
-          centeredSlides: true,
-          loop: true,
-          spaceBetween: 30,
-          autoplay: true,
-          navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev'
-          },
-          pagination: {
-            el: '.swiper-pagination',
-            type: 'fraction'
-          }
-        })
-
-        // var galleryTop = new Swiper('.gallery-top', {
-        //   spaceBetween: 10,
-        //   loop: true,
-        //   autoplay: true,
-        //   navigation: {
-        //     nextEl: '.swiper-next1',
-        //     prevEl: '.swiper-prev1'
-        //   },
-        //   pagination: {
-        //     el: '.gallery-pagination1',
-        //     type: 'fraction'
-        //   }
-        // })
       }
     }
   }
