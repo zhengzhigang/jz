@@ -755,6 +755,7 @@ body {
   position: absolute;
   top: 0;
   left: 50%;
+  bottom: 0;
   transform: translateX(-50%);
   z-index: 1;
 }
@@ -809,6 +810,31 @@ body {
   background: -ms-linear-gradient(left, #23cae2, #1b9ee3, #438cd3);
   background: -webkit-linear-gradient(left, #23cae2, #1b9ee3, #438cd3);
   background: -moz-linear-gradient(left, #23cae2, #1b9ee3, #438cd3);
+}
+
+.page6-list {
+  position: absolute;
+  top: 37%;
+  left: 3%;
+}
+
+.page6-item {
+  line-height: 56px;
+  margin-bottom: 9px;
+}
+.page6-item .icon {
+  width: 56px;
+  height: 56px;
+  margin-right: 10px;
+}
+.page6-item .text {
+  font-size: 16px;
+  color: #333333;
+}
+.page6-item .num {
+  font-size: 24px;
+  color: #14c6ae;
+  font-weight: bold;
 }
 
 .item-btn {
@@ -887,6 +913,44 @@ body {
   display: none;
 }
 
+@media screen and (max-width: 1680px) {
+  .page6-list {
+    top: 36%;
+    left: 9%;
+  }
+
+  .page6-item {
+    margin-bottom: 1px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .page6-list {
+    top: 35%;
+    left: 12%;
+  }
+
+  .page6-item {
+    line-height: 50px;
+    margin-bottom: 0;
+  }
+  .page6-item .icon {
+    width: 50px;
+    height: 50px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .page6-list {
+    top: 33%;
+  }
+
+  .page6-item {
+    margin-bottom: 0;
+    margin-top: -2px;
+  }
+  .page6-item:first-child {
+    margin-top: 0;
+  }
+}
 @media screen and (max-width: 768px) {
   .show-pc {
     display: none !important;
@@ -1146,8 +1210,41 @@ body {
     padding: 12px 0 20px;
   }
 
-  .page6-cont {
+  .t-page6 {
+    background: #e4f5fa;
+    padding-top: 340px;
+  }
+
+  .page6-list {
+    position: absolute;
+    display: flex;
+    top: 20%;
+    left: 6%;
+    right: 6%;
+    justify-content: space-between;
+  }
+
+  .page6-item {
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+  }
+  .page6-item .icon {
+    width: 56px;
+    height: 56px;
+    margin-bottom: 30px;
+  }
+  .page6-item .text {
     display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333333;
+  }
+  .page6-item .num {
+    display: block;
+    font-size: 20px;
+    color: #14c6ae;
   }
 
   /**/
@@ -1199,6 +1296,32 @@ body {
 
   .page5-cont {
     margin: 0 15px;
+  }
+
+  .t-page6 {
+    background: #e4f5fa;
+    padding-top: 250px;
+  }
+
+  .page6-list {
+    top: 20%;
+    left: 10px;
+    right: 10px;
+  }
+
+  .page6-item .icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+  }
+  .page6-item .text {
+    margin-bottom: 7px;
+    font-size: 14px;
+  }
+  .page6-item .num {
+    display: block;
+    font-size: 18px;
+    color: #14c6ae;
   }
 
   /**/
