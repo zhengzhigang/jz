@@ -36,8 +36,8 @@
             <img src="./RJ-img/clock.png" />
             <p>时间：5月21日 16：00-17：00</p>
           </div>
-          <div class="page1-btnList">
-            <a href="http://z-mz.cn/2THaQ" target="_blank" class="btn">预约观看直播</a>
+          <div class="btn-list">
+            <a href="http://z-mz.cn/2THaQ" target="_blank" class="btn line-bg">预约观看直播</a>
             <a href="http://z-mz.cn/2THaQ" target="_blank" class="btn large">了解高教三擎云桌面方案</a>
             <a href="http://z-mz.cn/2THaQ" target="_blank" class="btn">下载会议报告</a>
           </div>
@@ -109,12 +109,15 @@
     <div class="t-cont-item t-page4" data-index="4">
       <div class="t-content">
         <div class="t-main-title">方案亮点</div>
-        <p class="t-sub-title">
+        <p class="t-sub-title text_l">
           锐捷网络全力打造更适合高教的三擎云桌面解决方案，融合了IDV、VDI、 VOI三种技术架构，针对不同高校的应用场景提供针对性的解决方案，
           不再以单架构形势划分产品，实现高校全场景的集中运维、统一规划、统一管理，构建高校“一朵云”。
         </p>
         <div class="page3-cont">
           <img src="./RJ-img/page4-img.png" alt="">
+        </div>
+        <div class="btn-list">
+          <a href="" class="btn">了解解决方案详情</a>
         </div>
       </div>
     </div>    

@@ -178,7 +178,7 @@ body {
   font-weight: normal;
   font-size: 28px;
   text-align: center;
-  color: #33507a;
+  color: #2c5080;
   padding: 60px 0px 40px 0;
   position: relative;
   margin: 0 auto;
@@ -193,10 +193,10 @@ body {
   bottom: 35px;
   left: 50%;
   margin-left: -60px;
-  background: linear-gradient(left, #23cae2, #1b9ee3, #438cd3);
-  background: -ms-linear-gradient(left, #23cae2, #1b9ee3, #438cd3);
-  background: -webkit-linear-gradient(left, #23cae2, #1b9ee3, #438cd3);
-  background: -moz-linear-gradient(left, #23cae2, #1b9ee3, #438cd3);
+  background: linear-gradient(left, #30d0d1, #a1ebc3);
+  background: -ms-linear-gradient(left, #30d0d1, #a1ebc3);
+  background: -webkit-linear-gradient(left, #30d0d1, #a1ebc3);
+  background: -moz-linear-gradient(left, #30d0d1, #a1ebc3);
 }
 .box-visible{
   overflow: visible;
@@ -277,6 +277,38 @@ body {
     margin-left: 0;
   }
 
+  .btn-list .btn.line-bg {
+    background: #fff;
+  }
+
+  .btn-list{
+    margin-top: 60px;
+    text-align: left;
+  }
+
+  .btn-list .btn{
+    text-align: center;
+    display: inline-block;
+    width: 170px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    background: #e60039;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 43px;
+    margin: 10px;
+    border: 1px solid #e60039;
+    padding: 0;
+    cursor: pointer;
+  }
+
+  .btn-list .btn:hover{
+    background: #fff;
+    color: #e60039;
+    border: 1px solid #bd0231;
+  }
+
   .btn.large {
     width: 277px;
   }
@@ -287,36 +319,14 @@ body {
 .page1-icon{
   display: flex;
   align-items: center;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: bold;
-  color: #379fdc;
+  color: #505050;
 }
 .page1-icon img{
+  width: 27px;
+  height: 27px;
   margin-right: 10px;
-}
-.page1-btnList{
-  margin: 30px auto;
-}
-.page1-btnList .btn{
-  text-align: center;
-  display: inline-block;
-  width: 170px;
-  height: 40px;
-  line-height: 40px;
-  color: #fff;
-  background: #e60039;
-  font-size: 16px;
-  text-decoration: none;
-  border-radius: 43px;
-  margin: 10px;
-  border: 1px solid #e60039;
-  padding: 0;
-  cursor: pointer;
-}
-.page1-btnList .btn:hover{
-  background: #fff;
-  color: #e60039;
-  border: 1px solid #bd0231;
 }
 .t-nav{
   background: #666666;
@@ -356,41 +366,6 @@ body {
   background: -webkit-linear-gradient(left, #0286fd, #1b9ee3, #34b8c9);
   background: -moz-linear-gradient(left, #0286fd, #1b9ee3, #34b8c9);
 }
-.page22-table{
-  text-align: center;
-}
-.t-page22{
-  background: #fff;
-  padding-bottom: 30px;
-}
-.t-page22 .page22-cont{
-  clear: both;
-  margin-bottom: 60px;
-  position: relative;
-  padding-left: 28%;
-  margin-top: 50px;
-}
-.page22-cont img{
-  position: absolute;
-  width: 28%;
-  left: 0;
-  top: -35px;
-}
-.page22-cont .page22-word{
-  background: #ebf7ff;
-  padding: 42px;
-  font-size: 16px;
-  color: #505050;
-  border-top-right-radius: 6px;
-  border-bottom-right-radius: 6px;
-  line-height: 24px;
-}
-.page22-cont .page22-word p{
-  margin-bottom: 20px;
-}
-.page22-cont .page22-word p:last-child{
-  margin-bottom: 0;
-}
 .btn-list{
   text-align: center;
   margin: 20px auto;
@@ -423,7 +398,7 @@ body {
 }
 .t-page5{
   background-image: url(../RJ-img/page5-bg.jpg);
-  padding-bottom: 60px;
+  padding-bottom: 80px;
 
   .item-title {
     padding-top: 30px;
@@ -490,7 +465,7 @@ body {
 .s-video {
   width: 94%;
   height: auto;
-  margin: 50px auto 80px auto;
+  margin: 50px auto 34px auto;
   cursor: pointer;
   position: relative;
 }
@@ -569,14 +544,14 @@ body {
   color: #434343;
 }
 
-
-
-
 .t-page3{
   background: #fff;
-  padding-top: 20px;
-  padding-bottom: 360px;
+  padding-bottom: 232px;
   position: relative;
+
+  .t-main-title {
+    margin-bottom: 50px;
+  }
 }
 .page3-cont {
   position: relative;
@@ -589,7 +564,7 @@ body {
   display: block;
   width: 100%;
   left: 0;
-  top: 252px; 
+  top: 250px; 
 }
 .page3-cont li{
   position: relative;
@@ -617,7 +592,7 @@ body {
     display: block;
     position: absolute;
     left: 50%;
-    bottom: -110px;
+    bottom: -108px;
     margin-left: -17px;
     z-index: 9;
   }
@@ -633,15 +608,24 @@ body {
 }
 
 .page3-cont li .line-time{
-  font-size: 24px;
-  color: #379fdc;
+  font-size: 20px;
+  color: #505050;
   font-weight: bold;
-  margin: 5px 0;
+  line-height: 30px;
+  margin-bottom: 10px;
 }
 
 .t-page4 {
   background-image: url(../RJ-img/page4-bg.jpg);
-  padding-bottom: 60px;
+  padding-bottom: 20px;
+
+  .t-sub-title {
+    text-align: left;
+  }
+
+  .btn-list {
+    text-align: center;
+  }
 }
 .t-page6{
   position: relative;
@@ -722,15 +706,6 @@ body {
   color: #e50039;
 }
 
-.gallery-top {
-  height: 80%;
-  width: 100%;
-}
-.gallery-thumbs {
-  height: 20%;
-  box-sizing: border-box;
-  padding: 15px 35px 0 35px;
-}
 /*视频弹框*/
 .ns-layer {
     z-index: 2000;
@@ -807,51 +782,39 @@ body {
   .t-page1{
     background-image: url(../RJ-img/banner-m.jpg);
     height: auto;
-    padding-bottom: 160px;
+
+    .page1-cont{
+      width: auto;
+      padding: 80px 0 520px;
+      margin: 0 30px;
+      position: relative;
+      z-index: 8;
+      float: none;
+    }
+
+    .page1-icon{
+      font-size: 16px;
+    }
+    .page1-icon img{
+      width: 16px;
+      height: 16px;
+    }
+    .page1-title{
+      margin-bottom: 73px;
+    }
+    .btn-list .btn{
+      font-size: 16px;
+      height: 30px;
+      line-height: 30px;
+    }
+
+    .btn-list {
+      margin-top: 70px;
+    }
   }
-  .page1-icon{
-    font-size: 16px;
-  }
-  .page1-icon img{
-    width: 16px;
-  }
-  .page1-title{
-    font-size: 28px;
-  }
-  .page1-cont{
-    width: 90%;
-    margin: 30px auto 0 auto;
-    position: relative;
-    z-index: 8;
-    float: none;
-  }
-  .page1-btnList .btn{
-    min-width: 40%;
-    font-size: 16px;
-    height: 30px;
-    line-height: 30px;
-    width: 40%;
-  }
-  .page1-btnList {
-    margin: 5px auto 10px auto;
-  }
+
   .t-nav{
     display: none;
-  }
-  .page22-cont img{
-    position: relative;
-    top: 0;
-    width: 50%;
-    left: 25%;
-    margin: 0 auto;
-  }
-  .t-page22 .page22-cont{
-    width: 92%;
-    margin: 20px auto;
-    padding: 0;
-  }
-  .page22-cont .page22-word{
-    padding: 20px;
   }
   .btn-list a.btn{
     height: 32px;
@@ -931,35 +894,18 @@ body {
     top: 0;
     width: 4px;
   }
-  .page3-cont li:after,
-  .page3-cont li:nth-child(2n):after{
+  .page3-cont li:after {
     transform: rotate(90deg)!important;
     -ms-transform: rotate(90deg)!important;
     -moz-transform: rotate(90deg)!important;
     -webkit-transform: rotate(90deg)!important;
     -o-transform: rotate(90deg)!important;
     bottom: 18px!important;
-    left: -23px;
-    background: url(../RJ-img/page3-line.png) no-repeat center -10px;
-    background-size: 12px;
-    height: 50px;
+    left: -28px;
   }
 
   .page6-cont{
     display: block;
-  }
-
-
-  .gallery-top{
-    padding-bottom: 50px;
-  }
-  .gallery-top img{
-    width: 100%;
-  }
-  .gallery-pagination1{
-    position: absolute;
-    text-align: center;
-    bottom: 7px;
   }
     /**/
     .ns-layer.ns-video-layer .ns-layer-inner { width: 420px; }
