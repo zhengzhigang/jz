@@ -3,7 +3,7 @@ $(function () {
     firstScreenHeight: null,
     headerHeight: 0,
     isClick: false,
-    liveStartTime: '2021/5/21 16:00:00',
+    liveStartTime: '2021/5/21 16:30:00',
     init: function () {
       var winWidth = $(window).width()
       var _this = this
