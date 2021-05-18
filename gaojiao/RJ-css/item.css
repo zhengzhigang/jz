@@ -278,13 +278,13 @@ body {
   height: 692px;
 }
 .t-page1 .page1-cont {
-  width: 63%;
+  width: 58%;
   float: left;
   margin: 100px auto 0 auto;
 }
 .t-page1 .page1-title {
   margin-bottom: 20px;
-  margin-left: -55px;
+  margin-left: -35px;
 }
 .t-page1 .btn:first-child {
   margin-left: 0;
