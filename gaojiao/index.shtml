@@ -15,7 +15,7 @@
 <body>
 
   <!-- #include file="/HeaderUC_R.html" -->
-  <script src="https://image.ruijie.com.cn/UIA/v2.0/scripts/jquery-1.10.2.min.js" type="text/javascript"></script>
+  <!-- <script src="//image.ruijie.com.cn/UIA/v2.0/scripts/jquery-1.10.2.min.js" type="text/javascript"></script> -->
 
   <!--内容正文开始-->
   <script type="text/javascript" src="RJ-js/item.js?3"></script>
@@ -34,7 +34,7 @@
         </div>
         <div class="btn-list">
         <a target="_blank" class="btn line-bg qrcode-btn btn1">预约观看直播</a>
-        <a href="http://www.ruijie.com.cn/fa/gj/20210413/" target="_blank" class="btn large btn2">了解高教三擎云桌面方案</a>
+        <a href="//www.ruijie.com.cn/fa/gj/20210413/" target="_blank" class="btn large btn2">了解高教三擎云桌面方案</a>
         <!-- <a href="" target="_blank" class="btn btn3">下载会议报告</a> -->
         </div>
       </div>
@@ -60,7 +60,7 @@
         <p class="btn no_watch_live qrcode-btn live-btn btn4">预约观看</p>
         <a
           style="display: none"
-          href="https://v.zmengzhu.com/partner/inituser/10210890?embed=all&unique_id=19998237&appid=2021042118383670668&name=&avatar=&v=2"
+          href="//v.zmengzhu.com/partner/inituser/10210890?embed=all&unique_id=19998237&appid=2021042118383670668&name=&avatar=&v=2"
           class="btn watch_live live-btn btn4"
           target="_blank"
         >观看直播</a>
@@ -70,7 +70,7 @@
           frameborder="0"
           marginheight="0"
           marginwidth="0"
-          src="https://v.zmengzhu.com/partner/inituser/10210890?embed=all&unique_id=19998237&appid=2021042118383670668&name=&avatar=&v=2 "
+          src="//v.zmengzhu.com/partner/inituser/10210890?embed=all&unique_id=19998237&appid=2021042118383670668&name=&avatar=&v=2 "
           style="width:100%;height:500px;border:0"></iframe> -->
         </div>
       </div>
@@ -165,7 +165,7 @@
         </div>
       </div>
       <div class="btn-list">
-        <a href="http://www.ruijie.com.cn/fa/gj/20210413/" target="_blank" class="btn btn5">了解解决方案详情</a>
+        <a href="//www.ruijie.com.cn/fa/gj/20210413/" target="_blank" class="btn btn5">了解解决方案详情</a>
       </div>
       </div>
     </div>    
@@ -175,21 +175,21 @@
       <div class="t-main-title">最佳实践</div>
       <p class="t-sub-title">他们都选择锐捷三擎云桌面</p>
       <div class="page5-cont">
-        <div class="cont-item" data-src="https://zlkfile.ruijie.com.cn/53e8667a-7490-456b-828b-455982e6caa5/Transcoding/344b709b-fa56-4510-bbf6-52128eac6bc1.mp4">
+        <div class="cont-item" data-src="//zlkfile.ruijie.com.cn/53e8667a-7490-456b-828b-455982e6caa5/Transcoding/344b709b-fa56-4510-bbf6-52128eac6bc1.mp4">
         <div class="item-img">
           <img src="./RJ-img/page5-img1.jpg?v=3" />
         </div>
         <p class="item-title">四川农业大学</p>
         <p class="item-desc">锐捷云桌面全面助力高校机房专业教学</p>
         </div>
-        <div class="cont-item" data-src="https://zlkfile.ruijie.com.cn/e4d56a88-3b1a-49c9-89e7-2f7a4ad2fd7b/Transcoding/b243bcd4-5278-4cc8-a19b-0a461879dd08.mp4">
+        <div class="cont-item" data-src="//zlkfile.ruijie.com.cn/e4d56a88-3b1a-49c9-89e7-2f7a4ad2fd7b/Transcoding/b243bcd4-5278-4cc8-a19b-0a461879dd08.mp4">
         <div class="item-img">
           <img src="./RJ-img/page5-img2.jpg?v=3" />
         </div>
         <p class="item-title">吉林工商学院</p>
         <p class="item-desc">锐捷云桌面使机房建设步入云时代</p>
         </div>
-        <div class="cont-item" data-src="https://zlkfile.ruijie.com.cn/641eb2df-4809-414d-b503-884fc1d21532/Transcoding/9767db35-d261-462a-a627-97ea2dc93737.mp4">
+        <div class="cont-item" data-src="//zlkfile.ruijie.com.cn/641eb2df-4809-414d-b503-884fc1d21532/Transcoding/9767db35-d261-462a-a627-97ea2dc93737.mp4">
         <div class="item-img">
           <img src="./RJ-img/page5-img3.jpg?v=3" />
         </div>
