@@ -18,8 +18,8 @@
   <!-- <script src="http://image.ruijie.com.cn/UIA/v2.0/scripts/jquery-1.10.2.min.js" type="text/javascript"></script> -->
 
   <!--内容正文开始-->
-  <script type="text/javascript" src="RJ-js/item.js?3"></script>
-  <link rel="stylesheet" type="text/css" href="RJ-css/item.css?3" />
+  <script type="text/javascript" src="RJ-js/item.js?v=4"></script>
+  <link rel="stylesheet" type="text/css" href="RJ-css/item.css?v=4" />
 
   <div class="t-main">
     <div class="t-cont-item t-page1">
