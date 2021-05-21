@@ -34,7 +34,7 @@
         </div>
         <div class="btn-list">
         <a target="_blank" class="btn line-bg qrcode-btn btn1 no_watch_live">观看直播</a>
-        <a href="http://z-mz.cn/2hXMo" target="_blank" class="btn line-bg btn1 watch_live">观看直播</a>
+        <a style="display: none" href="http://z-mz.cn/2hXMo" target="_blank" class="btn line-bg btn1 watch_live">观看直播</a>
         <a href="//www.ruijie.com.cn/fa/gj/20210413/" target="_blank" class="btn large btn2">了解高教三擎云桌面方案</a>
         <!-- <a href="" target="_blank" class="btn btn3">下载会议报告</a> -->
         </div>
