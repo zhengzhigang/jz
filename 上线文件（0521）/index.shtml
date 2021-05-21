@@ -7,15 +7,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no" />
   <meta property="wb:webmaster" content="209aa6880b9c0855" />
   <meta name="description" content="：锐捷发布高教三擎云桌面解决方案，融合了IDV、VDI、 VOI三种技术架构，针对高校的不同应用场景提供针对性的解决方案，实现高校全场景的集中运维、统一规划、统一管理，构建高校一朵云。" />
-  <meta name="keywords" content="超融合,云桌面,云平台,利旧" />
+  <meta name="keywords" content="超融合,云桌面,云平台,利旧,锐捷网络" />
   <meta name="robots" content="all" />
-  <title>高校一朵云,锐捷高教三擎云桌面方案发布</title>
+  <title>高校一朵云,锐捷高教三擎云桌面方案发布 - 锐捷网络</title>
   <link rel="shortcut icon" href="//image.ruijie.com.cn/UIA/images/favicon.ico" type="image/x-icon" />
 </head>
 <body>
 
   <!-- #include file="/HeaderUC_R.html" -->
-  <script src="//image.ruijie.com.cn/UIA/v2.0/scripts/jquery-1.10.2.min.js" type="text/javascript"></script>
+  <!-- <script src="http://image.ruijie.com.cn/UIA/v2.0/scripts/jquery-1.10.2.min.js" type="text/javascript"></script> -->
 
   <!--内容正文开始-->
   <script type="text/javascript" src="RJ-js/item.js?3"></script>
@@ -30,16 +30,11 @@
         </div>
         <div class="page1-icon">
         <img src="./RJ-img/clock.png?v=4" />
-        <p>时间：5月21日 16:30-17:00</p>
+        <p>时间：5月21日 16:30-17:15</p>
         </div>
         <div class="btn-list">
-        <a target="_blank" class="btn line-bg qrcode-btn btn1 no_watch_live">预约观看直播</a>
-        <a
-          style="display: none"
-          href="https://v.zmengzhu.com/partner/inituser/10210890?embed=all&unique_id=19998237&appid=2021042118383670668&name=&avatar=&v=2"
-          class="btn watch_live live-btn btn4"
-          target="_blank"
-        >观看直播</a>
+        <a target="_blank" class="btn line-bg qrcode-btn btn1 no_watch_live">观看直播</a>
+        <a href="http://z-mz.cn/2hXMo" target="_blank" class="btn line-bg btn1 watch_live">观看直播</a>
         <a href="//www.ruijie.com.cn/fa/gj/20210413/" target="_blank" class="btn large btn2">了解高教三擎云桌面方案</a>
         <!-- <a href="" target="_blank" class="btn btn3">下载会议报告</a> -->
         </div>
@@ -63,10 +58,10 @@
       <h3 class="t-main-title"><span>直播窗口</span></h3>
       <div class="s-video">
         <img class="live-img" src="RJ-img/page2-img.jpg?v=5"/>
-        <p class="btn no_watch_live qrcode-btn live-btn btn4">预约观看</p>
+        <p class="btn no_watch_live qrcode-btn live-btn btn4">观看直播</p>
         <a
           style="display: none"
-          href="https://v.zmengzhu.com/partner/inituser/10210890?embed=all&unique_id=19998237&appid=2021042118383670668&name=&avatar=&v=2"
+          href="http://z-mz.cn/2hXMo"
           class="btn watch_live live-btn btn4"
           target="_blank"
         >观看直播</a>
@@ -140,7 +135,7 @@
             <p>专业实训室场景</p>
           </div>
           </div>
-          <div class="item-word">极简的场景管理</div>
+          <div class="item-word"></div>
         </div>
         <div class="page4-item">
           <div class="item-img">
@@ -153,7 +148,7 @@
             <p class="position">兼容千种教学软件</p>
           </div>
           </div>
-          <div class="item-word">极致的教学体验</div>
+          <div class="item-word"></div>
         </div>
         <div class="page4-item">
           <div class="item-img">
@@ -166,7 +161,7 @@
             <p class="position">专属局部超融合</p>
           </div>
           </div>
-          <div class="item-word">极佳的资源融合</div>
+          <div class="item-word"></div>
         </div>
         </div>
       </div>
@@ -178,7 +173,7 @@
 
     <div class="t-cont-item t-page5" data-index="4">
       <div class="t-content">
-      <div class="t-main-title">最佳实践</div>
+      <div class="t-main-title">应用实践</div>
       <p class="t-sub-title">他们都选择锐捷三擎云桌面</p>
       <div class="page5-cont">
         <div class="cont-item" data-src="//zlkfile.ruijie.com.cn/53e8667a-7490-456b-828b-455982e6caa5/Transcoding/344b709b-fa56-4510-bbf6-52128eac6bc1.mp4">
