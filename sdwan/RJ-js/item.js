@@ -7,6 +7,7 @@ $(function () {
     init: function () {
       var winWidth = $(window).width()
       var _this = this
+      this.initSwiper()
       this.checkLiveTime()
       this.playVideo()
       if (winWidth > 768) {
@@ -121,6 +122,48 @@ $(function () {
           clearInterval(showVideo)
         }
       }
+    },
+    initSwiper () {
+      var clientWidth = document.body.clientWidth
+      if (clientWidth > 780) {
+        var mySwiper1 = new Swiper('.s-swiper01 .swiper-container', {
+          watchSlidesProgress: true,
+          slidesPerView: 'auto',
+          centeredSlides: true,
+          loop: true,
+          autoplay: true,
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev'
+          },
+          on: {
+            slideChangeTransitionStart: function (s) {
+              var index = this.realIndex
+              $('.slide_list li').eq(index).addClass('active').siblings().removeClass('active')
+            }
+          }
+        })
+      } else {
+        var mySwiper1 = new Swiper('.s-swiper01 .swiper-container', {
+          slidesPerView: 'auto',
+          centeredSlides: true,
+          loop: true,
+          spaceBetween: 30,
+          autoplay: true,
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev'
+          },
+          pagination: {
+            el: '.swiper-pagination',
+            type: 'fraction'
+          }
+        })
+      }
+
+      $('.slide_list li').on('click', function() {
+        mySwiper1.slideTo($(this).index())
+      })
     }
   }
   page.init()

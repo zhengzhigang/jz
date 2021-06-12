@@ -15,33 +15,29 @@
 <body>
 
   <!-- #include file="/HeaderUC_R.html" -->
-  <script src="//image.ruijie.com.cn/UIA/v2.0/scripts/jquery-1.10.2.min.js" type="text/javascript"></script>
+  <script src="https://image.ruijie.com.cn/UIA/v2.0/scripts/jquery-1.10.2.min.js" type="text/javascript"></script>
 
   <!--内容正文开始-->
-  <script type="text/javascript" src="RJ-js/swiper.min.js"></script>
-  <script type="text/javascript" src="RJ-js/item.js?3"></script>
-  <link rel="stylesheet" type="text/css" href="RJ-css/swiper.min.css" />
-  <link rel="stylesheet" type="text/css" href="RJ-css/item.css?3" />
+  <script type="text/javascript" src="./RJ-js/swiper.min.js"></script>
+  <script type="text/javascript" src="./RJ-js/item.js?3"></script>
+  <link rel="stylesheet" type="text/css" href="./RJ-css/swiper.min.css" />
+  <link rel="stylesheet" type="text/css" href="./RJ-css/item.css?3" />
 
   <div class="t-main">
     <div class="t-cont-item t-page1">
       <div class="t-content">
         <div class="page1-cont">
-          <div class="page1-title">
+          <div class="t-page1-title">
             <img src="./RJ-img/page1-img.png?v=5" />
           </div>
-          <div class="page1-icon">
-          <img src="./RJ-img/clock.png?v=4" />
-          <p>
+          <p class="t-page1-text">
             锐捷一体化分支解决方案依托于SD-WAN架构，通过在各分支机构部署CPE设备（RG-EG综合安全网关系列）、
             在总部或数据中心部署SD-WAN控制器，降低分支IT部署成本，实现全网分支智能选路、智能运维、直观可视，
             守护整网安全。方案广泛应用于教育、政府、金融、企业、医疗、互联网和商业连锁等具备分支机构的行业。
           </p>
-          </div>
           <div class="btn-list">
             <a target="_blank" class="btn line-bg qrcode-btn btn1 no_watch_live">下载方案彩页</a>
-            <a href="//www.ruijie.com.cn/fa/gj/20210413/" target="_blank" class="btn large btn2">方案咨询</a>
-            <!-- <a href="" target="_blank" class="btn btn3">下载会议报告</a> -->
+            <a href="" target="_blank" class="btn btn2">方案咨询</a>
           </div>
         </div>
       </div>
@@ -50,13 +46,13 @@
       <div class="t-content">
         <div class="nav-left">
           <span class="nav-left-icon"></span>>
-          <span>行业</span>>
-          <span class="active">安全</span>
+          <span class="text">行业</span>>
+          <span class="text active">安全</span>
         </div>
         <ul class="nav-lists">
-          <li data-index="1" class="nav1 active">场景分析</li>
-          <li data-index="2" class="nav2">解决方案</li>
-          <li data-index="3" class="nav3">方案价值 </li>
+          <li data-index="1" class="nav1 active">场景分析</li>|
+          <li data-index="2" class="nav2">解决方案</li>|
+          <li data-index="3" class="nav3">方案价值 </li>|
           <li data-index="4" class="nav4">明星产品</li>
         </ul>
       </div>
@@ -64,7 +60,7 @@
 
     <div class="t-cont-item t-page2" data-index="1">
       <div class="t-content">
-        <h3 class="t-main-title"><span>场景分析</span></h3>
+        <h3 class="t-main-title">场景分析</h3>
         <ul class="t-page2-list">
           <li class="t-page2-item">
             <img src="./RJ-img/page2-icon1.jpg" alt="">
@@ -132,12 +128,12 @@
       </div>
     </div>
 
-    <div class="t-cont-item t-page4" data-index="3">
+    <div class="t-cont-item t-page4 s-swiper01" data-index="3">
       <div class="t-content">
         <div class="t-main-title">方案价值</div>
         <div class="page4-cont">
-          <ul class="t-page4-list">
-            <li class="t-page4-item">
+          <ul class="t-page4-list slide_list">
+            <li class="t-page4-item ascive">
               <p>多重功能集成</p>
               <p>成本控制见成效</p>
             </li>
@@ -157,43 +153,47 @@
         </div>
         <div class="swiper-container">
           <div class="swiper-wrapper">
-            <div class="swiper-slide slide1">
-              <p class="t-sun-title">
+            <div class="swiper-slide t-page4-slide1">
+              <p class="t-sub-title">
                 RG-EG综合安全网关集成多种功能于一体，包括：负载均衡、智能选路、集成AC、广域网加速、
                 智能流控、行为管理、内容审计、VPN、防火墙、Web认证等功能，帮助用户降低建设成本。
               </p>
               <div class="left">
-                <p class="slide-title">默认模板</p>
+                <p class="decorate-title">
+                  <span class="decorate-text">默认模板</span>
+                </p>
                 <div class="slide-content">
-                  <span class="slide1-circle circle1">VPN 互联</span>
-                  <span class="slide1-circle circle2">安全 防护</span>
-                  <span class="slide1-circle circle3">广域网 优化</span>
-                  <span class="slide1-circle circle4">智能 流控</span>
-                  <span class="slide1-circle circle5">应用 选路</span>
-                  <span class="slide1-circle circle6">故障线路 切换</span>
-                  <span class="slide1-circle circle7">多线路 负载均衡</span>
-                  <span class="slide1-circle circle8">内容 审计</span>
-                  <span class="slide1-circle circle9">行为 管控</span>
+                  <span class="t-page4-slide1-circle circle1">VPN<br>互联</span>
+                  <span class="t-page4-slide1-circle circle2">安全<br>防护</span>
+                  <span class="t-page4-slide1-circle circle3">广域网<br>优化</span>
+                  <span class="t-page4-slide1-circle circle4">智能<br>流控</span>
+                  <span class="t-page4-slide1-circle circle5">应用<br>选路</span>
+                  <span class="t-page4-slide1-circle circle6">故障线路<br>切换</span>
+                  <span class="t-page4-slide1-circle circle7">多线路<br>负载均衡</span>
+                  <span class="t-page4-slide1-circle circle8">内容<br>审计</span>
+                  <span class="t-page4-slide1-circle circle9">行为<br>管控</span>
                   <span class="big-circle">自定义</span>
                 </div>
               </div>
               <div class="right">
-                <p class="slide-title">XX分区配置模板</p>
+                <p class="decorate-title">
+                  <span class="decorate-text">XX分区配置模板</span>
+                </p>
                 <div class="slide-content">
-                  <span class="slide1-circle circle1">VPN 互联</span>
-                  <span class="slide1-circle circle2">安全 防护</span>
-                  <span class="slide1-circle circle3 bg">广域网 优化</span>
-                  <span class="slide1-circle circle4">智能 流控</span>
-                  <span class="slide1-circle circle5 bg">应用 选路</span>
-                  <span class="slide1-circle circle6">故障线路 切换</span>
-                  <span class="slide1-circle circle7 bg">多线路 负载均衡</span>
-                  <span class="slide1-circle circle8">内容 审计</span>
-                  <span class="slide1-circle circle9">行为 管控</span>
+                  <span class="t-page4-slide1-circle circle1">VPN<br>互联</span>
+                  <span class="t-page4-slide1-circle circle2">安全<br>防护</span>
+                  <span class="t-page4-slide1-circle circle3 bg">广域网<br>优化</span>
+                  <span class="t-page4-slide1-circle circle4">智能<br>流控</span>
+                  <span class="t-page4-slide1-circle circle5 bg">应用<br>选路</span>
+                  <span class="t-page4-slide1-circle circle6">故障线路<br>切换</span>
+                  <span class="t-page4-slide1-circle circle7 bg">多线路<br>负载均衡</span>
+                  <span class="t-page4-slide1-circle circle8">内容<br>审计</span>
+                  <span class="t-page4-slide1-circle circle9">行为<br>管控</span>
                   <span class="big-circle">自定义</span>
                 </div>
               </div>
             </div>
-            <div class="swiper-slide slide2">
+            <div class="swiper-slide t-page4-slide2">
               <div class="left">
                 <p class="t-sub-title">
                   融合SD-WAN架构，实现一体化部署、一体化运维。通过U盘或者手机快速完成分支设备开局，
@@ -202,8 +202,8 @@
                 <div class="slide-content">
                   <img src="./RJ-img/page4-item2-1.png" alt="">
                   <span class="text text1">SD-WAN控制器</span>
-                  <span class="text text2">通过手机 下载配置</span>
-                  <span class="text text3">通过USB数据线 接入到设备</span>
+                  <span class="text text2">通过手机<br>下载配置</span>
+                  <span class="text text3">通过USB数据线<br>接入到设备</span>
                   <span class="text text4">邮件、U盘开局已太常规</span>
                 </div>
               </div>
@@ -255,47 +255,71 @@
                 </div>
               </div>
             </div>
-            <div class="swiper-slide slide3">
+            <div class="swiper-slide t-page4-slide3">
+              <div class="desc-wrap">
+                <p class="t-sub-title">
+                  方案通过DPI、DFI等应用识别技术结合VPN策略，根据业务需要和线路质量灵活调度流量，确保关键业务优先。
+                </p>
+                <p class="t-sub-title">
+                  SD-WAN整网的Overlay网络状态，在控制器端统一呈现，链路情况一目了然；
+                  通过应用优化与广域网优化加速，在线路质量较差时确保关键业务运行，节省带宽占用，同时提升关键业务传输效率。
+                </p>
+              </div>
               <div class="left">
                 <img src="./RJ-img/page4-item3-1.png" alt="">
+                <span class="text1">逐包检测</span>
+                <span class="text2">基于流检测</span>
               </div>
               <div class="right">
                 <img src="./RJ-img/page4-item3-2.png" alt="">
+                <span class="text text1">系统备份</span>
+                <span class="text text2">网页浏览</span>
+                <span class="text text3">视频会议/云办公</span>
+                <span class="text text4">P2P下载</span>
+                <span class="text text5">即时通讯</span>
+                <span class="text text6">线路带宽最大</span>
+                <span class="text text7">线路质量好</span>
               </div>
             </div>
-            <div class="swiper-slide slide4">
+            <div class="swiper-slide t-page4-slide4">
+              <div class="desc-wrap">
+                <p class="t-sub-title">
+                  RG-EG综合安全网关内置多种安全模块，如：包过滤、防ARP攻击、防DDOS攻击、状态防火墙、
+                  安全域等功能；免费提供基础入侵检测防御（IPS），更有效防护分支网络攻击，及时拦截入侵行为。
+                </p>
+                <p class="t-sub-title">
+                  RG-EG综合安全网关可以实现行为审计，管控用户上网行为规范，满足《网络安全法》合规要求；
+                  丰富的用户准入认证方式，确保接入用户身份合法。
+                </p>
+              </div>
               <div class="left">
                 <img src="./RJ-img/page4-item4-1.png" alt="">
-                <span class="text1">报文过滤</span>
-                <span class="text2">防APP攻击</span>
-                <span class="text3">防DDOS防御</span>
-                <span class="text4">CPU保护</span>
-                <span class="circle1">防攻击</span>
-                <span class="circle2">安全域</span>
+                <span class="text1 text">报文过滤</span>
+                <span class="text2 text">防APP攻击</span>
+                <span class="text3 text">防DDOS防御</span>
+                <span class="text4 text">CPU保护</span>
+                <span class="circle1 text">防攻击</span>
+                <span class="circle2 text">安全域</span>
               </div>
               <div class="right">
                 <img src="./RJ-img/page4-item4-2.png" alt="">
-                <div class="top">
-                  <span class="text1">论坛微博发帖内容</span>
-                  <span class="text2">QQ的登录信息</span>
-                  <span class="text3">访问的URL</span>
-                  <span class="text4">搜索引擎关键字</span>
-                  <span class="text5">邮件的发件内容</span>
-                  <span class="circle">用户访问 的内容</span>
-                </div>
-                <div class="bottom">
-                  <span class="text1">用户上网时间长</span>
-                  <span class="text2">应用使用时长</span>
-                  <span class="text3">应用流量大小</span>
-                  <span class="text4">URL访问频次</span>
-                  <span class="text5">实名认证信息</span>
-                  <span class="text6">MAC地址</span>
-                  <span class="text7">NAT信息</span>
-                  <span class="text8">QQ微信微博 虚拟身份ID</span>
-                  <span class="circle1">出口网关</span>
-                  <span class="circle2">用户访问 的频次</span>
-                  <span class="circle3">用户访问 的身份</span>
-                </div>
+                <span class="text1 text bg1">论坛微博发帖内容</span>
+                <span class="text2 text bg1">QQ的登录信息</span>
+                <span class="text3 text bg1">访问的URL</span>
+                <span class="text4 text bg1">搜索引擎关键字</span>
+                <span class="text5 text bg1">邮件的发件内容</span>
+                <span class="circle1 text">用户访问<br>的内容</span>
+                <span class="text6 text bg2">用户上网时间长</span>
+                <span class="text7 text bg2">应用使用时长</span>
+                <span class="text8 text bg2">应用流量大小</span>
+                <span class="text9 text bg2">URL访问频次</span>
+                <span class="text10 text bg3">实名认证信息</span>
+                <span class="text11 text bg3">MAC地址</span>
+                <span class="text12 text bg3">NAT信息</span>
+                <span class="text13 text bg3">QQ微信微博<br>虚拟身份ID</span>
+                <span class="circle2 text">出口网关</span>
+                <span class="circle3 text">用户访问<br>的频次</span>
+                <span class="circle4 text">用户访问<br>的身份</span>
               </div>
             </div>
           </div>
@@ -310,7 +334,9 @@
     <div class="t-cont-item t-page5" data-index="4">
       <div class="t-content">
         <div class="t-main-title">明星产品</div>
-        <p class="t-sub-title">网关RG-EG系列</p>
+        <p class="decorate-title">
+          <span class="decorate-text">网关RG-EG系列</span>
+        </p>
         <div class="page5-cont">
           <ul class="t-page5-top">
             <li>
@@ -323,7 +349,9 @@
                 <img src="./RJ-img/page5-img5.jpg" alt="">
                 <p class="text">RG-EG3000SE</p>
               </div>
-              <a href="" class="t-button">查看详情</a>
+              <div class="btn-list">
+                <a href="" class="btn">查看详情</a>
+              </div>
             </li>
             <li>
               <p class="item-title">RG-EG3000ME/GE</p>
@@ -335,7 +363,9 @@
                 <img src="./RJ-img/page5-img6.jpg" alt="">
                 <p class="text">RG-EG3000GE</p>
               </div>
-              <a href="" class="t-button">查看详情</a>
+              <div class="btn-list">
+                <a href="" class="btn">查看详情</a>
+              </div>
             </li>
             <li>
               <p class="item-title">RG-EG3000UE/XE</p>
@@ -347,7 +377,9 @@
                 <img src="./RJ-img/page5-img7.jpg" alt="">
                 <p class="text">RG-EG3000XE</p>
               </div>
-              <a href="" class="t-button">查看详情</a>
+              <div class="btn-list">
+                <a href="" class="btn">查看详情</a>
+              </div>
             </li>
             <li>
               <p class="item-title">RG-EG2100-P V2</p>
@@ -355,7 +387,9 @@
                 <img src="./RJ-img/page5-img4.jpg" alt="">
                 <p class="text">RG-EG2100-P V2</p>
               </div>
-              <a href="" class="t-button">查看详情</a>
+              <div class="btn-list">
+                <a href="" class="btn">查看详情</a>
+              </div>
             </li>
           </ul>
           <div class="t-page5-center">
@@ -378,62 +412,34 @@
                 <p class="text">RG-EG3250</p>
               </li>
             </ul>
-            <a href="" class="t-button">查看详情</a>
+            <div class="btn-list">
+              <a href="" class="btn">查看详情</a>
+            </div>
           </div>
-          <p class="t-sub-title">控制器RG-ONC-WAN</p>
+          <p class="decorate-title">
+            <span class="decorate-text">控制器RG-ONC-WAN</span>
+          </p>
           <div class="t-page5-bottom">
             <div class="left">
               <div class="item">
                 <img src="./RJ-img/page5-img12.jpg" alt="">
                 <p class="text">硬件版本<br>RG-ONC-AIO-H</p>
               </div>
-              <a href="" class="t-button">查看详情</a>
+              <div class="btn-list">
+                <a href="" class="btn">查看详情</a>
+              </div>
             </div>
             <div class="right">
               <div class="item">
                 <img src="./RJ-img/page5-img13.jpg" alt="">
                 <p class="text">软件版本<br>RG-ONC-WAN</p>
               </div>
-              <a href="" class="t-button">查看详情</a>
+              <div class="btn-list">
+                <a href="" class="btn">查看详情</a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-
-    <div class="t-cont-item t-page6" data-index="5">
-      <img class="page6-img show-pc" src="./RJ-img/page6-bg.jpg?v=3" alt="">
-      <img class="page6-img show-mobile" src="./RJ-img/page6-bg-m.jpg?v=3" alt="">
-      <div class="t-content">
-        <div class="t-main-title">云桌面在高校</div>
-        <p class="t-sub-title">推进桌面云化进程 打造高校一朵云</p>
-        <ul class="page6-list">
-          <li class="page6-item">
-            <img src="./RJ-img/page6-icon1.png?v=3" alt="" class="icon">
-            <span class="text">服务学校超过</span>
-            <span class="num">1000所</span>
-          </li>
-          <li class="page6-item">
-            <img src="./RJ-img/page6-icon2.png?v=3" alt="" class="icon">
-            <span class="text">本科院校数近</span>
-            <span class="num">300</span>
-          </li>
-          <li class="page6-item">
-            <img src="./RJ-img/page6-icon3.png?v=3" alt="" class="icon">
-            <span class="text">高职院校数</span>
-            <span class="num">300+</span>
-          </li>
-          <li class="page6-item">
-            <img src="./RJ-img/page6-icon4.png?v=3" alt="" class="icon">
-            <span class="text">中职学校数近</span>
-            <span class="num">400</span>
-          </li>
-          <li class="page6-item">
-            <img src="./RJ-img/page6-icon5.png?v=3" alt="" class="icon">
-            <span class="text">终端数超过</span>
-            <span class="num">100,000台</span>
-          </li>
-        </ul>
       </div>
     </div>
   </div>
