@@ -6,38 +6,12 @@ $(function () {
     liveStartTime: '2021/5/21 16:30:00',
     init: function () {
       var winWidth = $(window).width()
-      var _this = this
       this.initSwiper()
-      this.checkLiveTime()
-      this.playVideo()
       if (winWidth > 768) {
         this.fixedNav()
         window.onscroll()
       }
       this.clickNav()
-    },
-
-    showQrCode: function () {
-      $('.qr__code').show()
-    },
-
-    hideQrCode: function () {
-      $('.qr__code').hide()
-    },
-
-    playVideo: function () {
-      var $tVideoBox = $('#tVideoBox');
-      $('.t-page3 .cont-item').on('click', function () {
-        $('.ns-title').html($(this).data('name'))
-
-        $('.ns-video').attr('src', $(this).data('src'))
-        $tVideoBox.show();
-      });
-
-      $tVideoBox.on('click', '.close', function () {
-        $tVideoBox.hide();
-        $tVideoBox.find('video')[0].pause();
-      });
     },
 
     fixedNav: function () {
@@ -107,57 +81,25 @@ $(function () {
         })
       })
     },
-    checkLiveTime () {
-      let _this = this
-      $('.qr__code').on('click', '.close', this.hideQrCode)
-      videoShow()
-      var showVideo = setInterval(function () {
-        videoShow()
-      }, 1000)
-      function videoShow () {
-        if (new Date().getTime() > new Date(_this.liveStartTime).getTime()) {
-          $('.watch_live').show()
-          clearInterval(showVideo)
-        }
-      }
-    },
     initSwiper () {
-      var clientWidth = document.body.clientWidth
-      if (clientWidth > 780) {
-        var mySwiper1 = new Swiper('.s-swiper01 .swiper-container', {
-          watchSlidesProgress: true,
-          slidesPerView: 'auto',
-          centeredSlides: true,
-          loop: true,
-          autoplay: true,
-          navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev'
-          },
-          on: {
-            slideChangeTransitionStart: function (s) {
-              var index = this.realIndex
-              $('.slide_list li').eq(index).addClass('active').siblings().removeClass('active')
-            }
+      var mySwiper1 = new Swiper('.s-swiper01 .swiper-container', {
+        watchSlidesProgress: true,
+        slidesPerView: 'auto',
+        centeredSlides: true,
+        loop: true,
+        spaceBetween: 30,
+        autoplay: true,
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev'
+        },
+        on: {
+          slideChangeTransitionStart: function (s) {
+            var index = this.realIndex
+            $('.slide_list li').eq(index).addClass('active').siblings().removeClass('active')
           }
-        })
-      } else {
-        var mySwiper1 = new Swiper('.s-swiper01 .swiper-container', {
-          slidesPerView: 'auto',
-          centeredSlides: true,
-          loop: true,
-          spaceBetween: 30,
-          autoplay: true,
-          navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev'
-          },
-          pagination: {
-            el: '.swiper-pagination',
-            type: 'fraction'
-          }
-        })
-      }
+        }
+      })
 
       $('.slide_list li').on('click', function() {
         mySwiper1.slideTo($(this).index())
