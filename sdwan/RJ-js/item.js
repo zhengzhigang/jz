@@ -110,14 +110,12 @@ $(function () {
     checkLiveTime () {
       let _this = this
       $('.qr__code').on('click', '.close', this.hideQrCode)
-      $('.qrcode-btn').on('click', this.showQrCode)
       videoShow()
       var showVideo = setInterval(function () {
         videoShow()
       }, 1000)
       function videoShow () {
         if (new Date().getTime() > new Date(_this.liveStartTime).getTime()) {
-          $('.no_watch_live').hide()
           $('.watch_live').show()
           clearInterval(showVideo)
         }

@@ -200,6 +200,7 @@ body {
 .decorate-text {
   position: relative;
   padding: 0 60px;
+  font-weight: bold;
   &::before, &::after {
     position: absolute;
     content: '';
@@ -427,13 +428,17 @@ body {
       margin-bottom: 20px;
       font-size: 24px;
       color: #333;
-      text-align: center;
+      font-weight: bold;
     }
     .item-text {
       padding: 0 20px;
       font-size: 16px;
       color: #333;
       line-height: 26px;
+    }
+    .item-text-list {
+      list-style: disc;
+      padding: 0 20px 0 40px;
     }
   }
 }
@@ -513,7 +518,6 @@ body {
     line-height: 26px;
     font-size: 16px;
     color: #333;
-    text-align: center;
     margin-right: 1.3333333%;
     background-color: #d9ebf9;
     border-bottom: 2px solid transparent;
@@ -564,7 +568,6 @@ body {
       border-radius: 50%;
       align-items: center;
       justify-content: center;
-      text-align: center;
       &.bg {
         background-color: #d3eafa;
       }
@@ -580,7 +583,6 @@ body {
       color: #fff;
       font-size: 24px;
       line-height: 140px;
-      text-align: center;
     }
     .circle1 {
       top: -36px;
@@ -639,7 +641,6 @@ body {
     }
     .text {
       position: absolute;
-      text-align: center;
     }
     .text1 {
       top: 105px;
@@ -662,7 +663,6 @@ body {
       font-size: 20px;
       color: #333;
       font-weight: bold;
-      text-align: center;
     }
     .slide2-right-list {
       overflow: hidden;
@@ -702,7 +702,7 @@ body {
       }
       .text2 {
         position: absolute;
-        left: 375px;
+        left: 395px;
         top: 273px;
       }
     }
@@ -808,10 +808,10 @@ body {
         background: #4e9ecc;
       }
       .text {
-        padding: 6px 5px;
-        line-height: 1;
+        padding: 5px 5px;
+        line-height: 1.2;
         border-radius: 3px;
-        min-width: 146px;
+        min-width: 142px;
         text-align: center;
       }
       .text1 {

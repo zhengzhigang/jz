@@ -36,8 +36,8 @@
             守护整网安全。方案广泛应用于教育、政府、金融、企业、医疗、互联网和商业连锁等具备分支机构的行业。
           </p>
           <div class="btn-list">
-            <a target="_blank" class="btn line-bg qrcode-btn btn1 no_watch_live">下载方案彩页</a>
-            <a href="" target="_blank" class="btn btn2">方案咨询</a>
+            <a href="https://www.ruijie.com.cn/yx/kw/aq/preview/14350" target="_blank" class="btn line-bg btn1">下载方案彩页</a>
+            <a class="btn btn2 pre-sales-pop-ups-btn">方案咨询</a>
           </div>
         </div>
       </div>
@@ -64,21 +64,21 @@
         <ul class="t-page2-list">
           <li class="t-page2-item">
             <img src="./RJ-img/page2-icon1.jpg" alt="">
-            <p class="item-title">建设成本高昂</p>
+            <p class="item-title text_c">建设成本高昂</p>
             <p class="item-text">
               传统的分支组网设计中每个分支机构需要部署路由器、审计设备、安全设备，以及资费可观的专线链路等，建设成本高昂。
             </p>
           </li>
           <li class="t-page2-item">
             <img src="./RJ-img/page2-icon2.jpg" alt="">
-            <p class="item-title">链路分配不均</p>
+            <p class="item-title text_c">链路分配不均</p>
             <p class="item-text">
               各类业务对带宽和时延的要求各不相同，传统的QoS不能灵活调度出口链路，导致链路不能被合理利用，影响用户体验（如：视频会议、IP电话等）同时造成链路资源浪费。
             </p>
           </li>
           <li class="t-page2-item">
             <img src="./RJ-img/page2-icon3.jpg" alt="">
-            <p class="item-title">安全防护薄弱</p>
+            <p class="item-title text_c">安全防护薄弱</p>
             <p class="item-text">
               网络攻击事件频发，网络安全形势日益复杂，传统设备缺乏对网络行为的识别、分析和审计，缺乏安全事件定位和应对网络攻击的有效手段。
             </p>
@@ -133,19 +133,19 @@
         <div class="t-main-title">方案价值</div>
         <div class="page4-cont">
           <ul class="t-page4-list slide_list">
-            <li class="t-page4-item ascive">
+            <li class="t-page4-item text_c ascive">
               <p>多重功能集成</p>
               <p>成本控制见成效</p>
             </li>
-            <li class="t-page4-item">
+            <li class="t-page4-item text_c">
               <p>简易部署运维</p>
               <p>疑难杂症轻松应对</p>
             </li>
-            <li class="t-page4-item">
+            <li class="t-page4-item text_c">
               <p>策略智能调度</p>
               <p>业务体验清晰流畅</p>
             </li>
-            <li class="t-page4-item">
+            <li class="t-page4-item text_c">
               <p>全面立体防护</p>
               <p>保障网络安全合规</p>
             </li>
@@ -162,7 +162,7 @@
                 <p class="decorate-title">
                   <span class="decorate-text">默认模板</span>
                 </p>
-                <div class="slide-content">
+                <div class="slide-content text_c">
                   <span class="t-page4-slide1-circle circle1">VPN<br>互联</span>
                   <span class="t-page4-slide1-circle circle2">安全<br>防护</span>
                   <span class="t-page4-slide1-circle circle3">广域网<br>优化</span>
@@ -179,7 +179,7 @@
                 <p class="decorate-title">
                   <span class="decorate-text">XX分区配置模板</span>
                 </p>
-                <div class="slide-content">
+                <div class="slide-content text_c">
                   <span class="t-page4-slide1-circle circle1">VPN<br>互联</span>
                   <span class="t-page4-slide1-circle circle2">安全<br>防护</span>
                   <span class="t-page4-slide1-circle circle3 bg">广域网<br>优化</span>
@@ -199,7 +199,7 @@
                   融合SD-WAN架构，实现一体化部署、一体化运维。通过U盘或者手机快速完成分支设备开局，
                   分支无需IT人员，提升开局效率；通过RG-ONC-WAN控制器，实现全网策略统一下发。
                 </p>
-                <div class="slide-content">
+                <div class="slide-content text_c">
                   <img src="./RJ-img/page4-item2-1.png" alt="">
                   <span class="text text1">SD-WAN控制器</span>
                   <span class="text text2">通过手机<br>下载配置</span>
@@ -214,7 +214,7 @@
                 </p>
                 <div class="slide-content">
                   <img src="./RJ-img/page4-item2-2.png" alt="">
-                  <p class="slide2-right-title">首页呈现内容</p>
+                  <p class="slide2-right-title text_c">首页呈现内容</p>
                   <ul class="slide2-right-list">
                     <li class="slide2-right-item">
                       <span class="item-num">1</span>
@@ -350,7 +350,7 @@
                 <p class="text">RG-EG3000SE</p>
               </div>
               <div class="btn-list">
-                <a href="" class="btn">查看详情</a>
+                <a href="https://www.ruijie.com.cn/cp/aq-zhwg/eg3000cese/" target="_blank" class="btn btn3">查看详情</a>
               </div>
             </li>
             <li>
@@ -364,7 +364,7 @@
                 <p class="text">RG-EG3000GE</p>
               </div>
               <div class="btn-list">
-                <a href="" class="btn">查看详情</a>
+                <a href="https://www.ruijie.com.cn/cp/aq-zhwg/eg3000geme/" target="_blank" class="btn btn4">查看详情</a>
               </div>
             </li>
             <li>
@@ -378,7 +378,7 @@
                 <p class="text">RG-EG3000XE</p>
               </div>
               <div class="btn-list">
-                <a href="" class="btn">查看详情</a>
+                <a href="https://www.ruijie.com.cn/cp/aq-zhwg/eg3000/" target="_blank" class="btn btn5">查看详情</a>
               </div>
             </li>
             <li>
@@ -388,7 +388,7 @@
                 <p class="text">RG-EG2100-P V2</p>
               </div>
               <div class="btn-list">
-                <a href="" class="btn">查看详情</a>
+                <a href="https://www.ruijie.com.cn/cp/aq-zhwg/eg2100p/" target="_blank" class="btn btn6">查看详情</a>
               </div>
             </li>
           </ul>
@@ -413,7 +413,7 @@
               </li>
             </ul>
             <div class="btn-list">
-              <a href="" class="btn">查看详情</a>
+              <a href="https://www.ruijie.com.cn/cp/aq-zhwg/eg3200/" target="_blank" class="btn btn7">查看详情</a>
             </div>
           </div>
           <p class="decorate-title">
@@ -426,7 +426,7 @@
                 <p class="text">硬件版本<br>RG-ONC-AIO-H</p>
               </div>
               <div class="btn-list">
-                <a href="" class="btn">查看详情</a>
+                <a href="" class="btn btn8">查看详情</a>
               </div>
             </div>
             <div class="right">
@@ -435,7 +435,7 @@
                 <p class="text">软件版本<br>RG-ONC-WAN</p>
               </div>
               <div class="btn-list">
-                <a href="" class="btn">查看详情</a>
+                <a href="" class="btn btn9">查看详情</a>
               </div>
             </div>
           </div>
@@ -472,37 +472,46 @@
 
     $(function() {
         $('.t-page1 .btn1').on('click', function() {
-            _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页 查看详情", "banner 预约观看直播"]);
+            _gsq.push(["T", "GWD-002457", "trackEvent", "资料下载", "专题页 下载方案彩页", "banner 下载方案彩页"]);
         })
         $('.t-page1 .btn2').on('click', function() {
-            _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页 查看详情", "banner 了解高教三擎云桌面方案"]);
-        })
-        $('.t-page1 .btn3').on('click', function() {
-            _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页 查看详情", "banner 下载会议报告"]);
+            _gsq.push(["T", "GWD-002457", "trackEvent", "售前咨询", "专题页 方案咨询", "banner 方案咨询"]);
         })
 
         $('.nav-lists .nav1').on('click', function() {
-            _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页锚点查看详情", "专题页锚点 直播窗口"]);
+            _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页锚点查看详情", "专题页锚点 场景分析"]);
         })
         $('.nav-lists .nav2').on('click', function() {
-            _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页锚点查看详情", "专题页锚点 会议议程"]);
+            _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页锚点查看详情", "专题页锚点 解决方案"]);
         })
         $('.nav-lists .nav3').on('click', function() {
-            _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页锚点查看详情", "专题页锚点 方案亮点"]);
+            _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页锚点查看详情", "专题页锚点 方案价值"]);
         })
         $('.nav-lists .nav4').on('click', function() {
-            _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页锚点查看详情", "专题页锚点 最佳实践"]);
-        })
-        $('.nav-lists .nav5').on('click', function() {
-            _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页锚点查看详情", "专题页锚点 云桌面在高校"]);
+            _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页锚点查看详情", "专题页锚点 明星产品"]);
         })
 
 
-        $('.t-page1 .btn4').on('click', function() {
-            _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页 查看详情", "预约观看"]);
+        $('.t-page5 .btn3').on('click', function() {
+            _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页 查看详情", "RG-EG3000CE/SE"]);
         })
-        $('.t-page1 .btn5').on('click', function() {
-            _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页 查看详情", "了解解决方案详情"]);
+        $('.t-page5 .btn4').on('click', function() {
+            _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页 查看详情", "RG-EG3000ME/GE"]);
+        })
+        $('.t-page5 .btn5').on('click', function() {
+            _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页 查看详情", "RG-EG3000UE/XE"]);
+        })
+        $('.t-page5 .btn6').on('click', function() {
+            _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页 查看详情", "RG-EG2100-P V2"]);
+        })
+        $('.t-page5 .btn7').on('click', function() {
+            _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页 查看详情", "RG-EG3200系列"]);
+        })
+        $('.t-page5 .btn8').on('click', function() {
+            _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页 查看详情", "硬件版本 RG-ONC-AIO-H"]);
+        })
+        $('.t-page5 .btn9').on('click', function() {
+            _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页 查看详情", "软件版本 RG-ONC-WAN"]);
         })
     })
   </script>
