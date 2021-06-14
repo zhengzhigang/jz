@@ -402,9 +402,10 @@ body {
 // 第二屏
 .t-page2{
   padding-bottom: 66px;
+  background-color: #fff;
   &-list {
     overflow: hidden;
-    padding-bottom: 40px;
+    padding: 40px 0;
   }
   &-item {
     float: left;
@@ -891,10 +892,12 @@ body {
 
 // 第五屏
 .t-page5{
+  background-color: #fff;
   .item {
     background-color: #fff;
     border-radius: 5px;
     margin-bottom: 20px;
+    overflow: hidden;
   }
   img {
     display: block;

@@ -425,10 +425,11 @@ body {
 
 .t-page2 {
   padding-bottom: 66px;
+  background-color: #fff;
 }
 .t-page2-list {
   overflow: hidden;
-  padding-bottom: 40px;
+  padding: 40px 0;
 }
 .t-page2-item {
   float: left;
@@ -904,10 +905,14 @@ body {
   right: -30px;
 }
 
+.t-page5 {
+  background-color: #fff;
+}
 .t-page5 .item {
   background-color: #fff;
   border-radius: 5px;
   margin-bottom: 20px;
+  overflow: hidden;
 }
 .t-page5 img {
   display: block;
