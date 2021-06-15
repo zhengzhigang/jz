@@ -899,6 +899,9 @@ body {
     margin-bottom: 20px;
     overflow: hidden;
   }
+  a {
+      text-decoration: none;
+  }
   img {
     display: block;
     width: 100%;
@@ -941,6 +944,9 @@ body {
   }
   &-center {
     margin-bottom: 38px;
+    ul {
+        overflow: hidden;
+    }
     .item {
       width: 23%;
       float: left;

@@ -914,6 +914,9 @@ body {
   margin-bottom: 20px;
   overflow: hidden;
 }
+.t-page5 a {
+    text-decoration: none;
+}
 .t-page5 img {
   display: block;
   width: 100%;
@@ -956,6 +959,9 @@ body {
 }
 .t-page5-center {
   margin-bottom: 38px;
+}
+.t-page5-center ul {
+  overflow: hidden;
 }
 .t-page5-center .item {
   width: 23%;
