@@ -708,12 +708,376 @@ var PAGE = {
                 },
             ]
         },
-        // {
-        //     name: 'Ragial品牌视觉规范',
-        //     icon: 'side-icon-03.png',
-        //     f: '3',
-        //     second: []
-        // }
+        {
+            name: 'Ragial品牌视觉规范',
+            icon: 'side-icon-03.png',
+            second: [
+                {
+                    name: '品牌基础核心元素', // 二级目录名称
+                    f: '3/1',  // 三级目录对应图片部分路径
+                    vi: '',
+                    originVi: '',
+                    third: [
+                        {
+                            name: 'logo', // 三级目录名称
+                            length: 3,   // 三级目录页数
+                            target: '3-1-1',  // 菜单锚点目标id
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(拆)/基础/logo.zip?_upd=true'
+                        },
+                        {
+                            name: '色彩',
+                            length: 2,
+                            target: '3-1-2',
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(拆)/基础/色彩.zip?_upd=true'
+                        },
+                        {
+                            name: '字体',
+                            length: 2,
+                            target: '3-1-3',
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(拆)/基础/字体.zip?_upd=true'
+                        },
+                        {
+                            name: '影像', // 三级目录名称
+                            length: 7,   // 三级目录页数
+                            target: '3-1-4',  // 菜单锚点目标id
+                            download: ''
+                        },
+                        {
+                            name: '图标',
+                            length: 2,
+                            target: '3-1-5',
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(拆)/基础/图标.zip?_upd=true'
+                        },
+                        {
+                            name: '拓扑图',
+                            length: 1,
+                            target: '3-1-6',
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(拆)/基础/拓扑图.zip?_upd=true'
+                        },
+                        {
+                            name: '栅格版式', // 三级目录名称
+                            length: 2,   // 三级目录页数
+                            target: '3-1-7',  // 菜单锚点目标id
+                            download: ''
+                        },
+                        {
+                            name: '辅助图形',
+                            length: 7,
+                            target: '3-1-8',
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(拆)/基础/辅助图形.zip?_upd=true'
+                        }
+                    ]
+                },
+                {
+                    name: '广宣视觉规范', // 二级目录名称
+                    f: '3/2',  // 三级目录对应图片部分路径
+                    vi: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件/Ragile视觉系统—宣传品.pdf?_upd=true',
+                    originVi: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(总)/宣传品.zip?_upd=true',
+                    third: [
+                        {
+                            name: '产品彩页', // 三级目录名称
+                            length: 1,   // 三级目录页数
+                            target: '3-2-1',  // 菜单锚点目标id
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(拆)/产品/产品彩页.zip?_upd=true'
+                        }
+                    ]
+                },
+                {
+                    name: '活动视觉规范', // 二级目录名称
+                    f: '3/3',  // 三级目录对应图片部分路径
+                    vi: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件/Ragile视觉系统—活动.pdf?_upd=true',
+                    originVi: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(总)/市场.zip?_upd=true',
+                    third: [
+                        {
+                            name: '活动视觉画面构成规范', // 三级目录名称
+                            length: 2,   // 三级目录页数
+                            target: '3-3-1',  // 菜单锚点目标id
+                            download: ''
+                        },
+                        {
+                            name: '行业以及会议背景板-浅',
+                            length: 4,
+                            target: '3-3-2',
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(拆)/活动/行业以及会议背景板-浅.zip?_upd=true'
+                        },
+                        {
+                            name: '纸质邀请函-浅',
+                            length: 2,
+                            target: '3-3-3',
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(拆)/活动/纸质邀请函-浅.zip?_upd=true'
+                        },
+                        {
+                            name: '电子邀请函-浅', // 三级目录名称
+                            length: 1,   // 三级目录页数
+                            target: '3-3-4',  // 菜单锚点目标id
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(拆)/活动/电子邀请函-浅.zip?_upd=true'
+                        },
+                        {
+                            name: '易拉宝-浅',
+                            length: 1,
+                            target: '3-3-5',
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(拆)/活动/易拉宝-浅.zip?_upd=true'
+                        },
+                        {
+                            name: 'x展架-浅',
+                            length: 1,
+                            target: '3-3-6',
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(拆)/活动/X展架-浅.zip?_upd=true'
+                        },
+                        {
+                            name: '参观指南-浅', // 三级目录名称
+                            length: 1,   // 三级目录页数
+                            target: '3-3-7',  // 菜单锚点目标id
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(拆)/活动/参观指南-浅.zip?_upd=true'
+                        },
+                        {
+                            name: '展板-浅',
+                            length: 1,
+                            target: '3-3-8',
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(拆)/活动/展板-浅.zip?_upd=true'
+                        },
+                        {
+                            name: '深色主视觉',
+                            length: 2,
+                            target: '3-3-9',
+                            download: ''
+                        },
+                        {
+                            name: '行业以及会议背景板-深', // 三级目录名称
+                            length: 4,   // 三级目录页数
+                            target: '3-3-10',  // 菜单锚点目标id
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(拆)/活动/行业以及会议背景板-深.zip?_upd=true'
+                        },
+                        {
+                            name: '纸质邀请函-深',
+                            length: 2,
+                            target: '3-3-11',
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(拆)/活动/纸质邀请函-深.zip?_upd=true'
+                        },
+                        {
+                            name: '电子邀请函-深',
+                            length: 1,
+                            target: '3-3-12',
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(拆)/活动/电子邀请函-深.zip?_upd=true'
+                        },
+                        {
+                            name: '易拉宝-深', // 三级目录名称
+                            length: 1,   // 三级目录页数
+                            target: '3-3-13',  // 菜单锚点目标id
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(拆)/活动/易拉宝-深.zip?_upd=true'
+                        },
+                        {
+                            name: 'x展架-深',
+                            length: 1,
+                            target: '3-3-14',
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(拆)/活动/X展架-深.zip?_upd=true'
+                        },
+                        {
+                            name: '参观指南-深',
+                            length: 1,
+                            target: '3-3-15',
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(拆)/活动/参观指南-深.zip?_upd=true'
+                        },
+                        {
+                            name: '展板-深', // 三级目录名称
+                            length: 1,   // 三级目录页数
+                            target: '3-3-16',  // 菜单锚点目标id
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(拆)/活动/展板-深.zip?_upd=true'
+                        }
+                    ]
+                },
+                {
+                    name: '办公视觉规范', // 二级目录名称
+                    f: '3/4',  // 三级目录对应图片部分路径
+                    vi: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件/Ragile视觉系统—办公.pdf?_upd=true',
+                    originVi: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(总)/办公.zip?_upd=true',
+                    third: [
+                        {
+                            name: '名片', // 三级目录名称
+                            length: 1,   // 三级目录页数
+                            target: '3-4-1',  // 菜单锚点目标id
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(拆)/办公/名片.zip?_upd=true'
+                        },
+                        {
+                            name: '信封',
+                            length: 1,
+                            target: '3-4-2',
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(拆)/办公/信封.zip?_upd=true'
+                        },
+                        {
+                            name: '工牌',
+                            length: 1,
+                            target: '3-4-3',
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(拆)/办公/工牌.zip?_upd=true'
+                        },
+                        {
+                            name: '手提袋', // 三级目录名称
+                            length: 1,   // 三级目录页数
+                            target: '3-4-4',  // 菜单锚点目标id
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(拆)/办公/手提袋.zip?_upd=true'
+                        },
+                        {
+                            name: '纸杯',
+                            length: 1,
+                            target: '3-4-5',
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(拆)/办公/纸杯.zip?_upd=true'
+                        },
+                        {
+                            name: '授权书',
+                            length: 1,
+                            target: '3-4-6',
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(拆)/办公/授权书.zip?_upd=true'
+                        },
+                        {
+                            name: 'word', // 三级目录名称
+                            length: 1,   // 三级目录页数
+                            target: '3-4-7',  // 菜单锚点目标id
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(拆)/办公/word.zip?_upd=true'
+                        },
+                        {
+                            name: 'ppt',
+                            length: 2,
+                            target: '3-4-8',
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(拆)/办公/ppt.zip?_upd=true'
+                        },
+                        {
+                            name: '前台背景墙',
+                            length: 3,
+                            target: '3-4-9',
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(拆)/办公/前台背景墙.zip?_upd=true'
+                        },
+                        {
+                            name: '邮件签名', // 三级目录名称
+                            length: 1,   // 三级目录页数
+                            target: '3-4-10',  // 菜单锚点目标id
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(拆)/办公/邮件签名.zip?_upd=true'
+                        }
+                    ]
+                },
+                {
+                    name: '产品视觉规范', // 二级目录名称
+                    f: '3/5',  // 三级目录对应图片部分路径
+                    vi: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件/Ragile视觉系统—产品.pdf?_upd=true',
+                    originVi: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(总)/产品.zip?_upd=true',
+                    third: [
+                        {
+                            name: '运输箱标准模板', // 三级目录名称
+                            length: 1,   // 三级目录页数
+                            target: '3-5-1',  // 菜单锚点目标id
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(拆)/产品/运输箱标准模板.zip?_upd=true'
+                        },
+                        {
+                            name: '彩盒标准模板',
+                            length: 1,
+                            target: '3-5-2',
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(拆)/产品/彩盒标准模板.zip?_upd=true'
+                        },
+                        {
+                            name: '福网-运输箱标签',
+                            length: 1,
+                            target: '3-5-3',
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(拆)/产品/福网-运输箱标签.zip?_upd=true'
+                        },
+                        {
+                            name: '福网-彩盒标签', // 三级目录名称
+                            length: 1,   // 三级目录页数
+                            target: '3-5-4',  // 菜单锚点目标id
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(拆)/产品/福网-彩盒标签.zip?_upd=true'
+                        },
+                        {
+                            name: '封箱胶带',
+                            length: 1,
+                            target: '3-5-5',
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(拆)/产品/封箱胶带.zip?_upd=true'
+                        },
+                        {
+                            name: '产品信息标签',
+                            length: 1,
+                            target: '3-5-6',
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(拆)/产品/产品信息标签.zip?_upd=true'
+                        },
+                        {
+                            name: '序列号标签-常见材质', // 三级目录名称
+                            length: 1,   // 三级目录页数
+                            target: '3-5-7',  // 菜单锚点目标id
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(拆)/产品/序列号标签-常见材质.zip?_upd=true'
+                        },
+                        {
+                            name: '序列号标签-耐高温材质',
+                            length: 1,
+                            target: '3-5-8',
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(拆)/产品/序列号标签-耐高温材质.zip?_upd=true'
+                        },
+                        {
+                            name: '序列号标签-专用类',
+                            length: 1,
+                            target: '3-5-9',
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(拆)/产品/序列号标签-专用类.zip?_upd=true'
+                        },
+                        {
+                            name: '序列号标签-二维码标签', // 三级目录名称
+                            length: 1,   // 三级目录页数
+                            target: '3-5-10',  // 菜单锚点目标id
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(拆)/产品/序列号标签-二维码标签.zip?_upd=true'
+                        },
+                        {
+                            name: '警告标签',
+                            length: 1,
+                            target: '3-5-11',
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(拆)/产品/警告标签.zip?_upd=true'
+                        },
+                        {
+                            name: 'ROHS国内国际标',
+                            length: 1,
+                            target: '3-5-12',
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(拆)/产品/ROHS国内国际标.zip?_upd=true'
+                        },
+                        {
+                            name: '装箱清单', // 三级目录名称
+                            length: 1,   // 三级目录页数
+                            target: '3-5-13',  // 菜单锚点目标id
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(拆)/产品/装箱清单.zip?_upd=true'
+                        },
+                        {
+                            name: '保修册', // 三级目录名称
+                            length: 1,   // 三级目录页数
+                            target: '3-5-14',  // 菜单锚点目标id
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(拆)/产品/保修手册.zip?_upd=true'
+                        },
+                        {
+                            name: '手册',
+                            length: 1,
+                            target: '3-5-15',
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(拆)/产品/手册.zip?_upd=true'
+                        },
+                        {
+                            name: '软件包装彩盒',
+                            length: 1,
+                            target: '3-5-16',
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(拆)/产品/软件包装彩盒.zip?_upd=true'
+                        },
+                        {
+                            name: '光盘', // 三级目录名称
+                            length: 1,   // 三级目录页数
+                            target: '3-5-17',  // 菜单锚点目标id
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(拆)/产品/光盘.zip?_upd=true'
+                        },
+                        {
+                            name: '光盘封套',
+                            length: 1,
+                            target: '3-5-18',
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(拆)/产品/光盘封套.zip?_upd=true'
+                        },
+                        {
+                            name: '软件产品操作手册',
+                            length: 1,
+                            target: '3-5-19',
+                            download: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(拆)/产品/软件产品操作手册.zip?_upd=true'
+                        }
+                    ]
+                },
+            ]
+        }
     ],
     init: function() {
         var _this = this;
