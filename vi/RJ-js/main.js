@@ -709,14 +709,14 @@ var PAGE = {
             ]
         },
         {
-            name: 'Ragial品牌视觉规范',
+            name: 'Ragile品牌视觉规范',
             icon: 'side-icon-03.png',
             second: [
                 {
                     name: '品牌基础核心元素', // 二级目录名称
                     f: '3/1',  // 三级目录对应图片部分路径
-                    vi: '',
-                    originVi: '',
+                    vi: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件/Ragile视觉系统—产品.pdf?_upd=true',
+                    originVi: 'https://zlkfile.ruijie.com.cn/锐捷Ragile视觉规范文件(总)/基础.zip?_upd=true',
                     third: [
                         {
                             name: 'logo', // 三级目录名称
