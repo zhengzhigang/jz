@@ -708,6 +708,7 @@ var PAGE = {
                 },
             ]
         },
+        // 新增
         {
             name: 'Ragile品牌视觉规范',
             icon: 'side-icon-03.png',
