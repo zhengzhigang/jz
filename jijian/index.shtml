@@ -63,9 +63,7 @@
       <div class="t-content">
         <div class="t-main-title">新一代企业级全光网解决方案</div>
         <p class="t-page-title">
-          <span class="t-page-title-box">
-            全新光纤入室+以太网+SDN技术，融合了以太网和POL的技术优势，为企业级用户提供高带宽低延时、高度灵活、极简运维的网路承载。
-          </span>
+          全新光纤入室+以太网+SDN技术，融合了以太网和POL的技术优势，为企业级用户提供高带宽低延时、高度灵活、极简运维的网路承载。
         </p>
         <ul class="page2-cont">
           <li>
@@ -146,7 +144,8 @@
         </div>
       </div>
       <div class="btn-list">
-        <a href="//www.ruijie.com.cn/cp/jh-yqw-jgjh/sf2900s/" class="btn js_btn9" target="_blank">查看专属匹配的极简光交换机</a>
+        <a href="" class="btn btn1 js_btn9" target="_blank">方案彩页下载</a>
+        <a href="" class="btn js_btn9" target="_blank">2分钟了解全光方案</a>
       </div>     
     </div>
 

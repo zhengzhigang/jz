@@ -240,11 +240,11 @@ body {
   top: 8px;
 }
 .t-page-title span::before {
-  left: -185px;
+  left: -195px;
   background: url(../RJ-img/page-title-icon.png) center center/100% 100% no-repeat;
 }
 .t-page-title span::after {
-  right: -185px;
+  right: -195px;
   transform: rotateZ(180deg);
   background: url(../RJ-img/page-title-icon.png) center center/100% 100% no-repeat;
 }
@@ -290,37 +290,7 @@ body {
   overflow: hidden;
 }
 
-.t-page1 {
-  background-image: url("../RJ-img/page1-bg.jpg");
-  background-position: center bottom;
-  height: 690px;
-  overflow: hidden;
-}
-
-.page1-cont {
-  width: 60%;
-  text-align: center;
-  margin: 100px auto 0 5%;
-}
-.page1--title {
-  font-size: 66px;
-  color: #fff;
-  font-weight: bold;
-}
-.page1--title img {
-  width: 98%;
-  display: block;
-}
-.page1-des {
-  font-size: 18px;
-  margin: 55px 0 140px 10px;
-  color: #fff;
-  line-height: 28px;
-  text-align: left;
-}
-
 .btn-list {
-  margin: 30px auto;
   text-align: center;
 }
 .btn-list .btn {
@@ -335,7 +305,7 @@ body {
   text-decoration: none;
   border-radius: 43px;
   padding: 0 15px;
-  margin: 15px;
+  margin: 0 15px;
   border: 1px solid #e60039;
   cursor: pointer;
 }
@@ -370,6 +340,37 @@ body {
 .btn-list .btn3:hover span.play {
   background: url(../RJ-img/play-on.png) no-repeat left center;
   background-size: 25px;
+}
+
+.t-page1 {
+  background-image: url("../RJ-img/page1-bg.jpg");
+  background-position: center bottom;
+  overflow: hidden;
+  padding-bottom: 160px;
+}
+.t-page1 .btn-list {
+  text-align: left;
+}
+
+.page1-cont {
+  width: 60%;
+  text-align: center;
+  padding-top: 100px;
+}
+.page1-title {
+  color: #fff;
+  font-weight: bold;
+}
+.page1-title img {
+  width: 98%;
+  display: block;
+}
+.page1-des {
+  font-size: 18px;
+  margin: 43px 0 95px 10px;
+  color: #fff;
+  line-height: 28px;
+  text-align: left;
 }
 
 .t-nav {
@@ -423,27 +424,42 @@ body {
   background-image: url("../RJ-img/page2-bg.jpg");
   background-position: center bottom;
 }
+.t-page2 .t-main-title {
+  padding-bottom: 20px;
+}
+.t-page2 .btn-list {
+  margin-top: 50px;
+}
+.t-page2 .t-page-title {
+  color: #505050;
+}
 
 .page2-cont {
   display: flex;
+  padding-top: 50px;
 }
 .page2-cont li {
-  background: #edf4fc;
+  background: #fff;
   flex: 1;
-  margin: 25px;
-  padding: 0 38px 50px 38px;
+  margin: 0 25px;
+  padding: 0 38px;
   text-align: center;
+  box-shadow: 0 0 20px 0px #dadada;
 }
 .page2-cont li img {
   display: block;
-  margin: 45px auto;
+  margin: 30px auto 25px;
+  width: 102px;
+  height: 102px;
 }
 .page2-cont li p {
+  margin-bottom: 25px;
   text-align: left;
   font-size: 16px;
   color: #505050;
-  border-top: 1px solid #d9e9f2;
-  padding-top: 40px;
+}
+.page2-cont .btn-list {
+  margin-bottom: 35px;
 }
 
 .t-page3 {
@@ -457,11 +473,12 @@ body {
 .page3-cont li {
   background: #edf4fc;
   flex: 1;
-  margin: 25px;
+  margin: 25px 25px 50px;
   text-align: center;
 }
 .page3-cont .item-img {
   position: relative;
+  cursor: pointer;
 }
 .page3-cont .mask {
   position: absolute;
@@ -472,6 +489,7 @@ body {
   background-color: #000;
   opacity: 0.6;
   filter: alpha(opacity=60);
+  cursor: pointer;
 }
 .page3-cont .item-title {
   position: absolute;
@@ -501,13 +519,13 @@ body {
 }
 
 .t-page4 {
-  padding-bottom: 30px;
+  padding-bottom: 60px;
   background-image: url("../RJ-img/page4-bg.jpg");
   background-position: center bottom;
 }
 
 .page4-cont {
-  padding: 30px 10px;
+  padding: 30px 10px 40px;
 }
 .page4-cont img {
   display: block;
@@ -515,7 +533,7 @@ body {
 }
 
 .t-page5 {
-  padding-bottom: 30px;
+  padding-bottom: 70px;
   background-image: url("../RJ-img/page5-bg.jpg");
   background-position: center bottom;
 }
@@ -530,21 +548,32 @@ body {
 }
 
 .page5-cont {
-  padding: 30px 10px;
+  padding: 73px 10px 30px;
   font-size: 0;
 }
 .page5-cont img {
   display: block;
   width: 100%;
 }
-.page5-cont .left, .page5-cont .right {
-  display: inline-block;
+.page5-cont .left {
   width: 50%;
   position: relative;
+  display: inline-block;
+  cursor: pointer;
   vertical-align: top;
 }
 .page5-cont .right {
   margin-top: 70px;
+  width: 46%;
+  margin-left: 4%;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+.page5-cont .right img {
+  display: block;
+  width: 90%;
+  margin: auto;
 }
 .page5-cont .right-list {
   font-size: 16px;
@@ -561,7 +590,7 @@ body {
 .page5-cont .item {
   display: inline-block;
   width: 25%;
-  padding-left: 80px;
+  padding: 0 10px 0 80px;
   position: relative;
   box-sizing: border-box;
   vertical-align: top;
@@ -569,8 +598,8 @@ body {
 .page5-cont .icon {
   position: absolute;
   display: block;
-  width: 66px;
-  height: 66px;
+  width: 65px;
+  height: 65px;
   top: 0;
   left: 0;
 }
@@ -578,6 +607,7 @@ body {
   margin-bottom: 16px;
   font-size: 24px;
   color: #fff;
+  font-weight: bold;
 }
 .page5-cont .desc {
   font-size: 16px;
@@ -611,7 +641,7 @@ body {
 
 .t-page6 {
   position: relative;
-  padding: 70px 0 30px;
+  padding: 70px 0 55px;
   background-image: url("../RJ-img/page6-bg.jpg");
   background-position: center bottom;
 }
@@ -626,7 +656,7 @@ body {
 }
 
 .page6-cont {
-  padding: 130px 10px 30px;
+  padding: 130px 10px 20px;
   font-size: 0;
 }
 .page6-cont img {
@@ -669,7 +699,7 @@ body {
   display: block;
   width: 66px;
   height: 66px;
-  top: 0;
+  top: -12px;
   left: 0;
 }
 .page6-cont .title {
@@ -686,7 +716,7 @@ body {
 
 .t-page7 {
   position: relative;
-  padding: 70px 0 30px;
+  padding: 70px 0 65px;
   background-image: url("../RJ-img/page7-bg.jpg");
   background-position: center bottom;
 }
@@ -701,7 +731,7 @@ body {
 }
 
 .page7-cont {
-  padding: 30px 10px 20px;
+  padding: 30px 10px 40px;
   font-size: 0;
 }
 .page7-cont .img-cont {
@@ -724,7 +754,7 @@ body {
   margin-right: 10px;
 }
 .page7-cont .list {
-  margin-top: 40px;
+  margin: 40px 40px 0;
 }
 .page7-cont .item {
   display: inline-block;
@@ -1000,7 +1030,7 @@ body {
   }
 
   .page1-title {
-    font-size: 28px;
+    width: 70%;
   }
 
   .page1-cont {
