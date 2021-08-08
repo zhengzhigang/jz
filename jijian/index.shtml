@@ -49,17 +49,17 @@
           <li><a href="//www.ruijie.com.cn/cp/jh/" target="_blank">交换机</a></li>
         </ul>
         <ul class="nav-lists">
-          <li><a href="#fags" class="nav1">为什么用全光</a></li>
-          <li><a href="#fajz" class="nav2">身临其境 </a></li>
-          <li><a href="#yycj" class="nav3">全光架构</a></li>
-          <li><a href="#hxcp" class="nav4">全光产品</a></li>
-          <li><a href="#yyal" class="nav5">行业应用</a></li>
-          <li><a href="#yyal" class="nav5">大V观点</a></li>
+          <li><a href="#page2" class="nav1">为什么用全光</a></li>
+          <li><a href="#page3" class="nav2">身临其境 </a></li>
+          <li><a href="#page4" class="nav3">全光架构</a></li>
+          <li><a href="#page5" class="nav4">全光产品</a></li>
+          <li><a href="#page6" class="nav5">行业应用</a></li>
+          <li><a href="#page7" class="nav6">大V观点</a></li>
         </ul>
       </div>
     </div>
 
-    <div class="t-cont-item t-page2" id="fags">
+    <div class="t-cont-item t-page2" id="page2">
       <div class="t-content">
         <div class="t-main-title">新一代企业级全光网解决方案</div>
         <p class="t-page-title">
@@ -96,7 +96,7 @@
       </div>
     </div>
 
-    <div class="t-cont-item t-page3" id="fags">
+    <div class="t-cont-item t-page3" id="page3">
       <div class="t-content">
         <div class="t-main-title">走进不一样的全光网</div>
         <ul class="page3-cont">
@@ -137,7 +137,7 @@
       </div>
     </div>
 
-    <div class="t-cont-item t-page4" id="fajz">
+    <div class="t-cont-item t-page4" id="page4">
       <div class="t-content">
         <div class="t-main-title">一张全光网覆盖多业务</div>
         <div class="page4-cont">
@@ -150,7 +150,7 @@
       </div>     
     </div>
 
-    <div class="t-cont-item t-page5" id="fajz">
+    <div class="t-cont-item t-page5" id="page5">
       <div class="t-content">
         <div class="t-main-title">全光网产品推荐</div>
         <p class="t-page-title">
@@ -215,7 +215,7 @@
       </div>     
     </div>
 
-    <div class="t-cont-item t-page6" id="fajz">
+    <div class="t-cont-item t-page6" id="page6">
       <span class="page-arrow"></span>
       <div class="t-content">
         <p class="t-page-title">
@@ -286,7 +286,7 @@
       </div>     
     </div>
 
-    <div class="t-cont-item t-page7" id="fajz">
+    <div class="t-cont-item t-page7" id="page7">
       <span class="page-arrow"></span>
       <div class="t-content">
         <p class="t-page-title">
@@ -320,6 +320,60 @@
       <div class="btn-list">
         <a href="" class="btn js_btn9" target="_blank">查看产品详情</a>
       </div>     
+    </div>
+
+    <div class="t-cont-item t-page8" id="page8">
+      <div class="t-content">
+        <div class="t-main-title">他们都在用</div>
+        <div class="page8-cont">
+          <div class="page8-item">
+            <img src="./RJ-img/page8-img1.jpg" />
+            <div class="item-tit"> 泰安实验中学</div>
+            <div class="btn-list">
+              <a href="" target="_blank" class="btn btn1 js_btn11">查看详情</a>
+              <a class="pre-sales-pop-ups-btn btn btn2">观看视频</a>
+            </div>
+          </div>
+          <div class="page8-item">
+            <img src="./RJ-img/page8-img2.jpg" />
+            <div class="item-tit">中国药科大学</div>
+            <div class="btn-list">
+              <a href="" target="_blank" class="btn btn1 js_btn11">查看详情</a>
+              <a class="pre-sales-pop-ups-btn btn btn2">观看视频</a>
+            </div>
+          </div>
+          <div class="page8-item">
+            <img src="./RJ-img/page8-img3.jpg" />
+            <div class="item-tit"> 四川轻化工大学</div>
+            <div class="btn-list">
+              <a href="" target="_blank" class="btn btn1 js_btn11">查看详情</a>
+            </div>
+          </div>
+          <div class="page8-item">
+            <img src="./RJ-img/page8-img4.jpg" />
+            <div class="item-tit">枝江市第一高级中学</div>
+            <div class="btn-list">
+              <a style="visibility: hidden;" target="_blank" class="btn btn1 js_btn11"></a>
+            </div>
+          </div>
+          <div class="page8-item">
+            <img src="./RJ-img/page8-img6.jpg" />
+            <div class="item-tit">泰安志元学校</div>
+          </div>
+          <div class="page8-item">
+            <img src="./RJ-img/page8-img2.jpg" />
+            <div class="item-tit"> 湖北恩施利川一中新校区</div>
+          </div>
+          <div class="page8-item">
+            <img src="./RJ-img/page8-img3.jpg" />
+            <div class="item-tit">  南充高级中学</div>
+          </div>
+          <div class="page8-item">
+            <img src="./RJ-img/page8-img4.jpg" />
+            <div class="item-tit"> 秭归县第二高级中学</div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="t-cont-item dialog dialog1">
@@ -376,60 +430,6 @@
           </div>
           <div class="item-des">运维效率提升<span>60%</span>以上<img src="./RJ-img/arrow-up.png"></div>
           <div class="item-des">运维成本降低<span>30%</span><img src="./RJ-img/arrow-down.png"></div>
-        </div>
-      </div>
-    </div>
-
-    <div class="t-cont-item t-page8" id="yyal">
-      <div class="t-content">
-        <div class="t-main-title">他们都在用</div>
-        <div class="page8-cont">
-          <div class="page8-item">
-            <img src="./RJ-img/page8-img1.jpg" />
-            <div class="item-tit"> 泰安实验中学</div>
-            <div class="btn-list">
-              <a href="" target="_blank" class="btn btn1 js_btn11">查看详情</a>
-              <a class="pre-sales-pop-ups-btn btn btn2">观看视频</a>
-            </div>
-          </div>
-          <div class="page8-item">
-            <img src="./RJ-img/page8-img2.jpg" />
-            <div class="item-tit">中国药科大学</div>
-            <div class="btn-list">
-              <a href="" target="_blank" class="btn btn1 js_btn11">查看详情</a>
-              <a class="pre-sales-pop-ups-btn btn btn2">观看视频</a>
-            </div>
-          </div>
-          <div class="page8-item">
-            <img src="./RJ-img/page8-img3.jpg" />
-            <div class="item-tit"> 四川轻化工大学</div>
-            <div class="btn-list">
-              <a href="" target="_blank" class="btn btn1 js_btn11">查看详情</a>
-            </div>
-          </div>
-          <div class="page8-item">
-            <img src="./RJ-img/page8-img4.jpg" />
-            <div class="item-tit">枝江市第一高级中学</div>
-            <div class="btn-list">
-              <a style="visibility: hidden;" target="_blank" class="btn btn1 js_btn11"></a>
-            </div>
-          </div>
-          <div class="page8-item">
-            <img src="./RJ-img/page8-img6.jpg" />
-            <div class="item-tit">泰安志元学校</div>
-          </div>
-          <div class="page8-item">
-            <img src="./RJ-img/page8-img2.jpg" />
-            <div class="item-tit"> 湖北恩施利川一中新校区</div>
-          </div>
-          <div class="page8-item">
-            <img src="./RJ-img/page8-img3.jpg" />
-            <div class="item-tit">  南充高级中学</div>
-          </div>
-          <div class="page8-item">
-            <img src="./RJ-img/page8-img4.jpg" />
-            <div class="item-tit"> 秭归县第二高级中学</div>
-          </div>
         </div>
       </div>
     </div>
