@@ -1,0 +1,514 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+  <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no" />
+  <meta property="wb:webmaster" content="209aa6880b9c0855" />
+  <meta name="description" content="极简以太全光网解决方案通过全新光纤入室的部署方式，结合以太网，通过架构简单的组网和SDN技术在万物互联时代为园区业务提供面向高带宽、低延时、高度灵活、极简运维的网络承载，支撑未来十年业务演进，保障应用体验和投资价值。"/>
+  <meta name="keywords" content="极简以太全光网，全光网络，全光网" />
+  <meta name="robots" content="all" />
+  <title>极简以太全光网解决方案 - 锐捷网络</title>
+  <link rel="shortcut icon" href="//image.ruijie.com.cn/UIA/images/favicon.ico" type="image/x-icon" />
+</head>
+<body>
+
+  <!-- #include file="/HeaderUC_R.html" -->
+
+  <!-- <script src="https://image.ruijie.com.cn/UIA/v2.0/scripts/jquery-1.10.2.min.js" type="text/javascript"></script> -->
+  <!--内容正文开始-->
+  <script type="text/javascript" src="RJ-js/item.js?3"></script>
+
+
+  <link rel="stylesheet" type="text/css" href="RJ-css/item.css?5" />
+  <!--内容正文开始-->
+  <div class="t-main">
+    <div class="t-cont-item t-page1">
+      <div class="t-content">
+        <div class="page1-cont">
+          <div class="page1-title">
+            <img src="./RJ-img/page1-title.png">
+          </div>
+          <div class="page1-des">
+            面向教育、商旅、办公等园区应用场景，通过全新光纤入室的部署方式，结合以太网，通过架构简单的组网和SDN技术在万物互联时代为园区业务提供面向高带宽、低延时、高度灵活、极简运维的网络承载，支撑未来十年业务演进，保障应用体验和投资价值。
+          </div>
+        </div>
+        <div class="btn-list">
+          <a href="//www.ruijie.com.cn/yx/kw/jh/preview/13920" target="_blank" class="btn btn1 js_btn11">获取白皮书</a>
+          <a class="pre-sales-pop-ups-btn btn btn2">立即咨询</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="t-cont-item t-nav">
+      <div class="t-content">
+        <ul class="nav-page">
+          <li><a href="//www.ruijie.com.cn/" target="_blank" class="nav-home"><img src="./RJ-img/home.png" /></a></li>
+          <li><a href="//www.ruijie.com.cn/cp/" target="_blank" class="nav-page">产品</a></li>
+          <li><a href="//www.ruijie.com.cn/cp/jh/" target="_blank">交换机</a></li>
+        </ul>
+        <ul class="nav-lists">
+          <li><a href="#fags" class="nav1">为什么用全光</a></li>
+          <li><a href="#fajz" class="nav2">身临其境 </a></li>
+          <li><a href="#yycj" class="nav3">全光架构</a></li>
+          <li><a href="#hxcp" class="nav4">全光产品</a></li>
+          <li><a href="#yyal" class="nav5">行业应用</a></li>
+          <li><a href="#yyal" class="nav5">大V观点</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="t-cont-item t-page2" id="fags">
+      <div class="t-content">
+        <div class="t-main-title">新一代企业级全光网解决方案</div>
+        <p class="t-page-title">
+          <span class="t-page-title-box">
+            全新光纤入室+以太网+SDN技术，融合了以太网和POL的技术优势，为企业级用户提供高带宽低延时、高度灵活、极简运维的网路承载。
+          </span>
+        </p>
+        <ul class="page2-cont">
+          <li>
+            <img src="./RJ-img/page2-icon1.png"/>
+            <p>业务灵活扩展，兼容原有以太网络架构，不绑定，零成本快速上手</p>
+            <div class="btn-list">
+              <a href="" target="_blank" class="btn btn1 js_btn11">查看详情</a>
+            </div>
+          </li>
+          <li>
+            <img src="./RJ-img/page2-icon2.png"/>
+            <p>简单运维，全流程智能化管理，一人管理，一键搞定</p>
+            <div class="btn-list">
+              <a href="" target="_blank" class="btn btn1 js_btn11">查看详情</a>
+            </div>
+          </li>
+          <li>
+            <img src="./RJ-img/page2-icon3.png"/>
+            <p>光纤+Wi-Fi 6接入网，网速提升显著</p>
+            <div class="btn-list">
+              <a href="" target="_blank" class="btn btn1 js_btn11">查看详情</a>
+            </div>
+          </li>
+        </ul>
+        <div class="btn-list">
+          <a class="pre-sales-pop-ups-btn btn btn2">一张图get全光</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="t-cont-item t-page3" id="fags">
+      <div class="t-content">
+        <div class="t-main-title">走进不一样的全光网</div>
+        <ul class="page3-cont">
+          <li>
+            <div class="item-img">
+              <img src="./RJ-img/page3-img1.jpg"/>
+              <div class="mask"></div>
+              <span class="item-play"></span>
+              <p class="item-title">普教行业</p>
+            </div>
+            <p class="item-text">泰安实验中学</p>
+          </li>
+          <li>
+            <div class="item-img">
+              <img src="./RJ-img/page3-img2.jpg"/>
+              <div class="mask"></div>
+              <span class="item-play"></span>
+              <p class="item-title">高教行业</p>
+            </div>
+            <p class="item-text">华中科技大学</p>
+          </li>
+          <li>
+            <div class="item-img">
+              <img src="./RJ-img/page3-img3.jpg"/>
+              <div class="mask"></div>
+              <span class="item-play"></span>
+              <p class="item-title">高教行业</p>
+            </div>
+            <p class="item-text">四川轻化工大学</p>
+          </li>
+        </ul>
+        <div class="btn-list">
+          <a href="" target="_blank" class="btn btn1 js_btn11">普教极简全光方案</a>
+          <a href="" target="_blank" class="btn btn1 js_btn11">高教极简全光方案</a>
+          <a href="" target="_blank" class="btn btn1 js_btn11">企业极简全光方案</a>
+          <a class="pre-sales-pop-ups-btn btn btn2">项目咨询</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="t-cont-item t-page4" id="fajz">
+      <div class="t-content">
+        <div class="t-main-title">一张全光网覆盖多业务</div>
+        <div class="page4-cont">
+          <img src="./RJ-img/page4-img.png" class="show-pc"/>
+          <img src="./RJ-img/page4-img-m.png" class="show-mobile"/>
+        </div>
+      </div>
+      <div class="btn-list">
+        <a href="//www.ruijie.com.cn/cp/jh-yqw-jgjh/sf2900s/" class="btn js_btn9" target="_blank">查看专属匹配的极简光交换机</a>
+      </div>     
+    </div>
+
+    <div class="t-cont-item t-page5" id="fajz">
+      <div class="t-content">
+        <div class="t-main-title">全光网产品推荐</div>
+        <p class="t-page-title">
+          <span class="t-page-title-box">
+            全新极简光交换机RG-SF系列，精致工业设计，专为全光网络诞生
+          </span>
+        </p>
+        <div class="page5-cont">
+          <div class="left">
+            <img src="./RJ-img/page5-img1.jpg" alt="">
+          </div>
+          <div class="right">
+            <img src="./RJ-img/page5-img2.png" alt="">
+            <ul class="right-list">
+              <li>• 4口\8口\16口\24口灵活可选</li>
+              <li>• 1G\2.5G\10G多速率接口</li>
+              <li>• 即插即用</li>
+              <li>• 即插即用</li>
+            </ul>
+          </div>
+          <ul class="list">
+            <li class="item">
+              <img class="icon" src="./RJ-img/page5-icon1.png" alt="">
+              <p class="title">落叶级静音</p>
+              <p class="desc">
+                实测35分贝以下，
+                犹如轻声絮语一般安静
+              </p>
+            </li>
+            <li class="item">
+              <img class="icon" src="./RJ-img/page5-icon2.png" alt="">
+              <p class="title">小巧灵动</p>
+              <p class="desc">
+                只是A4纸的
+                三分之二大小（8口）
+              </p>
+            </li>
+            <li class="item">
+              <img class="icon" src="./RJ-img/page5-icon3.png" alt="">
+              <p class="title">极易安装</p>
+              <p class="desc">
+                可壁挂、可放装，可装
+                桌底，不受空间限制
+              </p>
+            </li>
+            <li class="item">
+              <img class="icon" src="./RJ-img/page5-icon4.png" alt="">
+              <p class="title">稳若磐石</p>
+              <p class="desc">
+                针对电源和端口特别设计，
+                45℃下电源寿命≥10年，
+                高效散热降低端口故障率
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="btn-list">
+        <a href="" target="_blank" class="btn btn1 js_btn11">极简光系列交换机</a>
+        <a href="" target="_blank" class="btn btn1 js_btn11">匹配RG-N18000系列</a>
+        <a href="" class="btn js_btn9" target="_blank">匹配RG-S7800C系列</a>
+      </div>     
+    </div>
+
+    <div class="t-cont-item t-page6" id="fajz">
+      <span class="page-arrow"></span>
+      <div class="t-content">
+        <p class="t-page-title">
+          <span class="t-page-title-box">全新极简以太全光智分+方案</span>
+        </p>
+        <div class="page6-cont">
+          <div class="left">
+            <p class="img-title">RG-AM5552-SF(V2)全光智分主机</p>
+            <img src="./RJ-img/page6-img1.png" alt="">
+            <ul class="list">
+              <li class="item left">
+                <img class="icon" src="./RJ-img/page6-icon1.png" alt="">
+                <p class="title">1“楼”1“AP”</p>
+                <p class="desc">
+                  集中部署在弱电间，<br>
+                  实现“楼层无源”
+                </p>
+              </li>
+              <li class="item right">
+                <img class="icon" src="./RJ-img/page6-icon2.png" alt="">
+                <p class="title">简化管理</p>
+                <p class="desc">
+                  单个AP主机支持最多<br>
+                  48个微AP，管理工作<br>
+                  量减少98%
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="right">
+            <p class="img-title">RG-MAP852-SF(V2)入室光微AP</p>
+            <img src="./RJ-img/page6-img2.png" alt="">
+            <ul class="left">
+              <li class="item">
+                <img class="icon" src="./RJ-img/page6-icon3.png" alt="">
+                <p class="title">利旧部署</p>
+                <p class="desc">内置单模单芯光纤</p>
+              </li>
+              <li class="item">
+                <img class="icon" src="./RJ-img/page6-icon4.png" alt="">
+                <p class="title">千兆无线</p>
+                <p class="desc">
+                  Wi-Fi 6整机1.8Gbps<br>
+                  满足未来3年需求
+                </p>
+              </li>
+            </ul>
+            <ul class="right">
+              <li class="item">
+                <img class="icon" src="./RJ-img/page6-icon5.png" alt="">
+                <p class="title">融合组网</p>
+                <p class="desc">
+                  有线、无线、<br>
+                  IoT三网合一
+                </p>
+              </li>
+              <li class="item">
+                <img class="icon" src="./RJ-img/page6-icon6.png" alt="">
+                <p class="title">即插即用</p>
+                <p class="desc">零配置入网</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="btn-list">
+        <a href="" class="btn js_btn9" target="_blank">极简以太全光智分+方案</a>
+      </div>     
+    </div>
+
+    <div class="t-cont-item t-page7" id="fajz">
+      <span class="page-arrow"></span>
+      <div class="t-content">
+        <p class="t-page-title">
+          <span class="t-page-title-box">RG-AR系列高密放装无线AP</span>
+        </p>
+        <div class="page7-cont">
+          <div class="img-cont">
+            <p class="img-title">RG-AP850(AR) 高密放装无线AP</p>
+            <img class="page7-img" src="./RJ-img/page7-img.png" alt="">
+            <ul class="right-list">
+              <li>• 基于业界独创AI Radio</li>
+              <li>• 实现整网性能提升、无损安全扫描、高效网络运维、高质量数据采集</li>
+            </ul>
+          </div>
+          <ul class="list">
+            <li class="item">
+              <img class="icon" src="./RJ-img/page7-icon1.png" alt="">
+              <p class="title">整机八条流</p>
+            </li>
+            <li class="item">
+              <img class="icon" src="./RJ-img/page7-icon2.png" alt="">
+              <p class="title">最大接入速率4.	134G</p>
+            </li>
+            <li class="item">
+              <img class="icon" src="./RJ-img/page7-icon3.png" alt="">
+              <p class="title">高达3.5G有线速率</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="btn-list">
+        <a href="" class="btn js_btn9" target="_blank">查看产品详情</a>
+      </div>     
+    </div>
+
+    <div class="t-cont-item dialog dialog1">
+      <span class="close"></span>
+      <div class="t-content">
+        <div class="t-page-title">
+          业务灵活扩展，兼容原有以太网络架构，不绑定，零成本快速上手
+        </div>
+        <div class="dialog1-cont">
+          <img src="./RJ-img/page2-img1.png" />
+          <ul class="dialog1-content">
+            <li class="dialog1-item item1">
+              <div class="dialog1-tit">扩展便捷</div>
+              <div class="dialog1-des">接入交换机下沉至房间，<br/>网络扩展与升级只需更换设备，<br/>无需调整链路</div>
+            </li>
+            <li class="dialog1-item item2">
+              <div class="dialog1-tit">改造无忧</div>
+              <div class="dialog1-des">可采用原自有核心部署，<br/>无需全部改造换新</div>
+            </li>
+            <li class="dialog1-item item3">
+              <div class="dialog1-tit">拒绝绑定</div>
+              <div class="dialog1-des">支持多厂商设备接入，<br/>保障客户灵活自主选择</div>
+            </li>
+            <li class="dialog1-item item4">
+              <div class="dialog1-tit">快速上手</div>
+              <div class="dialog1-des">沿袭以太架构，<br/>无需额外学习成本</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="t-cont-item dialog dialog2">
+      <span class="close"></span>
+      <div class="t-content">
+        <div class="t-page-title">极简运维，全流程智能化管理，一人管理，一键搞定</div>
+        <div class="dialog2-cont">
+          <div class="dialog2-item">
+            <div class="item-cont item1">
+              <img src="./RJ-img/dialog-icon1.png">
+              <p>设备极简部署，<br/>只需3步</p>
+            </div>
+            <div class="item-cont item2">
+              <img src="./RJ-img/dialog-icon2.png">
+              <p>设备故障替换免配置，<br/>降低业务故障的中断时间</p>
+            </div>
+            <div class="item-cont item3">
+              <img src="./RJ-img/dialog-icon3.png">
+              <p>终端即插即用，上线、分类入网、<br/>安全隔离<br>只需三分钟</p>
+            </div>
+            <div class="item-cont item4">
+              <img src="./RJ-img/dialog-icon4.png">
+              <p>全网统一监控，实时监测、<br/>故障告警，快速排障</p>
+            </div>
+          </div>
+          <div class="item-des">运维效率提升<span>60%</span>以上<img src="./RJ-img/arrow-up.png"></div>
+          <div class="item-des">运维成本降低<span>30%</span><img src="./RJ-img/arrow-down.png"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="t-cont-item t-page8" id="yyal">
+      <div class="t-content">
+        <div class="t-main-title">他们都在用</div>
+        <div class="page8-cont">
+          <div class="page8-item">
+            <img src="./RJ-img/page8-img1.jpg" />
+            <div class="item-tit"> 泰安实验中学</div>
+            <div class="btn-list">
+              <a href="" target="_blank" class="btn btn1 js_btn11">查看详情</a>
+              <a class="pre-sales-pop-ups-btn btn btn2">观看视频</a>
+            </div>
+          </div>
+          <div class="page8-item">
+            <img src="./RJ-img/page8-img2.jpg" />
+            <div class="item-tit">中国药科大学</div>
+            <div class="btn-list">
+              <a href="" target="_blank" class="btn btn1 js_btn11">查看详情</a>
+              <a class="pre-sales-pop-ups-btn btn btn2">观看视频</a>
+            </div>
+          </div>
+          <div class="page8-item">
+            <img src="./RJ-img/page8-img3.jpg" />
+            <div class="item-tit"> 四川轻化工大学</div>
+            <div class="btn-list">
+              <a href="" target="_blank" class="btn btn1 js_btn11">查看详情</a>
+            </div>
+          </div>
+          <div class="page8-item">
+            <img src="./RJ-img/page8-img4.jpg" />
+            <div class="item-tit">枝江市第一高级中学</div>
+            <div class="btn-list">
+              <a style="visibility: hidden;" target="_blank" class="btn btn1 js_btn11"></a>
+            </div>
+          </div>
+          <div class="page8-item">
+            <img src="./RJ-img/page8-img6.jpg" />
+            <div class="item-tit">泰安志元学校</div>
+          </div>
+          <div class="page8-item">
+            <img src="./RJ-img/page8-img2.jpg" />
+            <div class="item-tit"> 湖北恩施利川一中新校区</div>
+          </div>
+          <div class="page8-item">
+            <img src="./RJ-img/page8-img3.jpg" />
+            <div class="item-tit">  南充高级中学</div>
+          </div>
+          <div class="page8-item">
+            <img src="./RJ-img/page8-img4.jpg" />
+            <div class="item-tit"> 秭归县第二高级中学</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--内容正文结束-->
+
+
+
+
+  <!-- #include file="/FooterUC_R.html" -->
+
+  <script type='text/javascript'>
+    _gsq.push(["T", "GWD-002457", "trackEvent", "内容页", "专题", ""]);
+
+$(function() {
+  $('.page1-cont .btn10').on('click', function() {
+    _gsq.push(["T", "GWD-002457", "trackEvent", "资料下载", "专题页资料下载", "banner 获取白皮书"]);
+  })
+  $('.page1-cont .btn11').on('click', function() {
+    _gsq.push(["T", "GWD-002457", "trackEvent", "售前咨询", "专题页方案咨询", "banner 方案咨询"]);
+  })
+  $('.page1-cont .btn2').on('click', function() {
+    _gsq.push(["T", "GWD-002457", "trackEvent", "售前咨询", "专题页方案咨询", "banner 方案咨询"]);
+  })
+
+
+  $('.nav-lists .nav1').on('click', function() {
+    _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页锚点查看详情", "专题页锚点 方案概述"]);
+  })
+  $('.nav-lists .nav2').on('click', function() {
+    _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页锚点查看详情", "专题页锚点 方案价值 "]);
+  })
+  $('.nav-lists .nav3').on('click', function() {
+    _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页锚点查看详情", "专题页锚点 应用场景"]);
+  })
+  $('.nav-lists .nav4').on('click', function() {
+    _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页锚点查看详情", "专题页锚点 核心产品"]);
+  })
+  $('.nav-lists .nav5').on('click', function() {
+    _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页锚点查看详情", "专题页锚点 应用案例 "]);
+  })
+  
+
+  $('.t-page3 .js_btn9').on('click', function() {
+    _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页查看详情", "专题页 查看专属匹配的极简光交换机"]);
+  })
+  $('.t-page5 .js_btn8').on('click', function() {
+    _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页查看详情", "专题页 一张图get全部价值点 "]);
+  })
+  $('.t-page6 .js_btn6').on('click', function() {
+    _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页查看详情", "专题页 查看高教专属方案 "]);
+  })
+  $('.t-page6 .js_btn7').on('click', function() {
+    _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页查看详情", "专题页 查看普教专属方案"]);
+  })
+
+  $('.t-page70 .js_btn3').on('click', function() {
+    _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页查看详情", "专题页 极简光系列交换机"]);
+  })
+  $('.t-page70 .js_btn4').on('click', function() {
+    _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页查看详情", "专题页 其他匹配产品N18K"]);
+  })
+  $('.t-page70 .js_btn5').on('click', function() {
+    _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页查看详情", "专题页 其他匹配产品78C "]);
+  })
+
+  $('.t-page70 .js_btn2').on('click', function() {
+    _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页查看详情", "专题页 RG-AR系列高密放装无线AP "]);
+  })
+  $('.t-page70 .js_btn1').on('click', function() {
+    _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页查看详情", "专题页 全新极简以太全光智分+方案 "]);
+  })
+
+  $('.t-page8 .btn').on('click', function() {
+    _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页查看详情", "专题页 身临其境看客户如何使用"]);
+  })
+})
+
+
+  </script>
+</body>
+</html>
