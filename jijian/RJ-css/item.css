@@ -342,6 +342,53 @@ body {
   background-size: 25px;
 }
 
+/*视频弹框*/
+.ns-layer {
+  z-index: 2000;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.ns-layer.ns-video-layer .ns-layer-inner {
+  position: relative;
+  top: 10%;
+  width: 720px;
+  margin-left: auto;
+  background-color: #000;
+  margin-right: auto;
+}
+
+.ns-layer .close {
+  background: url(../RJ-img/close.png) no-repeat center center;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  display: block;
+  cursor: pointer;
+  width: 29px;
+  height: 29px;
+}
+
+.ns-layer.ns-video-layer .ns-layer-inner .ns-title {
+  padding: 0 17px;
+  font-size: 16px;
+  line-height: 45px;
+  color: #fff;
+}
+
+.ns-layer.ns-video-layer .ns-layer-inner .ns-content {
+  height: 405px;
+  width: 100%;
+}
+
+.ns-layer.ns-video-layer .ns-layer-inner .btn-list {
+  padding: 16px 0;
+}
+
 .t-page1 {
   background-image: url("../RJ-img/page1-bg.jpg");
   background-position: center bottom;
@@ -525,11 +572,48 @@ body {
 }
 
 .page4-cont {
+  position: relative;
   padding: 30px 10px 40px;
 }
 .page4-cont img {
   display: block;
   width: 100%;
+}
+.page4-cont .arrow {
+  position: absolute;
+  display: block;
+  width: 28px;
+  height: 28px;
+  background: url(../RJ-img/page4-arrow.png) center/100% no-repeat;
+  cursor: pointer;
+}
+.page4-cont .arrow:hover {
+  width: 36px;
+  height: 36px;
+  margin-top: -4px;
+  margin-left: -4px;
+  transition: all 0.1s;
+  background: url(../RJ-img/page4-arrow-active.png) center/100% no-repeat;
+}
+.page4-cont .arrow1 {
+  top: 21%;
+  left: 48.4%;
+}
+.page4-cont .arrow2 {
+  top: 36%;
+  left: 28%;
+}
+.page4-cont .arrow3 {
+  top: 36%;
+  left: 40%;
+}
+.page4-cont .arrow4 {
+  top: 59%;
+  left: 28%;
+}
+.page4-cont .arrow5 {
+  top: 59%;
+  left: 45%;
 }
 
 .t-page5 {

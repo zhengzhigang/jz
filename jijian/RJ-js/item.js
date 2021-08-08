@@ -1,3 +1,18 @@
+function playVideo() {
+  var $tVideoBox = $('#tVideoBox');
+  $('.t-page3 .play_video').on('click', function () {
+    $('.ns-title').html($(this).data('name'))
+
+    $('.ns-video').attr('src', $(this).data('src'))
+    $tVideoBox.show();
+  });
+
+  $tVideoBox.on('click', '.close', function () {
+    $tVideoBox.hide();
+    $tVideoBox.find('video')[0].pause();
+  });
+}
+
 $(function () {
   $('#showDialog1').click(function() {
     $('#dialog1').show()
@@ -14,4 +29,6 @@ $(function () {
   $('#cloasDialog2').click(function() {
     $('#dialog2').hide()
   })
+
+  playVideo()
 })
