@@ -309,11 +309,11 @@ body {
   border: 1px solid #e60039;
   cursor: pointer;
 }
-.btn-list .btn1 {
+.btn-list .btn-red {
   background: #fff;
   color: #e60039;
 }
-.btn-list .btn1 span.play {
+.btn-list .btn-red span.play {
   background: url(../RJ-img/play-on.png) no-repeat left center;
   padding: 5px;
   padding-left: 32px;
@@ -323,11 +323,11 @@ body {
   background: #fff;
   color: #e60039;
 }
-.btn-list .btn1:hover {
+.btn-list .btn-red:hover {
   background: #e60039;
   color: #fff;
 }
-.btn-list .btn1:hover span {
+.btn-list .btn-red:hover span {
   background: url(../RJ-img/play.png) no-repeat left center;
   background-size: 22px;
 }
@@ -586,6 +586,7 @@ body {
   height: 28px;
   background: url(../RJ-img/page4-arrow.png) center/100% no-repeat;
   cursor: pointer;
+  animation: imgArrow 1s linear infinite alternate;
 }
 .page4-cont .arrow:hover {
   width: 36px;
@@ -616,6 +617,14 @@ body {
   left: 45%;
 }
 
+@keyframes imgArrow {
+  from {
+    margin-top: 0;
+  }
+  to {
+    margin-top: -6px;
+  }
+}
 .t-page5 {
   padding-bottom: 70px;
   background-image: url("../RJ-img/page5-bg.jpg");

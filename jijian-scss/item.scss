@@ -301,7 +301,7 @@ body {
     cursor: pointer;
   }
 
-  .btn1{
+  .btn-red{
     background: #fff;
     color: #e60039;
 
@@ -318,12 +318,12 @@ body {
     color: #e60039;
   }
 
-  .btn1:hover{
+  .btn-red:hover{
     background: #e60039;
     color: #fff;
   }
 
-  .btn1:hover span{
+  .btn-red:hover span{
     background: url(../RJ-img/play.png) no-repeat left center;
     background-size: 22px;
   }
@@ -613,6 +613,7 @@ body {
     height: 28px;
     background: url(../RJ-img/page4-arrow.png) center/100% no-repeat;
     cursor: pointer;
+    animation: imgArrow 1s linear infinite alternate;
 
     &:hover {
       width: 36px;
@@ -647,6 +648,15 @@ body {
   .arrow5 {
     top: 59%;
     left: 45%;
+  }
+}
+
+@keyframes imgArrow {
+  from {
+    margin-top: 0;
+  }
+  to {
+    margin-top: -6px;
   }
 }
 
