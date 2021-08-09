@@ -168,8 +168,8 @@ body {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-  /*overflow: hidden;*/
   position: relative;
+  overflow: hidden;
 }
 
 /* 通用一级标题 */
@@ -301,7 +301,7 @@ body {
     cursor: pointer;
   }
 
-  .btn1{
+  .btn-red{
     background: #fff;
     color: #e60039;
 
@@ -318,12 +318,12 @@ body {
     color: #e60039;
   }
 
-  .btn1:hover{
+  .btn-red:hover{
     background: #e60039;
     color: #fff;
   }
 
-  .btn1:hover span{
+  .btn-red:hover span{
     background: url(../RJ-img/play.png) no-repeat left center;
     background-size: 22px;
   }
@@ -350,42 +350,46 @@ body {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.7);
+
+  &.ns-video-layer {
+    .ns-layer-inner {
+      position: relative;
+      top: 10%;
+      width: 720px;
+      margin-left: auto;
+      background-color: #000;
+      margin-right: auto;
+
+      .ns-title {
+        padding: 0 17px;
+        font-size: 16px;
+        line-height: 45px;
+        color: #fff;
+      }
+
+      .ns-content {
+        height: 405px;
+        width: 100%;
+      }
+
+      .btn-list {
+        padding: 16px 0;
+      }
+    }
+  }
+
+  .close {
+    background: url(../RJ-img/close.png) no-repeat center center;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    display: block;
+    cursor: pointer;
+    width: 29px;
+    height: 29px;
+  }
 }
 
-.ns-layer.ns-video-layer .ns-layer-inner {
-  position: relative;
-  top: 10%;
-  width: 720px;
-  margin-left: auto;
-  background-color: #000;
-  margin-right: auto;
-}
-
-.ns-layer .close {
-  background: url(../RJ-img/close.png) no-repeat center center;
-  position: absolute;
-  right: 8px;
-  top: 8px;
-  display: block;
-  cursor: pointer;
-  width: 29px;
-  height: 29px;
-}
-
-.ns-layer.ns-video-layer .ns-layer-inner .ns-title {
-  padding: 0 17px;
-  font-size: 16px;
-  line-height: 45px;
-  color: #fff;
-}
-
-.ns-layer.ns-video-layer .ns-layer-inner .ns-content {
-  height: 405px;
-  width: 100%;
-}
-.ns-layer.ns-video-layer .ns-layer-inner .btn-list {
-  padding: 16px 0;
-}
 .t-page1 {
   background-image: url('../RJ-img/page1-bg.jpg');
   background-position: center bottom;
@@ -472,6 +476,10 @@ body {
         border-right: 1px solid #fff;
         font-size: 16px;
         cursor: pointer;
+
+        &.no-border {
+          border: none;
+        }
       }
     }
   }
@@ -520,6 +528,8 @@ body {
         text-align: left;
         font-size: 16px;
         color: #505050;
+        min-height: 3.6em;
+        line-height: 1.8;
       }
     }
 
@@ -542,6 +552,11 @@ body {
       flex: 1;
       margin: 25px 25px 50px;
       text-align: center;
+
+      img {
+        display: block;
+        width: 100%;
+      }
     }
 
     .item-img {
@@ -580,7 +595,7 @@ body {
       left: 50%;
       margin-left: -31px;
       margin-top: -31px;
-      background: url(../RJ-img/play.png) no-repeat left center;
+      background: url(../RJ-img/play.png) center/100% no-repeat;
     }
 
     .item-text {
@@ -613,6 +628,7 @@ body {
     height: 28px;
     background: url(../RJ-img/page4-arrow.png) center/100% no-repeat;
     cursor: pointer;
+    animation: imgArrow 1s linear infinite alternate;
 
     &:hover {
       width: 36px;
@@ -647,6 +663,15 @@ body {
   .arrow5 {
     top: 59%;
     left: 45%;
+  }
+}
+
+@keyframes imgArrow {
+  from {
+    margin-top: 0;
+  }
+  to {
+    margin-top: -6px;
   }
 }
 
@@ -766,7 +791,7 @@ body {
   width: 90px;
   height: 33px;
   position: absolute;
-  top: 0;
+  top: -1px;
   left: 50%;
   margin-left: -45px;
 }
@@ -943,7 +968,7 @@ body {
   padding: 40px 0;
   width: 1114px;
   transform: translate3d(-50%, -50%, 0);
-  box-shadow: 0 0 25px 0px #929292;
+  box-shadow: 0 0 25px 0px #d1ecfa;
   z-index: 1;
 
   .close {
@@ -1062,6 +1087,7 @@ body {
       img{
         display: block;
         margin: 28px auto 10px auto;
+        vertical-align: top;
       }
     }
 
@@ -1085,6 +1111,7 @@ body {
   padding-bottom: 40px;
 }
 .page8-cont{
+  display: flex;
   text-align: center;
   font-size: 0;
 
@@ -1134,8 +1161,135 @@ body {
 .show-mobile{
   display: none!important;
 }
-@media screen and (max-width: 830px){
+@media screen and (max-width: 1024px){
+  .t-content {
+    max-width: 960px;
+    width: auto;
+  }
 
+  .t-page1 {
+    padding-bottom: 120px;
+  }
+
+  .page1 {
+    &-cont {
+      padding-top: 80px;
+    }
+  }
+
+  .page2 {
+    &-cont{
+  
+      li{
+        margin-left: 0;
+        margin-right: 20px;
+        padding: 0 30px;
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+
+  .page3 {
+    &-cont{
+      li{
+        width: 30%;
+        margin: 25px 3.3333333% 50px 0;
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+
+  .page8-cont{
+    .btn {
+      min-width: 94px;
+      margin: 0 5px;
+    }
+  }
+
+  .dialog {
+    width: 960px;
+  }
+  
+  .dialog1 {
+    &-content{
+      height: 80%;
+    }
+  
+    &-item{
+      &.item2{
+        right: -15px;
+      }
+
+      &.item4{
+        right: -15px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 960px){
+  .t-content {
+    max-width: 930px;
+    padding: 0 15px;
+  }
+
+  .page2 {
+    &-cont{
+      li{
+        p{
+          min-height: 5.4em;
+        }
+      }
+    }
+  }
+
+  .t-page3 {
+    .btn-list {
+      .btn {
+        margin:  10px;
+      }
+    }
+  }
+
+  .page8-cont{
+    .page8-item {
+      .btn {
+        margin: 0 5px 10px;
+      }
+    }
+  }
+
+  .dialog {
+    width: 920px;
+  }
+  
+  .dialog1 {
+    &-cont{
+      img{
+        width: 45%;
+      }
+    }
+  
+    &-content{
+      height: 80%;
+    }
+  
+    &-item{
+      width: 220px;
+      &.item2{
+        right: -35px;
+      }
+
+      &.item4{
+        right: -35px;
+      }
+    }
+  }
 }
 @media screen and (max-width: 768px){
   .show-pc{
@@ -1165,43 +1319,9 @@ body {
   .t-page-title{
     font-size: 16px;
   }
-  .t-page1 .t-content{
-    margin-top: 0;
-  }
-  .t-page-title span{
-    font-size: 20px;
-  }
-  .page1-title img{
-    width: 100%;
-    margin: 10px 0;
-  }
-  .page1-sub-tit{
-    font-size: 22px;
-    margin: 10px 5%;
-  }
-  .page1-des {
-    font-size: 16px;
-    margin: 10px 0%;
-    line-height: 22px;
-  }
   .t-main-title span {
     padding: 20px;
     background-size: 70%;
-  }
-  .t-page1{
-    background-image: url(../RJ-img/page1-bg-m.jpg);
-    height: auto;
-    padding-bottom: 170px;
-  }
-  .page1-title{
-    width: 70%;
-  }
-  .page1-cont{
-    width: 90%;
-    margin: 20px auto 0 auto;
-    position: relative;
-    z-index: 8;
-    float: none;
   }
   .btn-list .btn{
     min-width: 35%;
@@ -1213,72 +1333,747 @@ body {
   .btn-list {
     margin: 5px auto 10px auto;
   }
+  .img-title {
+    top: 0;
+  }
+  .t-page-title{
+    span {
+      display: inline-block;
+      position: relative;
+  
+      &::before, &::after {
+        width: 140px;
+        height: 8px;
+        top: 7px;
+      }
+  
+      &::before {
+        left: -155px;
+      }
+  
+      &::after {
+        right: -155px;
+      }
+    }
+  }
+
+  .t-page1 {
+    padding-bottom: 80px;
+  }
+  .page1 {
+    &-cont {
+      width: 60%;
+      text-align: center;
+      padding-top: 80px;
+    }
+
+    &-des{
+      font-size: 16px;
+      margin: 43px 0 70px 10px;
+    }
+  }
+
   .t-page2{
+    padding-bottom: 50px;
+  
+    .t-main-title {
+      padding-bottom: 15px;
+    }
+
+    .btn-list {
+      margin-top: 40px;
+    }
+  }
+  .page2 {
+    &-cont{
+      display: block;
+      padding-top: 40px;
+  
+      li{
+        width: 480px;
+        margin: 0 auto 30px;
+        overflow: hidden;
+
+        &:last-child {
+          margin-right: auto;
+        }
+      }
+  
+      .btn-list {
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+  .t-page3{
+    padding-bottom: 50px;
+  }
+  .page3 {
+    &-cont{
+      display: block;
+      padding-top: 25px;
+  
+      li{
+        width: 480px;
+        margin: 0 auto 30px;
+
+        &:last-child {
+          margin-right: auto;
+        }
+      }
+    }
+  }
+
+  .t-page4{
+    padding-bottom: 50px;
+  }
+  .page4-cont{
+    position: relative;
+    padding: 20px 10px 20px;
+  
+    .arrow1 {
+      top: 24%;
+      left: 37%;
+    }
+  
+    .arrow2 {
+      top: 40%;
+      left: 17%;
+    }
+  
+    .arrow3 {
+      top: 40%;
+      left: 31%;
+    }
+  
+    .arrow4 {
+      top: 67%;
+      left: 17%;
+    }
+  
+    .arrow5 {
+      top: 67%;
+      left: 36%;
+    }
+  }
+
+  .t-page5{
+    padding-bottom: 50px;
+  }
+  
+  .page5-cont{
+    padding: 50px 10px 30px;
+    font-size: 0;
+  
+    .left {
+      display: block;
+      width: 80%;
+      margin: auto;
+    }
+  
+    .right {
+      display: block;
+      width: 80%;
+      margin: 70px auto 0;
+    }
+
+    .list {
+      margin-top: 90px;
+    }
+  
+    .item {
+      width: 50%;
+      padding: 0 15px 0 80px;
+    }
+
+    .title {
+      font-size: 20px;
+    }
+  }
+
+  .t-page6{
+    padding: 50px 0 50px;
+  }
+  
+  .page6-cont{
+    padding: 50px 10px 20px;
+  
+    img{
+      display: block;
+      width: 86%;
+      margin: auto;
+    }
+  
+    .left, .right {
+      display: block;
+      width: 90%;
+      margin: auto;
+
+      .item {
+        width: 50%;
+      }
+    }
+
+    .left-content, .right-content {
+      padding-top: 110px;
+    }
+
+    .title {
+      font-size: 20px;
+    }
+  }
+
+  .t-page7{
+    padding: 50px 0;
+  }
+  
+  .page7-cont{
+    padding: 20px 0 20px;
+    .img-cont {
+      margin-top: 20px;
+      padding-top: 80px;
+    }
+  
+    .page7-img {
+      width: 500px;
+    }
+
+    .title {
+      font-size: 20px;
+    }
+  }
+
+  .t-page8{
     padding-bottom: 30px;
   }
-  .page2-cont{
+  .page8-cont{
     display: block;
+    padding: 0 20px;
+
+    .page8-item{
+      width: 46%;
+      margin-right: 8%;
+      margin-bottom: 50px;
+  
+      &:nth-child(2n) {
+        margin-right: 0;
+      }
+  
+      img{
+        width: 100%;
+      }
+    }
   }
-  .page2-cont li{
-    padding: 10px 18px 25px 18px
+
+  .dialog {
+    width: 95%;
   }
-  .page2-cont li img{
-    display: block;
-    margin: 0 auto 10px auto;
-    width: 70px;
-  }
-  .page2-cont li p{
-    padding-top: 20px;
-  }
-  .page40-cont img{
-    width: 90%;
-    margin-bottom: 0;
-  }
-  .page40-content{
-    position: relative;
-    width: 80%;
-    height: auto;
-    top: 0;
-    left: 10%;
-  }
-  .page40-item{
-    position: relative;
-    margin-bottom: 20px;
-    width: 100%;
-  }
-  .page40-item .page40-tit{
-    font-size: 16px;
-    padding: 0 0 14px 0;
-    margin-bottom: 7px;
-  }
-  .page50-cont{
-    margin: 10px 4%;
-  }
-  .page50-cont .page50-item{
-    display: block;
-  }
-  .page50-cont .page50-item .item-cont{
-    margin: 10px 4% 10px 4%;
-    padding-top: 1px;
-    padding-bottom: 5px;
-  }
-  .page50-cont .page50-item .item-cont img{
-    margin: 10px auto 10px auto;
-  }
-  .page50-cont .item-des{
-    font-size: 16px;
-    padding: 10px 12px;
-    width: 100%;
-  }
-  .page50-cont .item-des img{
-    width: 20px;
-  }
-  .page50-cont .item-des span{
-    font-size: 24px;
+
+  .dialog2-cont{
+    margin: auto;
+    padding: 0;
+  
+    .item-des{
+      font-size: 20px;
+    }
+  
+    .item-des img{
+      width: 20px;
+    }
+  
+    .item-des span{
+      font-size: 30px;
+    }
+  
+    .dialog2-item{
+      display: block;
+      overflow: hidden;
+      padding-top: 20px;
+
+      .item-cont{
+        float: left;
+        width: 48%;
+        margin: 0 4% 20px 0;
+
+        &:nth-child(2n) {
+          margin-right: 0;
+        }
+      }
+    }
+
+    .item-des{
+      padding: 0;
+    }
   }
 }
 
+@media screen and (max-width: 480px){
+  .img-title {
+    font-size: 18px;
+    top: 0;
+  }
+  .t-page-title{
+    span {
+      &::before, &::after {
+        display: none;
+      }
+    }
+  }
+  .ns-layer {
+    &.ns-video-layer {
+      .ns-layer-inner {
+        width: auto;
+        margin: 0 15px;
+  
+        .ns-title {
+          padding: 0 15px;
+        }
+  
+        .ns-content {
+          height: auto;
+        }
+  
+        .btn-list {
+          padding: 10px 0;
+        }
+      }
+    }
+  }
+  .t-page1 {
+    padding-bottom: 40px;
+  }
+  .page1 {
+    &-cont {
+      width: 80%;
+      padding-top: 50px;
+    }
+
+    &-des{
+      margin: 43px 0 40px 10px;
+    }
+  }
+
+  .t-page2{
+    padding-bottom: 40px;
+
+    .btn-list {
+      margin-top: 30px;
+    }
+  }
+  .page2 {
+    &-cont{
+      padding-top: 40px;
+  
+      li{
+        width: 340px;
+
+        img {
+          width: 90px;
+          height: 90px;
+        }
+      }
+    }
+  }
+
+  .t-page3{
+    padding-bottom: 40px;
+  }
+  .page3 {
+    &-cont{
+      padding-top: 25px;
+  
+      li{
+        width: 400px;
+      }
+
+      .item-text {
+        padding: 25px 0;
+      }
+
+      .item-play {
+        width: 50px;
+        height: 50px;
+      }
+    }
+  }
+
+  .t-page4{
+    padding-bottom: 40px;
+  }
+
+  .t-page5{
+    padding-bottom: 40px;
+  }
+  
+  .page5-cont{
+    padding: 40px 10px 30px;
+
+    .right {
+      margin: 50px auto 0;
+    }
+
+    .list {
+      margin-top: 60px;
+    }
+  
+    .item {
+      width: 100%;
+      padding: 0 15px 0 60px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .t-page6{
+    padding: 50px 0 50px;
+  }
+  
+  .page6-cont{
+    padding: 40px 10px 20px;
+
+    .left, .right {
+      width: 100%;
+      .item {
+        display: inline-block;
+        width: 50%;
+        margin-bottom: 20px;
+      }
+
+      img {
+        width: 90%;
+      }
+    }
+
+    .left-content, .right-content {
+      padding-top: 90px;
+    }
+
+    .list {
+      padding: 0;
+    }
+  }
+
+  .t-page7{
+    padding: 40px 0;
+  }
+  
+  .page7-cont{
+    .img-cont {
+      margin-top: 20px;
+      padding-top: 70px;
+    }
+  
+    .page7-img {
+      width: 380px;
+    }
+
+    .item {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+
+  .t-page8{
+    padding-bottom: 20px;
+  }
+
+  .page8-cont{
+    .page8-item{
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+@media screen and (max-width: 414px){
+  .page2 {
+    &-cont{
+      padding-top: 40px;
+  
+      li{
+        width: 300px;
+      }
+    }
+  }
+
+  .page3 {
+    &-cont{
+      li{
+        width: 360px;
+      }
+    }
+  }
+
+  .page4-cont{
+    .arrow {
+      width: 22px;
+      height: 22px;
+  
+      &:hover {
+        width: 30px;
+        height: 30px;
+      }
+    }
+  }
+
+  .page5-cont{
+    .icon {
+      width: 50px;
+      height: 50px;
+    }
+
+    .title {
+      margin-bottom: 10px;
+    }
+  }
+
+  .img-title {
+    width: 370px;
+    height: 46px;
+    line-height: 46px;
+  }
+
+  .page6-cont{
+    padding: 40px 10px 20px;
+
+    .left, .right {
+      width: 100%;
+      .item {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 20px;
+      }
+    }
+
+    .left-content, .right-content {
+      padding-top: 90px;
+    }
+
+    .list {
+      padding: 0;
+    }
+
+    img.icon {
+      width: 50px;
+      height: 50px;
+      top: -9px;
+    }
+
+    .title {
+      margin-bottom: 10px;
+    }
+  }
+
+  .page7-cont{
+    .img-cont {
+      margin-top: 20px;
+      padding-top: 70px;
+    }
+  
+    .page7-img {
+      width: 340px;
+    }
+
+    .item {
+      padding-left: 60px;
+    }
+  
+    .icon {
+      width: 50px;
+      height: 50px;
+    }
+
+    .title {
+      line-height: 50px;
+      margin-bottom: 10px;
+    }
+  }
+
+  .t-page8{
+    padding-bottom: 20px;
+  }
+
+  .dialog2-cont{
+    .dialog2-item{
+      .item-cont{
+        min-height: 188px;
+      }
+    }
+
+    .item-des{
+      padding: 0;
+      font-size: 18px;
+      
+      span {
+        font-size: 26px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 375px){
+  .img-title {
+    width: 338px;
+    height: 42px;
+    line-height: 42px;
+  }
+
+  .t-page1 {
+    padding-bottom: 20px;
+  }
+
+  .page1 {
+    &-cont {
+      width: 100%;
+      padding-top: 30px;
+    }
+
+    &-des{
+      margin: 30px 0 20px 10px;
+    }
+  }
+
+
+  .t-page2{
+    padding-bottom: 20px;
+  }
+  .page2 {
+    &-cont{
+      li{
+        width: 280px;
+
+        img {
+          width: 75px;
+          height: 75px;
+        }
+      }
+    }
+  }
+
+  .t-page3 {
+    padding-bottom: 20px;
+
+    .btn-list {
+      .btn {
+        margin: 5px;
+      }
+    }
+  }
+
+  .page3 {
+    &-cont{
+      li{
+        width: 320px;
+      }
+
+      .item-text {
+        padding: 20px 0;
+      }
+    }
+  }
+
+  .t-page4{
+    padding-bottom: 20px;
+  }
+
+  .page5-cont{
+    .left, .right {
+      width: 100%;
+    }
+  }
+
+  .t-page6{
+    padding: 50px 0 30px;
+  }
+
+  .page6-cont{
+    .left-content, .right-content {
+      padding-top: 70px;
+    }
+  }
+
+  .t-page7{
+    padding: 40px 0 20px;
+  }
+
+  .t-page8 {
+    padding-bottom: 0;
+  }
+
+  .page8-cont{
+    padding: 0;
+  }
+
+  .dialog {
+    padding-bottom: 20px;
+  }
+
+  .dialog2-cont{
+    .dialog2-item{
+      .item-cont{
+        min-height: 188px;
+        padding-bottom: 5px;
+
+        img {
+          margin: 15px auto 5px;
+        }
+      }
+    }
+  }
+}
 
 @media screen and (max-width: 320px){
+  .t-page2{
+    .btn-list {
+      margin: 20px 0;
+    }
+  }
+  .page2 {
+    &-cont{
+      li{
+        width: 220px;
+
+        img {
+          width: 70px;
+          height: 70px;
+        }
+      }
+    }
+  }
+
+  .page3 {
+    &-cont{
+      li{
+        width: 290px;
+      }
+    }
+  }
+
+  .img-title {
+    width: 306px;
+    height: 38px;
+    line-height: 38px;
+  }
+
+  .dialog2-cont{
+    .dialog2-item{
+      .item-cont{
+        min-height: auto;
+
+        &:first-child {
+          min-height: 165px;
+        }
+
+        img {
+          width: 50px;
+          margin: 15px auto 5px;
+        }
+
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+  }
 
 }
