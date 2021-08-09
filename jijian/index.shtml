@@ -431,7 +431,8 @@
           业务灵活扩展，兼容原有以太网络架构，不绑定，零成本快速上手
         </div>
         <div class="dialog1-cont">
-          <img src="./RJ-img/page2-img1.png" />
+          <img src="./RJ-img/page2-img1.png" class="show-pc" />
+          <img src="./RJ-img/page2-img1-m.png" class="show-mobile" />
           <ul class="dialog1-content">
             <li class="dialog1-item item1">
               <div class="dialog1-tit">扩展便捷</div>
