@@ -54,7 +54,7 @@
           <li><a href="#page4" class="nav3">全光架构</a></li>
           <li><a href="#page5" class="nav4">全光产品</a></li>
           <li><a href="#page6" class="nav5">行业应用</a></li>
-          <li><a href="#page7" class="nav6">大V观点</a></li>
+          <li><a href="#page7" class="nav6 no-border">大V观点</a></li>
         </ul>
       </div>
     </div>
@@ -466,7 +466,7 @@
             </div>
             <div class="item-cont item3">
               <img src="./RJ-img/dialog-icon3.png">
-              <p>终端即插即用，上线、分类入网、<br/>安全隔离<br>只需三分钟</p>
+              <p>终端即插即用，上线、分类入网、<br/>安全隔离只需三分钟</p>
             </div>
             <div class="item-cont item4">
               <img src="./RJ-img/dialog-icon4.png">
