@@ -262,7 +262,7 @@
           <span class="t-page-title-box">全新极简以太全光智分+方案</span>
         </p>
         <div class="page6-cont">
-          <div class="left">
+          <div class="left left-content">
             <p class="img-title">RG-AM5552-SF(V2)全光智分主机</p>
             <img src="./RJ-img/page6-img1.png" alt="">
             <ul class="list">
@@ -270,22 +270,19 @@
                 <img class="icon" src="./RJ-img/page6-icon1.png" alt="">
                 <p class="title">1“楼”1“AP”</p>
                 <p class="desc">
-                  集中部署在弱电间，<br>
-                  实现“楼层无源”
+                  集中部署在弱电间，实现“楼层无源”
                 </p>
               </li>
               <li class="item right">
                 <img class="icon" src="./RJ-img/page6-icon2.png" alt="">
                 <p class="title">简化管理</p>
                 <p class="desc">
-                  单个AP主机支持最多<br>
-                  48个微AP，管理工作<br>
-                  量减少98%
+                  单个AP主机支持最多48个微AP，管理工作量减少98%
                 </p>
               </li>
             </ul>
           </div>
-          <div class="right">
+          <div class="right right-content">
             <p class="img-title">RG-MAP852-SF(V2)入室光微AP</p>
             <img src="./RJ-img/page6-img2.png" alt="">
             <ul class="left">
@@ -298,8 +295,7 @@
                 <img class="icon" src="./RJ-img/page6-icon4.png" alt="">
                 <p class="title">千兆无线</p>
                 <p class="desc">
-                  Wi-Fi 6整机1.8Gbps<br>
-                  满足未来3年需求
+                  Wi-Fi 6整机1.8Gbps 满足未来3年需求
                 </p>
               </li>
             </ul>
@@ -308,8 +304,7 @@
                 <img class="icon" src="./RJ-img/page6-icon5.png" alt="">
                 <p class="title">融合组网</p>
                 <p class="desc">
-                  有线、无线、<br>
-                  IoT三网合一
+                  有线、无线、IoT三网合一
                 </p>
               </li>
               <li class="item">
@@ -401,9 +396,11 @@
             <img src="./RJ-img/page8-img4.jpg" />
             <div class="item-tit">枝江市第一高级中学</div>
             <div class="btn-list">
-              <a style="visibility: hidden;" target="_blank" class="btn btn-red"></a>
+              <a href="" target="_blank" class="btn btn-red" style="visibility: hidden;"></a>
             </div>
           </div>
+        </div>
+        <div class="page8-cont">
           <div class="page8-item">
             <img src="./RJ-img/page8-img6.jpg" />
             <div class="item-tit">泰安志元学校</div>
