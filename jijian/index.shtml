@@ -165,11 +165,11 @@
         <div class="page4-cont">
           <img src="./RJ-img/page4-img.png" class="show-pc"/>
           <img src="./RJ-img/page4-img-m.png" class="show-mobile"/>
-          <a href="https://www.ruijie.com.cn/cp/wx-jjqgzf/am5552-sf/" target="_blank" class="arrow arrow1 track14"></a>
-          <a href="https://www.ruijie.com.cn/cp/jh-shjzhx/n18k/" target="_blank" class="arrow arrow2 track15"></a>
-          <a href="https://www.ruijie.com.cn/cp/jh-yqw-hxjh/s7800c/" target="_blank" class="arrow arrow3 track16"></a>
-          <a href="https://www.ruijie.com.cn/cp/wx-jjqgzf/am5552-sf/" target="_blank" class="arrow arrow4 track17"></a>
-          <a href="https://www.ruijie.com.cn/cp/jh-yqw-jgjh/sf2900s/" target="_blank" class="arrow arrow5 track18"></a>
+          <a class="arrow arrow1 showPage4Dialog2"></a>
+          <a class="arrow arrow2 showPage4Dialog1"></a>
+          <a class="arrow arrow3 showPage4Dialog3"></a>
+          <a class="arrow arrow4 showPage4Dialog4"></a>
+          <a class="arrow arrow5 showPage4Dialog5"></a>
         </div>
       </div>
       <div class="btn-list">
@@ -326,7 +326,7 @@
         </div>
       </div>
       <div class="btn-list">
-        <a href="https://www.ruijie.com.cn/fa/cp-wx/87331/" class="btn btn1 track33" target="_blank">
+        <a href="https://www.ruijie.com.cn/fa/cp-wx/87331/" class="btn btn-red track33" target="_blank">
           以太全光智分产品
         </a>
         <a href="https://www.ruijie.com.cn/fa/cp-wx/87331/" class="btn track25" target="_blank">
@@ -434,7 +434,7 @@
     </div>
 
     <div class="t-cont-item dialog dialog1" id="dialog1">
-      <span class="close" id="cloasDialog1"></span>
+      <span class="close" id="closeDialog1"></span>
       <div class="t-content">
         <div class="t-page-title">
           业务灵活扩展，兼容原有以太网络架构，不绑定，零成本快速上手
@@ -464,7 +464,7 @@
       </div>
     </div>
     <div class="t-cont-item dialog dialog2" id="dialog2">
-      <span class="close" id="cloasDialog2"></span>
+      <span class="close" id="closeDialog2"></span>
       <div class="t-content">
         <div class="t-page-title">极简运维，全流程智能化管理，一人管理，一键搞定</div>
         <div class="dialog2-cont">
@@ -504,6 +504,81 @@
               查看他的方案
             </a>
           </div>
+      </div>
+    </div>
+
+    <div class="t-cont-item dialog page4-dialog page4-dialog1" id="page4Dialog1">
+      <span class="close" id="closePage4Dialog1"></span>
+      <div class="dialog-cont">
+        <div class="left">
+          <img src="./RJ-img/page4-img1.png" alt="">
+        </div>
+        <div class="right">
+          <p class="title">RG-AM5552-SF<br>极简全光智分+方案无线接入点</p>
+          <div class="btn-list">
+            <a href="https://www.ruijie.com.cn/cp/wx-jjqgzf/am5552-sf/" target="_blank" class="btn btn-red track15">查看详情</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="t-cont-item dialog page4-dialog page4-dialog2" id="page4Dialog2">
+      <span class="close" id="closePage4Dialog2"></span>
+      <div class="dialog-cont">
+        <div class="left">
+          <img src="./RJ-img/page4-img2.png" alt="">
+        </div>
+        <div class="right small-gutter">
+          <p class="title">RG-N18000(Newton牛顿)系列<br>云架构网络核心交换机</p>
+          <div class="btn-list">
+            <a href="https://www.ruijie.com.cn/cp/jh-shjzhx/n18k/" target="_blank" class="btn btn-red track14">查看详情</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="t-cont-item dialog page4-dialog page4-dialog3" id="page4Dialog3">
+      <span class="close" id="closePage4Dialog3"></span>
+      <div class="dialog-cont">
+        <div class="left">
+          <img src="./RJ-img/page4-img3.png" alt="">
+        </div>
+        <div class="right">
+          <p class="title">RG-S7800C系列<br>新一代融合核心交换机</p>
+          <div class="btn-list">
+            <a href="https://www.ruijie.com.cn/cp/jh-yqw-hxjh/s7800c/" target="_blank" class="btn btn-red track16">查看详情</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="t-cont-item dialog page4-dialog page4-dialog4" id="page4Dialog4">
+      <span class="close" id="closePage4Dialog4"></span>
+      <div class="dialog-cont">
+        <div class="left">
+          <img src="./RJ-img/page4-img4.png" alt="">
+        </div>
+        <div class="right small-gutter">
+          <p class="title">RG-MAP852-SF<br>极简全光智分+方案无线接入点</p>
+          <div class="btn-list">
+            <a href="https://www.ruijie.com.cn/cp/wx-jjqgzf/am5552-sf/" target="_blank" class="btn btn-red track17">查看详情</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="t-cont-item dialog page4-dialog page4-dialog5" id="page4Dialog5">
+      <span class="close" id="closePage4Dialog5"></span>
+      <div class="dialog-cont">
+        <div class="left">
+          <img src="./RJ-img/page4-img5.png" alt="">
+        </div>
+        <div class="right">
+          <p class="title">RG-SF2900-S系列<br>极简光交换机</p>
+          <div class="btn-list">
+            <a href="https://www.ruijie.com.cn/cp/jh-yqw-jgjh/sf2900s/" target="_blank" class="btn btn-red track18">查看详情</a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -563,19 +638,19 @@
       _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页查看详情", "专题页 查看他的方案"]);
     })
 
-    $('.t-page4 .track14').on('click', function() {
+    $('.page4-dialog .track14').on('click', function() {
       _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页查看详情", "专题页 RG-AM5552-SF"]);
     })
-    $('.t-page4 .track15').on('click', function() {
+    $('.page4-dialog .track15').on('click', function() {
       _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页查看详情", "专题页 RG-AM5552-SF"]);
     })
-    $('.t-page4 .track16').on('click', function() {
+    $('.page4-dialog .track16').on('click', function() {
       _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页查看详情", "专题页 RG-AM5552-SF"]);
     })
-    $('.t-page4 .track17').on('click', function() {
+    $('.page4-dialog .track17').on('click', function() {
       _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页查看详情", "专题页 RG-AM5552-SF"]);
     })
-    $('.t-page4 .track18').on('click', function() {
+    $('.page4-dialog .track18').on('click', function() {
       _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页查看详情", "专题页 RG-SF2900-S系列"]);
     })
     $('.t-page4 .track19').on('click', function() {

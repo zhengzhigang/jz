@@ -1106,6 +1106,60 @@ body {
   }
 }
 
+.page4-dialog {
+  width: 606px;
+  padding-left: 10px;
+  padding-right: 28px;
+  font-size: 0;
+
+  img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .left, .right {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    height: 226px;
+  }
+
+  .left {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    float: left;
+    justify-content: center;
+  }
+
+  .title {
+    padding: 30px 0 0 35px;
+    font-size: 16px;
+  }
+
+  .btn-list {
+    padding-left: 35px;
+    margin-top: 70px;
+    text-align: left;
+  }
+
+  .btn {
+    margin: 0;
+  }
+
+  .small-gutter {
+    .title {
+      padding-left: 10px;
+    }
+  
+    .btn-list {
+      padding-left: 10px;
+    }
+  }
+}
+
 .t-page8{
   background: #e7f1f9;
   padding-bottom: 40px;
@@ -1231,6 +1285,10 @@ body {
       }
     }
   }
+
+  .page4-dialog {
+    width: 606px;
+  }
 }
 @media screen and (max-width: 960px){
   .t-content {
@@ -1289,6 +1347,10 @@ body {
         right: -35px;
       }
     }
+  }
+
+  .page4-dialog {
+    width: 606px;
   }
 }
 @media screen and (max-width: 768px){
@@ -1642,6 +1704,10 @@ body {
       padding: 0;
     }
   }
+
+  .page4-dialog {
+    width: 606px;
+  }
 }
 
 @media screen and (max-width: 480px){
@@ -1826,6 +1892,44 @@ body {
     transform: scale(0.6);
     transform-origin: -75% -75%;
   }
+
+  .page4-dialog {
+    width: 400px;
+    padding-right: 10px;
+  
+    .left, .right {
+      width: 100%;
+      height: 180px;
+    }
+  
+    .left {
+      float: none;
+    }
+
+    .right {
+      text-align: center;
+    }
+  
+    .title {
+      padding: 30px 0 0 0;
+    }
+  
+    .btn-list {
+      padding-left: 0;
+      margin-top: 40px;
+      text-align: center;
+    }
+  
+    .small-gutter {
+      .title {
+        padding-left: 0;
+      }
+    
+      .btn-list {
+        padding-left: 0;
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 414px){
@@ -1958,6 +2062,10 @@ body {
     transform: scale(0.5);
     transform-origin: -50% -50%;
   }
+
+  .page4-dialog {
+    width: 360px;
+  }
 }
 
 @media screen and (max-width: 375px){
@@ -2069,6 +2177,10 @@ body {
       }
     }
   }
+
+  .page4-dialog {
+    width: 320px;
+  }
 }
 
 @media screen and (max-width: 320px){
@@ -2129,6 +2241,22 @@ body {
     width: 730px;
     transform: scale(0.4);
     transform-origin: -33.5% -33.5%;
+  }
+
+  .page4-dialog {
+    width: 270px;
+  
+    .left, .right {
+      height: 150px;
+    }
+  
+    .title {
+      padding: 25px 0 0 0;
+    }
+  
+    .btn-list {
+      margin-top: 30px;
+    }
   }
 
 }

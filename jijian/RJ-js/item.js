@@ -22,12 +22,54 @@ $(function () {
     $('#dialog2').show()
   })
 
-  $('#cloasDialog1').click(function() {
+  $('#closeDialog1').click(function() {
     $('#dialog1').hide()
   })
 
-  $('#cloasDialog2').click(function() {
+  $('#closeDialog2').click(function() {
     $('#dialog2').hide()
+  })
+
+
+
+  $('.showPage4Dialog1').click(function() {
+    $('#page4Dialog1').show()
+  })
+
+  $('#closePage4Dialog1').click(function() {
+    $('#page4Dialog1').hide()
+  })
+
+  $('.showPage4Dialog2').click(function() {
+    $('#page4Dialog2').show()
+  })
+
+  $('#closePage4Dialog2').click(function() {
+    $('#page4Dialog2').hide()
+  })
+
+  $('.showPage4Dialog3').click(function() {
+    $('#page4Dialog3').show()
+  })
+
+  $('#closePage4Dialog3').click(function() {
+    $('#page4Dialog3').hide()
+  })
+
+  $('.showPage4Dialog4').click(function() {
+    $('#page4Dialog4').show()
+  })
+
+  $('#closePage4Dialog4').click(function() {
+    $('#page4Dialog4').hide()
+  })
+
+  $('.showPage4Dialog5').click(function() {
+    $('#page4Dialog5').show()
+  })
+
+  $('#closePage4Dialog5').click(function() {
+    $('#page4Dialog5').hide()
   })
 
   playVideo()
