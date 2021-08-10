@@ -31,4 +31,12 @@ $(function () {
   })
 
   playVideo()
+
+  $('.play_page_video').click(function() {
+    $('.page5_video').show().css({
+      position: 'absolute',
+      top: 0,
+      left: 0
+    })
+  })
 })
