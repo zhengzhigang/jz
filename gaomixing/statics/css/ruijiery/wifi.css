@@ -1,0 +1,116 @@
+.banner {
+  position: relative;
+}
+.banner .background img {
+  display: block;
+}
+.banner .banner-wifi {
+  position: absolute;
+  top: 38.6%;
+  left: 0%;
+  width: 100%;
+  text-align: center;
+}
+.banner .banner-wifi h2 {
+  font-size: 2.5rem;
+  line-height: 3rem;
+  color: #fff;
+  display: inline;
+  padding: .2rem 1.3rem;
+  background: rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+.content {
+  position: relative;
+}
+.content .conback img {
+  display: block;
+}
+.content .conabs {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+}
+.content .conabs h4 {
+  margin-top: 7%;
+  margin-bottom: 2%;
+  color: #000;
+  text-align: center;
+  font-size: 2rem;
+  line-height: 3rem;
+}
+.content .conabs h5 {
+  margin: 0 5%;
+  margin-bottom: 2%;
+  color: #000;
+  text-align: center;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+}
+.content .conabs .conproduct {
+  margin: 0 auto;
+}
+.content .conabs .conproduct p {
+  color: #fff;
+  text-align: center;
+  font-size: 0.9rem;
+  line-height: 1.8rem;
+  width: 52%;
+  margin: 0 auto;
+}
+.content .conabs .conproduct1 {
+  margin-top: 5%;
+  width: 50%;
+}
+.content .conabs .conproduct2 {
+  margin-top: 10%;
+  width: 50%;
+}
+.content .conabs .conproduct3 {
+  margin-top: -5%;
+  width: 52%;
+}
+.content .conabs .conproduct4 {
+  margin-top: -3%;
+  width: 50%;
+}
+.content .conabs .conproduct5 {
+  margin-top: 3%;
+  width: 50%;
+}
+.content .white h4,
+.content .white h5,
+.content .white p {
+  color: #fff;
+}
+.parameter table tr:nth-child(2n+1) {
+  background: #f4f4f4;
+}
+@media all and (max-width:1210px) {
+  .content .conabs .conproduct p{
+    width:85%;
+  }
+}
+@media all and (max-width: 767px) {
+  .content .conabs .conproduct p{
+    width:85%;
+  }
+  .content .conabs .conproduct1 {
+    width: 95%;
+  }
+  .content .conabs .conproduct2 {
+    margin-top: 15%;
+    width: 95%;
+  }
+  .content .conabs .conproduct3 {
+    width: 95%;
+  }
+  .content .conabs .conproduct4 {
+    width: 95%;
+  }
+  .content .conabs .conproduct5 {
+    margin-top: 10%;
+    width: 95%;
+  }
+}

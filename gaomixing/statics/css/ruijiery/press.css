@@ -1,0 +1,664 @@
+
+/*banner*/
+.l-pic #banner .background .banner-word{
+    padding:10% 0;
+    width:100%;
+}
+.l-pic #banner .background .banner-word h2,.l-pic #banner .background .banner-word p{
+    text-align: center;
+}
+
+
+.about-pic{
+    width:100%;
+    height:auto;
+    position: relative;
+}
+.about-pic img{
+    width:100%;
+    height:100%;
+}
+.about-pic .about-word{
+    position: absolute;
+    top:18.3%;
+    right:19.6%;
+}
+.about-pic .about-word h3{
+    font-size: 48px;color: #019eef;line-height: 48px;text-align: left;
+    font-weight:bold;
+    /*margin-bottom:59px ;*/
+    /*margin-bottom:3.1%;*/
+    margin-bottom:10%;
+}
+.about-pic .about-word h5{
+    font-size: 35px;color: #fff;line-height: 35px;text-align: left;
+    /*margin-bottom:25px ;*/
+    /*margin-bottom:1.3%;*/
+    margin-bottom:5.7%;
+}
+.about-pic .about-word p{
+    /*font-size: 24px;color: #fffdfd;line-height: 45px;text-align: left;*/
+    font-size: 20px;color: #fffdfd;line-height: 45px;text-align: left;
+
+    /*margin-bottom: 8.4%;*/
+}
+/*睿易使命*/
+.about-pic .mission-word{
+    width:40%;
+    position: absolute;
+    top:11.9%;
+    left:16%;
+}
+.about-pic .mission-word h3{
+    font-size: 48px;color: #019eef;line-height: 48px;text-align: left;
+    font-weight:bold;
+    /*margin-bottom:59px ;*/
+    /*margin-bottom:3.1%;*/
+    margin-bottom:10%;
+}
+.about-pic .mission-word h5{
+    font-size: 35px;color: #3b3b3b;line-height: 35px;text-align: left;
+    /*margin-bottom:25px ;*/
+    /*margin-bottom:1.3%;*/
+    margin-bottom:2.7%;
+    margin-top:3.7%;
+}
+.about-pic .mission-word p{
+    /*font-size: 21px;color: #3b3b3b;line-height: 37px;text-align: left;*/
+    font-size: 20px;color: #3b3b3b;line-height: 35px;text-align: left;
+
+    /*margin-bottom: 5.2%;*/
+}
+.about-pic .worth-center{
+    width:100%;
+    top:7.5%;
+    left:0;
+}
+.about-pic .worth-center h3{
+    text-align: center;margin-bottom: 4.7%;
+}
+.about-pic .worth-center h5{
+    text-align: center;margin-bottom: 1.4%;
+}
+.about-pic .worth-center p{
+    text-align: center;
+    /*margin-bottom: 3.1%;*/
+}
+@media screen and (max-width: 1755px){
+    .about-pic{
+        width:100%;
+        /*height:auto;*/
+        position: relative;
+    }
+    .about-pic img{
+        width:100%;
+        height:100%;
+    }
+    .about-pic .about-word{
+        position: absolute;
+        top:18.3%;
+        right:11.6%;
+    }
+    .about-pic .about-word h3{
+        /*font-size: 2.2em;color: #019eef;line-height: 2.2em;text-align: left;*/
+        font-size: 48px;color: #019eef;line-height: 48px;text-align: left;
+
+        /*margin-bottom:59px ;*/
+        /*margin-bottom:3.1%;*/
+        margin-bottom:10%;
+    }
+    .about-pic .about-word h5{
+        font-size: 1.7em;color: #fff;line-height: 1.7em;text-align: left;
+        /*margin-bottom:25px ;*/
+        /*margin-bottom:1.3%;*/
+        margin-bottom:5.7%;
+    }
+    .about-pic .about-word p{
+        font-size: 20px;color: #fffdfd;line-height: 1.5;text-align: left;
+        /*margin-bottom: 8.4%;*/
+    }
+    /*睿易使命*/
+    .about-pic .mission-word{
+        width:70%;
+        position: absolute;
+        top:11.9%;
+        left:16%;
+    }
+    .about-pic .mission-word h3{
+        font-size: 48px;color: #019eef;line-height: 48px;text-align: left;
+        /*margin-bottom:59px ;*/
+        /*margin-bottom:3.1%;*/
+        margin-bottom:10%;
+    }
+    .about-pic .mission-word h5{
+        font-size: 20px;color: #3b3b3b;line-height: 1.5;text-align: left;
+        /*margin-bottom:25px ;*/
+        /*margin-bottom:1.3%;*/
+        margin-bottom:1.7%;
+    }
+    .about-pic .mission-word p{
+        font-size: 20px;color: #3b3b3b;line-height: 1.5;text-align: left;
+        /*margin-bottom: 5.2%;*/
+    }
+    .about-pic .worth-center{
+        width:100%;
+        top:7.5%;
+        left:0;
+    }
+    .about-pic .worth-center h3{
+        text-align: center;margin-bottom: 4.7%;
+    }
+    .about-pic .worth-center h5{
+        text-align: center;margin-bottom: 1.4%;
+    }
+    .about-pic .worth-center p{
+        text-align: center;
+        /*margin-bottom: 3.1%;*/
+    }
+    /*.missionwork{*/
+    /*height:auto;*/
+    /*}*/
+    /*.mission{*/
+    /*height:auto;*/
+    /*}*/
+}
+@media screen and (max-width: 959px){
+    .about-pic .about-word{
+        /*position: absolute;*/
+        top:18.3%;
+        /*right:19.6%;*/
+    }
+    .about-pic .about-word h3{
+        font-size: 36px;color: #019eef;line-height: 1.5;text-align: left;
+        margin-bottom:7%;
+    }
+    .about-pic .about-word h5{
+        /*font-size: 1.7em;color: #fff;line-height: 1.7em;text-align: left;*/
+        margin-bottom:4.7%;
+    }
+    .about-pic .about-word p{
+        font-size: 18px;color: #fffdfd;line-height: 1.5;text-align: left;
+    }
+    /*睿易使命*/
+    .about-pic .mission-word{
+        width:90%;
+        /*position: absolute;*/
+        top:18.9%;
+        left:7%;
+    }
+    .about-pic .mission-word h3{
+        font-size: 36px;color: #019eef;text-align: left;
+        margin-bottom:4%;
+    }
+    .about-pic .mission-word h5{
+        font-size: 1.3em;color: #3b3b3b;line-height: 1.3em;text-align: left;
+        /*margin-bottom:25px ;*/
+        /*margin-bottom:1.3%;*/
+        margin-bottom:2%;
+    }
+    .about-pic .mission-word p{
+        font-size: 18px;color: #3b3b3b;text-align: left;
+        /*margin-bottom: 3.2%;*/
+    }
+    .about-pic .worth-center{
+        width:100%;
+        top:14.5%;
+        left:0;
+    }
+    .about-pic .worth-center h3{
+        text-align: center;margin-bottom: 3%;
+    }
+    .about-pic .worth-center h5{
+        text-align: center;margin-bottom: 1.5%;
+    }
+    .about-pic .worth-center p{
+        text-align: center;
+        /*margin-bottom: 1.1%;*/
+    }
+    /*.missionwork{*/
+    /*height:auto;*/
+    /*}*/
+    /*.mission{*/
+    /*height:auto;*/
+    /*}*/
+}
+@media screen and (max-width: 767px){
+
+    .missionwork{
+        /*height:400px;*/
+    }
+    .mission{
+        /*height:350px;*/
+    }
+}
+@media screen and (max-width: 479px){
+    .about-pic .about-word{
+        /*position: absolute;*/
+        /*top:7.3%;*/
+        /*right:19.6%;*/
+    }
+    .about-pic .about-word{
+        position: absolute;
+        top:11.6%;
+        left:0;
+    }
+    .about-pic .about-word h3{
+        font-size: 24px;color: #019eef;text-align: left;
+        margin-bottom:0;
+    }
+    .about-pic .about-word h5{
+        /*font-size: 1.7em;color: #fff;line-height: 1.7em;text-align: left;*/
+        margin-bottom:1.7%;
+    }
+    .about-pic .about-word p{
+        font-size: 14px;color: #fffdfd;text-align: left;
+    }
+    /*睿易使命*/
+    .about-pic .mission-word{
+        width:98%;
+        /*position: absolute;*/
+        top:.4%;
+        left:1%;
+    }
+    .about-pic .mission-word h3{
+        font-size: 24px;color: #019eef;line-height: 1.2;text-align: left;
+        margin-bottom:0%;
+    }
+    .about-pic .mission-word h5{
+        font-size: 14px;color: #3b3b3b;text-align: left;
+        /*margin-bottom:25px ;*/
+        /*margin-bottom:1.3%;*/
+        margin-bottom:1%;
+    }
+    .about-pic .mission-word p{
+        font-size: 14px;color: #3b3b3b;text-align: left;
+        /*margin-bottom: 3.2%;*/
+    }
+    .about-pic .worth-center{
+        width:100%;
+        top:3.5%;
+        left:1%;
+    }
+    .about-pic .worth-center h3{
+        text-align: left;margin-bottom: 2%;
+    }
+    .about-pic .worth-center h5{
+        text-align: left;margin-bottom: 1%;
+    }
+    .about-pic .worth-center p{
+        text-align: left;margin-bottom: 0%;
+    }
+    .missionwork{
+        /*height:250px;*/
+    }
+    .mission{
+        /*height:180px;*/
+    }
+    /*2018-06-24*/
+    .history-box h3{
+        color: #019eef;
+        font-weight:bold;
+        text-align: left;
+    }
+    .about-box,.history-box{
+        padding:0 0;
+    }
+
+}
+/*@media screen and (max-width: 425px){*/
+/*!*睿易使命*!*/
+/*.about-pic .mission-word{*/
+/*width:86%;*/
+/*!*position: absolute;*!*/
+/*top:0%;*/
+/*left:10%;*/
+/*}*/
+/*.about-pic .mission-word h3{*/
+/*font-size: 1.4em;color: #019eef;line-height: 1.4em;text-align: left;*/
+/*margin-bottom:.3%;*/
+/*}*/
+/*.about-pic .mission-word h5{*/
+/*font-size: 1.2em;color: #3b3b3b;line-height: 1.2em;text-align: left;*/
+/*!*margin-bottom:25px ;*!*/
+/*!*margin-bottom:1.3%;*!*/
+/*margin-bottom:1%;*/
+/*}*/
+/*.about-pic .mission-word p{*/
+/*font-size: 1em;color: #3b3b3b;line-height: 1em;text-align: left;*/
+/*margin-bottom: 3.2%;*/
+/*}*/
+/*.about-pic .worth-center{*/
+/*width:100%;*/
+/*top:1.5%;*/
+/*left:0;*/
+/*}*/
+/*.about-pic .worth-center h3{*/
+/*text-align: center;margin-bottom: .3%;*/
+/*}*/
+/*.about-pic .worth-center h5{*/
+/*text-align: center;margin-bottom: 1%;*/
+/*}*/
+/*.about-pic .worth-center p{*/
+/*text-align: center;margin-bottom: 1.1%;*/
+/*}*/
+/*.about-pic .about-word h3{*/
+/*font-size: 1.4em;color: #019eef;line-height: 1.4em;text-align: left;*/
+/*margin-bottom:.3%;*/
+/*}*/
+/*.about-pic .about-word h5{*/
+/*font-size: 1.2em;color: #fff;line-height: 1.2em;text-align: left;*/
+/*!*margin-bottom:25px ;*!*/
+/*!*margin-bottom:1.3%;*!*/
+/*margin-bottom:1%;*/
+/*}*/
+/*.about-pic .about-word p{*/
+/*font-size: 1em;color: #fff;line-height: 1em;text-align: left;*/
+/*margin-bottom: 2.2%;*/
+/*}*/
+/*}*/
+
+
+/*
+!*banner*!
+.l-pic #banner .background .banner-word{
+    padding:10% 0;
+    width:100%;
+}
+.l-pic #banner .background .banner-word h2,.l-pic #banner .background .banner-word p{
+    text-align: center;
+}
+
+
+.about-pic{
+    width:100%;
+    height:auto;
+    position: relative;
+}
+.about-pic img{
+    width:100%;
+    height:100%;
+}
+.about-pic .about-word{
+    position: absolute;
+    top:18.3%;
+    right:19.6%;
+}
+.about-pic .about-word h3{
+    font-size: 48px;color: #019eef;line-height: 48px;text-align: left;
+    !*margin-bottom:59px ;*!
+    !*margin-bottom:3.1%;*!
+    margin-bottom:10%;
+}
+.about-pic .about-word h5{
+    font-size: 35px;color: #fff;line-height: 35px;text-align: left;
+    !*margin-bottom:25px ;*!
+    !*margin-bottom:1.3%;*!
+    margin-bottom:5.7%;
+}
+.about-pic .about-word p{
+    font-size: 24px;color: #fffdfd;line-height: 45px;text-align: left;
+    !*margin-bottom: 8.4%;*!
+}
+!*睿易使命*!
+.about-pic .mission-word{
+    width:40%;
+    position: absolute;
+    top:11.9%;
+    left:16%;
+}
+.about-pic .mission-word h3{
+    font-size: 48px;color: #019eef;line-height: 48px;text-align: left;
+    !*margin-bottom:59px ;*!
+    !*margin-bottom:3.1%;*!
+    margin-bottom:10%;
+}
+.about-pic .mission-word h5{
+    font-size: 35px;color: #3b3b3b;line-height: 35px;text-align: left;
+    !*margin-bottom:25px ;*!
+    !*margin-bottom:1.3%;*!
+    margin-bottom:3.7%;
+}
+.about-pic .mission-word p{
+    font-size: 21px;color: #3b3b3b;line-height: 37px;text-align: left;
+    margin-bottom: 5.2%;
+}
+.about-pic .worth-center{
+    width:100%;
+    top:7.5%;
+    left:0;
+}
+.about-pic .worth-center h3{
+    text-align: center;margin-bottom: 4.7%;
+}
+.about-pic .worth-center h5{
+    text-align: center;margin-bottom: 1.4%;
+}
+.about-pic .worth-center p{
+    text-align: center;margin-bottom: 3.1%;
+}
+@media screen and (max-width: 1755px){
+    .about-pic{
+        width:100%;
+        height:auto;
+        position: relative;
+    }
+    .about-pic img{
+        width:100%;
+        height:100%;
+    }
+    .about-pic .about-word{
+        position: absolute;
+        top:18.3%;
+        right:19.6%;
+    }
+    .about-pic .about-word h3{
+        font-size: 2.2em;color: #019eef;line-height: 2.2em;text-align: left;
+        !*margin-bottom:59px ;*!
+        !*margin-bottom:3.1%;*!
+        margin-bottom:10%;
+    }
+    .about-pic .about-word h5{
+        font-size: 1.7em;color: #fff;line-height: 1.7em;text-align: left;
+        !*margin-bottom:25px ;*!
+        !*margin-bottom:1.3%;*!
+        margin-bottom:5.7%;
+    }
+    .about-pic .about-word p{
+        font-size: 1.2em;color: #fffdfd;line-height: 1.7em;text-align: left;
+        !*margin-bottom: 8.4%;*!
+    }
+    !*睿易使命*!
+    .about-pic .mission-word{
+        width:40%;
+        position: absolute;
+        top:11.9%;
+        left:16%;
+    }
+    .about-pic .mission-word h3{
+        font-size: 2.4em;color: #019eef;line-height: 2.4em;text-align: left;
+        !*margin-bottom:59px ;*!
+        !*margin-bottom:3.1%;*!
+        margin-bottom:10%;
+    }
+    .about-pic .mission-word h5{
+        font-size: 1.7em;color: #3b3b3b;line-height: 1.7em;text-align: left;
+        !*margin-bottom:25px ;*!
+        !*margin-bottom:1.3%;*!
+        margin-bottom:3.7%;
+    }
+    .about-pic .mission-word p{
+        font-size: 1em;color: #3b3b3b;line-height: 1.8em;text-align: left;
+        margin-bottom: 5.2%;
+    }
+    .about-pic .worth-center{
+        width:100%;
+        top:7.5%;
+        left:0;
+    }
+    .about-pic .worth-center h3{
+        text-align: center;margin-bottom: 4.7%;
+    }
+    .about-pic .worth-center h5{
+        text-align: center;margin-bottom: 1.4%;
+    }
+    .about-pic .worth-center p{
+        text-align: center;margin-bottom: 3.1%;
+    }
+}
+@media screen and (max-width: 950px){
+    .about-pic .about-word{
+        !*position: absolute;*!
+        top:18.3%;
+        !*right:19.6%;*!
+    }
+    .about-pic .about-word h3{
+        !*font-size: 2.2em;color: #019eef;line-height: 2.2em;text-align: left;*!
+        margin-bottom:7%;
+    }
+    .about-pic .about-word h5{
+        !*font-size: 1.7em;color: #fff;line-height: 1.7em;text-align: left;*!
+        margin-bottom:4.7%;
+    }
+    .about-pic .about-word p{
+        !*font-size: 1.2em;color: #fffdfd;line-height: 1.7em;text-align: left;*!
+    }
+    !*睿易使命*!
+    .about-pic .mission-word{
+        width:86%;
+        !*position: absolute;*!
+        top:18.9%;
+        left:10%;
+    }
+    .about-pic .mission-word h3{
+        font-size: 1.6em;color: #019eef;line-height: 1.6em;text-align: left;
+        margin-bottom:4%;
+    }
+    .about-pic .mission-word h5{
+        font-size: 1.3em;color: #3b3b3b;line-height: 1.3em;text-align: left;
+        !*margin-bottom:25px ;*!
+        !*margin-bottom:1.3%;*!
+        margin-bottom:2%;
+    }
+    .about-pic .mission-word p{
+        font-size: 1.2em;color: #3b3b3b;line-height: 1.7em;text-align: left;
+        margin-bottom: 3.2%;
+    }
+    .about-pic .worth-center{
+        width:100%;
+        top:18.5%;
+        left:0;
+    }
+    .about-pic .worth-center h3{
+        text-align: center;margin-bottom: 3%;
+    }
+    .about-pic .worth-center h5{
+        text-align: center;margin-bottom: 1.5%;
+    }
+    .about-pic .worth-center p{
+        text-align: center;margin-bottom: 1.1%;
+    }
+}
+@media screen and (max-width: 768px){
+    .about-pic .about-word{
+        !*position: absolute;*!
+        top:3.3%;
+        !*right:19.6%;*!
+    }
+    .about-pic .about-word h3{
+        !*font-size: 2.2em;color: #019eef;line-height: 2.2em;text-align: left;*!
+        margin-bottom:0%;
+    }
+    .about-pic .about-word h5{
+        !*font-size: 1.7em;color: #fff;line-height: 1.7em;text-align: left;*!
+        margin-bottom:1.7%;
+    }
+    .about-pic .about-word p{
+        !*font-size: 1.2em;color: #fffdfd;line-height: 1.7em;text-align: left;*!
+    }
+    !*睿易使命*!
+    .about-pic .mission-word{
+        width:86%;
+        !*position: absolute;*!
+        top:6.9%;
+        left:10%;
+    }
+    .about-pic .mission-word h3{
+        font-size: 1.6em;color: #019eef;line-height: 1.6em;text-align: left;
+        margin-bottom:1.5%;
+    }
+    .about-pic .mission-word h5{
+        font-size: 1.3em;color: #3b3b3b;line-height: 1.3em;text-align: left;
+        !*margin-bottom:25px ;*!
+        !*margin-bottom:1.3%;*!
+        margin-bottom:1%;
+    }
+    .about-pic .mission-word p{
+        font-size: 1.1em;color: #3b3b3b;line-height: 1.1em;text-align: left;
+        margin-bottom: 3.2%;
+    }
+    .about-pic .worth-center{
+        width:100%;
+        top:3.5%;
+        left:0;
+    }
+    .about-pic .worth-center h3{
+        text-align: center;margin-bottom: 2%;
+    }
+    .about-pic .worth-center h5{
+        text-align: center;margin-bottom: 1%;
+    }
+    .about-pic .worth-center p{
+        text-align: center;margin-bottom: 1.1%;
+    }
+}
+@media screen and (max-width: 425px){
+    !*睿易使命*!
+    .about-pic .mission-word{
+        width:86%;
+        !*position: absolute;*!
+        top:0%;
+        left:10%;
+    }
+    .about-pic .mission-word h3{
+        font-size: 1.4em;color: #019eef;line-height: 1.4em;text-align: left;
+        margin-bottom:.3%;
+    }
+    .about-pic .mission-word h5{
+        font-size: 1.2em;color: #3b3b3b;line-height: 1.2em;text-align: left;
+        !*margin-bottom:25px ;*!
+        !*margin-bottom:1.3%;*!
+        margin-bottom:1%;
+    }
+    .about-pic .mission-word p{
+        font-size: 1em;color: #3b3b3b;line-height: 1em;text-align: left;
+        margin-bottom: 3.2%;
+    }
+    .about-pic .worth-center{
+        width:100%;
+        top:1.5%;
+        left:0;
+    }
+    .about-pic .worth-center h3{
+        text-align: center;margin-bottom: .3%;
+    }
+    .about-pic .worth-center h5{
+        text-align: center;margin-bottom: 1%;
+    }
+    .about-pic .worth-center p{
+        text-align: center;margin-bottom: 1.1%;
+    }
+    .about-pic .about-word h3{
+        font-size: 1.4em;color: #019eef;line-height: 1.4em;text-align: left;
+        margin-bottom:.3%;
+    }
+    .about-pic .about-word h5{
+        font-size: 1.2em;color: #fff;line-height: 1.2em;text-align: left;
+        !*margin-bottom:25px ;*!
+        !*margin-bottom:1.3%;*!
+        margin-bottom:1%;
+    }
+    .about-pic .about-word p{
+        font-size: 1em;color: #fff;line-height: 1em;text-align: left;
+        margin-bottom: 2.2%;
+    }
+}*/
