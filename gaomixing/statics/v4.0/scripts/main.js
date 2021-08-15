@@ -1,11 +1,10 @@
 $(function () {
-  var swiper = new Swiper('.banner-swiper', {
-    autoplay: true,
+  var swiper = new Swiper('.z-page3-swiper', {
+    slidesPerView: 3,
+    spaceBetween: 10,
+    // autoplay: true,
     loop: true,
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true
-    }
+	  centeredSlides: true
   })
   var width = document.body.clientWidth
   var swiper1 = new Swiper('.page3-swiper', {

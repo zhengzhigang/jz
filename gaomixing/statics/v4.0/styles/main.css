@@ -1,175 +1,1084 @@
-﻿
-@charset "utf-8";
-
-#ry-container{
+/* line 4, ../../../../gaomixing-scss/main.scss */
+#ry-container {
   width: 100%;
+  padding-top: 65px;
   margin: auto;
   position: relative;
-  background: #F7F7F8;
-  transition:all .3s ease-in;
+  background: #000;
+  transition: all .3s ease-in;
   -ms-transition: all .3s ease-in;
   -moz-transition: all .3s ease-in;
-  -webkit-transition:all .3s ease-in;
+  -webkit-transition: all .3s ease-in;
   -o-transition: all .3s ease-in;
-  padding-top: 0;
   z-index: 1;
 }
 
-.ry-mainTitle{
-  font-size: 65px;
-  color: #222;
-  margin-top: 40px;
+/* line 18, ../../../../gaomixing-scss/main.scss */
+.ry-mainTitle {
+  font-size: 50px;
+  color: #fff;
+  padding-top: 40px;
   margin-bottom: 20px;
   text-align: center;
+  font-weight: bold;
 }
-.ry-subTitle{
-  font-size: 32px;
+/* line 26, ../../../../gaomixing-scss/main.scss */
+.ry-mainTitle .bg-title {
+  display: block;
+  margin: auto;
+  line-height: 92px;
+  padding: 10px 0 46px;
+  background: url(../images/network/page-title-bg.jpg) top center/544px auto no-repeat;
+}
+/* line 34, ../../../../gaomixing-scss/main.scss */
+.ry-mainTitle .line-title {
+  position: relative;
+  display: block;
+  margin: auto;
+  line-height: 80px;
+  padding-bottom: 30px;
+}
+/* line 40, ../../../../gaomixing-scss/main.scss */
+.ry-mainTitle .line-title::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 490px;
+  height: 17px;
+  bottom: 0;
+  left: 50%;
+  margin-left: -245px;
+  background: url(../images/network/page-title-line.jpg) center/100% no-repeat;
+}
+
+/* line 53, ../../../../gaomixing-scss/main.scss */
+.ry-subTitle {
+  font-size: 30px;
   color: #797979;
   margin-bottom: 20px;
   text-align: center;
 }
+
+/* line 59, ../../../../gaomixing-scss/main.scss */
 .ry-subTitle span,
 .ry-subTitle a,
-.ry-subTitle em{
+.ry-subTitle em {
   /*display: inline-block;*/
   font-style: normal;
   vertical-align: middle;
 }
-.ry-text{
-  font-size: 16px;
+
+/* line 66, ../../../../gaomixing-scss/main.scss */
+.ry-text {
+  font-size: 21px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 60px;
+  opacity: 0.55;
 }
-.ry-img{
+
+/* line 73, ../../../../gaomixing-scss/main.scss */
+.ry-img {
   text-align: center;
   overflow: hidden;
   margin-left: auto;
   margin-right: auto;
 }
-.ry-img img{
+/* line 79, ../../../../gaomixing-scss/main.scss */
+.ry-img img {
   max-width: 100%;
 }
 
-.ry-cont-item{
+/* line 84, ../../../../gaomixing-scss/main.scss */
+img {
+  display: block;
   width: 100%;
-  margin: auto auto 40px auto;
 }
-.ry-cont{
+
+/* line 89, ../../../../gaomixing-scss/main.scss */
+.ry-bg-white {
+  background-color: #fff !important;
+}
+
+/* line 92, ../../../../gaomixing-scss/main.scss */
+.ry-bg-grey {
+  background-color: #fff !important;
+}
+
+/*----home----*/
+/*banner*/
+/* line 97, ../../../../gaomixing-scss/main.scss */
+.ry-img-pc {
+  display: block !important;
+}
+
+/* line 100, ../../../../gaomixing-scss/main.scss */
+.ry-img-mobile {
+  display: none !important;
+}
+
+/* line 103, ../../../../gaomixing-scss/main.scss */
+.ry-fl {
+  float: left;
+}
+
+/* line 106, ../../../../gaomixing-scss/main.scss */
+.ry-fr {
+  float: right;
+}
+
+/* line 110, ../../../../gaomixing-scss/main.scss */
+.z-page {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* line 116, ../../../../gaomixing-scss/main.scss */
+.ry-cont {
   max-width: 1200px;
   margin: auto;
   overflow: hidden;
 }
-.ry-cont:before,
-.ry-cont:after{
+/* line 121, ../../../../gaomixing-scss/main.scss */
+.ry-cont:before, .ry-cont:after {
   display: block;
   content: "";
   height: 0;
   line-height: 0;
   clear: both;
 }
-.ry-bg-white{
-  background-color: #fff!important;
+
+/* line 131, ../../../../gaomixing-scss/main.scss */
+.z-page1 {
+  position: relative;
+  background-image: url(../images/network/page1-bg.jpg);
+  background-size: 100% auto;
+  background-position: center top;
 }
-.ry-bg-grey{
-  background-color: #fff!important;
+/* line 137, ../../../../gaomixing-scss/main.scss */
+.z-page1 .ry-cont {
+  padding: 200px 0 126px;
 }
-/*----home----*/
-/*banner*/
-.ry-img-pc{
-  display: block!important;
+/* line 140, ../../../../gaomixing-scss/main.scss */
+.z-page1 .title-img {
+  width: 90%;
+  margin: auto;
 }
-.ry-img-mobile{
-  display: none!important;
+/* line 145, ../../../../gaomixing-scss/main.scss */
+.z-page1-decorator {
+  position: absolute;
+  width: 311px;
+  top: 0;
+  left: 0;
+}
+/* line 152, ../../../../gaomixing-scss/main.scss */
+.z-page1 .ry-mainTitle {
+  margin-bottom: -20px;
 }
 
-.ry-mainTitle{
-  font-size: 50px;
-  margin-bottom: 10px;
+/* line 158, ../../../../gaomixing-scss/main.scss */
+.z-page2 .z-page2-wrap {
+  position: relative;
 }
-.ry-subTitle{
-  font-size: 30px;
-  color: #231815;
-}
-.ry-fl{
-  float: left;
-}
-.ry-fr{
-  float: right;
-}
-
-/*ry-pager*/
-.ry-pager{
-  text-align: center;
-  font-size: 18px;
-  color: #797979;
-  margin: auto auto 40px auto;
-}
-.ry-pager a,
-.ry-pager div,
-.ry-pager span{
-  display: inline-block;
-  vertical-align: middle;
-}
-.ry-pager a{
-  height: 48px;
-  line-height: 48px;
-  min-width: 48px;
-  padding: 0 10px;
-  -moz-border-radius: 6px;
-  -webkit-border-radius: 6px;
-  border-radius: 6px;
-  border: 1px solid #e4e4e4;
-  background:linear-gradient(180deg,rgba(255,255,255,1) 0%,rgba(245,245,245,1) 100%);
-  transition:all .3s ease-in;
-  -ms-transition: all .3s ease-in;
-  -moz-transition: all .3s ease-in;
-  -webkit-transition:all .3s ease-in;
-  -o-transition: all .3s ease-in;
-  margin-bottom: 5px;
-}
-.ry-pager a:hover,
-.ry-pager a.ry-this{
+/* line 162, ../../../../gaomixing-scss/main.scss */
+.z-page2 .ry-text {
+  position: absolute;
+  max-width: 1200px;
+  top: 25px;
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%);
+  font-size: 23px;
   color: #fff;
-  border: 1px solid #3F59DE;
-  background:linear-gradient(180deg,rgba(63,89,222,1) 0%,rgba(114,137,254,1) 100%);
 }
-.ry-pager span{
+
+/* line 174, ../../../../gaomixing-scss/main.scss */
+.z-page3 {
+  background: url(../images/network/page3-bg.jpg) center center/100% auto no-repeat;
+  padding-bottom: 110px;
+}
+/* line 177, ../../../../gaomixing-scss/main.scss */
+.z-page3 .ry-text {
+  width: 80%;
+  margin: 0 auto 80px;
+}
+/* line 182, ../../../../gaomixing-scss/main.scss */
+.z-page3 .swiper-slide {
+  transition: 300ms;
+  transform: scale(0.6);
+}
+/* line 187, ../../../../gaomixing-scss/main.scss */
+.z-page3 .img-box {
+  width: 100%;
+  height: 100%;
+  border: 3px solid #187a9f;
+  box-sizing: border-box;
+}
+/* line 194, ../../../../gaomixing-scss/main.scss */
+.z-page3 .phone {
+  display: none;
+}
+/* line 198, ../../../../gaomixing-scss/main.scss */
+.z-page3 .swiper-slide-active, .z-page3 .swiper-slide-duplicate-active {
+  transform: scale(1);
+}
+/* line 201, ../../../../gaomixing-scss/main.scss */
+.z-page3 .swiper-slide-active .phone, .z-page3 .swiper-slide-duplicate-active .phone {
+  display: block;
+}
+/* line 205, ../../../../gaomixing-scss/main.scss */
+.z-page3 .swiper-slide-active .img-box, .z-page3 .swiper-slide-duplicate-active .img-box {
+  border: none;
+  position: absolute;
+  top: 0;
+  padding: 0 8px;
+  top: 46px;
+  border-radius: 38px;
+  overflow: hidden;
+}
+/* line 215, ../../../../gaomixing-scss/main.scss */
+.z-page3 .swiper-slide-active .slide-desc, .z-page3 .swiper-slide-duplicate-active .slide-desc {
+  font-size: 23px;
+}
+/* line 220, ../../../../gaomixing-scss/main.scss */
+.z-page3 .slide-desc {
+  font-size: 38px;
+  color: #fff;
+  text-align: center;
+  padding-top: 35px;
+  opacity: 0.55;
+}
+/* line 228, ../../../../gaomixing-scss/main.scss */
+.z-page3 .arrow-group {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 500px;
+  top: 40%;
+  left: 50%;
+  margin-left: -250px;
+}
+/* line 238, ../../../../gaomixing-scss/main.scss */
+.z-page3 .arrow {
+  display: block;
+  width: 24px;
+  height: 38px;
+  background: url(../images/network/arrow-left.png) center/100% no-repeat;
+}
+
+/* line 246, ../../../../gaomixing-scss/main.scss */
+.z-page4 {
+  background: url(../images/network/page3-bg.jpg) center 76%/100% auto no-repeat;
+  padding-bottom: 100px;
+}
+/* line 250, ../../../../gaomixing-scss/main.scss */
+.z-page4 .ry-text {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 256, ../../../../gaomixing-scss/main.scss */
+.z-page4 .text-img {
+  width: 870px;
+  margin: 0 auto 110px;
+}
+
+/* line 263, ../../../../gaomixing-scss/main.scss */
+.z-page5 ul {
+  font-size: 0;
+}
+/* line 267, ../../../../gaomixing-scss/main.scss */
+.z-page5 .item {
+  display: inline-block;
+  width: 46%;
+}
+/* line 271, ../../../../gaomixing-scss/main.scss */
+.z-page5 .item:nth-child(odd) {
+  margin-right: 8%;
+}
+/* line 275, ../../../../gaomixing-scss/main.scss */
+.z-page5 .item .ry-text {
+  margin-bottom: 80;
+}
+/* line 280, ../../../../gaomixing-scss/main.scss */
+.z-page5 .item-title {
+  position: relative;
+  display: block;
+  margin: auto;
   margin-bottom: 5px;
+  line-height: 40px;
+  padding: 35px 0 20px;
+  font-size: 23px;
+  color: #fff;
+  text-align: center;
+}
+/* line 291, ../../../../gaomixing-scss/main.scss */
+.z-page5 .item-title::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 490px;
+  height: 17px;
+  bottom: 0;
+  left: 50%;
+  margin-left: -245px;
+  background: url(../images/network/page-title-line.jpg) center/100% no-repeat;
+}
+/* line 304, ../../../../gaomixing-scss/main.scss */
+.z-page5 .ry-text {
+  padding: 0 40px;
+  margin-bottom: 100px;
+}
+/* line 309, ../../../../gaomixing-scss/main.scss */
+.z-page5 .item-num {
+  display: inline-block;
+  height: 65px;
+  width: auto;
+  vertical-align: bottom;
+}
+
+/* line 317, ../../../../gaomixing-scss/main.scss */
+.z-page6 {
+  padding-bottom: 295px;
+  background: url(../images/network/page7-bg.jpg) center bottom/100% auto no-repeat;
+}
+/* line 321, ../../../../gaomixing-scss/main.scss */
+.z-page6 .ry-cont {
+  max-width: 1550px;
+  overflow: visible;
+}
+/* line 326, ../../../../gaomixing-scss/main.scss */
+.z-page6 .ry-mainTitle {
+  margin-bottom: 0;
+}
+/* line 330, ../../../../gaomixing-scss/main.scss */
+.z-page6 .page6-box {
+  font-size: 0;
+  background: url(../images/network/page6-bg.png) center center/1550px auto no-repeat;
+}
+/* line 335, ../../../../gaomixing-scss/main.scss */
+.z-page6 .page6-cont {
+  margin: 0 120px 40px;
+  padding-top: 50px;
+}
+/* line 340, ../../../../gaomixing-scss/main.scss */
+.z-page6 .left, .z-page6 .right {
+  display: inline-block;
+  width: 35%;
+  vertical-align: top;
+}
+/* line 346, ../../../../gaomixing-scss/main.scss */
+.z-page6 .left {
+  margin-left: 2%;
+}
+/* line 350, ../../../../gaomixing-scss/main.scss */
+.z-page6 .right {
+  margin-right: 2%;
+}
+/* line 354, ../../../../gaomixing-scss/main.scss */
+.z-page6 .center {
+  display: inline-block;
+  width: 26%;
+  margin-top: 110px;
+}
+/* line 359, ../../../../gaomixing-scss/main.scss */
+.z-page6 .center img {
+  width: 74%;
+  margin: auto;
+}
+/* line 365, ../../../../gaomixing-scss/main.scss */
+.z-page6 .item-title {
+  display: block;
+  margin: auto;
+  line-height: 60px;
+  padding: 10px 0 36px;
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  background: url(../images/network/page6-title-bg.png) center center/90% auto no-repeat;
+}
+/* line 376, ../../../../gaomixing-scss/main.scss */
+.z-page6 .red {
+  color: #fe0000;
+}
+/* line 380, ../../../../gaomixing-scss/main.scss */
+.z-page6 .ry-text {
+  margin-bottom: 30px;
+}
+/* line 384, ../../../../gaomixing-scss/main.scss */
+.z-page6 .text-box {
+  margin: 0 40px;
+}
+/* line 387, ../../../../gaomixing-scss/main.scss */
+.z-page6 .text-box .ry-text {
+  margin-bottom: 0;
+  padding: 15px 0 50px;
+  line-height: 1;
+  background: url(../images/network/page6-text-bg.png) center bottom/100% auto no-repeat;
+}
+
+/* line 396, ../../../../gaomixing-scss/main.scss */
+.z-page8 {
+  padding-bottom: 195px;
+  background: url(../images/network/page8-bg.jpg) center bottom/100% auto no-repeat;
+}
+/* line 400, ../../../../gaomixing-scss/main.scss */
+.z-page8 .ry-mainTitle {
+  margin-bottom: 0;
+}
+/* line 404, ../../../../gaomixing-scss/main.scss */
+.z-page8 .ry-cont {
+  max-width: 1400px;
+}
+/* line 408, ../../../../gaomixing-scss/main.scss */
+.z-page8 .table-box {
+  padding: 40px 0;
+  background: url(../images/network/page8-table-bg.png) center center/100% auto no-repeat;
+}
+/* line 413, ../../../../gaomixing-scss/main.scss */
+.z-page8 table {
+  padding: 0 40px;
+  text-align: center;
+}
+/* line 418, ../../../../gaomixing-scss/main.scss */
+.z-page8 th {
+  position: relative;
+  padding: 10px;
+  font-size: 17px;
+  color: #fff;
+  width: 19.5%;
+  text-align: center;
+}
+/* line 426, ../../../../gaomixing-scss/main.scss */
+.z-page8 th::after {
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  right: 0;
+  top: 0;
+  background: url(../images/network/table-column.png) center top/100% auto no-repeat;
+}
+/* line 437, ../../../../gaomixing-scss/main.scss */
+.z-page8 .th2 {
+  width: 22%;
+}
+/* line 441, ../../../../gaomixing-scss/main.scss */
+.z-page8 .th1 {
+  padding-left: 60px;
+}
+/* line 445, ../../../../gaomixing-scss/main.scss */
+.z-page8 .th5 {
+  padding-right: 60px;
+}
+/* line 449, ../../../../gaomixing-scss/main.scss */
+.z-page8 tr {
+  position: relative;
+}
+/* line 452, ../../../../gaomixing-scss/main.scss */
+.z-page8 tr::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  left: 0;
+  bottom: 0;
+  background: url(../images/network/table-row.png) center center/100% 100% no-repeat;
+}
+/* line 463, ../../../../gaomixing-scss/main.scss */
+.z-page8 tr.tr5::after {
+  content: none;
+}
+/* line 469, ../../../../gaomixing-scss/main.scss */
+.z-page8 td {
+  position: relative;
+  padding: 15px;
+  font-size: 11px;
+  color: #fff;
+}
+/* line 475, ../../../../gaomixing-scss/main.scss */
+.z-page8 td::after {
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  right: 0;
+  top: 0;
+  background: url(../images/network/table-column.png) center center/100% 1000% no-repeat;
+}
+/* line 485, ../../../../gaomixing-scss/main.scss */
+.z-page8 td:first-child {
+  padding-left: 60px;
+}
+/* line 489, ../../../../gaomixing-scss/main.scss */
+.z-page8 td:last-child {
+  padding-right: 60px;
+}
+/* line 494, ../../../../gaomixing-scss/main.scss */
+.z-page8 td:last-child::after {
+  content: none;
+}
+/* line 501, ../../../../gaomixing-scss/main.scss */
+.z-page8 .tr5 td::after {
+  background: url(../images/network/table-column.png) center bottom/100% auto no-repeat;
 }
 
 @media screen and (max-width: 1280px) {
-}
+  /* line 509, ../../../../gaomixing-scss/main.scss */
+  .z-page1 .ry-cont {
+    padding: 160px 0 100px;
+  }
 
+  /* line 515, ../../../../gaomixing-scss/main.scss */
+  .z-page2 .ry-text {
+    max-width: 900px;
+  }
+
+  /* line 520, ../../../../gaomixing-scss/main.scss */
+  .z-page6 {
+    padding-bottom: 190px;
+  }
+  /* line 523, ../../../../gaomixing-scss/main.scss */
+  .z-page6 .ry-cont {
+    max-width: auto;
+    margin: 0 30px;
+  }
+}
 @media screen and (max-width: 1024px) {
-}
+  /* line 532, ../../../../gaomixing-scss/main.scss */
+  .z-page1 .ry-cont {
+    padding: 120px 0 80px;
+  }
+  /* line 536, ../../../../gaomixing-scss/main.scss */
+  .z-page1-decorator {
+    width: 200px;
+  }
 
-@media screen and (max-width: 960px) {
+  /* line 542, ../../../../gaomixing-scss/main.scss */
+  .z-page2 img {
+    max-width: 110%;
+    width: 114%;
+    margin-left: -6%;
+  }
+
+  /* line 549, ../../../../gaomixing-scss/main.scss */
+  .z-page3 {
+    padding-bottom: 80px;
+  }
+  /* line 552, ../../../../gaomixing-scss/main.scss */
+  .z-page3 .arrow-group {
+    width: 440px;
+    left: 50%;
+    margin-left: -220px;
+  }
+
+  /* line 560, ../../../../gaomixing-scss/main.scss */
+  .z-page4 .text-img {
+    width: 700px;
+  }
+  /* line 564, ../../../../gaomixing-scss/main.scss */
+  .z-page4 .pro-img {
+    width: 90%;
+    margin: auto;
+  }
+
+  /* line 571, ../../../../gaomixing-scss/main.scss */
+  .z-page5 ul {
+    margin: 0 30px;
+  }
+  /* line 576, ../../../../gaomixing-scss/main.scss */
+  .z-page5 .item-title::after {
+    width: 100%;
+    height: 17px;
+    bottom: 0;
+    left: 0;
+    margin-left: 0;
+    background: url(../images/network/page-title-line.jpg) center/100% auto no-repeat;
+  }
+
+  /* line 587, ../../../../gaomixing-scss/main.scss */
+  .z-page6 {
+    padding-bottom: 225px;
+  }
+  /* line 590, ../../../../gaomixing-scss/main.scss */
+  .z-page6 .ry-cont {
+    max-width: 1000px;
+  }
+  /* line 594, ../../../../gaomixing-scss/main.scss */
+  .z-page6 .page6-box {
+    background: url(../images/network/page6-bg.png) center center/1000px auto no-repeat;
+  }
+
+  /* line 599, ../../../../gaomixing-scss/main.scss */
+  .z-page8 {
+    padding-bottom: 100px;
+  }
 }
 @media screen and (max-width: 768px) {
-  .ry-pc-show{
-    display: none!important;
+  /* line 605, ../../../../gaomixing-scss/main.scss */
+  .ry-pc-show {
+    display: none !important;
   }
-  .ry-mobile-show{
-    display: block!important;
+
+  /* line 608, ../../../../gaomixing-scss/main.scss */
+  .ry-mobile-show {
+    display: block !important;
   }
-  .ry-cont-item{
-    margin: auto auto 10px auto;
-  }
+
+  /* line 611, ../../../../gaomixing-scss/main.scss */
   .ry-mainTitle {
-    font-size: 22px;
-    font-weight: bold;
+    font-size: 28px;
   }
+  /* line 614, ../../../../gaomixing-scss/main.scss */
+  .ry-mainTitle .bg-title {
+    line-height: 47px;
+    padding: 0 0 20px;
+    background: url(../images/network/page-title-bg.jpg) top center/240px auto no-repeat;
+  }
+  /* line 620, ../../../../gaomixing-scss/main.scss */
+  .ry-mainTitle .line-title {
+    margin: auto;
+    line-height: 50px;
+    padding-bottom: 20px;
+  }
+  /* line 624, ../../../../gaomixing-scss/main.scss */
+  .ry-mainTitle .line-title::after {
+    width: 340px;
+    margin-left: -170px;
+    background: url(../images/network/page-title-line.jpg) center/100% auto no-repeat;
+  }
+
+  /* line 631, ../../../../gaomixing-scss/main.scss */
   .ry-subTitle {
     font-size: 14px;
   }
-}
 
+  /* line 635, ../../../../gaomixing-scss/main.scss */
+  .ry-cont {
+    max-width: 625px;
+    margin: 0 auto;
+  }
+
+  /* line 640, ../../../../gaomixing-scss/main.scss */
+  .ry-text {
+    font-size: 16px;
+  }
+
+  /* line 645, ../../../../gaomixing-scss/main.scss */
+  .z-page1 .ry-cont {
+    padding: 80px 0 60px;
+  }
+  /* line 649, ../../../../gaomixing-scss/main.scss */
+  .z-page1 .ry-mainTitle {
+    background: url(../images/network/page6-text-bg.png) center 62%/100% auto no-repeat;
+  }
+  /* line 653, ../../../../gaomixing-scss/main.scss */
+  .z-page1 .title-img {
+    width: 490px;
+  }
+  /* line 657, ../../../../gaomixing-scss/main.scss */
+  .z-page1-decorator {
+    width: 150px;
+  }
+
+  /* line 662, ../../../../gaomixing-scss/main.scss */
+  .z-page2 {
+    overflow: hidden;
+  }
+  /* line 665, ../../../../gaomixing-scss/main.scss */
+  .z-page2 .z-page2-wrap {
+    padding-top: 120px;
+  }
+  /* line 669, ../../../../gaomixing-scss/main.scss */
+  .z-page2 .ry-text {
+    position: absolute;
+    top: 25px;
+    left: 15px;
+    right: 15px;
+    width: auto;
+    transform: translateX(0);
+    font-size: 16px;
+  }
+
+  /* line 680, ../../../../gaomixing-scss/main.scss */
+  .z-page3 {
+    background: url(../images/network/page3-bg.jpg) center center/100% auto no-repeat;
+    padding-bottom: 30px;
+  }
+  /* line 684, ../../../../gaomixing-scss/main.scss */
+  .z-page3-bg {
+    background: url(../images/network/page5-bg-m.png) center top/100% auto no-repeat;
+  }
+  /* line 688, ../../../../gaomixing-scss/main.scss */
+  .z-page3 .ry-text {
+    width: auto;
+    margin: 0 15px 40px;
+  }
+  /* line 693, ../../../../gaomixing-scss/main.scss */
+  .z-page3 .swiper-slide-active .slide-desc, .z-page3 .swiper-slide-duplicate-active .slide-desc {
+    font-size: 16px;
+  }
+  /* line 698, ../../../../gaomixing-scss/main.scss */
+  .z-page3 .slide-desc {
+    font-size: 16px;
+  }
+  /* line 702, ../../../../gaomixing-scss/main.scss */
+  .z-page3 .arrow-group {
+    width: 270px;
+    top: 36%;
+    margin-left: -135px;
+  }
+  /* line 708, ../../../../gaomixing-scss/main.scss */
+  .z-page3 .arrow {
+    width: 20px;
+    height: 36px;
+  }
+
+  /* line 714, ../../../../gaomixing-scss/main.scss */
+  .z-page4 {
+    padding-bottom: 15px;
+    background-position: center 40%;
+  }
+  /* line 718, ../../../../gaomixing-scss/main.scss */
+  .z-page4 .ry-text {
+    width: auto;
+    max-width: 100%;
+    margin: 0 30px 20px;
+  }
+  /* line 724, ../../../../gaomixing-scss/main.scss */
+  .z-page4 .text-img {
+    width: 500px;
+    margin: 0 auto 55px;
+  }
+  /* line 729, ../../../../gaomixing-scss/main.scss */
+  .z-page4 .pro-img {
+    padding-bottom: 60px;
+  }
+
+  /* line 734, ../../../../gaomixing-scss/main.scss */
+  .z-page5 {
+    background: url(../images/network/page5-bg-m.png) center center/100% auto no-repeat;
+  }
+  /* line 737, ../../../../gaomixing-scss/main.scss */
+  .z-page5 .ry-cont {
+    padding-bottom: 40px;
+  }
+  /* line 741, ../../../../gaomixing-scss/main.scss */
+  .z-page5 .item {
+    display: block;
+    width: 90%;
+    margin: auto;
+  }
+  /* line 746, ../../../../gaomixing-scss/main.scss */
+  .z-page5 .item .ry-text {
+    margin-bottom: 30;
+  }
+  /* line 751, ../../../../gaomixing-scss/main.scss */
+  .z-page5 .item-title {
+    font-size: 18px;
+  }
+  /* line 754, ../../../../gaomixing-scss/main.scss */
+  .z-page5 .item-title::after {
+    width: 270px;
+    left: 50%;
+    margin-left: -135px;
+    background: url(../images/network/page-title-line.jpg) center/100% auto no-repeat;
+  }
+  /* line 762, ../../../../gaomixing-scss/main.scss */
+  .z-page5 .ry-text {
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  /* line 767, ../../../../gaomixing-scss/main.scss */
+  .z-page5 .item-num {
+    height: 46px;
+  }
+
+  /* line 772, ../../../../gaomixing-scss/main.scss */
+  .z-page6 {
+    padding-bottom: 140px;
+    background: url(../images/network/page7-bg-m.png) center bottom/100% auto no-repeat;
+  }
+  /* line 776, ../../../../gaomixing-scss/main.scss */
+  .z-page6 .ry-cont {
+    max-width: 100%;
+    margin: 0;
+  }
+  /* line 781, ../../../../gaomixing-scss/main.scss */
+  .z-page6 .page6-box {
+    font-size: 0;
+    background: url(../images/network/page6-bg-m.png) center center/100% 100% no-repeat;
+  }
+  /* line 786, ../../../../gaomixing-scss/main.scss */
+  .z-page6 .page6-cont {
+    margin: 0 40px 25px;
+    padding-top: 15px;
+  }
+  /* line 791, ../../../../gaomixing-scss/main.scss */
+  .z-page6 .item-title {
+    font-size: 24px;
+    background: url(../images/network/page6-title-bg.png) center center/100% auto no-repeat;
+  }
+  /* line 796, ../../../../gaomixing-scss/main.scss */
+  .z-page6 .ry-text {
+    margin-bottom: 15px;
+  }
+  /* line 801, ../../../../gaomixing-scss/main.scss */
+  .z-page6 .text-box .ry-text {
+    padding: 22px 0 10px;
+    background: url(../images/network/page6-text-bg.png) center top/100% auto no-repeat;
+  }
+  /* line 806, ../../../../gaomixing-scss/main.scss */
+  .z-page6 .text-box .ry-text1 {
+    font-size: 12px;
+  }
+  /* line 810, ../../../../gaomixing-scss/main.scss */
+  .z-page6 .text-box .ry-text2 {
+    font-size: 14px;
+  }
+  /* line 814, ../../../../gaomixing-scss/main.scss */
+  .z-page6 .text-box .ry-text3 {
+    padding-top: 60px;
+    font-size: 17px;
+  }
+
+  /* line 821, ../../../../gaomixing-scss/main.scss */
+  .z-page8 {
+    padding-bottom: 200px;
+    background: url(../images/network/page8-bg-m.png) center bottom/100% auto no-repeat;
+  }
+  /* line 826, ../../../../gaomixing-scss/main.scss */
+  .z-page8 .table-box {
+    background: url(../images/network/page8-table-bg-m.png) center center/100% 100% no-repeat;
+  }
+  /* line 831, ../../../../gaomixing-scss/main.scss */
+  .z-page8 .row1 td {
+    position: relative;
+    padding: 10px;
+    font-size: 17px;
+    color: #fff;
+    text-align: center;
+  }
+  /* line 838, ../../../../gaomixing-scss/main.scss */
+  .z-page8 .row1 td::after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    right: 0;
+    top: 0;
+    background: url(../images/network/table-column.png) center top/100% auto no-repeat;
+  }
+  /* line 850, ../../../../gaomixing-scss/main.scss */
+  .z-page8 .ry-mobile-show {
+    margin-top: -30px;
+    margin-bottom: -30px;
+  }
+  /* line 854, ../../../../gaomixing-scss/main.scss */
+  .z-page8 .ry-mobile-show table {
+    width: 100%;
+  }
+  /* line 859, ../../../../gaomixing-scss/main.scss */
+  .z-page8 td {
+    font-size: 14px;
+    opacity: 0.8;
+  }
+  /* line 863, ../../../../gaomixing-scss/main.scss */
+  .z-page8 td:first-child {
+    padding-left: 15px;
+  }
+  /* line 867, ../../../../gaomixing-scss/main.scss */
+  .z-page8 td:last-child {
+    min-width: 150px;
+    padding-right: 15px;
+  }
+  /* line 872, ../../../../gaomixing-scss/main.scss */
+  .z-page8 td:last-child::after {
+    content: none;
+  }
+  /* line 877, ../../../../gaomixing-scss/main.scss */
+  .z-page8 .hd {
+    font-size: 15px;
+    opacity: 1;
+  }
+
+  /* line 884, ../../../../gaomixing-scss/main.scss */
+  .mobile-line {
+    width: 100%;
+    height: 60px;
+    background: url(../images/network/page6-text-bg.png) center center/100% auto no-repeat;
+  }
+}
 @media screen and (max-width: 480px) {
-}
+  /* line 893, ../../../../gaomixing-scss/main.scss */
+  .z-page1 .ry-cont {
+    padding: 60px 0 20px;
+  }
+  /* line 897, ../../../../gaomixing-scss/main.scss */
+  .z-page1 .title-img {
+    width: 86%;
+  }
+  /* line 901, ../../../../gaomixing-scss/main.scss */
+  .z-page1-decorator {
+    width: 100px;
+  }
 
+  /* line 907, ../../../../gaomixing-scss/main.scss */
+  .z-page2 .z-page2-wrap {
+    padding-top: 130px;
+  }
+
+  /* line 912, ../../../../gaomixing-scss/main.scss */
+  .z-page3 {
+    padding-bottom: 0;
+  }
+  /* line 915, ../../../../gaomixing-scss/main.scss */
+  .z-page3 .ry-mainTitle {
+    padding-top: 10px;
+  }
+  /* line 920, ../../../../gaomixing-scss/main.scss */
+  .z-page3 .swiper-slide-active .slide-desc, .z-page3 .swiper-slide-duplicate-active .slide-desc {
+    padding-top: 15px;
+  }
+  /* line 925, ../../../../gaomixing-scss/main.scss */
+  .z-page3 .arrow-group {
+    width: 210px;
+    margin-left: -105px;
+  }
+  /* line 930, ../../../../gaomixing-scss/main.scss */
+  .z-page3 .arrow {
+    width: 20px;
+    height: 36px;
+  }
+
+  /* line 936, ../../../../gaomixing-scss/main.scss */
+  .z-page4 {
+    padding-bottom: 0;
+    background-position: center 50%;
+  }
+  /* line 940, ../../../../gaomixing-scss/main.scss */
+  .z-page4 .text-img {
+    width: 80%;
+    margin: 0 auto 30px;
+  }
+  /* line 945, ../../../../gaomixing-scss/main.scss */
+  .z-page4 .pro-img {
+    padding-bottom: 30px;
+  }
+
+  /* line 951, ../../../../gaomixing-scss/main.scss */
+  .z-page5 .ry-cont {
+    padding-bottom: 20px;
+  }
+  /* line 955, ../../../../gaomixing-scss/main.scss */
+  .z-page5 .ry-text {
+    width: auto;
+    max-width: 100%;
+    margin: 0 15px;
+  }
+  /* line 962, ../../../../gaomixing-scss/main.scss */
+  .z-page5 .item .ry-text {
+    margin-bottom: 15px;
+  }
+
+  /* line 968, ../../../../gaomixing-scss/main.scss */
+  .z-page6 {
+    padding-bottom: 100px;
+  }
+  /* line 971, ../../../../gaomixing-scss/main.scss */
+  .z-page6 .left, .z-page6 .right, .z-page6 .center {
+    width: 100%;
+  }
+  /* line 975, ../../../../gaomixing-scss/main.scss */
+  .z-page6 .center {
+    margin-top: 0;
+  }
+  /* line 978, ../../../../gaomixing-scss/main.scss */
+  .z-page6 .center img {
+    width: 140px;
+    margin: 20px auto;
+  }
+  /* line 984, ../../../../gaomixing-scss/main.scss */
+  .z-page6 .item-title {
+    padding-bottom: 20px;
+    line-height: 40px;
+    background: url(../images/network/page6-title-bg.png) center center/83% auto no-repeat;
+  }
+
+  /* line 992, ../../../../gaomixing-scss/main.scss */
+  .z-page8 .ry-mainTitle {
+    padding-top: 20px;
+  }
+  /* line 996, ../../../../gaomixing-scss/main.scss */
+  .z-page8 .hd {
+    min-width: 120px;
+  }
+}
 @media screen and (max-width: 414px) {
-}
+  /* line 1004, ../../../../gaomixing-scss/main.scss */
+  .z-page3 .arrow-group {
+    width: 190px;
+    margin-left: -95px;
+  }
 
+  /* line 1010, ../../../../gaomixing-scss/main.scss */
+  .z-page8 {
+    padding-bottom: 120px;
+  }
+  /* line 1014, ../../../../gaomixing-scss/main.scss */
+  .z-page8 td:last-child {
+    min-width: 80px;
+  }
+}
 @media screen and (max-width: 375px) {
-}
+  /* line 1022, ../../../../gaomixing-scss/main.scss */
+  .ry-mainTitle {
+    padding-top: 10px;
+  }
 
+  /* line 1027, ../../../../gaomixing-scss/main.scss */
+  .z-page3 .arrow-group {
+    width: 170px;
+    margin-left: -85px;
+  }
+
+  /* line 1034, ../../../../gaomixing-scss/main.scss */
+  .z-page6 .text-box {
+    margin: 0 20px;
+  }
+  /* line 1039, ../../../../gaomixing-scss/main.scss */
+  .z-page6 .center img {
+    width: 100px;
+    margin: 15px auto;
+  }
+}
 @media screen and (max-width: 320px) {
+  /* line 1048, ../../../../gaomixing-scss/main.scss */
+  .ry-mainTitle {
+    font-size: 24px;
+  }
+  /* line 1051, ../../../../gaomixing-scss/main.scss */
+  .ry-mainTitle .line-title {
+    padding-bottom: 10px;
+  }
+  /* line 1053, ../../../../gaomixing-scss/main.scss */
+  .ry-mainTitle .line-title::after {
+    width: 300px;
+    margin-left: -150px;
+  }
+
+  /* line 1061, ../../../../gaomixing-scss/main.scss */
+  .z-page1 .ry-mainTitle {
+    background: url(../images/network/page6-text-bg.png) center 50%/100% auto no-repeat;
+  }
+  /* line 1065, ../../../../gaomixing-scss/main.scss */
+  .z-page1-decorator {
+    width: 70px;
+  }
+
+  /* line 1071, ../../../../gaomixing-scss/main.scss */
+  .z-page8 .hd {
+    min-width: 80px;
+  }
 }

@@ -473,8 +473,332 @@
 
 <!--内容开始-->
 <div id="ry-container">
-  <div class="ry-cont-item">
+  <div class="z-page z-page1">
     <div class="ry-cont">
+      <img src="statics/v4.0/images/network/page1-title.png" class="title-img">
+    </div>
+    <img class="z-page1-decorator" src="statics/v4.0/images/network/page1-img1.png">
+
+    <p class="ry-mainTitle">
+      <span class="bg-title">方案简介</span>
+    </p>
+    <div class="z-page z-page2">
+      <div class="z-page2-wrap">
+        <p class="ry-text">
+          锐捷睿易高密星是专门面向手机工作室场景推出的云解决方案。主要解决手机工作室场景出口配置难、
+          无线调优难、方案选型难的问题。高密星解决方案可以保障手机工作室无线刷机稳定不卡顿，合规刷机不封号。
+        </p>
+        <img src="statics/v4.0/images/network/page2-bg.jpg" alt="">
+      </div>
+      <div class="mobile-line ry-mobile-show"></div>
+    </div>
+  </div>
+
+  <div class="z-page z-page3">
+    <div class="z-page3-bg">
+      <div class="ry-cont">
+        <p class="ry-mainTitle">
+          <span class="line-title">高密星环境检测工具</span>
+        </p>
+        <p class="ry-text">
+          针对用户无法判断手机终端无线性能和环境干扰的问题，高密星设计了环境检测工具，
+          帮助工程商快速判断手机终端性能和环境干扰情况，并给出选型建议。做到工具在手，心中有数！
+        </p>
+        <div class="swiper-container z-page3-swiper">
+          <div class="arrow-group">
+            <span class="left arrow"></span>
+            <span class="right arrow"></span>
+          </div>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img class="phone" src="statics/v4.0/images/network/page3-img4.png">
+              <div class="img-box">
+                <img src="statics/v4.0/images/network/page3-img1.jpg">
+              </div>
+              <p class="slide-desc">高密星APPM<br>进入入口</p>
+            </div>
+            <div class="swiper-slide">
+              <img class="phone" src="statics/v4.0/images/network/page3-img4.png">
+              <div class="img-box">
+                <img src="statics/v4.0/images/network/page3-img2.jpg">
+              </div>
+              <p class="slide-desc">高密星APP<br>环境检测1</p>
+            </div>
+            <div class="swiper-slide">
+              <img class="phone" src="statics/v4.0/images/network/page3-img4.png">
+              <div class="img-box">
+                <img src="statics/v4.0/images/network/page3-img3.jpg">
+              </div>
+              <p class="slide-desc">高密星APP<br>环境检测2</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mobile-line ry-mobile-show"></div>
+    </div>
+  </div>
+
+  <div class="z-page z-page4">
+    <div class="ry-cont">
+      <p class="ry-mainTitle">
+        <span class="line-title">高密星防封号模板</span>
+      </p>
+      <p class="ry-text">
+        为了让手机工作室不触犯平台规则，防止被封号。高密星设计了针对手机工作室多线路配置模板，简化调试步骤，一键下发配置。让工程商调试门槛降低，保证调试效果。
+      </p>
+      <img class="text-img" src="statics/v4.0/images/network/page4-img1.png">
+      <img class="pro-img" src="statics/v4.0/images/network/page4-img.png" alt="">
+    </div>
+    <div class="mobile-line ry-mobile-show"></div>
+  </div>
+
+  <div class="z-page z-page5">
+    <div class="ry-cont">
+      <p class="ry-mainTitle">
+        <span class="line-title">高密星无线智能调优</span>
+      </p>
+      <p class="ry-text">
+        面对大量手机，无线干扰严重。如果不会无线调优，单台无线AP最多只能带30-50台手机，非常影响手机工作室业务。高密星设计了无线智能调优功能，让无线带机量增加150%，无线刷机更稳定。
+      </p>
+      <ul>
+        <li class="item">
+          <img class="item-img ry-pc-show" src="statics/v4.0/images/network/page5-img1.png">
+          <p class="item-title">
+            <img class="item-num" src="statics/v4.0/images/network/page5-num1.png">
+            前置条件
+          </p>
+          <p class="ry-text">通过对手机网卡、现场无线环境的检测确认，明确高密方案带机数量</p>
+          <img class="item-img ry-mobile-show" src="statics/v4.0/images/network/page5-img1.png">
+        </li>
+        <li class="item">
+          <img class="item-img ry-pc-show" src="statics/v4.0/images/network/page5-img2.png">
+          <p class="item-title">
+            <img class="item-num" src="statics/v4.0/images/network/page5-num2.png">
+            内网及无线配置
+          </p>
+          <p class="ry-text">一键直达，完成网关侧一线多拨/多wan的配置，同时完成无线网络调优</p>
+          <img class="item-img ry-mobile-show" src="statics/v4.0/images/network/page5-img2.png">
+        </li>
+        <li class="item">
+          <img class="item-img ry-pc-show" src="statics/v4.0/images/network/page5-img3.png">
+          <p class="item-title">
+            <img class="item-num" src="statics/v4.0/images/network/page5-num3.png">
+            手机连Wi-Fi引导
+          </p>
+          <p class="ry-text">按照要求将对应数量的手机连接到对应的ssid，轻松完成手机终端的均衡负载</p>
+          <img class="item-img ry-mobile-show" src="statics/v4.0/images/network/page5-img3.png">
+        </li>
+        <li class="item">
+          <img class="item-img ry-pc-show" src="statics/v4.0/images/network/page5-img4.png">
+          <p class="item-title">
+            <img class="item-num" src="statics/v4.0/images/network/page5-num4.png">
+            监控-终端视图
+          </p>
+          <p class="ry-text">手机运行的流量状态、信道利用率等信息一目了然，出现问题轻松定位</p>
+          <img class="item-img ry-mobile-show" src="statics/v4.0/images/network/page5-img4.png">
+        </li>
+      </ul>
+    </div>
+    <div class="mobile-line ry-mobile-show"></div>
+  </div>
+
+  <div class="z-page z-page6">
+    <div class="ry-cont">
+      <p class="ry-mainTitle">
+        <span class="bg-title">方案对比</span>
+      </p>
+      <div class="page6-box">
+        <div class="page6-cont">
+          <div class="left">
+            <p class="item-title">使用高密星前</p>
+            <p class="ry-text">一台ap带40台手机，刷机就开始卡</p>
+            <p class="ry-text">防封号不会配，防封准低，经常被封号</p>
+            <p class="ry-text">渠道不敢接手机工作室项目，调不好被退货，口碑和利益都损失</p>
+          </div>
+          <div class="center">
+            <img src="statics/v4.0/images/network/page6-vs.png" alt="">
+          </div>
+          <div class="right">
+            <p class="item-title">使用高密星后</p>
+            <p class="ry-text">一台ap带100台手机，刷机无卡顿，<br><span class="刷机效率提升150%">刷机效率提升150%</span></p>
+            <p class="ry-text">防封号调试难度低，防封精准，<br><span class="red">防封率在99%</span></p>
+            <p class="ry-text">渠道有信心，会调试敢保证效果，<br><span class="red">项目成功率100%</span></p>
+          </div>
+        </div>
+      </div>
+      <div class="text-box">
+        <p class="ry-text ry-text1">
+          无线智能调优，刷机效率提升 <span class="red">150%</span>
+        </p>
+        <p class="ry-text ry-text2">
+          精准控制手机IP地址，防封有效率 <span class="red">99%</span>
+        </p>
+        <p class="ry-text ry-text3">
+          高密场景模板化配置，调试成功率 <span class="red">100%</span>，项目效果有保证
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="z-page z-page8">
+    <div class="ry-cont">
+      <p class="ry-mainTitle">
+        <span class="bg-title">方案选型建议</span>
+      </p>
+      <div class="table-box ry-pc-show">
+        <table>
+          <thead>
+            <tr>
+              <th class="th1">建议型号</th>
+              <th class="th2">选型建议</th>
+              <th class="th3">示例100台手机<br>20个进线宽带</th>
+              <th class="th4">示例100台手机<br>20个进线宽带</th>
+              <th class="th5">示例300台手机<br>60个进线宽带</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="tr1">
+              <td>RG-NBS3100/5100 系列交换机</td>
+              <td>视接入的宽带数量而定，选择合适的端口数
+                或者增加交换机数量</td>
+              <td>NBS3100-
+                24GT4SFP*1
+                </td>
+              <td>NBS3100-
+                24GT4SFP*2
+                </td>
+              <td>NBS3100-
+                24GT4SFP*3</td>
+            </tr>
+            <tr class="tr2">
+              <td>RG-NBR6200 系列网关</td>
+              <td>按照单台手机突发流量为8Mbps计算，n台手机*8Mbps≤网关支持最大带宽</td>
+              <td>NBR6205-E*1</td>
+              <td>NBR6205-E*1 or 
+                NBR6210-E*1 </td>
+              <td>NBR6210-E*1</td>
+            </tr>
+            <tr class="tr3">
+              <td>POE交换机</td>
+              <td>给AP供电使用</td>
+              <td>视AP数量而定</td>
+              <td>视AP数量而定</td>
+              <td>视AP数量而定</td>
+            </tr>
+            <tr class="tr4">
+              <td>RG-RAP230方案</td>
+              <td>1.11ac双流终端，1台230=100台手机<br>
+                2.11ac单流终端，1台230=70台手机<br>
+                3.11n单流终端，1台230=50台手机</td>
+              <td>RAP230*1</td>
+              <td>RAP230*2</td>
+              <td>RAP230*3</td>
+            </tr>
+            <tr class="tr5">
+              <td>RG-RAP2200方案方案</td>
+              <td>1.11ac双流终端，2台2200（E）=100台手机<br>
+                2.11ac单流终端，2台2200（E）=70台手机<br>
+                3.11n单流终端，2台2200（E）=50台手机</td>
+              <td>RAP2200(E)=2</td>
+              <td>RAP2200(E)=4</td>
+              <td>RAP2200(E)=6</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="table-box ry-mobile-show">
+        <table>
+          <tr class="row1">
+            <td class="hd">建议型号</td>
+            <td>RG-NBS3100/5100系列交换机</td>
+            <td>RG-NBR6200系列网关</td>
+          </tr>
+          <tr>
+            <td class="hd">选型建议</td>
+            <td>视接入的宽带数量而定，选择合适的端口数或者增加交换机数量</td>
+            <td>按照单台手机突发流量为8Mbps计算，n台手机*8Mbps≤网关支持最大带宽</td>
+          </tr>
+          <tr>
+            <td class="hd">示例100台手机 20个进线宽带</td>
+            <td>NBS3100-24GT4SFP*1</td>
+            <td>NBR6205-E*1</td>
+          </tr>
+          <tr>
+            <td class="hd">示例200台手机 40个进线宽带</td>
+            <td>NBS3100-24GT4SFP*2</td>
+            <td>NBR6205-E*1 or NBR6210-E*1 </td>
+          </tr>
+          <tr class="tr5">
+            <td class="hd">示例300台手机 60个进线宽带</td>
+            <td>NBS3100-24GT4SFP*3</td>
+            <td>NBR6210-E*1</td>
+          </tr>
+        </table>
+      </div>
+      <img class="ry-mobile-show" src="statics/v4.0/images/network/page8-img1.png">
+      <div class="table-box ry-mobile-show">
+        <table>
+          <tr class="row1">
+            <td class="hd">建议型号</td>
+            <td>POE交换机</td>
+            <td>RG-RAP230方案</td>
+          </tr>
+          <tr>
+            <td class="hd">选型建议</td>
+            <td>给AP供电使用</td>
+            <td>1.11ac双流终端，1台230=100台手机<br>
+              2.11ac单流终端，1台230=70台手机<br>
+              3.11n单流终端，1台230=50台手机</td>
+          </tr>
+          <tr>
+            <td class="hd">示例100台手机<br>20个进线宽带</td>
+            <td>视AP数量而定</td>
+            <td>RAP230*1</td>
+          </tr>
+          <tr>
+            <td class="hd">示例200台手机<br>40个进线宽带</td>
+            <td>视AP数量而定</td>
+            <td>RAP230*2</td>
+          </tr>
+          <tr class="tr5">
+            <td class="hd">示例300台手机<br>60个进线宽带</td>
+            <td>视AP数量而定</td>
+            <td>RAP230*3</td>
+          </tr>
+        </table>
+      </div>
+      <img class="ry-mobile-show" src="statics/v4.0/images/network/page8-img1.png">
+      <div class="table-box ry-mobile-show">
+        <table>
+          <tr class="row1">
+            <td class="hd">建议型号</td>
+            <td>RG-RAP2200方案</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td class="hd">选型建议</td>
+            <td>1.11ac双流终端，2台2200（E）=100台手机<br>
+              2.11ac单流终端，2台2200（E）=70台手机<br>
+              3.11n单流终端，2台2200（E）=50台手机</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td class="hd">示例100台手机<br>20个进线宽带</td>
+            <td>RAP2200(E)=2</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td class="hd">示例200台手机<br>40个进线宽带</td>
+            <td>RAP2200(E)=4</td>
+            <td></td>
+          </tr>
+          <tr class="tr5">
+            <td class="hd">示例300台手机<br>60个进线宽带</td>
+            <td>RAP2200(E)=6</td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
     </div>
   </div>
   
