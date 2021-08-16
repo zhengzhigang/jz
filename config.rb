@@ -4,8 +4,11 @@ require 'compass/import-once/activate'
 
 # Set this to the root of your project when deployed:
 http_path = "/"
-css_dir = "gaomixing/statics/v4.0/styles"
-sass_dir = "gaomixing-scss"
+# css_dir = "gaomixing/statics/v4.0/styles"
+# sass_dir = "gaomixing-scss"
+
+css_dir = "0819/css"
+sass_dir = "0819-scss"
 javascripts_dir = "javascripts"
 
 # You can select your preferred output style here (can be overridden via the command line):

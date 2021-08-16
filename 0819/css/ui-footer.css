@@ -1,0 +1,16 @@
+.footer { background-color: #efefef; padding: 20px 0 15px 0; height: 40px; line-height: 40px; font-size: 16px; }
+
+.footer .footer-links { float: left; }
+
+.footer .footer-links a { color: #888888; margin-right: 20px; }
+
+.footer .copyright { float: right; }
+
+.footer .copyright p { color: #555555; }
+
+@media screen and (max-width: 1199px) { .footer { padding: 10px 0 10px 0; height: auto; line-height: 30px; }
+  .footer .footer-links { float: none; width: 100%; text-align: center; }
+  .footer .copyright { float: none; width: 100%; text-align: center; }
+  .footer .copyright p { color: #555555; } }
+
+@media screen and (max-width: 480px) { .footer { font-size: 14px; line-height: 24px; } }

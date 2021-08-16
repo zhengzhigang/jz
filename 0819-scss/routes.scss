@@ -1,0 +1,581 @@
+.school-brief {
+  width: 100%;
+  padding: 50px 0 97px;
+  background: url("../images/routes/route-bg-04.jpg") no-repeat center;
+
+  h2 {
+    padding-bottom: 33px;
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+    font-weight: normal;
+    line-height: 1;
+  }
+
+  &-cont {
+    position: relative;
+    padding: 50px 181px 40px;
+    text-align: center;
+    background: #fff url("../images/routes/bg2.png") 120px 80px/100% auto no-repeat;
+  }
+
+  &-title-img {
+    display: block;
+    width: 266px;
+    margin: auto;
+    margin-bottom: 60px;
+  }
+
+  &-line {
+    position: relative;
+    height: 0;
+    border-bottom: 1px dashed #CDCDCD;
+
+    .left, .right {
+      position: absolute;
+      display: block;
+      width: 6px;
+      height: 6px;
+      top: -3px;
+      background: #CDCDCD;
+      border-radius: 100%;
+    }
+
+    .left {
+      left: 0;
+    }
+
+    .right {
+      right: 0;
+    }
+  }
+
+  &-text-img {
+    display: block;
+    width: 527px;
+    margin: 34px auto 32px;
+  }
+
+  .top-line, .bottom-line1, .bottom-line2 {
+    position: absolute;
+    width: 100%;
+    height: 8px;
+  }
+
+  .top-line {
+    top: -8px;
+    left: 0;
+    background: #c2e9ff;
+    opacity: 0.6;
+  }
+
+  .bottom-line1 {
+    background: #fff;
+    opacity: 0.6;
+    bottom: -8px;
+    left: 0;
+  }
+
+  .bottom-line2 {
+    background: #fff;
+    opacity: 0.4;
+    bottom: -16px;
+    left: 0;
+  }
+
+  .text {
+    font-size: 16px;
+    color: #333333;
+    text-align: left;
+    text-indent: 2em;
+    margin-bottom: 5px;
+  }
+}
+
+.career-talk-box {
+  width: 100%;
+  height: 700px;
+  background: url("../images/routes/route-bg-01.png") no-repeat center;
+
+  h2 {
+    padding: 30px 0 50px 0;
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+    font-weight: normal;
+    line-height: 1;
+  }
+
+  .career-talk {
+    width: 100%;
+  }
+
+  ul {
+    width: 1220px;
+    position: relative;
+  }
+
+  li {
+    float: left;
+    width: 224px;
+    height: 120px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    margin-right: 20px;
+
+    a {
+      position: relative;
+      display: block;
+      width: 100%;
+      height: 100%;
+      line-height: 115px;
+      text-align: center;
+      font-size: 30px;
+      color: #333;
+
+      i {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        margin-left: -12px;
+        width: 23px;
+        height: 10px;
+        background: url("../images/routes/route-08.png") no-repeat center;
+        display: none;
+      }
+
+      &:hover {
+          color: #009efd;
+
+          i {
+            display: block;
+          }
+      }
+    }
+
+    .slide-con {
+      position: absolute;
+      left: 0;
+      display: none;
+      background-color: #fff;
+      width: 1200px;
+      z-index: 99;
+      margin-top: 20px;
+      -webkit-box-shadow: 0 0 30px 6px rgba(0, 0, 0, 0.3);
+      -moz-box-shadow: 0 0 30px 6px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 0 30px 6px rgba(0, 0, 0, 0.3);
+
+      h4 {
+        padding: 30px 40px;
+        font-size: 30px;
+        font-weight: normal;
+        color: #009efd;
+      }
+
+      .talk-list {
+        padding: 0 15px 20px;
+      }
+
+      .talk-list:after {
+        content: "";
+        height: 0;
+        display: block;
+        clear: both;
+        visibility: hidden;
+      }
+
+      .temp-talk {
+        float: left;
+        width: 14%;
+        padding: 0 3%;
+        margin-bottom: 30px;
+
+        .talk-time {
+          color: #009efd;
+          line-height: 1.5;
+          font-size: 18px;
+          padding-bottom: 5px;
+          display: inline-block;
+        }
+
+        p {
+          font-size: 14px;
+          line-height: 1.5;
+        }
+      }
+    }
+  }
+}
+
+.address-box {
+  height: 520px;
+  padding: 90px 0 89px 0;
+  background: url("../images/routes/route-bg-02.png") no-repeat center;
+
+  .container {
+    padding: 40px 40px 40px;
+    background-color: #fff;
+    width: 1120px;
+    height: auto;
+  }
+
+  .address-table-list {
+    width: 100%;
+    height: 360px;
+    background-color: #fff;
+    overflow: hidden;
+
+    .table-con {
+      width: 101%;
+      overflow-y: scroll;
+      height: 100%;
+    }
+  }
+
+  table {
+    width: 100%;
+
+    tr {
+      table-layout: fixed;
+    }
+
+    th {
+      height: 60px;
+      background-color: #1ddbc6;
+      color: #fff;
+      text-align: center;
+      font-size: 18px;
+    }
+
+    td {
+      height: 60px;
+      font-size: 16px;
+      color: #555;
+      text-align: center;
+      border-bottom: 1px dashed #e6e6e6;
+    }
+
+    .wid_19 {
+      width: 19%;
+    }  
+    
+    .wid_18 {
+      width: 18%;
+    }
+
+    .wid_30 {
+      width: 30%;
+    }
+
+    .wid_45 {
+      width: 45%;
+    }
+  }
+}
+
+.routes-box {
+  height: 700px;
+  background: url("../images/routes/route-bg-03.png") no-repeat center;
+
+  h2 {
+    padding: 70px 0 20px 0;
+    text-align: center;
+    font-weight: normal;
+    color: #fff;
+    font-size: 36px;
+    line-height: 1;
+  }
+
+  .routes-list {
+    overflow: hidden;
+
+    img {
+      float: left;
+    }
+
+    .routes-middle {
+      margin-top: 210px;
+      margin-left: 25px;
+      margin-right: 8px;
+    }
+
+    .routes-right {
+      margin-top: 9px;
+    }
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .career-talk-box {
+    height: auto;
+    padding: 50px 0;
+
+    h2 {
+      padding: 0 0 40px 0;
+    }
+
+    ul {
+      width: 102.041%;
+    }
+
+    li {
+      width: 18%;
+      height: 80px;
+      margin-right: 2%;
+
+      a {
+        line-height: 74px;
+        font-size: 24px;
+
+        i {
+          bottom: 10px;
+        }
+      }
+
+      .slide-con {
+        width: 100%;
+
+        h4 {
+          font-size: 24px;
+        }
+      }
+    }
+  }
+
+  .address-box {
+    padding: 50px 0 50px 0;
+    height: auto;
+
+    .container {
+      width: auto;
+      padding: 30px 30px 30px;
+    }
+  }
+
+  .routes-box {
+    height: auto;
+    padding-bottom: 50px;
+
+    h2 {
+      padding-top: 50px;
+    }
+
+    .routes-list {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -moz-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -moz-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+
+      img {
+        float: none;
+        display: block;
+        width: 45%;
+      }
+
+      .routes-middle {
+        width: 40px;
+        height: auto;
+        -webkit-box-flex: 0;
+        -webkit-flex-grow: 0;
+        -moz-box-flex: 0;
+        -ms-flex-positive: 0;
+        flex-grow: 0;
+        margin-top: 0;
+        vertical-align: middle;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .school-brief {
+    padding: 40px 0 80px;
+  
+    &-cont {
+      padding: 50px 40px 40px;
+    }
+  
+    &-title-img {
+      width: 230px;
+      margin-bottom: 40px;
+    }
+  
+    &-text-img {
+      width: 480px;
+      margin: 28px auto 32px;
+    }
+  }
+
+  .career-talk-box {
+    padding: 30px 0;
+
+    li {
+      width: 23%;
+      height: 60px;
+
+      a {
+        font-size: 16px;
+        line-height: 56px;
+
+        i {
+          -webkit-transform: scale(0.6);
+          -moz-transform: scale(0.6);
+          -ms-transform: scale(0.6);
+          -o-transform: scale(0.6);
+          transform: scale(0.6);
+          bottom: 6px;
+        }
+
+        &:hover {
+          color: #444;
+
+          i {
+            display: none;
+          }
+        }
+      }
+
+      &.slide-down a {
+        color: #009efd;
+
+        i {
+          display: block;
+        }
+      }
+
+      .slide-con h4 {
+        font-size: 18px;
+        padding: 15px 15px 10px 25px;
+      }
+
+      .slide-con .talk-list {
+        padding: 0 0 0 0;
+      }
+
+      .slide-con .temp-talk {
+        width: 21%;
+        padding: 0 2%;
+        margin-bottom: 20px;
+
+        .talk-time {
+          font-size: 16px;
+          padding-bottom: 0;
+        }
+      }
+    }
+  }
+
+  .address-box {
+    padding: 40px 0;
+
+    .container {
+      padding: 20px 20px;
+    }
+
+    .address-table-list {
+      height: 250px;
+
+      .table-con {
+          width: 100%;
+      }
+    }
+
+    table th {
+      height: 40px;
+      font-size: 16px;
+    }
+
+    table td {
+      height: 40px;
+      font-size: 14px;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .school-brief {
+    padding: 40px 0 60px;
+  
+    &-cont {
+      padding: 40px 30px 40px;
+    }
+  
+    &-title-img {
+      width: 230px;
+      margin-bottom: 30px;
+    }
+  
+    &-text-img {
+      width: 80%;
+      margin: 25px auto;
+    }
+  }
+
+  .career-talk-box h2 {
+    font-size: 30px;
+  }
+  .career-talk-box li {
+    margin-bottom: 10px;
+  }
+  .career-talk-box li .slide-con {
+    margin-top: 10px;
+  }
+  .career-talk-box li .slide-con .temp-talk {
+    width: 46%;
+  }
+  .routes-box {
+    background: url(../images/routes/route-bg-03.png) no-repeat center;
+    -moz-background-size: auto 100%;
+    background-size: auto 100%;
+  }
+  .routes-box h2 {
+    font-size: 30px;
+    padding-top: 40px;
+  }
+  .routes-box .routes-list {
+    display: block;
+  }
+  .routes-box .routes-list img {
+    width: 100%;
+  }
+  .routes-box .routes-list .routes-middle {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    margin: 15px auto;
+  }
+  .address-box .container {
+    padding: 5px;
+  }
+  .address-box table th {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .address-box table td {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .school-brief {
+    &-cont {
+      padding: 40px 20px 40px;
+    }
+    &-text-img {
+      width: 90%;
+    }
+  }
+}
