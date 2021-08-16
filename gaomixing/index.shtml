@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+  <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no" />
+  <meta property="wb:webmaster" content="209aa6880b9c0855" />
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta name="robots" content="all" />
+  <title></title>
+  <link rel="stylesheet" href="statics/css/ruijiery/cui.css">
+  <link rel="stylesheet" href="statics/css/ruijiery/lib.css?20180308">
+  <link rel="stylesheet" href="statics/css/ruijiery/style.css?20180920">
+  <link rel="stylesheet" href="statics/css/ruijiery/less.css">
+  <link rel="stylesheet" href="statics/css/ruijiery/supernbr.css">
+  <link type="text/css" rel="stylesheet" href="statics/v4.0/styles/reset.css">
+  <link type="text/css" rel="stylesheet" href="statics/v4.0/styles/header.css?5">
+  <link type="text/css" rel="stylesheet" href="statics/v4.0/styles/footer.css?5">
+
+  <script type="text/javascript" src="statics/js/ruijiery/jquery.js"></script>
+  <script type="text/javascript" src="statics/v4.0/scripts/header.js"></script>
+  <script type="text/javascript" src="statics/v4.0/scripts/footer.js"></script>
+  <script type="text/javascript" src="statics/v4.0/scripts/jquery.typeahead.js"></script>
+  <script type="text/javascript" src="statics/v4.0/scripts/swiper.min.js"></script>
+  
+</head>
+<body>
+<!--ry-header-->
+<div id="ry-header-wrap">
+  <div id="ry-header">
+    <div id="ry-header-cont">
+      <h1 id="ry-logo">
+        <a href="http://www.ruijie.com.cn/" target="_blank">
+          <img src="statics/v4.0/images/common/logo-head-1.png" alt="" />
+        </a>
+        <a href="http://www.ruijiery.com/" target="_blank">
+          <img src="statics/v4.0/images/common/logo-head-2.png" alt="" />
+        </a>
+      </h1>
+      <ul id="ry-nav" class="ry-nav">
+        <li class="ry-nav-item" data-role="home">
+          <a class="ry-nav-a" href="http://www.ruijiery.com/">首页</a>
+        </li>
+        <li class="ry-nav-item" data-role="ry-nav-pro">
+          <a class="ry-nav-a" href="javascript:void(0)">产品中心<span><img src="statics/v4.0/images/icon-down-arrow.png" alt=""></span></a>
+        </li>
+        <li class="ry-nav-item">
+          <a class="ry-nav-a" href="http://www.ruijiery.com/cp/rwl/">睿网络</a>
+        </li>
+        <li class="ry-nav-item">
+          <a class="ry-nav-a" href="http://www.ruijiery.com/cp/ywl/">易网络</a>
+        </li>
+        <li class="ry-nav-item">
+          <a class="ry-nav-a" href="http://www.ruijiery.com/cp/fa/">解决方案</a>
+        </li>
+        <li class="ry-nav-item">
+          <a class="ry-nav-a" href="http://www.ruijie.com.cn/fw/" target="_blank">服务与支持</a>
+        </li>
+        <li class="ry-nav-item">
+          <a class="ry-nav-a" href="http://bbs.ruijiery.com/">睿易之家</a>
+        </li>
+      </ul>
+      <a id="ry-search-toggle-mobile" href="javascript:void(0)"></a>
+      <div id="ry-search" class="typeahead__container">
+        <div class="typeahead__field">
+          <div id="ry-search-cont" class="typeahead__query">
+            <input type="text" class="js-typeahead" autofocus="" autocomplete="off" id="ry-search-input" />
+            <button type="button" id="ry-search-btn"></button>
+          </div>
+        </div>
+      </div>
+      <a id="ry-search-toggle" href="javascript:void(0)"></a>
+      <a id="ry-mobile-nav-btn" href="javascript:void(0)"></a>
+    </div>
+  </div>
+</div>
+<div id="ry-nav-wrap" class="ry-nav-wrap">
+  <ol id="ry-ol-nav" class="ry-ol-nav">
+    <li class="ry-ol-nav-item" data-role="home">
+      <h2 class="ry-ol-nav-title">
+        <a class="ry-ol-nav-a" href="http://www.ruijiery.com/">
+          <span>首页</span>
+          <div class="ry-nav-item-a-bg">
+            <img src="statics/v4.0/images/nav-bg-sy.png">
+          </div>
+        </a>
+      </h2>
+    </li>
+    <li class="ry-ol-nav-item" data-role="ry-nav-pro">
+      <h2 class="ry-ol-nav-title">
+        <a class="ry-ol-nav-a" href="javascript:void(0)">
+          <span>产品中心</span>
+          <div class="ry-nav-item-a-bg">
+            <img src="statics/v4.0/images/nav-bg-cpzx.png">
+          </div>
+        </a>
+        <em>
+          <img src="statics/v4.0/images/icon-down-arrow.png" class="ry-pc-show">
+          <img src="statics/v4.0/images/icon-down-arrow@2x.png" class="ry-mobile-show">
+        </em>
+      </h2>
+      <div class="ry-subnav-cont ry-ol-subnav-cont">
+        <div class="ry-subnav-cont-l ry-columns">
+          <div class="ry-column">
+            <div class="ry-pro-item">
+              <div class="ry-pro-icon">
+                <img src="statics/v4.0/images/icon-jhj.png">
+              </div>
+              <div class="ry-pro-list">
+                <h3 class="ry-subTitle">
+                  <a href="http://www.ruijiery.com/cp/jh/">
+                    <p>交换机</p>
+                    <div class="ry-img">
+                      <img src="statics/v4.0/images/交换机RG-ES209C-P.jpg" alt="">
+                    </div>
+                  </a>
+                  <span class="ry-subnav-toggle">
+                    <img src="statics/v4.0/images/icon-down-arrow@2x.png">
+                  </span>
+                </h3>
+                <ul>
+                  <li>
+                    <a href="http://www.ruijiery.com/cp/jh-mkh/">
+                      <div class="ry-img">
+                        <img src="http://www.ruijiery.com/UploadFile/ProductLine/201709133034842-20170315054451678.jpg" alt="模块化核心交换机">
+                      </div>
+                      <h5>模块化核心交换机</h5>
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://www.ruijiery.com/cp/jh-wzjh/">
+                      <div class="ry-img">
+                        <img src="http://www.ruijiery.com/UploadFile/ProductLine/201709282020618-20160530020231463.jpg" alt="万兆交换机">
+                      </div>
+                      <h5>万兆交换机</h5>
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://www.ruijiery.com/cp/jh-qz/">
+                      <div class="ry-img">
+                        <img src="http://www.ruijiery.com/UploadFile/ProductLine/201709282021147-20160531044952761.jpg" alt="千兆交换机">
+                      </div>
+                      <h5>千兆交换机</h5>
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://www.ruijiery.com/cp/jh-bzjh/">
+                      <div class="ry-img">
+                        <img src="http://www.ruijiery.com/UploadFile/ProductLine/201709282021406-4.jpg" alt="百兆交换机">
+                      </div>
+                      <h5>百兆交换机</h5>
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://www.ruijiery.com/cp/jh-af/">
+                      <div class="ry-img">
+                        <img src="http://www.ruijiery.com/UploadFile/ProductLine/201709284040302-9.jpg" alt="安防交换机">
+                      </div>
+                      <h5>安防交换机</h5>
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://www.ruijiery.com/cp/jh-smart/">
+                      <div class="ry-img">
+                        <img src="http://www.ruijiery.com/UploadFile/ProductLine/201709282021722-6.jpg" alt="smart系列网管交换机">
+                      </div>
+                      <h5>smart系列网管交换机</h5>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="ry-pro-item">
+              <div class="ry-pro-icon">
+                <img src="statics/v4.0/images/icon-ly.png">
+              </div>
+              <div class="ry-pro-list">
+                <h3 class="ry-subTitle">
+                  <a href="http://www.ruijiery.com/cp/wg/">
+                    <p>路由</p>
+                    <div class="ry-img">
+                      <img src="statics/v4.0/images/路由RG-NBR6210-E.jpg" alt="">
+                    </div>
+                  </a>
+                  <span class="ry-subnav-toggle">
+                    <img src="statics/v4.0/images/icon-down-arrow@2x.png">
+                  </span>
+                </h3>
+                <ul>
+                  <li>
+                    <a href="http://www.ruijiery.com/cp/wg-nbr/">
+                      <div class="ry-img">
+                        <img src="http://www.ruijiery.com/UploadFile/ProductLine/201709284040433-10.jpg" alt="NBR-E系列企业网关">
+                      </div>
+                      <h5>NBR-E系列企业网关</h5>
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://www.ruijiery.com/cp/wg-lysmart/">
+                      <div class="ry-img">
+                        <img src="http://www.ruijiery.com/UploadFile/ProductLine/2018031212003506-20160905110634729.jpg" alt="smart系列上网行为管理路由器">
+                      </div>
+                      <h5>smart系列上网行为管理路由器</h5>
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://www.ruijiery.com/cp/wg-dgnlyq/">
+                      <div class="ry-img">
+                        <img src="http://www.ruijiery.com/UploadFile/ProductLine/201710239092648-轮播图-RG-NBR108G-P-1.jpg" alt="多功能路由器">
+                      </div>
+                      <h5>多功能路由器</h5>
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://www.ruijiery.com/cp/wg-bcr/">
+                      <div class="ry-img">
+                        <img src="http://www.ruijiery.com/UploadFile/ProductLine/201709284040645-11.jpg" alt="BCR系列商业云路由">
+                      </div>
+                      <h5>BCR系列商业云路由</h5>
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://www.ruijiery.com/cp/wg-zhwgnbr/">
+                      <div class="ry-img">
+                        <img src="http://www.ruijiery.com/UploadFile/ProductLine/201904243033248-01.png" alt="RG-NBR6000系列高性能企业级综合网关">
+                      </div>
+                      <h5>RG-NBR6000系列高性能企业级综合网关</h5>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="ry-column">
+            <div class="ry-pro-item">
+              <div class="ry-pro-icon">
+                <img src="statics/v4.0/images/icon-wx.png">
+              </div>
+              <div class="ry-pro-list">
+                <h3 class="ry-subTitle">
+                  <a href="http://www.ruijiery.com/cp/wx/">
+                    <p>无线</p>
+                    <div class="ry-img">
+                      <img src="statics/v4.0/images/无线RG-EAP102.jpg" alt="">
+                    </div>
+                  </a>
+                  <span class="ry-subnav-toggle">
+                    <img src="statics/v4.0/images/icon-down-arrow@2x.png">
+                  </span>
+                </h3>
+                <ul>
+                  <li>
+                    <a href="http://www.ruijiery.com/cp/wx-wxjrd/">
+                      <div class="ry-img">
+                        <img src="http://www.ruijiery.com/UploadFile/ProductLine/201709282025730-7.jpg" alt="无线接入点">
+                      </div>
+                      <h5>无线接入点</h5>
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://www.ruijiery.com/cp/wx-wxkzq/">
+                      <div class="ry-img">
+                        <img src="http://www.ruijiery.com/UploadFile/ProductLine/201709284041511-14.jpg" alt="无线控制器">
+                      </div>
+                      <h5>无线控制器</h5>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="ry-pro-item">
+              <div class="ry-pro-icon">
+                <img src="statics/v4.0/images/icon-aq.png">
+              </div>
+              <div class="ry-pro-list">
+                <h3 class="ry-subTitle">
+                  <a href="http://www.ruijiery.com/cp/aq/">
+                    <p>安全</p>
+                    <div class="ry-img">
+                      <img src="statics/v4.0/images/安全RG-WALL1600-S3700.jpg" alt="">
+                    </div>
+                  </a>
+                  <span class="ry-subnav-toggle">
+                    <img src="statics/v4.0/images/icon-down-arrow@2x.png">
+                  </span>
+                </h3>
+                <ul>
+                  <li>
+                    <a href="http://www.ruijiery.com/cp/aq-faaq/">
+                      <div class="ry-img">
+                        <img src="http://www.ruijiery.com/UploadFile/ProductLine/201709284041835-15.jpg" alt="FA系列下一代防火墙">
+                      </div>
+                      <h5>FA系列下一代防火墙</h5>
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://www.ruijiery.com/cp/aq-uac/">
+                      <div class="ry-img">
+                        <img src="http://www.ruijiery.com/UploadFile/ProductLine/201709284041728-16.jpg" alt="UAC系列上网行为管理">
+                      </div>
+                      <h5>UAC系列上网行为管理</h5>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="ry-pro-item">
+              <div class="ry-pro-icon">
+                <img src="statics/v4.0/images/icon-wlkzq.png">
+              </div>
+              <div class="ry-pro-list">
+                <h3 class="ry-subTitle">
+                  <a href="http://www.ruijiery.com/cp/wx-wxkzq/nbc512">
+                    <p>网络控制器</p>
+                    <div class="ry-img">
+                      <img src="statics/v4.0/images/网络控制器840x450.png" alt="">
+                    </div>
+                  </a>
+                  <span class="ry-subnav-toggle">
+                    <img src="statics/v4.0/images/icon-down-arrow@2x.png">
+                  </span>
+                </h3>
+                <ul>
+                  <li>
+                    <a href="http://www.ruijiery.com/cp/yfw-yfwxl/">
+                      <div class="ry-img">
+                        <img src="statics/v4.0/images/网络控制器1080x340.png" alt="RG-NBC系列">
+                      </div>
+                      <h5>RG-NBC系列</h5>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="ry-pro-item">
+              <div class="ry-pro-icon">
+                <img src="statics/v4.0/images/icon-yfw.png">
+              </div>
+              <div class="ry-pro-list">
+                <h3 class="ry-subTitle">
+                  <a href="http://www.ruijiery.com/cp/yfw/">
+                    <p>云服务</p>
+                    <div class="ry-img">
+                      <img src="statics/v4.0/images/云服务_20191011142013.png" alt="">
+                    </div>
+                  </a>
+                  <span class="ry-subnav-toggle">
+                    <img src="statics/v4.0/images/icon-down-arrow@2x.png">
+                  </span>
+                </h3>
+                <ul>
+                  <li>
+                    <a href="http://www.ruijiery.com/cp/yfw-yfwxl/">
+                      <div class="ry-img">
+                        <img src="http://www.ruijiery.com/UploadFile/ProductLine/201709287071121-网站maccbanner-840X450dpi.jpg" alt="云服务产品系列">
+                      </div>
+                      <h5>云服务产品系列</h5>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="ry-subnav-cont-r">
+          <h3 class="ry-subnav-cr-title">没找到产品？
+            <br>
+            或需要更多帮助！
+          </h3>
+          <ul class="ry-subnav-cr-list">
+            <li>
+              <a target="_blank" href="javascript:void(0)" onclick="javascript:window.open('http://webchat.ruijie.com.cn/live800/chatClient/chatbox.jsp?companyID=8933&amp;configID=21&amp;skillId=13','在线客服','toolbar=0, scrollbars=0, location=0, menubar=0, resizable=1,width=800,height=600');">产品咨询</a>
+            </li>
+            <li>
+              <a target="_blank" href="javascript:void(0)" onclick="javascript:window.open('http://webchat.ruijie.com.cn/live800/chatClient/chatbox.jsp?companyID=8933&amp;configID=21&amp;skillId=13','在线客服','toolbar=0, scrollbars=0, location=0, menubar=0, resizable=1,width=800,height=600');">解决方案咨询</a>
+            </li>
+            <li>
+              <a target="_blank" href="/bxzc/">保修政策</a>
+            </li>
+            <li>
+              <a target="_blank" href="//rj.link/e/">APP下载</a>
+            </li>
+          </ul>
+          <div class="ry-subnav-cr-unsolved">
+            <p>还是解决不了您的问题，您可以立即在线咨询</p>
+            <a target="_blank" href="javascript:void(0)" onclick="javascript:window.open('http://webchat.ruijie.com.cn/live800/chatClient/chatbox.jsp?companyID=8933&amp;configID=21&amp;skillId=13','在线客服','toolbar=0, scrollbars=0, location=0, menubar=0, resizable=1,width=800,height=600');">
+              立即在线咨询
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </li>
+    <li class="ry-ol-nav-item">
+      <h2 class="ry-ol-nav-title">
+        <a class="ry-ol-nav-a" href="http://www.ruijiery.com/cp/rwl/">
+          <span>睿网络<i>NEW</i></span>
+          <div class="ry-nav-item-a-bg">
+            <img src="statics/v4.0/images/nav-bg-rwl.png">
+          </div>
+        </a>
+      </h2>
+    </li>
+    <li class="ry-ol-nav-item">
+      <h2 class="ry-ol-nav-title">
+        <a class="ry-ol-nav-a" href="http://www.ruijiery.com/cp/ywl/">
+          <span>易网络</span>
+          <div class="ry-nav-item-a-bg">
+            <img src="statics/v4.0/images/nav-bg-ywl.png">
+          </div>
+        </a>
+      </h2>
+    </li>
+    <li class="ry-ol-nav-item">
+      <h2 class="ry-ol-nav-title">
+        <a class="ry-ol-nav-a" href="http://www.ruijiery.com/cp/fa/">
+          <span>解决方案</span>
+          <div class="ry-nav-item-a-bg">
+            <img src="statics/v4.0/images/nav-bg-jjfa.png">
+          </div>
+        </a>
+      </h2>
+    </li>
+    <li class="ry-ol-nav-item">
+      <h2 class="ry-ol-nav-title">
+        <a class="ry-ol-nav-a" href="http://www.ruijie.com.cn/fw/" target="_blank">
+          <span>服务与支持</span>
+          <div class="ry-nav-item-a-bg">
+            <img src="statics/v4.0/images/nav-bg-fwzc.png">
+          </div>
+        </a>
+      </h2>
+    </li>
+    <li class="ry-ol-nav-item">
+      <h2 class="ry-ol-nav-title">
+        <a class="ry-ol-nav-a" href="http://bbs.ruijiery.com/" target="_blank">
+          <span>睿易之家</span>
+          <div class="ry-nav-item-a-bg">
+            <img src="statics/v4.0/images/nav-bg-ryzj.png">
+          </div>
+        </a>
+      </h2>
+    </li>
+  </ol>
+</div>
+<!--/ry-header-->
+<script type="text/javascript" src="statics/v4.0/scripts/jquery.min.js"></script>
+<script type="text/javascript" src="statics/v4.0/scripts/main.js"></script>
+
+<link type="text/css" rel="stylesheet" href="statics/v4.0/styles/swiper.min.css">
+<link type="text/css" rel="stylesheet" href="statics/v4.0/styles/main.css">
+
+
+<!--内容开始-->
+<div id="ry-container">
+  <div class="z-page z-page1">
+    <div class="ry-cont">
+      <img src="statics/v4.0/images/network/page1-title.png" class="title-img">
+    </div>
+    <img class="z-page1-decorator" src="statics/v4.0/images/network/page1-img1.png">
+
+    <p class="ry-mainTitle">
+      <span class="bg-title">方案简介</span>
+    </p>
+    <div class="z-page z-page2">
+      <div class="z-page2-wrap">
+        <p class="ry-text">
+          锐捷睿易高密星是专门面向手机工作室场景推出的云解决方案。主要解决手机工作室场景出口配置难、
+          无线调优难、方案选型难的问题。高密星解决方案可以保障手机工作室无线刷机稳定不卡顿，合规刷机不封号。
+        </p>
+        <img src="statics/v4.0/images/network/page2-bg.jpg" alt="">
+      </div>
+      <div class="mobile-line ry-mobile-show"></div>
+    </div>
+  </div>
+
+  <div class="z-page z-page3">
+    <div class="z-page3-bg">
+      <div class="ry-cont">
+        <p class="ry-mainTitle">
+          <span class="line-title">高密星环境检测工具</span>
+        </p>
+        <p class="ry-text">
+          针对用户无法判断手机终端无线性能和环境干扰的问题，高密星设计了环境检测工具，
+          帮助工程商快速判断手机终端性能和环境干扰情况，并给出选型建议。做到工具在手，心中有数！
+        </p>
+        <div class="swiper-container z-page3-swiper">
+          <div class="arrow-group">
+            <span class="left arrow"></span>
+            <span class="right arrow"></span>
+          </div>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img class="phone" src="statics/v4.0/images/network/page3-img4.png">
+              <div class="img-box">
+                <img src="statics/v4.0/images/network/page3-img1.jpg">
+              </div>
+              <p class="slide-desc">高密星APPM<br>进入入口</p>
+            </div>
+            <div class="swiper-slide">
+              <img class="phone" src="statics/v4.0/images/network/page3-img4.png">
+              <div class="img-box">
+                <img src="statics/v4.0/images/network/page3-img2.jpg">
+              </div>
+              <p class="slide-desc">高密星APP<br>环境检测1</p>
+            </div>
+            <div class="swiper-slide">
+              <img class="phone" src="statics/v4.0/images/network/page3-img4.png">
+              <div class="img-box">
+                <img src="statics/v4.0/images/network/page3-img3.jpg">
+              </div>
+              <p class="slide-desc">高密星APP<br>环境检测2</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mobile-line ry-mobile-show"></div>
+    </div>
+  </div>
+
+  <div class="z-page z-page4">
+    <div class="ry-cont">
+      <p class="ry-mainTitle">
+        <span class="line-title">高密星防封号模板</span>
+      </p>
+      <p class="ry-text">
+        为了让手机工作室不触犯平台规则，防止被封号。高密星设计了针对手机工作室多线路配置模板，简化调试步骤，一键下发配置。让工程商调试门槛降低，保证调试效果。
+      </p>
+      <img class="text-img" src="statics/v4.0/images/network/page4-img1.png">
+      <img class="pro-img" src="statics/v4.0/images/network/page4-img.png" alt="">
+    </div>
+    <div class="mobile-line ry-mobile-show"></div>
+  </div>
+
+  <div class="z-page z-page5">
+    <div class="ry-cont">
+      <p class="ry-mainTitle">
+        <span class="line-title">高密星无线智能调优</span>
+      </p>
+      <p class="ry-text">
+        面对大量手机，无线干扰严重。如果不会无线调优，单台无线AP最多只能带30-50台手机，非常影响手机工作室业务。高密星设计了无线智能调优功能，让无线带机量增加150%，无线刷机更稳定。
+      </p>
+      <ul>
+        <li class="item">
+          <img class="item-img ry-pc-show" src="statics/v4.0/images/network/page5-img1.png">
+          <p class="item-title">
+            <img class="item-num" src="statics/v4.0/images/network/page5-num1.png">
+            前置条件
+          </p>
+          <p class="ry-text">通过对手机网卡、现场无线环境的检测确认，明确高密方案带机数量</p>
+          <img class="item-img ry-mobile-show" src="statics/v4.0/images/network/page5-img1.png">
+        </li>
+        <li class="item">
+          <img class="item-img ry-pc-show" src="statics/v4.0/images/network/page5-img2.png">
+          <p class="item-title">
+            <img class="item-num" src="statics/v4.0/images/network/page5-num2.png">
+            内网及无线配置
+          </p>
+          <p class="ry-text">一键直达，完成网关侧一线多拨/多wan的配置，同时完成无线网络调优</p>
+          <img class="item-img ry-mobile-show" src="statics/v4.0/images/network/page5-img2.png">
+        </li>
+        <li class="item">
+          <img class="item-img ry-pc-show" src="statics/v4.0/images/network/page5-img3.png">
+          <p class="item-title">
+            <img class="item-num" src="statics/v4.0/images/network/page5-num3.png">
+            手机连Wi-Fi引导
+          </p>
+          <p class="ry-text">按照要求将对应数量的手机连接到对应的ssid，轻松完成手机终端的均衡负载</p>
+          <img class="item-img ry-mobile-show" src="statics/v4.0/images/network/page5-img3.png">
+        </li>
+        <li class="item">
+          <img class="item-img ry-pc-show" src="statics/v4.0/images/network/page5-img4.png">
+          <p class="item-title">
+            <img class="item-num" src="statics/v4.0/images/network/page5-num4.png">
+            监控-终端视图
+          </p>
+          <p class="ry-text">手机运行的流量状态、信道利用率等信息一目了然，出现问题轻松定位</p>
+          <img class="item-img ry-mobile-show" src="statics/v4.0/images/network/page5-img4.png">
+        </li>
+      </ul>
+    </div>
+    <div class="mobile-line ry-mobile-show"></div>
+  </div>
+
+  <div class="z-page z-page6">
+    <div class="ry-cont">
+      <p class="ry-mainTitle">
+        <span class="bg-title">方案对比</span>
+      </p>
+      <div class="page6-box">
+        <div class="page6-cont">
+          <div class="left">
+            <p class="item-title">使用高密星前</p>
+            <p class="ry-text">一台ap带40台手机，刷机就开始卡</p>
+            <p class="ry-text">防封号不会配，防封准低，经常被封号</p>
+            <p class="ry-text">渠道不敢接手机工作室项目，调不好被退货，口碑和利益都损失</p>
+          </div>
+          <div class="center">
+            <img src="statics/v4.0/images/network/page6-vs.png" alt="">
+          </div>
+          <div class="right">
+            <p class="item-title">使用高密星后</p>
+            <p class="ry-text">一台ap带100台手机，刷机无卡顿，<br><span class="刷机效率提升150%">刷机效率提升150%</span></p>
+            <p class="ry-text">防封号调试难度低，防封精准，<br><span class="red">防封率在99%</span></p>
+            <p class="ry-text">渠道有信心，会调试敢保证效果，<br><span class="red">项目成功率100%</span></p>
+          </div>
+        </div>
+      </div>
+      <div class="text-box">
+        <p class="ry-text ry-text1">
+          无线智能调优，刷机效率提升 <span class="red">150%</span>
+        </p>
+        <p class="ry-text ry-text2">
+          精准控制手机IP地址，防封有效率 <span class="red">99%</span>
+        </p>
+        <p class="ry-text ry-text3">
+          高密场景模板化配置，调试成功率 <span class="red">100%</span>，项目效果有保证
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="z-page z-page8">
+    <div class="ry-cont">
+      <p class="ry-mainTitle">
+        <span class="bg-title">方案选型建议</span>
+      </p>
+      <div class="table-box ry-pc-show">
+        <table>
+          <thead>
+            <tr>
+              <th class="th1">建议型号</th>
+              <th class="th2">选型建议</th>
+              <th class="th3">示例100台手机<br>20个进线宽带</th>
+              <th class="th4">示例100台手机<br>20个进线宽带</th>
+              <th class="th5">示例300台手机<br>60个进线宽带</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="tr1">
+              <td>RG-NBS3100/5100 系列交换机</td>
+              <td>视接入的宽带数量而定，选择合适的端口数
+                或者增加交换机数量</td>
+              <td>NBS3100-
+                24GT4SFP*1
+                </td>
+              <td>NBS3100-
+                24GT4SFP*2
+                </td>
+              <td>NBS3100-
+                24GT4SFP*3</td>
+            </tr>
+            <tr class="tr2">
+              <td>RG-NBR6200 系列网关</td>
+              <td>按照单台手机突发流量为8Mbps计算，n台手机*8Mbps≤网关支持最大带宽</td>
+              <td>NBR6205-E*1</td>
+              <td>NBR6205-E*1 or 
+                NBR6210-E*1 </td>
+              <td>NBR6210-E*1</td>
+            </tr>
+            <tr class="tr3">
+              <td>POE交换机</td>
+              <td>给AP供电使用</td>
+              <td>视AP数量而定</td>
+              <td>视AP数量而定</td>
+              <td>视AP数量而定</td>
+            </tr>
+            <tr class="tr4">
+              <td>RG-RAP230方案</td>
+              <td>1.11ac双流终端，1台230=100台手机<br>
+                2.11ac单流终端，1台230=70台手机<br>
+                3.11n单流终端，1台230=50台手机</td>
+              <td>RAP230*1</td>
+              <td>RAP230*2</td>
+              <td>RAP230*3</td>
+            </tr>
+            <tr class="tr5">
+              <td>RG-RAP2200方案方案</td>
+              <td>1.11ac双流终端，2台2200（E）=100台手机<br>
+                2.11ac单流终端，2台2200（E）=70台手机<br>
+                3.11n单流终端，2台2200（E）=50台手机</td>
+              <td>RAP2200(E)=2</td>
+              <td>RAP2200(E)=4</td>
+              <td>RAP2200(E)=6</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="table-box ry-mobile-show">
+        <table>
+          <tr class="row1">
+            <td class="hd">建议型号</td>
+            <td>RG-NBS3100/5100系列交换机</td>
+            <td>RG-NBR6200系列网关</td>
+          </tr>
+          <tr>
+            <td class="hd">选型建议</td>
+            <td>视接入的宽带数量而定，选择合适的端口数或者增加交换机数量</td>
+            <td>按照单台手机突发流量为8Mbps计算，n台手机*8Mbps≤网关支持最大带宽</td>
+          </tr>
+          <tr>
+            <td class="hd">示例100台手机 20个进线宽带</td>
+            <td>NBS3100-24GT4SFP*1</td>
+            <td>NBR6205-E*1</td>
+          </tr>
+          <tr>
+            <td class="hd">示例200台手机 40个进线宽带</td>
+            <td>NBS3100-24GT4SFP*2</td>
+            <td>NBR6205-E*1 or NBR6210-E*1 </td>
+          </tr>
+          <tr class="tr5">
+            <td class="hd">示例300台手机 60个进线宽带</td>
+            <td>NBS3100-24GT4SFP*3</td>
+            <td>NBR6210-E*1</td>
+          </tr>
+        </table>
+      </div>
+      <img class="ry-mobile-show" src="statics/v4.0/images/network/page8-img1.png">
+      <div class="table-box ry-mobile-show">
+        <table>
+          <tr class="row1">
+            <td class="hd">建议型号</td>
+            <td>POE交换机</td>
+            <td>RG-RAP230方案</td>
+          </tr>
+          <tr>
+            <td class="hd">选型建议</td>
+            <td>给AP供电使用</td>
+            <td>1.11ac双流终端，1台230=100台手机<br>
+              2.11ac单流终端，1台230=70台手机<br>
+              3.11n单流终端，1台230=50台手机</td>
+          </tr>
+          <tr>
+            <td class="hd">示例100台手机<br>20个进线宽带</td>
+            <td>视AP数量而定</td>
+            <td>RAP230*1</td>
+          </tr>
+          <tr>
+            <td class="hd">示例200台手机<br>40个进线宽带</td>
+            <td>视AP数量而定</td>
+            <td>RAP230*2</td>
+          </tr>
+          <tr class="tr5">
+            <td class="hd">示例300台手机<br>60个进线宽带</td>
+            <td>视AP数量而定</td>
+            <td>RAP230*3</td>
+          </tr>
+        </table>
+      </div>
+      <img class="ry-mobile-show" src="statics/v4.0/images/network/page8-img1.png">
+      <div class="table-box ry-mobile-show">
+        <table>
+          <tr class="row1">
+            <td class="hd">建议型号</td>
+            <td>RG-RAP2200方案</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td class="hd">选型建议</td>
+            <td>1.11ac双流终端，2台2200（E）=100台手机<br>
+              2.11ac单流终端，2台2200（E）=70台手机<br>
+              3.11n单流终端，2台2200（E）=50台手机</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td class="hd">示例100台手机<br>20个进线宽带</td>
+            <td>RAP2200(E)=2</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td class="hd">示例200台手机<br>40个进线宽带</td>
+            <td>RAP2200(E)=4</td>
+            <td></td>
+          </tr>
+          <tr class="tr5">
+            <td class="hd">示例300台手机<br>60个进线宽带</td>
+            <td>RAP2200(E)=6</td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+  
+</div>
+<!--内容结束-->
+
+<!--ry-footer && ry-right-bar-->
+<ul id="ry-right-bar">
+  <li id="PreMarketTalk" class="pre-sales-pop-ups-btn">
+    <a href="javascript:void(0)">
+      <div class="ry-icon ry-icon1">
+        <p class="ry-text">售前咨询</p>
+      </div>
+    </a>
+  </li>
+  <li id="AfterSaleTalk">
+    <a href="javascript:void(0)">
+      <div class="ry-icon ry-icon2">
+        <p class="ry-text">售后咨询</p>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a href="tel:400-100-0078">
+      <div class="ry-icon ry-icon3">
+        <p class="ry-text">拨打电话</p>
+      </div>
+    </a>
+  </li>
+</ul>
+<div id="ry-footer">
+  <div id="ry-footer-container">
+    <div class="ry-footer-item ry-footer-item-4">
+      <h4 class="ry-pc-show">
+        <a href="http://www.ruijie.com.cn/" target="_blank">
+          <img src="statics/v4.0/images/common/logo-foot1.png" alt="" />
+        </a>
+        <a href="http://www.ruijiery.com/" target="_blank">
+          <img src="statics/v4.0/images/common/logo-foot2.png" alt="" />
+        </a>
+      </h4>
+      <h4 class="ry-mobile-show">联系我们</h4>
+      <ul>
+        <li>400-100-0078 全国统一服务热线</li>
+        <li>
+          <a href="javascript:void(0)" class="pre-sales-pop-ups-btn">售前咨询</a>
+        </li>
+        <li>
+          <a href="javascript:void(0)" id="mAfterSaleTalk">售后咨询</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="ry-footer-item ry-footer-item-1">
+      <h4>服务支持</h4>
+      <ul>
+        <li>
+          <a target="_blank" href="http://www.ruijie.com.cn/fw/">产品服务中心</a>
+        </li>
+        <li>
+          <a target="_blank" href="http://www.ruijiery.com/bxzc/">保修政策</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="ry-footer-item ry-footer-item-2">
+      <h4>合作伙伴</h4>
+      <ul>
+        <li>
+          <a target="_blank" href="http://www.ruijiery.com/cwhzhb/">成为合作伙伴</a>
+        </li>
+        <li>
+          <a target="_blank" href="http://partners.ruijie.com.cn/PartnerPortal/Home?typeid=101">合作伙伴专区</a>
+        </li>
+        <li>
+          <a target="_blank" href="http://www.ruijiery.com/hzhbrx/">合作伙伴400</a>
+        </li>
+      </ul>
+
+    </div>
+
+    <ul class="ry-footer-item ry-footer-item-3">
+      <li><a class="ry-jdong" target="_blank" href="https://mall.jd.com/index-10024117.html?from=pc">
+        <div class="rj-img">
+          <img src="statics/v4.0/images/jd 2.png" alt="京东商城">
+        </div>
+        <p class="rj-text">京东商城</p>
+      </a>
+      </li>
+      <li>
+        <div class="rj-img">
+          <img src="statics/v4.0/images/ma1 2.png" alt="官方公众号" />
+        </div>
+        <p class="rj-text">官方公众号</p>
+      </li>
+      <li>
+        <div class="rj-img">
+          <img src="statics/v4.0/images/ma2xin 2.png" alt="睿易APP" />
+        </div>
+        <p class="rj-text">睿易APP</p>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div id="ry-footer-link">
+  <div class="ry-footer-link-cont">
+    <ul class="ry-footer-link-nav">
+      <li>
+        <a href="//www.ruijie.com.cn/" target="_blank">锐捷网络官网</a>
+      </li>
+      <li>
+        <a href="/flsm/" target="_blank">法律声明</a>
+      </li>
+      <li id="ysbh">
+        <a href="/ysbh/" target="_blank">隐私保护</a>
+      </li>
+      <li id="zjry">
+        <a href="/zjry/" target="_blank">关于锐捷睿易</a>
+      </li>
+      <li>
+        <a href="/lxwm/" target="_blank">联系我们</a>
+      </li>
+    </ul>
+    <div class="ry-footer-copy">
+      版权所有&copy;2000-2019 锐捷睿易 <a href="" target="_blank">京ICP备13025710号-9</a>
+    </div>
+  </div>
+</div>
+<!--/ry-footer && ry-right-bar-->
+<script type="text/javascript" src="statics/js/ruijiery/lib.js"></script>
+<link rel="stylesheet" href="statics/css/ruijiery/slick.css">
+<script type="text/javascript" src="statics/js/ruijiery/slick.min.js"></script>
+<script type="text/javascript" src="statics/v4.0/scripts/zhichi.js"></script>
+<style>
+  div.right_box {
+    top: 55%;
+  }
+
+  @media only screen and (max-width: 479px) {
+    #ysbh {
+      display: none;
+    }
+  }
+
+  @media only screen and (min-width: 479px) {
+    #zjry {
+      display: none;
+    }
+  }
+</style>
+</body>
+</html>

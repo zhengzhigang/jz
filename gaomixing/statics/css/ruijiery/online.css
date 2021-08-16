@@ -1,0 +1,261 @@
+.banner {
+  position: relative;
+}
+.banner .background img {
+  display: block;
+}
+.banner .banner-word {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 13.8%;
+  margin-left: 12%;
+}
+.banner .banner-word h2 {
+  font-size: 2.5rem;
+  line-height: 3rem;
+  color: #fff;
+  text-align: left;
+  margin-bottom: 32px;
+}
+.banner .banner-word h3 {
+  color: #fff;
+  text-align: left;
+  font-size: 1.5rem;
+  line-height: 1.7rem;
+}
+.banner .banner-word .link {
+  margin-top: 49px;
+}
+.banner .banner-word .link a {
+  width: 211px;
+  height: 51px;
+  display: block;
+  font-size: 24px;
+  line-height: 51px;
+  text-indent: 1.5em;
+  color: #fff;
+  background: url('../../images/ruijiery/onlineinner.png') no-repeat center center;
+}
+.content {
+  position: relative;
+}
+.content .conback img {
+  display: block;
+}
+.content .conabs {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+}
+.content .conabs h4 {
+  margin-top: 5%;
+  margin-bottom: 0.6%;
+  color: #507df0;
+  text-align: center;
+  font-size: 2rem;
+  line-height: 2rem;
+}
+.content .conabs h5 {
+  margin: 0 5%;
+  margin-bottom: 2%;
+  color: #507df0;
+  text-align: center;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+}
+.content .conabs .conproduct {
+  margin: 0 auto;
+}
+.content .conabs .conproduct p {
+  color: #fff;
+  text-align: center;
+  font-size: 0.9rem;
+  line-height: 2.4rem;
+  width: 52%;
+  margin: 0 auto;
+}
+.content .conabs .conproduct0 {
+  width: 97%;
+  margin-top: 5%;
+}
+.content .conabs .conproduct0 .list {
+  float: left;
+  width: 17%;
+  margin: 0 8%;
+}
+.content .conabs .conproduct0 .list .up {
+  margin-bottom: 3.4%;
+}
+.content .conabs .conproduct0 .list .up img {
+  width: 100%;
+  display: block;
+}
+.content .conabs .conproduct0 .list .down .title {
+  margin-bottom: 9px;
+  color: #507df0;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+.content .conabs .conproduct0 .list .down .subtitle {
+  margin-bottom: 6%;
+  color: #507df0;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1rem;
+}
+.content .conabs .conproduct0 .list .down .text {
+  color: #727171;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.3rem;
+}
+.content .conabs .conproduct1 {
+  width: 40%;
+  margin-top: 3%;
+}
+.content .conabs .conproduct2 {
+  width: 68%;
+  margin-top: 5%;
+}
+.content .conabs .conproduct3 {
+  width: 55%;
+  margin-top: 5%;
+}
+.content .conabs .conproduct4 {
+  width: 51%;
+  margin-top: 3%;
+}
+.content .conabs .conproduct5 {
+  width: 51%;
+  margin-top: 3%;
+}
+.content .conabs .conproduct6 {
+  width: 62%;
+  margin-top: 5%;
+}
+.content .conabs .conproduct7 {
+  width: 64%;
+  margin-top: 4%;
+}
+.content .conabs .conproduct8 {
+  width: 55%;
+  margin-top: 2%;
+}
+.content .white h4,
+.content .white h5,
+.content .white p {
+  color: #fff;
+}
+.parameter table tr:nth-child(2n+1) {
+  background: #f4f4f4;
+}
+.content .conback img.small_img {
+  display: none;
+}
+.content .conabs .small_img {
+  display: none;
+}
+.banner .background img.small_img {
+  display: none;
+}
+.banner .background .small_img {
+  display: none;
+}
+@media all and (max-width: 767px) {
+  .content .conback img.big_img {
+    display: none;
+  }
+  .content .conback img.small_img {
+    display: block;
+  }
+  .content .conabs .big_img {
+    display: none;
+  }
+  .content .conabs .small_img {
+    display: block;
+  }
+  .banner .background img.big_img {
+    display: none;
+  }
+  .banner .background img.small_img {
+    display: block;
+  }
+  .content .conabs .conproduct {
+    width: 98%;
+    margin-top: 10%;
+  }
+  .content .conabs .conproduct1 {
+    margin-top: 21%;
+  }
+  .content .conabs .conproduct2 {
+    margin-top: 2%;
+  }
+  .content .conabs .conproduct3 {
+    margin-top: 17%;
+  }
+  .content .conabs .conproduct4 {
+    margin-top: 16%;
+  }
+  .content .conabs .conproduct5 {
+    margin-top: 17%;
+  }
+  .content .conabs .conproduct6 {
+    margin-top: 19%;
+  }
+  .content .conabs .conproduct7 {
+    margin-top: 22%;
+  }
+  .content .conabs .conproduct8 {
+    margin-top: 15%;
+  }
+  .banner .banner-word .link a {
+    font-size: 24px;
+    line-height: 51px;
+  }
+  .banner .banner-word {
+    width: 100%;
+    margin-left: 0;
+  }
+  .banner .banner-word h2,
+  .banner .banner-word h3 {
+    text-align: center;
+  }
+  .banner .banner-word h3 a {
+    text-align: left;
+    margin: 0 auto;
+  }
+  .banner .banner-word .link {
+    margin-top: 55%;
+  }
+  .banner .banner-word .link a {
+    font-size: 1.5rem ;
+    text-indent: 2.5rem;
+  }
+}
+@media all and (max-width: 500px) {
+  .banner .banner-word h2{
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 18px;
+  }
+  .content .conabs h4{
+    font-size: 1.5rem;
+  }
+  .banner .banner-word .link {
+    margin-top: 50%;
+  }
+  .banner .banner-word .link a {
+    /*width: 43%;
+    background-size: 100% 100%;
+    font-size: 1.5rem ;
+    text-indent: 2.5rem;*/
+  }
+}
+@media all and (max-width: 350px) {
+  .banner .banner-word .link {
+    margin-top: 40%;
+  }
+}
