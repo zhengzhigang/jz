@@ -59,3 +59,95 @@
   color: #333;
   margin-bottom: 20px;
 }
+/* line 60, ../../0819-scss/contact.scss */
+.contact .item-table {
+  width: 100%;
+}
+/* line 63, ../../0819-scss/contact.scss */
+.contact .item-table td, .contact .item-table th {
+  padding: 8px 14px;
+  border: 1px solid #C5EBF9;
+  font-size: 16px;
+  color: #333;
+}
+/* line 70, ../../0819-scss/contact.scss */
+.contact .item-table th {
+  color: #0A71CA;
+}
+/* line 74, ../../0819-scss/contact.scss */
+.contact .item-table .table-head-tr {
+  background: url(../images/table-bg.png) center center/100% 100% no-repeat;
+}
+
+@media screen and (max-width: 1024px) {
+  /* line 82, ../../0819-scss/contact.scss */
+  .contact-content {
+    max-width: auto;
+    margin: 20px 30px 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 92, ../../0819-scss/contact.scss */
+  .contact-content-title {
+    padding: 37px 30px 30px;
+  }
+  /* line 95, ../../0819-scss/contact.scss */
+  .contact-content-title-text {
+    font-size: 32px;
+  }
+  /* line 101, ../../0819-scss/contact.scss */
+  .contact .waterfall {
+    padding: 0 30px;
+  }
+  /* line 105, ../../0819-scss/contact.scss */
+  .contact .waterfall-item-title {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 115, ../../0819-scss/contact.scss */
+  .contact-content {
+    margin: 20px 15px 50px;
+  }
+  /* line 117, ../../0819-scss/contact.scss */
+  .contact-content-title {
+    padding: 25px 30px 30px;
+  }
+  /* line 120, ../../0819-scss/contact.scss */
+  .contact-content-title-text {
+    font-size: 32px;
+  }
+  /* line 126, ../../0819-scss/contact.scss */
+  .contact .waterfall {
+    padding: 0 30px;
+    margin-bottom: 40px;
+  }
+  /* line 130, ../../0819-scss/contact.scss */
+  .contact .waterfall-left {
+    width: 100%;
+    float: none;
+  }
+  /* line 134, ../../0819-scss/contact.scss */
+  .contact .waterfall-right {
+    width: 100%;
+    float: none;
+  }
+}
+@media screen and (max-width: 414px) {
+  /* line 144, ../../0819-scss/contact.scss */
+  .contact-content {
+    margin: 20px 15px 40px;
+  }
+  /* line 148, ../../0819-scss/contact.scss */
+  .contact-content-title-text {
+    font-size: 32px;
+  }
+  /* line 154, ../../0819-scss/contact.scss */
+  .contact .waterfall {
+    padding: 0 15px;
+  }
+  /* line 157, ../../0819-scss/contact.scss */
+  .contact .waterfall-item-title {
+    margin-bottom: 10px;
+  }
+}
