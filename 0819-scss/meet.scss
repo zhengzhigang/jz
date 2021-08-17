@@ -1,0 +1,289 @@
+.meet {
+  background-color: #F7F7F7;
+
+  &-btn {
+    &-group {
+      font-size: 0;
+    }
+
+    display: inline-block;
+    width: 142px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #D20032;
+    border-radius: 21px;
+    font-size: 16px;
+    color: #fff;
+    border: 1px solid #D20032;
+
+    &.outline {
+      background-color: #fff;
+      color: #D20032;
+    }
+  }
+
+  &-banner {
+    &-img {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  &-desc {
+    padding: 28px 0 40px;
+    margin-bottom: 29px;
+    text-align: center;
+    background-color: #fff;
+  }
+
+  &-title {
+    line-height: 40px;
+
+    &-text {
+      position: relative;
+      padding: 0 104px;
+
+      &::after, &::before {
+        position: absolute;
+        content: '';
+        width: 94px;
+        height: 8px;
+        top: 14px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      &::before {
+        left: 0;
+        background-image: url(../images/meet/title-bg.png);
+      }
+
+      &::after {
+        right: 0;
+        background-image: url(../images/meet/title-bg.png);
+        transform: rotateZ(180deg);
+      }
+    }
+
+    .meet-text {
+      font-size: 16px;
+      color: #333;
+    }
+  }
+
+  &-list {
+    max-width: 1200px;
+    margin: 0 auto 108px;
+  }
+
+  &-item {
+    margin-bottom: 20px;
+    font-size: 0;
+
+    .left {
+      display: inline-block;
+      width: 456px;
+      margin-right: 41px;
+      vertical-align: top;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .right {
+      display: inline-block;
+      width: 703px;
+    }
+
+    &-title {
+      position: relative;
+      font-size: 30px;
+      color: #333333;
+      padding-left: 59px;
+      line-height: 42px;
+      margin: 37px 0 18px;
+
+      &::before {
+        position: absolute;
+        content: '';
+        width: 47px;
+        height: 42px;
+        top: 0;
+        left: 0;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      &.title1::before {
+        background-image: url(../images/meet/item-title-icon1.png);
+      }
+
+      &.title2::before {
+        background-image: url(../images/meet/item-title-icon2.png);
+      }
+
+      &.title3::before {
+        background-image: url(../images/meet/item-title-icon3.png);
+      }
+
+      &.title4::before {
+        background-image: url(../images/meet/item-title-icon4.png);
+      }
+    }
+
+    &-time {
+      position: relative;
+      font-size: 20px;
+      color: #D20032;
+      padding-left: 33px;
+      line-height: 21px;
+      margin-bottom: 16px;
+
+      &::before {
+        position: absolute;
+        content: '';
+        width: 21px;
+        height: 21px;
+        top: 0;
+        left: 0;
+        background: url(../images/meet/time-icon.png) center/100% no-repeat;
+      }
+    }
+
+    &-desc {
+      min-height: 91px;
+      margin-bottom: 10px;
+      font-size: 16px;
+      color: #333333;
+    }
+
+    .meet-btn {
+      margin-right: 30px;
+    }
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .meet {
+    &-desc {
+      padding: 28px 30px 40px;
+    }
+
+    &-list {
+      max-width: auto;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+    &-item {
+      .left {
+        width: 35%;
+        margin-right: 3%;
+      }
+  
+      .right {
+        width: 62%;
+      }
+
+      &-title {
+        line-height: 42px;
+        margin: 0 0 10px;
+      }
+  
+      &-time {
+        margin-bottom: 10px;
+      }
+
+      &-desc {
+        min-height: auto;
+        margin-bottom: 5px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .meet {
+    &-list {
+      margin-bottom: 80px;
+    }
+
+    &-item {
+      margin-bottom: 30px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      .left {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+      }
+  
+      .right {
+        width: 100%;
+      }
+  
+      &-title {
+        margin: 0 0 18px;
+        font-size: 26px;
+        line-height: 40px;
+        padding-left: 50px;
+
+        &::before {
+          width: 40px;
+          height: 35px;
+          top: 3px;
+        }
+      }
+  
+      &-time {
+        margin-bottom: 15px;
+        font-size: 18px;
+      }
+  
+      &-desc {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .meet {
+    &-list {
+      margin-bottom: 60px;
+    }
+
+    &-btn {
+      width: 130px;
+      height: 38px;
+      line-height: 38px;
+      border-radius: 19px;
+    }
+
+    &-list {
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+
+    &-item {
+      .left {
+        margin-bottom: 20px;
+      }
+
+      .meet-btn {
+        margin-right: 10px;
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}
