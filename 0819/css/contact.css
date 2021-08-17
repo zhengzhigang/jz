@@ -1,0 +1,61 @@
+/* line 1, ../../0819-scss/contact.scss */
+.contact {
+  background-color: #F7F7F7;
+}
+/* line 4, ../../0819-scss/contact.scss */
+.contact-content {
+  max-width: 1200px;
+  margin: 20px auto 50px;
+  background: #fff;
+  overflow: hidden;
+}
+/* line 10, ../../0819-scss/contact.scss */
+.contact-content-title {
+  padding: 37px 50px 30px;
+}
+/* line 13, ../../0819-scss/contact.scss */
+.contact-content-title-text {
+  font-size: 36px;
+  color: #333333;
+  line-height: 50px;
+}
+/* line 19, ../../0819-scss/contact.scss */
+.contact-content-title-desc {
+  font-size: 16px;
+  color: #333;
+  line-height: 22px;
+}
+/* line 27, ../../0819-scss/contact.scss */
+.contact .waterfall {
+  padding: 0 50px;
+  margin-bottom: 50px;
+}
+/* line 31, ../../0819-scss/contact.scss */
+.contact .waterfall::after {
+  content: '';
+  clear: both;
+  display: block;
+  height: 0;
+  zoom: 1;
+}
+/* line 39, ../../0819-scss/contact.scss */
+.contact .waterfall-left {
+  width: 48%;
+  float: left;
+}
+/* line 43, ../../0819-scss/contact.scss */
+.contact .waterfall-right {
+  width: 48%;
+  float: right;
+}
+/* line 48, ../../0819-scss/contact.scss */
+.contact .waterfall-item {
+  width: 100%;
+  margin-bottom: 30px;
+}
+/* line 52, ../../0819-scss/contact.scss */
+.contact .waterfall-item-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}

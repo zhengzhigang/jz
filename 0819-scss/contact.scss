@@ -1,0 +1,59 @@
+.contact {
+  background-color: #F7F7F7;
+
+  &-content {
+    max-width: 1200px;
+    margin: 20px auto 50px;
+    background: #fff;
+    overflow: hidden;
+
+    &-title {
+      padding: 37px 50px 30px;
+
+      &-text {
+        font-size: 36px;
+        color: #333333;
+        line-height: 50px;
+      }
+  
+      &-desc {
+        font-size: 16px;
+        color: #333;
+        line-height: 22px;
+      }
+    }
+  }
+
+  .waterfall {
+    padding: 0 50px;
+    margin-bottom: 50px;
+
+    &::after {
+      content: '';
+      clear: both;
+      display: block;
+      height: 0;
+      zoom: 1;
+    }
+
+    &-left {
+      width: 48%;
+      float: left;
+    }
+    &-right {
+      width: 48%;
+      float: right;
+    }
+
+    &-item {
+      width: 100%;
+      margin-bottom: 30px;
+
+      &-title {
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
