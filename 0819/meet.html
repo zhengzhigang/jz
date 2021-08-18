@@ -82,8 +82,10 @@
     <ul class="meet-list">
       <li class="meet-item">
         <div class="left">
-          <img src="./images/meet/item-img-01.jpg">
-          <span class="play-icon"></span>
+          <a class="play_btn1" href="" target="_blank">
+            <img src="./images/meet/item-img-01.jpg">
+            <span class="play-icon"></span>
+          </a>
         </div>
         <div class="right">
           <h3 class="meet-item-title title1">市场岗位直播专场</h3>
@@ -93,15 +95,17 @@
             市场专场准时上线，听锐捷的客户代表为你揭开迷雾，海量岗位等你投递！
           </p>
           <div class="meet-btn-group">
-            <a class="meet-btn">观看直播</a>
-            <a class="meet-btn outline">我要投简历</a>
+            <a class="meet-btn play_btn1" target="_blank">观看直播</a>
+            <a class="meet-btn outline resume_btn1">我要投简历</a>
           </div>
         </div>
       </li>
       <li class="meet-item">
         <div class="left">
-          <img src="./images/meet/item-img-02.jpg">
-          <span class="play-icon"></span>
+          <a class="play_btn2" href="" target="_blank">
+            <img src="./images/meet/item-img-02.jpg">
+            <span class="play-icon"></span>
+          </a>
         </div>
         <div class="right">
           <h3 class="meet-item-title title2">福州研发岗位直播专场</h3>
@@ -112,15 +116,17 @@
             与大佬们一起，走进有福之州，深入锐捷研发大本营，了解他们的工作和生活！
           </p>
           <div class="meet-btn-group">
-            <a class="meet-btn">观看直播</a>
-            <a class="meet-btn outline">我要投简历</a>
+            <a class="meet-btn play_btn2" target="_blank">观看直播</a>
+            <a class="meet-btn outline resume_btn2">我要投简历</a>
           </div>
         </div>
       </li>
       <li class="meet-item">
         <div class="left">
-          <img src="./images/meet/item-img-03.jpg">
-          <span class="play-icon"></span>
+          <a class="play_btn3" href="" target="_blank">
+            <img src="./images/meet/item-img-03.jpg">
+            <span class="play-icon"></span>
+          </a>
         </div>
         <div class="right">
           <h3 class="meet-item-title title3">研发岗位直播专场</h3>
@@ -131,15 +137,17 @@
             9月13日，与技术大佬一起洞察应用场景，探索技术创新。
           </p>
           <div class="meet-btn-group">
-            <a class="meet-btn">观看直播</a>
-            <a class="meet-btn outline">我要投简历</a>
+            <a class="meet-btn play_btn3" target="_blank">观看直播</a>
+            <a class="meet-btn outline resume_btn3" target="_blank">我要投简历</a>
           </div>
         </div>
       </li>
       <li class="meet-item">
         <div class="left">
-          <img src="./images/meet/item-img-04.jpg">
-          <span class="play-icon"></span>
+          <a class="play_btn4" href="" target="_blank">
+            <img src="./images/meet/item-img-04.jpg">
+            <span class="play-icon"></span>
+          </a>
         </div>
         <div class="right">
           <h3 class="meet-item-title title4">海外岗位直播专场</h3>
@@ -150,8 +158,8 @@
             带你了解海外办事处岗位及具体工作情况。
           </p>
           <div class="meet-btn-group">
-            <a class="meet-btn">观看直播</a>
-            <a class="meet-btn outline">我要投简历</a>
+            <a class="meet-btn play_btn4" target="_blank">观看直播</a>
+            <a class="meet-btn outline resume_btn4" target="_blank">我要投简历</a>
           </div>
         </div>
       </li>
@@ -210,15 +218,36 @@
     _gsq.push(["T", "GWD-002457", "trackEvent", "校园招聘", position, name]);
   }
 
-  $('.index-header .logo a').click(function () {
-    _gsq.push(["T", "GWD-002457", "trackEvent", "校园招聘", "顶部导航", "logo"]);
+  $('.meet-desc .play_btn1').click(function () {
+    _gsq.push(["T", "GWD-002457", "trackEvent", "校园招聘", "空中宣讲会", "观看直播 市场岗位直播专场"]);
   });
 
-  $('.index-header .nav ul li a').click(function () {
-    _gsq.push(["T", "GWD-002457", "trackEvent", "校园招聘", "顶部导航", $(this).text()]);
+  $('.meet-desc .play_btn2').click(function () {
+    _gsq.push(["T", "GWD-002457", "trackEvent", "校园招聘", "空中宣讲会", "观看直播 福州研发岗位直播专场"]);
   });
 
-  $('.index-pagination .button ul li').click(function () {
-    _gsq.push(["T", "GWD-002457", "trackEvent", "校园招聘", "底部导航", $(this).text()]);
+  $('.meet-desc .play_btn3').click(function () {
+    _gsq.push(["T", "GWD-002457", "trackEvent", "校园招聘", "空中宣讲会", "观看直播 研发岗位直播专场"]);
   });
+
+  $('.meet-desc .play_btn4').click(function () {
+    _gsq.push(["T", "GWD-002457", "trackEvent", "校园招聘", "空中宣讲会", "观看直播 海外岗位直播专场"]);
+  });
+
+  $('.meet-desc .resume_btn1').click(function () {
+    _gsq.push(["T", "GWD-002457", "trackEvent", "校园招聘", "空中宣讲会", "我要投简历 市场岗位直播专场"]);
+  });
+
+  $('.meet-desc .resume_btn2').click(function () {
+    _gsq.push(["T", "GWD-002457", "trackEvent", "校园招聘", "空中宣讲会", "我要投简历 福州研发岗位直播专场"]);
+  });
+
+  $('.meet-desc .resume_btn3').click(function () {
+    _gsq.push(["T", "GWD-002457", "trackEvent", "校园招聘", "空中宣讲会", "我要投简历 研发岗位直播专场"]);
+  });
+
+  $('.meet-desc .play_btn4').click(function () {
+    _gsq.push(["T", "GWD-002457", "trackEvent", "校园招聘", "空中宣讲会", "我要投简历 海外岗位直播专场"]);
+  });
+
 </script>
