@@ -9,25 +9,25 @@ $(document).ready(function(){
         loading: false,
         // 节流
         throttle: function(fn, delay) {
-            let timer
-            let isFirstTime = true
+            var timer
+            var isFirstTime = true
             return function () {
-            let context = this
-            let args = arguments
+                var context = this
+                var args = arguments
         
-            if (isFirstTime) {
-                fn.apply(context, args)
-                isFirstTime = false
-                return
-            }
-        
-            if (timer) return
-        
-            timer = true
-            setTimeout(function () {
-                fn.apply(context, args)
-                timer = false
-            }, delay)
+                if (isFirstTime) {
+                    fn.apply(context, args)
+                    isFirstTime = false
+                    return
+                }
+            
+                if (timer) return
+            
+                timer = true
+                setTimeout(function () {
+                    fn.apply(context, args)
+                    timer = false
+                }, delay)
             }
         },
         getScrollTop: function(element) {
