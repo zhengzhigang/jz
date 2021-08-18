@@ -82,7 +82,20 @@
     margin-bottom: 20px;
     font-size: 0;
 
+    .play-icon {
+      position: absolute;
+      display: block;
+      width: 72px;
+      height: 72px;
+      background: url(../images/meet/play.png) center center/100% 100% no-repeat;
+      left: 50%;
+      top: 50%;
+      margin-left: -36px;
+      margin-top: -36px;
+    }
+
     .left {
+      position: relative;
       display: inline-block;
       width: 456px;
       margin-right: 41px;
