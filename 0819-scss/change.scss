@@ -1,4 +1,10 @@
 .index-container {
+  .pc-show {
+    display: block;
+  }
+  .mobile-show {
+    display: none;
+  }
   .btn {
     display: inline-block;
     width: 144px;
@@ -158,21 +164,100 @@
   }
 }
 
-@media screen and (max-width: 750px){
-  .recruitment>.main>.star {
-    position: absolute;
-    transform: translate(-50%, -160%);
-    width: 80vw;
-  }	
-  .recruitment>.main>.slogan_1 {
-    position: absolute;
-    transform: translate(-50%, -30%);
-    width: 90vw;
+@media screen and (max-width: 768px) {
+  .index-container {
+    .pc-show {
+      display: none;
+    }
+    .mobile-show {
+      display: block;
+    }
+  
+    .banners {
+      .item {
+        width: 70%;
+        height: 70%;
+      }
+  
+      .recruitment {
+        .main {
+          left: 5%;
+          transform: translateX(0);
+          width: 90%;
+        }
+  
+        .apply {
+          float: none;
+          margin-right: 0;
+          margin-top: 70px;
+          text-align: center;
+
+          .btn {
+            margin-bottom: 15px;
+          }
+        }
+      }
+
+      .pic {
+        top: 30%;
+      }
+
+      .about .pic {
+        width: 50%;
+        height: 50%;
+        left: 25%;
+        background-image: url(../images/about-pic.png);
+      }
+  
+      .about .item {
+        background: url(../images/about-card-m.png) center center no-repeat;
+        -moz-background-size: contain;
+        background-size: contain;
+      }
+  
+      .staff {
+        background-image: url(../images/staff-bg-m.jpg);
+        background-size: cover;
+  
+        .item {
+          background-image: url(../images/staff-card-m.png);
+        }
+  
+        .pic {
+          width: 50%;
+          height: 50%;
+          left: 25%;
+          right: 25%;
+          background-image: url(../images/staff-pic.png);
+        }
+      }
+  
+      .question {
+        background-image: url(../images/question-bg.jpg);
+        background-size: cover;
+  
+        .item {
+          background-image: url(../images/question-card-m.png);
+        }
+  
+        .pic {
+          width: 50%;
+          height: 50%;
+          left: 25%;
+          right: 25%;
+          background-image: url(../images/question-pic.png);
+        }
+      }
+    }
   }
-  .recruitment>.main>.apply {
-    position: absolute;
-    top: 36%;
-    left: 0;
-    transform: translateX(-50%);
+}
+
+@media screen and (max-width: 768px) {
+  .index-container {
+    .banners {
+      .pic {
+        top: 26.5%;
+      }
+    }
   }
 }
