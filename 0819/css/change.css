@@ -1,75 +1,180 @@
-.index-container .banners .recruitment {
-    margin: auto;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background:  #fc8007 url(../images/recruitment-bg.png) no-repeat center left;
-    width: 100%;
-    height: 100%;
+/* line 2, ../../0819-scss/change.scss */
+.index-container .btn {
+  display: inline-block;
+  width: 144px;
+  height: 42px;
+  background: #D20032;
+  text-align: center;
+  line-height: 42px;
+  border-radius: 100px;
+  color: #fff;
+  margin-right: 10px;
 }
-.recruitment {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
+/* line 13, ../../0819-scss/change.scss */
+.index-container .btn.white {
+  background-color: #fff;
 }
-.recruitment>.main {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 100%;
-    height: 100%;
+/* line 16, ../../0819-scss/change.scss */
+.index-container .btn.purple {
+  color: #7D14D7;
 }
-.recruitment>.main>.star {
-    position: absolute;
-    transform: translate(-100%, -47%);
-    width: 26vw;
+/* line 19, ../../0819-scss/change.scss */
+.index-container .btn.blue {
+  color: #0085DB;
 }
-.recruitment>.main>.slogan_1 {
-    position: absolute;
-    transform: translate(10%, -72%);
-    width: 35vw;
+/* line 22, ../../0819-scss/change.scss */
+.index-container .btn.green {
+  color: #04BBD6;
 }
-.recruitment>.main>.apply {
-    position: absolute;
-    top: 23%;
-    left: 10%;
+/* line 27, ../../0819-scss/change.scss */
+.index-container .index-header {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1200px;
 }
-.recruitment>.main>.apply>a {
-    display: inline-block;
-    width: 140px;
-    height: 44px;
-    background:-moz-linear-gradient(left,#ad0e2b,#ce4833);/*Mozilla*/
-	background:-webkit-gradient(linear,0 50%,100% 50%,from(#ad0e2b),to(#ce4833));/*Old gradient for webkit*/
-	background:-webkit-linear-gradient(left,#ad0e2b,#ce4833);/*new gradient for Webkit*/
-	background:-o-linear-gradient(left,#ad0e2b,#ce4833); /*Opera11*/
-    text-align: center;
-    line-height: 44px;
-    border-radius: 100px;
-    color: #fff;
-    margin-right: 10px;
-}
+/* line 33, ../../0819-scss/change.scss */
 .index-container .index-header .logo {
-    float: left;
-    position: relative;
-    top: -8px;
+  float: left;
+  position: relative;
+  top: -8px;
 }
-@media screen and (max-width: 750px){
-	.recruitment>.main>.star {
-		position: absolute;
-	    transform: translate(-50%, -160%);
-	    width: 80vw;
-	}	
-	.recruitment>.main>.slogan_1 {
-	    position: absolute;
-	    transform: translate(-50%, -30%);
-	    width: 90vw;
-	}
-	.recruitment>.main>.apply {
-	    position: absolute;
-	    top: 36%;
-	    left: 0;
-	    transform: translateX(-50%);
-	}
+/* line 41, ../../0819-scss/change.scss */
+.index-container .banners .item {
+  width: 60%;
+  height: 60%;
+}
+/* line 46, ../../0819-scss/change.scss */
+.index-container .banners .recruitment {
+  position: relative;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #063AAB url(../images/recruitment-bg.jpg) no-repeat center left;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+/* line 59, ../../0819-scss/change.scss */
+.index-container .banners .recruitment .main {
+  position: absolute;
+  top: 190px;
+  left: 45%;
+  transform: translateX(-50%);
+  width: 883px;
+  height: 500px;
+}
+/* line 67, ../../0819-scss/change.scss */
+.index-container .banners .recruitment .main .star {
+  width: 883px;
+}
+/* line 72, ../../0819-scss/change.scss */
+.index-container .banners .recruitment .apply {
+  position: static;
+  float: right;
+  margin-right: 114px;
+  margin-top: -21px;
+}
+/* line 80, ../../0819-scss/change.scss */
+.index-container .banners .pic {
+  top: 15%;
+  width: 24%;
+  right: 21%;
+}
+/* line 86, ../../0819-scss/change.scss */
+.index-container .banners .about {
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-image: url(../images/about-bg.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+/* line 98, ../../0819-scss/change.scss */
+.index-container .banners .about .pic {
+  background-image: url(../images/about-pic.png);
+}
+/* line 102, ../../0819-scss/change.scss */
+.index-container .banners .about .item {
+  background: url(../images/about-card.png) center center no-repeat;
+  -moz-background-size: contain;
+  background-size: contain;
+}
+/* line 108, ../../0819-scss/change.scss */
+.index-container .banners .staff {
+  background-image: url(../images/staff-bg.jpg);
+  background-size: cover;
+}
+/* line 112, ../../0819-scss/change.scss */
+.index-container .banners .staff .item {
+  background-image: url(../images/staff-card.png);
+}
+/* line 116, ../../0819-scss/change.scss */
+.index-container .banners .staff .pic {
+  right: 22%;
+  background-image: url(../images/staff-pic.png);
+}
+/* line 122, ../../0819-scss/change.scss */
+.index-container .banners .question {
+  background-image: url(../images/question-bg.jpg);
+  background-size: cover;
+}
+/* line 126, ../../0819-scss/change.scss */
+.index-container .banners .question .item {
+  background-image: url(../images/question-card.png);
+}
+/* line 130, ../../0819-scss/change.scss */
+.index-container .banners .question .pic {
+  right: 22%;
+  background-image: url(../images/question-pic.png);
+}
+
+@media screen and (max-width: 1280px) {
+  /* line 141, ../../0819-scss/change.scss */
+  .index-container .banners .item {
+    width: 70%;
+    height: 70%;
+  }
+  /* line 146, ../../0819-scss/change.scss */
+  .index-container .banners .recruitment .main {
+    top: 20%;
+    width: 60%;
+  }
+  /* line 149, ../../0819-scss/change.scss */
+  .index-container .banners .recruitment .main .star {
+    width: 100%;
+  }
+  /* line 154, ../../0819-scss/change.scss */
+  .index-container .banners .pic {
+    top: 12%;
+  }
+}
+@media screen and (max-width: 750px) {
+  /* line 162, ../../0819-scss/change.scss */
+  .recruitment > .main > .star {
+    position: absolute;
+    transform: translate(-50%, -160%);
+    width: 80vw;
+  }
+
+  /* line 167, ../../0819-scss/change.scss */
+  .recruitment > .main > .slogan_1 {
+    position: absolute;
+    transform: translate(-50%, -30%);
+    width: 90vw;
+  }
+
+  /* line 172, ../../0819-scss/change.scss */
+  .recruitment > .main > .apply {
+    position: absolute;
+    top: 36%;
+    left: 0;
+    transform: translateX(-50%);
+  }
 }
