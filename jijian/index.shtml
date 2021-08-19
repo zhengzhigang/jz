@@ -116,7 +116,7 @@
           <li>
             <div
               class="item-img play_video track8"
-              data-src="https://d300.paixin.com/thumbs/2715315/46759839/staff_600.mp4"
+              data-src="https://www.ruijie.com.cn/yx/sp/wx/preview/14944"
               data-name="华中科技大学"
             >
               <img src="./RJ-img/page3-img2.jpg"/>
@@ -129,15 +129,13 @@
           <li>
             <div
               class="item-img play_video track9"
-              data-src=""
+              data-src="https://www.ruijie.com.cn/yx/sp/jh/preview/15058"
               data-name="四川轻化工大学"
             >
-              <a href="https://www.ruijie.com.cn/fa/cp-wx/87331/">
-                <img src="./RJ-img/page3-img3.jpg"/>
-                <div class="mask"></div>
-                <span class="item-play"></span>
-                <p class="item-title">高教行业</p>
-              </a>
+              <img src="./RJ-img/page3-img3.jpg"/>
+              <div class="mask"></div>
+              <span class="item-play"></span>
+              <p class="item-title">高教行业</p>
             </div>
             <p class="item-text">四川轻化工大学</p>
           </li>
@@ -149,7 +147,7 @@
           <a href="https://www.ruijie.com.cn/fa/gj/20210112/" target="_blank" class="btn btn-red track11">
             高教极简全光方案
           </a>
-          <a href="" target="_blank" class="btn btn-red track12">
+          <a href="" target="_blank" class="btn btn-red track12" style="display: none;">
             企业极简全光方案
           </a>
           <a class="pre-sales-pop-ups-btn btn track13">
@@ -176,7 +174,7 @@
         <a href="https://www.ruijie.com.cn/yx/kw/jh/preview/13920" class="btn btn-red track19" target="_blank">
           方案彩页下载
         </a>
-        <a href="https://www.ruijie.com.cn/yx/kw/jh/preview/13920" class="btn track20" target="_blank">
+        <a href="https://www.ruijie.com.cn/yx/sp/jh/preview/14193" class="btn track20" target="_blank">
           2分钟了解全光方案
         </a>
       </div>
@@ -211,7 +209,6 @@
               <li>• 4口\8口\16口\24口灵活可选</li>
               <li>• 1G\2.5G\10G多速率接口</li>
               <li>• 即插即用</li>
-              <li>• 即插即用</li>
             </ul>
           </div>
           <ul class="list">
@@ -220,7 +217,7 @@
               <p class="title">落叶级静音</p>
               <p class="desc">
                 实测35分贝以下，
-                犹如轻声絮语一般安静
+                犹如轻声细语一般安静
               </p>
             </li>
             <li class="item">
@@ -292,7 +289,7 @@
             </ul>
           </div>
           <div class="right right-content">
-            <p class="img-title">RG-MAP852-SF(V2)入室光微AP</p>
+            <p class="img-title">RG-MAP852-SF入室光微AP</p>
             <img src="./RJ-img/page6-img2.png" alt="">
             <ul class="left">
               <li class="item">
@@ -343,11 +340,12 @@
         </p>
         <div class="page7-cont">
           <div class="img-cont">
-            <p class="img-title">RG-AP850(AR) 高密放装无线AP</p>
+            <p class="img-title">RG-AP850-AR(V2) WiFi6四路双频 高密放装无线AP</p>
             <img class="page7-img" src="./RJ-img/page7-img.png" alt="">
             <ul class="right-list">
-              <li>• 基于业界独创AI Radio</li>
+              <li>• Radio</li>
               <li>• 实现整网性能提升、无损安全扫描、高效网络运维、高质量数据采集</li>
+              <li>• 光口设计，支持极简以太全光</li>
             </ul>
           </div>
           <ul class="list">
@@ -357,7 +355,7 @@
             </li>
             <li class="item">
               <img class="icon" src="./RJ-img/page7-icon2.png" alt="">
-              <p class="title">最大接入速率4.	134G</p>
+              <p class="title">最大接入速率4.134G</p>
             </li>
             <li class="item">
               <img class="icon" src="./RJ-img/page7-icon3.png" alt="">
@@ -369,6 +367,9 @@
       <div class="btn-list">
         <a href="https://www.ruijie.com.cn/cp/wx-wifi6/ap850arv2/" class="btn track26" target="_blank">
           查看产品详情
+        </a>
+        <a href="https://www.ruijie.com.cn/yx/sp/wx/preview/14481" class="btn btn-red track34" target="_blank">
+          了解AI Radio
         </a>
       </div>     
     </div>
@@ -682,6 +683,9 @@
 
     $('.page7-cont .track26').on('click', function() {
       _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页查看详情", "专题页 查看产品详情"]);
+    })
+    $('.t-page7 .track34').on('click', function() {
+      _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页查看详情", "专题页 了解AI Radio"]);
     })
 
     $('.t-page8 .track27').on('click', function() {
