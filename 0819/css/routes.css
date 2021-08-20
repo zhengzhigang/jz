@@ -1,39 +1,37 @@
 /* line 1, ../../0819-scss/routes.scss */
+.header {
+  height: 40px;
+  padding: 20px 0 20px 0;
+  background: url(../images/rj-01.png) no-repeat center center/100% 100%;
+}
+
+/* line 7, ../../0819-scss/routes.scss */
 .school-brief {
   width: 100%;
   padding: 50px 0 97px;
   background: url("../images/routes/route-bg-04.jpg") no-repeat center;
 }
-/* line 6, ../../0819-scss/routes.scss */
-.school-brief h2 {
-  padding-bottom: 33px;
-  text-align: center;
-  font-size: 36px;
-  color: #fff;
-  font-weight: normal;
-  line-height: 1;
-}
-/* line 15, ../../0819-scss/routes.scss */
+/* line 12, ../../0819-scss/routes.scss */
 .school-brief-cont {
   position: relative;
   padding: 50px 181px 40px;
   text-align: center;
   background: #fff url("../images/routes/bg2.png") 120px 80px/100% auto no-repeat;
 }
-/* line 22, ../../0819-scss/routes.scss */
+/* line 19, ../../0819-scss/routes.scss */
 .school-brief-title-img {
   display: block;
   width: 266px;
   margin: auto;
   margin-bottom: 60px;
 }
-/* line 29, ../../0819-scss/routes.scss */
+/* line 26, ../../0819-scss/routes.scss */
 .school-brief-line {
   position: relative;
   height: 0;
   border-bottom: 1px dashed #CDCDCD;
 }
-/* line 34, ../../0819-scss/routes.scss */
+/* line 31, ../../0819-scss/routes.scss */
 .school-brief-line .left, .school-brief-line .right {
   position: absolute;
   display: block;
@@ -43,48 +41,48 @@
   background: #CDCDCD;
   border-radius: 100%;
 }
-/* line 44, ../../0819-scss/routes.scss */
+/* line 41, ../../0819-scss/routes.scss */
 .school-brief-line .left {
   left: 0;
 }
-/* line 48, ../../0819-scss/routes.scss */
+/* line 45, ../../0819-scss/routes.scss */
 .school-brief-line .right {
   right: 0;
 }
-/* line 53, ../../0819-scss/routes.scss */
+/* line 50, ../../0819-scss/routes.scss */
 .school-brief-text-img {
   display: block;
   width: 527px;
   margin: 34px auto 32px;
 }
-/* line 59, ../../0819-scss/routes.scss */
+/* line 56, ../../0819-scss/routes.scss */
 .school-brief .top-line, .school-brief .bottom-line1, .school-brief .bottom-line2 {
   position: absolute;
   width: 100%;
   height: 8px;
 }
-/* line 65, ../../0819-scss/routes.scss */
+/* line 62, ../../0819-scss/routes.scss */
 .school-brief .top-line {
   top: -8px;
   left: 0;
   background: #c2e9ff;
   opacity: 0.6;
 }
-/* line 72, ../../0819-scss/routes.scss */
+/* line 69, ../../0819-scss/routes.scss */
 .school-brief .bottom-line1 {
   background: #fff;
   opacity: 0.6;
   bottom: -8px;
   left: 0;
 }
-/* line 79, ../../0819-scss/routes.scss */
+/* line 76, ../../0819-scss/routes.scss */
 .school-brief .bottom-line2 {
   background: #fff;
   opacity: 0.4;
   bottom: -16px;
   left: 0;
 }
-/* line 86, ../../0819-scss/routes.scss */
+/* line 83, ../../0819-scss/routes.scss */
 .school-brief .text {
   font-size: 16px;
   color: #333333;
@@ -93,13 +91,13 @@
   margin-bottom: 5px;
 }
 
-/* line 95, ../../0819-scss/routes.scss */
+/* line 92, ../../0819-scss/routes.scss */
 .career-talk-box {
   width: 100%;
   height: 700px;
   background: url("../images/routes/route-bg-01.png") no-repeat center;
 }
-/* line 100, ../../0819-scss/routes.scss */
+/* line 97, ../../0819-scss/routes.scss */
 .career-talk-box h2 {
   padding: 30px 0 50px 0;
   text-align: center;
@@ -108,16 +106,16 @@
   font-weight: normal;
   line-height: 1;
 }
-/* line 109, ../../0819-scss/routes.scss */
+/* line 106, ../../0819-scss/routes.scss */
 .career-talk-box .career-talk {
   width: 100%;
 }
-/* line 113, ../../0819-scss/routes.scss */
+/* line 110, ../../0819-scss/routes.scss */
 .career-talk-box ul {
   width: 1220px;
   position: relative;
 }
-/* line 118, ../../0819-scss/routes.scss */
+/* line 115, ../../0819-scss/routes.scss */
 .career-talk-box li {
   float: left;
   width: 224px;
@@ -126,7 +124,7 @@
   margin-bottom: 20px;
   margin-right: 20px;
 }
-/* line 126, ../../0819-scss/routes.scss */
+/* line 123, ../../0819-scss/routes.scss */
 .career-talk-box li a {
   position: relative;
   display: block;
@@ -137,7 +135,7 @@
   font-size: 30px;
   color: #333;
 }
-/* line 136, ../../0819-scss/routes.scss */
+/* line 133, ../../0819-scss/routes.scss */
 .career-talk-box li a i {
   position: absolute;
   bottom: 20px;
@@ -148,15 +146,15 @@
   background: url("../images/routes/route-08.png") no-repeat center;
   display: none;
 }
-/* line 147, ../../0819-scss/routes.scss */
+/* line 144, ../../0819-scss/routes.scss */
 .career-talk-box li a:hover {
   color: #009efd;
 }
-/* line 150, ../../0819-scss/routes.scss */
+/* line 147, ../../0819-scss/routes.scss */
 .career-talk-box li a:hover i {
   display: block;
 }
-/* line 156, ../../0819-scss/routes.scss */
+/* line 153, ../../0819-scss/routes.scss */
 .career-talk-box li .slide-con {
   position: absolute;
   left: 0;
@@ -169,18 +167,18 @@
   -moz-box-shadow: 0 0 30px 6px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 30px 6px rgba(0, 0, 0, 0.3);
 }
-/* line 168, ../../0819-scss/routes.scss */
+/* line 165, ../../0819-scss/routes.scss */
 .career-talk-box li .slide-con h4 {
   padding: 30px 40px;
   font-size: 30px;
   font-weight: normal;
   color: #009efd;
 }
-/* line 175, ../../0819-scss/routes.scss */
+/* line 172, ../../0819-scss/routes.scss */
 .career-talk-box li .slide-con .talk-list {
   padding: 0 15px 20px;
 }
-/* line 179, ../../0819-scss/routes.scss */
+/* line 176, ../../0819-scss/routes.scss */
 .career-talk-box li .slide-con .talk-list:after {
   content: "";
   height: 0;
@@ -188,14 +186,14 @@
   clear: both;
   visibility: hidden;
 }
-/* line 187, ../../0819-scss/routes.scss */
+/* line 184, ../../0819-scss/routes.scss */
 .career-talk-box li .slide-con .temp-talk {
   float: left;
   width: 14%;
   padding: 0 3%;
   margin-bottom: 30px;
 }
-/* line 193, ../../0819-scss/routes.scss */
+/* line 190, ../../0819-scss/routes.scss */
 .career-talk-box li .slide-con .temp-talk .talk-time {
   color: #009efd;
   line-height: 1.5;
@@ -203,47 +201,48 @@
   padding-bottom: 5px;
   display: inline-block;
 }
-/* line 201, ../../0819-scss/routes.scss */
+/* line 198, ../../0819-scss/routes.scss */
 .career-talk-box li .slide-con .temp-talk p {
   font-size: 14px;
   line-height: 1.5;
 }
 
-/* line 210, ../../0819-scss/routes.scss */
+/* line 207, ../../0819-scss/routes.scss */
 .address-box {
   height: 520px;
   padding: 90px 0 89px 0;
   background: url("../images/routes/route-bg-02.png") no-repeat center;
+  display: none;
 }
-/* line 215, ../../0819-scss/routes.scss */
+/* line 213, ../../0819-scss/routes.scss */
 .address-box .container {
   padding: 40px 40px 40px;
   background-color: #fff;
   width: 1120px;
   height: auto;
 }
-/* line 222, ../../0819-scss/routes.scss */
+/* line 220, ../../0819-scss/routes.scss */
 .address-box .address-table-list {
   width: 100%;
   height: 360px;
   background-color: #fff;
   overflow: hidden;
 }
-/* line 228, ../../0819-scss/routes.scss */
+/* line 226, ../../0819-scss/routes.scss */
 .address-box .address-table-list .table-con {
   width: 101%;
   overflow-y: scroll;
   height: 100%;
 }
-/* line 235, ../../0819-scss/routes.scss */
+/* line 233, ../../0819-scss/routes.scss */
 .address-box table {
   width: 100%;
 }
-/* line 238, ../../0819-scss/routes.scss */
+/* line 236, ../../0819-scss/routes.scss */
 .address-box table tr {
   table-layout: fixed;
 }
-/* line 242, ../../0819-scss/routes.scss */
+/* line 240, ../../0819-scss/routes.scss */
 .address-box table th {
   height: 60px;
   background-color: #1ddbc6;
@@ -251,7 +250,7 @@
   text-align: center;
   font-size: 18px;
 }
-/* line 250, ../../0819-scss/routes.scss */
+/* line 248, ../../0819-scss/routes.scss */
 .address-box table td {
   height: 60px;
   font-size: 16px;
@@ -259,29 +258,29 @@
   text-align: center;
   border-bottom: 1px dashed #e6e6e6;
 }
-/* line 258, ../../0819-scss/routes.scss */
+/* line 256, ../../0819-scss/routes.scss */
 .address-box table .wid_19 {
   width: 19%;
 }
-/* line 262, ../../0819-scss/routes.scss */
+/* line 260, ../../0819-scss/routes.scss */
 .address-box table .wid_18 {
   width: 18%;
 }
-/* line 266, ../../0819-scss/routes.scss */
+/* line 264, ../../0819-scss/routes.scss */
 .address-box table .wid_30 {
   width: 30%;
 }
-/* line 270, ../../0819-scss/routes.scss */
+/* line 268, ../../0819-scss/routes.scss */
 .address-box table .wid_45 {
   width: 45%;
 }
 
-/* line 276, ../../0819-scss/routes.scss */
+/* line 274, ../../0819-scss/routes.scss */
 .routes-box {
   height: 700px;
   background: url("../images/routes/route-bg-03.png") no-repeat center;
 }
-/* line 280, ../../0819-scss/routes.scss */
+/* line 278, ../../0819-scss/routes.scss */
 .routes-box h2 {
   padding: 70px 0 20px 0;
   text-align: center;
@@ -290,84 +289,84 @@
   font-size: 36px;
   line-height: 1;
 }
-/* line 289, ../../0819-scss/routes.scss */
+/* line 287, ../../0819-scss/routes.scss */
 .routes-box .routes-list {
   overflow: hidden;
 }
-/* line 292, ../../0819-scss/routes.scss */
+/* line 290, ../../0819-scss/routes.scss */
 .routes-box .routes-list img {
   float: left;
 }
-/* line 296, ../../0819-scss/routes.scss */
+/* line 294, ../../0819-scss/routes.scss */
 .routes-box .routes-list .routes-middle {
   margin-top: 210px;
   margin-left: 25px;
   margin-right: 8px;
 }
-/* line 302, ../../0819-scss/routes.scss */
+/* line 300, ../../0819-scss/routes.scss */
 .routes-box .routes-list .routes-right {
   margin-top: 9px;
 }
 
 @media screen and (max-width: 1199px) {
-  /* line 309, ../../0819-scss/routes.scss */
+  /* line 307, ../../0819-scss/routes.scss */
   .career-talk-box {
     height: auto;
     padding: 50px 0;
   }
-  /* line 313, ../../0819-scss/routes.scss */
+  /* line 311, ../../0819-scss/routes.scss */
   .career-talk-box h2 {
     padding: 0 0 40px 0;
   }
-  /* line 317, ../../0819-scss/routes.scss */
+  /* line 315, ../../0819-scss/routes.scss */
   .career-talk-box ul {
     width: 102.041%;
   }
-  /* line 321, ../../0819-scss/routes.scss */
+  /* line 319, ../../0819-scss/routes.scss */
   .career-talk-box li {
     width: 18%;
     height: 80px;
     margin-right: 2%;
   }
-  /* line 326, ../../0819-scss/routes.scss */
+  /* line 324, ../../0819-scss/routes.scss */
   .career-talk-box li a {
     line-height: 74px;
     font-size: 24px;
   }
-  /* line 330, ../../0819-scss/routes.scss */
+  /* line 328, ../../0819-scss/routes.scss */
   .career-talk-box li a i {
     bottom: 10px;
   }
-  /* line 335, ../../0819-scss/routes.scss */
+  /* line 333, ../../0819-scss/routes.scss */
   .career-talk-box li .slide-con {
     width: 100%;
   }
-  /* line 338, ../../0819-scss/routes.scss */
+  /* line 336, ../../0819-scss/routes.scss */
   .career-talk-box li .slide-con h4 {
     font-size: 24px;
   }
 
-  /* line 345, ../../0819-scss/routes.scss */
+  /* line 343, ../../0819-scss/routes.scss */
   .address-box {
     padding: 50px 0 50px 0;
     height: auto;
   }
-  /* line 349, ../../0819-scss/routes.scss */
+  /* line 347, ../../0819-scss/routes.scss */
   .address-box .container {
     width: auto;
     padding: 30px 30px 30px;
   }
 
-  /* line 355, ../../0819-scss/routes.scss */
+  /* line 353, ../../0819-scss/routes.scss */
   .routes-box {
     height: auto;
     padding-bottom: 50px;
   }
-  /* line 359, ../../0819-scss/routes.scss */
+  /* line 357, ../../0819-scss/routes.scss */
   .routes-box h2 {
     padding-top: 50px;
   }
-  /* line 363, ../../0819-scss/routes.scss */
+  /* line 361, ../../0819-scss/routes.scss */
   .routes-box .routes-list {
     display: -webkit-box;
     display: -webkit-flex;
@@ -385,13 +384,13 @@
     -ms-flex-align: center;
     align-items: center;
   }
-  /* line 380, ../../0819-scss/routes.scss */
+  /* line 378, ../../0819-scss/routes.scss */
   .routes-box .routes-list img {
     float: none;
     display: block;
     width: 45%;
   }
-  /* line 386, ../../0819-scss/routes.scss */
+  /* line 384, ../../0819-scss/routes.scss */
   .routes-box .routes-list .routes-middle {
     width: 40px;
     height: auto;
@@ -405,40 +404,40 @@
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 402, ../../0819-scss/routes.scss */
+  /* line 400, ../../0819-scss/routes.scss */
   .school-brief {
     padding: 40px 0 80px;
   }
-  /* line 405, ../../0819-scss/routes.scss */
+  /* line 403, ../../0819-scss/routes.scss */
   .school-brief-cont {
     padding: 50px 40px 40px;
   }
-  /* line 409, ../../0819-scss/routes.scss */
+  /* line 407, ../../0819-scss/routes.scss */
   .school-brief-title-img {
     width: 230px;
     margin-bottom: 40px;
   }
-  /* line 414, ../../0819-scss/routes.scss */
+  /* line 412, ../../0819-scss/routes.scss */
   .school-brief-text-img {
     width: 480px;
     margin: 28px auto 32px;
   }
 
-  /* line 420, ../../0819-scss/routes.scss */
+  /* line 418, ../../0819-scss/routes.scss */
   .career-talk-box {
     padding: 30px 0;
   }
-  /* line 423, ../../0819-scss/routes.scss */
+  /* line 421, ../../0819-scss/routes.scss */
   .career-talk-box li {
     width: 23%;
     height: 60px;
   }
-  /* line 427, ../../0819-scss/routes.scss */
+  /* line 425, ../../0819-scss/routes.scss */
   .career-talk-box li a {
     font-size: 16px;
     line-height: 56px;
   }
-  /* line 431, ../../0819-scss/routes.scss */
+  /* line 429, ../../0819-scss/routes.scss */
   .career-talk-box li a i {
     -webkit-transform: scale(0.6);
     -moz-transform: scale(0.6);
@@ -447,134 +446,134 @@
     transform: scale(0.6);
     bottom: 6px;
   }
-  /* line 440, ../../0819-scss/routes.scss */
+  /* line 438, ../../0819-scss/routes.scss */
   .career-talk-box li a:hover {
     color: #444;
   }
-  /* line 443, ../../0819-scss/routes.scss */
+  /* line 441, ../../0819-scss/routes.scss */
   .career-talk-box li a:hover i {
     display: none;
   }
-  /* line 449, ../../0819-scss/routes.scss */
+  /* line 447, ../../0819-scss/routes.scss */
   .career-talk-box li.slide-down a {
     color: #009efd;
   }
-  /* line 452, ../../0819-scss/routes.scss */
+  /* line 450, ../../0819-scss/routes.scss */
   .career-talk-box li.slide-down a i {
     display: block;
   }
-  /* line 457, ../../0819-scss/routes.scss */
+  /* line 455, ../../0819-scss/routes.scss */
   .career-talk-box li .slide-con h4 {
     font-size: 18px;
     padding: 15px 15px 10px 25px;
   }
-  /* line 462, ../../0819-scss/routes.scss */
+  /* line 460, ../../0819-scss/routes.scss */
   .career-talk-box li .slide-con .talk-list {
     padding: 0 0 0 0;
   }
-  /* line 466, ../../0819-scss/routes.scss */
+  /* line 464, ../../0819-scss/routes.scss */
   .career-talk-box li .slide-con .temp-talk {
     width: 21%;
     padding: 0 2%;
     margin-bottom: 20px;
   }
-  /* line 471, ../../0819-scss/routes.scss */
+  /* line 469, ../../0819-scss/routes.scss */
   .career-talk-box li .slide-con .temp-talk .talk-time {
     font-size: 16px;
     padding-bottom: 0;
   }
 
-  /* line 479, ../../0819-scss/routes.scss */
+  /* line 477, ../../0819-scss/routes.scss */
   .address-box {
     padding: 40px 0;
   }
-  /* line 482, ../../0819-scss/routes.scss */
+  /* line 480, ../../0819-scss/routes.scss */
   .address-box .container {
     padding: 20px 20px;
   }
-  /* line 486, ../../0819-scss/routes.scss */
+  /* line 484, ../../0819-scss/routes.scss */
   .address-box .address-table-list {
     height: 250px;
   }
-  /* line 489, ../../0819-scss/routes.scss */
+  /* line 487, ../../0819-scss/routes.scss */
   .address-box .address-table-list .table-con {
     width: 100%;
   }
-  /* line 494, ../../0819-scss/routes.scss */
+  /* line 492, ../../0819-scss/routes.scss */
   .address-box table th {
     height: 40px;
     font-size: 16px;
   }
-  /* line 499, ../../0819-scss/routes.scss */
+  /* line 497, ../../0819-scss/routes.scss */
   .address-box table td {
     height: 40px;
     font-size: 14px;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 507, ../../0819-scss/routes.scss */
+  /* line 505, ../../0819-scss/routes.scss */
   .school-brief {
     padding: 40px 0 60px;
   }
-  /* line 510, ../../0819-scss/routes.scss */
+  /* line 508, ../../0819-scss/routes.scss */
   .school-brief-cont {
     padding: 40px 30px 40px;
   }
-  /* line 514, ../../0819-scss/routes.scss */
+  /* line 512, ../../0819-scss/routes.scss */
   .school-brief-title-img {
     width: 230px;
     margin-bottom: 30px;
   }
-  /* line 519, ../../0819-scss/routes.scss */
+  /* line 517, ../../0819-scss/routes.scss */
   .school-brief-text-img {
     width: 80%;
     margin: 25px auto;
   }
 
-  /* line 525, ../../0819-scss/routes.scss */
+  /* line 523, ../../0819-scss/routes.scss */
   .career-talk-box h2 {
     font-size: 30px;
   }
 
-  /* line 528, ../../0819-scss/routes.scss */
+  /* line 526, ../../0819-scss/routes.scss */
   .career-talk-box li {
     margin-bottom: 10px;
   }
 
-  /* line 531, ../../0819-scss/routes.scss */
+  /* line 529, ../../0819-scss/routes.scss */
   .career-talk-box li .slide-con {
     margin-top: 10px;
   }
 
-  /* line 534, ../../0819-scss/routes.scss */
+  /* line 532, ../../0819-scss/routes.scss */
   .career-talk-box li .slide-con .temp-talk {
     width: 46%;
   }
 
-  /* line 537, ../../0819-scss/routes.scss */
+  /* line 535, ../../0819-scss/routes.scss */
   .routes-box {
     background: url(../images/routes/route-bg-03.png) no-repeat center;
     -moz-background-size: auto 100%;
     background-size: auto 100%;
   }
 
-  /* line 542, ../../0819-scss/routes.scss */
+  /* line 540, ../../0819-scss/routes.scss */
   .routes-box h2 {
     font-size: 30px;
     padding-top: 40px;
   }
 
-  /* line 546, ../../0819-scss/routes.scss */
+  /* line 544, ../../0819-scss/routes.scss */
   .routes-box .routes-list {
     display: block;
   }
 
-  /* line 549, ../../0819-scss/routes.scss */
+  /* line 547, ../../0819-scss/routes.scss */
   .routes-box .routes-list img {
     width: 100%;
   }
 
-  /* line 552, ../../0819-scss/routes.scss */
+  /* line 550, ../../0819-scss/routes.scss */
   .routes-box .routes-list .routes-middle {
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
@@ -584,28 +583,28 @@
     margin: 15px auto;
   }
 
-  /* line 560, ../../0819-scss/routes.scss */
+  /* line 558, ../../0819-scss/routes.scss */
   .address-box .container {
     padding: 5px;
   }
 
-  /* line 563, ../../0819-scss/routes.scss */
+  /* line 561, ../../0819-scss/routes.scss */
   .address-box table th {
     font-size: 14px;
     font-weight: bold;
   }
 
-  /* line 567, ../../0819-scss/routes.scss */
+  /* line 565, ../../0819-scss/routes.scss */
   .address-box table td {
     font-size: 12px;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 574, ../../0819-scss/routes.scss */
+  /* line 572, ../../0819-scss/routes.scss */
   .school-brief-cont {
     padding: 40px 20px 40px;
   }
-  /* line 577, ../../0819-scss/routes.scss */
+  /* line 575, ../../0819-scss/routes.scss */
   .school-brief-text-img {
     width: 90%;
   }

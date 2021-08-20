@@ -1,16 +1,13 @@
+.header {
+    height: 40px;
+    padding: 20px 0 20px 0;
+    background: url(../images/rj-01.png) no-repeat center center/100% 100%;
+}
+
 .school-brief {
   width: 100%;
   padding: 50px 0 97px;
   background: url("../images/routes/route-bg-04.jpg") no-repeat center;
-
-  h2 {
-    padding-bottom: 33px;
-    text-align: center;
-    font-size: 36px;
-    color: #fff;
-    font-weight: normal;
-    line-height: 1;
-  }
 
   &-cont {
     position: relative;
@@ -211,6 +208,7 @@
   height: 520px;
   padding: 90px 0 89px 0;
   background: url("../images/routes/route-bg-02.png") no-repeat center;
+  display: none;
 
   .container {
     padding: 40px 40px 40px;

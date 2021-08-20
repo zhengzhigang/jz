@@ -102,7 +102,7 @@
           </div>
           <div class="swiper-slide">
             <div class="about">
-              <a href="http://www.ruijie.com.cn/gy/xw-gs/82393" target="_blank" onclick="ClickEventStatistics('轮播图','关于锐捷')">
+              <a href="http://www.ruijie.com.cn/gy/xw-gs/82393" target="_blank" onclick="ClickEventStatistics('轮播图','总裁寄语')">
                 <div class="item"></div>
                 <div class="pic animated"></div>
               </a>
@@ -118,7 +118,7 @@
           </div>
           <div class="swiper-slide">
             <div class="question">
-              <a href="http://www.ruijie.com.cn/gy/xw-gs/82268" onclick="ClickEventStatistics('轮播图', 'F&Q')">
+              <a href="http://www.ruijie.com.cn/gy/xw-gs/82268" onclick="ClickEventStatistics('轮播图', '特别招募')">
                 <div class="item"></div>
                 <div class="pic animated"></div>
               </a>
@@ -144,10 +144,6 @@
       <div class="prev"></div>
       <div class="next"></div>
     </div>
-  </div>
-  <div class="index-right" onclick="ClickEventStatistics('侧边栏', 'F&关注微信')">
-    <div class="tip"><img src="http://www.ruijie.com.cn/campus-recruiting/images/index-right.jpg"></div>
-    <div class="qrcode"><img src="http://www.ruijie.com.cn/campus-recruiting/images/qrcode.jpg"></div>
   </div>
    
   <script type="text/javascript" src="http://www.ruijie.com.cn/campus-recruiting/Scripts/index.js"></script>
@@ -200,6 +196,10 @@
 
   $('.index-header .nav ul li a').click(function () {
     _gsq.push(["T", "GWD-002457", "trackEvent", "校园招聘", "顶部导航", $(this).text()]);
+  });
+
+  $('.index-header .apply .btn').click(function () {
+    _gsq.push(["T", "GWD-002457", "trackEvent", "校园招聘", "banner", $(this).text()]);
   });
 
   $('.index-pagination .button ul li').click(function () {
