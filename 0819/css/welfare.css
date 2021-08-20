@@ -1,20 +1,27 @@
 /* line 1, ../../0819-scss/welfare.scss */
+.header {
+  height: 40px;
+  padding: 20px 0 20px 0;
+  background: url(../images/rj-01.png) no-repeat center center/100% 100%;
+}
+
+/* line 7, ../../0819-scss/welfare.scss */
 .welfare-banner {
   margin-top: 20px;
 }
 
-/* line 5, ../../0819-scss/welfare.scss */
+/* line 11, ../../0819-scss/welfare.scss */
 .welfare-banner .container {
   position: relative;
   height: auto;
 }
 
-/* line 10, ../../0819-scss/welfare.scss */
+/* line 16, ../../0819-scss/welfare.scss */
 .welfare-banner img {
   width: 100%;
 }
 
-/* line 14, ../../0819-scss/welfare.scss */
+/* line 20, ../../0819-scss/welfare.scss */
 .welfare-banner .top-text {
   position: absolute;
   left: 0;
@@ -25,7 +32,7 @@
   color: #fff;
 }
 
-/* line 24, ../../0819-scss/welfare.scss */
+/* line 30, ../../0819-scss/welfare.scss */
 .welfare-banner .top-text a {
   width: 70px;
   height: 70px;
@@ -34,7 +41,7 @@
   margin-bottom: 15px;
 }
 
-/* line 32, ../../0819-scss/welfare.scss */
+/* line 38, ../../0819-scss/welfare.scss */
 .welfare-banner .top-text h3 {
   font-size: 24px;
   line-height: 1;
@@ -42,25 +49,25 @@
   font-weight: normal;
 }
 
-/* line 39, ../../0819-scss/welfare.scss */
+/* line 45, ../../0819-scss/welfare.scss */
 .welfare-banner .top-text p {
   font-size: 16px;
 }
 
-/* line 43, ../../0819-scss/welfare.scss */
+/* line 49, ../../0819-scss/welfare.scss */
 .welfare-box {
   margin-top: 20px;
   margin-bottom: 40px;
 }
 
-/* line 48, ../../0819-scss/welfare.scss */
+/* line 54, ../../0819-scss/welfare.scss */
 .welfare-box .container {
   background-color: #fff;
   padding-bottom: 30px;
   height: auto;
 }
 
-/* line 54, ../../0819-scss/welfare.scss */
+/* line 60, ../../0819-scss/welfare.scss */
 .welfare-box h2 {
   text-align: center;
   line-height: 1;
@@ -70,7 +77,7 @@
   font-size: 30px;
 }
 
-/* line 63, ../../0819-scss/welfare.scss */
+/* line 69, ../../0819-scss/welfare.scss */
 .welfare-box h4 {
   font-weight: normal;
   font-size: 20px;
@@ -78,24 +85,24 @@
   padding-top: 20px;
 }
 
-/* line 70, ../../0819-scss/welfare.scss */
+/* line 76, ../../0819-scss/welfare.scss */
 .welfare-box .here-tabLink {
   padding: 0 40px;
 }
 
-/* line 74, ../../0819-scss/welfare.scss */
+/* line 80, ../../0819-scss/welfare.scss */
 .welfare-box .welfare-1,
 .welfare-box .welfare-2,
 .welfare-box .welfare-3 {
   padding: 0 40px;
 }
 
-/* line 80, ../../0819-scss/welfare.scss */
+/* line 86, ../../0819-scss/welfare.scss */
 .welfare-box .welfare-list ul {
   width: 1140px;
 }
 
-/* line 84, ../../0819-scss/welfare.scss */
+/* line 90, ../../0819-scss/welfare.scss */
 .welfare-box .welfare-list li {
   position: relative;
   float: left;
@@ -110,18 +117,18 @@
   overflow: hidden;
 }
 
-/* line 98, ../../0819-scss/welfare.scss */
+/* line 104, ../../0819-scss/welfare.scss */
 .welfare-box .welfare-list li:hover .list-tip {
   top: 5px;
   display: block /9;
 }
 
-/* line 103, ../../0819-scss/welfare.scss */
+/* line 109, ../../0819-scss/welfare.scss */
 .welfare-box .welfare-list li .list-con {
   background-color: #fafaff;
 }
 
-/* line 107, ../../0819-scss/welfare.scss */
+/* line 113, ../../0819-scss/welfare.scss */
 .welfare-box .welfare-list li .list-con .img-box {
   width: 253px;
   height: 120px;
@@ -130,21 +137,21 @@
   vertical-align: middle;
 }
 
-/* line 115, ../../0819-scss/welfare.scss */
+/* line 121, ../../0819-scss/welfare.scss */
 .welfare-box .welfare-list li .list-con .img-box img {
   display: inline-block;
   text-align: center;
   vertical-align: middle;
 }
 
-/* line 121, ../../0819-scss/welfare.scss */
+/* line 127, ../../0819-scss/welfare.scss */
 .welfare-box .welfare-list li .list-con p {
   height: 30px;
   line-height: 30px;
   font-size: 14px;
 }
 
-/* line 127, ../../0819-scss/welfare.scss */
+/* line 133, ../../0819-scss/welfare.scss */
 .welfare-box .welfare-list li .list-tip {
   position: absolute;
   top: 162px;
@@ -164,52 +171,52 @@
   line-height: 20px;
 }
 
-/* line 146, ../../0819-scss/welfare.scss */
+/* line 152, ../../0819-scss/welfare.scss */
 .welfare-box .welfare-1 .welfare-list .list-con p {
   background-color: #e7e5ff;
   color: #9480f7;
 }
 
-/* line 151, ../../0819-scss/welfare.scss */
+/* line 157, ../../0819-scss/welfare.scss */
 .welfare-box .welfare-1 .welfare-list .list-tip {
   background-color: #9480f7;
 }
 
-/* line 155, ../../0819-scss/welfare.scss */
+/* line 161, ../../0819-scss/welfare.scss */
 .welfare-box .welfare-2 .welfare-list .list-con p {
   background-color: #c2f9f1;
   color: #01bcc6;
 }
 
-/* line 160, ../../0819-scss/welfare.scss */
+/* line 166, ../../0819-scss/welfare.scss */
 .welfare-box .welfare-2 .welfare-list .list-tip {
   background-color: #01bcc6;
 }
 
-/* line 164, ../../0819-scss/welfare.scss */
+/* line 170, ../../0819-scss/welfare.scss */
 .welfare-box .welfare-3 .welfare-list .list-con p {
   background-color: #ffe4e4;
   color: #ff8492;
 }
 
-/* line 169, ../../0819-scss/welfare.scss */
+/* line 175, ../../0819-scss/welfare.scss */
 .welfare-box .welfare-3 .welfare-list .list-tip {
   background-color: #ff8492;
 }
 
 @media screen and (max-width: 1199px) {
-  /* line 174, ../../0819-scss/welfare.scss */
+  /* line 180, ../../0819-scss/welfare.scss */
   .welfare-banner {
     margin-top: 10px;
   }
 
-  /* line 178, ../../0819-scss/welfare.scss */
+  /* line 184, ../../0819-scss/welfare.scss */
   .welfare-banner .container {
     position: relative;
     overflow: hidden;
   }
 
-  /* line 183, ../../0819-scss/welfare.scss */
+  /* line 189, ../../0819-scss/welfare.scss */
   .welfare-banner img {
     position: relative;
     left: 50%;
@@ -222,12 +229,12 @@
     height: 280px;
   }
 
-  /* line 195, ../../0819-scss/welfare.scss */
+  /* line 201, ../../0819-scss/welfare.scss */
   .welfare-banner .top-text {
     margin-top: -50px;
   }
 
-  /* line 199, ../../0819-scss/welfare.scss */
+  /* line 205, ../../0819-scss/welfare.scss */
   .welfare-banner .top-text a {
     width: 50px;
     height: 50px;
@@ -237,47 +244,47 @@
     margin-bottom: 10px;
   }
 
-  /* line 208, ../../0819-scss/welfare.scss */
+  /* line 214, ../../0819-scss/welfare.scss */
   .welfare-banner .top-text h3 {
     padding-bottom: 10px;
   }
 
-  /* line 212, ../../0819-scss/welfare.scss */
+  /* line 218, ../../0819-scss/welfare.scss */
   .welfare-box {
     margin-top: 10px;
   }
 
-  /* line 216, ../../0819-scss/welfare.scss */
+  /* line 222, ../../0819-scss/welfare.scss */
   .welfare-box h2 {
     padding: 30px 0 10px 0;
     font-size: 24px;
   }
 
-  /* line 221, ../../0819-scss/welfare.scss */
+  /* line 227, ../../0819-scss/welfare.scss */
   .welfare-box h4 {
     font-size: 18px;
     padding-bottom: 20px;
     padding-top: 10px;
   }
 
-  /* line 227, ../../0819-scss/welfare.scss */
+  /* line 233, ../../0819-scss/welfare.scss */
   .welfare-box .here-tabLink {
     padding: 0 20px;
   }
 
-  /* line 231, ../../0819-scss/welfare.scss */
+  /* line 237, ../../0819-scss/welfare.scss */
   .welfare-box .welfare-1,
   .welfare-box .welfare-2,
   .welfare-box .welfare-3 {
     padding: 0 20px;
   }
 
-  /* line 237, ../../0819-scss/welfare.scss */
+  /* line 243, ../../0819-scss/welfare.scss */
   .welfare-box .welfare-list ul {
     width: 102.041%;
   }
 
-  /* line 241, ../../0819-scss/welfare.scss */
+  /* line 247, ../../0819-scss/welfare.scss */
   .welfare-box .welfare-list li {
     width: 23%;
     height: 150px;
@@ -287,12 +294,12 @@
     box-sizing: border-box;
   }
 
-  /* line 250, ../../0819-scss/welfare.scss */
+  /* line 256, ../../0819-scss/welfare.scss */
   .welfare-box .welfare-list li .list-con .img-box {
     height: 108px;
   }
 
-  /* line 254, ../../0819-scss/welfare.scss */
+  /* line 260, ../../0819-scss/welfare.scss */
   .welfare-box .welfare-list li .list-tip {
     top: 150px;
     width: -webkit-calc(100% - 10px);
@@ -306,34 +313,34 @@
   }
 }
 @media screen and (max-width: 1024px) {
-  /* line 268, ../../0819-scss/welfare.scss */
+  /* line 274, ../../0819-scss/welfare.scss */
   .welfare-box .welfare-list li {
     width: 31.33%;
   }
 
-  /* line 272, ../../0819-scss/welfare.scss */
+  /* line 278, ../../0819-scss/welfare.scss */
   .welfare-box .welfare-list li .list-con .img-box img {
     height: 45px;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 278, ../../0819-scss/welfare.scss */
+  /* line 284, ../../0819-scss/welfare.scss */
   .welfare-box .welfare-list li:hover .list-tip {
     display: none;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 284, ../../0819-scss/welfare.scss */
+  /* line 290, ../../0819-scss/welfare.scss */
   .welfare-banner img {
     height: 150px;
   }
 
-  /* line 288, ../../0819-scss/welfare.scss */
+  /* line 294, ../../0819-scss/welfare.scss */
   .welfare-banner .top-text {
     margin-top: -40px;
   }
 
-  /* line 292, ../../0819-scss/welfare.scss */
+  /* line 298, ../../0819-scss/welfare.scss */
   .welfare-banner .top-text a {
     width: 35px;
     height: 35px;
@@ -343,72 +350,72 @@
     margin-bottom: 5px;
   }
 
-  /* line 301, ../../0819-scss/welfare.scss */
+  /* line 307, ../../0819-scss/welfare.scss */
   .welfare-banner .top-text h3 {
     font-size: 18px;
     padding-bottom: 8px;
   }
 
-  /* line 306, ../../0819-scss/welfare.scss */
+  /* line 312, ../../0819-scss/welfare.scss */
   .welfare-banner .top-text p {
     font-size: 12px;
   }
 
-  /* line 310, ../../0819-scss/welfare.scss */
+  /* line 316, ../../0819-scss/welfare.scss */
   .welfare-box .welfare-list li {
     width: 48%;
     margin-bottom: 10px;
   }
 
-  /* line 315, ../../0819-scss/welfare.scss */
+  /* line 321, ../../0819-scss/welfare.scss */
   .welfare-box h2 {
     padding: 25px 0 10px 0;
     font-size: 20px;
     font-weight: bold;
   }
 
-  /* line 321, ../../0819-scss/welfare.scss */
+  /* line 327, ../../0819-scss/welfare.scss */
   .welfare-box h4 {
     font-size: 16px;
     padding-bottom: 15px;
   }
 
-  /* line 326, ../../0819-scss/welfare.scss */
+  /* line 332, ../../0819-scss/welfare.scss */
   .welfare-box .welfare-1,
   .welfare-box .welfare-2,
   .welfare-box .welfare-3 {
     padding: 0 10px;
   }
 }
-/* line 333, ../../0819-scss/welfare.scss */
+/* line 339, ../../0819-scss/welfare.scss */
 .welfare-box .welfare-0 h4 {
   padding: 0 40px;
 }
 
-/* line 337, ../../0819-scss/welfare.scss */
+/* line 343, ../../0819-scss/welfare.scss */
 .welfare-box .welfare-0 img {
   margin: 40px auto;
 }
 
 @media only screen and (max-width: 1024px) {
-  /* line 342, ../../0819-scss/welfare.scss */
+  /* line 348, ../../0819-scss/welfare.scss */
   .welfare-box .welfare-0 h4 {
     padding: 0 20px;
   }
 }
 @media only screen and (max-width: 414px) {
-  /* line 348, ../../0819-scss/welfare.scss */
+  /* line 354, ../../0819-scss/welfare.scss */
   .welfare-box .welfare-0 {
     width: 100%;
     margin-top: 20px;
   }
 
-  /* line 353, ../../0819-scss/welfare.scss */
+  /* line 359, ../../0819-scss/welfare.scss */
   .welfare-box .welfare-0 img {
     width: 60%;
   }
 
-  /* line 357, ../../0819-scss/welfare.scss */
+  /* line 363, ../../0819-scss/welfare.scss */
   .welfare-box .welfare-0 h4 {
     padding: 0 10px;
   }

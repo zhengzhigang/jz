@@ -1,3 +1,9 @@
+.header {
+    height: 40px;
+    padding: 20px 0 20px 0;
+    background: url(../images/rj-01.png) no-repeat center center/100% 100%;
+}
+
 .meet {
   background-color: #F7F7F7;
 
@@ -35,6 +41,14 @@
     margin-bottom: 29px;
     text-align: center;
     background-color: #fff;
+
+    .meet-text {
+      font-size: 16px;
+      color: #333;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 30px;
+    }
   }
 
   &-title {
@@ -65,11 +79,6 @@
         background-image: url(../images/meet/title-bg.png);
         transform: rotateZ(180deg);
       }
-    }
-
-    .meet-text {
-      font-size: 16px;
-      color: #333;
     }
   }
 

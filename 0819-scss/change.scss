@@ -142,9 +142,11 @@
 
   .copyright {
     padding-bottom: 10px;
-    font-size: 16px;
+    font-size: 14px;
     color: #fff;
     text-align: center;
+    opacity: 0.9;
+    filter: opacity(0.9);
   }
 }
 

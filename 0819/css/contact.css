@@ -1,36 +1,43 @@
 /* line 1, ../../0819-scss/contact.scss */
+.header {
+  height: 40px;
+  padding: 20px 0 20px 0;
+  background: url(../images/rj-01.png) no-repeat center center/100% 100%;
+}
+
+/* line 7, ../../0819-scss/contact.scss */
 .contact {
   background-color: #F7F7F7;
 }
-/* line 4, ../../0819-scss/contact.scss */
+/* line 10, ../../0819-scss/contact.scss */
 .contact-content {
   max-width: 1200px;
   margin: 20px auto 50px;
   background: #fff;
   overflow: hidden;
 }
-/* line 10, ../../0819-scss/contact.scss */
+/* line 16, ../../0819-scss/contact.scss */
 .contact-content-title {
   padding: 37px 50px 30px;
 }
-/* line 13, ../../0819-scss/contact.scss */
+/* line 19, ../../0819-scss/contact.scss */
 .contact-content-title-text {
   font-size: 36px;
   color: #333333;
   line-height: 50px;
 }
-/* line 19, ../../0819-scss/contact.scss */
+/* line 25, ../../0819-scss/contact.scss */
 .contact-content-title-desc {
   font-size: 16px;
   color: #333;
   line-height: 22px;
 }
-/* line 27, ../../0819-scss/contact.scss */
+/* line 33, ../../0819-scss/contact.scss */
 .contact .waterfall {
   padding: 0 50px;
   margin-bottom: 50px;
 }
-/* line 31, ../../0819-scss/contact.scss */
+/* line 37, ../../0819-scss/contact.scss */
 .contact .waterfall::after {
   content: '';
   clear: both;
@@ -38,115 +45,115 @@
   height: 0;
   zoom: 1;
 }
-/* line 39, ../../0819-scss/contact.scss */
+/* line 45, ../../0819-scss/contact.scss */
 .contact .waterfall-left {
   width: 48%;
   float: left;
 }
-/* line 43, ../../0819-scss/contact.scss */
+/* line 49, ../../0819-scss/contact.scss */
 .contact .waterfall-right {
   width: 48%;
   float: right;
 }
-/* line 48, ../../0819-scss/contact.scss */
+/* line 54, ../../0819-scss/contact.scss */
 .contact .waterfall-item {
   width: 100%;
   margin-bottom: 30px;
 }
-/* line 52, ../../0819-scss/contact.scss */
+/* line 58, ../../0819-scss/contact.scss */
 .contact .waterfall-item-title {
   font-size: 24px;
   color: #333;
   margin-bottom: 20px;
 }
-/* line 60, ../../0819-scss/contact.scss */
+/* line 66, ../../0819-scss/contact.scss */
 .contact .item-table {
   width: 100%;
 }
-/* line 63, ../../0819-scss/contact.scss */
+/* line 69, ../../0819-scss/contact.scss */
 .contact .item-table td, .contact .item-table th {
   padding: 8px 14px;
   border: 1px solid #C5EBF9;
   font-size: 16px;
   color: #333;
 }
-/* line 70, ../../0819-scss/contact.scss */
+/* line 76, ../../0819-scss/contact.scss */
 .contact .item-table th {
   color: #0A71CA;
 }
-/* line 74, ../../0819-scss/contact.scss */
+/* line 80, ../../0819-scss/contact.scss */
 .contact .item-table .table-head-tr {
   background: url(../images/table-bg.png) center center/100% 100% no-repeat;
 }
 
 @media screen and (max-width: 1024px) {
-  /* line 82, ../../0819-scss/contact.scss */
+  /* line 88, ../../0819-scss/contact.scss */
   .contact-content {
     max-width: auto;
     margin: 20px 30px 50px;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 92, ../../0819-scss/contact.scss */
+  /* line 98, ../../0819-scss/contact.scss */
   .contact-content-title {
     padding: 37px 30px 30px;
   }
-  /* line 95, ../../0819-scss/contact.scss */
+  /* line 101, ../../0819-scss/contact.scss */
   .contact-content-title-text {
     font-size: 32px;
   }
-  /* line 101, ../../0819-scss/contact.scss */
+  /* line 107, ../../0819-scss/contact.scss */
   .contact .waterfall {
     padding: 0 30px;
   }
-  /* line 105, ../../0819-scss/contact.scss */
+  /* line 111, ../../0819-scss/contact.scss */
   .contact .waterfall-item-title {
     font-size: 22px;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 115, ../../0819-scss/contact.scss */
+  /* line 121, ../../0819-scss/contact.scss */
   .contact-content {
     margin: 20px 15px 50px;
   }
-  /* line 117, ../../0819-scss/contact.scss */
+  /* line 123, ../../0819-scss/contact.scss */
   .contact-content-title {
     padding: 25px 30px 30px;
   }
-  /* line 120, ../../0819-scss/contact.scss */
+  /* line 126, ../../0819-scss/contact.scss */
   .contact-content-title-text {
     font-size: 32px;
   }
-  /* line 126, ../../0819-scss/contact.scss */
+  /* line 132, ../../0819-scss/contact.scss */
   .contact .waterfall {
     padding: 0 30px;
     margin-bottom: 40px;
   }
-  /* line 130, ../../0819-scss/contact.scss */
+  /* line 136, ../../0819-scss/contact.scss */
   .contact .waterfall-left {
     width: 100%;
     float: none;
   }
-  /* line 134, ../../0819-scss/contact.scss */
+  /* line 140, ../../0819-scss/contact.scss */
   .contact .waterfall-right {
     width: 100%;
     float: none;
   }
 }
 @media screen and (max-width: 414px) {
-  /* line 144, ../../0819-scss/contact.scss */
+  /* line 150, ../../0819-scss/contact.scss */
   .contact-content {
     margin: 20px 15px 40px;
   }
-  /* line 148, ../../0819-scss/contact.scss */
+  /* line 154, ../../0819-scss/contact.scss */
   .contact-content-title-text {
     font-size: 32px;
   }
-  /* line 154, ../../0819-scss/contact.scss */
+  /* line 160, ../../0819-scss/contact.scss */
   .contact .waterfall {
     padding: 0 15px;
   }
-  /* line 157, ../../0819-scss/contact.scss */
+  /* line 163, ../../0819-scss/contact.scss */
   .contact .waterfall-item-title {
     margin-bottom: 10px;
   }
