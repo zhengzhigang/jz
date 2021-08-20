@@ -148,7 +148,11 @@
 .meet-item-title.title4::before {
   background-image: url(../images/meet/item-title-icon4.png);
 }
-/* line 151, ../../0819-scss/meet.scss */
+/* line 149, ../../0819-scss/meet.scss */
+.meet-item-title.title5::before {
+  background-image: url(../images/meet/item-title-icon5.png);
+}
+/* line 154, ../../0819-scss/meet.scss */
 .meet-item-time {
   position: relative;
   font-size: 20px;
@@ -157,7 +161,7 @@
   line-height: 21px;
   margin-bottom: 16px;
 }
-/* line 159, ../../0819-scss/meet.scss */
+/* line 162, ../../0819-scss/meet.scss */
 .meet-item-time::before {
   position: absolute;
   content: '';
@@ -167,125 +171,125 @@
   left: 0;
   background: url(../images/meet/time-icon.png) center/100% no-repeat;
 }
-/* line 170, ../../0819-scss/meet.scss */
+/* line 173, ../../0819-scss/meet.scss */
 .meet-item-desc {
   min-height: 91px;
   margin-bottom: 10px;
   font-size: 16px;
   color: #333333;
 }
-/* line 177, ../../0819-scss/meet.scss */
+/* line 180, ../../0819-scss/meet.scss */
 .meet-item .meet-btn {
   margin-right: 30px;
 }
 
 @media screen and (max-width: 960px) {
-  /* line 185, ../../0819-scss/meet.scss */
+  /* line 188, ../../0819-scss/meet.scss */
   .meet-desc {
     padding: 28px 30px 40px;
   }
-  /* line 189, ../../0819-scss/meet.scss */
+  /* line 192, ../../0819-scss/meet.scss */
   .meet-list {
     max-width: auto;
     margin-left: 20px;
     margin-right: 20px;
   }
-  /* line 196, ../../0819-scss/meet.scss */
+  /* line 199, ../../0819-scss/meet.scss */
   .meet-item .left {
     width: 35%;
     margin-right: 3%;
   }
-  /* line 201, ../../0819-scss/meet.scss */
+  /* line 204, ../../0819-scss/meet.scss */
   .meet-item .right {
     width: 62%;
   }
-  /* line 205, ../../0819-scss/meet.scss */
+  /* line 208, ../../0819-scss/meet.scss */
   .meet-item-title {
     line-height: 42px;
     margin: 0 0 10px;
   }
-  /* line 210, ../../0819-scss/meet.scss */
+  /* line 213, ../../0819-scss/meet.scss */
   .meet-item-time {
     margin-bottom: 10px;
   }
-  /* line 214, ../../0819-scss/meet.scss */
+  /* line 217, ../../0819-scss/meet.scss */
   .meet-item-desc {
     min-height: auto;
     margin-bottom: 5px;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 224, ../../0819-scss/meet.scss */
+  /* line 227, ../../0819-scss/meet.scss */
   .meet-list {
     margin-bottom: 80px;
   }
-  /* line 228, ../../0819-scss/meet.scss */
+  /* line 231, ../../0819-scss/meet.scss */
   .meet-item {
     margin-bottom: 30px;
   }
-  /* line 231, ../../0819-scss/meet.scss */
+  /* line 234, ../../0819-scss/meet.scss */
   .meet-item:last-child {
     margin-bottom: 0;
   }
-  /* line 235, ../../0819-scss/meet.scss */
+  /* line 238, ../../0819-scss/meet.scss */
   .meet-item .left {
     width: 100%;
     margin-right: 0;
     margin-bottom: 30px;
   }
-  /* line 241, ../../0819-scss/meet.scss */
+  /* line 244, ../../0819-scss/meet.scss */
   .meet-item .right {
     width: 100%;
   }
-  /* line 245, ../../0819-scss/meet.scss */
+  /* line 248, ../../0819-scss/meet.scss */
   .meet-item-title {
     margin: 0 0 18px;
     font-size: 26px;
     line-height: 40px;
     padding-left: 50px;
   }
-  /* line 251, ../../0819-scss/meet.scss */
+  /* line 254, ../../0819-scss/meet.scss */
   .meet-item-title::before {
     width: 40px;
     height: 35px;
     top: 3px;
   }
-  /* line 258, ../../0819-scss/meet.scss */
+  /* line 261, ../../0819-scss/meet.scss */
   .meet-item-time {
     margin-bottom: 15px;
     font-size: 18px;
   }
-  /* line 263, ../../0819-scss/meet.scss */
+  /* line 266, ../../0819-scss/meet.scss */
   .meet-item-desc {
     margin-bottom: 20px;
   }
 }
 @media screen and (max-width: 375px) {
-  /* line 272, ../../0819-scss/meet.scss */
+  /* line 275, ../../0819-scss/meet.scss */
   .meet-list {
     margin-bottom: 60px;
   }
-  /* line 276, ../../0819-scss/meet.scss */
+  /* line 279, ../../0819-scss/meet.scss */
   .meet-btn {
     width: 130px;
     height: 38px;
     line-height: 38px;
     border-radius: 19px;
   }
-  /* line 283, ../../0819-scss/meet.scss */
+  /* line 286, ../../0819-scss/meet.scss */
   .meet-list {
     margin-left: 15px;
     margin-right: 15px;
   }
-  /* line 289, ../../0819-scss/meet.scss */
+  /* line 292, ../../0819-scss/meet.scss */
   .meet-item .left {
     margin-bottom: 20px;
   }
-  /* line 293, ../../0819-scss/meet.scss */
+  /* line 296, ../../0819-scss/meet.scss */
   .meet-item .meet-btn {
     margin-right: 10px;
   }
-  /* line 296, ../../0819-scss/meet.scss */
+  /* line 299, ../../0819-scss/meet.scss */
   .meet-item .meet-btn:last-child {
     margin-right: 0;
   }
