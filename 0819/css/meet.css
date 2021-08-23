@@ -57,10 +57,11 @@
 }
 /* line 57, ../../0819-scss/meet.scss */
 .meet-title-text {
+  display: inline-block;
   position: relative;
   padding: 0 104px;
 }
-/* line 61, ../../0819-scss/meet.scss */
+/* line 62, ../../0819-scss/meet.scss */
 .meet-title-text::after, .meet-title-text::before {
   position: absolute;
   content: '';
@@ -71,28 +72,28 @@
   background-repeat: no-repeat;
   background-position: center;
 }
-/* line 72, ../../0819-scss/meet.scss */
+/* line 73, ../../0819-scss/meet.scss */
 .meet-title-text::before {
   left: 0;
   background-image: url(../images/meet/title-bg.png);
 }
-/* line 77, ../../0819-scss/meet.scss */
+/* line 78, ../../0819-scss/meet.scss */
 .meet-title-text::after {
   right: 0;
   background-image: url(../images/meet/title-bg.png);
   transform: rotateZ(180deg);
 }
-/* line 85, ../../0819-scss/meet.scss */
+/* line 86, ../../0819-scss/meet.scss */
 .meet-list {
   max-width: 1200px;
   margin: 0 auto 108px;
 }
-/* line 90, ../../0819-scss/meet.scss */
+/* line 91, ../../0819-scss/meet.scss */
 .meet-item {
   margin-bottom: 20px;
   font-size: 0;
 }
-/* line 94, ../../0819-scss/meet.scss */
+/* line 95, ../../0819-scss/meet.scss */
 .meet-item .play-icon {
   position: absolute;
   display: block;
@@ -104,7 +105,7 @@
   margin-left: -36px;
   margin-top: -36px;
 }
-/* line 106, ../../0819-scss/meet.scss */
+/* line 107, ../../0819-scss/meet.scss */
 .meet-item .left {
   position: relative;
   display: inline-block;
@@ -112,16 +113,16 @@
   margin-right: 41px;
   vertical-align: top;
 }
-/* line 113, ../../0819-scss/meet.scss */
+/* line 114, ../../0819-scss/meet.scss */
 .meet-item .left img {
   width: 100%;
 }
-/* line 118, ../../0819-scss/meet.scss */
+/* line 119, ../../0819-scss/meet.scss */
 .meet-item .right {
   display: inline-block;
   width: 703px;
 }
-/* line 123, ../../0819-scss/meet.scss */
+/* line 124, ../../0819-scss/meet.scss */
 .meet-item-title {
   position: relative;
   font-size: 30px;
@@ -130,7 +131,7 @@
   line-height: 42px;
   margin: 37px 0 18px;
 }
-/* line 131, ../../0819-scss/meet.scss */
+/* line 132, ../../0819-scss/meet.scss */
 .meet-item-title::before {
   position: absolute;
   content: '';
@@ -142,27 +143,27 @@
   background-repeat: no-repeat;
   background-position: center;
 }
-/* line 143, ../../0819-scss/meet.scss */
+/* line 144, ../../0819-scss/meet.scss */
 .meet-item-title.title1::before {
   background-image: url(../images/meet/item-title-icon1.png);
 }
-/* line 147, ../../0819-scss/meet.scss */
+/* line 148, ../../0819-scss/meet.scss */
 .meet-item-title.title2::before {
   background-image: url(../images/meet/item-title-icon2.png);
 }
-/* line 151, ../../0819-scss/meet.scss */
+/* line 152, ../../0819-scss/meet.scss */
 .meet-item-title.title3::before {
   background-image: url(../images/meet/item-title-icon3.png);
 }
-/* line 155, ../../0819-scss/meet.scss */
+/* line 156, ../../0819-scss/meet.scss */
 .meet-item-title.title4::before {
   background-image: url(../images/meet/item-title-icon4.png);
 }
-/* line 158, ../../0819-scss/meet.scss */
+/* line 159, ../../0819-scss/meet.scss */
 .meet-item-title.title5::before {
   background-image: url(../images/meet/item-title-icon5.png);
 }
-/* line 163, ../../0819-scss/meet.scss */
+/* line 164, ../../0819-scss/meet.scss */
 .meet-item-time {
   position: relative;
   font-size: 20px;
@@ -171,7 +172,7 @@
   line-height: 21px;
   margin-bottom: 16px;
 }
-/* line 171, ../../0819-scss/meet.scss */
+/* line 172, ../../0819-scss/meet.scss */
 .meet-item-time::before {
   position: absolute;
   content: '';
@@ -181,126 +182,163 @@
   left: 0;
   background: url(../images/meet/time-icon.png) center/100% no-repeat;
 }
-/* line 182, ../../0819-scss/meet.scss */
+/* line 183, ../../0819-scss/meet.scss */
 .meet-item-desc {
   min-height: 91px;
   margin-bottom: 10px;
   font-size: 16px;
   color: #333333;
 }
-/* line 189, ../../0819-scss/meet.scss */
+/* line 190, ../../0819-scss/meet.scss */
 .meet-item .meet-btn {
   margin-right: 30px;
 }
 
 @media screen and (max-width: 960px) {
-  /* line 197, ../../0819-scss/meet.scss */
+  /* line 198, ../../0819-scss/meet.scss */
   .meet-desc {
     padding: 28px 30px 40px;
   }
-  /* line 201, ../../0819-scss/meet.scss */
+  /* line 202, ../../0819-scss/meet.scss */
   .meet-list {
     max-width: auto;
     margin-left: 20px;
     margin-right: 20px;
   }
-  /* line 208, ../../0819-scss/meet.scss */
+  /* line 209, ../../0819-scss/meet.scss */
   .meet-item .left {
     width: 35%;
     margin-right: 3%;
   }
-  /* line 213, ../../0819-scss/meet.scss */
+  /* line 214, ../../0819-scss/meet.scss */
   .meet-item .right {
     width: 62%;
   }
-  /* line 217, ../../0819-scss/meet.scss */
+  /* line 218, ../../0819-scss/meet.scss */
   .meet-item-title {
     line-height: 42px;
     margin: 0 0 10px;
   }
-  /* line 222, ../../0819-scss/meet.scss */
+  /* line 223, ../../0819-scss/meet.scss */
   .meet-item-time {
     margin-bottom: 10px;
   }
-  /* line 226, ../../0819-scss/meet.scss */
+  /* line 227, ../../0819-scss/meet.scss */
   .meet-item-desc {
     min-height: auto;
     margin-bottom: 5px;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 236, ../../0819-scss/meet.scss */
+  /* line 237, ../../0819-scss/meet.scss */
   .meet-list {
     margin-bottom: 80px;
   }
-  /* line 240, ../../0819-scss/meet.scss */
+  /* line 241, ../../0819-scss/meet.scss */
   .meet-item {
     margin-bottom: 30px;
   }
-  /* line 243, ../../0819-scss/meet.scss */
+  /* line 244, ../../0819-scss/meet.scss */
   .meet-item:last-child {
     margin-bottom: 0;
   }
-  /* line 247, ../../0819-scss/meet.scss */
+  /* line 248, ../../0819-scss/meet.scss */
   .meet-item .left {
     width: 100%;
     margin-right: 0;
     margin-bottom: 30px;
   }
-  /* line 253, ../../0819-scss/meet.scss */
+  /* line 254, ../../0819-scss/meet.scss */
   .meet-item .right {
     width: 100%;
   }
-  /* line 257, ../../0819-scss/meet.scss */
+  /* line 258, ../../0819-scss/meet.scss */
   .meet-item-title {
     margin: 0 0 18px;
     font-size: 26px;
     line-height: 40px;
     padding-left: 50px;
   }
-  /* line 263, ../../0819-scss/meet.scss */
+  /* line 264, ../../0819-scss/meet.scss */
   .meet-item-title::before {
     width: 40px;
     height: 35px;
     top: 3px;
   }
-  /* line 270, ../../0819-scss/meet.scss */
+  /* line 271, ../../0819-scss/meet.scss */
   .meet-item-time {
     margin-bottom: 15px;
     font-size: 18px;
   }
-  /* line 275, ../../0819-scss/meet.scss */
+  /* line 276, ../../0819-scss/meet.scss */
   .meet-item-desc {
     margin-bottom: 20px;
   }
 }
 @media screen and (max-width: 375px) {
-  /* line 284, ../../0819-scss/meet.scss */
+  /* line 285, ../../0819-scss/meet.scss */
   .meet-list {
     margin-bottom: 60px;
   }
-  /* line 288, ../../0819-scss/meet.scss */
+  /* line 289, ../../0819-scss/meet.scss */
   .meet-btn {
     width: 130px;
     height: 38px;
     line-height: 38px;
     border-radius: 19px;
   }
-  /* line 295, ../../0819-scss/meet.scss */
+  /* line 296, ../../0819-scss/meet.scss */
   .meet-list {
     margin-left: 15px;
     margin-right: 15px;
   }
-  /* line 301, ../../0819-scss/meet.scss */
+  /* line 302, ../../0819-scss/meet.scss */
   .meet-item .left {
     margin-bottom: 20px;
   }
-  /* line 305, ../../0819-scss/meet.scss */
+  /* line 306, ../../0819-scss/meet.scss */
   .meet-item .meet-btn {
     margin-right: 10px;
   }
-  /* line 308, ../../0819-scss/meet.scss */
+  /* line 309, ../../0819-scss/meet.scss */
   .meet-item .meet-btn:last-child {
     margin-right: 0;
+  }
+  /* line 314, ../../0819-scss/meet.scss */
+  .meet-item .play-icon {
+    width: 60px;
+    height: 60px;
+    margin-top: -30px;
+    margin-left: -30px;
+  }
+  /* line 322, ../../0819-scss/meet.scss */
+  .meet-desc {
+    padding: 28px 0 40px;
+  }
+}
+@media screen and (max-width: 375px) {
+  /* line 332, ../../0819-scss/meet.scss */
+  .meet-desc {
+    padding: 28px 0 30px;
+  }
+  /* line 334, ../../0819-scss/meet.scss */
+  .meet-desc .meet-text {
+    padding: 0 20px;
+  }
+  /* line 339, ../../0819-scss/meet.scss */
+  .meet-title {
+    line-height: 40px;
+  }
+  /* line 342, ../../0819-scss/meet.scss */
+  .meet-title-text {
+    padding: 0 94px;
+  }
+  /* line 345, ../../0819-scss/meet.scss */
+  .meet-title-text::after, .meet-title-text::before {
+    width: 80px;
+  }
+  /* line 351, ../../0819-scss/meet.scss */
+  .meet-list {
+    margin-bottom: 40px;
   }
 }

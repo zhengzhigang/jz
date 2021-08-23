@@ -55,6 +55,7 @@
     line-height: 40px;
 
     &-text {
+      display: inline-block;
       position: relative;
       padding: 0 104px;
 
@@ -309,6 +310,46 @@
           margin-right: 0;
         }
       }
+
+      .play-icon {
+        width: 60px;
+        height: 60px;
+        margin-top: -30px;
+        margin-left: -30px;
+      }
+    }
+
+    &-desc {
+      padding: 28px 0 40px;;
+      .meet-text {
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .meet {
+    &-desc {
+      padding: 28px 0 30px;;
+      .meet-text {
+        padding: 0 20px;
+      }
+    }
+
+    &-title {
+      line-height: 40px;
+  
+      &-text {
+        padding: 0 94px;
+  
+        &::after, &::before {
+          width: 80px;
+        }
+      }
+    }
+
+    &-list {
+      margin-bottom: 40px;
     }
   }
 }

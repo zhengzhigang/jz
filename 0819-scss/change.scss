@@ -275,3 +275,28 @@
     }
   }
 }
+
+@media screen and (max-width: 320px) {
+    .index-container {
+      .banners {
+        .pic {
+          top: 26.5%;
+        }
+
+        .recruitment {
+          .apply {
+            margin-top: 50px;
+          }
+        }
+      }
+
+      .index-pagination {
+        .button {
+          width: 94%;
+          ul li {
+            padding: 20px 0;
+          }
+        }
+      }
+    }
+  }
