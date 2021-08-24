@@ -1520,6 +1520,13 @@ body {
     font-size: 18px;
     top: 0;
   }
+  .img-title.large {
+    padding: 10px 30px;
+    width: 320px;
+    height: 55px;
+    line-height: 27px;
+    background: url(../RJ-img/page6-title-bg-m.png) center/100% no-repeat;
+  }
 
   .t-page-title span::before, .t-page-title span::after {
     display: none;
@@ -1609,6 +1616,10 @@ body {
     padding: 0 15px 0 60px;
     margin-bottom: 20px;
   }
+  .page5-cont .icon {
+    width: 55px;
+    height: 55px;
+  }
 
   .t-page6 {
     padding: 50px 0 50px;
@@ -1622,17 +1633,25 @@ body {
   }
   .page6-cont .left .item, .page6-cont .right .item {
     display: inline-block;
-    width: 50%;
+    width: 100%;
     margin-bottom: 20px;
   }
   .page6-cont .left img, .page6-cont .right img {
     width: 90%;
   }
   .page6-cont .left-content, .page6-cont .right-content {
-    padding-top: 90px;
+    padding-top: 80px;
   }
   .page6-cont .list {
     padding: 0;
+  }
+  .page6-cont img.icon {
+    width: 60px;
+    height: 60px;
+    top: 0;
+  }
+  .page6-cont .title {
+    margin-bottom: 10px;
   }
 
   .t-page7 {
@@ -1807,6 +1826,11 @@ body {
     height: 42px;
     line-height: 42px;
   }
+  .img-title.large {
+    width: 260px;
+    height: 43px;
+    line-height: 21px;
+  }
 
   .t-page1 {
     padding-bottom: 20px;
@@ -1911,6 +1935,11 @@ body {
     width: 306px;
     height: 38px;
     line-height: 38px;
+  }
+  .img-title.large {
+    width: 240px;
+    height: 40px;
+    line-height: 20px;
   }
 
   .dialog2-cont .dialog2-item .item-cont {

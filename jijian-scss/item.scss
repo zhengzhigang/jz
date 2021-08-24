@@ -1714,6 +1714,14 @@ body {
   .img-title {
     font-size: 18px;
     top: 0;
+
+    &.large {
+      padding: 10px 30px;
+      width: 320px;
+      height: 55px;
+      line-height: 27px;
+      background: url(../RJ-img/page6-title-bg-m.png) center/100% no-repeat;
+    }
   }
   .t-page-title{
     span {
@@ -1824,6 +1832,11 @@ body {
       padding: 0 15px 0 60px;
       margin-bottom: 20px;
     }
+
+    .icon {
+      width: 55px;
+      height: 55px;
+    }
   }
 
   .t-page6{
@@ -1837,7 +1850,7 @@ body {
       width: 100%;
       .item {
         display: inline-block;
-        width: 50%;
+        width: 100%;
         margin-bottom: 20px;
       }
 
@@ -1847,11 +1860,21 @@ body {
     }
 
     .left-content, .right-content {
-      padding-top: 90px;
+      padding-top: 80px;
     }
 
     .list {
       padding: 0;
+    }
+
+    img.icon {
+      width: 60px;
+      height: 60px;
+      top: 0;
+    }
+
+    .title {
+      margin-bottom: 10px;
     }
   }
 
@@ -2073,6 +2096,12 @@ body {
     width: 338px;
     height: 42px;
     line-height: 42px;
+
+    &.large {
+      width: 260px;
+      height: 43px;
+      line-height: 21px;
+    }
   }
 
   .t-page1 {
@@ -2214,6 +2243,12 @@ body {
     width: 306px;
     height: 38px;
     line-height: 38px;
+
+    &.large {
+      width: 240px;
+      height: 40px;
+      line-height: 20px;
+    }
   }
 
   .dialog2-cont{
