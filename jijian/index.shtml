@@ -84,12 +84,12 @@
             <img src="./RJ-img/page2-icon3.png"/>
             <p>光纤+Wi-Fi 6接入网，网速提升显著</p>
             <div class="btn-list">
-              <a href="https://www.ruijie.com.cn/fa/cp-wx/87331/" target="_blank" class="btn btn-red track5">查看详情</a>
+              <a href="//www.ruijie.com.cn/fa/cp-wx/87331/" target="_blank" class="btn btn-red track5">查看详情</a>
             </div>
           </li>
         </ul>
         <div class="btn-list">
-          <a href="https://www.ruijie.com.cn/yx/ggtp/jh/preview/14184" target="_blank" class="btn track6">
+          <a href="//www.ruijie.com.cn/yx/ggtp/jh/preview/14184" target="_blank" class="btn track6">
             一张图get全光
           </a>
         </div>
@@ -103,7 +103,7 @@
           <li>
             <div
               class="item-img play_video track7"
-              data-src="https://www.ruijie.com.cn/yx/sp/jh/preview/14404"
+              data-src="//www.ruijie.com.cn/yx/sp/jh/preview/14404"
               data-name="泰安实验中学"
             >
               <img src="./RJ-img/page3-img1.jpg"/>
@@ -116,7 +116,7 @@
           <li>
             <div
               class="item-img play_video track8"
-              data-src="https://www.ruijie.com.cn/yx/sp/wx/preview/14944"
+              data-src="//www.ruijie.com.cn/yx/sp/wx/preview/14944"
               data-name="华中科技大学"
             >
               <img src="./RJ-img/page3-img2.jpg"/>
@@ -129,7 +129,7 @@
           <li>
             <div
               class="item-img play_video track9"
-              data-src="https://www.ruijie.com.cn/yx/sp/jh/preview/15058"
+              data-src="//www.ruijie.com.cn/yx/sp/jh/preview/15058"
               data-name="四川轻化工大学"
             >
               <img src="./RJ-img/page3-img3.jpg"/>
@@ -141,10 +141,10 @@
           </li>
         </ul>
         <div class="btn-list">
-          <a href="https://www.ruijie.com.cn/fa/pj/20210106/" target="_blank" class="btn btn-red track10">
+          <a href="//www.ruijie.com.cn/fa/pj/20210106/" target="_blank" class="btn btn-red track10">
             普教极简全光方案
           </a>
-          <a href="https://www.ruijie.com.cn/fa/gj/20210112/" target="_blank" class="btn btn-red track11">
+          <a href="//www.ruijie.com.cn/fa/gj/20210112/" target="_blank" class="btn btn-red track11">
             高教极简全光方案
           </a>
           <a href="" target="_blank" class="btn btn-red track12" style="display: none;">
@@ -171,10 +171,10 @@
         </div>
       </div>
       <div class="btn-list">
-        <a href="https://www.ruijie.com.cn/yx/kw/jh/preview/13920" class="btn btn-red track19" target="_blank">
+        <a href="//www.ruijie.com.cn/yx/kw/jh/preview/13920" class="btn btn-red track19" target="_blank">
           方案彩页下载
         </a>
-        <a href="https://www.ruijie.com.cn/yx/sp/jh/preview/14193" class="btn track20" target="_blank">
+        <a href="//www.ruijie.com.cn/yx/sp/jh/preview/14193" class="btn track20" target="_blank">
           2分钟了解全光方案
         </a>
       </div>
@@ -194,7 +194,7 @@
               style="display: none;"
               class="page5_video"
               controls="controls"
-              src="https://www.ruijie.com.cn/yx/sp/jh/preview/14565"
+              src="//www.ruijie.com.cn/yx/sp/jh/preview/14565"
               width="100%"
               height="100%"
               webkit-playsinline=""
@@ -249,13 +249,13 @@
         </div>
       </div>
       <div class="btn-list">
-        <a href="https://www.ruijie.com.cn/cp/jh-yqw-jgjh/sf2900s/" target="_blank" class="btn btn-red track22">
+        <a href="//www.ruijie.com.cn/cp/jh-yqw-jgjh/sf2900s/" target="_blank" class="btn btn-red track22">
           极简光系列交换机
         </a>
-        <a href="https://www.ruijie.com.cn/cp/jh-shjzhx/n18k/" target="_blank" class="btn btn-red track23">
+        <a href="//www.ruijie.com.cn/cp/jh-shjzhx/n18k/" target="_blank" class="btn btn-red track23">
           匹配RG-N18000系列
         </a>
-        <a href="https://www.ruijie.com.cn/cp/jh-shjzhx/n18k/" class="btn track24" target="_blank">
+        <a href="//www.ruijie.com.cn/cp/jh-shjzhx/n18k/" class="btn track24" target="_blank">
           匹配RG-S7800C系列
         </a>
       </div>     
@@ -323,10 +323,10 @@
         </div>
       </div>
       <div class="btn-list">
-        <a href="https://www.ruijie.com.cn/cp/wx-jjqgzf/am5552-sf/" class="btn btn-red track33" target="_blank">
+        <a href="//www.ruijie.com.cn/cp/wx-jjqgzf/am5552-sf/" class="btn btn-red track33" target="_blank">
           以太全光智分产品
         </a>
-        <a href="https://www.ruijie.com.cn/fa/cp-wx/87331/" class="btn track25" target="_blank">
+        <a href="//www.ruijie.com.cn/fa/cp-wx/87331/" class="btn track25" target="_blank">
           极简以太全光智分+方案
         </a>
       </div>
@@ -365,10 +365,10 @@
         </div>
       </div>
       <div class="btn-list">
-        <a href="https://www.ruijie.com.cn/cp/wx-wifi6/ap850arv2/" class="btn track26" target="_blank">
+        <a href="//www.ruijie.com.cn/cp/wx-wifi6/ap850arv2/" class="btn track26" target="_blank">
           查看产品详情
         </a>
-        <a href="https://www.ruijie.com.cn/yx/sp/wx/preview/14481" class="btn btn-red track34" target="_blank">
+        <a href="//www.ruijie.com.cn/yx/sp/wx/preview/14481" class="btn btn-red track34" target="_blank">
           了解AI Radio
         </a>
       </div>     
@@ -382,10 +382,10 @@
             <img src="./RJ-img/page8-img1.jpg" />
             <div class="item-tit"> 泰安实验中学</div>
             <div class="btn-list">
-              <a href="https://www.ruijie.com.cn/al/pj-zhxy/87148/" target="_blank" class="btn btn-red track27">
+              <a href="//www.ruijie.com.cn/al/pj-zhxy/87148/" target="_blank" class="btn btn-red track27">
                 查看详情
               </a>
-              <a href="https://www.ruijie.com.cn/yx/sp/jh/preview/14404" target="_blank" class="btn track28">
+              <a href="//www.ruijie.com.cn/yx/sp/jh/preview/14404" target="_blank" class="btn track28">
                 观看视频
               </a>
             </div>
@@ -402,7 +402,7 @@
             <img src="./RJ-img/page8-img3.jpg" />
             <div class="item-tit"> 四川轻化工大学</div>
             <div class="btn-list">
-              <a href="" target="_blank" class="btn btn-red track31">查看详情</a>
+              <a href="//www.ruijie.com.cn/al/cp-jh/87621/" target="_blank" class="btn btn-red track31">查看详情</a>
             </div>
           </div>
           <div class="page8-item">
@@ -501,7 +501,7 @@
             <video class="ns-video" controls="controls" src="" width="100%" height="100%" webkit-playsinline=""></video>
           </div>
           <div class="btn-list">
-            <a href="https://www.ruijie.com.cn/fa/pj/20210106/" target="_blank" class="btn track32">
+            <a href="//www.ruijie.com.cn/fa/pj/20210106/" target="_blank" class="btn track32">
               查看他的方案
             </a>
           </div>
@@ -517,7 +517,7 @@
         <div class="right">
           <p class="title">RG-AM5552-SF<br>极简全光智分+方案无线接入点</p>
           <div class="btn-list">
-            <a href="https://www.ruijie.com.cn/cp/wx-jjqgzf/am5552-sf/" target="_blank" class="btn btn-red track15">查看详情</a>
+            <a href="//www.ruijie.com.cn/cp/wx-jjqgzf/am5552-sf/" target="_blank" class="btn btn-red track15">查看详情</a>
           </div>
         </div>
       </div>
@@ -532,7 +532,7 @@
         <div class="right small-gutter">
           <p class="title">RG-N18000(Newton牛顿)系列<br>云架构网络核心交换机</p>
           <div class="btn-list">
-            <a href="https://www.ruijie.com.cn/cp/jh-shjzhx/n18k/" target="_blank" class="btn btn-red track14">查看详情</a>
+            <a href="//www.ruijie.com.cn/cp/jh-shjzhx/n18k/" target="_blank" class="btn btn-red track14">查看详情</a>
           </div>
         </div>
       </div>
@@ -547,7 +547,7 @@
         <div class="right">
           <p class="title">RG-S7800C系列<br>新一代融合核心交换机</p>
           <div class="btn-list">
-            <a href="https://www.ruijie.com.cn/cp/jh-yqw-hxjh/s7800c/" target="_blank" class="btn btn-red track16">查看详情</a>
+            <a href="//www.ruijie.com.cn/cp/jh-yqw-hxjh/s7800c/" target="_blank" class="btn btn-red track16">查看详情</a>
           </div>
         </div>
       </div>
@@ -562,7 +562,7 @@
         <div class="right small-gutter">
           <p class="title">RG-MAP852-SF<br>极简全光智分+方案无线接入点</p>
           <div class="btn-list">
-            <a href="https://www.ruijie.com.cn/cp/wx-jjqgzf/am5552-sf/" target="_blank" class="btn btn-red track17">查看详情</a>
+            <a href="//www.ruijie.com.cn/cp/wx-jjqgzf/am5552-sf/" target="_blank" class="btn btn-red track17">查看详情</a>
           </div>
         </div>
       </div>
@@ -577,7 +577,7 @@
         <div class="right">
           <p class="title">RG-SF2900-S系列<br>极简光交换机</p>
           <div class="btn-list">
-            <a href="https://www.ruijie.com.cn/cp/jh-yqw-jgjh/sf2900s/" target="_blank" class="btn btn-red track18">查看详情</a>
+            <a href="//www.ruijie.com.cn/cp/jh-yqw-jgjh/sf2900s/" target="_blank" class="btn btn-red track18">查看详情</a>
           </div>
         </div>
       </div>
