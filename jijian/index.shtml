@@ -103,7 +103,7 @@
           <li>
             <div
               class="item-img play_video track7"
-              data-src="//www.ruijie.com.cn/yx/sp/jh/preview/14404"
+              data-src="//zlkfile.ruijie.com.cn/38e6ca3f-0886-43c6-bb41-c3eb24f380c0/Transcoding/1e15c9f5-03a1-4da5-bb3e-92adb4706147.mp4"
               data-name="泰安实验中学"
             >
               <img src="./RJ-img/page3-img1.jpg"/>
@@ -116,7 +116,7 @@
           <li>
             <div
               class="item-img play_video track8"
-              data-src="//www.ruijie.com.cn/yx/sp/wx/preview/14944"
+              data-src="//zlkfile.ruijie.com.cn/2bf406de-d5c6-44af-b4e6-397095e29761/wdkc8j/无线-极简以太全光智分+在华中科技大学样板带看 - 带字幕播放文件 - 08131002.mp4"
               data-name="华中科技大学"
             >
               <img src="./RJ-img/page3-img2.jpg"/>
@@ -129,7 +129,7 @@
           <li>
             <div
               class="item-img play_video track9"
-              data-src="//www.ruijie.com.cn/yx/sp/jh/preview/15058"
+              data-src="//zlkfile.ruijie.com.cn/44eb0d62-f91a-4272-9330-1c4788b9fe97/Transcoding/b084c434-a4cb-481a-9bd0-43efb47601e0.mp4"
               data-name="四川轻化工大学"
             >
               <img src="./RJ-img/page3-img3.jpg"/>
@@ -194,7 +194,7 @@
               style="display: none;"
               class="page5_video"
               controls="controls"
-              src="//www.ruijie.com.cn/yx/sp/jh/preview/14565"
+              src="//zlkfile.ruijie.com.cn/115e2226-7c6c-4e4a-9884-f6ca3f05d09a/Transcoding/8c0adfc1-b83d-4f62-abcf-6d43ccaced96.mp4"
               width="100%"
               height="100%"
               webkit-playsinline=""
