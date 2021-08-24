@@ -713,13 +713,13 @@ body {
 }
 
 .img-title {
-  width: 402px;
-  height: 50px;
+  width: 520px;
+  height: 65px;
   background: url(../RJ-img/page6-title-bg.png) center/100% no-repeat;
   font-size: 20px;
   color: #fff;
   text-align: center;
-  line-height: 50px;
+  line-height: 65px;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -1094,6 +1094,113 @@ body {
   margin: 0 8px;
 }
 
+.t-page9 {
+  background: #fff;
+  padding-bottom: 60px;
+}
+
+.page9-cont {
+  padding-top: 20px;
+  overflow: hidden;
+  clear: both;
+}
+
+.page9-cont .cont-left,
+.page9-cont .cont-right {
+  float: left;
+  width: 46%;
+  padding-right: 4%;
+}
+
+.page9-cont .cont-tit {
+  font-size: 24px;
+  color: #2d5082;
+  font-weight: bold;
+  line-height: 30px;
+  margin: 20px auto;
+}
+
+.page9-cont .cont-ul li {
+  overflow: hidden;
+  font-size: 16px;
+  color: #333;
+  margin: 10px 0;
+  line-height: 28px;
+  position: relative;
+}
+
+.page9-cont .cont-ul li p {
+  width: 86%;
+  float: left;
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-left: 14px;
+}
+
+.page9-cont .cont-ul li p span {
+  display: inline-block;
+  float: right;
+  font-size: 16px;
+  color: #999;
+}
+
+.page9-cont .cont-ul li p a {
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+  word-break: keep-all;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 70%;
+  float: left;
+}
+
+.page9-cont .cont-ul li p a:hover {
+  color: #d31239;
+}
+
+.page9-cont .cont-ul li p:after {
+  position: absolute;
+  content: "●";
+  left: 0;
+}
+
+.page9-cont .cont-ul li span {
+  line-height: 28px;
+  display: block;
+  flex: 1;
+}
+
+.page9-cont .cont-ul li a.link-style {
+  display: inline-block;
+  float: right;
+  font-size: 16px;
+  color: #e81132;
+  padding-right: 20px;
+  text-decoration: none;
+  background: url(../RJ-img/down.png) no-repeat right center;
+}
+
+.page9-cont .btn-style-line {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  color: #e81132;
+  width: auto;
+  height: 34px;
+  line-height: 34px;
+  padding: 0 20px;
+  border: 1px solid #eb1e29;
+  border-radius: 18px;
+  -webkit-border-radius: 18px;
+  -o-border-radius: 18px;
+  -moz-border-radius: 18px;
+  margin-top: 20px;
+}
+
 .show-pc {
   display: block !important;
 }
@@ -1447,6 +1554,31 @@ body {
   }
   .page8-cont .page8-item img {
     width: 100%;
+  }
+
+  .t-page9 .t-content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .page9-cont .cont-left,
+  .page9-cont .cont-right {
+    width: 94%;
+    margin: 10px auto;
+    float: none;
+    padding: 0;
+  }
+
+  .page9-cont .cont-ul li p {
+    width: 79%;
+  }
+
+  .cont-left .cont-ul li p {
+    width: 94%;
+  }
+
+  .page9-cont .cont-tit {
+    margin: 30px auto 0px auto;
   }
 
   .dialog {
