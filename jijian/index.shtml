@@ -394,8 +394,8 @@
             <img src="./RJ-img/page8-img2.jpg" />
             <div class="item-tit">中国药科大学</div>
             <div class="btn-list">
-              <a href="" target="_blank" class="btn btn-red track29">查看详情</a>
-              <a class="btn track30">观看视频</a>
+              <a href="" target="_blank" class="btn btn-red track29" style="visibility: hidden;">查看详情</a>
+              <a class="btn track30" style="visibility: hidden;">观看视频</a>
             </div>
           </div>
           <div class="page8-item">
