@@ -4,6 +4,7 @@ function playVideo() {
     $('.ns-title').html($(this).data('name'))
 
     $('.ns-video').attr('src', $(this).data('src'))
+    $('.ns-layer .btn_href').attr('href', $(this).data('href'))
     $tVideoBox.show();
   });
 
