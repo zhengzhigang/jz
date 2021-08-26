@@ -388,7 +388,13 @@
               <a href="//www.ruijie.com.cn/al/pj-zhxy/87148/" target="_blank" class="btn btn-red track27">
                 查看详情
               </a>
-              <a href="//www.ruijie.com.cn/yx/sp/jh/preview/14404" target="_blank" class="btn track28">
+              <a
+                data-src="//zlkfile.ruijie.com.cn/38e6ca3f-0886-43c6-bb41-c3eb24f380c0/Transcoding/1e15c9f5-03a1-4da5-bb3e-92adb4706147.mp4"
+                data-href="//www.ruijie.com.cn/al/pj-zhxy/87148/"
+                target="_blank"
+                class="btn track28 play_video"
+                data-name="泰安实验中学"
+              >
                 观看视频
               </a>
             </div>
@@ -406,6 +412,12 @@
             <div class="item-tit"> 四川轻化工大学</div>
             <div class="btn-list">
               <a href="//www.ruijie.com.cn/al/cp-jh/87621/" target="_blank" class="btn btn-red track31">查看详情</a>
+              <a
+                class="btn track35 play_video"
+                data-src="//zlkfile.ruijie.com.cn/44eb0d62-f91a-4272-9330-1c4788b9fe97/Transcoding/b084c434-a4cb-481a-9bd0-43efb47601e0.mp4"
+                data-href="//www.ruijie.com.cn/al/cp-jh/87621/"
+                data-name="四川轻化工大学"
+            >观看视频</a>
             </div>
           </div>
           <div class="page8-item">
@@ -796,6 +808,9 @@
     })
     $('.t-page8 .track31').on('click', function() {
       _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页查看详情", "专题页 查看详情"]);
+    })
+    $('.t-page8 .track35').on('click', function() {
+      _gsq.push(["T", "GWD-002457", "trackEvent", "视频播放", "专题页视频播放", "专题页 视频播放"]);
     })
 
 

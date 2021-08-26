@@ -1,6 +1,7 @@
 function playVideo() {
   var $tVideoBox = $('#tVideoBox');
-  $('.t-page3 .play_video').on('click', function () {
+  $('.t-page3 .play_video, .t-page8 .play_video').on('click', function () {
+      debugger
     $('.ns-title').html($(this).data('name'))
 
     $('.ns-video').attr('src', $(this).data('src'))
