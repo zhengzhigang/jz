@@ -16,7 +16,7 @@
 
   <!-- #include file="/HeaderUC_R.html" -->
 
-  <!-- <script src="https://image.ruijie.com.cn/UIA/v2.0/scripts/jquery-1.10.2.min.js" type="text/javascript"></script> -->
+  <script src="https://image.ruijie.com.cn/UIA/v2.0/scripts/jquery-1.10.2.min.js" type="text/javascript"></script>
   <!--内容正文开始-->
   <script type="text/javascript" src="RJ-js/item.js?t=1629772958287"></script>
 
@@ -332,6 +332,15 @@
         <a href="//www.ruijie.com.cn/fa/cp-wx/87331/" class="btn track25" target="_blank">
           极简以太全光智分+方案
         </a>
+        <a
+          class="btn btn-red track36 play_video"
+          data-src="https://zlkfile.ruijie.com.cn/6c25460f-2d30-41c1-9aa3-7b1498e7f613/vm0h3e/【高校极简光】光AP低压集中供电-保证用电安全、节约空间和投资 - 带字幕播放文件 - 08251939.mp4"
+          data-href="https://www.ruijie.com.cn/yx/sp/gj/preview/15052"
+          data-name="查看体验视频"
+          data-hide="true"
+        >
+          查看体验视频
+        </a>
       </div>
     </div>
 
@@ -453,7 +462,7 @@
       <div class="t-content">
         <div class="page9-cont">
           <div class="cont-left">
-            <div class="cont-tit">案例和资讯</div>
+            <div class="cont-tit">大V观点</div>
             <ul class="cont-ul">
               <li>
                 <p>
@@ -489,7 +498,7 @@
             <a href="//www.ruijie.com.cn/zl-xw/fw-lb1/" target="_blank" class="btn-style-line btn btn-red track31">查看更多</a>
           </div>
           <div class="cont-right">
-            <div class="cont-tit">资料下载</div>
+            <div class="cont-tit">技术文章</div>
             <ul class="cont-ul">
               <li>
                 <p>
@@ -785,6 +794,9 @@
     })
     $('.t-page6 .track33').on('click', function() {
       _gsq.push(["T", "GWD-002457", "trackEvent", "查看详情", "专题页查看详情", "专题页 以太全光智分产品"]);
+    })
+    $('.t-page6 .track36').on('click', function() {
+      _gsq.push(["T", "GWD-002457", "trackEvent", "视频播放", "专题页视频播放", "专题页 查看体验视频"]);
     })
 
     $('.page7-cont .track26').on('click', function() {

@@ -1,8 +1,14 @@
 function playVideo() {
   var $tVideoBox = $('#tVideoBox');
-  $('.t-page3 .play_video, .t-page8 .play_video').on('click', function () {
-      debugger
+  $('.play_video').on('click', function () {
     $('.ns-title').html($(this).data('name'))
+
+    var hideBtn =  $(this).data('hide')
+    if (hideBtn) {
+        $('.ns-layer .btn_href').hide()
+    } else {
+        $('.ns-layer .btn_href').show()
+    }
 
     $('.ns-video').attr('src', $(this).data('src'))
     $('.ns-layer .btn_href').attr('href', $(this).data('href'))
