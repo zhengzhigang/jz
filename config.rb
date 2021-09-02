@@ -7,11 +7,11 @@ http_path = "/"
 # css_dir = "gaomixing/statics/v4.0/styles"
 # sass_dir = "gaomixing-scss"
 
-css_dir = "jijian/RJ-css/"
-sass_dir = "jijian-scss"
+# css_dir = "jijian/RJ-css/"
+# sass_dir = "jijian-scss"
 
-# css_dir = "0819/css"
-# sass_dir = "0819-scss"
+css_dir = "0819/css"
+sass_dir = "0819-scss"
 javascripts_dir = "javascripts"
 
 # You can select your preferred output style here (can be overridden via the command line):
@@ -21,7 +21,7 @@ javascripts_dir = "javascripts"
 # relative_assets = true
 
 # To disable debugging comments that display the original location of your selectors. Uncomment:
-line_comments = false
+line_comments = true
 
 
 # If you prefer the indented syntax, you might want to regenerate this

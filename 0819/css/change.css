@@ -34,25 +34,43 @@
 .index-container .btn.green {
   color: #04BBD6;
 }
-/* line 33, ../../0819-scss/change.scss */
+/* line 32, ../../0819-scss/change.scss */
+.index-container .btn.btn-icon {
+  width: 213px;
+  line-height: 38px;
+  height: 38px;
+  border: 2px solid #D20032;
+  background: #fff;
+  color: #D20032;
+}
+/* line 40, ../../0819-scss/change.scss */
+.index-container .btn.btn-icon .icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 4px;
+  background: url(../images/play-icon.png) center center/100% 100% no-repeat;
+  vertical-align: text-bottom;
+}
+/* line 51, ../../0819-scss/change.scss */
 .index-container .index-header {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   width: 1200px;
 }
-/* line 39, ../../0819-scss/change.scss */
+/* line 57, ../../0819-scss/change.scss */
 .index-container .index-header .logo {
   float: left;
   position: relative;
   top: -8px;
 }
-/* line 47, ../../0819-scss/change.scss */
+/* line 65, ../../0819-scss/change.scss */
 .index-container .banners .item {
   width: 60%;
   height: 60%;
 }
-/* line 52, ../../0819-scss/change.scss */
+/* line 70, ../../0819-scss/change.scss */
 .index-container .banners .recruitment {
   position: relative;
   margin: auto;
@@ -66,7 +84,7 @@
   height: 100%;
   overflow: hidden;
 }
-/* line 65, ../../0819-scss/change.scss */
+/* line 83, ../../0819-scss/change.scss */
 .index-container .banners .recruitment .main {
   position: absolute;
   top: 190px;
@@ -75,24 +93,24 @@
   width: 883px;
   height: 500px;
 }
-/* line 73, ../../0819-scss/change.scss */
+/* line 91, ../../0819-scss/change.scss */
 .index-container .banners .recruitment .main .star {
   width: 883px;
 }
-/* line 78, ../../0819-scss/change.scss */
+/* line 96, ../../0819-scss/change.scss */
 .index-container .banners .recruitment .apply {
   position: static;
   float: right;
   margin-right: 114px;
   margin-top: -21px;
 }
-/* line 86, ../../0819-scss/change.scss */
+/* line 104, ../../0819-scss/change.scss */
 .index-container .banners .pic {
   top: 15%;
   width: 24%;
   right: 21%;
 }
-/* line 92, ../../0819-scss/change.scss */
+/* line 110, ../../0819-scss/change.scss */
 .index-container .banners .about {
   margin: auto;
   left: 0;
@@ -104,45 +122,45 @@
   width: 100%;
   height: 100%;
 }
-/* line 104, ../../0819-scss/change.scss */
+/* line 122, ../../0819-scss/change.scss */
 .index-container .banners .about .pic {
   background-image: url(../images/about-pic.png);
 }
-/* line 108, ../../0819-scss/change.scss */
+/* line 126, ../../0819-scss/change.scss */
 .index-container .banners .about .item {
   background: url(../images/about-card.png) center center no-repeat;
   -moz-background-size: contain;
   background-size: contain;
 }
-/* line 114, ../../0819-scss/change.scss */
+/* line 132, ../../0819-scss/change.scss */
 .index-container .banners .staff {
   background-image: url(../images/staff-bg.jpg);
   background-size: cover;
 }
-/* line 118, ../../0819-scss/change.scss */
+/* line 136, ../../0819-scss/change.scss */
 .index-container .banners .staff .item {
   background-image: url(../images/staff-card.png);
 }
-/* line 122, ../../0819-scss/change.scss */
+/* line 140, ../../0819-scss/change.scss */
 .index-container .banners .staff .pic {
   right: 22%;
   background-image: url(../images/staff-pic.png);
 }
-/* line 128, ../../0819-scss/change.scss */
+/* line 146, ../../0819-scss/change.scss */
 .index-container .banners .question {
   background-image: url(../images/question-bg.jpg);
   background-size: cover;
 }
-/* line 132, ../../0819-scss/change.scss */
+/* line 150, ../../0819-scss/change.scss */
 .index-container .banners .question .item {
   background-image: url(../images/question-card.png);
 }
-/* line 136, ../../0819-scss/change.scss */
+/* line 154, ../../0819-scss/change.scss */
 .index-container .banners .question .pic {
   right: 22%;
   background-image: url(../images/question-pic.png);
 }
-/* line 143, ../../0819-scss/change.scss */
+/* line 161, ../../0819-scss/change.scss */
 .index-container .copyright {
   padding-bottom: 10px;
   font-size: 14px;
@@ -153,91 +171,99 @@
 }
 
 @media screen and (max-width: 1280px) {
-  /* line 156, ../../0819-scss/change.scss */
+  /* line 174, ../../0819-scss/change.scss */
   .index-container .banners .item {
     width: 70%;
     height: 70%;
   }
-  /* line 161, ../../0819-scss/change.scss */
+  /* line 179, ../../0819-scss/change.scss */
   .index-container .banners .recruitment .main {
     top: 20%;
     width: 60%;
   }
-  /* line 164, ../../0819-scss/change.scss */
+  /* line 182, ../../0819-scss/change.scss */
   .index-container .banners .recruitment .main .star {
     width: 100%;
   }
-  /* line 169, ../../0819-scss/change.scss */
+  /* line 187, ../../0819-scss/change.scss */
   .index-container .banners .pic {
     top: 12%;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 178, ../../0819-scss/change.scss */
+  /* line 196, ../../0819-scss/change.scss */
   .index-container .pc-show {
     display: none;
   }
-  /* line 181, ../../0819-scss/change.scss */
+  /* line 199, ../../0819-scss/change.scss */
   .index-container .mobile-show {
     display: block;
   }
-  /* line 186, ../../0819-scss/change.scss */
+  /* line 202, ../../0819-scss/change.scss */
+  .index-container .btn {
+    width: 120px;
+  }
+  /* line 205, ../../0819-scss/change.scss */
+  .index-container .btn.btn-icon {
+    width: 180px;
+  }
+  /* line 211, ../../0819-scss/change.scss */
   .index-container .banners .item {
     width: 70%;
     height: 70%;
   }
-  /* line 191, ../../0819-scss/change.scss */
+  /* line 216, ../../0819-scss/change.scss */
   .index-container .banners .recruitment {
     background: #063AAB url(../images/recruitment-bg-m.jpg) center top/100% auto;
   }
-  /* line 193, ../../0819-scss/change.scss */
+  /* line 218, ../../0819-scss/change.scss */
   .index-container .banners .recruitment .main {
     left: 5%;
     transform: translateX(0);
     width: 90%;
   }
-  /* line 199, ../../0819-scss/change.scss */
+  /* line 224, ../../0819-scss/change.scss */
   .index-container .banners .recruitment .apply {
     float: none;
     margin-right: 0;
     margin-top: 70px;
     text-align: center;
   }
-  /* line 205, ../../0819-scss/change.scss */
+  /* line 230, ../../0819-scss/change.scss */
   .index-container .banners .recruitment .apply .btn {
     margin-bottom: 15px;
   }
-  /* line 211, ../../0819-scss/change.scss */
+  /* line 236, ../../0819-scss/change.scss */
   .index-container .banners .pic {
     top: 30%;
   }
-  /* line 215, ../../0819-scss/change.scss */
+  /* line 240, ../../0819-scss/change.scss */
   .index-container .banners .about {
     background: url(../images/about-bg-m.jpg) center top/100% auto;
   }
-  /* line 219, ../../0819-scss/change.scss */
+  /* line 244, ../../0819-scss/change.scss */
   .index-container .banners .about .pic {
     width: 50%;
     height: 50%;
     left: 25%;
     background-image: url(../images/about-pic.png);
   }
-  /* line 226, ../../0819-scss/change.scss */
+  /* line 251, ../../0819-scss/change.scss */
   .index-container .banners .about .item {
     background: url(../images/about-card-m.png) center center no-repeat;
     -moz-background-size: contain;
     background-size: contain;
   }
-  /* line 232, ../../0819-scss/change.scss */
+  /* line 257, ../../0819-scss/change.scss */
   .index-container .banners .staff {
     background: url(../images/staff-bg-m.jpg) center top/100% auto;
     background-size: cover;
   }
-  /* line 236, ../../0819-scss/change.scss */
+  /* line 261, ../../0819-scss/change.scss */
   .index-container .banners .staff .item {
     background-image: url(../images/staff-card-m.png);
   }
-  /* line 240, ../../0819-scss/change.scss */
+  /* line 265, ../../0819-scss/change.scss */
   .index-container .banners .staff .pic {
     width: 50%;
     height: 50%;
@@ -245,16 +271,16 @@
     right: 25%;
     background-image: url(../images/staff-pic.png);
   }
-  /* line 249, ../../0819-scss/change.scss */
+  /* line 274, ../../0819-scss/change.scss */
   .index-container .banners .question {
     background: url(../images/question-bg-m.jpg) center top/100% auto;
     background-size: cover;
   }
-  /* line 253, ../../0819-scss/change.scss */
+  /* line 278, ../../0819-scss/change.scss */
   .index-container .banners .question .item {
     background-image: url(../images/question-card-m.png);
   }
-  /* line 257, ../../0819-scss/change.scss */
+  /* line 282, ../../0819-scss/change.scss */
   .index-container .banners .question .pic {
     width: 50%;
     height: 50%;
@@ -264,25 +290,25 @@
   }
 }
 @media screen and (max-width: 375px) {
-  /* line 272, ../../0819-scss/change.scss */
+  /* line 297, ../../0819-scss/change.scss */
   .index-container .banners .pic {
     top: 26.5%;
   }
 }
 @media screen and (max-width: 320px) {
-  /* line 282, ../../0819-scss/change.scss */
+  /* line 307, ../../0819-scss/change.scss */
   .index-container .banners .pic {
     top: 26.5%;
   }
-  /* line 287, ../../0819-scss/change.scss */
+  /* line 312, ../../0819-scss/change.scss */
   .index-container .banners .recruitment .apply {
     margin-top: 50px;
   }
-  /* line 294, ../../0819-scss/change.scss */
+  /* line 319, ../../0819-scss/change.scss */
   .index-container .index-pagination .button {
     width: 94%;
   }
-  /* line 296, ../../0819-scss/change.scss */
+  /* line 321, ../../0819-scss/change.scss */
   .index-container .index-pagination .button ul li {
     padding: 20px 0;
   }
