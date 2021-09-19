@@ -1,0 +1,282 @@
+@charset "UTF-8";
+/* line 2, ../../poster-scss/main.scss */
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+input,
+textarea,
+p,
+th,
+td,
+tr,
+table,
+tbody,
+thead,
+tfoot,
+em,
+strong,
+span {
+  padding: 0;
+  margin: 0;
+  font-family: arial, "微软雅黑";
+}
+
+/* line 34, ../../poster-scss/main.scss */
+* {
+  outline: none;
+  -webkit-box-sizing: initial;
+  -moz-box-sizing: initial;
+  box-sizing: initial;
+}
+
+/* line 40, ../../poster-scss/main.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 44, ../../poster-scss/main.scss */
+img {
+  display: block;
+  border: 0 none;
+  vertical-align: middle;
+  width: auto;
+  height: auto;
+}
+
+/* line 51, ../../poster-scss/main.scss */
+input {
+  vertical-align: middle;
+}
+
+/* line 54, ../../poster-scss/main.scss */
+em {
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 58, ../../poster-scss/main.scss */
+ol,
+ul {
+  list-style: none;
+}
+
+/* line 62, ../../poster-scss/main.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  font-size: 100%;
+}
+
+/* line 71, ../../poster-scss/main.scss */
+body {
+  position: relative;
+}
+
+/* line 76, ../../poster-scss/main.scss */
+.poster-main {
+  width: 100%;
+  position: relative;
+  min-height: 100%;
+}
+/* line 82, ../../poster-scss/main.scss */
+.poster-bg {
+  width: 100%;
+}
+/* line 86, ../../poster-scss/main.scss */
+.poster-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding-top: 1.04666667rem;
+}
+/* line 95, ../../poster-scss/main.scss */
+.poster-logo {
+  width: 6.26666667rem;
+  margin: auto;
+  margin-bottom: 1.2rem;
+}
+/* line 100, ../../poster-scss/main.scss */
+.poster-logo img {
+  width: 100%;
+}
+/* line 105, ../../poster-scss/main.scss */
+.poster-text {
+  font-size: 0.3733333rem;
+  font-weight: bold;
+  vertical-align: middle;
+}
+/* line 110, ../../poster-scss/main.scss */
+.poster-text.blue {
+  color: #107fff;
+}
+/* line 114, ../../poster-scss/main.scss */
+.poster-text.yellow {
+  color: #f1f32a;
+}
+/* line 118, ../../poster-scss/main.scss */
+.poster-text.orange {
+  color: #fff600;
+}
+/* line 122, ../../poster-scss/main.scss */
+.poster-text.brown {
+  color: #a36c1d;
+}
+/* line 127, ../../poster-scss/main.scss */
+.poster-w54 {
+  width: 0.36rem;
+}
+/* line 131, ../../poster-scss/main.scss */
+.poster-w235 {
+  width: 1.56666667rem;
+}
+/* line 135, ../../poster-scss/main.scss */
+.poster-w360 {
+  width: 2.4rem;
+}
+/* line 139, ../../poster-scss/main.scss */
+.poster-w368 {
+  width: 2.4533333rem;
+}
+/* line 143, ../../poster-scss/main.scss */
+.poster-w485 {
+  width: 3.233333rem;
+}
+/* line 147, ../../poster-scss/main.scss */
+.poster-w390 {
+  width: 2.6rem;
+}
+/* line 151, ../../poster-scss/main.scss */
+.poster-w530 {
+  width: 3.533333rem;
+}
+/* line 155, ../../poster-scss/main.scss */
+.poster-w596 {
+  width: 3.97333333rem;
+}
+/* line 159, ../../poster-scss/main.scss */
+.poster-w1000 {
+  width: 6.66666667rem;
+}
+/* line 163, ../../poster-scss/main.scss */
+.poster-w1100 {
+  width: 7.333333rem;
+}
+
+/* line 169, ../../poster-scss/main.scss */
+.home-text {
+  width: 6.4rem;
+  margin: auto;
+  margin-bottom: 0.94rem;
+}
+/* line 175, ../../poster-scss/main.scss */
+.home-data {
+  text-align: center;
+  font-size: 0;
+}
+/* line 179, ../../poster-scss/main.scss */
+.home-data img {
+  display: inline-block;
+  margin-left: 0.1rem;
+}
+
+/* line 187, ../../poster-scss/main.scss */
+.awardee-content {
+  padding-left: 0.78666667rem;
+}
+/* line 190, ../../poster-scss/main.scss */
+.awardee-content .full-text {
+  margin-top: 0.8rem;
+}
+/* line 194, ../../poster-scss/main.scss */
+.awardee-data {
+  font-size: 0;
+  margin-bottom: 0.2rem;
+}
+/* line 198, ../../poster-scss/main.scss */
+.awardee-data img {
+  display: inline-block;
+  margin-left: 0.1rem;
+}
+
+/* line 206, ../../poster-scss/main.scss */
+.employee-content {
+  padding-right: 0.72rem;
+}
+/* line 209, ../../poster-scss/main.scss */
+.employee-content .full-text {
+  float: right;
+}
+/* line 214, ../../poster-scss/main.scss */
+.employee-data {
+  font-size: 0;
+  margin-bottom: 0.2rem;
+  text-align: right;
+}
+/* line 219, ../../poster-scss/main.scss */
+.employee-data img {
+  display: inline-block;
+  margin: 0 0.1rem;
+}
+
+/* line 227, ../../poster-scss/main.scss */
+.development-content {
+  padding-left: 0.76rem;
+}
+/* line 230, ../../poster-scss/main.scss */
+.development-content .full-text {
+  margin-top: 0.7066667rem;
+}
+/* line 235, ../../poster-scss/main.scss */
+.development-data {
+  font-size: 0;
+  margin-bottom: 0.2rem;
+  text-align: left;
+}
+/* line 240, ../../poster-scss/main.scss */
+.development-data img {
+  display: inline-block;
+}
+/* line 244, ../../poster-scss/main.scss */
+.development-data .middle-text {
+  margin: 0 0.1rem;
+}
+
+/* line 251, ../../poster-scss/main.scss */
+.oldstaff-content {
+  padding-right: 0.72rem;
+}
+/* line 254, ../../poster-scss/main.scss */
+.oldstaff-content .full-text {
+  float: right;
+  margin-top: 0.733333rem;
+}
+/* line 260, ../../poster-scss/main.scss */
+.oldstaff-data {
+  font-size: 0;
+  margin-bottom: 0.2rem;
+  text-align: right;
+}
+/* line 265, ../../poster-scss/main.scss */
+.oldstaff-data img {
+  display: inline-block;
+  margin: 0 0.1rem;
+}
