@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta id="viewport" name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+  <title>十周年专属海报</title>
   <script type="text/javascript">
     (function flexible (window, document) {
       var docEl = document.documentElement
@@ -62,7 +62,9 @@
       <img class="home-text" src="./images/home-text1.png" alt="">
       <div class="home-data">
         <span class="poster-text blue"></span>
-        <input id="searchInput" class="text-input poster-text blue" placeholder="输入搜索">
+        <form class="search-form" action="javascript: return true">
+          <input id="searchInput" class="text-input poster-text blue" type="search" placeholder="输入搜索">
+        </form>
         <img class="poster-w390" src="./images/home-text2.png" alt="">
       </div>
     </div>
