@@ -10,8 +10,8 @@ http_path = "/"
 # css_dir = "jijian/RJ-css/"
 # sass_dir = "jijian-scss"
 
-css_dir = "0819/css"
-sass_dir = "0819-scss"
+css_dir = "poster/css"
+sass_dir = "poster-scss"
 javascripts_dir = "javascripts"
 
 # You can select your preferred output style here (can be overridden via the command line):

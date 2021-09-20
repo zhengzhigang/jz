@@ -124,6 +124,19 @@ body {
     }
   }
 
+  &-toast {
+    display: none;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 6px 10px;
+    border-radius: 4px;
+    background: rgba($color: #000000, $alpha: 0.8);
+    font-size: 14px;
+    color: #fff;
+  }
+
   &-w54 {
     width: 0.36rem;
   }
@@ -180,12 +193,20 @@ body {
       display: inline-block;
       margin-left: 0.1rem;
     }
+
+    .text-input {
+      border: none;
+      appearance: none;
+      background: none;
+      outline:none;
+      width: 1.6rem;
+    }
   }
 }
 
 .awardee {
   &-content {
-    padding-left: 0.78666667rem;
+    padding: 0 0.78666667rem;
 
     .full-text {
       margin-top: 0.8rem;
@@ -204,7 +225,7 @@ body {
 
 .employee {
   &-content {
-    padding-right: 0.72rem;
+    padding: 0 0.72rem;
 
     .full-text {
       float: right;
