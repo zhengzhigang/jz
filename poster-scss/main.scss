@@ -154,6 +154,20 @@ body {
     color: #fff;
   }
 
+  &-button {
+    margin: auto;
+    margin-top: 1.42rem;
+    width: 2.0733333rem;
+    height: 0.5666667rem;
+    border: 1px solid #006ed4;
+    font-size: 0.32rem;
+    color: #006ed4;
+    border-radius: 0.32rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   &-w54 {
     width: 0.36rem;
   }

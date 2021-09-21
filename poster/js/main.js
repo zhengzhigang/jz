@@ -298,25 +298,24 @@ void (function() {
   
   var isShow = false
   var searchInput = document.getElementById('searchInput')
+  var searchButton = document.getElementById('searchButton')
   var item = null
-  searchInput.addEventListener('keypress', function(e) {
+  searchButton.addEventListener('click', function(e) {
     if (isShow) return
-    if (e.key === 'Enter') {
-      var name = e.target.value.trim()
-      for (var i = 0; i < posterList.length; i++) {
-        if (posterList[i].name === name) {
-          item = posterList[i]
-          break
-        }
-      }
-  
-      if (item) {
-        var querys = queryString(item)
-        jumpPage(item.type, querys)
-      } else {
-        showToast()
-      }
 
+    var name = searchInput.value.trim()
+    for (var i = 0; i < posterList.length; i++) {
+      if (posterList[i].name === name) {
+        item = posterList[i]
+        break
+      }
+    }
+
+    if (item) {
+      var querys = queryString(item)
+      jumpPage(item.type, querys)
+    } else {
+      showToast()
     }
   }, false)
 
