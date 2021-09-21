@@ -240,91 +240,92 @@ body {
   appearance: none;
   background: none;
   outline: none;
-  width: 1.6rem;
+  width: 2.35rem;
+  text-align: right;
 }
-/* line 222, ../../poster-scss/main.scss */
+/* line 223, ../../poster-scss/main.scss */
 .home-data .search-form {
   display: inline-block;
 }
 
-/* line 229, ../../poster-scss/main.scss */
+/* line 230, ../../poster-scss/main.scss */
 .awardee-content {
   padding: 0 0.78666667rem;
 }
-/* line 232, ../../poster-scss/main.scss */
+/* line 233, ../../poster-scss/main.scss */
 .awardee-content .full-text {
   margin-top: 0.8rem;
 }
-/* line 236, ../../poster-scss/main.scss */
+/* line 237, ../../poster-scss/main.scss */
 .awardee-data {
   font-size: 0;
   margin-bottom: 0.2rem;
 }
-/* line 240, ../../poster-scss/main.scss */
+/* line 241, ../../poster-scss/main.scss */
 .awardee-data img {
   display: inline-block;
   margin-left: 0.1rem;
 }
 
-/* line 248, ../../poster-scss/main.scss */
+/* line 249, ../../poster-scss/main.scss */
 .employee-content {
   padding: 0 0.72rem;
 }
-/* line 251, ../../poster-scss/main.scss */
+/* line 252, ../../poster-scss/main.scss */
 .employee-content .full-text {
   float: right;
 }
-/* line 256, ../../poster-scss/main.scss */
+/* line 257, ../../poster-scss/main.scss */
 .employee-data {
   font-size: 0;
   margin-bottom: 0.2rem;
   text-align: right;
 }
-/* line 261, ../../poster-scss/main.scss */
+/* line 262, ../../poster-scss/main.scss */
 .employee-data img {
   display: inline-block;
   margin: 0 0.1rem;
 }
 
-/* line 269, ../../poster-scss/main.scss */
+/* line 270, ../../poster-scss/main.scss */
 .development-content {
   padding-left: 0.76rem;
 }
-/* line 272, ../../poster-scss/main.scss */
+/* line 273, ../../poster-scss/main.scss */
 .development-content .full-text {
   margin-top: 0.7066667rem;
 }
-/* line 277, ../../poster-scss/main.scss */
+/* line 278, ../../poster-scss/main.scss */
 .development-data {
   font-size: 0;
   margin-bottom: 0.2rem;
   text-align: left;
 }
-/* line 282, ../../poster-scss/main.scss */
+/* line 283, ../../poster-scss/main.scss */
 .development-data img {
   display: inline-block;
 }
-/* line 286, ../../poster-scss/main.scss */
+/* line 287, ../../poster-scss/main.scss */
 .development-data .middle-text {
   margin: 0 0.1rem;
 }
 
-/* line 293, ../../poster-scss/main.scss */
+/* line 294, ../../poster-scss/main.scss */
 .oldstaff-content {
   padding-right: 0.72rem;
 }
-/* line 296, ../../poster-scss/main.scss */
+/* line 297, ../../poster-scss/main.scss */
 .oldstaff-content .full-text {
   float: right;
   margin-top: 0.733333rem;
 }
-/* line 302, ../../poster-scss/main.scss */
+/* line 303, ../../poster-scss/main.scss */
 .oldstaff-data {
   font-size: 0;
   margin-bottom: 0.2rem;
   text-align: right;
 }
-/* line 307, ../../poster-scss/main.scss */
+/* line 308, ../../poster-scss/main.scss */
 .oldstaff-data img {
   display: inline-block;
   margin: 0 0.1rem;
