@@ -3,7 +3,7 @@
  */
 
 void (function employee() {
-    window.addEventListener( "load", completed, false );
+    window.addEventListener('load', completed, false );
 
     // 取地址栏参数
     function getUrlQuery (name) {
