@@ -169,10 +169,15 @@ body {
 
     &.fixed {
         position: fixed;
-        bottom: 1.3rem;
+        bottom: 3.5rem;
         left: 50%;
         margin-left: -1.03655555rem;
         color: #fff;
+
+        img {
+          display: block;
+          width: 100%;
+        }
     }
   }
 
@@ -322,8 +327,8 @@ body {
   }
 
   &-button {
-    border-color: #fff600;
-    background: #fff600;
+    border-color: #ab8a41;
+    background: #ab8a41;
   }
 }
 
@@ -349,7 +354,7 @@ body {
   }
 
   &-button {
-    border-color: #fff600;
-    background: #fff600;
+    border-color: #499459;
+    background: #499459;
   }
 }
