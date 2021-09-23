@@ -166,6 +166,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    &.fixed {
+        position: fixed;
+        bottom: 1.3rem;
+        left: 50%;
+        margin-left: -1.03655555rem;
+        color: #fff;
+    }
   }
 
   &-w54 {
@@ -257,6 +265,11 @@ body {
       margin-left: 0.1rem;
     }
   }
+
+  &-button {
+    border-color: #fff600;
+    background: #fff600;
+  }
 }
 
 .employee {
@@ -277,6 +290,11 @@ body {
       display: inline-block;
       margin: 0 0.1rem;
     }
+  }
+
+  &-button {
+    border-color: #fff600;
+    background: #fff600;
   }
 }
 
@@ -302,6 +320,11 @@ body {
       margin: 0 0.1rem;
     }
   }
+
+  &-button {
+    border-color: #fff600;
+    background: #fff600;
+  }
 }
 
 .oldstaff {
@@ -323,5 +346,10 @@ body {
       display: inline-block;
       margin: 0 0.1rem;
     }
+  }
+
+  &-button {
+    border-color: #fff600;
+    background: #fff600;
   }
 }
