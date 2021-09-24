@@ -152,6 +152,7 @@ body {
     background: rgba($color: #000000, $alpha: 0.8);
     font-size: 14px;
     color: #fff;
+    z-index: 999;
   }
 
   &-button {
@@ -357,4 +358,13 @@ body {
     border-color: #499459;
     background: #499459;
   }
+}
+
+.created-img {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: none;
 }
