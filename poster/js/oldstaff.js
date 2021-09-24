@@ -23,9 +23,13 @@ void (function employee() {
     function completed() {
         var nameValue = document.getElementById('nameValue')
         var timeValue = document.getElementById('timeValue')
+        var nameValueCopy = document.getElementById('nameValueCopy')
+        var timeValueCopy = document.getElementById('timeValueCopy')
 
         nameValue.innerText = getUrlQuery('name')
         timeValue.innerText = getUrlQuery('time')
+        nameValueCopy.innerText = getUrlQuery('name')
+        timeValueCopy.innerText = getUrlQuery('time')
     }
 
     function createImage() {

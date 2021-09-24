@@ -5,12 +5,6 @@ void (function employee() {
     window.addEventListener('load', completed, false );
     var downbtn = document.getElementById('downloadButton')
     downbtn.addEventListener('click', function() {
-      var list = document.getElementsByClassName('poster-text')
-      console.log('====', list)
-      for (var i = 0; i < list.length; i++) {
-        console.log('====', list[i])
-        list[i].style.verticalAlign = 'baseline'
-      }
       createImage()
     })
 
@@ -30,10 +24,17 @@ void (function employee() {
         var nameValue = document.getElementById('nameValue')
         var yearValue = document.getElementById('yearValue')
         var prizeValue = document.getElementById('prizeValue')
+        var nameValueCopy = document.getElementById('nameValueCopy')
+        var yearValueCopy = document.getElementById('yearValueCopy')
+        var prizeValueCopy = document.getElementById('prizeValueCopy')
+
 
         nameValue.innerText = getUrlQuery('name')
         yearValue.innerText = getUrlQuery('year')
         prizeValue.innerText = getUrlQuery('prize')
+        nameValueCopy.innerText = getUrlQuery('name')
+        yearValueCopy.innerText = getUrlQuery('year')
+        prizeValueCopy.innerText = getUrlQuery('prize')
     }
 
     function createImage() {

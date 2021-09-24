@@ -88,6 +88,10 @@ body {
   position: relative;
 }
 
+.v-middle {
+  vertical-align: middle;
+}
+
 .poster {
   &-main {
     width: 100%;
@@ -128,7 +132,6 @@ body {
   &-text {
     font-size: 0.3733333rem;
     font-weight: bold;
-    vertical-align: middle;
 
     &.blue {
       color: #107fff;
