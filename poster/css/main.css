@@ -202,7 +202,7 @@ body {
 /* line 177, ../../poster-scss/main.scss */
 .poster-button.fixed img {
   display: block;
-  width: 100%;
+  width: 1.58rem;
 }
 /* line 184, ../../poster-scss/main.scss */
 .poster-w54 {
@@ -295,8 +295,8 @@ body {
 }
 /* line 274, ../../poster-scss/main.scss */
 .awardee-button {
-  border-color: #fff600;
-  background: #fff600;
+  border-color: #c4dbeb;
+  background: #c4dbeb;
 }
 
 /* line 281, ../../poster-scss/main.scss */
@@ -320,8 +320,8 @@ body {
 }
 /* line 300, ../../poster-scss/main.scss */
 .employee-button {
-  border-color: #fff600;
-  background: #fff600;
+  border-color: #437ca0;
+  background: #437ca0;
 }
 
 /* line 307, ../../poster-scss/main.scss */
