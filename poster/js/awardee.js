@@ -5,6 +5,12 @@ void (function employee() {
     window.addEventListener('load', completed, false );
     var downbtn = document.getElementById('downloadButton')
     downbtn.addEventListener('click', function() {
+      var list = document.getElementsByClassName('poster-text')
+      console.log('====', list)
+      for (var i = 0; i < list.length; i++) {
+        console.log('====', list[i])
+        list[i].style.verticalAlign = 'baseline'
+      }
       createImage()
     })
 
@@ -68,6 +74,6 @@ void (function employee() {
       toast.style.display = 'block'
       setTimeout(function() {
         toast.style.display = 'none'
-      }, 2000)
+      }, 3000)
   }
 }())

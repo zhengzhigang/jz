@@ -94,6 +94,12 @@ body {
     position: relative;
     min-height: 100%;
     overflow-x: hidden;
+
+    &-fixed {
+      position: fixed;
+      top: 0;
+      left: 1000%;
+    }
   }
 
   &-bg {

@@ -71,6 +71,6 @@ void (function employee() {
         toast.style.display = 'block'
         setTimeout(function() {
           toast.style.display = 'none'
-        }, 2000)
+        }, 3000)
     }
 }())
