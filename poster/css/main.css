@@ -129,13 +129,12 @@ body {
   position: fixed;
   top: 0;
   left: 1000%;
-  display: none;
 }
-/* line 110, ../../poster-scss/main.scss */
+/* line 109, ../../poster-scss/main.scss */
 .poster-bg {
   width: 100%;
 }
-/* line 114, ../../poster-scss/main.scss */
+/* line 113, ../../poster-scss/main.scss */
 .poster-content {
   position: absolute;
   top: 0;
@@ -144,38 +143,38 @@ body {
   bottom: 0;
   padding-top: 1.04666667rem;
 }
-/* line 123, ../../poster-scss/main.scss */
+/* line 122, ../../poster-scss/main.scss */
 .poster-logo {
   width: 6.26666667rem;
   margin: auto;
   margin-bottom: 1.2rem;
 }
-/* line 128, ../../poster-scss/main.scss */
+/* line 127, ../../poster-scss/main.scss */
 .poster-logo img {
   width: 100%;
 }
-/* line 133, ../../poster-scss/main.scss */
+/* line 132, ../../poster-scss/main.scss */
 .poster-text {
   font-size: 0.3733333rem;
   font-weight: bold;
 }
-/* line 137, ../../poster-scss/main.scss */
+/* line 136, ../../poster-scss/main.scss */
 .poster-text.blue {
   color: #107fff;
 }
-/* line 141, ../../poster-scss/main.scss */
+/* line 140, ../../poster-scss/main.scss */
 .poster-text.yellow {
   color: #f1f32a;
 }
-/* line 145, ../../poster-scss/main.scss */
+/* line 144, ../../poster-scss/main.scss */
 .poster-text.orange {
   color: #fff600;
 }
-/* line 149, ../../poster-scss/main.scss */
+/* line 148, ../../poster-scss/main.scss */
 .poster-text.brown {
   color: #a36c1d;
 }
-/* line 154, ../../poster-scss/main.scss */
+/* line 153, ../../poster-scss/main.scss */
 .poster-toast {
   display: none;
   position: absolute;
@@ -190,10 +189,10 @@ body {
   z-index: 999;
   text-align: center;
 }
-/* line 169, ../../poster-scss/main.scss */
+/* line 168, ../../poster-scss/main.scss */
 .poster-button {
   margin: auto;
-  margin-top: 1.42rem;
+  margin-top: 3rem;
   width: 2.0733333rem;
   height: 0.5666667rem;
   border: 1px solid #006ed4;
@@ -204,7 +203,12 @@ body {
   align-items: center;
   justify-content: center;
 }
-/* line 182, ../../poster-scss/main.scss */
+/* line 181, ../../poster-scss/main.scss */
+.poster-button img {
+  display: block;
+  width: 1.58rem;
+}
+/* line 186, ../../poster-scss/main.scss */
 .poster-button.fixed {
   position: fixed;
   bottom: 3.5rem;
@@ -212,69 +216,64 @@ body {
   margin-left: -1.03655555rem;
   color: #fff;
 }
-/* line 189, ../../poster-scss/main.scss */
-.poster-button.fixed img {
-  display: block;
-  width: 1.58rem;
-}
-/* line 196, ../../poster-scss/main.scss */
+/* line 195, ../../poster-scss/main.scss */
 .poster-w54 {
   width: 0.36rem;
 }
-/* line 200, ../../poster-scss/main.scss */
+/* line 199, ../../poster-scss/main.scss */
 .poster-w235 {
   width: 1.56666667rem;
 }
-/* line 204, ../../poster-scss/main.scss */
+/* line 203, ../../poster-scss/main.scss */
 .poster-w360 {
   width: 2.4rem;
 }
-/* line 208, ../../poster-scss/main.scss */
+/* line 207, ../../poster-scss/main.scss */
 .poster-w368 {
   width: 2.4533333rem;
 }
-/* line 212, ../../poster-scss/main.scss */
+/* line 211, ../../poster-scss/main.scss */
 .poster-w485 {
   width: 3.233333rem;
 }
-/* line 216, ../../poster-scss/main.scss */
+/* line 215, ../../poster-scss/main.scss */
 .poster-w390 {
   width: 2.6rem;
 }
-/* line 220, ../../poster-scss/main.scss */
+/* line 219, ../../poster-scss/main.scss */
 .poster-w365 {
   width: 2.433333333rem;
 }
-/* line 224, ../../poster-scss/main.scss */
+/* line 223, ../../poster-scss/main.scss */
 .poster-w596 {
   width: 3.97333333rem;
 }
-/* line 228, ../../poster-scss/main.scss */
+/* line 227, ../../poster-scss/main.scss */
 .poster-w1000 {
   width: 6.66666667rem;
 }
-/* line 232, ../../poster-scss/main.scss */
+/* line 231, ../../poster-scss/main.scss */
 .poster-w1100 {
   width: 7.333333rem;
 }
 
-/* line 238, ../../poster-scss/main.scss */
+/* line 237, ../../poster-scss/main.scss */
 .home-text {
   width: 6.4rem;
   margin: auto;
   margin-bottom: 0.94rem;
 }
-/* line 244, ../../poster-scss/main.scss */
+/* line 243, ../../poster-scss/main.scss */
 .home-data {
   text-align: center;
   font-size: 0;
 }
-/* line 248, ../../poster-scss/main.scss */
+/* line 247, ../../poster-scss/main.scss */
 .home-data img {
   display: inline-block;
   margin-left: 0.1rem;
 }
-/* line 253, ../../poster-scss/main.scss */
+/* line 252, ../../poster-scss/main.scss */
 .home-data .text-input {
   border: none;
   appearance: none;
@@ -283,38 +282,39 @@ body {
   width: 2.35rem;
   text-align: right;
 }
-/* line 262, ../../poster-scss/main.scss */
+/* line 261, ../../poster-scss/main.scss */
 .home-data .search-form {
   display: inline-block;
 }
 
-/* line 269, ../../poster-scss/main.scss */
+/* line 268, ../../poster-scss/main.scss */
 .awardee-content {
   padding: 0 0.78666667rem;
 }
-/* line 272, ../../poster-scss/main.scss */
+/* line 271, ../../poster-scss/main.scss */
 .awardee-content .full-text {
   margin-top: 0.8rem;
 }
-/* line 276, ../../poster-scss/main.scss */
+/* line 275, ../../poster-scss/main.scss */
 .awardee-data {
   font-size: 0;
   margin-bottom: 0.2rem;
 }
-/* line 280, ../../poster-scss/main.scss */
+/* line 279, ../../poster-scss/main.scss */
 .awardee-data img {
   display: inline-block;
   margin-left: 0.1rem;
 }
-/* line 286, ../../poster-scss/main.scss */
+/* line 285, ../../poster-scss/main.scss */
 .awardee-button {
   border-color: #c4dbeb;
   background: #c4dbeb;
 }
 
-/* line 293, ../../poster-scss/main.scss */
+/* line 292, ../../poster-scss/main.scss */
 .employee-content {
   padding: 0 0.72rem;
+  overflow: hidden;
 }
 /* line 296, ../../poster-scss/main.scss */
 .employee-content .full-text {
@@ -368,30 +368,31 @@ body {
 /* line 348, ../../poster-scss/main.scss */
 .oldstaff-content {
   padding-right: 0.72rem;
+  overflow: hidden;
 }
-/* line 351, ../../poster-scss/main.scss */
+/* line 352, ../../poster-scss/main.scss */
 .oldstaff-content .full-text {
   float: right;
   margin-top: 0.733333rem;
 }
-/* line 357, ../../poster-scss/main.scss */
+/* line 358, ../../poster-scss/main.scss */
 .oldstaff-data {
   font-size: 0;
   margin-bottom: 0.2rem;
   text-align: right;
 }
-/* line 362, ../../poster-scss/main.scss */
+/* line 363, ../../poster-scss/main.scss */
 .oldstaff-data img {
   display: inline-block;
   margin: 0 0.1rem;
 }
-/* line 368, ../../poster-scss/main.scss */
+/* line 369, ../../poster-scss/main.scss */
 .oldstaff-button {
   border-color: #499459;
   background: #499459;
 }
 
-/* line 374, ../../poster-scss/main.scss */
+/* line 375, ../../poster-scss/main.scss */
 .created-img {
   position: fixed;
   width: 100%;

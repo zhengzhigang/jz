@@ -7,6 +7,7 @@ void (function employee() {
     completed()
     var downbtn = document.getElementById('downloadButton')
     downbtn.addEventListener('click', function() {
+      createImgDiv()
       createImage()
     })
 
@@ -25,14 +26,10 @@ void (function employee() {
     function completed() {
         var nameValue = document.getElementById('nameValue')
         var timeValue = document.getElementById('timeValue')
-        var nameValueCopy = document.getElementById('nameValueCopy')
-        var timeValueCopy = document.getElementById('timeValueCopy')
         var timeEnd = Number(getUrlQuery('time_end'))
 
         nameValue.innerText = getUrlQuery('name')
         timeValue.innerText = timeEnd ? getBeforeDate(getUrlQuery('time'), timeEnd) : getBeforeDate(getUrlQuery('time'))
-        nameValueCopy.innerText = getUrlQuery('name')
-        timeValueCopy.innerText = timeEnd ? getBeforeDate(getUrlQuery('time'), timeEnd) : getBeforeDate(getUrlQuery('time'))
 
         console.timeEnd('============')
     }

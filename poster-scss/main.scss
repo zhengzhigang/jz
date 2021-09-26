@@ -103,7 +103,6 @@ body {
       position: fixed;
       top: 0;
       left: 1000%;
-      display: none;
     }
   }
 
@@ -168,7 +167,7 @@ body {
 
   &-button {
     margin: auto;
-    margin-top: 1.42rem;
+    margin-top: 3rem;
     width: 2.0733333rem;
     height: 0.5666667rem;
     border: 1px solid #006ed4;
@@ -179,17 +178,17 @@ body {
     align-items: center;
     justify-content: center;
 
+    img {
+      display: block;
+      width: 1.58rem;
+    }
+
     &.fixed {
         position: fixed;
         bottom: 3.5rem;
         left: 50%;
         margin-left: -1.03655555rem;
         color: #fff;
-
-        img {
-          display: block;
-          width: 1.58rem;
-        }
     }
   }
 
@@ -292,6 +291,7 @@ body {
 .employee {
   &-content {
     padding: 0 0.72rem;
+    overflow: hidden;
 
     .full-text {
       float: right;
@@ -347,6 +347,7 @@ body {
 .oldstaff {
   &-content {
     padding-right: 0.72rem;
+    overflow: hidden;
 
     .full-text {
       float: right;

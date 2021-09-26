@@ -8,6 +8,7 @@ void (function employee() {
     completed()
     var downbtn = document.getElementById('downloadButton')
     downbtn.addEventListener('click', function() {
+      createImgDiv()
       createImage()
     })
 
@@ -28,17 +29,11 @@ void (function employee() {
         var nameValue = document.getElementById('nameValue')
         var yearValue = document.getElementById('yearValue')
         var monthValue = document.getElementById('monthValue')
-        var nameValueCopy = document.getElementById('nameValueCopy')
-        var yearValueCopy = document.getElementById('yearValueCopy')
-        var monthValueCopy = document.getElementById('monthValueCopy')
         var yearMatch = getUrlQuery('year').match(reg)
 
         nameValue.innerText = getUrlQuery('name')
         yearValue.innerText = yearMatch[0]
         monthValue.innerText = yearMatch[1]
-        nameValueCopy.innerText = getUrlQuery('name')
-        yearValueCopy.innerText = yearMatch[0]
-        monthValueCopy.innerText = yearMatch[1]
 
         console.timeEnd('============')
     }
