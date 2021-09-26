@@ -3,7 +3,9 @@
  */
 
 void (function employee() {
-    window.addEventListener('load', completed, false );
+    console.time('============')
+    // window.addEventListener('load', completed, false );
+    completed()
     var downbtn = document.getElementById('downloadButton')
     downbtn.addEventListener('click', function() {
       createImage()
@@ -37,6 +39,8 @@ void (function employee() {
         nameValueCopy.innerText = getUrlQuery('name')
         yearValueCopy.innerText = yearMatch[0]
         monthValueCopy.innerText = yearMatch[1]
+
+        console.timeEnd('============')
     }
 
     function createImage() {

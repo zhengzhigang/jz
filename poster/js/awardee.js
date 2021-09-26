@@ -2,7 +2,9 @@
  * 获奖人页面
  */
 void (function employee() {
-    window.addEventListener('load', completed, false );
+    console.time('============')
+    // window.addEventListener('load', completed, false );
+    completed()
     var downbtn = document.getElementById('downloadButton')
     downbtn.addEventListener('click', function() {
       createImage()
@@ -35,6 +37,10 @@ void (function employee() {
         nameValueCopy.innerText = getUrlQuery('name')
         yearValueCopy.innerText = getUrlQuery('year')
         prizeValueCopy.innerText = getUrlQuery('prize')
+
+        // document.getElementById('posterMain').style.display = 'block'
+
+        console.timeEnd('============')
     }
 
     function createImage() {

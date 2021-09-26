@@ -2,7 +2,9 @@
  * 老员工页面
  */
 void (function employee() {
-    window.addEventListener('load', completed, false );
+    console.time('============')
+    // window.addEventListener('load', completed, false );
+    completed()
     var downbtn = document.getElementById('downloadButton')
     downbtn.addEventListener('click', function() {
       createImage()
@@ -31,6 +33,8 @@ void (function employee() {
         timeValue.innerText = timeEnd ? getBeforeDate(getUrlQuery('time'), timeEnd) : getBeforeDate(getUrlQuery('time'))
         nameValueCopy.innerText = getUrlQuery('name')
         timeValueCopy.innerText = timeEnd ? getBeforeDate(getUrlQuery('time'), timeEnd) : getBeforeDate(getUrlQuery('time'))
+
+        console.timeEnd('============')
     }
 
     function createImage() {

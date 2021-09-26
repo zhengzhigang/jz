@@ -2,7 +2,9 @@
  * 研发人页面
  */
 void (function employee() {
-    window.addEventListener('load', completed, false );
+    console.time('============')
+    // window.addEventListener('load', completed, false );
+    completed()
     var downbtn = document.getElementById('downloadButton')
     downbtn.addEventListener('click', function() {
       createImage()
@@ -30,6 +32,8 @@ void (function employee() {
         productValue.innerText = getUrlQuery('product')
         nameValueCopy.innerText = getUrlQuery('name')
         productValueCopy.innerText = getUrlQuery('product')
+
+        console.timeEnd('============')
     }
 
     function createImage() {
