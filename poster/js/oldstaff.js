@@ -90,12 +90,12 @@ void (function employee() {
         var year_after = aftertime.getFullYear();
         var mon_after = aftertime.getMonth()+1;
         var day_after = aftertime.getDate();
-        var chs = 0;
+        var chs = 1;
         //获取当月的天数
         function DayNumOfMonth(Year,Month) {
-            return 32 - new Date(Year,Month-1,32).getDate();
+            return 32 - new Date(Year,Month,32).getDate();
         }
-
+      
         if(aftertime.getTime() - now.getTime() < 0){
             var temp1 = day_after;
             var temp2 = mon_after;
@@ -137,5 +137,5 @@ void (function employee() {
         if(aftertime.getTime() - now.getTime() < 0){
             return diff ? chs - diff : chs;
         }
-    }
+      }
 }())
