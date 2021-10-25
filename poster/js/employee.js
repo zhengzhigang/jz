@@ -29,11 +29,13 @@ void (function employee() {
         var nameValue = document.getElementById('nameValue')
         var yearValue = document.getElementById('yearValue')
         var monthValue = document.getElementById('monthValue')
+        var dayValue = document.getElementById('dayValue')
         var yearMatch = getUrlQuery('year').match(reg)
 
         nameValue.innerText = getUrlQuery('name')
         yearValue.innerText = yearMatch[0]
         monthValue.innerText = yearMatch[1]
+        dayValue.innerText = yearMatch[2]
 
         console.timeEnd('============')
     }

@@ -301,7 +301,7 @@ void (function () {
     { name: '陈卓', time: '2019/9/9', type: 4 },
     { name: '雷艳', time: '2019/9/16', type: 4 },
     { name: '苏枫', time: '2019/9/23', type: 4 },
-    { name: '杜薇', time: '2019/10/12', time_end: '548', type: 4 },
+    { name: '杜薇', time: '2016/4/28', time_end: '548', type: 4 },
     { name: '翁俊', time: '2019/11/4', type: 4 },
     { name: '王秋颖', time: '2019/11/4', type: 4 },
     { name: '檀进波', time: '2019/11/11', type: 4 },
