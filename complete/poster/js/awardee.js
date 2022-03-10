@@ -2,9 +2,12 @@
  * 获奖人页面
  */
 void (function employee() {
-    window.addEventListener('load', completed, false );
+    console.time('============')
+    // window.addEventListener('load', completed, false );
+    completed()
     var downbtn = document.getElementById('downloadButton')
     downbtn.addEventListener('click', function() {
+      createImgDiv()
       createImage()
     })
 
@@ -25,9 +28,14 @@ void (function employee() {
         var yearValue = document.getElementById('yearValue')
         var prizeValue = document.getElementById('prizeValue')
 
+
+
         nameValue.innerText = getUrlQuery('name')
         yearValue.innerText = getUrlQuery('year')
         prizeValue.innerText = getUrlQuery('prize')
+        // document.getElementById('posterMain').style.display = 'block'
+
+        console.timeEnd('============')
     }
 
     function createImage() {
@@ -37,10 +45,37 @@ void (function employee() {
         scale: 1.5, // 截图清晰度
         useCORS: true // 设置图片跨域
       }).then(function(canvas) {
-        let link = document.createElement('a');
-        link.href = canvas.toDataURL();//下载链接
-        link.setAttribute('download', '海报.png');
-        link.click();
+        var url = canvas.toDataURL();
+        if (isWx()) {
+          var img = document.getElementById('ceratedImg')
+          img.src = url
+          img.style.display = 'block'
+          showToast()
+        } else {
+          let link = document.createElement('a');
+          link.href = url //下载链接
+          link.setAttribute('download', '海报.png');
+          link.click();
+        }
       })
     }
+
+    function isWx() {
+        var ua = window.navigator.userAgent.toLowerCase();
+        if(ua.match(/MicroMessenger/i) == 'micromessenger'){
+            return true;
+        }else{
+            return false;
+        }
+    }
+
+    // 弹出toast
+    function showToast() {
+      var toast = document.getElementById('toast')
+
+      toast.style.display = 'block'
+      setTimeout(function() {
+        toast.style.display = 'none'
+      }, 3000)
+  }
 }())
