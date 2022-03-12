@@ -7,12 +7,12 @@ http_path = "/"
 # css_dir = "gaomixing/statics/v4.0/styles"
 # sass_dir = "gaomixing-scss"
 
-# css_dir = "jijian/RJ-css/"
-# sass_dir = "jijian-scss"
+css_dir = "japan1/RJ-css/"
+sass_dir = "japan1-scss"
 
-css_dir = "poster/css"
-sass_dir = "poster-scss"
-javascripts_dir = "javascripts"
+# css_dir = "poster/css"
+# sass_dir = "poster-scss"
+# javascripts_dir = "javascripts"
 
 # You can select your preferred output style here (can be overridden via the command line):
 # output_style = :expanded or :nested or :compact or :compressed
