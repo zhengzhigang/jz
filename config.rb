@@ -7,8 +7,8 @@ http_path = "/"
 # css_dir = "gaomixing/statics/v4.0/styles"
 # sass_dir = "gaomixing-scss"
 
-css_dir = "japan3/RJ-css/"
-sass_dir = "japan3-scss"
+css_dir = "japan1/RJ-css/"
+sass_dir = "japan1-scss"
 
 # css_dir = "poster/css"
 # sass_dir = "poster-scss"

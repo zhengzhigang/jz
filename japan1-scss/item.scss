@@ -87,6 +87,9 @@ h6 {
 body {
   position: relative;
 }
+a:hover {
+    text-decoration: none;
+}
 
 .v-middle {
   vertical-align: middle;
@@ -117,7 +120,9 @@ body {
 
 .z-section1 {
     padding: 120px 0 145px;
-    background: url(../RJ-img/page1-bg.jpg) center center/100% 100% no-repeat;
+    background: url(../RJ-img/page1-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
     text-align: center;
 
     .z-section__content {
@@ -244,7 +249,7 @@ body {
     background: #f7f7f7;
 
     .section4__img {
-        width: 80%;
+        width: 100%;
         margin: auto;
         margin-top: 80px;
         margin-bottom: 20px;
@@ -331,11 +336,12 @@ body {
         background: #fff;
         padding: 50px 30px 60px;
         text-align: center;
+        cursor: pointer;
 
         &--text {
             margin-top: 50px;
             font-size: 20px;
-            color: #000;
+            color: #e60033;
         }
 
         &--icon {
@@ -347,6 +353,10 @@ body {
 
         &:first-child {
             margin-right: 30px;
+        }
+
+        &:hover {
+            box-shadow: 0 2px 9px rgba($color: #000000, $alpha: 0.16);
         }
     }
 }
