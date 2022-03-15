@@ -87,6 +87,12 @@ h6 {
 body {
   position: relative;
 }
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
 
 .v-middle {
   vertical-align: middle;

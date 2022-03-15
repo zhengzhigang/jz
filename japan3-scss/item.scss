@@ -165,6 +165,18 @@ a:hover {
     }
 }
 
+.z-main__video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+
 .z-section1 {
     padding: 74px 0 329px;
     background: url(../RJ-img/page1-bg.jpg) no-repeat;
@@ -364,11 +376,14 @@ a:hover {
 }
 
 .z-section7 {
-    background: linear-gradient(to bottom, #FFFFFF, #EFF4FA);
+    .z-section__content {
+        margin-top: calc( 100vh - 148px );
+    }
 }
 
 .z-section4 {
     padding-bottom: 86px;
+    background: #fff;
 
     .section4__list {
         display: flex;
