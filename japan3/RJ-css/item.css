@@ -112,12 +112,22 @@ body {
   position: relative;
 }
 
-/* line 91, ../../japan3-scss/item.scss */
+/* line 90, ../../japan3-scss/item.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 93, ../../japan3-scss/item.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 97, ../../japan3-scss/item.scss */
 .v-middle {
   vertical-align: middle;
 }
 
-/* line 95, ../../japan3-scss/item.scss */
+/* line 101, ../../japan3-scss/item.scss */
 .z-section__title {
   font-size: 36px;
   line-height: 48px;
@@ -126,39 +136,39 @@ body {
   font-weight: bold;
 }
 
-/* line 103, ../../japan3-scss/item.scss */
+/* line 109, ../../japan3-scss/item.scss */
 .z-section__content {
   max-width: 1400px;
   margin: auto;
   padding-top: 65px;
 }
 
-/* line 109, ../../japan3-scss/item.scss */
+/* line 115, ../../japan3-scss/item.scss */
 .z-page {
   overflow: hidden;
 }
 
-/* line 113, ../../japan3-scss/item.scss */
+/* line 119, ../../japan3-scss/item.scss */
 .z-mobile-show {
   display: none;
 }
 
-/* line 117, ../../japan3-scss/item.scss */
+/* line 123, ../../japan3-scss/item.scss */
 .mt-20 {
   margin-top: 20px;
 }
 
-/* line 121, ../../japan3-scss/item.scss */
+/* line 127, ../../japan3-scss/item.scss */
 .mt-28 {
   margin-top: 28px;
 }
 
-/* line 125, ../../japan3-scss/item.scss */
+/* line 131, ../../japan3-scss/item.scss */
 .mt-40 {
   margin-top: 40px;
 }
 
-/* line 129, ../../japan3-scss/item.scss */
+/* line 135, ../../japan3-scss/item.scss */
 .z-section__button {
   display: inline-flex;
   width: 170px;
@@ -171,15 +181,19 @@ body {
   border-radius: 8px;
   font-size: 16px;
 }
+/* line 147, ../../japan3-scss/item.scss */
+.z-section__button:hover {
+  background: #c30233;
+}
 
-/* line 142, ../../japan3-scss/item.scss */
+/* line 152, ../../japan3-scss/item.scss */
 .z-section__text--dot {
   position: relative;
   padding-left: 0;
   font-size: 18px;
   line-height: 24px;
 }
-/* line 148, ../../japan3-scss/item.scss */
+/* line 158, ../../japan3-scss/item.scss */
 .z-section__text--dot .dot {
   display: inline-block;
   margin-right: 5px;
@@ -189,7 +203,7 @@ body {
   vertical-align: middle;
 }
 
-/* line 158, ../../japan3-scss/item.scss */
+/* line 168, ../../japan3-scss/item.scss */
 .z-section1 {
   padding: 74px 0 329px;
   background: url(../RJ-img/page1-bg.jpg) no-repeat;
@@ -197,60 +211,60 @@ body {
   background-size: cover;
   background-position: center center;
 }
-/* line 165, ../../japan3-scss/item.scss */
+/* line 175, ../../japan3-scss/item.scss */
 .z-section1 .z-section__content {
   padding-top: 0;
 }
-/* line 169, ../../japan3-scss/item.scss */
+/* line 179, ../../japan3-scss/item.scss */
 .z-section1 .section1__title {
   font-size: 60px;
   color: #fff;
 }
-/* line 174, ../../japan3-scss/item.scss */
+/* line 184, ../../japan3-scss/item.scss */
 .z-section1 .section1__text {
   font-size: 36px;
   color: #fff;
   padding-bottom: 19px;
 }
 
-/* line 181, ../../japan3-scss/item.scss */
+/* line 191, ../../japan3-scss/item.scss */
 .z-section2 {
   padding-bottom: 80px;
   background: url(../RJ-img/page2-bg.png) no-repeat;
   background-size: cover;
   background-position: center center;
 }
-/* line 187, ../../japan3-scss/item.scss */
+/* line 197, ../../japan3-scss/item.scss */
 .z-section2 .z-section__text {
   margin: 30px 0 40px;
   font-size: 16px;
   text-align: center;
 }
-/* line 193, ../../japan3-scss/item.scss */
+/* line 203, ../../japan3-scss/item.scss */
 .z-section2 .z-section2__content {
   display: flex;
 }
-/* line 197, ../../japan3-scss/item.scss */
+/* line 207, ../../japan3-scss/item.scss */
 .z-section2__left {
   width: 50%;
   padding: 0 56px;
   border-right: 1px dashed #979797;
 }
-/* line 202, ../../japan3-scss/item.scss */
+/* line 212, ../../japan3-scss/item.scss */
 .z-section2__left-item {
   display: flex;
   margin-bottom: 28px;
 }
-/* line 206, ../../japan3-scss/item.scss */
+/* line 216, ../../japan3-scss/item.scss */
 .z-section2__left-item--left {
   width: 50%;
   flex-shrink: 0;
 }
-/* line 210, ../../japan3-scss/item.scss */
+/* line 220, ../../japan3-scss/item.scss */
 .z-section2__left-item--left img {
   width: 100%;
 }
-/* line 215, ../../japan3-scss/item.scss */
+/* line 225, ../../japan3-scss/item.scss */
 .z-section2__left-item--title {
   display: inline-block;
   position: relative;
@@ -259,7 +273,7 @@ body {
   padding-bottom: 15px;
   margin-bottom: 10px;
 }
-/* line 223, ../../japan3-scss/item.scss */
+/* line 233, ../../japan3-scss/item.scss */
 .z-section2__left-item--title::after {
   content: '';
   position: absolute;
@@ -269,16 +283,16 @@ body {
   bottom: 0;
   border-bottom: 1px solid #0370CD;
 }
-/* line 236, ../../japan3-scss/item.scss */
+/* line 246, ../../japan3-scss/item.scss */
 .z-section2__right {
   padding: 0 56px;
   width: 50%;
 }
-/* line 240, ../../japan3-scss/item.scss */
+/* line 250, ../../japan3-scss/item.scss */
 .z-section2__right img {
   width: 100%;
 }
-/* line 245, ../../japan3-scss/item.scss */
+/* line 255, ../../japan3-scss/item.scss */
 .z-section2__right-item--title {
   display: inline-block;
   position: relative;
@@ -287,7 +301,7 @@ body {
   padding-bottom: 15px;
   margin-bottom: 10px;
 }
-/* line 253, ../../japan3-scss/item.scss */
+/* line 263, ../../japan3-scss/item.scss */
 .z-section2__right-item--title::after {
   content: '';
   position: absolute;
@@ -297,7 +311,7 @@ body {
   bottom: 0;
   border-bottom: 1px solid #10D1D1;
 }
-/* line 267, ../../japan3-scss/item.scss */
+/* line 277, ../../japan3-scss/item.scss */
 .z-section2__title {
   width: 100%;
   height: 75px;
@@ -308,38 +322,38 @@ body {
   font-size: 24px;
   color: #fff;
 }
-/* line 277, ../../japan3-scss/item.scss */
+/* line 287, ../../japan3-scss/item.scss */
 .z-section2__title.title1 {
   background: linear-gradient(to right, #68CFFE 0%, #37A1FC 50%);
 }
-/* line 281, ../../japan3-scss/item.scss */
+/* line 291, ../../japan3-scss/item.scss */
 .z-section2__title.title2 {
   background: linear-gradient(to right, #26EBEB 0%, #11D2D2 50%);
 }
 
-/* line 287, ../../japan3-scss/item.scss */
+/* line 297, ../../japan3-scss/item.scss */
 .z-section3 {
   padding-bottom: 96px;
   background: url(../RJ-img/page3-bg.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
 }
-/* line 293, ../../japan3-scss/item.scss */
+/* line 303, ../../japan3-scss/item.scss */
 .z-section3 .z-section__title {
   margin-bottom: 70px;
 }
-/* line 297, ../../japan3-scss/item.scss */
+/* line 307, ../../japan3-scss/item.scss */
 .z-section3 .z-section__text {
   margin-bottom: 40px;
 }
-/* line 301, ../../japan3-scss/item.scss */
+/* line 311, ../../japan3-scss/item.scss */
 .z-section3 .section3__list {
   display: flex;
   justify-content: space-between;
   align-items: center;
   justify-content: space-between;
 }
-/* line 308, ../../japan3-scss/item.scss */
+/* line 318, ../../japan3-scss/item.scss */
 .z-section3__item--title {
   display: inline-block;
   position: relative;
@@ -348,7 +362,7 @@ body {
   padding-bottom: 15px;
   margin-bottom: 10px;
 }
-/* line 316, ../../japan3-scss/item.scss */
+/* line 326, ../../japan3-scss/item.scss */
 .z-section3__item--title::after {
   content: '';
   position: absolute;
@@ -358,11 +372,11 @@ body {
   bottom: 0;
   border-bottom: 1px solid #979797;
 }
-/* line 327, ../../japan3-scss/item.scss */
+/* line 337, ../../japan3-scss/item.scss */
 .z-section3 .z-section__text--dot {
   color: #333333;
 }
-/* line 331, ../../japan3-scss/item.scss */
+/* line 341, ../../japan3-scss/item.scss */
 .z-section3 .section3__item {
   display: flex;
   align-items: center;
@@ -370,16 +384,16 @@ body {
   font-size: 24px;
   width: 49%;
 }
-/* line 338, ../../japan3-scss/item.scss */
+/* line 348, ../../japan3-scss/item.scss */
 .z-section3 .section3__item--left {
   width: 50%;
   flex-shrink: 0;
 }
-/* line 342, ../../japan3-scss/item.scss */
+/* line 352, ../../japan3-scss/item.scss */
 .z-section3 .section3__item--left img {
   width: 100%;
 }
-/* line 347, ../../japan3-scss/item.scss */
+/* line 357, ../../japan3-scss/item.scss */
 .z-section3 .section3__item--right {
   padding: 20px 30px;
   background: #fff;
@@ -387,66 +401,67 @@ body {
   flex: 1;
 }
 
-/* line 356, ../../japan3-scss/item.scss */
+/* line 366, ../../japan3-scss/item.scss */
 .z-section7 {
   background: linear-gradient(to bottom, #FFFFFF, #EFF4FA);
 }
 
-/* line 360, ../../japan3-scss/item.scss */
+/* line 370, ../../japan3-scss/item.scss */
 .z-section4 {
   padding-bottom: 86px;
 }
-/* line 363, ../../japan3-scss/item.scss */
+/* line 373, ../../japan3-scss/item.scss */
 .z-section4 .section4__list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-/* line 369, ../../japan3-scss/item.scss */
+/* line 379, ../../japan3-scss/item.scss */
 .z-section4 .section4__item {
   width: 48%;
   margin-bottom: 68px;
 }
-/* line 373, ../../japan3-scss/item.scss */
+/* line 383, ../../japan3-scss/item.scss */
 .z-section4 .section4__item--title {
   font-size: 36px;
   color: #292929;
   margin-bottom: 31px;
 }
-/* line 379, ../../japan3-scss/item.scss */
+/* line 389, ../../japan3-scss/item.scss */
 .z-section4 .section4__item--text {
   font-size: 18px;
   color: #292929;
 }
-/* line 384, ../../japan3-scss/item.scss */
+/* line 394, ../../japan3-scss/item.scss */
 .z-section4 .section4__item img {
   width: 100%;
   margin-top: 47px;
 }
 
-/* line 391, ../../japan3-scss/item.scss */
+/* line 401, ../../japan3-scss/item.scss */
 .z-section5 {
   padding-bottom: 60px;
   background: url(../RJ-img/page6-bg.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
 }
-/* line 397, ../../japan3-scss/item.scss */
+/* line 407, ../../japan3-scss/item.scss */
 .z-section5 .section5__content {
   display: flex;
   margin-top: 45px;
 }
-/* line 402, ../../japan3-scss/item.scss */
+/* line 412, ../../japan3-scss/item.scss */
 .z-section5 .section5__left {
+  position: relative;
   margin-right: 59px;
   background: #fff;
   width: 328px;
 }
-/* line 408, ../../japan3-scss/item.scss */
+/* line 419, ../../japan3-scss/item.scss */
 .z-section5 .section5__right {
   flex: 1;
 }
-/* line 412, ../../japan3-scss/item.scss */
+/* line 423, ../../japan3-scss/item.scss */
 .z-section5 .section5__title {
   display: flex;
   justify-content: center;
@@ -457,7 +472,7 @@ body {
   height: 77px;
   background: #56BEFE;
 }
-/* line 423, ../../japan3-scss/item.scss */
+/* line 434, ../../japan3-scss/item.scss */
 .z-section5 .section5__img {
   height: 228px;
   margin: auto;
@@ -465,65 +480,89 @@ body {
   padding-top: 70px;
   padding-bottom: 58px;
 }
-/* line 430, ../../japan3-scss/item.scss */
+/* line 441, ../../japan3-scss/item.scss */
 .z-section5 .section5__img--box {
   border: 1px solid rgba(151, 151, 151, 0.29);
 }
-/* line 435, ../../japan3-scss/item.scss */
+/* line 445, ../../japan3-scss/item.scss */
+.z-section5 .section5__img--link {
+  display: block;
+}
+/* line 449, ../../japan3-scss/item.scss */
+.z-section5 .section5__img--link:hover .section5__img--box {
+  box-shadow: 0 2px 9px rgba(0, 0, 0, 0.16);
+}
+/* line 453, ../../japan3-scss/item.scss */
+.z-section5 .section5__img--link:hover .section5__text {
+  color: #e60033;
+}
+/* line 457, ../../japan3-scss/item.scss */
+.z-section5 .section5__img--link:hover .section5__list--item-icon {
+  display: none;
+}
+/* line 460, ../../japan3-scss/item.scss */
+.z-section5 .section5__img--link:hover .section5__list--item-icon.hover {
+  display: block;
+}
+/* line 468, ../../japan3-scss/item.scss */
 .z-section5 .section5__list {
   display: flex;
   justify-content: space-between;
   background: #fff;
 }
-/* line 440, ../../japan3-scss/item.scss */
+/* line 473, ../../japan3-scss/item.scss */
 .z-section5 .section5__list--item {
   position: relative;
   width: 31.5%;
 }
-/* line 444, ../../japan3-scss/item.scss */
+/* line 477, ../../japan3-scss/item.scss */
 .z-section5 .section5__list--item-icon {
   position: absolute;
   right: 30px;
   bottom: 30px;
   width: 22px;
 }
-/* line 453, ../../japan3-scss/item.scss */
+/* line 483, ../../japan3-scss/item.scss */
+.z-section5 .section5__list--item-icon.hover {
+  display: none;
+}
+/* line 490, ../../japan3-scss/item.scss */
 .z-section5 .section5__text {
   font-size: 18px;
   color: #292929;
   text-align: center;
-  margin-bottom: 60px;
+  padding-bottom: 60px;
   margin-top: 30px;
 }
 
-/* line 462, ../../japan3-scss/item.scss */
+/* line 499, ../../japan3-scss/item.scss */
 .z-section6 {
   padding-bottom: 60px;
   background: #F7F7F7;
 }
-/* line 466, ../../japan3-scss/item.scss */
+/* line 503, ../../japan3-scss/item.scss */
 .z-section6 .z-section__title {
   margin-bottom: 30px;
 }
-/* line 470, ../../japan3-scss/item.scss */
+/* line 507, ../../japan3-scss/item.scss */
 .z-section6 .section6__list {
   display: flex;
   justify-content: space-between;
 }
-/* line 475, ../../japan3-scss/item.scss */
+/* line 512, ../../japan3-scss/item.scss */
 .z-section6 .section6__item {
   width: 31%;
   background: #fff;
   padding: 20px 0 28px;
 }
-/* line 480, ../../japan3-scss/item.scss */
+/* line 517, ../../japan3-scss/item.scss */
 .z-section6 .section6__item p {
   padding: 0 30px;
   margin-bottom: 10px;
   font-size: 20px;
   color: #545454;
 }
-/* line 488, ../../japan3-scss/item.scss */
+/* line 525, ../../japan3-scss/item.scss */
 .z-section6 .section6__button {
   display: flex;
   margin: auto;
@@ -538,7 +577,11 @@ body {
   color: #fff;
   margin-top: 62px;
 }
-/* line 503, ../../japan3-scss/item.scss */
+/* line 539, ../../japan3-scss/item.scss */
+.z-section6 .section6__button:hover {
+  background: #c30233;
+}
+/* line 544, ../../japan3-scss/item.scss */
 .z-section6 .section6__icon {
   display: inline-block;
   vertical-align: middle;
@@ -546,7 +589,7 @@ body {
   margin-right: 10px;
   cursor: pointer;
 }
-/* line 510, ../../japan3-scss/item.scss */
+/* line 551, ../../japan3-scss/item.scss */
 .z-section6 .section6__icon-down {
   position: absolute;
   width: 26px;
@@ -556,49 +599,49 @@ body {
 }
 
 @media screen and (max-width: 1280px) {
-  /* line 521, ../../japan3-scss/item.scss */
+  /* line 562, ../../japan3-scss/item.scss */
   .z-section__content {
     max-width: 1200px;
   }
 }
 @media screen and (max-width: 1024px) {
-  /* line 527, ../../japan3-scss/item.scss */
+  /* line 568, ../../japan3-scss/item.scss */
   .z-section__content {
     max-width: 960px;
   }
 
-  /* line 531, ../../japan3-scss/item.scss */
+  /* line 572, ../../japan3-scss/item.scss */
   .z-section3 .section3__list {
     flex-wrap: wrap;
     justify-content: center;
   }
-  /* line 536, ../../japan3-scss/item.scss */
+  /* line 577, ../../japan3-scss/item.scss */
   .z-section3 .z-section__text {
     max-width: 960px;
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 542, ../../japan3-scss/item.scss */
+  /* line 583, ../../japan3-scss/item.scss */
   .z-section3 .section3__item {
     width: 70%;
     margin-bottom: 40px;
   }
 
-  /* line 548, ../../japan3-scss/item.scss */
+  /* line 589, ../../japan3-scss/item.scss */
   .z-section5 .section5__left {
     width: 280px;
   }
-  /* line 552, ../../japan3-scss/item.scss */
+  /* line 593, ../../japan3-scss/item.scss */
   .z-section5 .section5__img {
     height: 180px;
   }
 
-  /* line 557, ../../japan3-scss/item.scss */
+  /* line 598, ../../japan3-scss/item.scss */
   .z-section6 .section6__item {
     position: relative;
     min-height: 270px;
   }
-  /* line 562, ../../japan3-scss/item.scss */
+  /* line 603, ../../japan3-scss/item.scss */
   .z-section6 .section6__button {
     position: absolute;
     bottom: 40px;
@@ -608,244 +651,244 @@ body {
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 573, ../../japan3-scss/item.scss */
+  /* line 614, ../../japan3-scss/item.scss */
   .z-pc-show {
     display: none;
   }
 
-  /* line 577, ../../japan3-scss/item.scss */
+  /* line 618, ../../japan3-scss/item.scss */
   .z-mobile-show {
     display: block;
   }
 
-  /* line 581, ../../japan3-scss/item.scss */
+  /* line 622, ../../japan3-scss/item.scss */
   .z-section__title {
     font-size: 24px;
     line-height: 44px;
   }
 
-  /* line 586, ../../japan3-scss/item.scss */
+  /* line 627, ../../japan3-scss/item.scss */
   .z-section__text--dot {
     font-size: 16px;
   }
 
-  /* line 590, ../../japan3-scss/item.scss */
+  /* line 631, ../../japan3-scss/item.scss */
   .z-section__content {
     padding-top: 40px;
     max-width: 100%;
     margin: 0 15px;
   }
 
-  /* line 596, ../../japan3-scss/item.scss */
+  /* line 637, ../../japan3-scss/item.scss */
   .z-section1 {
     padding: 74px 0 200px;
   }
-  /* line 599, ../../japan3-scss/item.scss */
+  /* line 640, ../../japan3-scss/item.scss */
   .z-section1 .section1__title {
     font-size: 38px;
     color: #fff;
   }
-  /* line 604, ../../japan3-scss/item.scss */
+  /* line 645, ../../japan3-scss/item.scss */
   .z-section1 .section1__text {
     font-size: 30px;
   }
 
-  /* line 609, ../../japan3-scss/item.scss */
+  /* line 650, ../../japan3-scss/item.scss */
   .z-section2 {
     padding-bottom: 60px;
   }
-  /* line 612, ../../japan3-scss/item.scss */
+  /* line 653, ../../japan3-scss/item.scss */
   .z-section2 .z-section2__content {
     display: flex;
     flex-wrap: wrap;
   }
-  /* line 617, ../../japan3-scss/item.scss */
+  /* line 658, ../../japan3-scss/item.scss */
   .z-section2__left {
     width: 100%;
     border-right: 0;
     margin-bottom: 40px;
     padding: 0 20px;
   }
-  /* line 624, ../../japan3-scss/item.scss */
+  /* line 665, ../../japan3-scss/item.scss */
   .z-section2__left-item--left {
     width: 50%;
   }
-  /* line 630, ../../japan3-scss/item.scss */
+  /* line 671, ../../japan3-scss/item.scss */
   .z-section2__right {
     width: 100%;
     padding: 0 20px;
   }
-  /* line 635, ../../japan3-scss/item.scss */
+  /* line 676, ../../japan3-scss/item.scss */
   .z-section2__title {
     font-size: 20px;
     height: 60px;
   }
 
-  /* line 641, ../../japan3-scss/item.scss */
+  /* line 682, ../../japan3-scss/item.scss */
   .z-section3 {
     padding-bottom: 50px;
   }
-  /* line 644, ../../japan3-scss/item.scss */
+  /* line 685, ../../japan3-scss/item.scss */
   .z-section3 .z-section__title {
     margin-bottom: 70px;
   }
-  /* line 648, ../../japan3-scss/item.scss */
+  /* line 689, ../../japan3-scss/item.scss */
   .z-section3 .z-section__text {
     margin-bottom: 30px;
   }
-  /* line 652, ../../japan3-scss/item.scss */
+  /* line 693, ../../japan3-scss/item.scss */
   .z-section3__item--title {
     font-size: 20px;
   }
-  /* line 657, ../../japan3-scss/item.scss */
+  /* line 698, ../../japan3-scss/item.scss */
   .z-section3 .section3__item {
     font-size: 20px;
     width: 90%;
   }
 
-  /* line 663, ../../japan3-scss/item.scss */
+  /* line 704, ../../japan3-scss/item.scss */
   .z-section4 {
     padding-bottom: 20px;
   }
-  /* line 666, ../../japan3-scss/item.scss */
+  /* line 707, ../../japan3-scss/item.scss */
   .z-section4 .section4__list {
     flex-wrap: wrap;
     justify-content: center;
   }
-  /* line 671, ../../japan3-scss/item.scss */
+  /* line 712, ../../japan3-scss/item.scss */
   .z-section4 .section4__item {
     width: 100%;
   }
-  /* line 674, ../../japan3-scss/item.scss */
+  /* line 715, ../../japan3-scss/item.scss */
   .z-section4 .section4__item--title {
     font-size: 30px;
     margin-bottom: 20px;
   }
-  /* line 679, ../../japan3-scss/item.scss */
+  /* line 720, ../../japan3-scss/item.scss */
   .z-section4 .section4__item--text {
     font-size: 16px;
   }
-  /* line 683, ../../japan3-scss/item.scss */
+  /* line 724, ../../japan3-scss/item.scss */
   .z-section4 .section4__item img {
     margin-top: 30px;
   }
 
-  /* line 689, ../../japan3-scss/item.scss */
+  /* line 730, ../../japan3-scss/item.scss */
   .z-section5 {
     padding-bottom: 50px;
   }
-  /* line 692, ../../japan3-scss/item.scss */
+  /* line 733, ../../japan3-scss/item.scss */
   .z-section5 .section5__content {
     flex-wrap: wrap;
     justify-content: center;
   }
-  /* line 697, ../../japan3-scss/item.scss */
+  /* line 738, ../../japan3-scss/item.scss */
   .z-section5 .section5__left {
     margin-right: 0;
     background: #fff;
     width: 100%;
     margin-bottom: 40px;
   }
-  /* line 704, ../../japan3-scss/item.scss */
+  /* line 745, ../../japan3-scss/item.scss */
   .z-section5 .section5__right {
     width: 100%;
     flex: inherit;
   }
-  /* line 709, ../../japan3-scss/item.scss */
+  /* line 750, ../../japan3-scss/item.scss */
   .z-section5 .section5__title {
     font-size: 20px;
     height: 60px;
   }
-  /* line 714, ../../japan3-scss/item.scss */
+  /* line 755, ../../japan3-scss/item.scss */
   .z-section5 .section5__list {
     flex-wrap: wrap;
     justify-content: center;
   }
-  /* line 718, ../../japan3-scss/item.scss */
+  /* line 759, ../../japan3-scss/item.scss */
   .z-section5 .section5__list--item {
     width: 100%;
   }
-  /* line 723, ../../japan3-scss/item.scss */
+  /* line 764, ../../japan3-scss/item.scss */
   .z-section5 .section5__text {
     font-size: 16px;
   }
 
-  /* line 728, ../../japan3-scss/item.scss */
+  /* line 769, ../../japan3-scss/item.scss */
   .z-section6 {
     padding-bottom: 30px;
   }
-  /* line 731, ../../japan3-scss/item.scss */
+  /* line 772, ../../japan3-scss/item.scss */
   .z-section6 .section6__list {
     flex-wrap: wrap;
     justify-content: center;
   }
-  /* line 736, ../../japan3-scss/item.scss */
+  /* line 777, ../../japan3-scss/item.scss */
   .z-section6 .section6__item {
     width: 100%;
     margin-bottom: 30px;
   }
-  /* line 740, ../../japan3-scss/item.scss */
+  /* line 781, ../../japan3-scss/item.scss */
   .z-section6 .section6__item p {
     font-size: 18px;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 748, ../../japan3-scss/item.scss */
+  /* line 789, ../../japan3-scss/item.scss */
   .z-section1 {
     padding: 50px 0 150px;
   }
-  /* line 751, ../../japan3-scss/item.scss */
+  /* line 792, ../../japan3-scss/item.scss */
   .z-section1 .section1__title {
     font-size: 32px;
     color: #fff;
   }
-  /* line 756, ../../japan3-scss/item.scss */
+  /* line 797, ../../japan3-scss/item.scss */
   .z-section1 .section1__text {
     font-size: 24px;
   }
 
-  /* line 763, ../../japan3-scss/item.scss */
+  /* line 804, ../../japan3-scss/item.scss */
   .z-section2__left-item {
     flex-wrap: wrap;
   }
-  /* line 766, ../../japan3-scss/item.scss */
+  /* line 807, ../../japan3-scss/item.scss */
   .z-section2__left-item--left {
     width: 100%;
   }
-  /* line 772, ../../japan3-scss/item.scss */
+  /* line 813, ../../japan3-scss/item.scss */
   .z-section2__right {
     width: 100%;
   }
 
-  /* line 778, ../../japan3-scss/item.scss */
+  /* line 819, ../../japan3-scss/item.scss */
   .z-section3 .section3__item {
     width: 100%;
     flex-wrap: wrap;
   }
-  /* line 782, ../../japan3-scss/item.scss */
+  /* line 823, ../../japan3-scss/item.scss */
   .z-section3 .section3__item--left {
     width: 100%;
   }
-  /* line 786, ../../japan3-scss/item.scss */
+  /* line 827, ../../japan3-scss/item.scss */
   .z-section3 .section3__item--right {
     height: auto;
   }
 }
 @media screen and (max-width: 375px) {
-  /* line 798, ../../japan3-scss/item.scss */
+  /* line 839, ../../japan3-scss/item.scss */
   .z-section3 {
     padding-bottom: 0;
   }
-  /* line 801, ../../japan3-scss/item.scss */
+  /* line 842, ../../japan3-scss/item.scss */
   .z-section3 .section3__list {
     margin-bottom: 0;
   }
-  /* line 806, ../../japan3-scss/item.scss */
+  /* line 847, ../../japan3-scss/item.scss */
   .z-section3 .section3__item--title {
     padding: 8px 20px 8px 10px;
     font-size: 18px;
   }
-  /* line 810, ../../japan3-scss/item.scss */
+  /* line 851, ../../japan3-scss/item.scss */
   .z-section3 .section3__item--title .trangle {
     width: 30px;
     height: 60px;
@@ -854,7 +897,7 @@ body {
   }
 }
 @media screen and (max-width: 320px) {
-  /* line 822, ../../japan3-scss/item.scss */
+  /* line 863, ../../japan3-scss/item.scss */
   .z-section__title {
     font-size: 20px;
     line-height: 38px;
