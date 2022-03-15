@@ -87,6 +87,9 @@ h6 {
 body {
   position: relative;
 }
+a {
+    text-decoration: none;
+}
 a:hover {
     text-decoration: none;
 }
@@ -341,7 +344,7 @@ a:hover {
         &--text {
             margin-top: 50px;
             font-size: 20px;
-            color: #e60033;
+            color: #000000;
         }
 
         &--icon {
@@ -349,6 +352,10 @@ a:hover {
             right: 30px;
             bottom: 30px;
             width: 22px;
+
+            &.hover {
+                display: none;
+            }
         }
 
         &:first-child {
@@ -357,6 +364,19 @@ a:hover {
 
         &:hover {
             box-shadow: 0 2px 9px rgba($color: #000000, $alpha: 0.16);
+            color: #fff;
+
+            .section6__item--text {
+                color: #e60033;
+            }
+
+            .section6__item--icon {
+                display: none;
+
+                &.hover {
+                    display: block;
+                }
+            }
         }
     }
 }
