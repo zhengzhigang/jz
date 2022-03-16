@@ -180,6 +180,23 @@ a:hover {
     width: auto;
     height: auto;
     z-index: -1;
+
+    .mask {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba($color: #000000, $alpha: 0.6);
+    }
+
+    .icon {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 74px;
+        height: 74px;
+        transform: translate3d(-50%, -50%, 0);
+        cursor: pointer;
+    }
 }
 
 .z-section1 {
@@ -382,7 +399,10 @@ a:hover {
 
 .z-section7 {
     .z-section__content {
-        margin-top: calc( 100vh - 148px );
+        padding-top: 0;
+        height: calc( 100vh );
+        cursor: pointer;
+        background: transparent;
     }
 }
 
