@@ -150,7 +150,7 @@ a:hover {
 
 /* line 119, ../../japan4-scss/item.scss */
 .z-mobile-show {
-  display: none;
+  display: none !important;
 }
 
 /* line 123, ../../japan4-scss/item.scss */
@@ -210,6 +210,25 @@ a:hover {
 }
 
 /* line 173, ../../japan4-scss/item.scss */
+.z-section__text--circle {
+  position: relative;
+  padding-left: 0;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+/* line 180, ../../japan4-scss/item.scss */
+.z-section__text--circle .circle {
+  display: inline-block;
+  margin-right: 5px;
+  width: 9px;
+  height: 9px;
+  border: 1px solid #fff;
+  vertical-align: middle;
+  border-radius: 100%;
+}
+
+/* line 191, ../../japan4-scss/item.scss */
 .z-main__video {
   position: fixed;
   top: 50%;
@@ -222,7 +241,7 @@ a:hover {
   z-index: -1;
 }
 
-/* line 185, ../../japan4-scss/item.scss */
+/* line 203, ../../japan4-scss/item.scss */
 .z-section1 {
   padding: 74px 0 329px;
   background: url(../RJ-img/page1-bg.jpg) no-repeat;
@@ -230,696 +249,809 @@ a:hover {
   background-size: cover;
   background-position: center center;
 }
-/* line 192, ../../japan4-scss/item.scss */
+/* line 210, ../../japan4-scss/item.scss */
 .z-section1 .z-section__content {
   padding-top: 0;
 }
-/* line 196, ../../japan4-scss/item.scss */
+/* line 214, ../../japan4-scss/item.scss */
 .z-section1 .section1__title {
   font-size: 60px;
   color: #fff;
+  margin-bottom: 15px;
 }
-/* line 201, ../../japan4-scss/item.scss */
+/* line 220, ../../japan4-scss/item.scss */
 .z-section1 .section1__text {
   font-size: 36px;
   color: #fff;
   padding-bottom: 19px;
 }
-
-/* line 208, ../../japan4-scss/item.scss */
-.z-section2 {
-  padding-bottom: 80px;
-  background: url(../RJ-img/page2-bg.png) no-repeat;
-  background-size: cover;
-  background-position: center center;
+/* line 225, ../../japan4-scss/item.scss */
+.z-section1 .section1__text--small {
+  position: relative;
+  padding: 90px 0;
+  text-align: left;
+  color: #fff;
+  font-size: 18px;
 }
-/* line 214, ../../japan4-scss/item.scss */
+/* line 231, ../../japan4-scss/item.scss */
+.z-section1 .section1__text--small .dot {
+  width: 16px;
+  height: 16px;
+  background: #fff;
+}
+/* line 237, ../../japan4-scss/item.scss */
+.z-section1 .section1__text--small .line {
+  width: 244px;
+  height: 1px;
+  margin-top: 7px;
+  background: #fff;
+}
+/* line 245, ../../japan4-scss/item.scss */
+.z-section1 .section1__text-line--left {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 16px;
+  width: 260px;
+}
+/* line 252, ../../japan4-scss/item.scss */
+.z-section1 .section1__text-line--left .dot {
+  float: left;
+}
+/* line 256, ../../japan4-scss/item.scss */
+.z-section1 .section1__text-line--left .line {
+  float: right;
+}
+/* line 261, ../../japan4-scss/item.scss */
+.z-section1 .section1__text-line--right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 16px;
+  width: 260px;
+}
+/* line 268, ../../japan4-scss/item.scss */
+.z-section1 .section1__text-line--right .dot {
+  float: right;
+}
+/* line 272, ../../japan4-scss/item.scss */
+.z-section1 .section1__text-line--right .line {
+  float: left;
+}
+
+/* line 280, ../../japan4-scss/item.scss */
+.z-section2 .section2__line-text {
+  position: relative;
+  padding-bottom: 100px;
+}
+/* line 284, ../../japan4-scss/item.scss */
+.z-section2 .section2__line-text img {
+  width: 100%;
+}
+/* line 288, ../../japan4-scss/item.scss */
+.z-section2 .section2__line-text--item {
+  position: absolute;
+  width: 19%;
+}
+/* line 293, ../../japan4-scss/item.scss */
+.z-section2 .section2__line-text--title {
+  font-size: 22px;
+  color: #168ADD;
+  text-align: center;
+  margin-bottom: 10px;
+}
+/* line 300, ../../japan4-scss/item.scss */
+.z-section2 .section2__line-text1 {
+  left: 0;
+  top: 58%;
+}
+/* line 305, ../../japan4-scss/item.scss */
+.z-section2 .section2__line-text2 {
+  left: 20%;
+  top: 37%;
+}
+/* line 310, ../../japan4-scss/item.scss */
+.z-section2 .section2__line-text3 {
+  left: 40%;
+  top: 22%;
+}
+/* line 315, ../../japan4-scss/item.scss */
+.z-section2 .section2__line-text4 {
+  right: 20%;
+  top: 37%;
+}
+/* line 320, ../../japan4-scss/item.scss */
+.z-section2 .section2__line-text5 {
+  right: 0;
+  top: 58%;
+}
+/* line 326, ../../japan4-scss/item.scss */
 .z-section2 .z-section__text {
   margin: 30px 0 40px;
   font-size: 16px;
   text-align: center;
 }
-/* line 220, ../../japan4-scss/item.scss */
-.z-section2 .z-section2__content {
+/* line 332, ../../japan4-scss/item.scss */
+.z-section2 .section2__bottom {
+  background: url(../RJ-img/page2-bg.png) no-repeat;
+  background-size: 100% auto;
+  background-position: center top;
+  padding-top: 68px;
+  margin-top: -60px;
+}
+/* line 339, ../../japan4-scss/item.scss */
+.z-section2 .section2__bottom .person {
+  margin-bottom: -12px;
+}
+/* line 343, ../../japan4-scss/item.scss */
+.z-section2 .section2__bottom-content {
+  max-width: 1400px;
+  margin: auto;
   display: flex;
 }
-/* line 224, ../../japan4-scss/item.scss */
-.z-section2__left {
-  width: 50%;
-  padding: 0 56px;
-  border-right: 1px dashed #979797;
+/* line 349, ../../japan4-scss/item.scss */
+.z-section2 .section2__bottom .left {
+  width: 33.333%;
+  display: inline-flex;
+  margin-top: 80px;
 }
-/* line 229, ../../japan4-scss/item.scss */
-.z-section2__left-item {
-  display: flex;
-  margin-bottom: 28px;
+/* line 354, ../../japan4-scss/item.scss */
+.z-section2 .section2__bottom .left .message {
+  background: url(../RJ-img/page2-message.png) no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+  width: 270px;
+  height: 100px;
+  padding: 30px 24px;
+  font-size: 22px;
+  color: #1779BF;
+  margin-top: -30px;
 }
-/* line 233, ../../japan4-scss/item.scss */
-.z-section2__left-item--left {
-  width: 50%;
-  flex-shrink: 0;
+/* line 367, ../../japan4-scss/item.scss */
+.z-section2 .section2__bottom .middle {
+  width: 33.3333%;
+  text-align: center;
 }
-/* line 237, ../../japan4-scss/item.scss */
-.z-section2__left-item--left img {
-  width: 100%;
+/* line 371, ../../japan4-scss/item.scss */
+.z-section2 .section2__bottom .middle__title {
+  font-size: 22px;
+  color: #333333;
+  margin-bottom: 20px;
 }
-/* line 242, ../../japan4-scss/item.scss */
-.z-section2__left-item--title {
-  display: inline-block;
-  position: relative;
-  font-size: 24px;
-  color: #0370CD;
-  padding-bottom: 15px;
-  margin-bottom: 10px;
+/* line 377, ../../japan4-scss/item.scss */
+.z-section2 .section2__bottom .middle img {
+  margin: auto;
 }
-/* line 250, ../../japan4-scss/item.scss */
-.z-section2__left-item--title::after {
-  content: '';
+/* line 382, ../../japan4-scss/item.scss */
+.z-section2 .section2__bottom .right {
+  width: 33.3333%;
+  margin-top: 70px;
+}
+/* line 388, ../../japan4-scss/item.scss */
+.z-section2 .right__message {
   position: absolute;
-  display: block;
-  width: 100%;
-  height: 0;
-  bottom: 0;
-  border-bottom: 1px solid #0370CD;
+  display: inline-flex;
+  right: 20px;
 }
-/* line 263, ../../japan4-scss/item.scss */
-.z-section2__right {
-  padding: 0 56px;
-  width: 50%;
+/* line 393, ../../japan4-scss/item.scss */
+.z-section2 .right__message .person {
+  width: 80px;
 }
-/* line 267, ../../japan4-scss/item.scss */
-.z-section2__right img {
+/* line 396, ../../japan4-scss/item.scss */
+.z-section2 .right__message .person img {
   width: 100%;
 }
-/* line 272, ../../japan4-scss/item.scss */
-.z-section2__right-item--title {
-  display: inline-block;
-  position: relative;
-  font-size: 24px;
-  color: #10D1D1;
-  padding-bottom: 15px;
-  margin-bottom: 10px;
-}
-/* line 280, ../../japan4-scss/item.scss */
-.z-section2__right-item--title::after {
-  content: '';
-  position: absolute;
-  display: block;
-  width: 100%;
-  height: 0;
-  bottom: 0;
-  border-bottom: 1px solid #10D1D1;
-}
-/* line 294, ../../japan4-scss/item.scss */
-.z-section2__title {
-  width: 100%;
-  height: 75px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 50px;
-  font-size: 24px;
-  color: #fff;
-}
-/* line 304, ../../japan4-scss/item.scss */
-.z-section2__title.title1 {
-  background: linear-gradient(to right, #68CFFE 0%, #37A1FC 50%);
-}
-/* line 308, ../../japan4-scss/item.scss */
-.z-section2__title.title2 {
-  background: linear-gradient(to right, #26EBEB 0%, #11D2D2 50%);
+/* line 401, ../../japan4-scss/item.scss */
+.z-section2 .right__message .message {
+  background: url(../RJ-img/page2-message-new.png) no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+  width: 270px;
+  height: 80px;
+  padding: 20px 24px;
+  font-size: 16px;
+  color: #1779BF;
 }
 
-/* line 314, ../../japan4-scss/item.scss */
+/* line 414, ../../japan4-scss/item.scss */
 .z-section3 {
-  padding-bottom: 96px;
+  padding-bottom: 150px;
   background: url(../RJ-img/page3-bg.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
+  overflow: hidden;
 }
-/* line 320, ../../japan4-scss/item.scss */
+/* line 421, ../../japan4-scss/item.scss */
+.z-section3 .z-section__content {
+  position: relative;
+}
+/* line 425, ../../japan4-scss/item.scss */
 .z-section3 .z-section__title {
   margin-bottom: 70px;
+  color: #fff;
 }
-/* line 324, ../../japan4-scss/item.scss */
+/* line 430, ../../japan4-scss/item.scss */
 .z-section3 .z-section__text {
   margin-bottom: 40px;
 }
-/* line 328, ../../japan4-scss/item.scss */
-.z-section3 .section3__list {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  justify-content: space-between;
-}
-/* line 335, ../../japan4-scss/item.scss */
-.z-section3__item--title {
-  display: inline-block;
+/* line 434, ../../japan4-scss/item.scss */
+.z-section3 .section3__text--box {
   position: relative;
-  font-size: 24px;
-  color: #0467BB;
-  padding-bottom: 15px;
-  margin-bottom: 10px;
+  padding: 61px 0;
 }
-/* line 343, ../../japan4-scss/item.scss */
-.z-section3__item--title::after {
-  content: '';
+/* line 438, ../../japan4-scss/item.scss */
+.z-section3 .section3__text--box .icon__left {
   position: absolute;
-  display: block;
-  width: 100%;
-  height: 0;
+  width: 30px;
+  top: 0;
+  left: 0;
+}
+/* line 445, ../../japan4-scss/item.scss */
+.z-section3 .section3__text--box .icon__right {
+  position: absolute;
+  width: 30px;
   bottom: 0;
-  border-bottom: 1px solid #979797;
+  left: 40%;
 }
-/* line 354, ../../japan4-scss/item.scss */
-.z-section3 .z-section__text--dot {
-  color: #333333;
+/* line 452, ../../japan4-scss/item.scss */
+.z-section3 .section3__text--box .z-section__text--circle {
+  color: #fff;
 }
-/* line 358, ../../japan4-scss/item.scss */
-.z-section3 .section3__item {
+/* line 457, ../../japan4-scss/item.scss */
+.z-section3 .right {
+  position: absolute;
+  width: 37%;
+  display: inline-flex;
+  margin-top: 80px;
+  right: 0;
+  bottom: -150px;
+}
+/* line 465, ../../japan4-scss/item.scss */
+.z-section3 .right .message {
+  background: url(../RJ-img/page3-message.png) no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+  width: 300px;
+  height: 120px;
+  padding: 20px 24px;
+  font-size: 22px;
+  color: #FF670B;
+  margin-top: -30px;
+  margin-right: 20px;
+}
+
+/* line 480, ../../japan4-scss/item.scss */
+.z-section4 {
+  padding-bottom: 20px;
+  background: #fff;
+}
+/* line 484, ../../japan4-scss/item.scss */
+.z-section4__title-box {
+  position: relative;
+  background: #E0F2FF;
+  height: 155px;
   display: flex;
   align-items: center;
-  color: #fff;
-  font-size: 24px;
-  width: 49%;
+  justify-content: center;
 }
-/* line 365, ../../japan4-scss/item.scss */
-.z-section3 .section3__item--left {
-  width: 50%;
-  flex-shrink: 0;
+/* line 492, ../../japan4-scss/item.scss */
+.z-section4__title-box .trangle {
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  margin-left: -50px;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 50px solid #E0F2FF;
 }
-/* line 369, ../../japan4-scss/item.scss */
-.z-section3 .section3__item--left img {
-  width: 100%;
+/* line 503, ../../japan4-scss/item.scss */
+.z-section4 .z-section__text {
+  max-width: 1041px;
+  margin: 30px auto 53px;
 }
-/* line 374, ../../japan4-scss/item.scss */
-.z-section3 .section3__item--right {
-  padding: 20px 30px;
-  background: #fff;
-  height: 200px;
-  flex: 1;
+/* line 508, ../../japan4-scss/item.scss */
+.z-section4 .section4__img {
+  margin-bottom: 30px;
 }
-
-/* line 384, ../../japan4-scss/item.scss */
-.z-section7 .z-section__content {
-  margin-top: calc( 100vh - 148px );
+/* line 511, ../../japan4-scss/item.scss */
+.z-section4 .section4__img img {
+  margin: auto;
 }
-
-/* line 389, ../../japan4-scss/item.scss */
-.z-section4 {
-  padding-bottom: 86px;
-  background: #fff;
-}
-/* line 393, ../../japan4-scss/item.scss */
+/* line 516, ../../japan4-scss/item.scss */
 .z-section4 .section4__list {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+/* line 523, ../../japan4-scss/item.scss */
+.z-section5 {
+  padding-bottom: 60px;
+}
+/* line 526, ../../japan4-scss/item.scss */
+.z-section5 .section5__list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-}
-/* line 399, ../../japan4-scss/item.scss */
-.z-section4 .section4__item {
-  width: 48%;
-  margin-bottom: 68px;
-}
-/* line 403, ../../japan4-scss/item.scss */
-.z-section4 .section4__item--title {
-  font-size: 36px;
-  color: #292929;
-  margin-bottom: 31px;
-}
-/* line 409, ../../japan4-scss/item.scss */
-.z-section4 .section4__item--text {
-  font-size: 18px;
-  color: #292929;
-}
-/* line 414, ../../japan4-scss/item.scss */
-.z-section4 .section4__item img {
-  width: 100%;
-  margin-top: 47px;
-}
-
-/* line 421, ../../japan4-scss/item.scss */
-.z-section5 {
-  padding-bottom: 60px;
-  background: url(../RJ-img/page6-bg.jpg) no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-/* line 427, ../../japan4-scss/item.scss */
-.z-section5 .section5__content {
-  display: flex;
-  margin-top: 45px;
-}
-/* line 432, ../../japan4-scss/item.scss */
-.z-section5 .section5__left {
-  position: relative;
-  margin-right: 59px;
-  background: #fff;
-  width: 328px;
-}
-/* line 439, ../../japan4-scss/item.scss */
-.z-section5 .section5__right {
-  flex: 1;
-}
-/* line 443, ../../japan4-scss/item.scss */
-.z-section5 .section5__title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 24px;
-  color: #fff;
-  width: 100%;
-  height: 77px;
-  background: #56BEFE;
-}
-/* line 454, ../../japan4-scss/item.scss */
-.z-section5 .section5__img {
-  height: 228px;
-  margin: auto;
-  max-width: 80%;
-  padding-top: 70px;
-  padding-bottom: 58px;
-}
-/* line 461, ../../japan4-scss/item.scss */
-.z-section5 .section5__img--box {
-  border: 1px solid rgba(151, 151, 151, 0.29);
-}
-/* line 465, ../../japan4-scss/item.scss */
-.z-section5 .section5__img--link {
-  display: block;
-}
-/* line 469, ../../japan4-scss/item.scss */
-.z-section5 .section5__img--link:hover .section5__img--box {
-  box-shadow: 0 2px 9px rgba(0, 0, 0, 0.16);
-}
-/* line 473, ../../japan4-scss/item.scss */
-.z-section5 .section5__img--link:hover .section5__text {
-  color: #e60033;
-}
-/* line 477, ../../japan4-scss/item.scss */
-.z-section5 .section5__img--link:hover .section5__list--item-icon {
-  display: none;
-}
-/* line 480, ../../japan4-scss/item.scss */
-.z-section5 .section5__img--link:hover .section5__list--item-icon.hover {
-  display: block;
-}
-/* line 488, ../../japan4-scss/item.scss */
-.z-section5 .section5__list {
-  display: flex;
-  justify-content: space-between;
-  background: #fff;
-}
-/* line 493, ../../japan4-scss/item.scss */
-.z-section5 .section5__list--item {
-  position: relative;
-  width: 31.5%;
-}
-/* line 497, ../../japan4-scss/item.scss */
-.z-section5 .section5__list--item-icon {
-  position: absolute;
-  right: 30px;
-  bottom: 30px;
-  width: 22px;
-}
-/* line 503, ../../japan4-scss/item.scss */
-.z-section5 .section5__list--item-icon.hover {
-  display: none;
-}
-/* line 510, ../../japan4-scss/item.scss */
-.z-section5 .section5__text {
-  font-size: 18px;
-  color: #292929;
-  text-align: center;
-  padding-bottom: 60px;
-  margin-top: 30px;
-}
-
-/* line 519, ../../japan4-scss/item.scss */
-.z-section6 {
-  padding-bottom: 60px;
-  background: #F7F7F7;
-}
-/* line 523, ../../japan4-scss/item.scss */
-.z-section6 .z-section__title {
-  margin-bottom: 30px;
-}
-/* line 527, ../../japan4-scss/item.scss */
-.z-section6 .section6__list {
-  display: flex;
-  justify-content: space-between;
+  margin-top: 36px;
 }
 /* line 532, ../../japan4-scss/item.scss */
-.z-section6 .section6__item {
-  width: 31%;
-  background: #fff;
-  padding: 20px 0 28px;
+.z-section5 .section5__list--img {
+  width: 100%;
 }
-/* line 537, ../../japan4-scss/item.scss */
-.z-section6 .section6__item p {
-  padding: 0 30px;
-  margin-bottom: 10px;
-  font-size: 20px;
-  color: #545454;
+/* line 536, ../../japan4-scss/item.scss */
+.z-section5 .section5__list--title {
+  position: relative;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #1779BF;
+  border-bottom: 1px solid #979797;
 }
 /* line 545, ../../japan4-scss/item.scss */
-.z-section6 .section6__button {
-  display: flex;
-  margin: auto;
-  width: 320px;
-  height: 50px;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  background: #D20032;
-  border-radius: 50px;
-  font-size: 18px;
-  color: #fff;
-  margin-top: 62px;
+.z-section5 .section5__list .z-section__text--dot {
+  margin-bottom: 10px;
 }
-/* line 559, ../../japan4-scss/item.scss */
-.z-section6 .section6__button:hover {
-  background: #c30233;
+/* line 550, ../../japan4-scss/item.scss */
+.z-section5 .section5__item {
+  width: 32%;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.13);
 }
-/* line 564, ../../japan4-scss/item.scss */
-.z-section6 .section6__icon {
-  display: inline-block;
-  vertical-align: middle;
-  width: 23px;
-  margin-right: 10px;
-  cursor: pointer;
-}
-/* line 571, ../../japan4-scss/item.scss */
-.z-section6 .section6__icon-down {
-  position: absolute;
-  width: 26px;
-  height: 21px;
-  top: 12px;
-  right: 27px;
+/* line 554, ../../japan4-scss/item.scss */
+.z-section5 .section5__item--content {
+  padding: 30px 18px;
 }
 
 @media screen and (max-width: 1280px) {
-  /* line 582, ../../japan4-scss/item.scss */
+  /* line 561, ../../japan4-scss/item.scss */
   .z-section__content {
     max-width: 1200px;
   }
+
+  /* line 566, ../../japan4-scss/item.scss */
+  .z-section2 .section2__bottom {
+    margin-top: -30px;
+  }
+
+  /* line 572, ../../japan4-scss/item.scss */
+  .z-section3 .z-section__title {
+    margin-bottom: 40px;
+    color: #fff;
+  }
+  /* line 577, ../../japan4-scss/item.scss */
+  .z-section3 .section3__text--box {
+    padding: 40px 0;
+  }
+
+  /* line 582, ../../japan4-scss/item.scss */
+  .z-section4 {
+    padding-bottom: 20px;
+    background: #fff;
+  }
+  /* line 586, ../../japan4-scss/item.scss */
+  .z-section4__title-box {
+    height: 120px;
+  }
 }
 @media screen and (max-width: 1024px) {
-  /* line 588, ../../japan4-scss/item.scss */
+  /* line 593, ../../japan4-scss/item.scss */
   .z-section__content {
     max-width: 960px;
   }
 
-  /* line 592, ../../japan4-scss/item.scss */
-  .z-section3 .section3__list {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
   /* line 597, ../../japan4-scss/item.scss */
-  .z-section3 .z-section__text {
-    max-width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  /* line 603, ../../japan4-scss/item.scss */
-  .z-section3 .section3__item {
-    width: 70%;
-    margin-bottom: 40px;
+  .z-section1 {
+    padding: 74px 0 200px;
   }
 
-  /* line 609, ../../japan4-scss/item.scss */
-  .z-section5 .section5__left {
-    width: 280px;
+  /* line 601, ../../japan4-scss/item.scss */
+  .z-section3 {
+    padding-bottom: 180px;
   }
-  /* line 613, ../../japan4-scss/item.scss */
-  .z-section5 .section5__img {
-    height: 180px;
+  /* line 604, ../../japan4-scss/item.scss */
+  .z-section3 .right {
+    width: 42%;
+    bottom: -180px;
   }
 
-  /* line 618, ../../japan4-scss/item.scss */
-  .z-section6 .section6__item {
-    position: relative;
-    min-height: 270px;
-  }
-  /* line 623, ../../japan4-scss/item.scss */
-  .z-section6 .section6__button {
-    position: absolute;
-    bottom: 40px;
-    width: 270px;
-    left: 50%;
-    margin-left: -135px;
+  /* line 611, ../../japan4-scss/item.scss */
+  .z-section4__title-box {
+    height: 110px;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 634, ../../japan4-scss/item.scss */
+  /* line 618, ../../japan4-scss/item.scss */
   .z-pc-show {
-    display: none;
+    display: none !important;
   }
 
-  /* line 638, ../../japan4-scss/item.scss */
+  /* line 622, ../../japan4-scss/item.scss */
   .z-mobile-show {
     display: block;
   }
 
-  /* line 642, ../../japan4-scss/item.scss */
+  /* line 626, ../../japan4-scss/item.scss */
   .z-section__title {
     font-size: 24px;
     line-height: 44px;
   }
 
-  /* line 647, ../../japan4-scss/item.scss */
+  /* line 631, ../../japan4-scss/item.scss */
   .z-section__text--dot {
     font-size: 16px;
   }
 
-  /* line 651, ../../japan4-scss/item.scss */
+  /* line 635, ../../japan4-scss/item.scss */
+  .z-section__text--circle {
+    font-size: 16px;
+  }
+
+  /* line 639, ../../japan4-scss/item.scss */
   .z-section__content {
     padding-top: 40px;
     max-width: 100%;
     margin: 0 15px;
   }
 
-  /* line 657, ../../japan4-scss/item.scss */
+  /* line 645, ../../japan4-scss/item.scss */
   .z-section1 {
-    padding: 74px 0 200px;
+    padding: 74px 0 170px;
   }
-  /* line 660, ../../japan4-scss/item.scss */
+  /* line 649, ../../japan4-scss/item.scss */
   .z-section1 .section1__title {
-    font-size: 38px;
-    color: #fff;
+    font-size: 42px;
   }
-  /* line 665, ../../japan4-scss/item.scss */
+  /* line 653, ../../japan4-scss/item.scss */
   .z-section1 .section1__text {
     font-size: 30px;
   }
-
-  /* line 670, ../../japan4-scss/item.scss */
-  .z-section2 {
-    padding-bottom: 60px;
+  /* line 656, ../../japan4-scss/item.scss */
+  .z-section1 .section1__text--small {
+    padding: 40px 0;
+    font-size: 16px;
   }
-  /* line 673, ../../japan4-scss/item.scss */
-  .z-section2 .z-section2__content {
-    display: flex;
-    flex-wrap: wrap;
+  /* line 659, ../../japan4-scss/item.scss */
+  .z-section1 .section1__text--small .dot {
+    width: 12px;
+    height: 12px;
   }
-  /* line 678, ../../japan4-scss/item.scss */
-  .z-section2__left {
-    width: 100%;
-    border-right: 0;
-    margin-bottom: 40px;
-    padding: 0 20px;
+  /* line 664, ../../japan4-scss/item.scss */
+  .z-section1 .section1__text--small .line {
+    width: 180px;
+    height: 1px;
+    margin-top: 5px;
   }
-  /* line 685, ../../japan4-scss/item.scss */
-  .z-section2__left-item--left {
-    width: 50%;
+  /* line 671, ../../japan4-scss/item.scss */
+  .z-section1 .section1__text-line--left {
+    height: 12px;
+    width: 192px;
   }
-  /* line 691, ../../japan4-scss/item.scss */
-  .z-section2__right {
-    width: 100%;
-    padding: 0 20px;
-  }
-  /* line 696, ../../japan4-scss/item.scss */
-  .z-section2__title {
-    font-size: 20px;
-    height: 60px;
+  /* line 676, ../../japan4-scss/item.scss */
+  .z-section1 .section1__text-line--right {
+    height: 12px;
+    width: 192px;
   }
 
-  /* line 702, ../../japan4-scss/item.scss */
-  .z-section3 {
-    padding-bottom: 50px;
+  /* line 684, ../../japan4-scss/item.scss */
+  .z-section2 .section2__line-text {
+    transform: translate3d(-25%, -100px, 0) scale(0.5);
+    width: 200%;
   }
-  /* line 705, ../../japan4-scss/item.scss */
-  .z-section3 .z-section__title {
-    margin-bottom: 70px;
+  /* line 689, ../../japan4-scss/item.scss */
+  .z-section2 .z-section__text {
+    font-size: 22px;
   }
-  /* line 709, ../../japan4-scss/item.scss */
-  .z-section3 .z-section__text {
-    margin-bottom: 30px;
-  }
-  /* line 713, ../../japan4-scss/item.scss */
-  .z-section3__item--title {
-    font-size: 20px;
-  }
-  /* line 718, ../../japan4-scss/item.scss */
-  .z-section3 .section3__item {
-    font-size: 20px;
-    width: 90%;
-  }
-
-  /* line 724, ../../japan4-scss/item.scss */
-  .z-section4 {
+  /* line 693, ../../japan4-scss/item.scss */
+  .z-section2 .section2__bottom {
+    margin-top: -240px;
     padding-bottom: 20px;
   }
+  /* line 697, ../../japan4-scss/item.scss */
+  .z-section2 .section2__bottom .middle {
+    width: 50%;
+    margin-top: 60px;
+  }
+  /* line 702, ../../japan4-scss/item.scss */
+  .z-section2 .section2__bottom .right {
+    width: 50%;
+    margin-top: 17px;
+  }
+
+  /* line 709, ../../japan4-scss/item.scss */
+  .z-section3 {
+    padding-bottom: 240px;
+  }
+  /* line 712, ../../japan4-scss/item.scss */
+  .z-section3 .section3__text--box {
+    padding: 30px 0;
+  }
+  /* line 715, ../../japan4-scss/item.scss */
+  .z-section3 .section3__text--box .icon__left {
+    width: 20px;
+  }
+  /* line 719, ../../japan4-scss/item.scss */
+  .z-section3 .section3__text--box .icon__right {
+    position: absolute;
+    width: 20px;
+    left: 60%;
+    bottom: 10px;
+  }
   /* line 727, ../../japan4-scss/item.scss */
-  .z-section4 .section4__list {
-    flex-wrap: wrap;
-    justify-content: center;
+  .z-section3 .right {
+    width: 70%;
+    margin-top: 80px;
+    bottom: -240px;
   }
   /* line 732, ../../japan4-scss/item.scss */
-  .z-section4 .section4__item {
-    width: 100%;
-  }
-  /* line 735, ../../japan4-scss/item.scss */
-  .z-section4 .section4__item--title {
-    font-size: 30px;
-    margin-bottom: 20px;
-  }
-  /* line 740, ../../japan4-scss/item.scss */
-  .z-section4 .section4__item--text {
-    font-size: 16px;
-  }
-  /* line 744, ../../japan4-scss/item.scss */
-  .z-section4 .section4__item img {
-    margin-top: 30px;
+  .z-section3 .right .message {
+    height: 80px;
+    padding: 15px;
+    font-size: 18px;
+    margin-top: 0;
   }
 
-  /* line 750, ../../japan4-scss/item.scss */
-  .z-section5 {
-    padding-bottom: 50px;
+  /* line 742, ../../japan4-scss/item.scss */
+  .z-section4__title-box {
+    height: 80px;
   }
-  /* line 753, ../../japan4-scss/item.scss */
-  .z-section5 .section5__content {
-    flex-wrap: wrap;
-    justify-content: center;
+  /* line 745, ../../japan4-scss/item.scss */
+  .z-section4__title-box .trangle {
+    bottom: -30px;
+    margin-left: -30px;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 30px solid #E0F2FF;
+  }
+  /* line 754, ../../japan4-scss/item.scss */
+  .z-section4 .z-section__text {
+    margin: 20px auto 40px;
   }
   /* line 758, ../../japan4-scss/item.scss */
-  .z-section5 .section5__left {
-    margin-right: 0;
-    background: #fff;
+  .z-section4 .section4__item {
+    width: 33.3333%;
+  }
+  /* line 760, ../../japan4-scss/item.scss */
+  .z-section4 .section4__item:first-child {
+    text-align: left;
+    margin-left: 50px;
+  }
+  /* line 769, ../../japan4-scss/item.scss */
+  .z-section4 .section4__item:last-child {
+    margin-left: 120px;
+  }
+  /* line 774, ../../japan4-scss/item.scss */
+  .z-section4 .section4__img {
+    margin-bottom: 20px;
+  }
+  /* line 777, ../../japan4-scss/item.scss */
+  .z-section4 .section4__img img {
     width: 100%;
-    margin-bottom: 40px;
-  }
-  /* line 765, ../../japan4-scss/item.scss */
-  .z-section5 .section5__right {
-    width: 100%;
-    flex: inherit;
-  }
-  /* line 770, ../../japan4-scss/item.scss */
-  .z-section5 .section5__title {
-    font-size: 20px;
-    height: 60px;
-  }
-  /* line 775, ../../japan4-scss/item.scss */
-  .z-section5 .section5__list {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  /* line 779, ../../japan4-scss/item.scss */
-  .z-section5 .section5__list--item {
-    width: 100%;
-  }
-  /* line 784, ../../japan4-scss/item.scss */
-  .z-section5 .section5__text {
-    font-size: 16px;
   }
 
-  /* line 789, ../../japan4-scss/item.scss */
-  .z-section6 {
-    padding-bottom: 30px;
+  /* line 783, ../../japan4-scss/item.scss */
+  .z-section5 {
+    padding-bottom: 20px;
   }
-  /* line 792, ../../japan4-scss/item.scss */
-  .z-section6 .section6__list {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  /* line 797, ../../japan4-scss/item.scss */
-  .z-section6 .section6__item {
+  /* line 786, ../../japan4-scss/item.scss */
+  .z-section5 .section5__item {
     width: 100%;
     margin-bottom: 30px;
   }
-  /* line 801, ../../japan4-scss/item.scss */
-  .z-section6 .section6__item p {
-    font-size: 18px;
+  /* line 791, ../../japan4-scss/item.scss */
+  .z-section5 .section5__list--title {
+    font-size: 20px;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 809, ../../japan4-scss/item.scss */
+  /* line 798, ../../japan4-scss/item.scss */
   .z-section1 {
-    padding: 50px 0 150px;
+    padding: 50px 0 120px;
   }
-  /* line 812, ../../japan4-scss/item.scss */
+  /* line 802, ../../japan4-scss/item.scss */
+  .z-section1 .section1__title {
+    font-size: 36px;
+  }
+  /* line 806, ../../japan4-scss/item.scss */
+  .z-section1 .section1__text {
+    font-size: 26px;
+  }
+  /* line 809, ../../japan4-scss/item.scss */
+  .z-section1 .section1__text--small {
+    padding: 30px 0;
+  }
+  /* line 811, ../../japan4-scss/item.scss */
+  .z-section1 .section1__text--small .dot {
+    width: 10px;
+    height: 10px;
+  }
+  /* line 816, ../../japan4-scss/item.scss */
+  .z-section1 .section1__text--small .line {
+    width: 150px;
+    height: 1px;
+    margin-top: 4px;
+  }
+  /* line 823, ../../japan4-scss/item.scss */
+  .z-section1 .section1__text-line--left {
+    height: 10px;
+    width: 160px;
+  }
+  /* line 828, ../../japan4-scss/item.scss */
+  .z-section1 .section1__text-line--right {
+    height: 10px;
+    width: 160px;
+  }
+
+  /* line 836, ../../japan4-scss/item.scss */
+  .z-section2 .z-section__text {
+    font-size: 18px;
+  }
+  /* line 840, ../../japan4-scss/item.scss */
+  .z-section2 .section2__bottom {
+    margin-top: -240px;
+    padding-bottom: 20px;
+  }
+  /* line 844, ../../japan4-scss/item.scss */
+  .z-section2 .section2__bottom-content {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  /* line 849, ../../japan4-scss/item.scss */
+  .z-section2 .section2__bottom .middle {
+    width: 100%;
+    margin-top: 60px;
+  }
+  /* line 854, ../../japan4-scss/item.scss */
+  .z-section2 .section2__bottom .right {
+    width: 90%;
+    margin-top: 17px;
+    padding-bottom: 127px;
+  }
+
+  /* line 863, ../../japan4-scss/item.scss */
+  .z-section3 .right {
+    width: 90%;
+  }
+
+  /* line 870, ../../japan4-scss/item.scss */
+  .z-section4 .section4__item:first-child {
+    text-align: left;
+    margin-left: 20px;
+  }
+  /* line 875, ../../japan4-scss/item.scss */
+  .z-section4 .section4__item:nth-child(2) {
+    margin-left: 40px;
+  }
+  /* line 879, ../../japan4-scss/item.scss */
+  .z-section4 .section4__item:last-child {
+    margin-left: 100px;
+  }
+}
+@media screen and (max-width: 414px) {
+  /* line 888, ../../japan4-scss/item.scss */
   .z-section1 .section1__title {
     font-size: 32px;
-    color: #fff;
   }
-  /* line 817, ../../japan4-scss/item.scss */
+  /* line 892, ../../japan4-scss/item.scss */
   .z-section1 .section1__text {
-    font-size: 24px;
+    font-size: 22px;
   }
 
-  /* line 824, ../../japan4-scss/item.scss */
-  .z-section2__left-item {
+  /* line 898, ../../japan4-scss/item.scss */
+  .z-section2 .section2__bottom {
+    margin-top: -100px;
+    padding-top: 0;
+  }
+  /* line 902, ../../japan4-scss/item.scss */
+  .z-section2 .section2__bottom-content {
     flex-wrap: wrap;
+    justify-content: center;
   }
-  /* line 827, ../../japan4-scss/item.scss */
-  .z-section2__left-item--left {
-    width: 100%;
+  /* line 907, ../../japan4-scss/item.scss */
+  .z-section2 .section2__bottom .middle {
+    margin-top: 0;
   }
-  /* line 833, ../../japan4-scss/item.scss */
-  .z-section2__right {
-    width: 100%;
+  /* line 911, ../../japan4-scss/item.scss */
+  .z-section2 .section2__bottom .right {
+    width: 90%;
+    margin-top: 17px;
+    padding-bottom: 127px;
+  }
+  /* line 918, ../../japan4-scss/item.scss */
+  .z-section2 .right__message .message {
+    width: 240px;
   }
 
-  /* line 839, ../../japan4-scss/item.scss */
-  .z-section3 .section3__item {
-    width: 100%;
-    flex-wrap: wrap;
-  }
-  /* line 843, ../../japan4-scss/item.scss */
-  .z-section3 .section3__item--left {
+  /* line 924, ../../japan4-scss/item.scss */
+  .z-section3 .right {
     width: 100%;
   }
-  /* line 847, ../../japan4-scss/item.scss */
-  .z-section3 .section3__item--right {
-    height: auto;
+  /* line 927, ../../japan4-scss/item.scss */
+  .z-section3 .right .message {
+    height: 90px;
+  }
+
+  /* line 935, ../../japan4-scss/item.scss */
+  .z-section4 .section4__item:nth-child(2) {
+    margin-left: 20px;
+  }
+  /* line 939, ../../japan4-scss/item.scss */
+  .z-section4 .section4__item:last-child {
+    margin-left: 60px;
   }
 }
 @media screen and (max-width: 375px) {
-  /* line 859, ../../japan4-scss/item.scss */
-  .z-section3 {
-    padding-bottom: 0;
+  /* line 947, ../../japan4-scss/item.scss */
+  .z-section1 {
+    padding-bottom: 100px;
   }
-  /* line 862, ../../japan4-scss/item.scss */
-  .z-section3 .section3__list {
-    margin-bottom: 0;
+  /* line 949, ../../japan4-scss/item.scss */
+  .z-section1 .section1__title {
+    font-size: 28px;
   }
-  /* line 867, ../../japan4-scss/item.scss */
-  .z-section3 .section3__item--title {
-    padding: 8px 20px 8px 10px;
+  /* line 953, ../../japan4-scss/item.scss */
+  .z-section1 .section1__text {
     font-size: 18px;
   }
-  /* line 871, ../../japan4-scss/item.scss */
-  .z-section3 .section3__item--title .trangle {
-    width: 30px;
+
+  /* line 959, ../../japan4-scss/item.scss */
+  .z-section2 .section2__bottom {
+    margin-top: -100px;
+  }
+  /* line 963, ../../japan4-scss/item.scss */
+  .z-section2 .right__message .message {
+    width: 200px;
+    font-size: 14px;
     height: 60px;
-    right: -24px;
-    top: -19px;
+  }
+
+  /* line 970, ../../japan4-scss/item.scss */
+  .z-section3 {
+    padding-bottom: 130px;
+  }
+  /* line 973, ../../japan4-scss/item.scss */
+  .z-section3 .right {
+    bottom: -130px;
+  }
+  /* line 976, ../../japan4-scss/item.scss */
+  .z-section3 .right .person {
+    width: 120px;
+  }
+  /* line 979, ../../japan4-scss/item.scss */
+  .z-section3 .right .person img {
+    width: 100%;
+  }
+  /* line 984, ../../japan4-scss/item.scss */
+  .z-section3 .right .message {
+    font-size: 16px;
   }
 }
 @media screen and (max-width: 320px) {
-  /* line 883, ../../japan4-scss/item.scss */
+  /* line 992, ../../japan4-scss/item.scss */
   .z-section__title {
     font-size: 20px;
     line-height: 38px;
+  }
+
+  /* line 998, ../../japan4-scss/item.scss */
+  .z-section2 .section2__bottom {
+    margin-top: -100px;
+  }
+  /* line 1000, ../../japan4-scss/item.scss */
+  .z-section2 .section2__bottom .right {
+    padding-bottom: 91px;
+  }
+  /* line 1005, ../../japan4-scss/item.scss */
+  .z-section2 .section2__bottom .middle img {
+    width: 100%;
+  }
+  /* line 1012, ../../japan4-scss/item.scss */
+  .z-section2 .right__message .person {
+    width: 60px;
+  }
+  /* line 1016, ../../japan4-scss/item.scss */
+  .z-section2 .right__message .message {
+    width: 180px;
+    font-size: 14px;
+    height: 60px;
   }
 }
