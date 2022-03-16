@@ -117,7 +117,7 @@ a:hover {
 }
 
 .z-mobile-show {
-    display: none;
+    display: none!important;
 }
 
 .mt-20 {
@@ -180,23 +180,6 @@ a:hover {
     width: auto;
     height: auto;
     z-index: -1;
-
-    .mask {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        background: rgba($color: #000000, $alpha: 0.6);
-    }
-
-    .icon {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        width: 74px;
-        height: 74px;
-        transform: translate3d(-50%, -50%, 0);
-        cursor: pointer;
-    }
 }
 
 .z-section1 {
@@ -403,6 +386,27 @@ a:hover {
         height: calc( 100vh );
         cursor: pointer;
         background: transparent;
+
+        video {
+            width: 100%;
+        }
+
+        .mask {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: rgba($color: #000000, $alpha: 0.6);
+        }
+    
+        .icon {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 74px;
+            height: 74px;
+            transform: translate3d(-50%, -50%, 0);
+            cursor: pointer;
+        }
     }
 }
 
@@ -652,11 +656,11 @@ a:hover {
 
 @media screen and (max-width: 768px) {
     .z-pc-show {
-        display: none;
+        display: none!important;
     }
 
     .z-mobile-show {
-        display: block;
+        display: block!important;
     }
 
     .z-section__title {
@@ -716,6 +720,14 @@ a:hover {
         &__title {
             font-size: 20px;
             height: 60px;
+        }
+    }
+
+    .z-section7 {
+        position: relative;
+        .z-section__content {
+            margin: 0;
+            height: auto;
         }
     }
 
