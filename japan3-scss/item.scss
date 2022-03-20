@@ -107,7 +107,7 @@ a:hover {
 }
 
 .z-section__content {
-    max-width: 1400px;
+    max-width: 1440px;
     margin: auto;
     padding-top: 65px;
 }
@@ -151,6 +151,7 @@ a:hover {
 
     &:hover {
         background: #c30233;
+        color: #fff;
     }
 }
 
@@ -181,7 +182,7 @@ a:hover {
 }
 
 .z-section1 {
-    padding: 74px 0 329px;
+    padding: 63px 0 329px;
     background: url(../RJ-img/page1-bg.jpg) no-repeat;
     text-align: center;
     background-size: cover;
@@ -204,19 +205,18 @@ a:hover {
 }
 
 .z-section2 {
-    padding-bottom: 80px;
-    background: url(../RJ-img/page2-bg.png) no-repeat;
-    background-size: cover;
-    background-position: center center;
+    padding-bottom: 65px;
+    background: linear-gradient(to bottom, #DFF0FF, #fff 450px);
 
     .z-section__text {
         margin: 30px 0 40px;
-        font-size: 16px;
+        font-size: 18px;
         text-align: center;
     }
 
     .z-section2__content {
         display: flex;
+        justify-content: center;
     }
 
     &__left {
@@ -243,7 +243,8 @@ a:hover {
                 font-size: 24px;
                 color: #0370CD;
                 padding-bottom: 15px;
-                margin-bottom: 10px;
+                margin-bottom: 15px;
+                line-height: 1;
 
                 &::after {
                     content: '';
@@ -310,7 +311,7 @@ a:hover {
 }
 
 .z-section3 {
-    padding-bottom: 96px;
+    padding-bottom: 65px;
     background: url(../RJ-img/page3-bg.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
@@ -321,6 +322,7 @@ a:hover {
 
     .z-section__text {
         margin-bottom: 40px;
+        font-size: 18px;
     }
 
     .section3__list {
@@ -382,7 +384,6 @@ a:hover {
     .z-section__content {
         padding-top: 0;
         height: calc( 100vh);
-        cursor: pointer;
         background: transparent;
 
         video {
@@ -409,7 +410,7 @@ a:hover {
 }
 
 .z-section4 {
-    padding-bottom: 86px;
+    padding-bottom: 65px;
     background: #fff;
 
     .section4__list {
@@ -481,6 +482,8 @@ a:hover {
         padding-bottom: 58px;
 
         &--box {
+            width: 328px;
+            height: 328px;
             border: 1px solid rgba($color: #979797, $alpha: 0.29);
         }
 
@@ -567,20 +570,7 @@ a:hover {
     .section6__button {
         display: flex;
         margin: auto;
-        width: 320px;
-        height: 50px;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        background: #D20032;
-        border-radius: 50px;
-        font-size: 18px;
-        color: #fff;
         margin-top: 62px;
-
-        &:hover {
-            background: #c30233;
-        }
     }
 
     .section6__icon {
@@ -647,7 +637,7 @@ a:hover {
             bottom: 40px;
             width: 270px;
             left: 50%;
-            margin-left: -135px;
+            transform: translateX(-50%);
         }
     }
 }
@@ -692,6 +682,10 @@ a:hover {
     .z-section2 {
         padding-bottom: 60px;
 
+        .z-section__text {
+            font-size: 16px;
+        }
+
         .z-section2__content {
             display: flex;
             flex-wrap: wrap;
@@ -733,11 +727,12 @@ a:hover {
         padding-bottom: 50px;
     
         .z-section__title {
-            margin-bottom: 70px;
+            margin-bottom: 40px;
         }
     
         .z-section__text {
             margin-bottom: 30px;
+            font-size: 16px;
         }
     
         &__item--title {
@@ -748,6 +743,10 @@ a:hover {
         .section3__item {
             font-size: 20px;
             width: 90%;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
         }
     }
 
@@ -814,6 +813,10 @@ a:hover {
         .section5__text {
             font-size: 16px;
         }
+
+        .section5__img--box {
+            margin: auto;
+        }
     }
 
     .z-section6 {
@@ -830,6 +833,10 @@ a:hover {
 
             p {
                 font-size: 18px;
+            }
+
+            &:last-child {
+                margin-bottom: 0;
             }
         }
     }

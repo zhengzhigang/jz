@@ -201,7 +201,7 @@ a:hover {
 }
 
 .z-section1 {
-    padding: 74px 0 329px;
+    padding: 73px 0 200px;
     background: url(../RJ-img/page1-bg.jpg) no-repeat;
     text-align: center;
     background-size: cover;
@@ -224,7 +224,8 @@ a:hover {
 
         &--small {
             position: relative;
-            padding: 90px 0;
+            padding: 40px 0 0 0;
+            margin-bottom: 60px;
             text-align: left;
             color: #fff;
             font-size: 18px;
@@ -239,38 +240,6 @@ a:hover {
                 height: 1px;
                 margin-top: 7px;
                 background: #fff;
-            }
-        }
-
-        &-line--left {
-            position: absolute;
-            left: 0;
-            top: 0;
-            height: 16px;
-            width: 260px;
-
-            .dot {
-                float: left;
-            }
-
-            .line {
-                float: right;
-            }
-        }
-
-        &-line--right {
-            position: absolute;
-            bottom: 0;
-            right: 0;
-            height: 16px;
-            width: 260px;
-
-            .dot {
-                float: right;
-            }
-
-            .line {
-                float: left;
             }
         }
     }
@@ -550,6 +519,11 @@ a:hover {
     .section5__item {
         width: 32%;
         box-shadow: 0 2px 10px 0 rgba($color: #000000, $alpha: 0.13);
+        transition: all 0.5s;
+
+        &:hover {
+            transform: translateY(-15px);
+        }
 
         &--content {
             padding: 30px 18px;
@@ -640,6 +614,12 @@ a:hover {
         padding-top: 40px;
         max-width: 100%;
         margin: 0 15px;
+    }
+
+    .z-section__button {
+        width: 140px;
+        height: 44px;
+        padding: 0 20px;
     }
 
     .z-section1 {

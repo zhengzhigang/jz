@@ -121,8 +121,31 @@ a:hover {
     display: none;
 }
 
+.z-section__button {
+    display: inline-flex;
+    width: 170px;
+    height: 50px;
+    padding: 0 26px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: #E60033;
+    border-radius: 8px;
+    font-size: 16px;
+
+    &:hover {
+        background: #c30233;
+        color: #fff;
+    }
+}
+
+.z-text_center {
+    text-align: center;
+    margin-top: 40px;
+}
+
 .z-section1 {
-    padding: 232px 0;
+    padding: 207px 0;
     background: url(../RJ-img/page1-bg.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
@@ -146,7 +169,7 @@ a:hover {
 }
 
 .z-section2 {
-    padding-bottom: 80px;
+    padding-bottom: 65px;
 
     .z-section__text {
         max-width: 1300px;
@@ -281,14 +304,13 @@ a:hover {
 }
 
 .z-section3 {
-    padding-bottom: 90px;
+    padding-bottom: 65px;
     background: url(../RJ-img/page3-bg.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
 
     .section3__list {
         display: flex;
-        margin-bottom: 70px;
         padding-top: 80px;
         justify-content: space-between;
     }
@@ -299,6 +321,12 @@ a:hover {
         background: #fff;
         padding-bottom: 30px;
         overflow: hidden;
+        transition: all 0.5s;
+
+        &:hover {
+            transform: translateY(-15px);
+            box-shadow: 0 2px 9px rgba($color: #000000, $alpha: 0.16);
+        }
 
         &:first-child {
             margin-right: 30px;
@@ -347,7 +375,7 @@ a:hover {
 }
 
 .z-section4 {
-    padding-bottom: 66px;
+    padding-bottom: 65px;
 
     .z-section4__content {
         display: flex;
@@ -366,6 +394,10 @@ a:hover {
             font-size: 18px;
             color: #313131;
         }
+
+        .z-section__button {
+            margin-top: 20px;
+        }
     }
 
     .left {
@@ -374,12 +406,12 @@ a:hover {
 
     .right {
         background: #F9F9F9;
-        padding: 66px 56px;
+        padding: 40px 56px;
     }
 }
 
 .z-section5 {
-    padding-bottom: 80px;
+    padding-bottom: 65px;
     background: url(../RJ-img/page5-bg.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
@@ -467,7 +499,6 @@ a:hover {
 @media screen and (max-width: 1024px) {
     .z-section__content {
         max-width: 960px;
-        padding-top: 50px;
     }
 
     .z-section1 {
@@ -529,13 +560,18 @@ a:hover {
         display: block;
     }
 
+    .z-section__button {
+        width: 140px;
+        height: 44px;
+        padding: 0 20px;
+    }
+
     .z-section__title {
         font-size: 24px;
         line-height: 44px;
     }
     
     .z-section__content {
-        padding-top: 40px;
         max-width: 100%;
         margin: 0 15px;
     }
@@ -544,11 +580,14 @@ a:hover {
         padding: 140px 0;
     }
 
+    .z-section2 .z-section__text {
+        margin-top: 40px;
+    }
+
     .z-section3 {
-        padding-bottom: 50px;
-    
         .section3__list {
             flex-wrap: wrap;
+            padding-top: 40px;
         }
     
         .section3__item {
@@ -558,12 +597,17 @@ a:hover {
             &:first-child {
                 margin-right: 0;
             }
+
+            &:last-child {
+                margin-bottom: 0;
+            }
         }
     }
 
     .z-section4 {
         .z-section4__content {
             flex-wrap: wrap;
+            margin-top: 40px;
         }
     
         .left {
@@ -572,7 +616,7 @@ a:hover {
     }
 
     .z-section5 {
-        padding-bottom: 60px;
+        padding-bottom: 65px;
         .section5__list {
             flex-wrap: wrap;
     
@@ -609,6 +653,9 @@ a:hover {
 }
 
 @media screen and (max-width: 480px) {
+    .z-section__content {
+        padding-top: 40px;
+    }
     .z-section1 {
         padding: 90px 0;
     
@@ -622,7 +669,7 @@ a:hover {
     }
 
     .z-section2 {
-        padding-bottom: 50px;
+        padding-bottom: 40px;
     
         .z-section2__content {
             &--top {
@@ -669,7 +716,7 @@ a:hover {
     }
 
     .z-section3 {
-        padding-bottom: 0;
+        padding-bottom: 40px;
 
         .section3__list {
             margin-bottom: 0;
@@ -688,7 +735,7 @@ a:hover {
     }
 
     .z-section4 {
-        padding-bottom: 50px;
+        padding-bottom: 40px;
     
         .z-section4__content {
             margin-top: 40px;
@@ -715,6 +762,7 @@ a:hover {
     }
 
     .z-section5 {
+        padding-bottom: 40px;
         &__img {
             &--box {
         

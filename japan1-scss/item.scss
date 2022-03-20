@@ -106,6 +106,28 @@ a:hover {
     font-weight: bold;
 }
 
+.z-text_center {
+    text-align: center;
+}
+
+.z-section__button {
+    display: inline-flex;
+    width: 170px;
+    height: 50px;
+    padding: 0 26px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: #E60033;
+    border-radius: 8px;
+    font-size: 16px;
+
+    &:hover {
+        background: #c30233;
+        color: #fff;
+    }
+}
+
 .z-section__content {
     max-width: 1400px;
     margin: auto;
@@ -122,7 +144,7 @@ a:hover {
 }
 
 .z-section1 {
-    padding: 120px 0 145px;
+    padding: 105px 0 164px;
     background: url(../RJ-img/page1-bg.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
@@ -135,7 +157,7 @@ a:hover {
     .section1__text {
         font-size: 60px;
         color: #fff;
-        padding-bottom: 75px;
+        padding-bottom: 65px;
 
         &-box {
             display: inline-block;
@@ -145,13 +167,14 @@ a:hover {
             line-height: 1;
             padding: 15px 50px;
             background: #89a0c0;
+            margin-bottom: 40px;
         }
     }
 }
 
 .z-section2 {
     background: #f7f7f7;
-    padding-bottom: 80px;
+    padding-bottom: 65px;
 
     .section2__list {
         display: flex;
@@ -167,6 +190,11 @@ a:hover {
             display: block;
             margin: auto;
             margin-bottom: 96px;
+            transition: all 0.5s;
+
+            &:hover {
+                transform: translateY(-15px);
+            }
         }
 
         &--text {
@@ -177,10 +205,10 @@ a:hover {
 }
 
 .z-section3 {
-    padding-bottom: 90px;
+    padding-bottom: 65px;
 
-    .section3__list {
-        margin-bottom: 70px;
+    .z-section__title {
+        margin-bottom: 65px;
     }
 
     .section3__item {
@@ -188,6 +216,10 @@ a:hover {
         display: flex;
         color: #fff;
         font-size: 24px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
 
         &--left {
             display: inline-flex;
@@ -248,13 +280,13 @@ a:hover {
 }
 
 .z-section4 {
-    padding-bottom: 28px;
+    padding-bottom: 65px;
     background: #f7f7f7;
 
     .section4__img {
         width: 100%;
         margin: auto;
-        margin-top: 80px;
+        margin-top: 65px;
         margin-bottom: 20px;
     }
 
@@ -271,6 +303,7 @@ a:hover {
     .section4__list {
         display: flex;
         justify-content: space-between;
+        margin-bottom: 40px;
     }
 
     .section4__list--item {
@@ -293,7 +326,7 @@ a:hover {
 }
 
 .z-section5 {
-    padding-bottom: 80px;
+    padding-bottom: 65px;
 
     .section5__list {
         display: flex;
@@ -307,6 +340,12 @@ a:hover {
         &--img {
             width: 100%;
             margin: 0 auto 30px;
+
+            transition: all 0.5s;
+
+            &:hover {
+                transform: translateY(-15px);
+            }
         }
 
         &--title {
@@ -325,7 +364,7 @@ a:hover {
 }
 
 .z-section6 {
-    padding-bottom: 55px;
+    padding-bottom: 65px;
     background: #f7f7f7;
 
     .section6__list {
@@ -404,12 +443,6 @@ a:hover {
     }
 
     .z-section3 {
-        padding-bottom: 0;
-    
-        .section3__list {
-            margin-bottom: 70px;
-        }
-    
         .section3__item {
             &--left {
                 line-height: 1.2;
@@ -451,6 +484,12 @@ a:hover {
     .z-section__title {
         font-size: 24px;
         line-height: 44px;
+    }
+
+    .z-section__button {
+        width: 140px;
+        height: 44px;
+        padding: 0 20px;
     }
     
     .z-section__content {
@@ -577,13 +616,17 @@ a:hover {
             &:first-child {
                 margin-right: 0;
             }
+
+            &:last-child {
+                margin-bottom: 0;
+            }
         }
     }
 }
 
 @media screen and (max-width: 480px) {
     .z-section1 {
-        padding: 60px 0 80px;
+        padding: 60px 0;
     
         .section1__text {
             font-size: 28px;
@@ -616,7 +659,7 @@ a:hover {
     }
 
     .z-section3 {
-        padding-bottom: 30px;
+        padding-bottom: 40px;
 
         .section3__item {
             &--left {
@@ -638,6 +681,8 @@ a:hover {
     }
 
     .z-section4 {
+        padding-bottom: 40px;
+
         .section4__img {
             width: 100%;
         }
@@ -648,7 +693,7 @@ a:hover {
     }
 
     .z-section5 {
-        padding-bottom: 30px;
+        padding-bottom: 40px;
     
         .section5__list {
             margin-top: 40px;
@@ -668,6 +713,7 @@ a:hover {
     }
 
     .z-section6 {
+        padding-bottom: 40px;
         .section6__item {
             width: 90%;
         }
