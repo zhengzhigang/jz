@@ -817,7 +817,10 @@ a:hover {
 
         .section5__img--box {
             margin: auto;
-            margin-top: 0;
+
+            &:first-child {
+                margin-top: 20px;
+            }
         }
     }
 

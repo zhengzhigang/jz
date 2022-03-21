@@ -867,89 +867,92 @@ a:hover {
   /* line 818, ../../japan3-scss/item.scss */
   .z-section5 .section5__img--box {
     margin: auto;
-    margin-top: 0;
+  }
+  /* line 821, ../../japan3-scss/item.scss */
+  .z-section5 .section5__img--box:first-child {
+    margin-top: 20px;
   }
 
-  /* line 824, ../../japan3-scss/item.scss */
+  /* line 827, ../../japan3-scss/item.scss */
   .z-section6 {
     padding-bottom: 30px;
   }
-  /* line 827, ../../japan3-scss/item.scss */
+  /* line 830, ../../japan3-scss/item.scss */
   .z-section6 .section6__list {
     flex-wrap: wrap;
     justify-content: center;
   }
-  /* line 832, ../../japan3-scss/item.scss */
+  /* line 835, ../../japan3-scss/item.scss */
   .z-section6 .section6__item {
     width: 100%;
     margin-bottom: 30px;
   }
-  /* line 836, ../../japan3-scss/item.scss */
+  /* line 839, ../../japan3-scss/item.scss */
   .z-section6 .section6__item p {
     font-size: 18px;
   }
-  /* line 840, ../../japan3-scss/item.scss */
+  /* line 843, ../../japan3-scss/item.scss */
   .z-section6 .section6__item:last-child {
     margin-bottom: 0;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 848, ../../japan3-scss/item.scss */
+  /* line 851, ../../japan3-scss/item.scss */
   .z-section1 {
     padding: 50px 0 150px;
   }
-  /* line 851, ../../japan3-scss/item.scss */
+  /* line 854, ../../japan3-scss/item.scss */
   .z-section1 .section1__title {
     font-size: 32px;
     color: #fff;
   }
-  /* line 856, ../../japan3-scss/item.scss */
+  /* line 859, ../../japan3-scss/item.scss */
   .z-section1 .section1__text {
     font-size: 24px;
   }
 
-  /* line 863, ../../japan3-scss/item.scss */
+  /* line 866, ../../japan3-scss/item.scss */
   .z-section2__left-item {
     flex-wrap: wrap;
   }
-  /* line 866, ../../japan3-scss/item.scss */
+  /* line 869, ../../japan3-scss/item.scss */
   .z-section2__left-item--left {
     width: 100%;
   }
-  /* line 872, ../../japan3-scss/item.scss */
+  /* line 875, ../../japan3-scss/item.scss */
   .z-section2__right {
     width: 100%;
   }
 
-  /* line 878, ../../japan3-scss/item.scss */
+  /* line 881, ../../japan3-scss/item.scss */
   .z-section3 .section3__item {
     width: 100%;
     flex-wrap: wrap;
   }
-  /* line 882, ../../japan3-scss/item.scss */
+  /* line 885, ../../japan3-scss/item.scss */
   .z-section3 .section3__item--left {
     width: 100%;
   }
-  /* line 886, ../../japan3-scss/item.scss */
+  /* line 889, ../../japan3-scss/item.scss */
   .z-section3 .section3__item--right {
     height: auto;
   }
 }
 @media screen and (max-width: 375px) {
-  /* line 898, ../../japan3-scss/item.scss */
+  /* line 901, ../../japan3-scss/item.scss */
   .z-section3 {
     padding-bottom: 0;
   }
-  /* line 901, ../../japan3-scss/item.scss */
+  /* line 904, ../../japan3-scss/item.scss */
   .z-section3 .section3__list {
     margin-bottom: 0;
   }
-  /* line 906, ../../japan3-scss/item.scss */
+  /* line 909, ../../japan3-scss/item.scss */
   .z-section3 .section3__item--title {
     padding: 8px 20px 8px 10px;
     font-size: 18px;
   }
-  /* line 910, ../../japan3-scss/item.scss */
+  /* line 913, ../../japan3-scss/item.scss */
   .z-section3 .section3__item--title .trangle {
     width: 30px;
     height: 60px;
@@ -958,7 +961,7 @@ a:hover {
   }
 }
 @media screen and (max-width: 320px) {
-  /* line 922, ../../japan3-scss/item.scss */
+  /* line 925, ../../japan3-scss/item.scss */
   .z-section__title {
     font-size: 20px;
     line-height: 38px;
