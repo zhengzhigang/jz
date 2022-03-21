@@ -145,7 +145,7 @@ a:hover {
 }
 
 .z-section1 {
-    padding: 207px 0;
+    padding: 182px 0;
     background: url(../RJ-img/page1-bg.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
@@ -155,8 +155,14 @@ a:hover {
         padding-top: 0;
     }
 
-    .section1__text {
+    .section1__title {
         font-size: 60px;
+        color: #fff;
+        padding-bottom: 24px;
+    }
+
+    .section1__text {
+        font-size: 36px;
         color: #fff;
         padding-bottom: 24px;
 
@@ -490,10 +496,6 @@ a:hover {
     .z-section__content {
         max-width: 1200px;
     }
-
-    .z-section1 {
-        padding: 200px 0;
-    }
 }
   
 @media screen and (max-width: 1024px) {
@@ -502,9 +504,8 @@ a:hover {
     }
 
     .z-section1 {
-        padding: 180px 0;
+        padding: 141px 0;
 
-    
         .section1__text {
             font-size: 50px;
             color: #fff;
@@ -578,6 +579,14 @@ a:hover {
 
     .z-section1 {
         padding: 140px 0;
+
+        .section1__title {
+            font-size: 38px;
+        }
+
+        .section1__text {
+            font-size: 26px;
+        }
     }
 
     .z-section2 .z-section__text {

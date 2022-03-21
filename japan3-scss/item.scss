@@ -482,6 +482,7 @@ a:hover {
         padding-bottom: 58px;
 
         &--box {
+            margin-top: 20px;
             width: 328px;
             height: 328px;
             border: 1px solid rgba($color: #979797, $alpha: 0.29);
@@ -675,7 +676,7 @@ a:hover {
         }
     
         .section1__text {
-            font-size: 30px;
+            font-size: 26px;
         }
     }
 
@@ -816,6 +817,7 @@ a:hover {
 
         .section5__img--box {
             margin: auto;
+            margin-top: 0;
         }
     }
 

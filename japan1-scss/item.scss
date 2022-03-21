@@ -144,7 +144,7 @@ a:hover {
 }
 
 .z-section1 {
-    padding: 105px 0 164px;
+    padding: 70px 0 134px;
     background: url(../RJ-img/page1-bg.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
@@ -154,8 +154,14 @@ a:hover {
         padding-top: 0;
     }
 
-    .section1__text {
+    .section1__title {
         font-size: 60px;
+        color: #fff;
+        padding-bottom: 65px;
+    }
+
+    .section1__text {
+        font-size: 43px;
         color: #fff;
         padding-bottom: 65px;
 
@@ -500,13 +506,18 @@ a:hover {
 
     .z-section1 {
         padding: 80px 0 100px;
+
+        .section1__text.z-mobile-show {
+            padding-bottom: 40px;
+        }
+
+        .section1__title {
+            font-size: 38px;
+        }
     
         .section1__text {
-            font-size: 40px;
-            padding-bottom: 40px;
-    
             &-box {
-                font-size: 30px;
+                font-size: 26px;
             }
         }
     }
