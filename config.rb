@@ -13,11 +13,11 @@ http_path = "/"
 # css_dir = "japan2/RJ-css/"
 # sass_dir = "japan2-scss"
 
-css_dir = "japan3/RJ-css/"
-sass_dir = "japan3-scss"
+# css_dir = "japan3/RJ-css/"
+# sass_dir = "japan3-scss"
 
-# css_dir = "japan4/RJ-css/"
-# sass_dir = "japan4-scss"
+css_dir = "japan4/RJ-css/"
+sass_dir = "japan4-scss"
 
 # css_dir = "poster/css"
 # sass_dir = "poster-scss"

@@ -100,7 +100,7 @@ a:hover {
 
 .z-section__title {
     font-size: 36px;
-    line-height: 48px;
+    line-height: 1;
     color: #333;
     text-align: center;
     font-weight: bold;
@@ -417,10 +417,14 @@ a:hover {
 }
 
 .z-section5 {
-    padding-bottom: 65px;
+    padding-bottom: 61px;
     background: url(../RJ-img/page5-bg.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
+
+    .z-section__title {
+        line-height: 44px;
+    }
 
     .section5__list {
         display: flex;
@@ -558,7 +562,6 @@ a:hover {
 
     .z-section__title {
         font-size: 24px;
-        line-height: 44px;
     }
     
     .z-section__content {

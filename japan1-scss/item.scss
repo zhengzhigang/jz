@@ -100,7 +100,7 @@ a:hover {
 
 .z-section__title {
     font-size: 36px;
-    line-height: 48px;
+    line-height: 1;
     color: #333;
     text-align: center;
     font-weight: bold;
@@ -180,7 +180,10 @@ a:hover {
 
 .z-section2 {
     background: #f7f7f7;
-    padding-bottom: 65px;
+    padding-bottom: 61px;
+    .z-section__title {
+        line-height: 44px;
+    }
 
     .section2__list {
         display: flex;
@@ -315,7 +318,7 @@ a:hover {
     .section4__list--item {
         display: inline-block;
         background: #89a0c0;
-        width: 213px;
+        width: 19%;
         height: 52px;
         line-height: 52px;
         border-radius: 7px;
@@ -468,20 +471,12 @@ a:hover {
         .section4__img {
             margin-top: 60px;
         }
-    
-        .section4__list--item {
-            width: 160px;
-    
-            &-dot {
-                margin: 0 30px;
-            }
-        }
     }
 }
 
 @media screen and (max-width: 768px) {
     .z-pc-show {
-        display: none;
+        display: none!important;
     }
 
     .z-mobile-show {
@@ -490,7 +485,6 @@ a:hover {
 
     .z-section__title {
         font-size: 24px;
-        line-height: 44px;
     }
 
     .z-section__button {

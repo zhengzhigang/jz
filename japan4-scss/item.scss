@@ -100,7 +100,7 @@ a:hover {
 
 .z-section__title {
     font-size: 36px;
-    line-height: 48px;
+    line-height: 1;
     color: #333;
     text-align: center;
     font-weight: bold;
@@ -345,6 +345,7 @@ a:hover {
 
             img {
                 margin: auto;
+                width: 80%;
             }
         }
 
@@ -599,7 +600,6 @@ a:hover {
 
     .z-section__title {
         font-size: 24px;
-        line-height: 44px;
     }
 
     .z-section__text--dot {
@@ -971,7 +971,6 @@ a:hover {
 @media screen and (max-width: 320px) {
     .z-section__title {
         font-size: 20px;
-        line-height: 38px;
     }
 
     .z-section2 {

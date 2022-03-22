@@ -100,7 +100,7 @@ a:hover {
 
 .z-section__title {
     font-size: 36px;
-    line-height: 48px;
+    line-height: 1;
     color: #333;
     text-align: center;
     font-weight: bold;
@@ -231,6 +231,7 @@ a:hover {
             &--left {
                 width: 50%;
                 flex-shrink: 0;
+                margin-right: 20px;
 
                 img {
                     width: 100%;
@@ -264,7 +265,7 @@ a:hover {
         width: 50%;
 
         img {
-            width: 100%;
+            width: 90%;
         }
 
         &-item {
@@ -410,7 +411,6 @@ a:hover {
 }
 
 .z-section4 {
-    padding-bottom: 65px;
     background: #fff;
 
     .section4__list {
@@ -421,10 +421,11 @@ a:hover {
 
     .section4__item {
         width: 48%;
-        margin-bottom: 68px;
+        margin-bottom: 65px;
 
         &--title {
             font-size: 36px;
+            line-height: 1;
             color: #292929;
             margin-bottom: 31px;
         }
@@ -481,11 +482,7 @@ a:hover {
     }
 
     .section5__img {
-        height: 228px;
-        margin: auto;
-        max-width: 80%;
-        padding-top: 70px;
-        padding-bottom: 58px;
+        width: 100%;
 
         &--box {
             width: 300px;
@@ -563,9 +560,11 @@ a:hover {
     }
 
     .section6__item {
+        position: relative;
         width: 31%;
         background: #fff;
         padding: 20px 0 28px;
+        min-height: 230px;
 
         p {
             padding: 0 30px;
@@ -578,7 +577,11 @@ a:hover {
     .section6__button {
         display: flex;
         margin: auto;
-        margin-top: 62px;
+        position: absolute;
+        bottom: 40px;
+        width: 270px;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     .section6__icon {
@@ -609,10 +612,6 @@ a:hover {
         }
     
         .section5__img {
-            padding-top: 30px;
-            padding-bottom: 0;
-            height: 180px;
-
             &--box {
                 width: 240px;
                 height: 240px;
@@ -649,29 +648,11 @@ a:hover {
         }
     
         .section5__img {
-            padding-top: 25px;
-            padding-bottom: 0;
-            height: 160px;
-
             &--box {
                 width: 200px;
                 height: 200px;
                 margin-top: 28px;
             }
-        }
-    }
-    .z-section6 {
-        .section6__item {
-            position: relative;
-            min-height: 270px;
-        }
-
-        .section6__button {
-            position: absolute;
-            bottom: 40px;
-            width: 270px;
-            left: 50%;
-            transform: translateX(-50%);
         }
     }
 }
@@ -687,7 +668,6 @@ a:hover {
 
     .z-section__title {
         font-size: 24px;
-        line-height: 44px;
     }
 
     .z-section__text--dot {
@@ -858,10 +838,6 @@ a:hover {
                 margin-top: 40px;
             }
         }
-
-        .section5__img {
-            height: 290px;
-        }
     }
 
     .z-section6 {
@@ -943,10 +919,6 @@ a:hover {
                 margin-top: 30px;
             }
         }
-
-        .section5__img {
-            height: 270px;
-        }
     }
 }
 
@@ -978,27 +950,18 @@ a:hover {
             width: 300px;
             height: 300px;
         }
-
-        .section5__img {
-            height: 230px;
-        }
     }
 }
 
 @media screen and (max-width: 320px) {
     .z-section__title {
         font-size: 20px;
-        line-height: 38px;
     }
 
     .z-section5 {
         .section5__img--box {
             width: 250px;
             height: 250px;
-        }
-
-        .section5__img {
-            height: 180px;
         }
     }
 }
