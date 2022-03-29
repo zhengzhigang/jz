@@ -383,8 +383,8 @@ a:hover {
 
 .z-section7 {
     .z-section__content {
+        position: relative;
         padding-top: 0;
-        height: calc( 100vh);
         background: transparent;
 
         video {
@@ -395,6 +395,8 @@ a:hover {
             position: absolute;
             width: 100%;
             height: 100%;
+            top: 0;
+            left: 0;
             background: rgba($color: #000000, $alpha: 0.6);
         }
     
@@ -598,6 +600,16 @@ a:hover {
             top: 12px;
             right: 27px;
         }
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .z-section__content {
+        max-width: 1380px;
+    }
+
+    .z-section7 .z-section__content {
+        max-width: 1440px;
     }
 }
 
