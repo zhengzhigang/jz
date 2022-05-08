@@ -13,8 +13,8 @@ http_path = "/"
 # css_dir = "japan2/RJ-css/"
 # sass_dir = "japan2-scss"
 
-css_dir = "japan3/RJ-css/"
-sass_dir = "japan3-scss"
+css_dir = "fw/RJ-css/"
+sass_dir = "fw-scss"
 
 # css_dir = "japan4/RJ-css/"
 # sass_dir = "japan4-scss"
@@ -30,7 +30,7 @@ sass_dir = "japan3-scss"
 # relative_assets = true
 
 # To disable debugging comments that display the original location of your selectors. Uncomment:
-line_comments = true
+line_comments = false
 
 
 # If you prefer the indented syntax, you might want to regenerate this
