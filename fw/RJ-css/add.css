@@ -396,7 +396,6 @@
   border: 1px solid #e6e6e6;
   margin-bottom: 20px;
 }
-
 .yiben .title {
   background: #f7f7f7;
   padding: 10px 10px;
@@ -404,7 +403,6 @@
   font-size: 18px;
   color: #333333;
 }
-
 .yiben-list {
   padding: 10px;
 }
@@ -477,7 +475,6 @@
   border-bottom: 1px solid #e6e6e6;
   padding-bottom: 20px;
 }
-
 .sm-box:last-child {
   border-bottom: none;
   padding-bottom: 0;
@@ -493,7 +490,6 @@
     border: 1px solid #e6e6e6;
     margin-bottom: 20px;
   }
-
   .yiben .title {
     background: #f7f7f7;
     padding: 10px 15px;
@@ -501,7 +497,6 @@
     font-size: 18px;
     color: #333333;
   }
-
   .yiben-list {
     padding: 15px;
     display: flex;
@@ -599,7 +594,6 @@
     border-bottom: none;
     padding-bottom: 20px;
   }
-
   .sm-box:last-child {
     border-bottom: none;
     padding-bottom: 0;
