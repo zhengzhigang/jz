@@ -935,8 +935,30 @@
   padding: 10px 0;
   padding-left: 30px;
 }
+.down-content .block h5.block-dot__title {
+  padding-left: 0;
+  margin-bottom: 22px;
+}
 .down-content .block .block-list {
   margin-left: 30px;
+}
+.down-content .block .block-list.block-list__dot {
+  margin-left: 0;
+}
+.down-content .block .block-list.block-list__dot .item {
+  padding-left: 16px;
+}
+.down-content .block .block-list.block-list__dot .item::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 6px;
+  height: 6px;
+  background-color: #CB1329;
+  border-radius: 100%;
 }
 .down-content .block .block-list .item {
   padding-left: 30px;
