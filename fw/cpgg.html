@@ -1678,8 +1678,6 @@ function OpenModal(){
 <script src="http://cbe.convertlab.com/cbe/collect?tid=7340176657450576825&at=0&h=web"></script>
 <script>clab_tracker.ready(function () { this.push({ "pageType": "web" }); this.track("open_page", {}); });</script>
 <!-- convertlab基础代码  结束-->
-
-    
     
     <script src="http://image.ruijie.com.cn/UIA/v3.0/common/scripts/jquery.simpleLoadMore.js?637866757528576441"></script>
 
@@ -1731,25 +1729,15 @@ function OpenModal(){
 
                                         if (items.Child != undefined && items.Child.length > 0) {
 
-                                            var child = '<h5>' + items.Name + '</h5>\
-                                                        <div class="block-list">';
+                                            var child = '<h5 class="block-dot__title">' + items.Name + '</h5>\
+                                                        <div class="block-list block-list__dot">';
                                             $.each(items.Child, function (i, c) {
                                                 var classname;
                                                 if (i > 2) { classname = " style='display:none;'"; }
-                                                if (c.Type == 1) {
-                                                    var children = '<div class="item"' + classname + '>\
-                                                                        <a href="javascript:;" onclick=\'LoadingDocument("'+ pid + '", ' + c.ID + ', null)\'>' + c.Name + '</a>\
-                                                                    </div>';
-                                                    child += children;
-                                                } else {
-                                                    var children = '<div class="item"' + classname + '>\
-                                                                <input type="checkbox" class="checkbox" data-id="'+ c.ID + '" data-name="' + c.Name + '" id="a' + c.ID + '">\
-                                                                <label for="a'+ c.ID + '"></label>\
-                                                                <a href="'+ c.Url + '">' + c.Name + '</a>\
-                                                                <span class="time"><img src="http://image.ruijie.com.cn/UIA/img/time.png" class="ico">' + c.PublishTime + '</span>\
-                                                             </div>';
-                                                    child += children;
-                                                }
+												var children =  '<div class="item">\
+														<a href="/fw/wd/57738">锐捷RG-NBS5652XG产品退市公告</a>\
+													</div>';
+												child += children;
                                             });
                                             if (items.Child.length > 3) {
                                                 child += '<a href="javascript:;" class="more more1" onclick="loadmore(3,1,this)">更多</a>';
