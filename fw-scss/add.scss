@@ -1068,7 +1068,7 @@
         margin-bottom: 20px;
         margin-right: 5%;
 
-        &:nth-child(2n) {
+        &:nth-child(3n) {
           margin-right: 0;
         }
 
@@ -1126,6 +1126,28 @@
   }
 }
 
+@media (min-width: 769px) {
+  .down-content {
+    .block {
+      &-video {
+        &__item {
+          width: 47%;
+          margin-bottom: 20px;
+          margin-right: 0;
+
+          &:nth-child(odd) {
+            margin-right: 6%;
+          }
+
+          &:nth-child(even) {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
 @media (max-width: 768px) {
   .down-content {
     .block {
@@ -1137,7 +1159,7 @@
         }
   
         &__item {
-          width: 700;
+          width: 100%;
           margin-bottom: 20px;
           margin-right: 0;
         }
@@ -1301,39 +1323,38 @@
     .pc-down {
       display: flex;
       align-items: center;
-      border-top: 1px solid #e6e6e6;
-      border-bottom: 1px solid #e6e6e6;
+      border: 1px solid #e6e6e6;
       padding: 15px 0;
       background: #f7f7f7;
-    }
-    .pc-down.fix {
-      position: fixed;
-      top: 72px;
-      z-index: 99;
-    }
-    .pc-down .all-check {
-      display: flex;
-      align-items: center;
-      font-size: 14px;
-      padding-left: 15px;
-    }
-    .pc-down .all-check label {
-      margin-left: 10px;
-    }
-    .pc-down .down a {
-      display: flex;
-      align-items: center;
-      color: #fff;
-      font-size: 14px;
-      margin-left: 50px;
-      width: 84px;
-      height: 24px;
-      background: #cc1329;
-      justify-content: center;
-    }
-    .pc-down .down a .ico {
-      height: 14px;
-      margin-right: 6px;
+      &.fix {
+        position: fixed;
+        top: 72px;
+        z-index: 99;
+      }
+      .all-check {
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        padding-left: 15px;
+      }
+      .all-check label {
+        margin-left: 10px;
+      }
+      .down a {
+        display: flex;
+        align-items: center;
+        color: #fff;
+        font-size: 14px;
+        margin-left: 50px;
+        width: 84px;
+        height: 24px;
+        background: #cc1329;
+        justify-content: center;
+      }
+      .down a .ico {
+        height: 14px;
+        margin-right: 6px;
+      }
     }
   
     input {
@@ -1449,12 +1470,16 @@
         &__item {
           width: 32%;
           margin-bottom: 20px;
-          margin-right: 1.33333333%;
-  
-          &:nth-child(3n) {
+          margin-right: 1.33333333%!important;
+
+          &:nth-child(odd) {
             margin-right: 0;
           }
-  
+
+          &:nth-child(even) {
+            margin-right: 0;
+          }
+
           &-img {
             display: block;
             width: 100%;
@@ -1684,30 +1709,30 @@
       border-bottom: 1px solid #e6e6e6;
       padding: 20px 0;
       background: #f7f7f7;
-    }
-    .pc-down .all-check {
-      display: flex;
-      align-items: center;
-      font-size: 14px;
-      padding-left: 15px;
-    }
-    .pc-down .all-check label {
-      margin-left: 10px;
-    }
-    .pc-down .down a {
-      display: flex;
-      align-items: center;
-      color: #fff;
-      font-size: 14px;
-      margin-left: 50px;
-      width: 84px;
-      height: 24px;
-      background: #cc1329;
-      justify-content: center;
-    }
-    .pc-down .down a .ico {
-      height: 14px;
-      margin-right: 6px;
+      .all-check {
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        padding-left: 15px;
+      }
+      .all-check label {
+        margin-left: 10px;
+      }
+      .down a {
+        display: flex;
+        align-items: center;
+        color: #fff;
+        font-size: 14px;
+        margin-left: 50px;
+        width: 84px;
+        height: 24px;
+        background: #cc1329;
+        justify-content: center;
+      }
+      .down a .ico {
+        height: 14px;
+        margin-right: 6px;
+      }
     }
 
     input {
