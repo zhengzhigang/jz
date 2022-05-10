@@ -1,0 +1,83 @@
+﻿
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no" />
+    <meta property="wb:webmaster" content="209aa6880b9c0855" />
+    <meta name="description" content="锐捷网络维保服务是锐捷网络为购买网络产品的客户提供的响应式支持服务：锐捷服务工程师将通过远程、现场等方式对客户网络设备软、硬件问题进行诊断、处理，真正保障设备可用性，降低设备故障对业务运行的不良影响，充分满足客户对网络系统高效、稳定运行的要求。" />
+    <meta name="keywords" content="维保服务" />
+    <meta name="robots" content="all" />
+    <title>
+        维保服务 - 维保 - 服务产品
+
+    </title>
+    <link rel="shortcut icon" href="//image.ruijie.com.cn/UIA/images/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+
+	<!--顶部导航资源文件开始-->
+	<!-- #include file="/Resources.html" -->
+	<!-- 顶部导航资源文件结束-->
+	
+	<!-- 副导航开始 -->
+	<link type="text/css" href="//image.ruijie.com.cn/UIA/Styles/shortMenu.css" rel="stylesheet">
+	<script src="//image.ruijie.com.cn/UIA/Scripts/header.js" type="text/javascript"></script>
+	<div class="sh-header" style="height:100px;">
+		<div class="sh-top-header">
+			<div class="sh-logo">
+				<a href="http://www.ruijie.com.cn/" title=""><img src="//image.ruijie.com.cn/UIA/img/mobile_logo.png" /></a>
+			</div>
+			<ul>
+				<li class='sh-hide-li'>|
+					<a href='http://www.ruijie.com.cn/gy/'>关于我们</a>
+				</li>
+				<li>
+					<a href='http://www.ruijie.com.cn/'>锐捷官网</a>
+				</li>
+			</ul>
+		</div>
+		<div class="sh-box-header">
+			<div class="">
+				<p>高校极简运营商合作方案-锐捷网络</p>
+				<ul>
+					<li>
+						<a class="active" href='index.shtml'>概述</a>|
+					</li>
+					<li>
+						<a href='index.shtml'>概述</a>
+					</li>
+					<li class='sh-mobile-nav'>
+						<ul class='sh-mobile-menu'>
+							<li>
+								<a class="active" href='index.shtml'>概述</a>|
+							</li>
+							<li>
+								<a href='index.shtml'>概述</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- 副导航开始 -->
+	<!--正文开始-->
+	
+	
+	<!--正文结束-->
+
+	<!--底部导航开始-->
+	<!-- #include file="/FooterUC_R.html" -->
+	<!-- 底部导航结束 -->
+
+	<script type='text/javascript'>
+		_gsq.push(["T", "GWD-002457", "trackEvent", "内容页", "专题", ""]);
+	</script>
+
+</body>
+
+</html>
