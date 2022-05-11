@@ -1108,21 +1108,21 @@
     box-sizing: border-box;
     left: 0;
     z-index: 99;
-  }
-  .m-down .all-check {
-    display: flex;
-    align-items: center;
-    font-size: 14px;
-  }
-  .m-down .down a {
-    display: flex;
-    align-items: center;
-    color: #333333;
-    font-size: 14px;
-  }
-  .m-down .down a .ico {
-    height: 15px;
-    margin-right: 6px;
+    .all-check {
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+    }
+    .down a {
+      display: flex;
+      align-items: center;
+      color: #333333;
+      font-size: 14px;
+    }
+    .down a .ico {
+      height: 15px;
+      margin-right: 6px;
+    }
   }
 }
 
