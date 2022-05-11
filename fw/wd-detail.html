@@ -1129,14 +1129,62 @@ window._agl = window._agl || [];
               <img src="http://image.ruijie.com.cn/UIA/img/xx.png" class="xx">
             </div>
           </div>
+          <div class="line">
+            <p class="line-title">期待得到您的反馈</p>
+          </div>
+          <!-- TODO 评论修改 start -->
+          <div class="line">
+            <p>问题所属章节</p>
+            <div class="textareacon">
+              <input
+                class="input"
+                type="text"
+                id="proTitle"
+                placeholder="复制原文内容填写章节序号"
+                onfocus="this.placeholder=''"
+                onblur="this.placeholder='复制原文内容填写章节序号'"
+              />
+            </div>
+          </div>
           <div class="line line2">
-            <p>期待得到您的建议:</p>
+            <p>问题描述:</p>
             <div class="textareacon">
               <input type="hidden" id="number" value="3" />
               <input type="hidden" id="uniid" value="c32ea785-2cf8-4e5f-8f5b-6aba844d7f58" />
-              <textarea class="textarea" placeholder="填写您的意见和建议" id="message" onfocus="this.placeholder=''" onblur="this.placeholder='填写您的意见和建议'"></textarea>
+              <textarea
+                class="textarea"
+                id="message"
+                placeholder="填写问题描述"
+                onfocus="this.placeholder=''"
+                onblur="this.placeholder='填写问题描述'"
+              ></textarea>
             </div>
           </div>
+          <p>为了更快捷地解决及时回复您反馈的问题，请您留下您的联系方式</p>
+          <div class="line-inline__flex">
+            <div class="line inline">
+              <p>姓名</p>
+              <input id="proUserName" class="input" type="text" placeholder="">
+              <i class="required">*</i>
+            </div>
+            <div class="line inline">
+              <p>邮箱</p>
+              <input id="proUserEmail" class="input" type="text" placeholder="">
+              <i class="required">*</i>
+            </div>
+            <div class="line inline">
+              <p>手机号</p>
+              <input id="proUserPhone" class="input" type="text" placeholder="">
+            </div>
+          </div>
+          <div class="line">
+            <div class="line-checkbox">
+              <input type="checkbox" class="checkbox" id="privacy">
+              <label for="privacy"></label>
+              我已同意并阅读<a href="https://www.ruijie.com.cn/privacy/" target="_blank">隐私政策</a>
+            </div>
+          </div>
+          <!-- TODO 评论修改 end -->
           <button class="subbtn">提 交</button>
         </div>
       </div>
@@ -1238,7 +1286,12 @@ window._agl = window._agl || [];
             <input type="checkbox" class="checkbox" data-id="82903" data-name="RG-N18000-X系列交换机RGOS11.3(1)B6P29版本配置手册(V1.0)" id="a82903">
             <label for="a82903"></label>
             <a href="/fw/wd/82903">RG-N18000-X系列交换机RGOS11.3(1)B6P29版本配置手册(V1.0)</a>
-        </div>
+          </div>
+          <div class="item">
+            <input type="checkbox" class="checkbox" data-id="82903" data-name="RG-N18000-X系列交换机RGOS11.3(1)B6P29版本配置手册(V1.0)" id="a82904">
+            <label for="a82904"></label>
+            <a href="/fw/wd/82903">RG-N18000-X系列交换机RGOS11.3(1)B6P29版本配置手册(V1.0)</a>
+          </div>
         </div>
         <div class="m-down">
           <div class="all-check">
@@ -1764,16 +1817,52 @@ window._agl = window._agl || [];
               $(".star .xx:gt(" + (index - 1) + ")").attr("src", "http://image.ruijie.com.cn/UIA/img/xx.png")
               $("#number").val(index);
           })
+          // 勾选隐私政策 TODO
+          $(".grade #privacy").click(function () {
+              if ($(this)[0].checked) {
+                  $(".grade input[type=checkbox]").prop('checked', true)
+              }
+              else {
+                  $(".grade input[type=checkbox]").prop('checked', false)
+              }
+          })
+
           $(".grade .subbtn").click(function () {
               var num = $("#number").val();
               var message = $("#message").val();
               var uniid = $("#uniid").val();
+
+              // TODO 提交修改，增加参数
+              var proTitle =  $("#proTitle").val();
+              var name =  $("#proUserName").val();
+              var email =  $("#proUserEmail").val();
+              var phone =  $("#proUserPhone").val();
+              var isReadPrivacy =  $("#privacy").prop('checked')
+              if (!name || !email) {
+                layer.msg('请填写姓名和邮箱', { icon: 2 });
+                return
+              }
+              if (!isReadPrivacy) {
+                layer.msg('请阅读并勾选隐私政策', { icon: 2 });
+                return
+              }
+              console.log('***',)
               commentID = guid();
               $.ajax({
                   url: "/Application/Article/CreateDiscussNew",
                   type: "get",
                   dataType: "json",
-                  data: { "auniid": uniid, "message": message, "number": num, "commentID": commentID },
+                  // TODO 提交修改，增加参数
+                  data: {
+                    "auniid": uniid,
+                    "message": message,
+                    "number": num,
+                    "commentID": commentID,
+                    proTitle: proTitle,
+                    name: name,
+                    email: email,
+                    phone: phone
+                  },
                   success: function (result) {
                       if (result.Status) {
                           layer.msg("评论已提交", {icon:1,time:2000},function () {
@@ -1802,6 +1891,23 @@ window._agl = window._agl || [];
           });
 
           // TODO 新增下载方法  start
+          $(document).on("click", ".recommend-list .item input[type=checkbox]", function () {
+              if (!$(this)[0].checked) {
+                $("#all").prop('checked', false)
+              }
+              var count = 0;
+              $(".item input[type=checkbox]").each(function () {
+                if (!$(this)[0].checked) {
+                  count += 1;
+                }
+              });
+              if (count == 0) {
+                $("#all").prop('checked', true)
+              } else {
+                $("#all").prop('checked', false)
+              }
+          })
+
           function downloads() {
               var arr = new Array();
               $("input[type='checkbox']:checked").each(function (i) {
@@ -1825,7 +1931,6 @@ window._agl = window._agl || [];
               }
           }
           $("#all").click(function () {
-            console.log(111)
               if ($(this)[0].checked) {
                   $(".s-Article-right input[type=checkbox]").prop('checked', true)
               }
