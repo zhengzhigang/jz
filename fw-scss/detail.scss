@@ -158,7 +158,10 @@ html, body {
     .xq a {
       color: #222222;
       font-size: 14px;
-      text-decoration: underline;
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
   
     .tj {
@@ -266,7 +269,7 @@ html, body {
       justify-content: space-between;
       align-items: center;
       border-top: 1px solid #e6e6e6;
-      padding: 18px 4.5%;
+      padding: 18px 0;
       bottom: 80px;
       width: 100%;
       box-sizing: border-box;
@@ -304,4 +307,15 @@ html, body {
     display: none;
   }
 
+}
+
+@media (max-width: 768px) {
+  .s-ArticleDetails-wrapper {
+    display: block;
+
+    .s-Article-right {
+      width: 100%;
+      margin-left: 0;
+    }
+  }
 }

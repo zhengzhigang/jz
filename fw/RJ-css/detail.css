@@ -155,6 +155,8 @@ iframe {
 .s-Article-right .xq a {
   color: #222222;
   font-size: 14px;
+}
+.s-Article-right .xq a:hover {
   text-decoration: underline;
 }
 .s-Article-right .tj {
@@ -252,7 +254,7 @@ iframe {
   justify-content: space-between;
   align-items: center;
   border-top: 1px solid #e6e6e6;
-  padding: 18px 4.5%;
+  padding: 18px 0;
   bottom: 80px;
   width: 100%;
   box-sizing: border-box;
@@ -286,5 +288,14 @@ iframe {
 @media (max-width: 1024px) {
   .page4-right {
     display: none;
+  }
+}
+@media (max-width: 768px) {
+  .s-ArticleDetails-wrapper {
+    display: block;
+  }
+  .s-ArticleDetails-wrapper .s-Article-right {
+    width: 100%;
+    margin-left: 0;
   }
 }

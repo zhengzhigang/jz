@@ -2178,9 +2178,84 @@
 }
 
 .grade {
+  width: 100%;
   padding: 20px 0 20px;
   color: #222222;
   font-size: 14px;
+  background: #f7f7f7;
+}
+.grade .line {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.grade .line-inline__flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 29px;
+}
+.grade .line.inline {
+  position: relative;
+  width: 30%;
+}
+.grade .line.inline p {
+  width: 89px;
+}
+.grade .line.inline .required {
+  position: absolute;
+  font-size: 18px;
+  color: #E10032;
+  top: 8px;
+  right: -15px;
+}
+.grade .line-checkbox {
+  position: relative;
+  padding-left: 39px;
+  line-height: 28px;
+  color: #838383;
+}
+.grade .line-checkbox input[type="checkbox"] {
+  position: absolute;
+  left: -999em;
+  border: none;
+  background: none;
+}
+.grade .line-checkbox input[type="checkbox"] + label:before {
+  background: url(http://image.ruijie.com.cn/UIA/img/checkico.png) no-repeat;
+  background-size: 100%;
+}
+.grade .line-checkbox input[type="checkbox"]:checked + label:before {
+  background: url(http://image.ruijie.com.cn/UIA/img/checkico_on.png) no-repeat;
+  background-size: 100%;
+}
+.grade .line-checkbox label {
+  position: absolute;
+  left: 0;
+  top: 4px;
+}
+.grade .line-checkbox label::before {
+  display: block;
+  position: relative;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 22px;
+  height: 22px;
+  margin-right: 10px;
+}
+.grade .line-checkbox a {
+  color: #333333;
+}
+.grade .line2 {
+  align-items: flex-start;
+}
+.grade .line2 p {
+  display: block;
+}
+.grade .line p {
+  font-size: 16px;
+  color: #222222;
+  width: 150px;
 }
 .grade .star {
   margin-top: 10px;
@@ -2217,6 +2292,48 @@
   border: none;
   margin-top: 15px;
   font-size: 16px;
+}
+.grade .line-title {
+  font-size: 18px;
+}
+.grade .textareacon {
+  flex: 1;
+}
+.grade .textarea {
+  background: #fff;
+  padding: 10px 15px;
+  color: #222222;
+  border: none;
+  border-radius: 0;
+  width: 100%;
+  min-height: 80px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.grade .input {
+  width: 100%;
+  background: #fff;
+  padding: 10px 15px;
+  color: #222222;
+  border: none;
+  border-radius: 0;
+  width: 100%;
+  min-height: 40px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.grade .subbtn {
+  background: #cd0c22;
+  width: 140px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border: none;
+  margin-top: 15px;
+  font-size: 16px;
+  margin: auto;
 }
 
 @media (min-width: 1024px) {
@@ -2888,6 +3005,29 @@
   .content-box img {
     margin: 30px 0;
     margin-left: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .s-ArticleDetails-wrapper {
+    padding: 0 20px;
+    width: auto;
+  }
+
+  .grade {
+    padding: 20px;
+    width: auto;
+  }
+  .grade .line-inline__flex {
+    display: block;
+  }
+  .grade .line.inline {
+    width: auto;
+  }
+  .grade .line-checkbox {
+    margin-left: 80px;
+  }
+  .grade .line2 p {
+    display: block;
   }
 }
 /*第6页   开始*/

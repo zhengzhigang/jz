@@ -2296,9 +2296,95 @@
 }
 
 .grade {
+  width: 100%;
   padding: 20px 0 20px;
   color: #222222;
   font-size: 14px;
+  background: #f7f7f7;
+  .line {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+
+    &-inline__flex {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 29px;
+    }
+
+    &.inline {
+      position: relative;
+      width: 30%;
+
+      p {
+        width: 89px;
+      }
+
+      .required {
+        position: absolute;
+        font-size: 18px;
+        color: #E10032;
+        top: 8px;
+        right: -15px;
+      }
+    }
+
+    &-checkbox {
+      position: relative;
+      padding-left: 39px;
+      line-height: 28px;
+      color: #838383;
+
+      input[type="checkbox"] {
+        position: absolute;
+        left: -999em;
+        border: none;
+        background: none;
+
+        & + label:before {
+          background: url(http://image.ruijie.com.cn/UIA/img/checkico.png) no-repeat;
+          background-size: 100%;
+        }
+
+        &:checked + label:before {
+          background: url(http://image.ruijie.com.cn/UIA/img/checkico_on.png) no-repeat;
+          background-size: 100%;
+        }
+      }
+
+      label {
+        position: absolute;
+        left: 0;
+        top: 4px;
+
+        &::before {
+          display: block;
+          position: relative;
+          top: 0;
+          left: 0;
+          content: "";
+          width: 22px;
+          height: 22px;
+          margin-right: 10px;
+        }
+      }
+
+      a {
+        color: #333333;
+      }
+    }
+  }
+  .line2 {
+    align-items: flex-start;
+  }
+  .line2 p {
+    display: block;
+  }
+  .line p {
+    font-size: 16px;
+    color: #222222;
+    width: 150px;
+  }
   .star {
     margin-top: 10px;
     display: flex;
@@ -2334,6 +2420,48 @@
     border: none;
     margin-top: 15px;
     font-size: 16px;
+  }
+  .line-title {
+    font-size: 18px;
+  }
+  .textareacon {
+    flex: 1;
+  }
+  .textarea {
+    background: #fff;
+    padding: 10px 15px;
+    color: #222222;
+    border: none;
+    border-radius: 0;
+    width: 100%;
+    min-height: 80px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  .input {
+    width: 100%;
+    background: #fff;
+    padding: 10px 15px;
+    color: #222222;
+    border: none;
+    border-radius: 0;
+    width: 100%;
+    min-height: 40px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  .subbtn {
+    background: #cd0c22;
+    width: 140px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border: none;
+    margin-top: 15px;
+    font-size: 16px;
+    margin: auto;
   }
 }
 
@@ -3035,6 +3163,32 @@
     img {
       margin: 30px 0;
       margin-left: 40px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .s-ArticleDetails-wrapper {
+    padding: 0 20px;
+    width: auto;
+  }
+  .grade {
+    padding: 20px;
+    width: auto;
+    .line {
+      &-inline__flex {
+        display: block;
+      }
+  
+      &.inline {
+        width: auto;
+      }
+  
+      &-checkbox {
+        margin-left: 80px;
+      }
+    }
+    .line2 p {
+      display: block;
     }
   }
 }
