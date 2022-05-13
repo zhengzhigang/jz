@@ -1187,6 +1187,7 @@
   .lx-page4 .flex2 {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
   }
   .lx-page4 .tab2 {
     width: 20.4%;
@@ -2263,7 +2264,8 @@
   width: 30%;
 }
 .grade .line.inline p {
-  width: 89px;
+  width: 65px;
+  flex-shrink: 0;
 }
 .grade .line.inline .required {
   position: absolute;
@@ -2798,7 +2800,7 @@
     width: 30%;
   }
   .grade .line.inline p {
-    width: 89px;
+    width: 65px;
   }
   .grade .line.inline .required {
     position: absolute;
@@ -3088,10 +3090,33 @@
     width: auto;
   }
   .grade .line-checkbox {
-    margin-left: 80px;
+    margin-left: 65px;
   }
   .grade .line2 p {
     display: block;
+  }
+}
+@media (max-width: 480px) {
+  .grade .line {
+    display: block;
+  }
+  .grade .line.inline {
+    position: relative;
+    width: 100%;
+  }
+  .grade .line.inline p {
+    width: auto;
+    margin-bottom: 5px;
+  }
+  .grade .line.inline .required {
+    top: 33px;
+  }
+  .grade .line-checkbox {
+    margin-left: 0;
+  }
+  .grade .line2 p {
+    display: block;
+    margin-bottom: 5px;
   }
 }
 /*第6页   开始*/

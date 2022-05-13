@@ -1256,6 +1256,7 @@
     .flex2 {
       display: flex;
       justify-content: space-between;
+      margin-bottom: 20px;
     }
   
     .tab2 {
@@ -2388,7 +2389,8 @@
       width: 30%;
 
       p {
-        width: 89px;
+        width: 65px;
+        flex-shrink: 0;
       }
 
       .required {
@@ -2942,7 +2944,7 @@
         width: 30%;
 
         p {
-          width: 89px;
+          width: 65px;
         }
 
         .required {
@@ -3255,11 +3257,40 @@
       }
   
       &-checkbox {
-        margin-left: 80px;
+        margin-left: 65px;
       }
     }
     .line2 p {
       display: block;
+    }
+  }
+}
+@media (max-width: 480px) {
+  .grade {
+    .line {
+      display: block;
+  
+      &.inline {
+        position: relative;
+        width: 100%;
+  
+        p {
+          width: auto;
+          margin-bottom: 5px;
+        }
+  
+        .required {
+          top: 33px;
+        }
+      }
+  
+      &-checkbox {
+        margin-left: 0;
+      }
+    }
+    .line2 p {
+      display: block;
+      margin-bottom: 5px;
     }
   }
 }

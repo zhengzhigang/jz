@@ -17,12 +17,10 @@ html, body {
 }
 
 .Statistics-border-djl {
-  float: left;
   margin-top: 2px;
 }
 
 #span_num {
-  float: left;
   margin-top: 5px;
 }
 
@@ -116,6 +114,13 @@ iframe {
   margin-bottom: 0 !important;
 }
 
+.Article-text .Block {
+  color: #5C8AC2;
+  border-bottom: 1px solid #5C8AC2;
+  padding-bottom: 10px !important;
+  margin-bottom: 25px !important;
+}
+
 .tczz {
   background: rgba(0, 0, 0, 0.5);
   position: fixed;
@@ -161,6 +166,7 @@ iframe {
   border: 1px solid #e6e6e6;
   padding: 18px;
   margin-bottom: 20px;
+  margin-top: 12px;
 }
 .s-Article-right .xq a {
   color: #222222;
@@ -313,5 +319,16 @@ iframe {
   }
   .s-ArticleDetails-wrapper .m-down {
     border: none;
+  }
+  .s-ArticleDetails-wrapper .Statistics-border-xz {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    text-align: center;
+  }
+  .s-ArticleDetails-wrapper .Article-download {
+    margin-top: 20px;
   }
 }
