@@ -2333,6 +2333,7 @@
       position: relative;
       padding-left: 39px;
       line-height: 28px;
+      margin-left: 65px;
       color: #838383;
 
       input[type="checkbox"] {
@@ -3173,7 +3174,6 @@
   }
   .grade {
     padding: 20px;
-    width: auto;
     .line {
       &-inline__flex {
         display: block;

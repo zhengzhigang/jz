@@ -102,6 +102,16 @@ iframe {
     padding-left: 2%;
   }
 }
+.s-ArticleDetails-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.s-Article-right {
+  width: 200px;
+  flex-shrink: 0;
+}
+
 .s-Article-content .Article-text div {
   margin-bottom: 0 !important;
 }
@@ -223,4 +233,85 @@ iframe {
 .s-Article-right input[type="checkbox"]:checked + label:before {
   background: url(http://image.ruijie.com.cn/UIA/img/checkico_on.png) no-repeat;
   background-size: 100%;
+}
+.s-Article-right .recommend-list .item {
+  position: relative;
+  padding-left: 26px;
+}
+.s-Article-right .recommend-list label {
+  position: absolute;
+  left: 0;
+  top: 4px;
+}
+.s-Article-right .recommend-list a {
+  color: #777777;
+  font-size: 14px;
+  position: relative;
+  padding-left: 10px;
+  display: block;
+  word-break: break-all;
+}
+.s-Article-right .recommend-list a:hover {
+  text-decoration: underline;
+}
+.s-Article-right .more {
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  color: #333333;
+  display: block;
+  text-decoration: underline;
+}
+.s-Article-right .m-down {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #e6e6e6;
+  padding: 18px 0;
+  bottom: 80px;
+  width: 100%;
+  box-sizing: border-box;
+  left: 0;
+  z-index: 99;
+}
+.s-Article-right .m-down .all-check {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+.s-Article-right .m-down .down a {
+  font-size: 14px;
+  background: #cc1329;
+  color: #fff;
+  width: 80px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.s-Article-right .m-down .down a .ico {
+  height: 15px;
+  margin-right: 6px;
+}
+
+.my-container {
+  width: auto;
+}
+
+@media (max-width: 1024px) {
+  .page4-right {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .s-ArticleDetails-wrapper {
+    display: block;
+  }
+  .s-ArticleDetails-wrapper .s-Article-right {
+    width: 100%;
+    margin-left: 0;
+  }
+  .s-ArticleDetails-wrapper .m-down {
+    border: none;
+  }
 }

@@ -13,63 +13,63 @@ html, body {
 
 .download-a:hover {
   text-decoration: underline;
-}
+  }
 
-.Statistics-border-djl {
-  float: left;
-  margin-top: 2px;
-}
-  
-#span_num {
-  float: left;
-  margin-top: 5px;
-}
-  
-.iframeBox {
-  position: relative;
-  width: 76%;
-  height: 800px;
-  display: inline-block;
-  vertical-align: top;
-  border: 0;
-  -webkit-overflow-scrolling: touch;
-  overflow: auto;
-}
-  
-iframe {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  -webkit-overflow-scrolling: touch;
-  overflow: auto;
-  border: none;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  height: 100%;
-  min-height: 100%;
-}
-
-#tree {
-  width: 20%;
-  float: none;
-  display: inline-block;
-}
-
-#tree.dtree-mobile {
-  display: none;
-}
-  
-@media screen and (max-width: 768px) {
-  .qr_nr {
-    width: 60%;
+  .Statistics-border-djl {
     float: left;
-    padding-left: 2%;
+    margin-top: 2px;
   }
   
-  .download-a {
-    margin-left: 30%;
+  #span_num {
     float: left;
+    margin-top: 5px;
+  }
+  
+  .iframeBox {
+    position: relative;
+    width: 76%;
+    height: 800px;
+    display: inline-block;
+    vertical-align: top;
+    border: 0;
+    -webkit-overflow-scrolling: touch;
+    overflow: auto;
+  }
+  
+  iframe {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    -webkit-overflow-scrolling: touch;
+    overflow: auto;
+    border: none;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    min-height: 100%;
+  }
+  
+  #tree {
+    width: 20%;
+    float: none;
+    display: inline-block;
+  }
+  
+  #tree.dtree-mobile {
+    display: none;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .qr_nr {
+      width: 60%;
+      float: left;
+      padding-left: 2%;
+    }
+    
+    .download-a {
+      margin-left: 30%;
+      float: left;
   }
   
   .iframeBox {
@@ -101,6 +101,16 @@ iframe {
     float: left;
     padding-left: 2%;
   }
+}
+
+.s-ArticleDetails-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.s-Article-right {
+  width: 200px;
+  flex-shrink: 0;
 }
 
 .s-Article-content .Article-text div {
@@ -233,6 +243,97 @@ iframe {
     input[type="checkbox"]:checked + label:before {
       background: url(http://image.ruijie.com.cn/UIA/img/checkico_on.png) no-repeat;
       background-size: 100%;
+    }
+
+    .recommend-list {
+      .item {
+        position: relative;
+        padding-left: 26px;
+      }
+      label {
+        position: absolute;
+        left: 0;
+        top: 4px;
+      }
+      a {
+        color: #777777;
+        font-size: 14px;
+        position: relative;
+        padding-left: 10px;
+        display: block;
+        word-break: break-all;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .more {
+      width: 100%;
+      text-align: center;
+      font-size: 14px;
+      color: #333333;
+      display: block;
+      text-decoration: underline;
+    }
+
+    .m-down {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 1px solid #e6e6e6;
+      padding: 18px 0;
+      bottom: 80px;
+      width: 100%;
+      box-sizing: border-box;
+      left: 0;
+      z-index: 99;
+      .all-check {
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+      }
+      .down a {
+        font-size: 14px;
+        background: #cc1329;
+        color: #fff;
+        width: 80px;
+        height: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .down a .ico {
+        height: 15px;
+        margin-right: 6px;
+      }
+    }
+  }
+}
+
+.my-container {
+  width: auto;
+}
+
+@media (max-width: 1024px) {
+  .page4-right {
+    display: none;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .s-ArticleDetails-wrapper {
+    display: block;
+
+    .s-Article-right {
+      width: 100%;
+      margin-left: 0;
+    }
+
+    .m-down {
+      border: none;
     }
   }
 }
