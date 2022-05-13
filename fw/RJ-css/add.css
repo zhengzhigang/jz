@@ -801,8 +801,24 @@
 }
 /*第3页   结束*/
 /*第4页   开始*/
-.lx-page4 .flex .page4-right {
-  display: none;
+.z-content {
+  max-width: 1400px;
+  margin: auto;
+}
+
+.z-my-container {
+  max-width: 1400px;
+  margin: auto;
+}
+
+@media (max-width: 1024px) {
+  .z-content {
+    margin: 0 20px;
+  }
+
+  .z-my-container {
+    margin: 0 20px;
+  }
 }
 .lx-page4 .baohan {
   padding-bottom: 20px;
@@ -969,7 +985,6 @@
   border-radius: 100%;
 }
 .down-content .block .block-list .item {
-  padding-left: 30px;
   position: relative;
   display: flex;
   justify-content: flex-end;
@@ -977,18 +992,14 @@
   margin-bottom: 15px;
 }
 .down-content .block .block-list .item label {
-  position: absolute;
-  left: 0;
-  top: 5px;
   cursor: pointer;
 }
 .down-content .block .block-list .item a {
   display: block;
-  width: 100%;
   color: #333333;
   font-size: 14px;
-  margin-bottom: 5px;
   margin-right: auto;
+  padding: 5px 0;
 }
 .down-content .block .block-list .item .time {
   display: flex;
@@ -1341,16 +1352,10 @@
     margin-left: 40px;
   }
   .down-content .block .block-list .item {
-    padding-left: 40px;
     margin-bottom: 25px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-  }
-  .down-content .block .block-list .item label {
-    position: absolute;
-    left: 0;
-    top: 4px;
   }
   .down-content .block .block-list .item a {
     font-size: 14px;
@@ -1449,6 +1454,8 @@
   .page4-right .xq a {
     color: #222222;
     font-size: 14px;
+  }
+  .page4-right .xq a:hover {
     text-decoration: underline;
   }
   .page4-right .tj {
@@ -1466,6 +1473,9 @@
     padding-left: 10px;
     display: block;
     word-break: break-all;
+  }
+  .page4-right .tj ul li a:hover {
+    text-decoration: underline;
   }
   .page4-right .tj ul li a:before {
     content: "";
@@ -1686,16 +1696,10 @@
     padding-left: 0px;
   }
   .down-content .block .block-list .item {
-    padding-left: 40px;
     margin-bottom: 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  .down-content .block .block-list .item label {
-    position: absolute;
-    left: 0;
-    top: 4px;
   }
   .down-content .block .block-list .item a {
     font-size: 16px;
@@ -1735,6 +1739,7 @@
 
   .page4-right {
     display: block;
+    margin-bottom: 20px;
   }
   .page4-right .t {
     color: #222222;
@@ -1755,6 +1760,61 @@
   .page4-right .xq a {
     color: #222222;
     font-size: 14px;
+  }
+  .page4-right .tj {
+    background: #f7f7f7;
+    border: 1px solid #e6e6e6;
+    padding: 18px 5px 18px 18px;
+  }
+  .page4-right .tj ul li {
+    margin-bottom: 10px;
+  }
+  .page4-right .tj ul li a {
+    color: #777777;
+    font-size: 14px;
+    position: relative;
+    padding-left: 10px;
+    display: block;
+  }
+  .page4-right .tj ul li a:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: -8px;
+    top: 10px;
+    width: 8px;
+    height: 2px;
+    background: #a2a2a2;
+  }
+}
+@media (max-width: 768px) {
+  .page4-right {
+    display: block;
+    margin-bottom: 20px;
+    /*1228*/
+    /*1228*/
+  }
+  .page4-right .t {
+    color: #222222;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .page4-right .t .ico {
+    margin-right: 10px;
+  }
+  .page4-right .xq {
+    background: #f7f7f7;
+    border: 1px solid #e6e6e6;
+    padding: 18px;
+    margin-bottom: 20px;
+  }
+  .page4-right .xq a {
+    color: #222222;
+    font-size: 14px;
+  }
+  .page4-right .xq a:hover {
     text-decoration: underline;
   }
   .page4-right .tj {
@@ -1771,6 +1831,10 @@
     position: relative;
     padding-left: 10px;
     display: block;
+    word-break: break-all;
+  }
+  .page4-right .tj ul li a:hover {
+    text-decoration: underline;
   }
   .page4-right .tj ul li a:before {
     content: "";

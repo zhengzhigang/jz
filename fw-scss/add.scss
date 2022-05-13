@@ -822,11 +822,27 @@
 /*第3页   结束*/
 
 /*第4页   开始*/
+.z-content {
+  max-width: 1400px;
+  margin: auto;
+}
+
+.z-my-container {
+  max-width: 1400px;
+  margin: auto;
+}
+
+@media (max-width: 1024px) {
+  .z-content {
+    margin: 0 20px;
+  }
+  
+  .z-my-container {
+    margin: 0 20px;
+  }
+}
 
 .lx-page4 {
-  .flex .page4-right {
-    display: none;
-  }
   .baohan {
     padding-bottom: 20px;
     h3 {
@@ -1003,7 +1019,6 @@
       }
 
       .item {
-        padding-left: 30px;
         position: relative;
         display: flex;
         justify-content: flex-end;
@@ -1012,18 +1027,14 @@
       }
       
       .item label {
-        position: absolute;
-        left: 0;
-        top: 5px;
         cursor: pointer;
       }
       .item a {
         display: block;
-        width: 100%;
         color: #333333;
         font-size: 14px;
-        margin-bottom: 5px;
         margin-right: auto;
+        padding: 5px 0;
       }
       .item .time {
         display: flex;
@@ -1411,16 +1422,10 @@
       .block-list {
         margin-left: 40px;
         .item {
-          padding-left: 40px;
           margin-bottom: 25px;
           display: flex;
           justify-content: space-between;
           align-items: flex-start;
-        }
-        .item label {
-          position: absolute;
-          left: 0;
-          top: 4px;
         }
         .item a {
           font-size: 14px;
@@ -1530,7 +1535,10 @@
     .xq a {
       color: #222222;
       font-size: 14px;
-      text-decoration: underline;
+      
+      &:hover {
+        text-decoration: underline;
+      }
     }
   
     .tj {
@@ -1550,6 +1558,10 @@
       padding-left: 10px;
       display: block;
       word-break: break-all;
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
     /*1228*/
     .tj ul li a:before {
@@ -1782,16 +1794,10 @@
       }
       .block-list {
         .item {
-          padding-left: 40px;
           margin-bottom: 25px;
           display: flex;
           justify-content: space-between;
           align-items: center;
-        }
-        .item label {
-          position: absolute;
-          left: 0;
-          top: 4px;
         }
         .item a {
           font-size: 16px;
@@ -1835,6 +1841,7 @@
 
   .page4-right {
     display: block;
+    margin-bottom: 20px;
 
     .t {
       color: #222222;
@@ -1855,7 +1862,6 @@
     .xq a {
       color: #222222;
       font-size: 14px;
-      text-decoration: underline;
     }
   
     .tj {
@@ -1874,6 +1880,71 @@
       padding-left: 10px;
       display: block;
     }
+    .tj ul li a:before {
+      content: "";
+      display: block;
+      position: absolute;
+      left: -8px;
+      top: 10px;
+      width: 8px;
+      height: 2px;
+      background: #a2a2a2;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .page4-right {
+    display: block;
+    margin-bottom: 20px;
+    .t {
+      color: #222222;
+      font-size: 20px;
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .t .ico {
+      margin-right: 10px;
+    }
+    .xq {
+      background: #f7f7f7;
+      border: 1px solid #e6e6e6;
+      padding: 18px;
+      margin-bottom: 20px;
+    }
+    .xq a {
+      color: #222222;
+      font-size: 14px;
+      
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  
+    .tj {
+      background: #f7f7f7;
+      border: 1px solid #e6e6e6;
+      padding: 18px 5px 18px 18px;
+    }
+  
+    .tj ul li {
+      margin-bottom: 10px;
+    }
+    /*1228*/
+    .tj ul li a {
+      color: #777777;
+      font-size: 14px;
+      position: relative;
+      padding-left: 10px;
+      display: block;
+      word-break: break-all;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    /*1228*/
     .tj ul li a:before {
       content: "";
       display: block;
