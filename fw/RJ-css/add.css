@@ -2248,6 +2248,7 @@
   color: #222222;
   font-size: 14px;
   background: #f7f7f7;
+  box-sizing: border-box;
 }
 .grade .line {
   display: flex;
