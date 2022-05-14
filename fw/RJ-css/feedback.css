@@ -217,12 +217,12 @@
   cursor: pointer;
 }
 
-@media (max-width: 900px) {
+@media screen and (max-width: 900px) {
   .x-content {
     margin: 0 20px;
   }
 }
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .x-form__item-input textarea {
     min-height: 180px;
   }

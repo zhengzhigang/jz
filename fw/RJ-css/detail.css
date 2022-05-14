@@ -16,6 +16,10 @@ html, body {
   text-decoration: underline;
 }
 
+.Statistics-border {
+  line-height: 50px;
+}
+
 .Statistics-border-djl {
   float: left;
   margin-top: 2px;

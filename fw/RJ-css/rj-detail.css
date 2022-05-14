@@ -307,12 +307,12 @@ iframe {
   width: auto;
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .page4-right {
     display: none;
   }
 }
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .s-ArticleDetails-wrapper {
     display: block;
   }

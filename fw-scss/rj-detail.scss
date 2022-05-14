@@ -58,7 +58,7 @@ html, body {
     display: none;
   }
   
-  @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .qr_nr {
       width: 60%;
       float: left;
@@ -325,14 +325,14 @@ html, body {
   width: auto;
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .page4-right {
     display: none;
   }
 
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .s-ArticleDetails-wrapper {
     display: block;
 
