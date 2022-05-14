@@ -970,14 +970,12 @@
       font-size: 18px;
       font-weight: bold;
       padding: 10px 0;
-      padding-left: 30px;
     }
     h5 {
       color: #333333;
       font-size: 16px;
       font-weight: bold;
       padding: 10px 0;
-      padding-left: 30px;
 
       &.block-dot__title {
         padding-left: 0;
@@ -986,8 +984,6 @@
     }
 
     .block-list {
-      margin-left: 30px;
-
       &__dot-empty {
         display: flex;
         justify-content: center;
@@ -1418,7 +1414,6 @@
         font-size: 16px;
         font-weight: bold;
         padding: 10px 0;
-        padding-left: 40px;
       }
       .block-list {
         margin-left: 40px;
