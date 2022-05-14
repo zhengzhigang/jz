@@ -39,7 +39,10 @@
   min-height: 280px;
   box-sizing: border-box;
   font-size: 16px;
-  border: 1px solid #767676;
+  border: 1px solid #E0E0E0;
+}
+.x-form__item-input textarea:focus {
+  border-color: #767676;
 }
 .x-form__item-input input {
   width: 100%;
@@ -53,6 +56,9 @@
   box-sizing: border-box;
   font-size: 16px;
   border: 1px solid #E0E0E0;
+}
+.x-form__item-input input:focus {
+  border-color: #767676;
 }
 .x-form__item-input input::-webkit-input-placeholder,
 .x-form__item-input input::-moz-input-placeholder,
@@ -69,7 +75,7 @@
   font-size: 14px;
   color: #999999;
   bottom: 17px;
-  right: 90px;
+  right: 0;
 }
 .x-form__item-input-required {
   position: absolute;
@@ -101,7 +107,7 @@
 .x-form__checkbox label {
   position: absolute;
   left: 0;
-  top: 4px;
+  top: 2px;
   cursor: pointer;
 }
 .x-form__checkbox input[type="checkbox"] + label:before {
@@ -205,8 +211,9 @@
 }
 .x-form__select-icon {
   position: absolute;
-  top: 9px;
-  right: 4px;
+  width: 12px;
+  top: 16px;
+  right: 16px;
   cursor: pointer;
 }
 

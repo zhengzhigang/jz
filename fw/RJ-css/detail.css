@@ -149,7 +149,7 @@ iframe {
 .s-Article-right .xq {
   background: #f7f7f7;
   border: 1px solid #e6e6e6;
-  padding: 18px;
+  padding: 18px 20px;
   margin-bottom: 20px;
 }
 .s-Article-right .xq a {
@@ -162,7 +162,7 @@ iframe {
 .s-Article-right .tj {
   background: #f7f7f7;
   border: 1px solid #e6e6e6;
-  padding: 18px 5px 18px 10px;
+  padding: 18px 20px 18px 10px;
 }
 .s-Article-right .tj ul li {
   margin-bottom: 10px;
