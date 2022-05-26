@@ -49,13 +49,15 @@
   justify-content: space-between;
   position: absolute;
   width: 100%;
-  top: 40%;
+  top: 50%;
   left: 0;
+  margin-top: -14px;
 }
 .lx-page5 .grade_product .arrow {
   display: block;
   width: 28px;
   height: 28px;
+  cursor: pointer;
 }
 .lx-page5 .grade_product .arrow.left {
   background: url(../RJ-img/swiper-arrow-left.png) center/100% no-repeat;
