@@ -1,0 +1,71 @@
+.lx-page5 .left .pingfen {
+  padding-left: 39px;
+  justify-content: start;
+}
+.lx-page5 .grade-product__title {
+  font-size: 24px;
+  color: #24497F;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.lx-page5 .grade_product {
+  margin-bottom: 20px;
+  background-color: #f7f7f7;
+}
+.lx-page5 .grade_product_box {
+  position: relative;
+}
+.lx-page5 .grade_product .swiper-container {
+  margin: 0 44px;
+}
+.lx-page5 .grade_product .swiper-slide {
+  background-color: #fff;
+}
+.lx-page5 .grade_product .swiper-slide .img-box {
+  height: 175px;
+  display: block;
+  margin-bottom: 23px;
+  text-align: center;
+}
+.lx-page5 .grade_product .swiper-slide .img-box img {
+  width: 100%;
+  max-width: 200px;
+  margin: auto;
+}
+.lx-page5 .grade_product .swiper-slide .slide-desc {
+  font-size: 14px;
+  color: #666666;
+  margin-bottom: 29px;
+  text-align: center;
+}
+.lx-page5 .grade_product .swiper-slide .slide-link {
+  margin-bottom: 28px;
+  font-size: 14px;
+  color: #CD0C22;
+  text-align: center;
+}
+.lx-page5 .grade_product .arrow-group {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  top: 40%;
+  left: 0;
+}
+.lx-page5 .grade_product .arrow {
+  display: block;
+  width: 28px;
+  height: 28px;
+}
+.lx-page5 .grade_product .arrow.left {
+  background: url(../RJ-img/swiper-arrow-left.png) center/100% no-repeat;
+}
+.lx-page5 .grade_product .arrow.right {
+  background: url(../RJ-img/swiper-arrow-right.png) center/100% no-repeat;
+}
+.lx-page5 .grade_product.grade_product_flex .arrow-group {
+  display: none;
+}
+.lx-page5 .grade_product.grade_product_flex .swiper-wrapper {
+  justify-content: center;
+}
