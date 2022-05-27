@@ -11,6 +11,7 @@
     color: #24497F;
     text-align: center;
     margin-bottom: 30px;
+    font-weight: bold;
   }
 
   .grade_product {
@@ -29,7 +30,7 @@
       background-color: #fff;
   
       .img-box {
-        height: 175px;
+        max-height: 200px;
         display: block;
         margin-bottom: 23px;
         text-align: center;
@@ -45,7 +46,13 @@
         font-size: 14px;
         color: #666666;
         margin-bottom: 29px;
+        padding: 0 10px;
         text-align: center;
+        display: -webkit-box;
+        /* autoprefixer: ignore next */
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
       }
   
       .slide-link {
@@ -88,6 +95,18 @@
 
       .swiper-wrapper {
         justify-content: center;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lx-page5 {
+    .grade_product {
+      .arrow-group {
+        left: 5px;
+        right: 5px;
+        width: auto;
       }
     }
   }
