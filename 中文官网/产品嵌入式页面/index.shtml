@@ -1,0 +1,707 @@
+﻿
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no" />
+    <meta property="wb:webmaster" content="209aa6880b9c0855" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="robots" content="all" />
+    <title>
+
+    </title>
+    <link rel="shortcut icon" href="//image.ruijie.com.cn/UIA/images/favicon.ico" type="image/x-icon" />
+</head>
+<body class="r-body">
+
+    <div class="ws-childernacflex">
+        <!-- #include file="/HeaderUC_R.html" -->
+    </div>
+
+    <script src="//image.ruijie.com.cn/UIA/Scripts_R/reload.js" type="text/javascript"></script>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="//image.ruijie.com.cn/UIA/v3.0/common/styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="//image.ruijie.com.cn/UIA/v3.0/common/styles/video-js.min.css" />
+    <!--private style-->
+    <link rel="stylesheet" href="//image.ruijie.com.cn/UIA/v3.0/common/styles/common-blocks.css" />
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" href="//image.ruijie.com.cn/UIA/v3.0/common/styles/common-blocks-ie8.css" />`
+    <![endif]-->
+    <link rel="stylesheet" href="//image.ruijie.com.cn/UIA/v3.0/product/styles/product-detail.css" />
+
+
+    <div class="my-container other-industry">
+        <div class="pc-breadnav">
+            <p>
+                <a href="//www.ruijie.com.cn">首页</a>
+                <span>&gt;</span><a href="/cp/">产品</a>
+                <span>&gt;</span>
+                <a href="/cp/fw/">
+                    服务产品
+                </a>
+                <span>&gt;</span>
+                <a href="/cp/fw-wb/">
+                    维保
+                </a>
+                <span>&gt;</span>
+                维保服务
+            </p>
+        </div>
+    </div>
+
+
+    <!--The middle section-->
+    <div class="ws-product-detail">
+        <div class="com-content clearfix">
+            <div class="ws-product-detailctitle">维保服务</div>
+            <!--banner-->
+            <div class="ws-pro-de-banner">
+                <div id="ws-pro-deCarousel" class="swiper-container">
+                    <div class="swiper-wrapper ws-pro-de-baitem">
+                        <div class="swiper-slide">
+                            <div class="img-box">
+                                <img src="//upimg.ruijie.com.cn/Product/Album/ca3966ce-8e4b-4ee5-a1f7-2130f0ea5ab0/wb4.jpg" alt="维保服务" />
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img-box">
+                                <img src="//upimg.ruijie.com.cn/Product/Album/ca3966ce-8e4b-4ee5-a1f7-2130f0ea5ab0/wb3.jpg" alt="维保服务" />
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img-box">
+                                <img src="//upimg.ruijie.com.cn/Product/Album/ca3966ce-8e4b-4ee5-a1f7-2130f0ea5ab0/wb2.jpg" alt="维保服务" />
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img-box">
+                                <img src="//upimg.ruijie.com.cn/Product/Album/ca3966ce-8e4b-4ee5-a1f7-2130f0ea5ab0/wb1.jpg" alt="维保服务" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 控制按钮 -->
+                <div class="ws-pro-deControl">
+                    <div>
+                        <img src="//upimg.ruijie.com.cn/Product/Album/ca3966ce-8e4b-4ee5-a1f7-2130f0ea5ab0/wb4.jpg" alt="维保服务" />
+                    </div>
+                    <div>
+                        <img src="//upimg.ruijie.com.cn/Product/Album/ca3966ce-8e4b-4ee5-a1f7-2130f0ea5ab0/wb3.jpg" alt="维保服务" />
+                    </div>
+                    <div>
+                        <img src="//upimg.ruijie.com.cn/Product/Album/ca3966ce-8e4b-4ee5-a1f7-2130f0ea5ab0/wb2.jpg" alt="维保服务" />
+                    </div>
+                    <div>
+                        <img src="//upimg.ruijie.com.cn/Product/Album/ca3966ce-8e4b-4ee5-a1f7-2130f0ea5ab0/wb1.jpg" alt="维保服务" />
+                    </div>
+                </div>
+            </div>
+            <!--connect-->
+            <div class="ws-pro-de-connect">
+                <div class="ws-pro-de-padding">
+                    <div class="ws-pro-de-ccontent">
+                        <div class="ws-pro-de-truecontent">
+                            <div class="default-fold">
+                                <div class="myStyle">
+                                    <p>设备过保后，随着使用时间的增加，产品故障率将会进一步升高，将对网络的稳定运行带来一系列挑战。</p>
+
+                                    <p>锐捷网络为购买数通产品的客户推出专业维护保障服务（维保服务）解决方案。在维保期内，锐捷服务工程师通过远程、现场等方式，对用户的网络设备对客户网络设备软、硬件问题进行诊断、处理，对关键设备组件提供备品备件，保障网络可用性，降低设备故障对业务运作的影响，满足客户对网络系统高效、稳定运行的要求。</p>
+
+                                    <p>锐捷维保服务分为R-Care维保服务和维保专项服务，可满足客户不同等级的维保服务需求。</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <a class="red-link" href="#" target="_blank">更多+</a> -->
+                    <a class="btn btn-link red-link left-link open-btn">更多+</a>
+                    <div class="ws-pro-de-cgroup">
+                        <a class="product-consultation pre-sales-pop-ups-btn">
+                            <img src="//image.ruijie.com.cn/UIA/v3.0/product/images/product-detail-service.png" alt="">
+                            <span>在线客服</span>
+                        </a>
+                        <a href="http://bbs.ruijie.com.cn/forum.php?mod=forumdisplay&amp;fid=73" target="_blank">
+                            <img src="//image.ruijie.com.cn/UIA/v3.0/product/images/product-detail-message.png" alt="">
+                            <span>产品社区</span>
+                        </a>
+                        <a href="/yx/cp-fw-wb/wbfw/" target="_blank">
+                            <img src="//image.ruijie.com.cn/UIA/v3.0/product/images/product-detail-community.png" alt="">
+                            <span>资料下载</span>
+                        </a>
+                        <a class="software-download-btn" style="display: none" href="/fw/rj-cp-wbfw/" target="_blank">
+                            <img src="//image.ruijie.com.cn/UIA/v3.0/product/images/product-detail-downlad.png" alt="">
+                            <span>软件下载</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--切页-->
+        <div id="ws-pro-de-switchId" class="ws-pro-de-switch">
+            <div class="ws-pro-de-swnav">
+                <div class="com-content">
+                    <ul>
+                        <li>
+                            <a>
+                                服务介绍
+                            </a>
+                        </li>
+                        <li class="product-marketing hidden">
+                            <a>
+                                产品资料
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ws-pro-de-swpage" id="ws-swpage">
+
+
+
+
+
+
+                <div class="ws-pro-de-swpageone">
+                    <div class="ws-mb-nav clearfix">
+                        <div class="com-content clearfix">
+                            <div class="ws-mb-title">
+                                服务介绍
+                            </div>
+                            <div class="ws-mb-img">
+                                <img src="//image.ruijie.com.cn/UIA/v3.0/product/images/icon-up.png" alt="">
+                                <img src="//image.ruijie.com.cn/UIA/v3.0/product/images/product-detail-jiantou.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ws-mb-swpage">
+                        <div class="com-content">
+                            <div class="myStyle">&nbsp;</div>
+                            <link href="//image.ruijie.com.cn/UIA/v2.0/website/product/type/wbfw/RJ-css/item.css" rel="stylesheet" />
+                            <div class="myStyle">
+                                <!--嵌入内容开始-->
+                                <div class="t-wrap">
+                                    <div class="t-cont-item cont1">
+                                        <div class="t-content">
+                                            <img alt="" class="text" src="//image.ruijie.com.cn/UIA/v2.0/website/product/type/wbfw/RJ-img/home-page1-item1.png" /> <a href="http://www.ruijie.com.cn/cp/fw-wb/20190429/"><img alt="" class="btn" src="//image.ruijie.com.cn/UIA/v2.0/website/product/type/wbfw/RJ-img/home-page1-item2.png" /></a>
+                                            <p class="word">资深顾问为您定制专属高品质保障方案</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="t-cont-item cont2">
+                                        <div class="t-content">
+                                            <dl>
+                                                <dt><img alt="" src="//image.ruijie.com.cn/UIA/v2.0/website/product/type/wbfw/RJ-img/home-page2-item1.jpg" /></dt>
+                                                <dd>买车，我们会购买车险</dd>
+                                            </dl>
+
+                                            <dl>
+                                                <dt><img alt="" src="//image.ruijie.com.cn/UIA/v2.0/website/product/type/wbfw/RJ-img/home-page2-item2.jpg" /></dt>
+                                                <dd>出行，我们会购买意外险</dd>
+                                            </dl>
+
+                                            <dl>
+                                                <dt><img alt="" src="//image.ruijie.com.cn/UIA/v2.0/website/product/type/wbfw/RJ-img/home-page2-item3.jpg" /></dt>
+                                                <dd>工作，我们会购买失业险</dd>
+                                            </dl>
+
+                                            <dl>
+                                                <dt><img alt="" src="//image.ruijie.com.cn/UIA/v2.0/website/product/type/wbfw/RJ-img/home-page2-item4.jpg" /></dt>
+                                                <dd>生活，我们会购买疾病险</dd>
+                                            </dl>
+
+                                            <div class="des">
+                                                <p>作为生产生活中枢神经的网络，也面临着各种各样的风险，</p>
+
+                                                <h4>您的设备，还在裸奔吗？</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="t-cont-item cont3">
+                                        <div class="t-content">
+                                            <div class="t-main-title">设备过保的风险和挑战</div>
+
+                                            <dl>
+                                                <dt><img alt="" src="//image.ruijie.com.cn/UIA/v2.0/website/product/type/wbfw/RJ-img/home-page3-item1.png" /></dt>
+                                                <dd>
+                                                    <h6>网络运行存在隐患</h6>
+
+                                                    <p>网络运行存在隐患，若无定期预防维护，容易引发故障，危及业务正常运行</p>
+                                                </dd>
+                                            </dl>
+
+                                            <dl>
+                                                <dt><img alt="" src="//image.ruijie.com.cn/UIA/v2.0/website/product/type/wbfw/RJ-img/home-page3-item2.png" /></dt>
+                                                <dd>
+                                                    <h6>备件到达时间无法保证</h6>
+
+                                                    <p>缺乏专业备件支持，无法快速获得备件替换坏损设备，确保业务连续性</p>
+                                                </dd>
+                                            </dl>
+
+                                            <dl>
+                                                <dt><img alt="" src="//image.ruijie.com.cn/UIA/v2.0/website/product/type/wbfw/RJ-img/home-page3-item3.png" /></dt>
+                                                <dd>
+                                                    <h6>故障解决时间无法保障</h6>
+
+                                                    <p>处理过程缺乏专业技术人员及标准服务规范支持，故障解决时间无法保障</p>
+                                                </dd>
+                                            </dl>
+
+                                            <dl class="last-child">
+                                                <dt><img alt="" src="//image.ruijie.com.cn/UIA/v2.0/website/product/type/wbfw/RJ-img/home-page3-item4.png" /></dt>
+                                                <dd>
+                                                    <h6>网络维护费用不可控</h6>
+
+                                                    <p>根据故障大小、范围及响应快慢要求不同，费用支出不固定，需较大资金准备</p>
+                                                </dd>
+                                            </dl>
+
+                                            <div class="des">
+                                                <h4>设备过保的风险，你还在独自承担吗？</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div class="t-content">
+                                            <div class="tag-img"><img alt="" src="//image.ruijie.com.cn/UIA/v2.0/website/product/type/wbfw/RJ-img/home-page4-item1.png" /></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="t-cont-item cont4">
+                                        <div class="t-content">
+                                            <div class="t-main-title">
+                                                R-Care维保服务
+                                                <p>满足不同等级维护保障需求</p>
+                                            </div>
+
+                                            <div class="t-content">
+                                                <table border="0" cellpadding="0" cellspacing="0" class="s-table">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="title" colspan="7">R-Care维保服务内容</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="sub-title" rowspan="2">服务类别</td>
+                                                            <td class="sub-title" rowspan="2">服务项目</td>
+                                                            <td class="sub-title" colspan="2">基础维保</td>
+                                                            <td class="sub-title" colspan="4">高级维保</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>基础</td>
+                                                            <td>基础+</td>
+                                                            <td>标准</td>
+                                                            <td>银牌</td>
+                                                            <td>金牌</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td rowspan="3">远程支持服务</td>
+                                                            <td>热线技术支持</td>
+                                                            <td>7&times;24</td>
+                                                            <td>7&times;24</td>
+                                                            <td>7&times;24</td>
+                                                            <td>7&times;24</td>
+                                                            <td>7&times;24</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>远程问题处理</td>
+                                                            <td>7&times;24&times;30min</td>
+                                                            <td>7&times;24&times;30min</td>
+                                                            <td>7&times;24&times;30min</td>
+                                                            <td>7&times;24&times;30min</td>
+                                                            <td>7&times;24&times;30min</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>在线技术支持</td>
+                                                            <td>是</td>
+                                                            <td>是</td>
+                                                            <td>是</td>
+                                                            <td>是</td>
+                                                            <td>是</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>软件支持服务</td>
+                                                            <td>软件更新支持</td>
+                                                            <td>是</td>
+                                                            <td>是</td>
+                                                            <td>是</td>
+                                                            <td>是</td>
+                                                            <td>是</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td rowspan="2">硬件支持服务</td>
+                                                            <td>硬件返修</td>
+                                                            <td>5&times;8&times;30CD</td>
+                                                            <td>否</td>
+                                                            <td>否</td>
+                                                            <td>否</td>
+                                                            <td>否</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>备件先行</td>
+                                                            <td>否</td>
+                                                            <td>5&times;9&times;NBD</td>
+                                                            <td>5&times;9&times;NBD</td>
+                                                            <td>7&times;9&times;ND</td>
+                                                            <td>7&times;24&times;4</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>现场支持服务</td>
+                                                            <td>现场问题处理</td>
+                                                            <td>否</td>
+                                                            <td>否</td>
+                                                            <td>5&times;9&times;NBD</td>
+                                                            <td>7&times;9&times;ND</td>
+                                                            <td>7&times;24&times;4</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td rowspan="2">主动支持服务</td>
+                                                            <td>设备健康检查</td>
+                                                            <td>否</td>
+                                                            <td>否</td>
+                                                            <td>否</td>
+                                                            <td>否</td>
+                                                            <td>2次/年</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>支持计划与报告</td>
+                                                            <td>否</td>
+                                                            <td>否</td>
+                                                            <td>否</td>
+                                                            <td>否</td>
+                                                            <td>是</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+
+                                                <p class="des" style="text-align: center;">
+                                                    说明：适用于所有数通产品（云桌面、SMB、智慧教室产品除外）<br />
+                                                    *注：CD &ndash; 日历日；ND &ndash; 第二个自然日；NBD &ndash; 第二个工作日
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="t-cont-item cont5">
+                                        <div class="t-content">
+                                            <div class="t-main-title">
+                                                维保专项服务
+                                                <p>构建您专属的维保服务方案</p>
+                                            </div>
+
+                                            <table border="0" cellpadding="0" cellspacing="0" class="s-table">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="title" colspan="3">维保专项服务内容</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="sub-title">维保专项服务分类</td>
+                                                        <td class="sub-title">维保专项服务子类</td>
+                                                        <td class="sub-title">服务内容</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="sub-title" rowspan="2">备件先行服务</td>
+                                                        <td>
+                                                            5&times;9&times;NBD备件先行服务<br />
+                                                            7&times;24&times;4备件先行服务
+                                                        </td>
+                                                        <td class="textLeft">提供故障设备更换件</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>现场备件服务</td>
+                                                        <td class="textLeft">现场备件更换支持</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="sub-title" rowspan="5">单次维保服务</td>
+                                                        <td>单次现场技术支持服务</td>
+                                                        <td class="textLeft">
+                                                            现场故障处理<br />
+                                                            网络设备维护<br />
+                                                            备件更换支持<br />
+                                                            网络设备监控预防
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="textLeft">
+                                                        <td>保外单次维修服务</td>
+                                                        <td class="textLeft">设备故障维修</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>巡检服务</td>
+                                                        <td class="textLeft">
+                                                            设备健康检查<br />
+                                                            设备健康检查报告
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>重要时刻保障服务</td>
+                                                        <td class="textLeft">
+                                                            网络运行状态检查<br />
+                                                            现场值守<br />
+                                                            服务总结报告
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>定制网络维护服务</td>
+                                                        <td class="textLeft">
+                                                            网络变更：配置变更、方案变更、IP地址重新规划、设备替换、利旧设备<br />
+                                                            等变更类技术支持<br />
+                                                            网络升级服务：跨版本的升级支持
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+
+                                            <p class="des">说明：维保专项服务(除巡检服务外)需要搭配R-Care维保服务购买，至少搭配基础维保服务购买</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="t-cont-item cont6">
+                                        <div class="t-content">
+                                            <div class="t-main-title">看得见的好服务，原厂更专业</div>
+
+                                            <dl>
+                                                <dt><img alt="" src="//image.ruijie.com.cn/UIA/v2.0/website/product/type/wbfw/RJ-img/home-page6-item1.jpg" /></dt>
+                                                <dd>
+                                                    <h6>
+                                                        覆盖全国，我们<br />
+                                                        在每一位客户身边
+                                                    </h6>
+
+                                                    <p><span>&bull;</span>覆盖全国的备件支持体系，备件响应速度及时</p>
+
+                                                    <p><span>&bull;</span>覆盖全国的服务网络，现场技术支持及时到达</p>
+                                                </dd>
+                                            </dl>
+
+                                            <dl>
+                                                <dt><img alt="" src="//image.ruijie.com.cn/UIA/v2.0/website/product/type/wbfw/RJ-img/home-page6-item2.jpg" /></dt>
+                                                <dd>
+                                                    <h6>
+                                                        三大团队，专业技术<br />
+                                                        人员支撑体系
+                                                    </h6>
+
+                                                    <p><span>&bull;</span>一线工程师+二线专家+研发三大技术团队全力支撑，疑难问题快速解决</p>
+                                                </dd>
+                                            </dl>
+
+                                            <dl>
+                                                <dt><img alt="" src="//image.ruijie.com.cn/UIA/v2.0/website/product/type/wbfw/RJ-img/home-page6-item3.jpg" /></dt>
+                                                <dd>
+                                                    <h6>
+                                                        服务交付闭环，<br />
+                                                        严格保障服务质量
+                                                    </h6>
+
+                                                    <p><span>&bull;</span>闭环的服务管理体系支撑，有效提升服务效率</p>
+
+                                                    <p><span>&bull;</span>服务过程基于ISO9001、ISO20000等标准，保证服务质量</p>
+                                                </dd>
+                                            </dl>
+
+                                            <dl class="last-child">
+                                                <dt><img alt="" src="//image.ruijie.com.cn/UIA/v2.0/website/product/type/wbfw/RJ-img/home-page6-item4.jpg" /></dt>
+                                                <dd>
+                                                    <h6>
+                                                        多种服务支持通道，<br />
+                                                        服务请求方便快捷
+                                                    </h6>
+
+                                                    <p><span>&bull;</span>提供400热线、智能客服闪电兔、&ldquo;小锐云服&rdquo;APP等多种服务渠道，便捷处理服务请求。</p>
+                                                </dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+
+                                    <div class="t-cont-item cont7">
+                                        <div class="t-content">
+                                            <div class="t-main-title">用户口碑，不负信赖</div>
+
+                                            <div class="cont-item">
+                                                <dl>
+                                                    <dt>
+                                                        <img alt="" src="//image.ruijie.com.cn/UIA/v2.0/website/product/type/wbfw/RJ-img/home-page7-item1.jpg" />
+                                                        <p>北京歌华有线</p>
+                                                    </dt>
+                                                    <dd>锐捷网络为歌华提供包括驻场工程师服务、重要时刻现场保障服务和网络巡检服务等。凭借专业的解决方案和优秀的售后服务能力，锐捷为北京歌华有线提供网络的层层保护，全程保障网络的安全、可靠，为业务的迅猛发展，打造了一条信息化的高速路。</dd>
+                                                </dl>
+                                            </div>
+
+                                            <div class="cont-item">
+                                                <dl>
+                                                    <dt>
+                                                        <img alt="" src="//image.ruijie.com.cn/UIA/v2.0/website/product/type/wbfw/RJ-img/home-page7-item2.jpg" />
+                                                        <p>国家国防科技工业局</p>
+                                                    </dt>
+                                                    <dd>与锐捷网络的合作，让我们真切感受到了锐捷网络&ldquo;以客户为中心&rdquo;的服务理念，也深深感受到了锐捷网络员工的专业、执著、敬业的职业精神。事实证明，携手锐捷网络是我们明智的选择，锐捷网络的产品、锐捷网络的优质服务，让我们踏实、放心。</dd>
+                                                </dl>
+                                            </div>
+
+                                            <div class="cont-item">
+                                                <dl>
+                                                    <dt>
+                                                        <img alt="" src="//image.ruijie.com.cn/UIA/v2.0/website/product/type/wbfw/RJ-img/home-page7-item3.jpg" />
+                                                        <p>中国移动</p>
+                                                    </dt>
+                                                    <dd>锐捷的产品品质、售后服务得到了我们的充分认可，并多次在中国移动后评估排名第一。在集团WLAN业务开展的高峰期，锐捷服务以贴心的工作态度、专业的技术提供服务支持，为集团WLAN业务顺利运行保驾护航。</dd>
+                                                </dl>
+                                            </div>
+
+                                            <div class="cont-item">
+                                                <dl class="last-child">
+                                                    <dt>
+                                                        <img alt="" src="//image.ruijie.com.cn/UIA/v2.0/website/product/type/wbfw/RJ-img/home-page7-item4.jpg" />
+                                                        <p>阳光保险</p>
+                                                    </dt>
+                                                    <dd>锐捷在我们遇到紧急情况时，立即启动一级故障响应流程，锐捷服务经理同步联系二线专家及研发人员协助定位问题原因，备件快速到达现场，研发人员也即刻启程当日到达，在我们最需要的时候帮助我们解决了大问题。非常感谢锐捷紧急技术支持响应服务！</dd>
+                                                </dl>
+                                            </div>
+                                            <!-- <a href="#" class="more">更多案例</a> -->
+                                        </div>
+                                    </div>
+
+                                    <div class="t-cont-item cont8">
+                                        <div class="t-content">
+                                            <div class="t-main-title">选择锐捷网络维保服务，为您的网络上份保险吧！</div>
+                                            <a class="serve" href="http://www.ruijie.com.cn/cp/fw-wb/20190429/">即刻预约服务</a>
+
+                                            <p class="des">资深顾问为您定制专属高品质保障方案</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--嵌入内容结束-->
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="ws-pro-de-swpageone">
+                    <div class="ws-mb-nav clearfix product-marketing hidden">
+                        <div class="com-content clearfix">
+                            <div class="ws-mb-title">产品资料</div>
+                            <div class="ws-mb-img">
+                                <img src="//image.ruijie.com.cn/UIA/v3.0/product/images/icon-up.png" alt="">
+                                <img src="//image.ruijie.com.cn/UIA/v3.0/product/images/product-detail-jiantou.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ws-mb-swpage">
+                        <div class="com-content">
+                            <div class="product-brochure ws-pro-de-swsetup" style="display: none;">
+                                <div class="ws-pro-de-swtitle">
+                                    彩页
+                                </div>
+                                <ul></ul>
+                                <a class="red-link" target="_blank" href="/yx/cp-fw-wb/wbfw/">更多+</a>
+                            </div>
+                            <div class="product-journals ws-pro-de-swsetup" style="display: none;">
+                                <div class="ws-pro-de-swtitle">
+                                    刊物
+                                </div>
+                                <ul></ul>
+                                <a class="red-link" target="_blank" href="/yx/cp-fw-wb/wbfw/">更多+</a>
+                            </div>
+                            <div class="product-video ws-pro-de-swsetup" style="display: none;">
+                                <div class="ws-pro-de-swtitle">
+                                    视频
+                                </div>
+                                <ul></ul>
+                                <a class="red-link" target="_blank" href="/yx/cp-fw-wb/wbfw/">更多+</a>
+                            </div>
+                            <div class="product-other ws-pro-de-swsetup" style="display: none;">
+                                <div class="ws-pro-de-swtitle">
+                                    其它
+                                </div>
+                                <ul></ul>
+                                <a class="red-link" target="_blank" href="/yx/cp-fw-wb/wbfw/">更多+</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--底部新闻-->
+        <div class="block-section ws-news-page">
+            <div class="section-content row">
+                <div class="link-list-block col-md-6">
+                    <div class="block-title">解决方案</div>
+                    <div class="block-content">
+                        <div class="link-item">
+                            <a href="/gy/xw/37575" target="_blank" class="link-title col-md-8 col-xs-12 col-sm-8">
+                            快速定制开发  助力数字化校园建设
+                            </a>
+                            <div class="link-time col-md-2 col-sm-4">
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <a href="/zl-fa/fw-wb-wbfw-lb1/" target="_blank" class="btn btn-default btn-lg round-button circle">查看更多</a>
+                </div>
+                <div class="link-list-block col-md-6">
+                    <div class="block-title">成功案例</div>
+                    <div class="block-content">
+                        <div class="link-item">
+                            <a href="/al/cp-fw/37574" target="_blank" class="link-title col-md-8 col-xs-12 col-sm-8">
+                            精益求精  只为提供最优解决方案
+                            </a>
+                            <div class="link-time col-md-2 col-sm-4">
+
+
+
+                            </div>
+                        </div>
+                        <div class="link-item">
+                            <a href="/al/cp-fw/37573" target="_blank" class="link-title col-md-8 col-xs-12 col-sm-8">
+                            助力四川移动网络升级
+                            </a>
+                            <div class="link-time col-md-2 col-sm-4">
+
+
+
+                            </div>
+                        </div>
+                        <div class="link-item">
+                            <a href="/al/cp-fw/37572" target="_blank" class="link-title col-md-8 col-xs-12 col-sm-8">
+                            快捷高效 助力建行深化网点经营转型
+                            </a>
+                            <div class="link-time col-md-2 col-sm-4">
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <a href="/zl-al/fw-wb-wbfw-lb1/" target="_blank" class="btn btn-default btn-lg round-button circle">查看更多</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- #include file="/FooterUC_R.html" -->
+    <!--new add-->
+    <script type="text/javascript" src="//image.ruijie.com.cn/UIA/v3.0/common/scripts/bootstrap.min.js"></script>
+    <!-- common -->
+    <script type="text/javascript" src="//image.ruijie.com.cn/UIA/v3.0/common/scripts/new-common.js"></script>
+    <script type="text/javascript" src="//image.ruijie.com.cn/UIA/v3.0/common/scripts/master2.js"></script>
+    <!--video-->
+    <script type="text/javascript" src="//image.ruijie.com.cn/UIA/v3.0/product/scripts/video.min.js"></script>
+    <script type="text/javascript" src="//image.ruijie.com.cn/UIA/v3.0/product/scripts/product-detail.js"></script>
+
+
+    <script type='text/javascript'>
+        _gsq.push(["T", "GWD-002457", "trackEvent", "内容页", "产品", ""]);
+    </script>
+
+</body>
+</html>

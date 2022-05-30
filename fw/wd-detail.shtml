@@ -1,0 +1,421 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no" />
+    <meta property="wb:webmaster" content="209aa6880b9c0855" />
+    <meta name="description" content="RG-N18000-X系列交换机RGOS11.3(1)B3版本命令手册(V1.0)" />
+    <meta name="keywords" content="N18000-X;交换机;11.3(1)B3;命令手册" />
+    <meta name="robots" content="all" />
+    <title>
+        RG-N18000-X系列交换机RGOS11.3（1）B3版本命令手册（V1.0）
+        
+    </title>
+    <link rel="shortcut icon" href="//image.ruijie.com.cn/UIA/images/favicon.ico" type="image/x-icon" />
+</head>
+<body>
+    
+  <!--顶部导航资源文件开始-->
+  <!-- #include file="/Resources.html" -->
+  <!-- 顶部导航资源文件结束-->
+
+  <!-- TODO 替换add.css和detail.css -->
+  <link type="text/css" rel="stylesheet" href="./RJ-css/add.css?t=1652533317129" />
+  <link type="text/css" rel="stylesheet" href="./RJ-css/detail.css?t=1652533317129" />
+
+
+  <script src="//image.ruijie.com.cn/UIA/Scripts_R/reload.js" type="text/javascript"></script>
+    
+
+
+  <div class="my-container">
+    <div class="breadnav">
+      <p>
+        <a href="http://www.ruijie.com.cn">首页</a>
+        <span>&gt;</span><a href="/fw/">服务与支持</a>
+        <span>&gt;</span><a href="/fw/wd/">文档中心</a>
+        <span>&gt;</span><a class="on">RG-N18000-X系列交换机RGOS11.3(1)B3版本命令手册(V1.0)</a>
+      </p>
+    </div>
+  </div>
+  <div class="s-ArticleDetails-wrapper">
+    <div class="s-Article-content">
+      <h2 class="s-Article-title" id="h_title">
+        RG-N18000-X系列交换机RGOS11.3(1)B3版本命令手册(V1.0)
+      </h2>
+      <div class="Statistics-border" style="margin-bottom:3%;">
+        <span>
+          <!-- TODO 行内样式修改 -->
+          <a href="/application/Article/GetArticleFile?id=57569&attachmentNo=1&download=true" class="download-a" style=" background: #cc1329;color: #fff; width: 80px;height: 24px;display:inline-flex;align-items:center;justify-content:center;" id="docdownclick" target="_blank"><img src="//image.ruijie.com.cn/UIA/v3.0/common/images/down.png" class="ico">下载</a>
+        </span>
+        <span class="Statistics-border-djl">点击量：</span>
+        <span id="span_num">3232</span><br />
+        <span class="Statistics-border-m-l"></span>
+        <input name="hidTypeName" type="hidden" id="hidTypeName" value="交换机">
+      </div>
+      <div class="Article-text">
+        <div class="myStyle">
+          <p>
+            <span style="color: rgb(102, 102, 102); font-family: &lsquo;Microsoft Yahei&lsquo;; font-size: 14px; line-height: 28px; text-indent: 28px;">
+              本手册对产品支持的配置命令做了详细的描述。包括命令模式、参数说明和使用指南等，并配有具体的实例。
+            </span>
+          </p>
+        </div>
+      </div>
+      <div class="Article-download">
+        <style type="text/css">
+            #share a {
+                width: 38px;
+                height: 38px;
+                padding: 0px;
+            }
+
+                #share a.bds_qzone {
+                    background: url(//image.ruijie.com.cn/UIA/img/sa_video_img_19.jpg);
+                }
+
+                #share a.bds_bbs {
+                    background: url(//image.ruijie.com.cn/UIA/img/ac-sq.png);
+                }
+
+                #share a.bds_weixin {
+                    background: url(//image.ruijie.com.cn/UIA/img/sa_video_img_20.jpg);
+                }
+
+                #share a.bds_tsina {
+                    background: url(//image.ruijie.com.cn/UIA/img/sa_video_img_21.jpg);
+                }
+
+                #share a.bds_mail {
+                    background: url(//image.ruijie.com.cn/UIA/img/sa_video_img_22.jpg);
+                }
+
+                #share a.bds_print {
+                    background: url(//image.ruijie.com.cn/UIA/img/sa_video_img_23.jpg);
+                }
+        </style>
+        <div id="share" class="bdsharebuttonbox">
+          <ul class="s_fenxiangwailian clearfix">
+            <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+            <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+            <a href='mailto:?subject=分享：RG-N18000-X系列交换机RGOS11.3(1)B3版本命令手册(V1.0)&body=RG-N18000-X系列交换机RGOS11.3(1)B3版本命令手册(V1.0)/fw/wd/57569' class='bds_mail' title='分享到邮件分享'></a>
+          </ul>
+        </div>
+        <script>
+          window._bd_share_config = {"common": { "bdSnsKey": {}, "bdText": "", "bdMini": "2", "bdMiniList": false, "bdPic": "", "bdStyle": "0", "bdSize": "16" }, "share": {} }; with (document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = '//image.ruijie.com.cn/UIA/Plugin/baidu_share/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];
+        </script>
+
+      </div>
+      <div class="tczz"></div>
+      <div class="tc-pingfen">
+        <form class="form-horizontal">
+          <input type="hidden" name="dockingId" value="c6920397-b054-4094-a39e-91daefcb1a68" />
+          <input type="hidden" id="cltoken" name="cltoken" value="" />
+          <input type="hidden" id="utmb" name="utmb" value="" />
+          <input type="hidden" id="utma" name="utma" value="" />
+          <img src="//image.ruijie.com.cn/UIA/img/close.png" class="close">
+          <h3>锐捷网络可能会与您联系，请填写您的联系信息</h3>
+          <ul>
+            <li><span>姓名：</span><input type="text" id="userName" maxlength="50" value="" placeholder="请输入您的真实姓名" data-val-regex-pattern="/^[\u4E00-\u9FA5A-Za-z]+$/" autocomplete="off" class="int"></li>
+            <li><span>邮箱：</span><input type="text" id="userEmail" data-type="email"  data-regex-error="请填写正确的邮箱" data-val="true" data-val-required="*" data-val-regex="" data-val-regex-pattern="^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$" maxlength="50" value="" placeholder="邮箱" class="int"></li>
+            <li><span>电话：</span><input type="text" id="userIphone" value="" placeholder="电话" class="int" data-type="phone" data-regex-error="请填写正确的手机号码" data-val="true" data-val-required="*" maxlength="20"></li>
+            <li>
+              <span>验证码：</span><input type="text" value="" id="verificationCodeValueId" placeholder="图形验证码" class="int short"><img class="verification-code" id="verificationcodeid" data-src="/application/verificationcode?key=articlescore" src="/application/verificationcode?key=articlescore&amp;_=" />
+            </li>
+            <li><button type="submit" class="subbtn" onclick="subMessage()">提交</button></li>
+            <li class="tips">
+              <p>
+                点击“提交”，表明我理解并同意锐捷 <a href="http://www.ruijie.com.cn/privacy/" target="_blank">隐私声明</a>
+              </p>
+            </li>
+          </ul>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="s-ArticleDetails-wrapper">
+    <div class="grade" style="margin-bottom:30px;margin-top:30px;">
+      <div class="line">
+        <p>请您为该资料评分:</p>
+        <div class="star">
+          <img src="//image.ruijie.com.cn/UIA/img/xx2.png" class="xx">
+          <img src="//image.ruijie.com.cn/UIA/img/xx2.png" class="xx">
+          <img src="//image.ruijie.com.cn/UIA/img/xx2.png" class="xx">
+          <img src="//image.ruijie.com.cn/UIA/img/xx2.png" class="xx">
+          <img src="//image.ruijie.com.cn/UIA/img/xx2.png" class="xx">
+        </div>
+      </div>
+      <div class="line">
+        <p class="line-title">期待得到您的反馈</p>
+      </div>
+      <!-- TODO 评论修改 start -->
+      <div class="line">
+        <p>问题所属章节</p>
+        <div class="textareacon">
+          <input
+            class="input"
+            type="text"
+            id="proTitle"
+            placeholder="复制原文内容填写章节序号"
+            onfocus="this.placeholder=''"
+            onblur="this.placeholder='复制原文内容填写章节序号'"
+          />
+        </div>
+      </div>
+      <div class="line line2">
+        <p>问题描述:</p>
+        <div class="textareacon">
+          <input type="hidden" id="number" value="3" />
+          <input type="hidden" id="uniid" value="c32ea785-2cf8-4e5f-8f5b-6aba844d7f58" />
+          <textarea
+            class="textarea"
+            id="message"
+            placeholder="填写问题描述"
+            onfocus="this.placeholder=''"
+            onblur="this.placeholder='填写问题描述'"
+          ></textarea>
+        </div>
+      </div>
+      <p>为了更快捷地解决及时回复您反馈的问题，请您留下您的联系方式</p>
+      <div class="line-inline__flex">
+        <div class="line inline">
+          <p>姓名</p>
+          <input id="proUserName" class="input" type="text" placeholder="">
+          <i class="required">*</i>
+        </div>
+        <div class="line inline">
+          <p>邮箱</p>
+          <input id="proUserEmail" class="input" type="text" placeholder="">
+          <i class="required">*</i>
+        </div>
+        <div class="line inline">
+          <p>手机号</p>
+          <input id="proUserPhone" class="input" type="text" placeholder="">
+        </div>
+      </div>
+      <div class="line">
+        <div class="line-checkbox">
+          <input type="checkbox" class="checkbox" id="privacy">
+          <label for="privacy"></label>
+          我已同意并阅读<a href="https://www.ruijie.com.cn/privacy/" target="_blank">隐私政策</a>
+        </div>
+      </div>
+      <!-- TODO 评论修改 end -->
+      <button class="subbtn">提 交</button>
+    </div>
+  </div>
+
+  <!--底部导航开始-->
+  <!-- #include file="/FooterUC_R.html" -->
+  <!-- 底部导航结束 -->
+    
+  <script src="//image.ruijie.com.cn/UIA/v2.0/website/solution/finance/RJ-js/ns.layer.js?637757065125383422"></script>
+  <script type="text/javascript" src="//image.ruijie.com.cn/UIA/scripts_r/jquery.unobtrusive-ajax.min.js?637757065125383422"></script>
+  <script type="text/javascript" src="//image.ruijie.com.cn/UIA/scripts_r/jquery.validate.min.js?637757065125383422"></script>
+  <script type="text/javascript" src="//image.ruijie.com.cn/UIA/scripts_r/jquery.validate.unobtrusive.min.js?637757065125383422"></script>
+  <script type="text/javascript" src="//image.ruijie.com.cn/UIA/v2.0/website/solution/scripts/form.js?637757065125383422"></script>
+
+  <script type="text/javascript">
+      $(function () {
+          $(".star .xx").click(function () {
+              var index = $(".star .xx").index(this) + 1
+              $(".star .xx:lt(" + index + ")").attr("src", "http://image.ruijie.com.cn/UIA/img/xx2.png")
+              $(".star .xx:gt(" + (index - 1) + ")").attr("src", "http://image.ruijie.com.cn/UIA/img/xx.png")
+              $("#number").val(index);
+          })
+          // 勾选隐私政策 TODO
+          $(".grade #privacy").click(function () {
+              if ($(this)[0].checked) {
+                  $(".grade input[type=checkbox]").prop('checked', true)
+              }
+              else {
+                  $(".grade input[type=checkbox]").prop('checked', false)
+              }
+          })
+
+          $(".grade .subbtn").click(function () {
+              var num = $("#number").val();
+              var message = $("#message").val();
+              var uniid = $("#uniid").val();
+
+              // TODO 提交修改，增加参数
+              var proTitle =  $("#proTitle").val();
+              var name =  $("#proUserName").val();
+              var email =  $("#proUserEmail").val();
+              var phone =  $("#proUserPhone").val();
+              var isReadPrivacy =  $("#privacy").prop('checked')
+              if (!name || !email) {
+                layer.msg('请填写姓名和邮箱', { icon: 2 });
+                return
+              }
+              if (!isReadPrivacy) {
+                layer.msg('请阅读并勾选隐私政策', { icon: 2 });
+                return
+              }
+              console.log('***',)
+              commentID = guid();
+              $.ajax({
+                  url: "/Application/Article/CreateDiscussNew",
+                  type: "get",
+                  dataType: "json",
+                  // TODO 提交修改，增加参数
+                  data: {
+                    "auniid": uniid,
+                    "message": message,
+                    "number": num,
+                    "commentID": commentID,
+                    proTitle: proTitle,
+                    name: name,
+                    email: email,
+                    phone: phone
+                  },
+                  success: function (result) {
+                      if (result.Status) {
+                          layer.msg("评论已提交", {icon:1,time:2000},function () {
+                              $(".tczz").fadeIn();
+                              $(".tc-pingfen").fadeIn()
+                          }) 
+                      }                        
+                  }
+              });
+          })
+          $(".tc-pingfen .close").click(function () {
+              $(".tczz").fadeOut();
+              $(".tc-pingfen").fadeOut()
+          })
+          $(".tczz").click(function () {
+              $(".tczz").fadeOut();
+              $(".tc-pingfen").fadeOut()
+          })
+          $("#verificationcodeid").click(function () {
+
+              verificationcodeSrc = "/application/verificationcode?key=articlescore&_=" + Math.random();
+          })
+          /*验证文章访问权限*/
+          $.PermissionIconControl('57569',function(){
+              window.location.href='/user/login/?r=' + window.location.pathname;
+          });
+
+          $.post('/Application/Article/ClickNum',
+                {
+                    id: 57569,
+                },
+                function (data) {
+                    if (data.Status) {
+                        if (data.Data.CallNum) {
+                            $("#span_num").text(data.Data.CallNum);
+                        }
+                    }
+              });
+
+          // pc端iframe默认打开第一个链接
+          var href;
+          $('a[href]', '.dtree').each(function () {
+              href = $(this).attr('href');
+              if (href && href.length && href.indexOf('javascript:') == -1) {
+                  $(this).trigger('click');
+                  return false;
+              } else {
+                  href = null;
+              }
+          });
+          if (href) {
+              $('iframe[name="read_online"]').attr('src', href);
+          }
+
+          // 解决多个tree导致的兼容问题
+          $('a[href^="javascript:"]', '.dtree').on('click', function (evt) {
+              evt.preventDefault();
+              var $this = $(this),
+                  id = $this.attr('href').replace(/^javascript:[ ]?d\.o\((\d{1,})\);$/, '$1'),
+                  el = $this.parent().siblings('#dd' + id);
+              if (el.is(':visible')) {
+                  el.hide();
+              } else {
+                  el.show();
+              }
+          });
+
+          // 手机版tree
+          $('.dtree-mobile a[href]').on('click', function (e) {
+              e.preventDefault();
+              var hash = $(this).attr('id');
+              var url = $(this).attr('href');
+              if (url && url.indexOf('javascript:') != 0) {
+                  $('.iframe-ls').hide();
+                  $('.mobile-contents').show();
+                  $('.mobile-read-iframe').attr('src', url).show();
+
+                  location.hash = '#' + hash;
+              }
+              return false;
+          });
+          if (location.hash && $('.dtree-mobile a' + location.hash).length) {
+              $('.dtree-mobile a' + location.hash).trigger('click');
+          }
+
+          // 回到主目录
+          $('.mobile-contents').on('click', function (e) {
+              e.preventDefault();
+              $('.iframe-ls').show();
+              $('.mobile-contents').hide();
+              $('.mobile-read-iframe').hide();
+
+              location.hash = '';
+              return false;
+          });
+          $("#docdownclick").click(function(){
+              var productSeries = $('#hidTypeName').val();
+              _gsq.push(["T", "GWD-002457", "track", "/targetpage/doc_down.html"]);
+              _gsq.push(["T", "GWD-002457", "trackEvent", "文档中心", "下载-" + productSeries, $('#h_title').html()]);
+          });
+      })
+
+      _gsq.push(["T", "GWD-002457", "trackEvent", "文档中心", "文档详情页", "RG-N18000-X系列交换机RGOS11.3(1)B3版本命令手册(V1.0)"]);
+
+      function guid() {
+          return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
+              var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
+              return v.toString(16);
+          });
+      }
+      function subMessage() {
+          debugger
+          var userName = $("#userName").val();
+          var userEmail = $("#userEmail").val();
+          var userIphone = $("#userIphone").val();
+          var code = $("#verificationCodeValueId").val();
+          $.ajax({
+              url: "/Application/Form/ArticleSocre",
+              type: "post",
+              dataType: "json",
+              data: { "commentID": commentID, "userName": userName, "userEmail": userEmail, "userIphone": userIphone,"code": code },
+              success: function (result) {
+                  if (result.Status) {
+                      layer.msg(result.Message, { icon: 1, time: 3000 }, function () {
+                          $(".tczz").fadeOut();
+                          $(".tc-pingfen").fadeOut();
+                      })
+                  }
+                  if (result.Message =="验证码错误") {
+                      layer.msg(result.Message, { icon: 2 });
+                      verificationcodeSrc = "/application/verificationcode?key=articlescore&_=" + Math.random();
+                  }
+              }
+          });
+      }
+      function zc__sdk__containerDIV() {
+          if (/ipad|iphone|ipod|android|blackberry|windows phone|opera mini|silk/i.test(navigator.userAgent)) {
+              var delDiv = document.getElementById("zc__sdk__container");
+              delDiv.parentNode.removeChild(delDiv);
+          }
+      }
+      window.onload = zc__sdk__containerDIV;
+  </script>
+
+</body>
+</html>

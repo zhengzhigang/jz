@@ -1,0 +1,363 @@
+html, body {
+  border: 0;
+  min-height: 100%;
+}
+.download-a {
+  margin-left: 45%;
+  float: left;
+}
+
+.download-a:link {
+  text-decoration: none;
+}
+
+.download-a:hover {
+  text-decoration: underline;
+  }
+
+  .Statistics-border-djl {
+    margin-top: 2px;
+  }
+  
+  #span_num {
+    margin-top: 5px;
+  }
+  
+  .iframeBox {
+    position: relative;
+    width: 76%;
+    height: 800px;
+    display: inline-block;
+    vertical-align: top;
+    border: 0;
+    -webkit-overflow-scrolling: touch;
+    overflow: auto;
+  }
+  
+  iframe {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    -webkit-overflow-scrolling: touch;
+    overflow: auto;
+    border: none;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    min-height: 100%;
+  }
+  
+  #tree {
+    width: 20%;
+    float: none;
+    display: inline-block;
+  }
+  
+  #tree.dtree-mobile {
+    display: none;
+  }
+  
+@media screen and (max-width: 768px) {
+    .qr_nr {
+      width: 60%;
+      float: left;
+      padding-left: 2%;
+    }
+    
+    .download-a {
+      margin-left: 30%;
+      float: left;
+  }
+  
+  .iframeBox {
+    display: none;
+  }
+  
+  #tree {
+    width: 100%;
+  }
+  
+  #tree.dtree-mobile {
+    display: block;
+  }
+  
+  #tree.dtree-pc {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .qr_nr {
+    width: 60%;
+    float: left;
+    padding-left: 2%;
+  }
+  
+  .iframeBox {
+    width: 76%;
+    float: left;
+    padding-left: 2%;
+  }
+}
+
+.s-ArticleDetails-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.s-Article-right {
+  width: 200px;
+  flex-shrink: 0;
+}
+
+.s-Article-content .Article-text div {
+  margin-bottom: 0 !important;
+}
+
+.Article-text {
+  margin-bottom: 20px;
+}
+
+.Article-text .Block {
+  color: #5C8AC2;
+  border-bottom: 1px solid #5C8AC2;
+  padding-bottom: 10px!important;
+  margin-bottom: 25px!important;
+}
+
+.tczz {
+  background: rgba(0,0,0,0.5);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 998;
+  display: none
+}
+
+.breadnav {
+  a.on {
+    color: #666;
+  }
+}
+
+.s-ArticleDetails-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.s-Article {
+  &-content {
+    flex: 1;
+  }
+
+  &-right {
+    width: 200px;
+    margin: 0 0 20px 20px;
+    flex-shrink: 0;
+
+    .t {
+      color: #222222;
+      font-size: 20px;
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .t .ico {
+      margin-right: 10px;
+    }
+    .xq {
+      background: #f7f7f7;
+      border: 1px solid #e6e6e6;
+      padding: 18px 20px;
+      margin-bottom: 20px;
+      margin-top: 12px;
+    }
+    .xq a {
+      color: #222222;
+      font-size: 14px;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  
+    .tj {
+      background: #f7f7f7;
+      border: 1px solid #e6e6e6;
+      padding: 18px 20px 18px 10px;
+    }
+  
+    .tj ul li {
+      margin-bottom: 10px;
+    }
+    /*1228*/
+    .tj ul li a {
+      color: #777777;
+      font-size: 14px;
+      position: relative;
+      padding-left: 10px;
+      display: block;
+      word-break: break-all;
+    }
+    /*1228*/
+    .tj ul li a:before {
+      content: "";
+      display: block;
+      position: absolute;
+      left: -8px;
+      top: 10px;
+      width: 8px;
+      height: 2px;
+      background: #a2a2a2;
+    }
+
+    .pro-img {
+      width: 100%;
+      margin-bottom: 18px;
+    }
+
+    input {
+      margin: 0;
+      padding: 0;
+      font-size: 0.85em;
+      outline: 0;
+      font-family: inherit;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -webkit-appearance: none;
+      box-sizing: border-box;
+    }
+    input[type="checkbox"] {
+      position: absolute;
+      left: -999em;
+      border: none;
+      background: none;
+    }
+    label:before {
+      display: block;
+      position: relative;
+      top: 0;
+      left: 0;
+      content: "";
+      width: 22px;
+      height: 22px;
+      margin-right: 10px;
+    }
+    input[type="checkbox"] + label:before {
+      background: url(http://image.ruijie.com.cn/UIA/img/checkico.png) no-repeat;
+      background-size: 100%;
+    }
+    input[type="checkbox"]:checked + label:before {
+      background: url(http://image.ruijie.com.cn/UIA/img/checkico_on.png) no-repeat;
+      background-size: 100%;
+    }
+
+    .recommend-list {
+      .item {
+        position: relative;
+        padding-left: 26px;
+      }
+      label {
+        position: absolute;
+        left: 0;
+        top: 4px;
+      }
+      a {
+        color: #777777;
+        font-size: 14px;
+        position: relative;
+        padding-left: 10px;
+        display: block;
+        word-break: break-all;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .more {
+      width: 100%;
+      text-align: center;
+      font-size: 14px;
+      color: #333333;
+      display: block;
+      text-decoration: underline;
+    }
+
+    .m-down {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 18px 20px 18px 0;
+      bottom: 80px;
+      width: 100%;
+      box-sizing: border-box;
+      left: 0;
+      z-index: 99;
+      .all-check {
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+      }
+      .down a {
+        font-size: 14px;
+        background: #cc1329;
+        color: #fff;
+        width: 80px;
+        height: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .down a .ico {
+        height: 15px;
+        margin-right: 6px;
+      }
+    }
+  }
+}
+
+.my-container {
+  width: auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .page4-right {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .s-ArticleDetails-wrapper {
+    display: block;
+
+    .s-Article-right {
+      width: 100%;
+      margin-left: 0;
+    }
+
+    .m-down {
+      border: none;
+    }
+
+    .Statistics-border {
+      .Statistics-border-xz {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        text-align: center;
+      }
+    }
+
+    .Article-download {
+      margin-top: 20px;
+    }
+  }
+}
