@@ -1,0 +1,874 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no" />
+    <meta property="wb:webmaster" content="209aa6880b9c0855" />
+    <meta name="description" content="RG-S7800C系列交换机RGOS 12.5(4)B0201版本配置指南(V1.2)" />
+    <meta name="keywords" content="RG-S7800C;RGOS 12.5(4)B0201;配置指南" />
+    <meta name="robots" content="all" />
+    <title>
+        RG-S7800C系列交换机RGOS 12.5(4)B0201版本配置指南(V1.2)
+        
+    </title>
+    <link rel="shortcut icon" href="//image.ruijie.com.cn/UIA/images/favicon.ico" type="image/x-icon" />
+</head>
+<body>
+    
+    <!--顶部导航资源文件开始-->
+	<!-- #include file="/Resources.html" -->
+	<!-- 顶部导航资源文件结束-->
+    
+    <link type="text/css" rel="stylesheet" href="//image.ruijie.com.cn/UIA/V3.0/common/styles/add.css?637818503212154862" />
+    <!-- TODO 新增wds.css swiper.js swiper.css -->
+    <script src="./RJ-js/swiper.min.js" type="text/javascript"></script>
+    <link type="text/css" rel="stylesheet" href="./RJ-css/wds.css?t=1653994106376"/>
+    <link type="text/css" rel="stylesheet" href="./RJ-css/swiper.min.css">
+
+    <style>
+        .result-list {
+            height: 100%;
+            width: 100%;
+            overflow: auto;
+        }
+        .left-h3 {
+            background: #d4152b !important;
+        }
+        .left-h3 span {
+            color: #ffffff !important;
+        }
+        .item {
+            border-bottom: 1px solid #ccc !important;
+        }
+    </style>
+
+    <script src="//image.ruijie.com.cn/UIA/Scripts_R/reload.js" type="text/javascript"></script>
+    
+
+<div class="my-container other-industry">
+    <div class="pc-breadnav">
+        <p>
+            <a href="http://www.ruijie.com.cn">首页</a>
+            <span>&gt;</span><a href="/fw/">服务与支持</a>
+            <span>&gt;</span><a href="/fw/wd/">文档中心</a>
+            <span>&gt;</span>RG-S7800C系列交换机RGOS 12.5(4)B0201版本配置指南(V1.2)
+        </p>
+    </div>
+</div>
+<div class="lx-title2">
+    <div class="com-content">
+        <span id="doctitle">RG-S7800C系列交换机RGOS 12.5(4)B0201版本配置指南(V1.2)</span>
+            <input name="hidTypeName" type="hidden" id="hidTypeName" value="交换机">
+    <div style="width:12%;height:auto;float:right;">
+        <style type="text/css">
+            #share {
+                float: right;
+            }
+
+                #share a {
+                    width: 38px;
+                    height: 38px;
+                    padding: 0px;
+                }
+
+                    #share a.bds_qzone {
+                        background: url(//image.ruijie.com.cn/UIA/img/sa_video_img_19.jpg);
+                    }
+
+                    #share a.bds_bbs {
+                        background: url(//image.ruijie.com.cn/UIA/img/ac-sq.png);
+                    }
+
+                    #share a.bds_weixin {
+                        background: url(//image.ruijie.com.cn/UIA/img/sa_video_img_20.jpg);
+                    }
+
+                    #share a.bds_tsina {
+                        background: url(//image.ruijie.com.cn/UIA/img/sa_video_img_21.jpg);
+                    }
+
+                    #share a.bds_mail {
+                        background: url(//image.ruijie.com.cn/UIA/img/sa_video_img_22.jpg);
+                    }
+
+                    #share a.bds_print {
+                        background: url(//image.ruijie.com.cn/UIA/img/sa_video_img_23.jpg);
+                    }
+        </style>
+        <div id="share" class="bdsharebuttonbox">
+            <ul class="s_fenxiangwailian clearfix">
+                <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+                <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                <a href='mailto:?subject=分享：RG-S7800C系列交换机RGOS 12.5(4)B0201版本配置指南(V1.2)-文档中心&body=RG-S7800C系列交换机RGOS 12.5(4)B0201版本配置指南(V1.2)-文档中心
+
+/fw/wd/87885' class='bds_mail' title='分享到邮件分享'></a>
+            </ul>
+        </div>
+        <script>window._bd_share_config = { "common": { "bdSnsKey": {}, "bdText": "", "bdMini": "2", "bdMiniList": false, "bdPic": "", "bdStyle": "0", "bdSize": "16" }, "share": {} }; with (document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = '//image.ruijie.com.cn/UIA/Plugin/baidu_share/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];</script>
+        <script type="text/javascript">
+            $(function () {
+                $("#share ul a").on("click", function () {
+                    _gsq.push(["T", "GWD-002457", "trackEvent", "文档中心", "文档详情页-分享", "RG-S7800C系列交换机RGOS 12.5(4)B0201版本配置指南(V1.2)"]);
+                })
+            });
+        </script>
+    </div>
+    </div>
+</div>
+<div class="com-content">
+    <div class="lx-page5">
+        <div class="left">
+            <div class="back">
+                <a href="javascript:;"><p>文档封面</p></a>
+            </div>
+            <div class="tab-list-scroll">
+                <div class="tab-list">
+
+                </div>
+                <!-- TODO 新增相关产品tab  start -->
+                <div class="pingfen">
+                  <p>相关产品</p>
+                </div>
+                <!-- TODO 新增相关产品tab  end -->
+                <div class="pingfen">
+                    <p>文档评分</p>
+                    <div class="fen">
+                        <img src="//image.ruijie.com.cn/UIA/img/xx2.png" class="xx">
+                        <img src="//image.ruijie.com.cn/UIA/img/xx2.png" class="xx">
+                        <img src="//image.ruijie.com.cn/UIA/img/xx2.png" class="xx">
+                        <img src="//image.ruijie.com.cn/UIA/img/xx2.png" class="xx">
+                        <img src="//image.ruijie.com.cn/UIA/img/xx2.png" class="xx">
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="tc-pingfen">
+            <form class="form-horizontal">
+                <input type="hidden" name="dockingId" value="c6920397-b054-4094-a39e-91daefcb1a68" />
+                <input type="hidden" id="cltoken" name="cltoken" value="" />
+                <input type="hidden" id="utmb" name="utmb" value="" />
+                <input type="hidden" id="utma" name="utma" value="" />
+                <img src="//image.ruijie.com.cn/UIA/img/close.png" class="close">
+                <h3>锐捷网络可能会与您联系，请填写您的联系信息</h3>
+                <ul>
+                    <li><span>姓名：</span><input type="text" name="name" maxlength="50" value="" placeholder="姓名" class="int"></li>
+                    <li><span>邮箱：</span><input type="text" name="email" data-type="email" data-error="请填写电子邮箱" data-regex-error="请填写正确的邮箱" data-val="true" data-val-required="*" data-val-regex="" data-val-regex-pattern="^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$" maxlength="50" value="" placeholder="邮箱" class="int"></li>
+                    <li><span>电话：</span><input type="text" name="mobile" value="" placeholder="电话" class="int" data-type="phone" data-error="请填写手机号码" data-regex-error="请填写正确的手机号码" data-val="true" data-val-required="*" maxlength="20"></li>
+                    <li>
+                        <span>验证码：</span><input type="text" value="" id="verificationCodeValueId" placeholder="图形验证码" class="int short"><img class="verification-code" id="verificationcodeid" data-src="/application/verificationcode?key=articlescore" src="/application/verificationcode?key=articlescore&amp;_=" />
+                    </li>
+                    <li><button type="submit" class="subbtn" onclick="subMessage()">提交</button></li>
+                    <li class="tips">
+                        <p>
+                            点击“提交”，表明我理解并同意锐捷 <a href="http://www.ruijie.com.cn/privacy/
+" target="_blank">隐私声明</a>
+                        </p>
+                    </li>
+                </ul>
+            </form>
+        </div>
+
+        <div class="page5-right">
+            <div class="m-top">
+                <div class="all-con">
+                    <img src="//image.ruijie.com.cn/UIA/img/all.png" class="ico">
+                    <span>文档封面</span>
+                </div>
+                <div class="down">
+                    <a href="javascript:;" id="docdownclick"><img src="//image.ruijie.com.cn/UIA/v3.0/common/images/down.png" class="ico">下载</a>
+                </div>
+            </div>
+            <div class="tab-tc">
+                <div class="link">
+                    <a href="#">文档封面</a>
+                </div>
+                <div class="tabs">
+                    <div class="hd">
+                    </div>
+                    <div class="bd">
+                    </div>
+                </div>
+            </div>
+            <div class="pc-top">
+                <div class="down">
+                    <a href="javascript:;"><img src="//image.ruijie.com.cn/UIA/v3.0/common/images/down.png" class="ico">下载</a>
+                </div>
+
+                <div class="page5-search">
+                    <input type="text" value="" id="searchKeyword" onkeydown="calAge(event)" placeholder="请输入您想查找的内容关键词" class="int">
+                    <button class="subbtn"><img src="//image.ruijie.com.cn/UIA/img/searchico.png" class="ico"></button>
+                </div>
+            </div>
+            <div class="search-main">
+                <img src="//image.ruijie.com.cn/UIA/img/close.png" class="close" style="top:10px;">
+                <div class="result-list" style="margin-top:25px;">
+                </div>
+            </div>
+            <div class="tczz"></div>
+            <div class="tc-down">
+                <img src="//image.ruijie.com.cn/UIA/img/close.png" class="close">
+                <h3>下载此篇文档</h3>
+                <ul id="thisdoc">
+                    <li><a href="" download=""></a></li>
+                </ul>
+                <h3>下载合集</h3>
+                <ul>
+                </ul>
+                <h3>下载分册</h3>
+                <ul>
+                </ul>
+            </div>
+            <iframe id="dociframe" src="" style=" visibility:hidden;" width="100%"  frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no" allowtransparency="yes"></iframe>
+            <!-- TODO 新增相关产品区域  start -->
+            <div class="grade grade_product">
+              <h3 class="grade-product__title">相关产品</h3>
+              <div class="grade_product_box">
+                <div class="arrow-group">
+                  <span class="left arrow"></span>
+                  <span class="right arrow"></span>
+                </div>
+                <div class="swiper-container grade_product_swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="img-box">
+                        <img src="./RJ-img/pro-img1.jpg">
+                      </div>
+                      <p class="slide-desc">高密星APPM</p>
+                      <a class="slide-link" href="" target="_blank">查看详情</a>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="img-box">
+                        <img src="./RJ-img/pro-img2.jpg">
+                      </div>
+                      <p class="slide-desc">高密星APP</p>
+                      <a class="slide-link" href="" target="_blank">查看详情</a>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="img-box">
+                        <img src="./RJ-img/pro-img3.jpg">
+                      </div>
+                      <p class="slide-desc">高密星APP</p>
+                      <a class="slide-link" href="" target="_blank">查看详情</a>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="img-box">
+                        <img src="./RJ-img/pro-img4.jpg">
+                      </div>
+                      <p class="slide-desc">高密星APP</p>
+                      <a class="slide-link" href="" target="_blank">查看详情</a>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="img-box">
+                        <img src="./RJ-img/pro-img1.jpg">
+                      </div>
+                      <p class="slide-desc">高密星APP</p>
+                      <a class="slide-link" href="" target="_blank">查看详情</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- TODO 新增相关产品区域  end -->
+            <div class="grade">
+                <div class="line">
+                    <p>请您为该资料评分:</p>
+                    <div class="star">
+                        <img src="//image.ruijie.com.cn/UIA/img/xx2.png" class="xx">
+                        <img src="//image.ruijie.com.cn/UIA/img/xx2.png" class="xx">
+                        <img src="//image.ruijie.com.cn/UIA/img/xx2.png" class="xx">
+                        <img src="//image.ruijie.com.cn/UIA/img/xx2.png" class="xx">
+                        <img src="//image.ruijie.com.cn/UIA/img/xx.png" class="xx">
+                    </div>
+                </div>
+                <div class="line line2">
+                    <p>期待得到您的建议:</p>
+                    <div class="textareacon">
+                        <input type="hidden" id="number" value="3" />
+                        <input type="hidden" id="uniid" value="142f1777-228e-4012-b898-8a3e342d46fc" />
+                        <textarea class="textarea" placeholder="填写您的意见和建议" onfocus="this.placeholder=''" onblur="this.placeholder='填写您的意见和建议'"></textarea>
+                    </div>
+                </div>
+                <button class="subbtn">提 交</button>
+            </div>
+
+
+        </div>
+
+    </div>
+</div>
+
+    <!--底部导航开始-->
+	<!-- #include file="/FooterUC_R.html" -->
+	<!-- 底部导航结束 -->
+
+    <script src="//image.ruijie.com.cn/UIA/v2.0/website/solution/finance/RJ-js/ns.layer.js?637818503212154862"></script>
+    <script type="text/javascript" src="//image.ruijie.com.cn/UIA/scripts_r/jquery.unobtrusive-ajax.min.js?637818503212154862"></script>
+    <script type="text/javascript" src="//image.ruijie.com.cn/UIA/scripts_r/jquery.validate.min.js?637818503212154862"></script>
+    <script type="text/javascript" src="//image.ruijie.com.cn/UIA/scripts_r/jquery.validate.unobtrusive.min.js?637818503212154862"></script>
+    <script type="text/javascript" src="//image.ruijie.com.cn/UIA/v2.0/website/solution/scripts/form.js?637818503212154862"></script>
+
+    <script>
+
+        $(function () {
+            /*验证文章访问权限*/
+            $.PermissionIconControl('87885',function(){
+                window.location.href='/user/login/?r=' + window.location.pathname;
+            });
+
+            $.post('/Application/Article/ClickNum',
+                  {
+                      id: 87885,
+                  },
+                  function (data) {
+                      if (data.Status) {
+                          if (data.Data.CallNum) {
+                              $("#span_num").text(data.Data.CallNum);
+                          }
+                      }
+                });
+
+            $("#docdownclick").click(function () {
+                var productSeries = $('#hidTypeName').val();
+                _gsq.push(["T", "GWD-002457", "track", "/targetpage/doc_down.html"]);
+                _gsq.push(["T", "GWD-002457", "trackEvent", "文档中心", "下载-" + productSeries, $('#doctitle').html()]);
+            });
+
+            $(".grade .subbtn").click(function () {
+                var num = $("#number").val();
+                var message = $("#message").val();
+                var uniid = $("#uniid").val();
+                commentID = guid();
+                $.ajax({
+                    url: "/Application/Article/CreateDiscussNew",
+                    type: "get",
+                    dataType: "json",
+                    data: { "auniid": uniid, "message": message, "number": num, "commentID": commentID },
+                    success: function (result) {
+                        if (result.Status) {
+                            layer.msg("评论已提交", { icon: 1, time: 2000 }, function () {
+                                $(".tczz").fadeIn();
+                                $(".tc-pingfen").fadeIn()
+                            })
+                        }
+                    }
+                });
+            });
+
+            loaddiscuss();
+            loadLeft();
+            loadPdf();
+            setTimeout(function () {
+                $(".back a").trigger("click");
+                layer.closeAll();
+            }, 3000);
+        });
+
+        _gsq.push(["T", "GWD-002457", "trackEvent", "文档中心", "文档详情页", "RG-S7800C系列交换机RGOS 12.5(4)B0201版本配置指南(V1.2)"]);
+
+        function loadLeft() {
+            var index = layer.load(1, {
+                shade: [0.35, '#fff']
+            });
+            $.ajax({
+                url: "/Application/Document/GetArticleLeft",
+                type: "get",
+                dataType: "json",
+                data: { "uniid":"142f1777-228e-4012-b898-8a3e342d46fc"},
+                success: function (result) {
+                    if (result.Status && (result.Data.length > 2 || result.Data[1]?.Child.length > 1)) {
+                        $("#thisdoc").show();
+                        $(".tc-down h3:first").show();
+                    }
+                    else {
+                        $("#thisdoc").hide();
+                        $(".tc-down h3:first").hide();
+                        $(".tc-down h3:last").hide();
+                    }
+                    if (result.Status && result.Data.length > 0) {
+                        if (result.Data.length == 1) {
+                            $(".back a p").text("文档");
+                            $(".all-con span").text("文档");
+                            $(".tab-tc .link a").text("文档");
+                            isLoadOverIframHeight = 0;
+                            $("#dociframe").css({ 'visibility': 'hidden' });
+                            
+                        }
+                        $(".tab-list").empty();
+                        $(".tabs .hd").empty();
+                        $(".tabs .bd").empty();
+
+                        var hd = $('<ul></ul>');
+
+                        $.each(result.Data, function (index, item) {
+                            if (index > 0) {
+                                var html = "<div class=\"item\">" +
+                                    "<h3 onclick=\"leftOnclick(this)\"><img src=\"//image.ruijie.com.cn/UIA/img/tubiao.png\" class=\"ico\"><span>" + item.Name + "</span></h3>" +
+                                    "<ul>";
+
+                                $(hd).append("<li onclick=\"leftOnclickByIphone(this)\" id=" + index + " >" + item.Name + "</li>");
+
+                                var bd = $('<div class="item" id="right' + index + '" style="display:none;">\
+                                            <ul>\
+                                            </ul>\
+                                        </div >');
+
+                                $.each(item.Child, function (i, c) {
+
+                                    var child = "<li><a href=\"javascript:;\" onclick=\"loaddoc('" + c.Url + "',this)\" data-pdf=\"" + c.PDFUrl + "\"><img src=\"//image.ruijie.com.cn/UIA/img/jt.png\" class=\"jt1\">" + c.Name + "<img src=\"//image.ruijie.com.cn/UIA/img/jt2.png\" class=\"jt2\"></a></li>";
+
+                                    html += child;
+                                    $('ul', bd).append(child);
+                                });
+                                html += "</ul></div>";
+                                $(".tab-list").append(html);
+                                $(".tabs .bd").append(bd);
+                            }
+                        });
+                        $(".tabs .hd").append(hd);
+                        $(".back a").on("click", function () {
+                            loaddoc(result.Data[0].Child[0].Url, this);
+                        });
+                        $(".link a").on("click", function () {
+                            loaddoc(result.Data[0].Child[0].Url, this);
+                        });
+                        $("#dociframe").attr("src", result.Data[0].Child[0].Url);
+                        $(".tab-list").find(".item").first().addClass("on");
+                        $(".tab-list").find(".item").first().find("h3").addClass("left-h3");
+                        //$(".tab-list").find(".item").first().find("li").first().addClass("on");
+
+                        setTimeout(function () {
+                            $("#dociframe").contents().find("p img").each(function () {
+                                if ($(this).width() > 200) {
+                                    $(this).width("100%");
+                                    $(this).height("auto");
+                                }
+                            });
+                            $("#dociframe").contents().find("table").attr("style", "margin: 0 auto;width:100%;");
+                            $("#dociframe").contents().find("table td").width("0");
+                            $("#dociframe").contents().find("table td p").attr("style", "margin-right: 0;")
+                        }, 2000);
+                    }
+                    
+                }
+            });
+        }
+
+        function loadPdf() {
+            $.getJSON("/Application/Document/GetArticlePdf",
+                {
+                    uniid:$("#uniid").val()
+                }, function (data) {
+                    if (data.Status && data.Data.length > 0) {
+                        //$('.tc-down ul:not(:first)').empty();
+                        $.each(data.Data, function (index, item) {
+                            var html = $('<li><a href="" download=""></a></li>');
+                            $("a", html).attr("href", item.Url);
+                            $("a", html).attr("download", item.Name);
+                            $("a", html).text(item.Name);
+
+                            if (index < data.Data.length - 1) {
+                                $(".tc-down").find("ul").last().append(html);
+                            } else {
+                                $(".tc-down").find("ul:eq(1)").append(html);
+                            }
+                        });
+
+                        //if (data.Data.length = 1) {
+                        //    $("#thisdoc").html("无");
+                        //}
+                    }
+            });
+        }
+
+        function loaddiscuss() {
+            $.ajax({
+                url: "/Application/Article/SearchDiscuss",
+                type: "get",
+                dataType: "json",
+                data: { "uniid": $("#uniid").val() },
+                success: function (result) {
+                    if (result.Status) {
+                        $(".fen").empty();
+                        for (var i = 0; i < result.Data.Count; i++) {
+                            $(".fen").append("<img src=\"//image.ruijie.com.cn/UIA/img/xx2.png\" class=\"xx\">");
+                        }
+
+                        if (result.Data.Count < 5) {
+                            for (var i = 0; i < 5 - result.Data.Count; i++) {
+                                $(".fen").append("<img src=\"//image.ruijie.com.cn/UIA/img/xx.png\" class=\"xx\">");
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        function guid() {
+            return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
+                var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
+                return v.toString(16);
+            });
+        }
+
+        function subMessage() {
+            debugger
+            var userName = $("#userName").val();
+            var userEmail = $("#userEmail").val();
+            var userIphone = $("#userIphone").val();
+            var code = $("#verificationCodeValueId").val();
+            $.ajax({
+                url: "/Application/Form/ArticleSocre",
+                type: "post",
+                dataType: "json",
+                data: { "commentID": commentID, "userName": userName, "userEmail": userEmail, "userIphone": userIphone, "code": code },
+                success: function (result) {
+                    if (result.Status) {
+                        layer.msg(result.Message, { icon: 1, time: 3000 }, function () {
+                            $(".tczz").fadeOut();
+                            $(".tc-pingfen").fadeOut();
+                        })
+                    }
+                    if (result.Message == "验证码错误") {
+                        layer.msg(result.Message, { icon: 2 });
+                        verificationcodeSrc = "/application/verificationcode?key=articlescore&_=" + Math.random();
+                    }
+                }
+            });
+        }
+    </script>
+    <script type="text/javascript">
+        var coverHeight = "";
+        var isLoadOverIframHeight = 1;//ifram高度是否重置完成 1完成 0未完成
+        $(document).ready(function () {
+            jQuery(".tabs").slide({ trigger: "click" });
+            var navBar = $(".pc-top");
+            var tablist = $(".tab-list-scroll");
+            var pingfen = $(".pingfen");
+            var backBar = $(".back");
+            var backToTop = backBar.offset().top;
+            var navToTop = navBar.offset().top;
+            // TODO width修改为navBarWidth
+            var navBarWidth = navBar.width()
+            width2 = tablist.width()
+            width3 = pingfen.width()
+            width4 = backBar.width()
+            var foot = $(".r-footer");
+            var footTop = foot.offset().top;
+            var offsetTop = $(".lx-page5").offset().top;
+            var winHeight = $(window).height();
+
+            $(document).on('scroll', function () {
+                if (isLoadOverIframHeight == 1) {
+                    var scrollDistance = $(document).scrollTop();
+                    var scTop = $(document).scrollTop();
+                    if (scTop + winHeight >= footTop) {
+                        var bottom = (footTop - offsetTop) - winHeight + 72 + 100;
+                        tablist.css({ 'top': bottom, 'position': 'absolute' })
+                        //tablist.css("height",$(".lx-page5").outerHeight())
+                    } else {
+                        tablist.attr('style', null);
+                    }
+                    //左侧模块漂浮
+                    if (scrollDistance > backToTop) {
+                        const back = document.getElementsByClassName('back')[0];
+                        back.style.width = width4 + "px"
+                        back.style.display = "block";
+                        back.style.position = "fixed";
+                        back.style.top = "72px";
+                        const tabList = document.getElementsByClassName('tab-list-scroll')[0];
+                        tabList.style.width = width4 + "px"
+                        tabList.style.display = "block";
+                        tabList.style.position = "fixed";
+                        tabList.style.top = (backBar.height() + 20 + 72) + "px"
+                    }
+                    else {
+                        const back = document.getElementsByClassName('back')[0];
+                        back.removeAttribute("style");
+                        back.style.width = width4 + "px"
+                        const tabList = document.getElementsByClassName('tab-list-scroll')[0];
+                        tabList.removeAttribute("style");
+                    }
+                    //搜素模块漂浮
+                    if (scrollDistance > navToTop) {
+                        navBar.addClass("fix");
+                        // tablist.addClass("fix");
+                        var pingfenheight = $(".pingfen").outerHeight();
+
+                        // TODO 对应修改为navBarWidth
+                        navBar.css("width", navBarWidth);
+                        //tablist.css("width", width2);
+                        tablist.css("height", (winHeight - 72));
+                        $(".tab-list").css("height", (winHeight - 72 - pingfenheight - 110))
+                    }
+                    else {
+                        navBar.removeClass("fix");
+                        // tablist.removeClass("fix");
+                    }
+                }
+
+            })
+           
+            $(".pingfen").click(function () {
+                $("body,html").animate({
+                    scrollTop: (($(".grade").offset()).top - 220)
+                }, 500);
+            })
+            $(".all-con").click(function () {
+                if ($(this).hasClass("show")) {
+                    $(this).find(".ico").attr("src", "//image.ruijie.com.cn/UIA/img/all.png");
+                } else {
+                    $(this).find(".ico").attr("src", "//image.ruijie.com.cn/UIA/img/allclose.png");
+                }
+                $(this).toggleClass("show")
+                $(".tab-tc").slideToggle()
+            })
+            $(".down a").click(function () {
+                $(".tczz").fadeIn();
+                $(".tc-down").fadeIn()
+            })
+            $(".tc-down .close").click(function () {
+                $(".tczz").fadeOut();
+                $(".tc-down").fadeOut()
+            })
+            $(".grade .subbtn").click(function () {
+                $(".tczz").fadeIn();
+                $(".tc-pingfen").fadeIn()
+            })
+            $(".tc-pingfen .close").click(function () {
+                $(".tczz").fadeOut();
+                $(".tc-pingfen").fadeOut()
+            })
+            $(".tczz").click(function () {
+                $(".tczz").fadeOut();
+                $(".tc-pingfen").fadeOut()
+                $(".tc-down").fadeOut()
+            })
+            $(".star .xx").click(function () {
+                var index = $(".star .xx").index(this) + 1
+                $(".star .xx:lt(" + index + ")").attr("src", "//image.ruijie.com.cn/UIA/img/xx2.png")
+                $(".star .xx:gt(" + (index - 1) + ")").attr("src", "//image.ruijie.com.cn/UIA/img/xx.png")
+                $("#number").val(index);
+            })
+
+            $(".page5-search .subbtn").click(function () {
+                $(" .search-main .result-list").empty();
+                $.ajax({
+                    url: "/Application/Document/SearchArticleFileContent",
+                    type: "get",
+                    dataType: "json",
+
+                    data: { "uniid": $("#uniid").val(), "searchKeyword": $("#searchKeyword").val() },
+                    beforeSend: function () {
+                        loading("搜索中...");
+                    },
+                    success: function (result) {
+                        layer.closeAll();
+                        $(".page5-right .search-main").fadeIn()
+                        if (result.Status) {
+                            if (result.Data.length > 0) {
+                                $(" .search-main .result-list").append("<div  style=\"\"><h3>共匹配到<b style=\"font-size:18px;\">" + result.Data.length + "</b>个文档。</h3></div><hr />");
+                                for (var i = 0; i < result.Data.length; i++) {
+                                    var html = "<div class=\"item\">";
+                                    html += "<a href = \"javascript:;\" onclick=\"loaddocnew('" + result.Data[i].Url + "',this)\" ><h3>" + result.Data[i].Name + " / <span>" + result.Data[i].ChildName + "</span></h3></a >";
+                                    html += "<p>" + result.Data[i].AfterContent + "</p></div > ";
+                                    $(" .search-main .result-list").append(html);
+                                }
+                            }
+                            else {
+                                $(" .search-main .result-list").append("<div style=\"height: 460px;line-height: 460px;width: 100%;overflow: hidden;text-align:center;font-size:24px;color:#666\">暂无此数据！</div>");
+                            }
+                        }
+                    },
+                    error: function () {
+                        layer.closeAll();
+                    }
+                })
+            })
+
+            $(".page5-right .search-main .close").click(function () {
+                $(".page5-right .search-main").fadeOut()
+            })
+            //如果是手机端打开隐藏搜索模块
+            if (/ipad|iphone|ipod|android|blackberry|windows phone|opera mini|silk/i.test(navigator.userAgent)) {
+                const searchMain = document.getElementsByClassName('search-main')[0];
+                searchMain.style.display = "none";
+            }
+
+            // TODO swiper 代码 start
+            var width = document.body.clientWidth
+            var swiper = new Swiper('.grade_product_swiper', {
+              slidesPerView: 4,
+              spaceBetween: 10
+            })
+
+            $('.grade_product .arrow.left').click(function() {
+              swiper.slidePrev()
+            })
+
+            $('.grade_product .arrow.right').click(function() {
+              swiper.slideNext()
+            })
+            if (width > 768 &&  $('.grade_product .swiper-slide').length <= 4) {
+              $('.grade_product').addClass('grade_product_flex')
+            } else {
+              var swiper = new Swiper('.grade_product_swiper', {
+                slidesPerView: width > 768 ? 4 : 1,
+                spaceBetween: 10
+              })
+            }
+            // TODO swiper 代码 end
+        });
+        //内容搜索回车事件
+        function calAge(e) {
+            var evt = window.event || e;
+            if (evt.keyCode == 13) {
+                //回车后要干的业务代码
+                $(" .search-main .result-list").empty();
+                $.ajax({
+                    url: "/Application/Document/SearchArticleFileContent",
+                    type: "get",
+                    dataType: "json",
+                    data: { "uniid": $("#uniid").val(), "searchKeyword": $("#searchKeyword").val() },
+                    beforeSend: function () {
+                        loading("搜索中...");
+                    },
+                    success: function (result) {
+                        layer.closeAll();
+                        $(".page5-right .search-main").fadeIn();
+                        if (result.Status) {
+                            if (result.Data.length > 0) {
+                                $(" .search-main .result-list").append("<div  style=\"\"><h3>共匹配到<b style=\"font-size:18px;\">" + result.Data.length + "</b>个文档。</h3></div><hr />");
+                                for (var i = 0; i < result.Data.length; i++) {
+                                    var html = "<div class=\"item\">";
+                                    html += "<a href = \"javascript:;\" onclick=\"loaddocnew('" + result.Data[i].Url + "',this)\" ><h3>" + result.Data[i].Name + " / <span>" + result.Data[i].ChildName + "</span></h3></a >";
+                                    html += "<p>" + result.Data[i].AfterContent + "</p></div > ";
+                                    $(" .search-main .result-list").append(html);
+                                }
+                            }
+                            else {
+                                $(" .search-main .result-list").append("<div style=\"height: 460px;line-height: 460px;width: 100%;overflow: hidden;text-align:center;font-size:24px;color:#666\">暂无此数据！</div>");
+                            }
+                        }
+                    },
+                    error: function () {
+                        layer.closeAll();
+                    }
+                })
+            }
+        }
+        function loading(msg) {
+            layer.msg(msg, {
+                icon: 16,
+                 shade: [0.6, '#000005'],//遮罩的颜色与透明度
+                time: false  //取消自动关闭
+            })
+        };
+        function leftOnclick(obj) {
+            $(obj).parent().siblings().find("ul").slideUp();
+            $(obj).next("ul").slideToggle();
+            if ($(obj).hasClass("left-h3")) {
+                $(obj).removeClass("left-h3");
+            }
+            else {
+                $(".item h3").removeClass("left-h3");
+                $(obj).addClass("left-h3");
+            }
+        }
+        function leftOnclickByIphone(e) {
+            $(".bd .item").css("display", "none");
+            $("#right" + e.id + "").css("display", "block");
+        }
+        function loaddoc(url, obj) {
+            //重新分配ifram高度 并隐藏iframe 给出提示
+            isLoadOverIframHeight = 0;
+            $("#dociframe").css({ 'visibility': 'hidden' });
+           // loading("正在加载内容...");
+            layer.load(1, {
+                shade: [0.35, '#fff']
+            });
+
+            $("#thisdoc a").attr("href", $(obj).attr("data-pdf"));
+            $("#thisdoc a").attr("download", $(obj).text() + ".pdf");
+            $("#thisdoc a").text($(obj).text() + ".pdf");
+
+            $("#dociframe").attr("src", url);
+
+            $(".tab-list .item").removeClass("on");
+            $(".tab-list .item li").removeClass("on");
+            $(obj).parent().addClass("on");
+            $(obj).parent().parent().parent().addClass("on");
+            $(".all-con span").text($(obj).text());
+            //if (typeof ($(obj).attr("data-pdf")) != "undefined") {
+            //    $("#thisdoc").first().first().find("a").attr("href", $(obj).attr("data-pdf")).attr("download", $(obj).text());
+            //    $("#thisdoc").first().first().find("a").text($(obj).text());
+            //} else {
+            //    $("#thisdoc").first().first().find("a").attr("href", "").attr("download", "");
+            //    $("#thisdoc").first().first().find("a").text("");
+            //}
+            if (/ipad|iphone|ipod|android|blackberry|windows phone|opera mini|silk/i.test(navigator.userAgent)) {
+                var div = $("#all-con")
+                if ($("#all-con").hasClass("show")) {
+                    $("#all-con").find(".ico").attr("src", "//image.ruijie.com.cn/UIA/img/all.png");
+                } else {
+                    $("#all-con").find(".ico").attr("src", "//image.ruijie.com.cn/UIA/img/allclose.png");
+                }
+                $("#all-con").toggleClass("show")
+                $(".tab-tc").slideToggle();
+
+                setTimeout(function () {
+                    $("#dociframe").contents().find("p img").each(function () {
+                        if ($(this).width() > 200) {
+                            $(this).width("100%");
+                            $(this).height("auto");
+                        }
+                    });
+                    $("#dociframe").contents().find("table").attr("style", "margin: 0 auto;width:100%;");
+                    $("#dociframe").contents().find("table td").width("0");
+                    $("#dociframe").contents().find("table td p").attr("style", "margin-right: 0;")
+                }, 2000);
+            }
+        }
+        function loaddocnew(url, obj) {
+            $(".search-main").fadeOut();
+            $("#searchKeyword").val("");
+            $("#dociframe").attr("src", url);
+            $(".tab-list .item").removeClass("on");
+            $(".tab-list .item li").removeClass("on");
+            $(obj).parent().parent().parent().addClass("on");
+            $(obj).parent().addClass("on");
+            $(".all-con span").text($(obj).text());
+            $(".tc-down").find("ul").first().first().find("a").attr("href", "").attr("download", "");
+            $(".tc-down").find("ul").first().first().find("a").text("");
+        }
+        $('iframe').load(function () {
+            var srcName = $(window.parent.document).find("#dociframe").attr("src");
+            if (srcName.search("封面") != -1) {
+                if (coverHeight == "") {
+                    this.style.height = this.contentWindow.document.body.offsetHeight + 30 + 'px';
+                    coverHeight = this.contentWindow.document.body.offsetHeight + 30 + 'px';
+                }
+                else {
+                    this.style.height = coverHeight;
+                    //关闭加载层
+                    layer.closeAll();
+                }
+            }
+            else {
+                this.style.height = this.contentWindow.document.body.offsetHeight + 30 + 'px';
+                //ifram高度重新分配完成
+                isLoadOverIframHeight = 1;
+                //关闭加载层
+                layer.closeAll();
+            }
+            this.style.visibility = "";
+        });
+    </script>
+
+</body>
+</html>
