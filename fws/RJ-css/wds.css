@@ -79,6 +79,10 @@
   justify-content: center;
 }
 
+.lx-page5 .pc-top.fix {
+  z-index: 9;
+}
+
 @media screen and (max-width: 768px) {
   .lx-page5 .grade_product .arrow-group {
     left: 5px;

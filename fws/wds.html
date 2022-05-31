@@ -2045,7 +2045,8 @@ function OpenModal(){
             var backBar = $(".back");
             var backToTop = backBar.offset().top;
             var navToTop = navBar.offset().top;
-            width = navBar.width()
+            // TODO width修改为navBarWidth
+            var navBarWidth = navBar.width()
             width2 = tablist.width()
             width3 = pingfen.width()
             width4 = backBar.width()
@@ -2091,7 +2092,8 @@ function OpenModal(){
                         // tablist.addClass("fix");
                         var pingfenheight = $(".pingfen").outerHeight();
 
-                        navBar.css("width", width);
+                        // TODO 对应修改为navBarWidth
+                        navBar.css("width", navBarWidth);
                         //tablist.css("width", width2);
                         tablist.css("height", (winHeight - 72));
                         $(".tab-list").css("height", (winHeight - 72 - pingfenheight - 110))
