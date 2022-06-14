@@ -13,8 +13,8 @@ http_path = "/"
 # css_dir = "japan2/RJ-css/"
 # sass_dir = "japan2-scss"
 
-css_dir = "fws/RJ-css"
-sass_dir = "fws-scss"
+css_dir = "wd/RJ-css"
+sass_dir = "wd-scss"
 
 # css_dir = "japan4/RJ-css/"
 # sass_dir = "japan4-scss"

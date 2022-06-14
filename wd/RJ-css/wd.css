@@ -1,39 +1,38 @@
-.lx-page5 .left .pingfen {
-  padding-left: 39px;
-  justify-content: start;
+.grade-product {
+  max-width: 1170px;
+  margin-bottom: 20px;
+  background-color: #f7f7f7;
+  box-sizing: border-box;
+  margin: auto;
 }
-.lx-page5 .grade-product__title {
+.grade-product__title {
   font-size: 24px;
   color: #24497F;
   text-align: center;
   margin-bottom: 30px;
   font-weight: bold;
 }
-.lx-page5 .grade_product {
-  margin-bottom: 20px;
-  background-color: #f7f7f7;
-}
-.lx-page5 .grade_product_box {
+.grade-product__box {
   position: relative;
 }
-.lx-page5 .grade_product .swiper-container {
+.grade-product .swiper-container {
   margin: 0 44px;
 }
-.lx-page5 .grade_product .swiper-slide {
+.grade-product .swiper-slide {
   background-color: #fff;
 }
-.lx-page5 .grade_product .swiper-slide .img-box {
+.grade-product .swiper-slide .img-box {
   max-height: 200px;
   display: block;
   margin-bottom: 23px;
   text-align: center;
 }
-.lx-page5 .grade_product .swiper-slide .img-box img {
+.grade-product .swiper-slide .img-box img {
   width: 100%;
   max-width: 200px;
   margin: auto;
 }
-.lx-page5 .grade_product .swiper-slide .slide-desc {
+.grade-product .swiper-slide .slide-desc {
   font-size: 14px;
   color: #666666;
   margin-bottom: 29px;
@@ -45,13 +44,13 @@
   -webkit-line-clamp: 2;
   overflow: hidden;
 }
-.lx-page5 .grade_product .swiper-slide .slide-link {
+.grade-product .swiper-slide .slide-link {
   margin-bottom: 28px;
   font-size: 14px;
   color: #CD0C22;
   text-align: center;
 }
-.lx-page5 .grade_product .arrow-group {
+.grade-product .arrow-group {
   display: flex;
   justify-content: space-between;
   position: absolute;
@@ -60,30 +59,27 @@
   left: 0;
   margin-top: -14px;
 }
-.lx-page5 .grade_product .arrow {
+.grade-product .arrow {
   display: block;
   width: 28px;
   height: 28px;
   cursor: pointer;
 }
-.lx-page5 .grade_product .arrow.left {
+.grade-product .arrow.left {
   background: url(../RJ-img/swiper-arrow-left.png) center/100% no-repeat;
 }
-.lx-page5 .grade_product .arrow.right {
+.grade-product .arrow.right {
   background: url(../RJ-img/swiper-arrow-right.png) center/100% no-repeat;
 }
-.lx-page5 .grade_product.grade_product_flex .arrow-group {
+.grade-product.grade-product__flex .arrow-group {
   display: none;
 }
-.lx-page5 .grade_product.grade_product_flex .swiper-wrapper {
+.grade-product.grade-product__flex .swiper-wrapper {
   justify-content: center;
-}
-.lx-page5 .pc-top.fix {
-  z-index: 9;
 }
 
 @media screen and (max-width: 768px) {
-  .lx-page5 .grade_product .arrow-group {
+  .grade_product .arrow-group {
     left: 5px;
     right: 5px;
     width: auto;

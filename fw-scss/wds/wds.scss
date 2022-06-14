@@ -98,6 +98,10 @@
       }
     }
   }
+
+  .pc-top.fix {
+    z-index: 9;
+  }
 }
 
 @media screen and (max-width: 768px) {
