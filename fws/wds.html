@@ -1,0 +1,2366 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no" />
+    <meta property="wb:webmaster" content="209aa6880b9c0855" />
+    <meta name="description" content="RG-S7800C系列交换机RGOS 12.5(4)B0201版本配置指南(V1.2)" />
+    <meta name="keywords" content="RG-S7800C;RGOS 12.5(4)B0201;配置指南" />
+    <meta name="robots" content="all" />
+    <title>
+        RG-S7800C系列交换机RGOS 12.5(4)B0201版本配置指南(V1.2)
+        
+    </title>
+    <link rel="shortcut icon" href="http://image.ruijie.com.cn/UIA/images/favicon.ico" type="image/x-icon" />
+</head>
+<body>
+    
+    <div>
+        <link type="text/css" rel="stylesheet" href="http://image.ruijie.com.cn/UIA/v2.0/styles/idangerous.swiper.css" media="screen">
+<link type="text/css" rel="stylesheet" href="http://image.ruijie.com.cn/UIA/v2.0/styles/typeahead.css" media="screen">
+<link type="text/css" rel="stylesheet" href="http://image.ruijie.com.cn/UIA/v2.0/styles/main.css?20200803" media="screen">
+<link type="text/css" rel="stylesheet" href="http://image.ruijie.com.cn/UIA/v2.0/styles/util.css" media="screen">
+<link type="text/css" rel="stylesheet" href="http://image.ruijie.com.cn/UIA/v2.0/styles/content.css" media="screen">
+<link type="text/css" rel="stylesheet" href="http://image.ruijie.com.cn/UIA/v2.0/Plugins/layui/css/layui.css" media="screen">
+
+<!--新版css-->
+<link type="text/css" rel="stylesheet" href="http://image.ruijie.com.cn/UIA/v3.0/common/styles/header.css?20200723">
+<!--新版css-->
+
+	<!--[if lt IE 9]>
+		<link rel="stylesheet" href="http://image.ruijie.com.cn/UIA/v3.0/common/styles/header-ie8.css?20190509" />
+		<script src="http://image.ruijie.com.cn/UIA/Scripts_R/respond.min.js" type="text/javascript"></script>
+		<script src="http://image.ruijie.com.cn/UIA/Scripts_R/html5shiv.min.js" type="text/javascript"></script>
+		<![endif]-->
+	
+<script src="http://image.ruijie.com.cn/UIA/v2.0/scripts/jquery-1.10.2.min.js" type="text/javascript"></script>
+<script src="http://image.ruijie.com.cn/UIA/v2.0/scripts/jquery.cookie-1.4.1.min.js" type="text/javascript"></script>
+<script src="http://image.ruijie.com.cn/UIA/v2.0/scripts/idangerous.swiper.min.js" type="text/javascript"></script>
+<script src="http://image.ruijie.com.cn/UIA/v2.0/scripts/jquery.SuperSlide.2.1.1.js" type="text/javascript"></script>
+<script src="http://image.ruijie.com.cn/UIA/v2.0/scripts/jquery.placeholder.js" type="text/javascript"></script>
+<script src="http://image.ruijie.com.cn/UIA/v2.0/scripts/jquery.typeahead.js" type="text/javascript"></script>
+<script src="http://image.ruijie.com.cn/UIA/v2.0/scripts/util.js" type="text/javascript"></script>
+<script src="http://image.ruijie.com.cn/UIA/v2.0/scripts/content.js" type="text/javascript"></script>
+<script src="http://image.ruijie.com.cn/UIA/v2.0/scripts/common.js?20200218" type="text/javascript"></script>
+<script src="http://image.ruijie.com.cn/UIA/v2.0/scripts/slimscroll.js" type="text/javascript"></script>
+<script src="http://image.ruijie.com.cn/UIA/v2.0/Plugins/layer/layer.js" type="text/javascript"></script>
+
+<!--新版js-->
+<script src="http://image.ruijie.com.cn/UIA/v2.0/scripts/jquery.common.js?20190426" type="text/javascript"></script>
+<script src="http://image.ruijie.com.cn/UIA/v2.0/scripts/user.js?20190813" type="text/javascript"></script>
+<script src="http://image.ruijie.com.cn/UIA/v3.0/common/scripts/search.common.js?20190509"></script>
+<script src="http://image.ruijie.com.cn/UIA/v3.0/common/scripts/header.js?20190509"></script>
+<!--新版js-->
+
+
+
+<div class="r-header r-header2">	
+	<div class="r-header-btm"> 
+		<div class="com-content clearfix">
+			<a class="r-logo" href="http://www.ruijie.com.cn">
+				<img class="pc-show" src="http://image.ruijie.com.cn/UIA/v3.0/common/images/r-logo.png" alt="">
+				<img class="mb-show" src="http://image.ruijie.com.cn/UIA/v3.0/common/images/logo-mb.jpg" alt="">
+			</a>
+			<ul class="r-nav">
+				<!-- <li> -->
+					<!-- <a class="menu-item otherpage-nav" href="http://www.ruijie.com.cn/">首页</a> -->
+				<!-- </li> -->
+				<li>
+					<a class="menu-item case-center-active" href="http://www.ruijie.com.cn/cp/">产品</a>
+				</li>
+				<li>
+					<a class="menu-item" href="http://www.ruijie.com.cn/fa/">解决方案 </a>
+				</li>
+				<li>
+					<a class="menu-item" href="http://www.ruijie.com.cn/fw/">服务与支持</a>
+				</li>
+				<li>
+					<a class="menu-item" href="http://partners.ruijie.com.cn/partnerportal/">合作伙伴</a>
+				</li>
+				<li>
+					<a class="menu-item about-us-active" href="http://www.ruijie.com.cn/gy/">关于锐捷</a>
+				</li>
+				<li>
+					<a class="menu-item otherpage-nav" href="http://mall.ruijie.com.cn" target="_blank"><span style="background: #DA0030; padding: 7px; border-radius: 7px; color: #ffffff;">锐捷商城</span></a>
+				</li>
+				<li>
+					<a class="menu-search" href="javascript:void(0);"><img id="r-search-btn" src="http://image.ruijie.com.cn/UIA/v3.0/common/images/search-pc-icon.png" alt=""></a>
+				</li>
+				<li>
+					<div class="login-box">
+						<a class="ws-name" href="http://www.ruijie.com.cn/user/register" id="userRegiste"><span class="ws-username">注册</span></a>
+						<span class="login-span">/</span>
+						<a href="http://www.ruijie.com.cn/user/login/" id="userLogin">&nbsp;登录</a>
+						<span>|</span>
+					</div>				
+				</li>
+				<li>
+					<div class="r-language">
+						<div class="r-dropdown">
+							<a href="http://www.ruijie.com.cn/" target="_blank">CN</a>
+							<div class="r-dropdown-content">
+								<p class="current">
+									<a href="">CN</a>
+								</p>
+								<p>
+									<a href="http://www.ruijienetworks.com/">English</a>
+								</p>
+								<p>
+									<a href="http://ru.ruijienetworks.com">Pусский</a>
+								</p>
+								<p>
+									<a href="https://www.ruijie.co.jp">日本語</a>
+								</p>
+								<p>
+									<a href="http://tr.ruijienetworks.com">Türkçe</a>
+								</p>
+                                <p>
+									<a href="http://vn.ruijienetworks.com">việt nam</a>
+								</p>
+								<p>
+									<a href="http://id.ruijienetworks.com/">Indonesia</a>
+								</p>
+								<p>
+									<a href="http://th.ruijienetworks.com/">ภาษาไทย</a>
+								</p>
+								<P>
+									<a href="http://es.ruijienetworks.com/">Español</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+			<div class="mobile-nav clearfix">
+				<a href="javascript:void(0);" title="search" class="mobile-search" id="mobile-search"></a>
+				<a href="javascript:void(0);" title="menu" class="mobile-menu"></a>
+			</div>
+
+		</div>
+		<div class="mobile-search-box s-result-container">
+			<div class="com-content">
+				<div class="search typeahead__container">
+					<div class="typeahead__field global-search-box">
+						<div class="typeahead__query">
+							<span class="typeahead__cancel-button"></span><input type="text" autofocus="" id="mHeaderUC_txtSearchKey" name="q" autofocus="" autocomplete="off" placeholder="搜索..." class="i-search js-typeahead input-global-search">
+							<button type="button" id="mHeaderUC_btnSearch" class="btn-search btn-global-search">搜索</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="nav-list">
+		<ol>
+			<!-- <li class="nav-list-child nav-list-header" gsregion="1" gssnapshot="0"> -->
+				<!-- <div class="tit-a"> -->
+					<!-- <a href="http://www.ruijie.com.cn/">首页</a> -->
+					<!-- <span class="addbtn"></span> -->
+				<!-- </div> -->
+			<!-- </li> -->
+			<li class="nav-list-child nav-list-product" gsregion="1" gssnapshot="1">
+				<div class="tit-a">
+					<a href="http://www.ruijie.com.cn/cp/">产品</a>
+					<span class="addbtn"></span>
+				</div>
+				<ul>
+					<li class="ul-child li01">
+						<div class="tit-b">
+							产品
+						</div>
+						<dl class="col2 GridsumProductLine">
+							<dd>
+								<a href="http://www.ruijie.com.cn/cp/jh/">
+									交换机
+								</a>
+							</dd>
+							<dd>
+								<a href="http://www.ruijie.com.cn/cp/ly/">
+									路由器
+								</a>
+							</dd>
+							<dd>
+								<a href="http://www.ruijie.com.cn/cp/wx/">
+									无线
+								</a>
+							</dd>
+							<dd>
+								<a href="http://www.ruijie.com.cn/cp/wlw/">
+									物联网
+								</a>
+							</dd>
+							<dd>
+								<a href="http://www.ruijie.com.cn/cp/ykt/">
+									云桌面
+								</a>
+							</dd>
+							<dd style="display:none;">
+								<a href="http://www.ruijie.com.cn/cp/wg/">
+									网关
+								</a>
+							</dd>
+							<dd>
+								<a href="http://www.ruijie.com.cn/cp/aq/">
+									安全
+								</a>
+							</dd>
+							<dd>
+								<a href="http://www.ruijie.com.cn/cp/yyxt/">
+									身份管理
+								</a>
+							</dd>
+							<dd>
+								<a href="http://www.ruijie.com.cn/cp/zhjs/">
+									智慧教室
+								</a>
+							</dd>
+
+							<dd>
+								<a href="http://www.ruijie.com.cn/cp/riil/">
+									IT运维管理
+								</a>
+							</dd>
+							
+							<dd>
+								<a href="http://www.ruijiery.com" target="_blank">
+									睿易中小企业
+								</a>
+							</dd>
+							<br/>
+							<dd>
+								<a href="http://www.ruijie.com.cn/cp/fw/" target="_blank">
+									服务产品
+								</a>
+							</dd>
+						</dl>
+					</li>
+					<li class="ul-child li02">
+						<div class="tit-b">
+							技术解决方案
+						</div>
+						<dl>
+							<a href="http://www.ruijie.com.cn/fa/jjwl/">
+								<dt>极简网络</dt>
+							</a>
+							<dd>
+								<a href="http://www.ruijie.com.cn/fa/jh/20220311/">极简以太全光网</a>
+							</dd>
+							<dd>
+								<a href="http://www.ruijie.com.cn/fa/jh/20180912/">极简园区物联承载网</a>
+							</dd>
+							
+							<dd>
+								<a href="http://www.ruijie.com.cn/fa/jh/20190814/">全万兆网络</a>
+							</dd>
+							<dd>
+	                                                        <a href="http://www.ruijie.com.cn/fa/jh/20190910/">25G/100G数据中心</a>	
+							</dd>
+						</dl>
+						<dl>
+							<a href="http://www.ruijie.com.cn/cp/wx/">
+								<dt>
+									无线网络
+								</dt>
+							</a>
+							<dd>
+								<a href="http://www.ruijie.com.cn/special/cp-wx/20211009/">Wi-Fi 6</a>
+							</dd>
+							<dd>
+								<a href="http://www.ruijie.com.cn/fa/cp-wx/87844/">企业云管理网络</a>
+							</dd>
+							<dd>
+								<a href="http://www.ruijie.com.cn/special/fa-wx/20170502/index.shtml">无线NEW办公</a>
+							</dd>
+							<dd>
+								<a href="http://www.ruijie.com.cn/fa/qy/20200911/">企业生产无线</a>
+							</dd>
+							<dd>
+								<a href="http://www.ruijie.com.cn/fa/cp-wlw/82739">新零售AI智能柜</a>
+							</dd>						
+						</dl>
+						<dl>
+							<a href="http://www.ruijie.com.cn/cp/ykt/">
+								<dt>
+									云桌面
+								</dt>
+							</a>
+							<dd>
+								<a href="http://www.ruijie.com.cn/fa/ykt/20210611/">三擎云办公</a>
+							</dd>
+							<dd>
+								<a href="http://www.ruijie.com.cn/fa/ykt/20200811/">云办公轻云</a>
+							</dd>
+							<dd>
+								<a href="http://www.ruijie.com.cn/fa/ykt/20190415/">云办公4.0</a>
+							</dd>
+							<dd>
+								<a href="http://www.ruijie.com.cn/fa/pj-ykt/87306/">三擎云课堂（普教）</a>
+							</dd>
+							<dd>
+								<a href="http://www.ruijie.com.cn/fa/gj/20210413/">三擎云课堂（高职教）</a>
+							</dd>					
+						</dl>
+					</li>
+					<li class="ul-child li03">
+						<div class="tit-b">
+							远程POC申请
+						</div>
+						<p>
+							<img src="http://image.ruijie.com.cn/UIA/v4.0/img/nav-p-img.gif" alt="">
+						</p>
+						<p>帮助用户快速验证和测试产品技术、功能等问题，确保采购无忧。</p>
+						<a href="https://www.ruijie.com.cn/poc/?utm_source=dbdh">马上申请</a>
+					</li>
+				</ul>
+			</li>
+			<li class="nav-list-child nav-list-solution" gsregion="1" gssnapshot="2">
+				<div class="tit-a">
+					<a href="http://www.ruijie.com.cn/fa/">
+						行业细分场景解决方案
+					</a>
+					<span class="addbtn"></span>
+				</div>
+				<ul>
+					<li class="ul-child li01">
+						<div class="tit-b">
+							行业细分场景解决方案
+						</div>
+						<dl class="col2 GridsumProductLine">
+							<dd>
+								<a href="http://www.ruijie.com.cn/fa/zhf/">政府</a>
+							</dd>
+							<dd>
+								<a href="http://www.ruijie.com.cn/fa/gj/">高教/职教</a>
+							</dd>
+                                                         <dd>
+								<a href="http://www.ruijie.com.cn/fa/pj/">普教</a>
+							</dd>
+							<dd>
+								<a href="http://www.ruijie.com.cn/fa/qy/">制造业</a>
+							</dd>
+							<dd>
+								<a href="http://www.ruijie.com.cn/fa/jr/">金融</a>
+							</dd>
+							<dd>
+								<a href="http://www.ruijie.com.cn/fa/jt/">交通</a>
+							</dd>
+							<dd>
+								<a href="http://www.ruijie.com.cn/fa/yl/">医疗卫生</a>
+							</dd>
+							<dd>
+								<a href="http://www.ruijie.com.cn/fa/yys/">运营商</a>
+							</dd>
+							<dd>
+								<a href="http://www.ruijie.com.cn/fa/dl/">电力能源</a>
+							</dd>
+							<dd>
+								<a href="http://www.ruijie.com.cn/fa/hlw/">互联网</a>
+							</dd>
+							<dd>
+								<a href="http://www.ruijie.com.cn/fa/ggaq/">公共安全</a>
+							</dd>
+							<dd>
+								<a href="http://www.ruijiery.com/">睿易中小企业</a>
+							</dd>
+							<dd>
+								<a href="http://www.ruijie.com.cn/fa/jzhdch/">地产酒店文旅·连锁服务·场馆园区</a>
+							</dd>
+						</dl>
+					</li>
+					<li class="ul-child li02">
+						<div class="li02-case clearfix">
+							<div class="li02-case-txt">
+								<div class="tit-b">
+									客户成功案例
+								</div>
+								<p>查看锐捷网络解决方案在各行业的成功应用，了解客户对锐捷的评价。</p>
+								<a href="http://www.ruijie.com.cn/al/">查看全部</a>
+							</div>
+							<div class="li02-case-img" id="solutionCase"><p><a href="http://www.ruijie.com.cn/cp/xw-cp-aq/87006/"><img src="http://upimg.ruijie.com.cn/A-M/Image/20210421114528/0421安全案例.jpg" alt=""><span>3大举措保障指挥信息网安全！</span></a></p><p><a href="http://www.ruijie.com.cn/al/gj-wl/87014/"><img src="http://upimg.ruijie.com.cn/A-M/Image/20210421113615/421普教案例.png" alt=""><span>助力宁波首次科学实验考试</span></a></p></div>
+						</div>
+
+					</li>
+				</ul>
+			</li>
+			<li class="nav-list-child nav-list-service" gsregion="1" gssnapshot="3">
+				<div class="tit-a">
+					<a href="http://www.ruijie.com.cn/fw/">
+						服务与支持
+					</a>
+					<span class="addbtn"></span>
+				</div>
+				<ul>
+					<li class="ul-child">
+						<div class="tit-b">
+							服务工具
+						</div>
+						<dl>
+							<dd>
+								<a href="http://www.ruijie.com.cn/special/fw/tool/xryf/">小锐云服</a>
+							</dd>
+                                                        <dd>
+								<a href="http://www.ruijie.com.cn/fw/rj/86205/">小锐云桥</a>
+							</dd>
+							<dd>
+								<a href="https://ocs.ruijie.com.cn/ ">客服中心闪电兔</a>
+							</dd>
+							<dd>
+								<a href="http://cloud.ruijie.com.cn/admin3/">智能云管平台MACC</a>
+							</dd>
+							<dd>
+								<a href="http://wis.ruijie.com.cn/">无线智能服务WIS</a>
+							</dd>
+							
+						</dl>
+						<a class="dlt-link" href="http://www.ruijie.com.cn/fw/tool/">查看全部</a>
+					</li>
+					<li class="ul-child">
+						<div class="tit-b">
+							服务平台
+						</div>
+						<dl>
+							<dd>
+								<a href="http://csc.ruijie.com.cn/rcc/page/main.html">云桌面服务平台</a>
+							</dd>
+							<dd>
+								<a href="http://bbs.ruijiery.com/forum.php?mod=forumdisplay&amp;fid=92">睿易服务平台</a>
+							</dd>
+							<dd>
+								<a href="http://partners.ruijie.com.cn/PartnerPortal/News/Authentication?typeid=21&amp;CategoryCode=A003B004">合作伙伴服务平台</a>
+							</dd>
+							<dd>
+								<a href="http://www.cnety.com.cn/">网络青年交易平台</a>
+							</dd>
+						</dl>
+					</li>
+					<li class="ul-child">
+						<div class="tit-b">
+							技术支持
+						</div>
+						<dl>
+							<dd>
+								<a href="http://www.ruijie.com.cn/fw/wd/">文档中心</a>
+							</dd>
+							<dd>
+								<a href="http://www.ruijie.com.cn/fw/rj/">版本下载</a>
+							</dd>
+							<dd>
+								<a href="http://www.ruijie.com.cn/fw/zxpx/">在线培训</a>
+							</dd>
+							<dd>
+								<a href="http://www.ruijie.com.cn/fw/wt/">常见问题</a>
+							</dd>
+						</dl>
+					</li>
+					<li class="ul-child">
+						<div class="tit-b">
+							服务产品
+						</div>
+						<dl>
+							<dd>
+								<a href="http://www.ruijie.com.cn/special/cp-fw/20210617/">维保服务</a>
+							</dd>
+							<dd>
+								<a href="http://www.ruijie.com.cn/fa/fw/20190701/">综合运维</a>
+							</dd>
+							<dd>
+								<a href="http://www.ruijie.com.cn/cp/fw-zwfw/superwifi/">SuperWi-Fi</a>
+							</dd>
+                                                        <dd>
+								<a href="http://www.ruijie.com.cn/fa/fw/20190822/">机房搬迁</a>
+							</dd>
+                                                         <dd>
+								<a href="http://www.ruijie.com.cn/fa/fw/20190710/second.shtml">IPv6改造</a>
+							</dd>
+						</dl>
+						<a class="dlt-link" href="http://www.ruijie.com.cn/cp/fw/">查看全部</a>
+					</li>
+					<li class="ul-child">
+						<div class="tit-b">
+							产品服务
+						</div>
+						<dl>
+							<dd>
+								<a href="http://www.ruijie.com.cn/fw/License/">产品授权申请</a>
+							</dd>					
+							<dd>
+								<a href="http://www.ruijie.com.cn/fw/wxzhx/">产品维修中心</a>
+							</dd>
+							<dd>
+								<a href="http://www.ruijie.com.cn/fw/fwgg/">产品服务公告</a>
+							</dd>
+							<dd>
+								<a href="http://www.ruijie.com.cn/fw/bx/">产品保修查询</a>
+							</dd>
+							<dd>
+								<a href="http://www.ruijie.com.cn/psirt/">安全通告</a>
+							</dd>
+                                                        <dd>
+								<a href="http://www.ruijie.com.cn/fw/xw/2006/">保修服务政策</a>
+							</dd>
+						</dl>
+					</li>
+					<li class="ul-child">
+						<div class="tit-b">
+							教学服务
+						</div>
+						<dl>
+							<dd>
+								<a href="http://talent.ruijie.com.cn/">锐捷ICT人才教育中心</a>
+							</dd>
+							<dd>
+								<a href="http://www.ruijie.com.cn/cp/fw-pxyrzfw/1xzyjndjzs/">校企合作</a>
+							</dd>
+							<dd>
+								<a href="http://talent.ruijie.com.cn/Certification/">认证体系</a>
+							</dd>
+							<dd>
+								<a href="http://talent.ruijie.com.cn/train/TrainningPlan.aspx?type=1">培训计划</a>
+							</dd>
+							<!-- <dd> -->
+								<!-- <a href="http://talent.ruijie.com.cn/exam/">考试申请</a> -->
+							<!-- </dd> -->
+							<dd>
+								<a href="http://talent.ruijie.com.cn/certification/certificationsearch/">认证查询</a>
+							</dd>
+						</dl>
+					</li>
+				</ul>
+			</li>
+			<li class="nav-list-child nav-list-cooperative" gsregion="1" gssnapshot="4">
+				<div class="tit-a">
+					<a href="http://partners.ruijie.com.cn/PartnerPortal">
+						合作伙伴
+					</a>
+					<span class="addbtn"></span>
+				</div>
+				<ul>
+					<li class="ul-child">
+						<div class="tit-b">
+							成为锐捷伙伴
+						</div>
+						<dl>
+							<dd>
+								<a href="http://partners.ruijie.com.cn/PartnerPortal/News/Authentication?typeid=34&amp;CategoryCode=A008B001" target="_blank">
+									合作伙伴政策
+								</a>
+							</dd>
+							<dd>
+								<a rel="nofollow" href="http://partners.ruijie.com.cn/PartnerPortal/News/Authentication?typeid=35&amp;CategoryCode=A008B002" target="_blank">
+									行为准则
+								</a>
+							</dd>
+							<dd>
+								<a href="http://www.ruijie.com.cn/zxjb/">
+									廉洁及合规举报
+								</a>
+							</dd>
+							<dd>
+								<a href="http://partners.ruijie.com.cn/ChannelContract2014/Contract2014Index?typeid=36" target="_blank">
+									我要签约
+								</a>
+							</dd>
+							<dd>
+								<a href="http://partners.ruijie.com.cn/PartnerPortal/SMB/SMBIndex" target="_blank">
+									SMB事业部分销专区
+								</a>
+							</dd>
+						</dl>
+					</li>
+					
+					<li class="ul-child">
+						<div class="tit-b">
+							售前营销
+						</div>
+						<dl>
+							<dd>
+								<a rel="nofollow" href="http://partners.ruijie.com.cn/PartnerPortal/Service/QuotationSystem?type=8" target="_blank">
+									锐捷产品配置器
+								</a>
+							</dd>
+							<dd>
+								<a href="http://www.ruijie.com.cn/yx/">
+									营销资料平台
+								</a>
+							</dd>
+							<dd>
+								<a href="http://partners.ruijie.com.cn/PartnerPortal/News/Authentication?typeid=9&amp;CategoryCode=A001B002" target="_blank">
+									售前认证
+								</a>
+							</dd>
+							<dd>
+								<a href="http://partners.ruijie.com.cn/PartnerPortal/Tools/List?typeid=12&amp;CategoryCode=A001B005" target="_blank">
+									售前工具包
+								</a>
+							</dd>
+							<dd>
+								<a href="http://partners.ruijie.com.cn/partnerportal/checkaddress?typeid=160" target="_blank">
+									合作伙伴礼品库
+								</a>
+							</dd>
+							<!-- <dd> -->
+								<!-- <a href="http://www.ruijie.com.cn/xstyg/" target="_blank"> -->
+									<!-- 线上体验馆 -->
+								<!-- </a> -->
+							<!-- </dd> -->
+							<dd>
+                                <a href="http://partners.ruijie.com.cn/partnerportal/toElearning" target="_blank">
+                                    e-Learning
+                                </a>
+                            </dd>
+						</dl>
+					</li>
+					<li id="AuditAddCityService" class="ul-child li04">
+						<div class="tit-b">
+							销售与订单
+						</div>
+						<dl>
+							<dd>
+								<a rel="nofollow" href="http://partners.ruijie.com.cn/PartnerPortal/Commerce/ProjectFillingInfo?typeid=124" target="_blank">
+									项目报备管理系统
+								</a>
+							</dd>
+							<dd>
+								<a rel="nofollow" href="http://partners.ruijie.com.cn/PartnerPortal/Commerce/OrderManage?typeid=14" target="_blank">
+									订单管理
+								</a>
+							</dd>
+							<dd>
+								<a href="http://www.ruijie.com.cn/fw/xw-3227-1/">
+									产品停服信息
+								</a>
+							</dd>
+							<dd>
+								<a href="http://www.ruijie.com.cn/fw/xw-3225-1/">
+									产品停售信息
+								</a>
+							</dd>
+							<dd class="hidden">
+								<a href="http://partners.ruijie.com.cn/PartnerPortal/News/Detail?typeid=17&amp;CategoryCode=A002B004" target="_blank">
+									商务手册
+								</a>
+							</dd>
+							<dd>
+								<a target="_blank" href="http://partners.ruijie.com.cn/PartnerPortal/Service/CityService">
+									行业渠道产品电商平台
+								</a>
+							</dd>
+	                                                <dd>
+								<a target="_blank" rel="nofollow" title="历史订单查询" href="http://partners.ruijie.com.cn/PartnerPortal/Commerce/RebateDetails?typeid=29">
+									历史订单查询
+								</a>
+							</dd>
+  <dd>
+								<a target="_blank" rel="nofollow" title="授权函查询 " href="https://partners.ruijie.com.cn/partnerportal/ChannelVerification/ChannelVerificationForAuthorizeFile">
+									授权函查询 
+								</a>
+							</dd>
+						</dl>
+					</li>
+					<li class="ul-child li04">
+						<div class="tit-b">
+							售后及服务
+						</div>
+						<dl>
+							<dd>
+								<a target="_blank" href="http://partners.ruijie.com.cn/PartnerPortal/News/Authentication?typeid=21&amp;CategoryCode=A003B004">
+									售后认证
+								</a>
+							</dd>
+							<dd>
+								<a target="_blank" href="http://partners.ruijie.com.cn/PartnerPortal/Tools/List?typeid=19&amp;CategoryCode=A003B002">
+									售后工具包
+								</a>
+							</dd>
+							<dd>
+								<a target="_blank" href="http://partners.ruijie.com.cn/PartnerPortal/Service/CSOSService?type=20">
+									iSov 服务运营可视化平台
+								</a>
+							</dd>
+							<dd>
+								<a target="_blank" href="http://partners.ruijie.com.cn/ServiceCertification/PartnerList">
+									售后服务认证
+								</a>
+							</dd>
+						</dl>
+					</li>
+					<li class="ul-child">
+						<div class="tit-b">
+							用户中心
+						</div>
+						<dl>
+<dd>
+								<a target="_blank" rel="nofollow" title="系统指导大全  " href="http://www.ruijie.com.cn/yx/hzhb/">
+									系统指导大全  
+								</a>
+							</dd>
+							<dd>
+								<a target="_blank" rel="nofollow" title="账号管理" href="http://partners.ruijie.com.cn/PartnerPortal/usercenter?typeid=25">
+									账号管理
+								</a>
+							</dd>
+							<dd>
+								<a target="_blank" rel="nofollow" title="下载电子授权牌" href="http://partners.ruijie.com.cn/PartnerPortal/Download_Certificate?typeid=143">
+									下载电子授权牌
+								</a>
+							</dd>
+							<dd>
+								<a target="_blank" rel="nofollow" title="签约信息查看" href="http://partners.ruijie.com.cn/PartnerPortal/ContractView">
+									签约信息查看
+								</a>
+								<br>
+							</dd>
+							<dd>
+								<a target="_blank" rel="nofollow" title="资质查询" href="http://partners.ruijie.com.cn/PartnerPortal/Commerce/Qualification?typeid=28">
+									资质查询
+								</a>
+							</dd>
+                            <dd>
+								<a target="_blank" rel="nofollow" title="签章管理" href="http://partners.ruijie.com.cn/partnerportal/PartnerSign?typeid=162">
+									签章管理
+								</a>
+							</dd>
+                            <dd>
+								<a target="_blank" rel="nofollow" title="返利管理" href="http://partners.ruijie.com.cn/PartnerPortal/Commerce/RebateManage">
+									返利管理
+								</a>
+							</dd>
+							<dd>
+                                <a target="_blank" rel="nofollow" title="睿易技术认证查询" href="http://partners.ruijie.com.cn/partnerportal/ChannelVerification/ChannelVerificationForELearningCertificate">
+                                    睿易技术认证查询
+                                </a>
+                            </dd>
+
+						</dl>
+					</li>
+				</ul>
+			</li>
+			<li class="nav-list-child nav-list-about" gsregion="1" gssnapshot="5">
+				<div class="tit-a">
+					<a href="http://www.ruijie.com.cn/gy/">
+						关于锐捷
+					</a>
+					<span class="addbtn"></span>
+				</div>
+				<ul>
+					<li class="ul-child">
+						<div class="tit-b">
+							公司介绍
+						</div>
+						<dl>
+							<dd>
+								<a href="http://www.ruijie.com.cn/gy/introduce/">
+									公司概况
+								</a>
+							</dd>
+							<dd>
+								<a href="http://www.ruijie.com.cn/gy/history/">
+									发展历程
+								</a>
+							</dd>
+							<dd>
+								<a href="http://www.ruijie.com.cn/gy/zzcx/">
+									自主创新
+								</a>
+							</dd>
+							<dd>
+								<a href="http://www.ruijie.com.cn/gy/qywh/">
+									企业文化
+								</a>
+							</dd>
+
+						</dl>
+					</li>
+					<li class="ul-child">
+						<div class="tit-b">
+							公司动态
+						</div>
+						<dl>
+							<dd>
+								<a href="http://www.ruijie.com.cn/gy/xw/">
+									新闻
+								</a>
+							</dd>
+							<dd>
+								<a href="http://www.ruijie.com.cn/al/">
+									案例
+								</a>
+							</dd>
+
+							<dd>
+								<a href="http://www.ruijie.com.cn/gy/zt/">
+									专题
+								</a>
+							</dd>
+                                                       <dd>
+								<a href="http://www.ruijie.com.cn/gy/video/">
+									视频
+								</a>
+							</dd>
+                                                         <dd>
+								<a href="http://www.ruijie.com.cn/gy/events/">
+									活动
+								</a>
+							</dd>
+						</dl>
+					</li>
+					<li class="ul-child">
+						<div class="tit-b">
+							加入我们
+						</div>
+						<dl>
+							<dd>
+								<a href="http://app.mokahr.com/apply/ruijie/26518">
+									社会招聘
+								</a>
+							</dd>
+							<dd>
+								<a href="http://www.ruijie.com.cn/campus/">
+									校园招聘
+								</a>
+							</dd>
+							<dd>
+								<a href="http://www.ruijie.com.cn/gy/nr/40567">
+									员工培训
+								</a>
+							</dd>
+						</dl>
+					</li>
+					<li class="ul-child">
+						<div class="tit-b">
+							联系我们
+						</div>
+						<dl>
+							<dd>
+								<a href="http://www.ruijie.com.cn/gy/content/">
+									总部及办事处
+								</a>
+							</dd>
+							<dd>
+								<a href="http://www.ruijie.com.cn/psirt/">
+									安全通告
+								</a>
+							</dd>
+							<dd>
+								<a href="http://www.ruijie.com.cn/fw/map/">
+									服务网点
+								</a>
+							</dd>
+							<dd>
+								<a href="http://www.ruijie.com.cn/zxjb/">
+									廉洁及合规举报
+								</a>
+							</dd>
+						</dl>
+					</li>
+					<li class="ul-child li06 li07">
+						<div class="tit-b">
+							营销资料平台
+						</div>
+						<div class="navlist-case">
+							<a href="http://www.ruijie.com.cn/yx/" target="_blank" id="case-yx">
+								<img src="http://image.ruijie.com.cn/UIA/v3.0/common/images/20200613_02.jpg">
+								<span>
+									营销资料平台
+								</span>
+							</a>
+						</div>
+					</li>
+                    <li class="ul-child li06 li07" style="display:none;">
+						<div class="tit-b">
+						  线上体验
+						</div>
+						<div class="navlist-case">
+						  <a href="http://www.ruijie.com.cn/xstyg/" target="_blank" id="case-ystyg">
+							<img src="http://image.ruijie.com.cn/UIA/v3.0/common/images/20200613_03.jpg">
+							<span>
+							  线上体验馆
+							</span>
+						  </a>
+						</div>
+					  </li>
+				</ul>
+			</li>
+			<li class="nav-list-child" gsregion="1" gssnapshot="6">
+				<div class="tit-a">
+					<a href="http://mall.ruijie.com.cn" target="_blank">
+						<span style="background: #DA0030; padding: 7px; border-radius: 7px; color: #ffffff;">锐捷商城</span>
+					</a>
+					<span class="addbtn"></span>
+				</div>
+			</li>
+		</ol>
+	    <div class="mb-loginin"><a class='btn' href="http://www.ruijie.com.cn/user/login/" target="_blank">立即登录</a></div>
+		<div class="lagCon" style="position: fixed!important;">
+			<p>选择语言</p>
+			<ul>
+				<li>
+					<a class="current" href="javascript:;">中文</a>
+				</li>
+				<li>
+					<a href="http://www.ruijienetworks.com/">English</a>
+				</li>
+				<li>
+					<a href="http://ru.ruijienetworks.com">Pусский</a>
+				</li>
+				<li>
+					<a href="http://www.ruijie.co.jp">日本語</a>
+				</li>
+				<li>
+					<a href="http://tr.ruijienetworks.com">Türkçe</a>
+				</li>
+                <li>
+					<a href="http://vn.ruijienetworks.com">việt nam</a>
+				</li>
+				<li>
+					<a href="http://id.ruijienetworks.com/">Indonesia</a>
+				</li>
+				<li>
+					<a href="http://th.ruijienetworks.com/">ภาษาไทย</a>
+				</li>
+				<li>
+					<a href="http://es.ruijienetworks.com/">Español</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="r-search-box">
+		<div class="com-content clearfix">
+			<div class="r-search-close"></div>
+			<div class="r-search typeahead__container global-search-box pull-right">
+					<div class="typeahead__field">
+						<div class="t-search typeahead__query">
+							
+								<input class="t-search-input js-typeahead input-global-search pc-show mb-show" type="text" autofocus="" autocomplete="off" placeholder="请输入产品名称或关键词！" value="" name="q" id="search">
+								
+							
+							<span class="typeahead__button">
+								<input class="t-search-submit typeahead__search-icon" value="" type="submit">
+							</span>
+							<span class="r-search-icon"></span>
+							<span class="r-search-mb mb-show">搜索</span>
+							<div class="hot-history-box">
+								<div class="r-hot-search">
+									<p class="r-search-title">热搜</p>
+									<div class="r-search-list">
+									
+									</div>
+								</div>
+								<div class="r-history-search-item">
+									<p class="r-search-title">历史搜索</p>
+									<button type="button" class="clear-history">清空历史</button>
+									<p class="clear-tip">暂无历史搜索</p>
+									<div class="r-search-list">
+									
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				
+			</div>
+		</div>
+	</div>
+
+</div>
+
+<!-- Gridsum tracking code begin. -->
+<script type='text/javascript'>
+    var _gsq = _gsq || [];
+    (function () {
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = (location.protocol == 'https:' ? 'https://ssl.' : 'http://static.') + 'gridsumdissector.com/js/Clients/GWD-002457-A76CDB/gs.js';
+        var firstScript = document.getElementsByTagName('script')[0];
+        firstScript.parentNode.insertBefore(s, firstScript);
+    })();
+</script>
+<!--Gridsum tracking code end. -->
+
+<script>
+    //******************百度统计代码添加 2018-3-13 start ********************************//
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?608ef9e4b8cd3b7746392c721f2ef555";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+    //******************百度统计代码添加 end ********************************//
+</script>
+
+<script>
+	//******************百度营销代码添加 2021-4-21 start ********************************//
+	window._agl = window._agl || [];
+    (function () {
+        _agl.push(
+            ['production', '_f7L2XwGXjyszb4d1e2oxPybgD']
+        );
+        (function () {
+            var agl = document.createElement('script');
+            agl.type = 'text/javascript';
+            agl.async = true;
+            agl.src = 'https://fxgate.baidu.com/angelia/fcagl.js?production=_f7L2XwGXjyszb4d1e2oxPybgD';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(agl, s);
+        })();
+    })();
+	//******************百度营销代码添加 end ********************************//
+</script>
+
+<script type="text/javascript">
+    $(function () {
+        $("#solutionCase p a").click(function () {
+            _gsq.push(["T", "GWD-002457", "trackEvent", "目录菜单", "解决方案下拉菜单", $("span", $(this)).text()]);
+        });
+        $(".nav-list-about #case-yx").click(function(){
+            _gsq.push(["T", "GWD-002457", "trackEvent", "目录菜单", "关于锐捷下拉菜单", "营销资料平台"]);
+        });
+        $(".nav-list-about #case-ystyg").click(function(){
+            _gsq.push(["T", "GWD-002457", "trackEvent", "目录菜单", "关于锐捷下拉菜单", "线上体验馆"]);
+        });
+    })
+</script>
+
+
+    </div>    
+    
+    <link type="text/css" rel="stylesheet" href="http://image.ruijie.com.cn/UIA/V3.0/common/styles/add.css?637818503212154862" />
+    <!-- TODO 新增wds.css swiper.js swiper.css -->
+    <script src="./RJ-js/swiper.min.js?t=1" type="text/javascript"></script>
+    <link type="text/css" rel="stylesheet" href="./RJ-css/wds.css?t=1" />
+    <link type="text/css" rel="stylesheet" href="./RJ-css/swiper.min.css">
+
+    <style>
+        .result-list {
+            height: 100%;
+            width: 100%;
+            overflow: auto;
+        }
+        .left-h3 {
+            background: #d4152b !important;
+        }
+        .left-h3 span {
+            color: #ffffff !important;
+        }
+        .item {
+            border-bottom: 1px solid #ccc !important;
+        }
+    </style>
+
+    <script src="http://image.ruijie.com.cn/UIA/Scripts_R/reload.js" type="text/javascript"></script>
+    
+
+<div class="my-container other-industry">
+    <div class="pc-breadnav">
+        <p>
+            <a href="http://www.ruijie.com.cn">首页</a>
+            <span>&gt;</span><a href="/fw/">服务与支持</a>
+            <span>&gt;</span><a href="/fw/wd/">文档中心</a>
+            <span>&gt;</span>RG-S7800C系列交换机RGOS 12.5(4)B0201版本配置指南(V1.2)
+        </p>
+    </div>
+</div>
+<div class="lx-title2">
+    <div class="com-content">
+        <span id="doctitle">RG-S7800C系列交换机RGOS 12.5(4)B0201版本配置指南(V1.2)</span>
+            <input name="hidTypeName" type="hidden" id="hidTypeName" value="交换机">
+    <div style="width:12%;height:auto;float:right;">
+        <style type="text/css">
+            #share {
+                float: right;
+            }
+
+                #share a {
+                    width: 38px;
+                    height: 38px;
+                    padding: 0px;
+                }
+
+                    #share a.bds_qzone {
+                        background: url(//image.ruijie.com.cn/UIA/img/sa_video_img_19.jpg);
+                    }
+
+                    #share a.bds_bbs {
+                        background: url(//image.ruijie.com.cn/UIA/img/ac-sq.png);
+                    }
+
+                    #share a.bds_weixin {
+                        background: url(//image.ruijie.com.cn/UIA/img/sa_video_img_20.jpg);
+                    }
+
+                    #share a.bds_tsina {
+                        background: url(//image.ruijie.com.cn/UIA/img/sa_video_img_21.jpg);
+                    }
+
+                    #share a.bds_mail {
+                        background: url(//image.ruijie.com.cn/UIA/img/sa_video_img_22.jpg);
+                    }
+
+                    #share a.bds_print {
+                        background: url(//image.ruijie.com.cn/UIA/img/sa_video_img_23.jpg);
+                    }
+        </style>
+        <div id="share" class="bdsharebuttonbox">
+            <ul class="s_fenxiangwailian clearfix">
+                <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+                <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                <a href='mailto:?subject=分享：RG-S7800C系列交换机RGOS 12.5(4)B0201版本配置指南(V1.2)-文档中心&body=RG-S7800C系列交换机RGOS 12.5(4)B0201版本配置指南(V1.2)-文档中心
+
+/fw/wd/87885' class='bds_mail' title='分享到邮件分享'></a>
+            </ul>
+        </div>
+        <script>window._bd_share_config = { "common": { "bdSnsKey": {}, "bdText": "", "bdMini": "2", "bdMiniList": false, "bdPic": "", "bdStyle": "0", "bdSize": "16" }, "share": {} }; with (document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = '//image.ruijie.com.cn/UIA/Plugin/baidu_share/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];</script>
+        <script type="text/javascript">
+            $(function () {
+                $("#share ul a").on("click", function () {
+                    _gsq.push(["T", "GWD-002457", "trackEvent", "文档中心", "文档详情页-分享", "RG-S7800C系列交换机RGOS 12.5(4)B0201版本配置指南(V1.2)"]);
+                })
+            });
+        </script>
+    </div>
+    </div>
+</div>
+<div class="com-content">
+    <div class="lx-page5">
+        <div class="left">
+            <div class="back">
+                <a href="javascript:;"><p>文档封面</p></a>
+            </div>
+            <div class="tab-list-scroll">
+                <div class="tab-list">
+
+                </div>
+                <!-- TODO 新增相关产品tab  start -->
+                <div class="pingfen">
+                  <p>相关产品</p>
+                </div>
+                <!-- TODO 新增相关产品tab  end -->
+                <div class="pingfen">
+                    <p>文档评分</p>
+                    <div class="fen">
+                        <img src="http://image.ruijie.com.cn/UIA/img/xx2.png" class="xx">
+                        <img src="http://image.ruijie.com.cn/UIA/img/xx2.png" class="xx">
+                        <img src="http://image.ruijie.com.cn/UIA/img/xx2.png" class="xx">
+                        <img src="http://image.ruijie.com.cn/UIA/img/xx2.png" class="xx">
+                        <img src="http://image.ruijie.com.cn/UIA/img/xx2.png" class="xx">
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="tc-pingfen">
+            <form class="form-horizontal">
+                <input type="hidden" name="dockingId" value="c6920397-b054-4094-a39e-91daefcb1a68" />
+                <input type="hidden" id="cltoken" name="cltoken" value="" />
+                <input type="hidden" id="utmb" name="utmb" value="" />
+                <input type="hidden" id="utma" name="utma" value="" />
+                <img src="http://image.ruijie.com.cn/UIA/img/close.png" class="close">
+                <h3>锐捷网络可能会与您联系，请填写您的联系信息</h3>
+                <ul>
+                    <li><span>姓名：</span><input type="text" name="name" maxlength="50" value="" placeholder="姓名" class="int"></li>
+                    <li><span>邮箱：</span><input type="text" name="email" data-type="email" data-error="请填写电子邮箱" data-regex-error="请填写正确的邮箱" data-val="true" data-val-required="*" data-val-regex="" data-val-regex-pattern="^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$" maxlength="50" value="" placeholder="邮箱" class="int"></li>
+                    <li><span>电话：</span><input type="text" name="mobile" value="" placeholder="电话" class="int" data-type="phone" data-error="请填写手机号码" data-regex-error="请填写正确的手机号码" data-val="true" data-val-required="*" maxlength="20"></li>
+                    <li>
+                        <span>验证码：</span><input type="text" value="" id="verificationCodeValueId" placeholder="图形验证码" class="int short"><img class="verification-code" id="verificationcodeid" data-src="/application/verificationcode?key=articlescore" src="/application/verificationcode?key=articlescore&amp;_=" />
+                    </li>
+                    <li><button type="submit" class="subbtn" onclick="subMessage()">提交</button></li>
+                    <li class="tips">
+                        <p>
+                            点击“提交”，表明我理解并同意锐捷 <a href="http://www.ruijie.com.cn/privacy/
+" target="_blank">隐私声明</a>
+                        </p>
+                    </li>
+                </ul>
+            </form>
+        </div>
+
+        <div class="page5-right">
+            <div class="m-top">
+                <div class="all-con">
+                    <img src="http://image.ruijie.com.cn/UIA/img/all.png" class="ico">
+                    <span>文档封面</span>
+                </div>
+                <div class="down">
+                    <a href="javascript:;" id="docdownclick"><img src="http://image.ruijie.com.cn/UIA/v3.0/common/images/down.png" class="ico">下载</a>
+                </div>
+            </div>
+            <div class="tab-tc">
+                <div class="link">
+                    <a href="#">文档封面</a>
+                </div>
+                <div class="tabs">
+                    <div class="hd">
+                    </div>
+                    <div class="bd">
+                    </div>
+                </div>
+            </div>
+            <div class="pc-top">
+                <div class="down">
+                    <a href="javascript:;"><img src="http://image.ruijie.com.cn/UIA/v3.0/common/images/down.png" class="ico">下载</a>
+                </div>
+
+                <div class="page5-search">
+                    <input type="text" value="" id="searchKeyword" onkeydown="calAge(event)" placeholder="请输入您想查找的内容关键词" class="int">
+                    <button class="subbtn"><img src="http://image.ruijie.com.cn/UIA/img/searchico.png" class="ico"></button>
+                </div>
+            </div>
+            <div class="search-main">
+                <img src="http://image.ruijie.com.cn/UIA/img/close.png" class="close" style="top:10px;">
+                <div class="result-list" style="margin-top:25px;">
+                </div>
+            </div>
+            <div class="tczz"></div>
+            <div class="tc-down">
+                <img src="http://image.ruijie.com.cn/UIA/img/close.png" class="close">
+                <h3>下载此篇文档</h3>
+                <ul id="thisdoc">
+                    <li><a href="" download=""></a></li>
+                </ul>
+                <h3>下载合集</h3>
+                <ul>
+                </ul>
+                <h3>下载分册</h3>
+                <ul>
+                </ul>
+            </div>
+            <iframe id="dociframe" src="" style=" visibility:hidden;" width="100%"  frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no" allowtransparency="yes"></iframe>
+            <!-- TODO 新增相关产品区域  start -->
+            <div class="grade grade_product">
+              <h3 class="grade-product__title">相关产品</h3>
+              <div class="grade_product_box">
+                <div class="arrow-group">
+                  <span class="left arrow"></span>
+                  <span class="right arrow"></span>
+                </div>
+                <div class="swiper-container grade_product_swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="img-box">
+                        <img src="./RJ-img/pro-img1.jpg">
+                      </div>
+                      <p class="slide-desc">高密星APPM</p>
+                      <a class="slide-link" href="" target="_blank">查看详情</a>
+                    </div>
+                    <!-- <div class="swiper-slide">
+                      <div class="img-box">
+                        <img src="./RJ-img/pro-img2.jpg">
+                      </div>
+                      <p class="slide-desc">高密星APP</p>
+                      <a class="slide-link" href="" target="_blank">查看详情</a>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="img-box">
+                        <img src="./RJ-img/pro-img3.jpg">
+                      </div>
+                      <p class="slide-desc">高密星APP</p>
+                      <a class="slide-link" href="" target="_blank">查看详情</a>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="img-box">
+                        <img src="./RJ-img/pro-img4.jpg">
+                      </div>
+                      <p class="slide-desc">高密星APP</p>
+                      <a class="slide-link" href="" target="_blank">查看详情</a>
+                    </div> -->
+                    <div class="swiper-slide">
+                      <div class="img-box">
+                        <img src="./RJ-img/pro-img1.jpg">
+                      </div>
+                      <p class="slide-desc">高密星APP</p>
+                      <a class="slide-link" href="" target="_blank">查看详情</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- TODO 新增相关产品区域  end -->
+            <div class="grade">
+                <div class="line">
+                    <p>请您为该资料评分:</p>
+                    <div class="star">
+                        <img src="http://image.ruijie.com.cn/UIA/img/xx2.png" class="xx">
+                        <img src="http://image.ruijie.com.cn/UIA/img/xx2.png" class="xx">
+                        <img src="http://image.ruijie.com.cn/UIA/img/xx2.png" class="xx">
+                        <img src="http://image.ruijie.com.cn/UIA/img/xx2.png" class="xx">
+                        <img src="http://image.ruijie.com.cn/UIA/img/xx.png" class="xx">
+                    </div>
+                </div>
+                <div class="line line2">
+                    <p>期待得到您的建议:</p>
+                    <div class="textareacon">
+                        <input type="hidden" id="number" value="3" />
+                        <input type="hidden" id="uniid" value="142f1777-228e-4012-b898-8a3e342d46fc" />
+                        <textarea class="textarea" placeholder="填写您的意见和建议" onfocus="this.placeholder=''" onblur="this.placeholder='填写您的意见和建议'"></textarea>
+                    </div>
+                </div>
+                <button class="subbtn">提 交</button>
+            </div>
+
+
+        </div>
+
+    </div>
+</div>
+    <link type="text/css" rel="stylesheet" href="http://image.ruijie.com.cn/UIA/v3.0/common/styles/master.css?2021092803" />
+<link href="http://image.ruijie.com.cn/UIA/Styles_R/layout-right.css" rel="stylesheet" />
+<script src="http://image.ruijie.com.cn/UIA/v3.0/common/scripts/master.js?2021092801"></script>
+<div class="footer r-footer">
+    <div class="top">
+        <div class="footer-nav">
+            <dl>
+                <dt>关于锐捷</dt>
+                <dd>
+                    <ul>
+                        <li><a href="http://www.ruijie.com.cn/gy/">公司介绍</a></li>
+                        <li><a href="http://www.ruijie.com.cn/gy/history/">发展历程</a></li>
+                        <li><a href="http://www.ruijie.com.cn/gy/xw/">公司动态</a></li>
+                        <li><a href="http://www.ruijie.com.cn/al/">成功案例</a></li>
+                    </ul>
+                </dd>
+            </dl>
+            <dl>
+                <dt>购买及服务支持</dt>
+                <dd>
+                    <ul>
+                        <li><a href="http://www.ruijie.com.cn/gy/content/">联系销售代表</a></li>
+                        <li><a href="http://www.ruijie.com.cn/gy/content/#bsc">各地办事处</a></li>
+                        <li><a href="http://www.ruijie.com.cn/fw/map/">服务网点查询</a></li>
+                        <li><a rel="nofollow" href="http://www.ruijie.com.cn/complaints/">客户投诉</a></li>
+                    </ul>
+                </dd>
+            </dl>
+            <dl>
+                <dt>合作伙伴</dt>
+
+                <dd>
+                    <ul>
+                        <li><a target="_blank" href="http://partners.ruijie.com.cn/PartnerPortal/Home?typeid=101">合作伙伴专区</a></li>
+                        <li><a target="_blank" href="http://partners.ruijie.com.cn/ChannelContract2014/Contract2014Index">成为合作伙伴</a></li>
+                        <li><a target="_blank" href="http://partners.ruijie.com.cn/partnerportal/#TopMenu_1">渠道政策</a></li>
+                        <li><a target="_blank" href="http://partners.ruijie.com.cn/PartnerPortal/Plan/RJBigClass?typeid=116&amp;categorycode=A009">锐捷大讲堂</a></li>
+                        <li><a target="_blank" href="https://supplier.ruijie.com.cn/">供应商E平台</a></li>
+                        <li><a href="http://www.ruijie.com.cn/zxjb/">廉洁及合规举报</a></li>
+                    </ul>
+                </dd>
+            </dl>
+            <dl>
+                <dt>资源</dt>
+                <dd>
+                    <ul>
+                        <li><a href="http://www.ruijie.com.cn/yx/">营销资料平台</a></li>
+                        <li><a href="http://www.ruijie.com.cn/gy/video/">视频中心</a></li>
+                        <li><a href="http://www.ruijie.com.cn/fw/zxpx/">在线培训</a></li>
+                        <li><a href="http://www.ruijie.com.cn/hot/">产品推荐</a></li>
+                        <li><a href="http://www.ruijie.com.cn/jszl/">技术专栏</a></li>
+                    </ul>
+                </dd>
+            </dl>
+            <dl>
+                <dt>快速链接</dt>
+                <dd>
+                    <ul>
+                        <li><a target="_blank" href="http://talent.ruijie.com.cn/">锐捷ICT人才教育中心</a></li>
+                        <li><a target="_blank" href="http://www.ruijiery.com/">锐捷睿易</a></li>
+                        <li><a target="_blank" href="http://www.ruijie.com.cn/gy/content/">联系我们</a></li>
+                        <li><a target="_blank" href="http://app.mokahr.com/apply/ruijie/26518">公司招聘</a></li>
+                    </ul>
+                </dd>
+            </dl>
+            <div class="scan-code clearfix" style="margin-left:0;">
+                <div class="code-box">
+                    <img src="http://image.ruijie.com.cn/UIA/img/schhd.jpg" alt="">
+                    <p>搜索“锐捷互动”<br/>
+或扫码关注<br/>
+随时查看更多信息</p>
+                </div>
+              
+
+            </div>
+
+        </div>
+        <div class="r-consultation">
+            <div class="title">咨询热线</div>
+            <div class="cont clearfix">
+                <div class="sale-before"><span>售前咨询热线</span><a href="tel:4006 208 818" class="tel">4006- 208- 818</a></div>
+                <div class="sale-after"><span>售后咨询热线</span><a href="tel:4008 111 000" class="tel">4008- 111- 000</a></div>
+                <div class="sale-after"><span>睿易产品咨询热线</span><a href="tel:4001 000 078" class="tel">4001- 000- 078</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="bottom-in">
+            <ul>
+                <li><a rel="nofollow" href="http://www.ruijie.com.cn/LegalStatement/">法律声明</a></li>
+                <li><a rel="nofollow" href="http://www.ruijie.com.cn/privacy/">隐私保护</a></li>
+                <li><a href="http://www.ruijie.com.cn/gy/content/">联系我们</a></li>
+                <li><a href="http://www.ruijie.com.cn/sitemap/">网站地图</a></li>
+                <li><a rel="nofollow" href="http://www.ruijie.com.cn/complaints/">客户投诉</a></li>
+                <li><a href="http://www.star-net.cn/">集团网站</a></li>
+            </ul>
+            <div class="copyright"><a href="javascrip:void(0);">版权所有©2000-2022 北京星网锐捷网络技术有限公司</a> <a href="https://beian.miit.gov.cn" target="_blank">京ICP备13025710号-1 </a><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802020367" target="_blank">京公网安备11010802020367号</a></div>
+        </div>
+    </div>
+</div>
+
+<!-- 右侧 -->
+<div class="right-bar">
+    <ul>
+        <li>
+            <a class="pre-sales-right-btn pre-sales-pop-ups-btn">
+                <div class="normal">
+                    <img src="http://image.ruijie.com.cn/UIA/v3.0/common/images/right-per.jpg" alt="">
+                </div>
+                <div class="more">
+                    <span>售前咨询</span>
+                    <img src="http://image.ruijie.com.cn/UIA/v3.0/common/images/right-per.jpg" alt="">
+                </div>
+            </a>
+        </li>
+        <li>
+            <a id="AfterSaleTalk" href="">
+                <div class="normal">
+                    <img src="http://image.ruijie.com.cn/UIA/v3.0/common/images/right-tool.jpg" alt="">
+                </div>
+                <div class="more">
+                    <span>售后服务</span>
+                    <img src="http://image.ruijie.com.cn/UIA/v3.0/common/images/right-tool.jpg" alt="">
+                </div>
+            </a>
+        </li>
+        <li>
+            <a id="ContactNumber" href="http://www.ruijie.com.cn/gy/content/" target="_blank">
+                <div class="normal">
+                    <img src="http://image.ruijie.com.cn/UIA/v3.0/common/images/right-location.png" alt="">
+                </div>
+                <div class="more">
+                    <span>更多服务</span>
+                    <img src="http://image.ruijie.com.cn/UIA/v3.0/common/images/right-location.png" alt="">
+                </div>
+            </a>
+        </li>
+        <li>
+            <a id="Shared" href="http://www.ruijie.com.cn/gy/content/" target="_blank">
+                <div class="normal">
+                    <img src="http://image.ruijie.com.cn/UIA/img/right-shared.png" alt="">
+                </div>
+                <div class="more">
+                    <div class="code-info">
+                        <img src="http://image.ruijie.com.cn/UIA/img/right-code.png" class="code-img" alt="">
+                        扫码参与<br />
+                        最新活动
+                    </div>
+                    <img src="http://image.ruijie.com.cn/UIA/img/right-shared.png" alt="">
+                </div>
+            </a>
+        </li>
+    </ul>
+</div>
+<div class="to-top">
+    <a href="#top">
+        <img class="pc-show" src="http://image.ruijie.com.cn/UIA/v3.0/common/images/to-top.jpg" alt="">
+        <img class="mb-show" src="http://image.ruijie.com.cn/UIA/v3.0/common/images/to-top-img.png" alt="" />
+    </a>
+</div>
+<div class="f-nav">
+    <ul>
+        <li>
+            <a class="s pre-sales-pop-ups-btn">售前咨询</a>
+        </li>
+        <li class="yx-li">
+            <a href="http://www.ruijie.com.cn/yx/" class="w">资料平台</a>
+        </li>
+		<li class="wb-li">
+            <a href="http://www.ruijie.com.cn/fw/bx/" class="wb">维保查询</a>
+        </li>
+		<li class="bx-li">
+            <a href="http://www.ruijie.com.cn/fw/wxzhx/" class="bx">自助报修</a>
+        </li>
+        <li>
+            <a id="mAfterSaleTalk" href="" class="l">售后咨询</a>
+        </li>
+    </ul>
+</div>
+<style type="text/css">
+	.fw-li{
+		width:25% !important;
+	}
+	.wb{
+		background: url(//image.ruijie.com.cn/UIA/v3.0/common/images/wb.png?1) top center no-repeat;
+		background-size: 60px;
+	}
+	.bx{
+	    background: url(//image.ruijie.com.cn/UIA/v3.0/common/images/bx.png?1) top center no-repeat;
+		background-size: 60px;
+	}
+</style>
+
+<div id="timeSeconds">
+    <div class="test_triangle_border" style="display: none; width: 200px; height: 50px; position: fixed; z-index: 9999; bottom: 30px; right: 0px;">
+        <div class="timeSeconds-word" id="saleAsk"></div>
+        <div class="popup" style="display: none;">
+            <i class="close-icon" onclick="closePopup()"></i>
+            <span><em></em></span>
+            <p class="popup-word pre-sales-pop-ups-btn">如需客服帮助，请点击这里 </p>
+        </div>
+    </div>
+</div>
+
+<input type="hidden" value="1" id="hidask" />
+<input type="hidden" id="hidvision" />
+<input type="hidden" id="hidtip"/>
+<input type="button" class="hidbut pre-sales-pop-ups-btn-new" data-agl-cvt="1" style="display:none;" />
+<style type="text/css">
+	.privacy-button{
+		background-color: #cccccc;
+		text-align: center;
+		border-radius: 30px;
+		border: 1px solid #cccccc;
+		color: #000000;
+		font-size: 20px;
+		line-height: 18px;
+		padding: 7px 15px;
+		height: 35px;
+		min-width: 132px;
+		display: inline-block;
+		cursor: pointer;
+	}
+	
+	.privacy-button-allow{
+		background-color: #d20032;
+		border: 1px solid #d20032;
+		color: white;
+	}
+	.privacy-button-allow:hover{
+		color:#ffffff;
+		text-decoration:none;
+	}
+</style>
+<link href="http://image.ruijie.com.cn/UIA/v4.0/index/css/cookie.css?2" rel="stylesheet"/>
+<div class="cktcfr" >
+        <div class="rj-container">
+            <div class="cktc_c">
+                <div class="ckfl">
+					<div class="cookie-content">
+						<span>
+							已有29708人通过在线客服进行产品及方案咨询，您也可以
+						</span>
+						<a class="pre-sales-pop-ups-btn" id="fix_btn"><img src="http://image.ruijie.com.cn/UIA/v4.0/index/img/fix_btn.png" /></a>
+					</div>
+                </div>
+                <a href="javascript:void(0);" class="close"></a>
+            </div>
+        </div>
+    </div>
+
+<script>
+    $(function () {
+        $("#timeSeconds").css({ "bottom": 0, "right": 0 });
+
+        var screenWidth = window.screen.width;
+        if (window.location.pathname != "/" && !$.cookie('LowerRightPopup') && screenWidth > 768) {
+            $(".test_triangle_border").show();
+        }
+        // 右侧售前咨询
+        $('.pre-sales-right-btn').bind('click', function (event) {
+            $("#hidask").val("1");
+            event.preventDefault();
+            _gsq.push(["T", "GWD-002457", "trackEvent", "售前咨询", "右侧售前咨询", "右侧售前按钮"]);
+        });
+		
+		$("#fix_btn").bind('click', function(){
+			_gsq.push(["T", "GWD-002457", "trackEvent", "售前咨询", "官网吸底浮窗", "官网吸底浮窗"]);
+		});
+		
+		$(".close").bind('click',function(){
+			$(".cktcfr").hide();
+		});
+
+        var pathname = window.location.pathname;
+		
+		
+        if (pathname.indexOf("/fw/") == 0) {
+			$('.f-nav li').addClass("fw-li");
+			$('.yx-li').hide();
+			$('.wb-li').show();
+			$('.bx-li').show();
+			$(".cktcfr").hide();
+			$("#timeSeconds").show();
+		
+            <!-- var text = "客服中心"; -->
+            $("#saleAsk").html("客服中心");
+            $("#saleAsk").removeClass("pre-sales-bottom-btn").removeClass("pre-sales-pop-ups-btn");
+			$(".popup-word").addClass("popup-ask");
+            $('#saleAsk').bind('click', function (event) {
+				$("#hidask").val("2");
+				GetVision();
+                event.preventDefault();
+                _gsq.push(["T", "GWD-002457", "trackEvent", "客服中心", "右下弹窗售后咨询", "右下弹窗按钮"]);
+                //window.open("https://ocs.ruijie.com.cn/", "在线客服", "toolbar=0,scrollbars=0,location=0,menubar=0,resizable=1,width=1156,height=814")
+                //return false
+            });
+        } else {
+			$('.yx-li').show();
+			$('.wb-li').hide();
+			$('.bx-li').hide();
+			$("#timeSeconds").hide();
+			
+            <!-- $("#saleAsk").text("售前咨询"); -->
+            <!-- $("#saleAsk").addClass("pre-sales-bottom-btn").addClass("pre-sales-pop-ups-btn"); -->
+            <!-- // 右下弹窗售前咨询 -->
+            <!-- $('#saleAsk').bind('click', function (event) { -->
+				<!-- $("#hidask").val("1"); -->
+                <!-- event.preventDefault(); -->
+                <!-- _gsq.push(["T", "GWD-002457", "track", "/targetpage/consult_pre.html"]); -->
+                <!-- _gsq.push(["T", "GWD-002457", "trackEvent", "售前咨询", "右下弹窗售前咨询", "右下弹窗按钮"]); -->
+            <!-- }); -->
+        }
+				
+		$(".popup-ask").bind('click', function(event){
+			$("#hidask").val("2");
+		});
+		
+		$(".pre-sales-pop-ups-btn").bind('click', function(event){
+			GetVision();
+			event.preventDefault();
+		});
+		
+    });
+    // 显示 提示框
+    setTimeout(function () {
+        $('.popup').show()
+    }, 10000);
+    // 关闭提示框
+    function closePopup() {
+        //_gsq.push(["T", "GWD-002457", "track", "/targetpage/consult_pre_close.html"]);
+        //_gsq.push(["T", "GWD-002457", "trackEvent", "售前咨询", "右下弹窗售前咨询关闭", "右下弹窗按钮"]);
+        $(".popup").hide();
+    }
+
+function OpenModal(){
+		layer.open({
+        type: 1
+        ,title: "隐私声明"
+        ,area: '400px;'
+        ,shade: 0.8
+        ,id: 'LAY_layuipro' //设定一个id，防止重复弹出
+        ,moveType: 0 //拖拽模式，0或者1
+        ,content: '<div style="padding-left:20px;line-height:35px;">\
+					<p style="font-size:20px;">锐捷将尊重您的隐私并严格保密</p>\
+					<p style="font-size:18px;">详细了解<a href="/privacy/" target="_blank">锐捷隐私声明</a></p>\
+					<p style="font-size:16px;">\
+						<input type="checkbox" id="agreeprivacy" onchange="CheckChange()" />我同意锐捷隐私声明\
+						<input type="checkbox" id="hidprivacy" onchange="CheckChange()" />不再提示\
+					</p>\
+					<p style="text-align:center; margin-top:20px; margin-bottom:20px;">\
+						<input type="button" value="继续咨询" class="btn privacy-button" onclick="PrivacyContinue()" disabled="disabled" />\
+					</p>\
+				</div>'
+        
+      });
+	}
+	
+	function PrivacyContinue(){
+		
+		if($("#hidtip").val() == "true"){
+			$.cookie("hidprivacy", $("#hidvision").val(),{"path":"/"});
+		}
+		
+		layer.closeAll();
+		
+		if($.trim($("#hidask").val()) == "1"){
+			$(".hidbut").trigger("click");
+		}else{
+			window.open("https://ocs.ruijie.com.cn/", "在线客服", "toolbar=0,scrollbars=0,location=0,menubar=0,resizable=1,width=1156,height=814");
+			return false;
+		}
+	}
+	
+	function CheckChange(){
+		if($("#agreeprivacy").is(':checked')){
+			$(".privacy-button").addClass("privacy-button-allow");
+			$(".privacy-button").removeAttr("disabled");
+		}else{
+			$(".privacy-button").removeClass("privacy-button-allow");
+			$(".privacy-button").attr("disabled", "disabled");
+		}
+		
+		if($("#hidprivacy").is(":checked")){
+			$("#hidtip").val("true");
+		}else{
+			$("#hidtip").val("false");
+		}
+	}
+	
+	function GetVision(){
+		var portol = window.location.protocol;
+		var url = portol + "http://www.ruijie.com.cn/application/article/details";
+		$.ajax({
+			url:url,
+			async:false,
+			dataType:"json",
+			data:{"id":85050},
+			success:function(result){
+				
+				if(result.Status){
+					var vision1 = $.cookie("hidprivacy");
+					var vision2 = result.Data.Vision;
+					
+					$("#hidvision").val(result.Data.Vision);
+					if(vision1 == vision2){
+						if($.trim($("#hidask").val()) == "1"){
+							$(".hidbut").trigger("click");
+							_gsq.push(["T", "GWD-002457", "trackEvent", "锐捷官网", "隐私说明", "售前咨询"]);
+						}else{
+							PrivacyContinue();
+							_gsq.push(["T", "GWD-002457", "trackEvent", "锐捷官网", "隐私说明", "售后咨询"]);
+						}
+					}else{
+						OpenModal();
+						if($.trim($("#hidask").val()) == "1"){
+							_gsq.push(["T", "GWD-002457", "trackEvent", "锐捷官网", "隐私说明", "售前咨询"]);
+						}else{
+							_gsq.push(["T", "GWD-002457", "trackEvent", "锐捷官网", "隐私说明", "售后咨询"]);
+						}
+					}
+				}else{
+					OpenModal(); 
+					if($.trim($("#hidask").val()) == "1"){
+						_gsq.push(["T", "GWD-002457", "trackEvent", "锐捷官网", "隐私说明", "售前咨询"]);
+					}else{
+						_gsq.push(["T", "GWD-002457", "trackEvent", "锐捷官网", "隐私说明", "售后咨询"]);
+					}
+				}
+			}
+		});
+	}
+</script>
+<script type="text/javascript">window._bd_share_config = { "common": { "bdSnsKey": {}, "bdText": "", "bdMini": "2", "bdMiniList": false, "bdPic": "", "bdStyle": "2", "bdSize": "32" }, "share": {} }; with (document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = '//image.ruijie.com.cn/UIA/Plugin/baidu_share/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];</script>
+
+
+<div style="display: none;">
+
+    <script type="text/javascript">
+        $(function () {
+              
+        })
+        $(".GridsumProductLine>dd>a").each(function (i) {
+            $(this).on("click", function () {
+                var name = $(".GridsumProductLine>dd>a").eq(i).text();
+                console.log(name);
+                _gsq.push(["T", "GWD-002457", "trackEvent", "产品与方案", "各产品线首页banner图_入口", name]);
+            })
+        });
+        $(".GridsumCases>div").each(function (i) {
+            $(this).on("click", function () {
+                var name = $(".GridsumCases>div").eq(i).text();
+                console.log(name);
+                _gsq.push(["T", "GWD-002457", "trackEvent", "行业", "行业下拉导航_成功案例", name]);
+            })
+        });
+        $("#GridsumIndustry a").each(function (i) {
+            $(this).on("click", function () {
+                var name = $("#GridsumIndustry a").eq(i).text();
+                console.log(name);
+                _gsq.push(["T", "GWD-002457", "trackEvent", "行业", "各行业线banner图_入口", name]);
+            })
+        });
+    </script>
+</div>
+
+
+<script type="text/javascript">
+    function GridsumBanner(name) {
+        _gsq.push(["T", "GWD-002457", "trackEvent", "首页", "大banner图", name]);
+    }
+    function GridsumSolution(name) {
+        _gsq.push(["T", "GWD-002457", "trackEvent", "首页", "首页解决方案", name]);
+    }
+    function GridsumCase(name) {
+        _gsq.push(["T", "GWD-002457", "trackEvent", "首页", "首页成功案例", name]);
+    }
+</script>
+
+<!-- 智齿在线客服功能代码  开始-->
+<script language="javascript" src="http://image.ruijie.com.cn/UIA/v3.0/common/scripts/zhichi.js?20200513"></script>
+<!-- 智齿在线客服功能代码 结束-->
+<!-- convertlab基础代码  开始-->
+<script src="http://cbe.convertlab.com/cbe/collect?tid=7340176657450576825&at=0&h=web"></script>
+<script>clab_tracker.ready(function () { this.push({ "pageType": "web" }); this.track("open_page", {}); });</script>
+<!-- convertlab基础代码  结束-->
+
+    
+    
+    <script src="http://image.ruijie.com.cn/UIA/v2.0/website/solution/finance/RJ-js/ns.layer.js?637818503212154862"></script>
+    <script type="text/javascript" src="http://image.ruijie.com.cn/UIA/scripts_r/jquery.unobtrusive-ajax.min.js?637818503212154862"></script>
+    <script type="text/javascript" src="http://image.ruijie.com.cn/UIA/scripts_r/jquery.validate.min.js?637818503212154862"></script>
+    <script type="text/javascript" src="http://image.ruijie.com.cn/UIA/scripts_r/jquery.validate.unobtrusive.min.js?637818503212154862"></script>
+    <script type="text/javascript" src="http://image.ruijie.com.cn/UIA/v2.0/website/solution/scripts/form.js?637818503212154862"></script>
+
+    <script>
+
+        $(function () {
+            /*验证文章访问权限*/
+            $.PermissionIconControl('87885',function(){
+                window.location.href='/user/login/?r=' + window.location.pathname;
+            });
+
+            $.post('/Application/Article/ClickNum',
+                  {
+                      id: 87885,
+                  },
+                  function (data) {
+                      if (data.Status) {
+                          if (data.Data.CallNum) {
+                              $("#span_num").text(data.Data.CallNum);
+                          }
+                      }
+                });
+
+            $("#docdownclick").click(function () {
+                var productSeries = $('#hidTypeName').val();
+                _gsq.push(["T", "GWD-002457", "track", "/targetpage/doc_down.html"]);
+                _gsq.push(["T", "GWD-002457", "trackEvent", "文档中心", "下载-" + productSeries, $('#doctitle').html()]);
+            });
+
+            $(".grade .subbtn").click(function () {
+                var num = $("#number").val();
+                var message = $("#message").val();
+                var uniid = $("#uniid").val();
+                commentID = guid();
+                $.ajax({
+                    url: "/Application/Article/CreateDiscussNew",
+                    type: "get",
+                    dataType: "json",
+                    data: { "auniid": uniid, "message": message, "number": num, "commentID": commentID },
+                    success: function (result) {
+                        if (result.Status) {
+                            layer.msg("评论已提交", { icon: 1, time: 2000 }, function () {
+                                $(".tczz").fadeIn();
+                                $(".tc-pingfen").fadeIn()
+                            })
+                        }
+                    }
+                });
+            });
+
+            loaddiscuss();
+            loadLeft();
+            loadPdf();
+            setTimeout(function () {
+                $(".back a").trigger("click");
+                layer.closeAll();
+            }, 3000);
+        });
+
+        _gsq.push(["T", "GWD-002457", "trackEvent", "文档中心", "文档详情页", "RG-S7800C系列交换机RGOS 12.5(4)B0201版本配置指南(V1.2)"]);
+
+        function loadLeft() {
+            var index = layer.load(1, {
+                shade: [0.35, '#fff']
+            });
+            $.ajax({
+                url: "/Application/Document/GetArticleLeft",
+                type: "get",
+                dataType: "json",
+                data: { "uniid":"142f1777-228e-4012-b898-8a3e342d46fc"},
+                success: function (result) {
+                    if (result.Status && (result.Data.length > 2 || result.Data[1]?.Child.length > 1)) {
+                        $("#thisdoc").show();
+                        $(".tc-down h3:first").show();
+                    }
+                    else {
+                        $("#thisdoc").hide();
+                        $(".tc-down h3:first").hide();
+                        $(".tc-down h3:last").hide();
+                    }
+                    if (result.Status && result.Data.length > 0) {
+                        if (result.Data.length == 1) {
+                            $(".back a p").text("文档");
+                            $(".all-con span").text("文档");
+                            $(".tab-tc .link a").text("文档");
+                            isLoadOverIframHeight = 0;
+                            $("#dociframe").css({ 'visibility': 'hidden' });
+                            
+                        }
+                        $(".tab-list").empty();
+                        $(".tabs .hd").empty();
+                        $(".tabs .bd").empty();
+
+                        var hd = $('<ul></ul>');
+
+                        $.each(result.Data, function (index, item) {
+                            if (index > 0) {
+                                var html = "<div class=\"item\">" +
+                                    "<h3 onclick=\"leftOnclick(this)\"><img src=\"http://image.ruijie.com.cn/UIA/img/tubiao.png\" class=\"ico\"><span>" + item.Name + "</span></h3>" +
+                                    "<ul>";
+
+                                $(hd).append("<li onclick=\"leftOnclickByIphone(this)\" id=" + index + " >" + item.Name + "</li>");
+
+                                var bd = $('<div class="item" id="right' + index + '" style="display:none;">\
+                                            <ul>\
+                                            </ul>\
+                                        </div >');
+
+                                $.each(item.Child, function (i, c) {
+
+                                    var child = "<li><a href=\"javascript:;\" onclick=\"loaddoc('" + c.Url + "',this)\" data-pdf=\"" + c.PDFUrl + "\"><img src=\"http://image.ruijie.com.cn/UIA/img/jt.png\" class=\"jt1\">" + c.Name + "<img src=\"http://image.ruijie.com.cn/UIA/img/jt2.png\" class=\"jt2\"></a></li>";
+
+                                    html += child;
+                                    $('ul', bd).append(child);
+                                });
+                                html += "</ul></div>";
+                                $(".tab-list").append(html);
+                                $(".tabs .bd").append(bd);
+                            }
+                        });
+                        $(".tabs .hd").append(hd);
+                        $(".back a").on("click", function () {
+                            loaddoc(result.Data[0].Child[0].Url, this);
+                        });
+                        $(".link a").on("click", function () {
+                            loaddoc(result.Data[0].Child[0].Url, this);
+                        });
+                        $("#dociframe").attr("src", result.Data[0].Child[0].Url);
+                        $(".tab-list").find(".item").first().addClass("on");
+                        $(".tab-list").find(".item").first().find("h3").addClass("left-h3");
+                        //$(".tab-list").find(".item").first().find("li").first().addClass("on");
+
+                        setTimeout(function () {
+                            $("#dociframe").contents().find("p img").each(function () {
+                                if ($(this).width() > 200) {
+                                    $(this).width("100%");
+                                    $(this).height("auto");
+                                }
+                            });
+                            $("#dociframe").contents().find("table").attr("style", "margin: 0 auto;width:100%;");
+                            $("#dociframe").contents().find("table td").width("0");
+                            $("#dociframe").contents().find("table td p").attr("style", "margin-right: 0;")
+                        }, 2000);
+                    }
+                    
+                }
+            });
+        }
+
+        function loadPdf() {
+            $.getJSON("/Application/Document/GetArticlePdf",
+                {
+                    uniid:$("#uniid").val()
+                }, function (data) {
+                    if (data.Status && data.Data.length > 0) {
+                        //$('.tc-down ul:not(:first)').empty();
+                        $.each(data.Data, function (index, item) {
+                            var html = $('<li><a href="" download=""></a></li>');
+                            $("a", html).attr("href", item.Url);
+                            $("a", html).attr("download", item.Name);
+                            $("a", html).text(item.Name);
+
+                            if (index < data.Data.length - 1) {
+                                $(".tc-down").find("ul").last().append(html);
+                            } else {
+                                $(".tc-down").find("ul:eq(1)").append(html);
+                            }
+                        });
+
+                        //if (data.Data.length = 1) {
+                        //    $("#thisdoc").html("无");
+                        //}
+                    }
+            });
+        }
+
+        function loaddiscuss() {
+            $.ajax({
+                url: "/Application/Article/SearchDiscuss",
+                type: "get",
+                dataType: "json",
+                data: { "uniid": $("#uniid").val() },
+                success: function (result) {
+                    if (result.Status) {
+                        $(".fen").empty();
+                        for (var i = 0; i < result.Data.Count; i++) {
+                            $(".fen").append("<img src=\"http://image.ruijie.com.cn/UIA/img/xx2.png\" class=\"xx\">");
+                        }
+
+                        if (result.Data.Count < 5) {
+                            for (var i = 0; i < 5 - result.Data.Count; i++) {
+                                $(".fen").append("<img src=\"http://image.ruijie.com.cn/UIA/img/xx.png\" class=\"xx\">");
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        function guid() {
+            return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
+                var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
+                return v.toString(16);
+            });
+        }
+
+        function subMessage() {
+            debugger
+            var userName = $("#userName").val();
+            var userEmail = $("#userEmail").val();
+            var userIphone = $("#userIphone").val();
+            var code = $("#verificationCodeValueId").val();
+            $.ajax({
+                url: "/Application/Form/ArticleSocre",
+                type: "post",
+                dataType: "json",
+                data: { "commentID": commentID, "userName": userName, "userEmail": userEmail, "userIphone": userIphone, "code": code },
+                success: function (result) {
+                    if (result.Status) {
+                        layer.msg(result.Message, { icon: 1, time: 3000 }, function () {
+                            $(".tczz").fadeOut();
+                            $(".tc-pingfen").fadeOut();
+                        })
+                    }
+                    if (result.Message == "验证码错误") {
+                        layer.msg(result.Message, { icon: 2 });
+                        verificationcodeSrc = "/application/verificationcode?key=articlescore&_=" + Math.random();
+                    }
+                }
+            });
+        }
+    </script>
+    <script type="text/javascript">
+        var coverHeight = "";
+        var isLoadOverIframHeight = 1;//ifram高度是否重置完成 1完成 0未完成
+        $(document).ready(function () {
+            jQuery(".tabs").slide({ trigger: "click" });
+            var navBar = $(".pc-top");
+            var tablist = $(".tab-list-scroll");
+            var pingfen = $(".pingfen");
+            var backBar = $(".back");
+            var backToTop = backBar.offset().top;
+            var navToTop = navBar.offset().top;
+            // TODO width修改为navBarWidth
+            var navBarWidth = navBar.width()
+            width2 = tablist.width()
+            width3 = pingfen.width()
+            width4 = backBar.width()
+            var foot = $(".r-footer");
+            var footTop = foot.offset().top;
+            var offsetTop = $(".lx-page5").offset().top;
+            var winHeight = $(window).height();
+
+            $(document).on('scroll', function () {
+                if (isLoadOverIframHeight == 1) {
+                    var scrollDistance = $(document).scrollTop();
+                    var scTop = $(document).scrollTop();
+                    if (scTop + winHeight >= footTop) {
+                        var bottom = (footTop - offsetTop) - winHeight + 72 + 100;
+                        tablist.css({ 'top': bottom, 'position': 'absolute' })
+                        //tablist.css("height",$(".lx-page5").outerHeight())
+                    } else {
+                        tablist.attr('style', null);
+                    }
+                    //左侧模块漂浮
+                    if (scrollDistance > backToTop) {
+                        const back = document.getElementsByClassName('back')[0];
+                        back.style.width = width4 + "px"
+                        back.style.display = "block";
+                        back.style.position = "fixed";
+                        back.style.top = "72px";
+                        const tabList = document.getElementsByClassName('tab-list-scroll')[0];
+                        tabList.style.width = width4 + "px"
+                        tabList.style.display = "block";
+                        tabList.style.position = "fixed";
+                        tabList.style.top = (backBar.height() + 20 + 72) + "px"
+                    }
+                    else {
+                        const back = document.getElementsByClassName('back')[0];
+                        back.removeAttribute("style");
+                        back.style.width = width4 + "px"
+                        const tabList = document.getElementsByClassName('tab-list-scroll')[0];
+                        tabList.removeAttribute("style");
+                    }
+                    //搜素模块漂浮
+                    if (scrollDistance > navToTop) {
+                        navBar.addClass("fix");
+                        // tablist.addClass("fix");
+                        var pingfenheight = $(".pingfen").outerHeight();
+
+                        // TODO 对应修改为navBarWidth
+                        navBar.css("width", navBarWidth);
+                        //tablist.css("width", width2);
+                        tablist.css("height", (winHeight - 72));
+                        $(".tab-list").css("height", (winHeight - 72 - pingfenheight - 110))
+                    }
+                    else {
+                        navBar.removeClass("fix");
+                        // tablist.removeClass("fix");
+                    }
+                }
+
+            })
+           
+            $(".pingfen").click(function () {
+                $("body,html").animate({
+                    scrollTop: (($(".grade").offset()).top - 220)
+                }, 500);
+            })
+            $(".all-con").click(function () {
+                if ($(this).hasClass("show")) {
+                    $(this).find(".ico").attr("src", "http://image.ruijie.com.cn/UIA/img/all.png");
+                } else {
+                    $(this).find(".ico").attr("src", "http://image.ruijie.com.cn/UIA/img/allclose.png");
+                }
+                $(this).toggleClass("show")
+                $(".tab-tc").slideToggle()
+            })
+            $(".down a").click(function () {
+                $(".tczz").fadeIn();
+                $(".tc-down").fadeIn()
+            })
+            $(".tc-down .close").click(function () {
+                $(".tczz").fadeOut();
+                $(".tc-down").fadeOut()
+            })
+            $(".grade .subbtn").click(function () {
+                $(".tczz").fadeIn();
+                $(".tc-pingfen").fadeIn()
+            })
+            $(".tc-pingfen .close").click(function () {
+                $(".tczz").fadeOut();
+                $(".tc-pingfen").fadeOut()
+            })
+            $(".tczz").click(function () {
+                $(".tczz").fadeOut();
+                $(".tc-pingfen").fadeOut()
+                $(".tc-down").fadeOut()
+            })
+            $(".star .xx").click(function () {
+                var index = $(".star .xx").index(this) + 1
+                $(".star .xx:lt(" + index + ")").attr("src", "http://image.ruijie.com.cn/UIA/img/xx2.png")
+                $(".star .xx:gt(" + (index - 1) + ")").attr("src", "http://image.ruijie.com.cn/UIA/img/xx.png")
+                $("#number").val(index);
+            })
+
+            $(".page5-search .subbtn").click(function () {
+                $(" .search-main .result-list").empty();
+                $.ajax({
+                    url: "/Application/Document/SearchArticleFileContent",
+                    type: "get",
+                    dataType: "json",
+
+                    data: { "uniid": $("#uniid").val(), "searchKeyword": $("#searchKeyword").val() },
+                    beforeSend: function () {
+                        loading("搜索中...");
+                    },
+                    success: function (result) {
+                        layer.closeAll();
+                        $(".page5-right .search-main").fadeIn()
+                        if (result.Status) {
+                            if (result.Data.length > 0) {
+                                $(" .search-main .result-list").append("<div  style=\"\"><h3>共匹配到<b style=\"font-size:18px;\">" + result.Data.length + "</b>个文档。</h3></div><hr />");
+                                for (var i = 0; i < result.Data.length; i++) {
+                                    var html = "<div class=\"item\">";
+                                    html += "<a href = \"javascript:;\" onclick=\"loaddocnew('" + result.Data[i].Url + "',this)\" ><h3>" + result.Data[i].Name + " / <span>" + result.Data[i].ChildName + "</span></h3></a >";
+                                    html += "<p>" + result.Data[i].AfterContent + "</p></div > ";
+                                    $(" .search-main .result-list").append(html);
+                                }
+                            }
+                            else {
+                                $(" .search-main .result-list").append("<div style=\"height: 460px;line-height: 460px;width: 100%;overflow: hidden;text-align:center;font-size:24px;color:#666\">暂无此数据！</div>");
+                            }
+                        }
+                    },
+                    error: function () {
+                        layer.closeAll();
+                    }
+                })
+            })
+
+            $(".page5-right .search-main .close").click(function () {
+                $(".page5-right .search-main").fadeOut()
+            })
+            //如果是手机端打开隐藏搜索模块
+            if (/ipad|iphone|ipod|android|blackberry|windows phone|opera mini|silk/i.test(navigator.userAgent)) {
+                const searchMain = document.getElementsByClassName('search-main')[0];
+                searchMain.style.display = "none";
+            }
+
+            // TODO swiper 代码 start
+            var width = document.body.clientWidth
+            var swiper = new Swiper('.grade_product_swiper', {
+              slidesPerView: 4,
+              spaceBetween: 10
+            })
+
+            $('.grade_product .arrow.left').click(function() {
+              swiper.slidePrev()
+            })
+
+            $('.grade_product .arrow.right').click(function() {
+              swiper.slideNext()
+            })
+            if (width > 768 &&  $('.grade_product .swiper-slide').length <= 4) {
+              $('.grade_product').addClass('grade_product_flex')
+            } else {
+              var swiper = new Swiper('.grade_product_swiper', {
+                slidesPerView: width > 768 ? 4 : 1,
+                spaceBetween: 10
+              })
+            }
+            // TODO swiper 代码 end
+        });
+        //内容搜索回车事件
+        function calAge(e) {
+            var evt = window.event || e;
+            if (evt.keyCode == 13) {
+                //回车后要干的业务代码
+                $(" .search-main .result-list").empty();
+                $.ajax({
+                    url: "/Application/Document/SearchArticleFileContent",
+                    type: "get",
+                    dataType: "json",
+                    data: { "uniid": $("#uniid").val(), "searchKeyword": $("#searchKeyword").val() },
+                    beforeSend: function () {
+                        loading("搜索中...");
+                    },
+                    success: function (result) {
+                        layer.closeAll();
+                        $(".page5-right .search-main").fadeIn();
+                        if (result.Status) {
+                            if (result.Data.length > 0) {
+                                $(" .search-main .result-list").append("<div  style=\"\"><h3>共匹配到<b style=\"font-size:18px;\">" + result.Data.length + "</b>个文档。</h3></div><hr />");
+                                for (var i = 0; i < result.Data.length; i++) {
+                                    var html = "<div class=\"item\">";
+                                    html += "<a href = \"javascript:;\" onclick=\"loaddocnew('" + result.Data[i].Url + "',this)\" ><h3>" + result.Data[i].Name + " / <span>" + result.Data[i].ChildName + "</span></h3></a >";
+                                    html += "<p>" + result.Data[i].AfterContent + "</p></div > ";
+                                    $(" .search-main .result-list").append(html);
+                                }
+                            }
+                            else {
+                                $(" .search-main .result-list").append("<div style=\"height: 460px;line-height: 460px;width: 100%;overflow: hidden;text-align:center;font-size:24px;color:#666\">暂无此数据！</div>");
+                            }
+                        }
+                    },
+                    error: function () {
+                        layer.closeAll();
+                    }
+                })
+            }
+        }
+        function loading(msg) {
+            layer.msg(msg, {
+                icon: 16,
+                 shade: [0.6, '#000005'],//遮罩的颜色与透明度
+                time: false  //取消自动关闭
+            })
+        };
+        function leftOnclick(obj) {
+            $(obj).parent().siblings().find("ul").slideUp();
+            $(obj).next("ul").slideToggle();
+            if ($(obj).hasClass("left-h3")) {
+                $(obj).removeClass("left-h3");
+            }
+            else {
+                $(".item h3").removeClass("left-h3");
+                $(obj).addClass("left-h3");
+            }
+        }
+        function leftOnclickByIphone(e) {
+            $(".bd .item").css("display", "none");
+            $("#right" + e.id + "").css("display", "block");
+        }
+        function loaddoc(url, obj) {
+            //重新分配ifram高度 并隐藏iframe 给出提示
+            isLoadOverIframHeight = 0;
+            $("#dociframe").css({ 'visibility': 'hidden' });
+           // loading("正在加载内容...");
+            layer.load(1, {
+                shade: [0.35, '#fff']
+            });
+
+            $("#thisdoc a").attr("href", $(obj).attr("data-pdf"));
+            $("#thisdoc a").attr("download", $(obj).text() + ".pdf");
+            $("#thisdoc a").text($(obj).text() + ".pdf");
+
+            $("#dociframe").attr("src", url);
+
+            $(".tab-list .item").removeClass("on");
+            $(".tab-list .item li").removeClass("on");
+            $(obj).parent().addClass("on");
+            $(obj).parent().parent().parent().addClass("on");
+            $(".all-con span").text($(obj).text());
+            //if (typeof ($(obj).attr("data-pdf")) != "undefined") {
+            //    $("#thisdoc").first().first().find("a").attr("href", $(obj).attr("data-pdf")).attr("download", $(obj).text());
+            //    $("#thisdoc").first().first().find("a").text($(obj).text());
+            //} else {
+            //    $("#thisdoc").first().first().find("a").attr("href", "").attr("download", "");
+            //    $("#thisdoc").first().first().find("a").text("");
+            //}
+            if (/ipad|iphone|ipod|android|blackberry|windows phone|opera mini|silk/i.test(navigator.userAgent)) {
+                var div = $("#all-con")
+                if ($("#all-con").hasClass("show")) {
+                    $("#all-con").find(".ico").attr("src", "http://image.ruijie.com.cn/UIA/img/all.png");
+                } else {
+                    $("#all-con").find(".ico").attr("src", "http://image.ruijie.com.cn/UIA/img/allclose.png");
+                }
+                $("#all-con").toggleClass("show")
+                $(".tab-tc").slideToggle();
+
+                setTimeout(function () {
+                    $("#dociframe").contents().find("p img").each(function () {
+                        if ($(this).width() > 200) {
+                            $(this).width("100%");
+                            $(this).height("auto");
+                        }
+                    });
+                    $("#dociframe").contents().find("table").attr("style", "margin: 0 auto;width:100%;");
+                    $("#dociframe").contents().find("table td").width("0");
+                    $("#dociframe").contents().find("table td p").attr("style", "margin-right: 0;")
+                }, 2000);
+            }
+        }
+        function loaddocnew(url, obj) {
+            $(".search-main").fadeOut();
+            $("#searchKeyword").val("");
+            $("#dociframe").attr("src", url);
+            $(".tab-list .item").removeClass("on");
+            $(".tab-list .item li").removeClass("on");
+            $(obj).parent().parent().parent().addClass("on");
+            $(obj).parent().addClass("on");
+            $(".all-con span").text($(obj).text());
+            $(".tc-down").find("ul").first().first().find("a").attr("href", "").attr("download", "");
+            $(".tc-down").find("ul").first().first().find("a").text("");
+        }
+        $('iframe').load(function () {
+            var srcName = $(window.parent.document).find("#dociframe").attr("src");
+            if (srcName.search("封面") != -1) {
+                if (coverHeight == "") {
+                    this.style.height = this.contentWindow.document.body.offsetHeight + 30 + 'px';
+                    coverHeight = this.contentWindow.document.body.offsetHeight + 30 + 'px';
+                }
+                else {
+                    this.style.height = coverHeight;
+                    //关闭加载层
+                    layer.closeAll();
+                }
+            }
+            else {
+                this.style.height = this.contentWindow.document.body.offsetHeight + 30 + 'px';
+                //ifram高度重新分配完成
+                isLoadOverIframHeight = 1;
+                //关闭加载层
+                layer.closeAll();
+            }
+            this.style.visibility = "";
+        });
+    </script>
+
+</body>
+</html>
