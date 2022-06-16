@@ -21,6 +21,9 @@
 .grade-product .swiper-slide {
   background-color: #fff;
 }
+.grade-product .swiper-slide:last-child {
+  margin-right: 0!important;
+}
 .grade-product .swiper-slide .img-box {
   max-height: 200px;
   display: block;

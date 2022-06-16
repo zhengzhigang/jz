@@ -1130,46 +1130,52 @@ var _hmt = _hmt || [];
             <div class="swiper-container grade-product__swiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <div class="img-box">
-                    <img src="./RJ-img/pro-img1.jpg">
-                  </div>
-                  <p class="slide-desc">高密星APPM</p>
-                  <a class="slide-link" href="" target="_blank">查看详情</a>
+                  <a href="" target="_blank">
+                    <div class="img-box">
+                      <img src="./RJ-img/pro-img1.jpg">
+                    </div>
+                    <p class="slide-desc">高密星APPM</p>
+                  </a>
                 </div>
                 <div class="swiper-slide">
-                  <div class="img-box">
-                    <img src="./RJ-img/pro-img2.jpg">
-                  </div>
-                  <p class="slide-desc">高密星APP</p>
-                  <a class="slide-link" href="" target="_blank">查看详情</a>
+                  <a href="" target="_blank">
+                    <div class="img-box">
+                      <img src="./RJ-img/pro-img2.jpg">
+                    </div>
+                    <p class="slide-desc">高密星APP</p>
+                  </a>
                 </div>
                 <!-- <div class="swiper-slide">
-                  <div class="img-box">
-                    <img src="./RJ-img/pro-img2.jpg">
-                  </div>
-                  <p class="slide-desc">高密星APP</p>
-                  <a class="slide-link" href="" target="_blank">查看详情</a>
+                  <a href="" target="_blank">
+                    <div class="img-box">
+                      <img src="./RJ-img/pro-img2.jpg">
+                    </div>
+                    <p class="slide-desc">高密星APP</p>
+                  </a>
                 </div>
                 <div class="swiper-slide">
-                  <div class="img-box">
-                    <img src="./RJ-img/pro-img3.jpg">
-                  </div>
-                  <p class="slide-desc">高密星APP</p>
-                  <a class="slide-link" href="" target="_blank">查看详情</a>
+                  <a href="" target="_blank">
+                    <div class="img-box">
+                      <img src="./RJ-img/pro-img3.jpg">
+                    </div>
+                    <p class="slide-desc">高密星APP</p>
+                  </a>
                 </div>
                 <div class="swiper-slide">
-                  <div class="img-box">
-                    <img src="./RJ-img/pro-img4.jpg">
-                  </div>
-                  <p class="slide-desc">高密星APP</p>
-                  <a class="slide-link" href="" target="_blank">查看详情</a>
+                  <a href="" target="_blank">
+                    <div class="img-box">
+                      <img src="./RJ-img/pro-img4.jpg">
+                    </div>
+                    <p class="slide-desc">高密星APP</p>
+                  </a>
                 </div>
                 <div class="swiper-slide">
-                  <div class="img-box">
-                    <img src="./RJ-img/pro-img1.jpg">
-                  </div>
-                  <p class="slide-desc">高密星APP</p>
-                  <a class="slide-link" href="" target="_blank">查看详情</a>
+                  <a href="" target="_blank">
+                    <div class="img-box">
+                      <img src="./RJ-img/pro-img1.jpg">
+                    </div>
+                    <p class="slide-desc">高密星APP</p>
+                  </a>
                 </div> -->
               </div>
             </div>
@@ -1841,27 +1847,38 @@ function OpenModal(){
             });
 
             // TODO swiper 代码 start
-            var width = document.body.clientWidth
-            var swiper = new Swiper('.grade-product__swiper', {
-              slidesPerView: 5,
-              spaceBetween: 10
-            })
-
-            $('.grade-product .arrow.left').click(function() {
-              swiper.slidePrev()
-            })
-
-            $('.grade-product .arrow.right').click(function() {
-              swiper.slideNext()
-            })
-            if (width > 768 &&  $('.grade-product .swiper-slide').length <= 4) {
-              $('.grade-product').addClass('grade-product__flex')
-            } else {
-              var swiper = new Swiper('.grade-product__swiper', {
-                slidesPerView: width > 768 ? 5 : 1,
-                spaceBetween: 10
+            function initSwiper() {
+              var width = document.body.clientWidth
+              var slideLen = $('.grade-product .swiper-slide').length
+              var swiper
+              if (slideLen <= 2) {
+                swiper = new Swiper('.grade-product__swiper', {
+                  slidesPerView: 3,
+                  spaceBetween: 200
+                })
+              } else {
+                swiper = new Swiper('.grade-product__swiper', {
+                  slidesPerView: 5,
+                  spaceBetween: 10
+                })
+              }
+              $('.grade-product .arrow.left').click(function() {
+                swiper.slidePrev()
               })
+  
+              $('.grade-product .arrow.right').click(function() {
+                swiper.slideNext()
+              })
+              if (width > 768 &&  $('.grade-product .swiper-slide').length <= 4) {
+                $('.grade-product').addClass('grade-product__flex')
+              } else {
+                var swiper = new Swiper('.grade-product__swiper', {
+                  slidesPerView: width > 768 ? 5 : 1,
+                  spaceBetween: 10
+                })
+              }
             }
+            initSwiper()
             // TODO swiper 代码 end
         })
 

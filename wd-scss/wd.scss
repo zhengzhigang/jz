@@ -24,6 +24,10 @@
   .swiper-slide {
     background-color: #fff;
 
+    &:last-child {
+      margin-right: 0!important;
+    }
+
     .img-box {
       max-height: 200px;
       display: block;
