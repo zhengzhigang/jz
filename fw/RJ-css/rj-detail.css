@@ -59,6 +59,17 @@ iframe {
   display: none;
 }
 
+.Article-text__gray-block {
+  padding: 0 25px;
+  font-size: 12pt;
+  line-height: 1;
+  height: 78px;
+  line-height: 78px;
+  color: #333;
+  background-color: #f7f7f7;
+  margin-bottom: 20px!important;
+}
+
 @media screen and (max-width: 768px) {
   .qr_nr {
     width: 60%;
